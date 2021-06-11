@@ -215,9 +215,11 @@
                         <div class="spacer-15"></div>
                         <p class="lead">(A web app work in progress)</b></a></p>
                         <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a></p>
+                        <p class="text-center">Click a state for its reps' key votes</p>
+                        <div class="customMapWidget"></div>
                     </div>
                 </div>
-                <area></area>
+                
                 
                 <div class="spacer-60"></div>
                 <div class="row">
@@ -248,17 +250,16 @@
                     <div class="col-md-6 col-sm-6 mb-45">
                         
                         <!-- d3 US Map graphic -->
-                        <div class="customMapWidget"></div>
                         <script>
                             // const data = [8, 18, 7, 10, 19, 20, 10, 10, 6, 19, 17, 18, 23, 23, 13, 12, 15, 6, 9, 8];
                             // drawChart('.customUSMapContainer',data)
 
-                            var width = 480,
+                            var width = 310,
                                 height = 250,
                                 active = d3.select(null);
 
                             var projection = d3.geo.albersUsa()
-                                .scale(500)
+                                .scale(420)
                                 .translate([width / 2, height / 2]);
 
                             var path = d3.geo.path()
