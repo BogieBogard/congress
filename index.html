@@ -253,12 +253,12 @@
                             // const data = [8, 18, 7, 10, 19, 20, 10, 10, 6, 19, 17, 18, 23, 23, 13, 12, 15, 6, 9, 8];
                             // drawChart('.customUSMapContainer',data)
 
-                            var width = 960,
-                                height = 500,
+                            var width = 480,
+                                height = 250,
                                 active = d3.select(null);
 
                             var projection = d3.geo.albersUsa()
-                                .scale(1000)
+                                .scale(500)
                                 .translate([width / 2, height / 2]);
 
                             var path = d3.geo.path()
