@@ -24,12 +24,12 @@
     <link href="codepen/info-circle-rotator.css" rel="stylesheet" type="text/css" />
     <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <script src="d3/d3v3min.js"></script>
-    <script src="d3/topo.js"></script>
+    <!-- <script src="d3/d3v3min.js"></script>
+    <script src="d3/topo.js"></script> -->
     <!-- <script src="https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/d3v3min.js"></script>
     <script src="https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/topo.js"></script> -->
-    <!-- <script src="//d3js.org/d3.v3.min.js"></script>
-    <script src="//d3js.org/topojson.v1.min.js"></script> -->
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
 
     <!-- <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="d3/simple-example.js"></script> -->
@@ -49,7 +49,7 @@
     }
     
     .feature.active {
-      fill: blue;
+      fill: darkred;
     }
     
     .mesh {
@@ -277,8 +277,8 @@
                             var g = svg.append("g")
                                 .style("stroke-width", "1.5px");
 
-                            // d3.json("d3/us.json", function(error, us) {
-                            d3.json("https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json", function(error, us) {
+                            d3.json("d3/us.json", function(error, us) {
+                            // d3.json("https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json", function(error, us) {
                                 if (error) throw error;
 
                             g.selectAll("path")
