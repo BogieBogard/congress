@@ -49,9 +49,9 @@
     }
     
     .feature.active {
-      fill: darkred;
+      fill: lightblue;
     }
-    
+
     .mesh {
       fill: none;
       stroke: #fff;
@@ -210,7 +210,7 @@
             <div class="container">
                 <div class="row text-center">
 
-                    <div class="col-md-8 offset-md-2">
+                    <div class="col-lg-12">
                         <h3 class="h4">This Week in U.S. Congress</h3>
                         <div class="spacer-15"></div>
                         <p class="lead">(A web app work in progress)</b></a></p>
@@ -249,17 +249,26 @@
                     </div>
                     <div class="col-md-6 col-sm-6 mb-45">
                         
-                        <!-- d3 US Map graphic -->
                         <script>
-                            // const data = [8, 18, 7, 10, 19, 20, 10, 10, 6, 19, 17, 18, 23, 23, 13, 12, 15, 6, 9, 8];
-                            // drawChart('.customUSMapContainer',data)
-
+                            if (window.innerWidth < 600) {
                             var width = 310,
                                 height = 250,
                                 active = d3.select(null);
+                            var givenScale = 420;
+                            } else if (window.innerWidth < 850){
+                            var width = 550,
+                                height = 390,
+                                active = d3.select(null);
+                            var givenScale = 690;
+                            } else {
+                            var width = 800,
+                                height = 500,
+                                active = d3.select(null);
+                            var givenScale = 1000;
+                            }
 
                             var projection = d3.geo.albersUsa()
-                                .scale(420)
+                                .scale(givenScale)
                                 .translate([width / 2, height / 2]);
 
                             var path = d3.geo.path()
