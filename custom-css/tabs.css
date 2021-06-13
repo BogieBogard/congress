@@ -43,6 +43,7 @@ input {
   width: 100%;
   color: white;
   overflow: hidden;
+  text-align: left;
 }
 .tab-label {
   display: flex;
