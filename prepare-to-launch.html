@@ -22,6 +22,7 @@
     <link href="mazel-multipurpose-html-template-v3.1/Mazel-html-template/01_mazel_multiprapose/css/plugin/animate.css" rel="stylesheet" type="text/css" />
     <link href="mazel-multipurpose-html-template-v3.1/Mazel-html-template/01_mazel_multiprapose/css/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="codepen/info-circle-rotator.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/tabs.css" rel="stylesheet" type="text/css" />
     <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <script src="d3/d3v3min.js"></script>
@@ -217,7 +218,41 @@
                         <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a></p>
                         <p class="text-center">Click a state for its reps' key votes</p>
                         <div class="customMapWidget"></div>
+
+                        <div class="row">
+                            <div class="col">
+                              <h2>statements and <b>actions</b></h2>
+                              <div class="tabs">
+                                <div class="tab">
+                                  <input type="checkbox" id="chck1">
+                                  <label class="left tab-label" for="chck1">Select a state to see rep data</label>
+                                  <div class="tab-content left">
+                                    <div class="row left">
+                                        <div class="col-md-6 col-sm-6 mb-45 left">
+                                            <h4 class="left repTwitter">Recent Twitter Feed</h4>
+                                            <p class="left repTwitter">Shows latest authored tweets of the rep. Example:</p>
+                                            <p class="left repTwitter">John Cornyn: "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018"</p>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-45">
+                                            <h4 class="left repTwitter">Recent Legislative Actions</h4>
+                                            <p class="left repTwitter"><b>(Sourced from Senate.gov)</b></p>
+                                            <p class="left repTwitter">Shows recent rep actions. Example: Sen. John Cornyn voted in favor of the United States Innovation and Competition Act of 2021 on 6/8/21. The bill (S.1260) passed the Senate.</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tab">
+                                  <input type="checkbox" id="chck2">
+                                  <label class="tab-label" for="chck2">Item 2</label>
+                                  <div class="tab-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 
                 
