@@ -34,6 +34,18 @@
 
     <!-- <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="d3/simple-example.js"></script> -->
+
+    <!-- jquery 3.6.0 min -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div1").fadeIn();
+            $("#div2").fadeIn("slow");
+            $("#div3").fadeIn(3000);
+          });
+        });
+    </script>
 </head>
 
 
@@ -222,7 +234,7 @@
                         <div class="row">
                             <div class="col">
                               <h2>statements and <b>actions</b></h2>
-                              <div class="tabs">
+                              <div id="stateSelectOutput" class="tabs">
                                 <div class="tab">
                                   <input type="checkbox" id="chck1">
                                   <label class="tab-label" for="chck1">Select a state to see rep data here</label>
@@ -346,7 +358,10 @@
                 .duration(750)
                 .style("stroke-width", 1.5 / scale + "px")
                 .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+            
+            $("#stateSelectOutput").fadeToggle();
             }
+
 
             function reset() {
             active.classed("active", false);
