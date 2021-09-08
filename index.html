@@ -22,6 +22,7 @@
     <link href="mazel-multipurpose-html-template-v3.1/Mazel-html-template/01_mazel_multiprapose/css/plugin/animate.css" rel="stylesheet" type="text/css" />
     <link href="mazel-multipurpose-html-template-v3.1/Mazel-html-template/01_mazel_multiprapose/css/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="codepen/info-circle-rotator.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/tabs.css" rel="stylesheet" type="text/css" />
     <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <script src="d3/d3v3min.js"></script>
@@ -33,6 +34,18 @@
 
     <!-- <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="d3/simple-example.js"></script> -->
+
+    <!-- jquery 3.6.0 min -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div1").fadeIn();
+            $("#div2").fadeIn("slow");
+            $("#div3").fadeIn(3000);
+          });
+        });
+    </script>
 </head>
 
 
@@ -215,14 +228,158 @@
                         <div class="spacer-15"></div>
                         <p class="lead">(A web app work in progress)</b></a></p>
                         <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a></p>
-                        <p class="text-center">Click a state for its reps' key votes</p>
+                        <p class="text-center">Click a state for associated data below</p>
                         <div class="customMapWidget"></div>
+
+                        <div class="row">
+                            <div class="col">
+                              <h2>statements and <b>actions</b></h2>
+                              <div id="stateSelectOutput" class="tabs">
+                                <div class="tab">
+                                  <input type="checkbox" id="chck1">
+                                  <label class="tab-label" for="chck1">Select a state to see rep data here</label>
+                                  <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 mb-45">
+                                            <h4>Recent Twitter Feed</h4>
+                                            <p>Shows latest authored tweets of the rep.</p>
+                                            <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-45">
+                                            <h4>Recent Legislative Actions</h4>
+                                            <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
+                                            <p>Shows recent rep actions.</p>
+                                            <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tab">
+                                  <input type="checkbox" id="chck2">
+                                  <label class="tab-label" for="chck2">View any senator's words and acts</label>
+                                  <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 mb-45">
+                                            <h4>Recent Twitter Feed</h4>
+                                            <p>Shows latest authored tweets of the rep.</p>
+                                            <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-45">
+                                            <h4>Recent Legislative Actions</h4>
+                                            <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
+                                            <p>Shows recent rep actions.</p>
+                                            <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 
                 
                 <div class="spacer-60"></div>
+                
+            </div>
+        </section>
+
+        <script>
+            if (window.innerWidth < 600) {
+            var width = 310,
+                height = 250,
+                active = d3.select(null);
+            var givenScale = 420;
+            } else if (window.innerWidth < 850){
+            var width = 550,
+                height = 390,
+                active = d3.select(null);
+            var givenScale = 690;
+            } else {
+            var width = 800,
+                height = 500,
+                active = d3.select(null);
+            var givenScale = 1000;
+            }
+
+            var projection = d3.geo.albersUsa()
+                .scale(givenScale)
+                .translate([width / 2, height / 2]);
+
+            var path = d3.geo.path()
+                .projection(projection);
+
+            var svg = d3.select("div.customMapWidget").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            svg.append("rect")
+                .attr("class", "USBackground")
+                .attr("width", width)
+                .attr("height", height)
+                .on("click", reset);
+
+            var g = svg.append("g")
+                .style("stroke-width", "1.5px");
+
+            // d3.json("d3/us.json", function(error, us) {
+            d3.json("https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json", function(error, us) {
+                if (error) throw error;
+
+            g.selectAll("path")
+                .data(topojson.feature(us, us.objects.states).features)
+                .enter().append("path")
+                .attr("d", path)
+                .attr("class", "feature")
+                .on("click", clicked);
+
+            g.append("path")
+                .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+                .attr("class", "mesh")
+                .attr("d", path);
+            });
+
+            function clicked(d) {
+            if (active.node() === this) return reset();
+            active.classed("active", false);
+            active = d3.select(this).classed("active", true);
+
+            var bounds = path.bounds(d),
+                dx = bounds[1][0] - bounds[0][0],
+                dy = bounds[1][1] - bounds[0][1],
+                x = (bounds[0][0] + bounds[1][0]) / 2,
+                y = (bounds[0][1] + bounds[1][1]) / 2,
+                scale = .9 / Math.max(dx / width, dy / height),
+                translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+            g.transition()
+                .duration(750)
+                .style("stroke-width", 1.5 / scale + "px")
+                .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+            
+            $("#stateSelectOutput").fadeToggle();
+            }
+
+
+            function reset() {
+            active.classed("active", false);
+            active = d3.select(null);
+
+            g.transition()
+                .duration(750)
+                .style("stroke-width", "1.5px")
+                .attr("transform", "");
+            }
+        </script>
+
+        <section>
+            <h2 class="text-center">legislative <b class="text-center">highlights</b></h2>
+
+            <div class="container">
                 <div class="row">
+
                     <div class="tabs col-md-6 col-sm-6 mb-45">
                         <h5>Humane Cosmetics Act of 2019</h5>
                         <ul>
@@ -248,92 +405,6 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 mb-45">
-                        
-                        <script>
-                            if (window.innerWidth < 600) {
-                            var width = 310,
-                                height = 250,
-                                active = d3.select(null);
-                            var givenScale = 420;
-                            } else if (window.innerWidth < 850){
-                            var width = 550,
-                                height = 390,
-                                active = d3.select(null);
-                            var givenScale = 690;
-                            } else {
-                            var width = 800,
-                                height = 500,
-                                active = d3.select(null);
-                            var givenScale = 1000;
-                            }
-
-                            var projection = d3.geo.albersUsa()
-                                .scale(givenScale)
-                                .translate([width / 2, height / 2]);
-
-                            var path = d3.geo.path()
-                                .projection(projection);
-
-                            var svg = d3.select("div.customMapWidget").append("svg")
-                                .attr("width", width)
-                                .attr("height", height);
-
-                            svg.append("rect")
-                                .attr("class", "USBackground")
-                                .attr("width", width)
-                                .attr("height", height)
-                                .on("click", reset);
-
-                            var g = svg.append("g")
-                                .style("stroke-width", "1.5px");
-
-                            // d3.json("d3/us.json", function(error, us) {
-                            d3.json("https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json", function(error, us) {
-                                if (error) throw error;
-
-                            g.selectAll("path")
-                                .data(topojson.feature(us, us.objects.states).features)
-                                .enter().append("path")
-                                .attr("d", path)
-                                .attr("class", "feature")
-                                .on("click", clicked);
-
-                            g.append("path")
-                                .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-                                .attr("class", "mesh")
-                                .attr("d", path);
-                            });
-
-                            function clicked(d) {
-                            if (active.node() === this) return reset();
-                            active.classed("active", false);
-                            active = d3.select(this).classed("active", true);
-
-                            var bounds = path.bounds(d),
-                                dx = bounds[1][0] - bounds[0][0],
-                                dy = bounds[1][1] - bounds[0][1],
-                                x = (bounds[0][0] + bounds[1][0]) / 2,
-                                y = (bounds[0][1] + bounds[1][1]) / 2,
-                                scale = .9 / Math.max(dx / width, dy / height),
-                                translate = [width / 2 - scale * x, height / 2 - scale * y];
-
-                            g.transition()
-                                .duration(750)
-                                .style("stroke-width", 1.5 / scale + "px")
-                                .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
-                            }
-
-                            function reset() {
-                            active.classed("active", false);
-                            active = d3.select(null);
-
-                            g.transition()
-                                .duration(750)
-                                .style("stroke-width", "1.5px")
-                                .attr("transform", "");
-                            }
-                        </script>
-
                         <img src="images/congress_seating.png" alt="Girl in a jacket" width="500" height="600">
                         <p></p>
                         <p class="text-center">Click on a senator to see their key votes.</p>
@@ -366,16 +437,16 @@
                 <!-- Social -->
                 <ul class="social">
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> -->
                     </li>
                     <li>
-                        <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <!-- <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> -->
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <!-- <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a> -->
                     </li>
                     <li>
-                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <!-- <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> -->
                     </li>
                 </ul>
                 <!-- End Social -->
