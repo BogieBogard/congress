@@ -234,15 +234,18 @@
                         <div class="row">
                             <div class="col">
                               <h2>statements and <b>actions</b></h2>
-                              <div id="stateSelectOutput" class="tabs">
+
+                                <h2 id="switch-test" style="display: none;">testing switch custom data</h2>
+
+                              <div id="initialSelectOutput" class="tabs" style="display: none;">
                                 <div class="tab">
                                   <input type="checkbox" id="chck1">
-                                  <label class="tab-label" for="chck1">Select a state to see rep data here</label>
+                                  <label class="tab-label" for="chck1">Initial - Select a state to see rep data here</label>
                                   <div class="tab-content">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 mb-45">
                                             <h4>Recent Twitter Feed</h4>
-                                            <p>Shows latest authored tweets of the rep.</p>
+                                            <p style="display: none;" id="example-output">Shows latest authored tweets of the rep.</p>
                                             <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
                                         </div>
                                         <div class="col-md-6 col-sm-6 mb-45">
@@ -273,7 +276,51 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                                </div>
+
+
+                                <div id="customSelectOutput" class="tabs">
+                                    <div class="tab">
+                                        <input type="checkbox" id="chck1">
+                                        <label class="tab-label" for="chck1">Custom - Select a state to see rep data here</label>
+                                        <div class="tab-content">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 mb-45">
+                                                <h4>Recent Twitter Feed</h4>
+                                                <p>Shows latest authored tweets of the rep.</p>
+                                                <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 mb-45">
+                                                <h4>Recent Legislative Actions</h4>
+                                                <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
+                                                <p>Shows recent rep actions.</p>
+                                                <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab">
+                                        <input type="checkbox" id="chck2">
+                                        <label class="tab-label" for="chck2">View any senator's words and acts</label>
+                                        <div class="tab-content">
+                                          <div class="row">
+                                              <div class="col-md-6 col-sm-6 mb-45">
+                                                  <h4>Recent Twitter Feed</h4>
+                                                  <p>Shows latest authored tweets of the rep.</p>
+                                                  <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
+                                              </div>
+                                              <div class="col-md-6 col-sm-6 mb-45">
+                                                  <h4>Recent Legislative Actions</h4>
+                                                  <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
+                                                  <p>Shows recent rep actions.</p>
+                                                  <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -342,24 +389,46 @@
             });
 
             function clicked(d) {
-            if (active.node() === this) return reset();
-            active.classed("active", false);
-            active = d3.select(this).classed("active", true);
+                function modifyShownElement() {
+                    const initialOutput = document.getElementById("initialSelectOutput");
+                    const switchTest = document.getElementById("switch-test");                    
+                    console.log("modify shown element ", initialOutput, d);
 
-            var bounds = path.bounds(d),
-                dx = bounds[1][0] - bounds[0][0],
-                dy = bounds[1][1] - bounds[0][1],
-                x = (bounds[0][0] + bounds[1][0]) / 2,
-                y = (bounds[0][1] + bounds[1][1]) / 2,
-                scale = .9 / Math.max(dx / width, dy / height),
-                translate = [width / 2 - scale * x, height / 2 - scale * y];
+                    // Set up to start doing inital data on first click, custom on second
+                    if (switchTest === null) {
+                        $("#customSelectOutput").fadeToggle("slow", "linear");
+                    } else if (d.id == 48) {
+                        $("#customSelectOutput").fadeToggle("slow", "linear");
+                        console.log(" the switch test", switchTest, statesData);
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.firstExample;
+                        console.log(" after alter", switchTest);
+                        $("#switch-test").fadeIn();
+                        $("#initialSelectOuput").fadeIn();
+                    } else if (d.id == 6) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.secondEx;
+                        $("#switch-test").fadeIn();
+                    } else {
+                        $("#customSelectOutput").fadeToggle("slow", "linear");
+                    }
+                }
+                modifyShownElement();
 
-            g.transition()
-                .duration(750)
-                .style("stroke-width", 1.5 / scale + "px")
-                .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
-            
-            $("#stateSelectOutput").fadeToggle();
+                if (active.node() === this) return reset();
+                active.classed("active", false);
+                active = d3.select(this).classed("active", true);
+
+                var bounds = path.bounds(d),
+                    dx = bounds[1][0] - bounds[0][0],
+                    dy = bounds[1][1] - bounds[0][1],
+                    x = (bounds[0][0] + bounds[1][0]) / 2,
+                    y = (bounds[0][1] + bounds[1][1]) / 2,
+                    scale = .9 / Math.max(dx / width, dy / height),
+                    translate = [width / 2 - scale * x, height / 2 - scale * y];
+
+                g.transition()
+                    .duration(750)
+                    .style("stroke-width", 1.5 / scale + "px")
+                    .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
             }
 
 
@@ -458,6 +527,7 @@
     </div>
 </div>
     <!-- Site Wraper End -->
+    <script src="statesData.js"></script>
     <!-- info-circle-rotator -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
