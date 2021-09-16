@@ -23,6 +23,7 @@
     <link href="mazel-multipurpose-html-template-v3.1/Mazel-html-template/01_mazel_multiprapose/css/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="codepen/info-circle-rotator.css" rel="stylesheet" type="text/css" />
     <link href="custom-css/tabs.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/mb-custom.css" rel="stylesheet" type="text/css" />
     <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <script src="d3/d3v3min.js"></script>
@@ -233,11 +234,13 @@
 
                         <div class="row">
                             <div class="col">
-                              <h2>statements and <b>actions</b></h2>
+                              <h2 id="statements-and-actions">statements and <b>actions</b></h2>
 
-                                <h2 id="switch-test" style="display: none;">testing switch custom data</h2>
+                                <!-- <h2 id="switch-test" style="display: none;">testing switch custom data</h2> -->
+                                
+                            <h2 id="switch-test">Click any state</h2>
 
-                              <div id="initialSelectOutput" class="tabs" style="display: none;">
+                              <!-- <div id="initialSelectOutput" class="tabs" style="display: none;">
                                 <div class="tab">
                                   <input type="checkbox" id="chck1">
                                   <label class="tab-label" for="chck1">Initial - Select a state to see rep data here</label>
@@ -276,10 +279,10 @@
                                     </div>
                                   </div>
                                 </div>
-                                </div>
+                              </div> -->
 
 
-                                <div id="customSelectOutput" class="tabs">
+                                <div id="customSelectOutput" style="display: none" class="tabs">
                                     <div class="tab">
                                         <input type="checkbox" id="chck1">
                                         <label class="tab-label" for="chck1">Custom - Select a state to see rep data here</label>
@@ -318,7 +321,7 @@
                                           </div>
                                         </div>
                                       </div>
-                                      
+
 
                                 </div>
                             </div>
@@ -390,9 +393,9 @@
 
             function clicked(d) {
                 function modifyShownElement() {
-                    const initialOutput = document.getElementById("initialSelectOutput");
+                    // const initialOutput = document.getElementById("initialSelectOutput");
                     const switchTest = document.getElementById("switch-test");                    
-                    console.log("modify shown element ", initialOutput, d);
+                    console.log("modify shown element ", d);
 
                     // Set up to start doing inital data on first click, custom on second
                     if (switchTest === null) {
@@ -400,12 +403,150 @@
                     } else if (d.id == 48) {
                         $("#customSelectOutput").fadeToggle("slow", "linear");
                         console.log(" the switch test", switchTest, statesData);
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.firstExample;
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.texas;
                         console.log(" after alter", switchTest);
                         $("#switch-test").fadeIn();
-                        $("#initialSelectOuput").fadeIn();
+                        // $("#initialSelectOuput").fadeIn();
                     } else if (d.id == 6) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.secondEx;
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.california;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 36) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newyork;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 50) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.vermont;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 33) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newhampshire;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 23) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.maine;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 25) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.massachusetts;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 44) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.rhodeisland;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 9) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.connecticut;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 34) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newjersey;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 42) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.pennsylvania;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 39) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.ohio;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 51) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.westvirginia;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.virginia;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.delaware;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.maryland;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.northcarolina;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.southcarolina;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.kentucky;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.tennessee;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.georgia;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.florida;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.alabama;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.mississippi;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.illinois;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.indiana;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.michigan;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.wisconsin;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.minnesota;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.iowa;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.northdakota;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 54) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.southdakota;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 31) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.nebraska;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 20) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.kansas;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 40) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.oklahoma;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 35) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newmexico;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 8) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.colorado;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 56) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.wyoming;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 30) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.montana;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 16) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.idaho;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 49) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.utah;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 4) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.arizona;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 32) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.nevada;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 41) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.oregan;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 53) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.washington;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 2) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.alaska;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 15) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.hawaii;
+                        $("#switch-test").fadeIn();
+                    } else if (d.id == 11) {
+                        switchTest.firstChild.nodeValue = "Selected: " + statesData.washingtondc;
                         $("#switch-test").fadeIn();
                     } else {
                         $("#customSelectOutput").fadeToggle("slow", "linear");
