@@ -145,6 +145,76 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
+        <section id="intro">
+            <!-- Hero Slider Section -->
+            <div class="flexslider fullscreen-carousel hero-slider-1 ">
+                <ul class="slides">
+
+                    <!--Slide-->
+                    <li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/aoc_new_yorker.jpeg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h2 class="h2">political animals</h2>
+                                        <p class="lead">View this week's most consequential events in the House and Senate</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--Slide-->
+                    <li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/romney_1.jpeg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h2 class="h2">official legislative record</h2>
+                                        <p class="lead">All presented data is sourced from Congress.gov. </p>
+                                        <br />
+                                        <div><a class="btn btn-md btn-white-line xs-hidden">Learn More</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-white">Learn More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--Slide-->
+                    <li data-slide="light-slide">
+                        <div class="slide-bg-image overlay-light parallax parallax-section1" data-background-img="images/cory_booker_new_yorker.jpeg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h2 class="h2">votes & context</h2>
+                                        <p class="lead"></p>
+                                        <br />
+                                        <div><a class="btn btn-md btn-black-line">see your rep</a><span class="btn-space-10 xs-hidden"></span><a class="btn btn-md btn-black xs-hidden">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--Slide-->
+                    <li data-slide="dark-slide">
+                        <div class="slide-bg-image overlay-dark dark-bg parallax parallax-section1" data-background-img="images/mitch_mcconnell.jpeg">
+                            <div class="js-Slide-fullscreen-height container">
+                                <div class="intro-content">
+                                    <div class="intro-content-inner">
+                                        <h2 class="h2">Tracking Party Leadership</h2>
+                                        <p class="lead">An automated, non-partisan tool providing visibility and accountability</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- End Hero Slider Section -->
+        </section>
+        <div class="clearfix"></div>
         <!-- End Intro Section -->
 
         <!-- codepen/info-circle-rotator would go here -->
@@ -155,14 +225,16 @@
                 <div class="row text-center">
 
                     <div class="col-lg-12">
-                        <!-- <h3 class="h4">This Week in U.S. Congress</h3> -->
-                        <!-- <div class="spacer-15"></div> -->
-                        <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a> on October 2nd, 2021</p>
-                        <p class="text-center">Click a state for its reps' votes and statements below</p>
+                        <h3 class="h4">This Week in U.S. Congress</h3>
+                        <div class="spacer-15"></div>
+                        <p class="lead">(A web app work in progress)</b></a></p>
+                        <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a></p>
+                        <p class="text-center">Click a state for associated data below</p>
                         <div class="customMapWidget"></div>
 
                         <div class="row">
                             <div class="col">
+                              <h2 id="statements-and-actions">statements and <b>actions</b></h2>
 
                                 <!-- <h2 id="switch-test" style="display: none;">testing switch custom data</h2> -->
                                 
@@ -520,6 +592,45 @@
                 .attr("transform", "");
             }
         </script>
+
+        <section>
+            <h2 class="text-center">legislative <b class="text-center">highlights</b></h2>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="tabs col-md-6 col-sm-6 mb-45">
+                        <h5>Humane Cosmetics Act of 2019</h5>
+                        <ul>
+                            <li><a href="#tabs-1"><i class="ion ion-ios-paper-outline left"></i>Legalese</a></li>
+                            <li><a href="#tabs-2"><i class="ion ion-ios-analytics-outline left"></i>Top Headlines</a></li>
+                        </ul>
+                        <div class="ui-tab-content">
+                            <div id="tabs-1">
+                                <p>A bill to prohibt the use of animal testing for cosmetics and the sale of cosmetics tested on animals.</p>
+                            </div>
+                            <div id="tabs-2">
+                                <p>Hawaii Becomes the Sixth US State to Ban Cosmetic Animal Testing</p>
+                                <a>https://thebeet.com/hawaii-becomes-the-sixth-us-state-to-ban-cosmetic-animal-testing/</a>
+                                <p></p>
+                                <p>Breaking news: Virginia governor signs bill ending new cosmetics animal testing</p>
+                                <a>https://blog.humanesociety.org/2021/03/breaking-news-virginia-governor-signs-bill-ending-new-cosmetics-animal-testing.html</a>
+                                <p></p>
+                                <p>The Fight For Cruelty-Free Cosmetics: Maryland Will Be 5th State To Ban Testing Makeup On Animals</p>
+                                <a>https://baltimore.cbslocal.com/2021/05/07/the-fight-for-cruelty-free-cosmetics-in-maryland/</a>
+                                <p></p>
+                                <p>Top Headlines sourced by the top results of the bill from Google News</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 mb-45">
+                        <img src="images/congress_seating.png" alt="Girl in a jacket" width="500" height="600">
+                        <p></p>
+                        <p class="text-center">Click on a senator to see their key votes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
                                 
 
         <!-- FOOTER -->
