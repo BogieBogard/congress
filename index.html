@@ -19,626 +19,246 @@
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/style.css" rel="stylesheet" type="text/css" />
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/ionicons.css" rel="stylesheet" type="text/css" />
-    <link href="tracking-congress-resources/html-template/01_multipurpose/css/plugin/animate.css" rel="stylesheet" type="text/css" />
-    <link href="tracking-congress-resources/html-template/01_multipurpose/css/jquery-ui.css" rel="stylesheet" type="text/css" />
-    <link href="custom-css/tabs.css" rel="stylesheet" type="text/css" />
-    <link href="custom-css/mb-custom.css" rel="stylesheet" type="text/css" />
-    <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-    <script src="d3/d3v3min.js"></script>
-    <script src="d3/topo.js"></script>
-    <!-- <script src="https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/d3v3min.js"></script>
-    <script src="https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/topo.js"></script> -->
-    <!-- <script src="//d3js.org/d3.v3.min.js"></script>
-    <script src="//d3js.org/topojson.v1.min.js"></script> -->
+    <style type="text/css">
+        /* NOTE : This is Css To Only CommingSoon Page */
+        body {
+            color: white;
+            background: #484744;
+        }
 
-    <!-- <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="d3/simple-example.js"></script> -->
 
-    <!-- jquery 3.6.0 min -->
-    <script src="jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function(){
-          $("button").click(function(){
-            $("#div1").fadeIn();
-            $("#div2").fadeIn("slow");
-            $("#div3").fadeIn(3000);
-          });
-        });
-    </script>
+        .logo span {
+            display: inline-block;
+        }
+
+        /* counter clock css */
+        ul.countdown {
+            list-style: none;
+            padding: 0;
+            display: block;
+            text-align: center;
+            font-family: 'arial', sans-serif !important;
+        }
+
+            ul.countdown li {
+                display: inline-block;
+            }
+
+                ul.countdown li span {
+                    font-size: 80px;
+                    font-weight: 300;
+                    line-height: 80px;
+                }
+
+                ul.countdown li.seperator {
+                    font-size: 80px;
+                    line-height: 70px;
+                    vertical-align: top;
+                }
+
+                ul.countdown li p {
+                    color: #a7abb1;
+                    font-size: 14px;
+                }
+        /* emd counter clock css */
+
+
+
+        @media (max-width: 767px) {
+
+            .text-center-xs {
+                text-align: center;
+            }
+        }
+    </style>
 </head>
-
-
-<style>
-
-    .USBackground {
-      fill: none;
-      pointer-events: all;
-    }
-    
-    .feature {
-      fill: #ccc;
-      cursor: pointer;
-    }
-    
-    .feature.active {
-      fill: lightblue;
-    }
-
-    .mesh {
-      fill: none;
-      stroke: #fff;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-    
-</style>
-
 <body>
-
-    <!-- Preloader -->
-    <section id="preloader">
-        <div class="loader" id="loader">
-            <div class="loader-img"></div>
-        </div>
-    </section>
-    <!-- End Preloader -->
-
-    <!-- Sidebar Menu -->
-    <div class="sidebar-menu">
-        <div class="sidembar-menu-wrap">
-            <a href="javascript:void(0)" class="sidebar-close-icon icon--close">
-                <i class="ion ion-android-close"></i>
-            </a>
-            <!--Sidebar Content-->
-            <div class="sidebar-content">
-                <h5 class="white">Sign In</h5>
-                <form role="search" id="searchform" action="/search" method="get" class="sign-in">
-                    <input class="input-sm form-full" type="email" aria-required="true" id="email" name="email" placeholder="Email" value="" />
-                    <input class="input-sm form-full" type="password" aria-required="true" id="password" name="password" placeholder="Password" value="" />
-                    <input type="submit" class="btn btn-md btn-color-b form-full" value="Sign In" />
-                    <a>New Customer?</a>
-                </form>
-                <ul>
-                    <li><a class="all-demos-link" target="_blank" href="tracking-congress-resources/html-template/demo.html">Main Demo Page</a></li>
-                    <li><a href="home.html">Home Default</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/portfolio-grid-2col.html">Portfolio</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/login-register.html">Login & Signup</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/faq-1.html">FAQ</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/about-1.html">About</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/service-1.html">Service</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/blog-grid-3col.html">Blog</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/404-error-1.html">404 Error</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/shop-checkout.html">Shopping Cart</a></li>
-                    <li><a href="tracking-congress-resources/html-template/01_multipurpose/contact-1.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End Sidebar Menu -->
-
-    <!-- Site Wraper -->
     <div class="wrapper">
-
+        <!-- Header -->
         <!-- Header ("header--dark", "header-transparent", "header--sticky")-->
         <header id="header" class="header header-transparent header--sticky">
             <!-- Nav Bar -->
-         <nav id="navigation" class="header-nav">
+            <!-- <nav id="navigation" class="header-nav">
                 <div class="container">
                     <div class="row d-flex flex-md-row align-items-center">
-                        <div class="logo mr-auto">
+                        <div class="logo mr-auto"> -->
                             <!--logo-->
-                            <!-- <a href="tracking-congress-resources/html-template/01_multipurpose/index.html">
-                                <img class="logo-dark" src="tracking-congress-resources/html-template/01_multipurpose/img/logo-black.png" alt="Mazel" />
-                                <img class="logo-light" src="tracking-congress-resources/html-template/01_multipurpose/img/logo-white.png" alt="Mazel" />
+                            <!-- <a href="index.html">
+                                <img class="logo-dark" src="img/logo-black.png"/>
+                                <img class="logo-light" src="img/logo-white.png"/>
                             </a> -->
                             <!--End logo-->
+                        <!-- </div> -->
+
+                        <!-- <div class="nav-menu ml-auto">
+                            <ul class="">
+                                <li class="nav-menu-item">
+                                    <a class="external" href="mailto:support@yourdomain.com"><i class="fa fa-envelope"></i>&nbsp;support@yourdomain.com</a>
+                                </li>
+                                <li class="nav-menu-item">
+                                    <a class="external"><i class="fa fa-phone-square"></i>&nbsp;+40 (0) 012 345 6789</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <!-- <div class="nav-icons d-lg-none">
+                            <div class="nav-icon-item d-lg-none">
+                                <span class="nav-icon-trigger menu-mobile-btn align-middle"><i class="ion"></i></span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
             <!-- End Nav Bar -->
         </header>
         <!-- End Header -->
 
-        <!-- CONTENT --------------------------------------------------------------------------------->
-
-        <!-- Intro Section -->
-        <!-- End Intro Section -->
-
-        <!--About Section-->
-        <section id="about" class="wow fadeIn ptb ptb-sm-80">
-            <div class="container">
-                <div class="row text-center">
-
-                    <div class="col-lg-12">
-                        <!-- <h3 class="h4">This Week in U.S. Congress</h3> -->
-                        <!-- <div class="spacer-15"></div> -->
-                        <p class="lead">Data sourced from <a class="tipped" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a> on October 2nd, 2021</p>
-                        <p class="text-center">Click a state for its reps' votes and statements below</p>
-                        <div class="customMapWidget"></div>
-
-                        <div class="row">
-                            <div class="col">
-
-                                <!-- <h2 id="switch-test" style="display: none;">testing switch custom data</h2> -->
-                                
-                            <h2 id="switch-test">Click any state</h2>
-
-                              <!-- <div id="initialSelectOutput" class="tabs" style="display: none;">
-                                <div class="tab">
-                                  <input type="checkbox" id="chck1">
-                                  <label class="tab-label" for="chck1">Initial - Select a state to see rep data here</label>
-                                  <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 mb-45">
-                                            <h4>Recent Twitter Feed</h4>
-                                            <p style="display: none;" id="example-output">Shows latest authored tweets of the rep.</p>
-                                            <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 mb-45">
-                                            <h4>Recent Legislative Actions</h4>
-                                            <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
-                                            <p>Shows recent rep actions.</p>
-                                            <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
-                                        </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="tab">
-                                  <input type="checkbox" id="chck2">
-                                  <label class="tab-label" for="chck2">View any senator's words and acts</label>
-                                  <div class="tab-content">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6 mb-45">
-                                            <h4>Recent Twitter Feed</h4>
-                                            <p>Shows latest authored tweets of the rep.</p>
-                                            <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 mb-45">
-                                            <h4>Recent Legislative Actions</h4>
-                                            <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
-                                            <p>Shows recent rep actions.</p>
-                                            <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
-                                        </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div> -->
 
 
-                                <div id="customSelectOutput" style="display: none" class="tabs">
-                                    <div class="tab">
-                                        <input type="checkbox" id="chck1">
-                                        <label class="tab-label" for="chck1">John Cornyn (R-TX)</label>
-                                        <div class="tab-content">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 mb-45">
-                                                <h4>Most Recent Senate Votes</h4>
-                                                <p>Sourced from Senate.gov -- Read More </p>
-                                                <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" style="background-image: url('img/full/25.jpg');" data-stellar-background-ratio="0.4">
-                                                    <div class="container">
-                                                        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
-                                                            <div class="item">
-                                                                <div class="testimonial text-center dark-color">
-                                                                    <div class="container-icon">Senate Bill 397</div>
-                                                                    <h6 class="quote-author">SB 397 <span style="font-weight: 400;"></span></h6>
-
-                                                                    <p class="lead">Official Bill Description: A bill making continuing appropriations for the fiscal year ending September 30, 2022, and for providing emergency assistance, and for other purposes.</p>
-                                                                    <h6 class="quote-author">Voted in favor of passing the bill <span style="font-weight: 400;">("Yay")</span></h6>
-                                                                </div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="testimonial text-center dark-color">
-                                                                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                                                                    <p class="lead">" It's true, you can never eat a pet you name. And anyway, I did my first show in the third grade it would be like a ventriloquist eating his dummy. "</p>
-                                                                    <h6 class="quote-author">Alexander Theroux <span style="font-weight: 400;">( USA )</span></h6>
-                                                                </div>
-                                                            </div>
-                                                            <div class="item">
-                                                                <div class="testimonial text-center dark-color">
-                                                                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                                                                    <p class="lead">" We're not leaving here without Buster, man. Leave no crash-test dummy behind! "</p>
-                                                                    <h6 class="quote-author">Adam Savage <span style="font-weight: 400;">( Artist )</span></h6>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 mb-45">
-                                                <h4>Most Recent Tweets</h4>
-                                                <p class="text-center"><b></b></p>
-                                                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Notable &amp; Quotable: Susan Collins on Work <a href="https://t.co/44aJ69duLi">https://t.co/44aJ69duLi</a> via <a href="https://twitter.com/WSJopinion?ref_src=twsrc%5Etfw">@WSJOpinion</a></p>&mdash; Senator John Cornyn (@JohnCornyn) <a href="https://twitter.com/JohnCornyn/status/1444283706827546630?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab">
-                                        <input type="checkbox" id="chck2">
-                                        <label class="tab-label" for="chck2">View any senator's words and acts</label>
-                                        <div class="tab-content">
-                                          <div class="row">
-                                              <div class="col-md-6 col-sm-6 mb-45">
-                                                  <h4>Recent Twitter Feed</h4>
-                                                  <p>Shows latest authored tweets of the rep.</p>
-                                                  <p>Ex: <b>John Cornyn</b> (TX): "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018" on 6/12/21</p>
-                                              </div>
-                                              <div class="col-md-6 col-sm-6 mb-45">
-                                                  <h4>Recent Legislative Actions</h4>
-                                                  <p class="text-center"><b>(Sourced from Senate.gov)</b></p>
-                                                  <p>Shows recent rep actions.</p>
-                                                  <p>Ex: Sen. John Cornyn voted in favor of the <b>United States Innovation and Competition Act of 2021</b> on Thursday (6/8/21). The bill (S.1260) passed the Senate.</p>
-                                              </div>
-                                          </div>
-                                        </div>
-                                      </div>
-
-
-                                </div>
-                            </div>
+        <!-- Intro -->
+        <section id="intro" class="intro">
+            <!-- Static Intro -->
+            <div class="bg-image overlay-dark80 dark-bg bg-image parallax parallax-background2" style="background-image: url('images/unitedStatesMapPainting.jpg')">
+                <div class="full-screen-intro container" style="min-height: 630px;">
+                    <div class="intro-content">
+                        <div class="intro-content-inner">
+                            <h1 class="">Coming Soon</h1>
+                            <p class="lead">We're currently working on creating something fantastic for <b>TrackingCongress.com</b>, We'll be here soon.</p>
+                            <br />
+                            <br />
+                            <ul class="countdown">
+                                <li>
+                                    <span class="days">00</span>
+                                    <p class="days_ref">days</p>
+                                </li>
+                                <li class="seperator">.</li>
+                                <li>
+                                    <span class="hours">00</span>
+                                    <p class="hours_ref">hours</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="minutes">00</span>
+                                    <p class="minutes_ref">minutes</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="seconds">00</span>
+                                    <p class="seconds_ref">seconds</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
                 </div>
-                
-                
-                <div class="spacer-60"></div>
-                
             </div>
+            <!-- End Static Intro -->
         </section>
-
-                <!-- Testimonials -->
-                <!-- <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" style="background-image: url('img/full/25.jpg');" data-stellar-background-ratio="0.4">
-                    <div class="container">
-                        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
-                            <div class="item">
-                                <div class="testimonial text-center dark-color">
-                                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                                    <p class="lead">" I got a dummy for Christmas and started teaching myself. I got books and records and sat in front of the practising. I did my first show in the third grade and just kept going. "</p>
-                                    <h6 class="quote-author">Jeff Dunham <span style="font-weight: 400;">( Appel Studio )</span></h6>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial text-center dark-color">
-                                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                                    <p class="lead">" It's true, you can never eat a pet you name. And anyway, I did my first show in the third grade it would be like a ventriloquist eating his dummy. "</p>
-                                    <h6 class="quote-author">Alexander Theroux <span style="font-weight: 400;">( USA )</span></h6>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial text-center dark-color">
-                                    <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-                                    <p class="lead">" We're not leaving here without Buster, man. Leave no crash-test dummy behind! "</p>
-                                    <h6 class="quote-author">Adam Savage <span style="font-weight: 400;">( Artist )</span></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-                <!-- End Testimonials -->
-
-        <script>
-            if (window.innerWidth < 600) {
-            var width = 310,
-                height = 250,
-                active = d3.select(null);
-            var givenScale = 420;
-            } else if (window.innerWidth < 850){
-            var width = 550,
-                height = 390,
-                active = d3.select(null);
-            var givenScale = 690;
-            } else {
-            var width = 800,
-                height = 500,
-                active = d3.select(null);
-            var givenScale = 1000;
-            }
-
-            var projection = d3.geo.albersUsa()
-                .scale(givenScale)
-                .translate([width / 2, height / 2]);
-
-            var path = d3.geo.path()
-                .projection(projection);
-
-            var svg = d3.select("div.customMapWidget").append("svg")
-                .attr("width", width)
-                .attr("height", height);
-
-            svg.append("rect")
-                .attr("class", "USBackground")
-                .attr("width", width)
-                .attr("height", height)
-                .on("click", reset);
-
-            var g = svg.append("g")
-                .style("stroke-width", "1.5px");
-
-            // d3.json("d3/us.json", function(error, us) {
-            d3.json("https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json", function(error, us) {
-                if (error) throw error;
-
-            g.selectAll("path")
-                .data(topojson.feature(us, us.objects.states).features)
-                .enter().append("path")
-                .attr("d", path)
-                .attr("class", "feature")
-                .on("click", clicked);
-
-            g.append("path")
-                .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-                .attr("class", "mesh")
-                .attr("d", path);
-            });
-
-            function clicked(d) {
-                function modifyShownElement() {
-                    // const initialOutput = document.getElementById("initialSelectOutput");
-                    const switchTest = document.getElementById("switch-test");                    
-                    console.log("modify shown element ", d);
-
-                    // Set up to start doing inital data on first click, custom on second
-                    if (switchTest === null) {
-                        $("#customSelectOutput").fadeToggle("slow", "linear");
-                    } else if (d.id == 48) {
-                        $("#customSelectOutput").fadeToggle("slow", "linear");
-                        console.log(" the switch test", switchTest, statesData);
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.texas;
-                        console.log(" after alter", switchTest);
-                        $("#switch-test").fadeIn();
-                        // $("#initialSelectOuput").fadeIn();
-                    } else if (d.id == 6) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.california;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 36) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newyork;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 50) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.vermont;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 33) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newhampshire;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 23) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.maine;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 25) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.massachusetts;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 44) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.rhodeisland;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 9) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.connecticut;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 34) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newjersey;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 42) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.pennsylvania;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 39) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.ohio;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 54) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.westvirginia;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 51) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.virginia;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 10) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.delaware;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 24) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.maryland;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 37) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.northcarolina;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 45) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.southcarolina;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 21) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.kentucky;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 47) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.tennessee;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 13) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.georgia;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 12) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.florida;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 1) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.alabama;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 28) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.mississippi;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 17) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.illinois;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 18) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.indiana;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 26) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.michigan;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 55) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.wisconsin;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 27) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.minnesota;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 19) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.iowa;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 29) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.missouri;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 5) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.arkansas;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 22) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.louisiana;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 38) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.northdakota;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 46) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.southdakota;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 31) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.nebraska;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 20) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.kansas;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 40) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.oklahoma;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 35) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.newmexico;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 8) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.colorado;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 56) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.wyoming;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 30) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.montana;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 16) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.idaho;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 49) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.utah;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 4) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.arizona;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 32) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.nevada;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 41) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.oregan;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 53) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.washington;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 2) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.alaska;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 15) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.hawaii;
-                        $("#switch-test").fadeIn();
-                    } else if (d.id == 11) {
-                        switchTest.firstChild.nodeValue = "Selected: " + statesData.washingtondc;
-                        $("#switch-test").fadeIn();
-                    } else {
-                        $("#customSelectOutput").fadeToggle("slow", "linear");
-                    }
-                }
-                modifyShownElement();
-
-                if (active.node() === this) return reset();
-                active.classed("active", false);
-                active = d3.select(this).classed("active", true);
-
-                var bounds = path.bounds(d),
-                    dx = bounds[1][0] - bounds[0][0],
-                    dy = bounds[1][1] - bounds[0][1],
-                    x = (bounds[0][0] + bounds[1][0]) / 2,
-                    y = (bounds[0][1] + bounds[1][1]) / 2,
-                    scale = .9 / Math.max(dx / width, dy / height),
-                    translate = [width / 2 - scale * x, height / 2 - scale * y];
-
-                g.transition()
-                    .duration(750)
-                    .style("stroke-width", 1.5 / scale + "px")
-                    .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
-            }
-
-
-            function reset() {
-            active.classed("active", false);
-            active = d3.select(null);
-
-            g.transition()
-                .duration(750)
-                .style("stroke-width", "1.5px")
-                .attr("transform", "");
-            }
-        </script>
-                                
-
-        <!-- FOOTER -->
-        <!--Footer Section-->
-        <footer id="footer" class="footer section-padding gray-bg">
-            <div class="container text-center">
-
-                <!--Footer Logo-->
-                <div class="footer-logo mb-25 wow fadeInUp" data-wow-duration="1.5s">
-                    <a class="scroll-top" href="#intro">
-                        <img src="tracking-congress-resources/html-template/03_onepage/img/logo-dark.png" alt="mazel" />
-                    </a>
-                </div>
-                <!--End Footer Logo-->
-
-                <!-- Copyright -->
-                <p class="copyright mb-25"> Copyright
-                    &copy; 2021 <a><b>TrackingCongress.com</b></a>. All Rights Reserved.<br>
-                    <!-- By <a href="www.mbogard.com" target="_blank"><b>Matthew Bogard</b></a> -->
-                </p>
-                <!-- Copyright -->
-
-                <!-- Social -->
-                <ul class="social">
-                    <li>
-                        <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> -->
-                    </li>
-                    <li>
-                        <!-- <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> -->
-                    </li>
-                    <li>
-                        <!-- <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a> -->
-                    </li>
-                    <li>
-                        <!-- <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> -->
-                    </li>
-                </ul>
-                <!-- End Social -->
-
-            </div>
-        </footer>
-        <!-- End Footer Section-->
+        <!-- End Intro -->
 
     </div>
-</div>
-    <!-- Site Wraper End -->
-    <script src="statesData.js"></script>
-    <!-- JS -->
+
+
+
     <script src="tracking-congress-resources/html-template/01_multipurpose/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.easing.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.flexslider.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.fitvids.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/wow.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/owl.carousel.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/mediaelement-and-player.min.js"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/theme.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.downCount.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $('.countdown').downCount({
+            date: '01/01/2022 12:00:00',
+            offset: +10
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            headerResize();
+        });
+
+        $(window).resize(function () {
+            headerResize();
+        })
+
+        function headerResize() {
+            var winWidthMd = $(window).height();
+            if ($(window).width() > 767) {
+                // alert('deskstop');
+                $('.full-screen-intro').css({ "height": winWidthMd, "padding": "100px 0px" });
+            }
+            else {
+                $('.full-screen-intro').css({ "height": "600px", "padding": "100px 0px" });
+            };
+
+        };
+
+    </script>
+    <script type="text/javascript">
+        navigation_menu();
+        function navigation_menu() {
+
+            var navMenuLink = $(".nav-menu > ul > li"),
+              //  menuIconBtn = $('.menu-dropdown-icon'),
+                dropDown_Menu = $('.nav-dropdown'),
+                nav_menu_item = $('.nav-menu-item'),
+                nav_Mobile_Btn = $(".menu-mobile-btn"),
+                nav_menu_wrap = $(".nav-menu");
+
+            // Dropdown Menu
+            $('.nav-menu > ul > li:has( > .nav-dropdown)').prepend('<span class="menu-dropdown-icon"></span>');
+            $('.nav-dropdown > ul > li:has( > .nav-dropdown-sub)').addClass('sub-dropdown-icon');
+            $(".nav-menu > ul > li:has( > .nav-dropdown)").addClass('dd-menu-dropdown-icon');
+            navMenuLink.on('mouseenter mouseleave', function (e) {
+                if ($(window).width() > winWidthSm) {
+                    $(this).children(".nav-dropdown").stop(true, false).fadeToggle(150);
+                    e.preventDefault();
+                }
+            });
+
+            $('.menu-dropdown-icon').on('click', function () {
+                if ($(window).width() <= winWidthSm) {
+                    $(this).siblings(".nav-dropdown").stop(true, false).fadeToggle(150);
+                }
+            });
+
+            // Sub Dropdown Menu
+            nav_menu_item.on('mouseenter mouseleave', function (e) {
+                if ($(window).width() > winWidthSm) {
+                    $(this).children(".nav-dropdown-sub").stop(true, false).fadeToggle(150);
+                    e.preventDefault();
+                }
+            });
+            nav_menu_item.on('click', function () {
+                if ($(window).width() <= winWidthSm) {
+                    $(this).children(".nav-dropdown-sub").stop(true, false).fadeToggle(150);
+                }
+            });
+
+            // Dropdon Center align
+            dropDown_Menu.each(function (indx) {
+                if ($(this).hasClass("center")) {
+                    var dropdownWidth = $(this).outerWidth();
+                    var navItemWidth = $(this).parents(nav_menu_item).outerWidth();
+                    var dropdown_halfWidth = parseInt(dropdownWidth / 2);
+                    var navItem_halfWidth = parseInt(navItemWidth / 2);
+                    var totlePosition = parseInt(dropdown_halfWidth - navItem_halfWidth);
+                    if ($window.width() > winWidthSm) {
+                        $(this).css("left", "-" + totlePosition + "px");
+                    } else {
+                        $(this).css("left", "0");
+                    };
+                }
+            }).resize();
+
+            // Mobile Menu Button
+            nav_Mobile_Btn.on('click', function (e) {
+                nav_menu_wrap.toggleClass('show-on-mobile');
+                $(this).toggleClass("active");
+                e.preventDefault();
+            });
+
+        };
+
+    </script>
 </body>
 </html>
