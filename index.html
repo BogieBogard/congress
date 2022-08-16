@@ -7,260 +7,632 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Matthew Bogard">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-    <!-- Favicone Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/customIcon3.png">
-    <link rel="icon" type="image/png" href="images/customIcon3.png">
-    <link rel="apple-touch-icon" href="images/customIcon3.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/6_14.png">
+    <link rel="icon" type="image/png" href="images/6_14.png">
+    <link rel="apple-touch-icon" href="images/6_14.png">
 
-    <!-- CSS -->
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/style.css" rel="stylesheet" type="text/css" />
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link href="tracking-congress-resources/html-template/01_multipurpose/css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="tracking-congress-resources/html-template/01_multipurpose/css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="tracking-congress-resources/html-template/01_multipurpose/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="codepen/animated-buttons.css" rel="stylesheet" type="text/css" />
+    <link href="tracking-congress-resources/second-infographic/style.css" rel="stylesheet" type="text/css" />
+    <link href="tracking-congress-resources/second-infographic/style2.css" rel="stylesheet" type="text/css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/tabs.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/first-infographic.css" rel="stylesheet" type="text/css" />
+    <link href="custom-css/mb-custom.css" rel="stylesheet" type="text/css" />
 
-    <style type="text/css">
-        /* NOTE : This is Css To Only CommingSoon Page */
-        body {
-            color: white;
-            background: #484744;
-        }
-
-
-        .logo span {
-            display: inline-block;
-        }
-
-        /* counter clock css */
-        ul.countdown {
-            list-style: none;
-            padding: 0;
-            display: block;
-            text-align: center;
-            font-family: 'arial', sans-serif !important;
-        }
-
-            ul.countdown li {
-                display: inline-block;
-            }
-
-                ul.countdown li span {
-                    font-size: 80px;
-                    font-weight: 300;
-                    line-height: 80px;
-                }
-
-                ul.countdown li.seperator {
-                    font-size: 80px;
-                    line-height: 70px;
-                    vertical-align: top;
-                }
-
-                ul.countdown li p {
-                    color: #a7abb1;
-                    font-size: 14px;
-                }
-        /* emd counter clock css */
-
-
-
-        @media (max-width: 767px) {
-
-            .text-center-xs {
-                text-align: center;
-            }
-        }
-    </style>
+    <script data-ad-client="ca-pub-1919728109000935" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="d3/d3v3min.js"></script>
+    <script src="d3/topo.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div1").fadeIn();
+            $("#div2").fadeIn("slow");
+            $("#div3").fadeIn(3000);
+          });
+        });
+    </script>
 </head>
+
+
+
 <body>
-    <div class="wrapper">
-        <!-- Header -->
-        <!-- Header ("header--dark", "header-transparent", "header--sticky")-->
+
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+
+    <div class="sidebar-menu">
+        <div class="sidembar-menu-wrap">
+            <a href="javascript:void(0)" class="sidebar-close-icon icon--close">
+                <i class="ion ion-android-close"></i>
+            </a>
+        </div>
+    </div>
+
         <header id="header" class="header header-transparent header--sticky">
-            <!-- Nav Bar -->
-            <!-- <nav id="navigation" class="header-nav">
-                <div class="container">
-                    <div class="row d-flex flex-md-row align-items-center">
-                        <div class="logo mr-auto"> -->
-                            <!--logo-->
-                            <!-- <a href="index.html">
-                                <img class="logo-dark" src="img/logo-black.png"/>
-                                <img class="logo-light" src="img/logo-white.png"/>
-                            </a> -->
-                            <!--End logo-->
-                        <!-- </div> -->
-
-                        <!-- <div class="nav-menu ml-auto">
-                            <ul class="">
-                                <li class="nav-menu-item">
-                                    <a class="external" href="mailto:support@yourdomain.com"><i class="fa fa-envelope"></i>&nbsp;support@yourdomain.com</a>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a class="external"><i class="fa fa-phone-square"></i>&nbsp;+40 (0) 012 345 6789</a>
-                                </li>
-                            </ul>
-                        </div> -->
-                        <!-- <div class="nav-icons d-lg-none">
-                            <div class="nav-icon-item d-lg-none">
-                                <span class="nav-icon-trigger menu-mobile-btn align-middle"><i class="ion"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav> -->
-            <!-- End Nav Bar -->
+            <nav id="navigation" class="header-nav"></nav>
         </header>
-        <!-- End Header -->
 
-
-
-        <!-- Intro -->
-        <section id="intro" class="intro">
-            <!-- Static Intro -->
-            <div class="bg-image overlay-dark80 dark-bg bg-image parallax parallax-background2" style="background-image: url('images/unitedStatesMapPainting.jpg')">
-                <div class="full-screen-intro container" style="min-height: 630px;">
-                    <div class="intro-content">
-                        <div class="intro-content-inner">
-                            <h1 class="">Coming Soon</h1>
-                            <p class="lead">We're currently working on creating something fantastic for <b>TrackingCongress.com</b></p>
-                            <p class="lead">We plan to launch our app shortly ahead of the 2022 US congressional midterm elections so stay tuned!</p>
-
-                            <br />
-                            <br />
-                            <!-- <ul class="countdown">
-                                <li>
-                                    <span class="days">00</span>
-                                    <p class="days_ref">days</p>
-                                </li>
-                                <li class="seperator">.</li>
-                                <li>
-                                    <span class="hours">00</span>
-                                    <p class="hours_ref">hours</p>
-                                </li>
-                                <li class="seperator">:</li>
-                                <li>
-                                    <span class="minutes">00</span>
-                                    <p class="minutes_ref">minutes</p>
-                                </li>
-                                <li class="seperator">:</li>
-                                <li>
-                                    <span class="seconds">00</span>
-                                    <p class="seconds_ref">seconds</p>
-                                </li>
-                            </ul> -->
-                        </div>
+        <section id="about" class="wow fadeIn ptb ptb-sm-80">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <p class="lead">Data sourced from <a class="tipped" href="https://www.congress.gov/" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a> on 
+                        August 16, 2022 at 5:20PM Central Time
+                        <p class="text-center">Click a state for its representatives' votes below</p>
+                        <div class="customMapWidget text-center"></div>
+                        <h2 id="state-name" class="text-center">Click any state</h2>
                     </div>
                 </div>
             </div>
-            <!-- End Static Intro -->
         </section>
-        <!-- End Intro -->
 
+            <div class="row mainDataRow">
+                <div class="col mainDataColumn">
+                            <div id="customSelectOutput" style="display: none" class="tabs">
+                                <div class="tab">
+                                    <input type="checkbox" id="chck1">
+                                    <label id="first-senator" class="tab-label" for="chck1"> </label>
+                                    <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 mb-45">
+                                            <h4 class="mobile-left-padding">Most Recent Senate Votes</h4>
+
+                                            <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" data-stellar-background-ratio="0.4">
+                                                <div class="container">
+                                                    <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-1" class="quote-author"> <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-1"> </p>
+                                                                <h6 id="first-senator-vote-1" class="quote-author">  <span id="first-senator-vote-1-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-1" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-2" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-2"> </p>
+                                                                <h6 id="first-senator-vote-2" class="quote-author">  <span id="first-senator-vote-2-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-2" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-3" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-3"> </p>
+                                                                <h6 id="first-senator-vote-3" class="quote-author">  <span id="first-senator-vote-3-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-3" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-4" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-4"> </p>
+                                                                <h6 id="first-senator-vote-4" class="quote-author">  <span id="first-senator-vote-4-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-4" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-5" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-5"> </p>
+                                                                <h6 id="first-senator-vote-5" class="quote-author">  <span id="first-senator-vote-5-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-5" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-6"  class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-6"> </p>
+                                                                <h6 id="first-senator-vote-6" class="quote-author">  <span id="first-senator-vote-6-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-6" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-7" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-7"> </p>
+                                                                <h6 id="first-senator-vote-7" class="quote-author">  <span id="first-senator-vote-7-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-7" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-8" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-8"> </p>
+                                                                <h6 id="first-senator-vote-8" class="quote-author">  <span id="first-senator-vote-8-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-8" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-9" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-9"> </p>
+                                                                <h6 id="first-senator-vote-9" class="quote-author">  <span id="first-senator-vote-9-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-9" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-10" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p class="lead text-left">Official Bill Description: </p><p id="first-senator-bill-summary-10"> </p>
+                                                                <h6 id="first-senator-vote-10" class="quote-author">  <span id="first-senator-vote-10-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-10" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab">
+                                    <input type="checkbox" id="chck2">
+                                    <label id="second-senator" class="tab-label" for="chck2">View any senator's words and acts</label>
+                                    <div class="tab-content">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12 mb-45">
+                                                <h4 class="mobile-left-padding">Most Recent Senate Votes</h4>
+    
+                                                <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" data-stellar-background-ratio="0.4">
+                                                    <div class="container">
+                                                       
+                                                        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-1" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-1"> </p>
+                                                                    <h6 id="second-senator-vote-1" class="quote-author">  <span id="second-senator-vote-1-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-1" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-2" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-2"> </p>
+                                                                    <h6 id="second-senator-vote-2" class="quote-author">  <span id="second-senator-vote-2-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-2" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-3" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-3"> </p>
+                                                                    <h6 id="second-senator-vote-3" class="quote-author">  <span id="second-senator-vote-3-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-3" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-4" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-4"> </p>
+                                                                    <h6 id="second-senator-vote-4" class="quote-author">  <span id="second-senator-vote-4-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-4" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-5" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-5"> </p>
+                                                                    <h6 id="second-senator-vote-5" class="quote-author">  <span id="second-senator-vote-5-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-5" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-6"  class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-6"> </p>
+                                                                    <h6 id="second-senator-vote-6" class="quote-author">  <span id="second-senator-vote-6-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-6" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-7" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-7"> </p>
+                                                                    <h6 id="second-senator-vote-7" class="quote-author">  <span id="second-senator-vote-7-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-7" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-8" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-8"> </p>
+                                                                    <h6 id="second-senator-vote-8" class="quote-author">  <span id="second-senator-vote-8-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-8" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-9" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-9"> </p>
+                                                                    <h6 id="second-senator-vote-9" class="quote-author">  <span id="second-senator-vote-9-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-9" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-10" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p class="lead text-left">Official Bill Description: </p><p id="second-senator-bill-summary-10"> </p>
+                                                                    <h6 id="second-senator-vote-10" class="quote-author">  <span id="second-senator-vote-10-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-10" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </section>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                        </div>
+                </div>
+
+                <div class="spacer-60"></div>
+
+                <section>
+    
+                    <div class="container">
+        
+            </div>
+            </section>
+
+        <div class="generalSenateAndHouseContent">
+            <h2 class="mobile-left-padding">Most Recent Senate Votes</h2>
+            <div class='walkthrough show reveal'>
+            <div class='walkthrough-pagination'>
+                <a class='dot active'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+            </div>
+            <div class='walkthrough-body'>
+                <ul class='screens animate'>
+                <li class='screen active'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart1" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number" id="senate-bill-number-1">  </h3>
+                    <p class="bill-summary" id="senate-bill-summary-1">   </p>
+                </li>
+                <li class='screen active'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart2" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-2">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-2">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart3" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-3">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-3">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart4" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-4">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-4">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart5" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-5">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-5">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart6" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-6">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-6">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart7" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-7">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-7">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart8" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-8">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-8">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart9" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-9">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-9">   </p>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart10" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <h3 class="bill-number"id="senate-bill-number-10">   </h3>
+                    <p class="bill-summary" id="senate-bill-summary-10">   </p>
+                </li>
+                </ul>
+                <button class='prev-screen'>
+                <i class='icon-angle-left'></i>
+                </button>
+                <button class='next-screen'>
+                <i class='icon-angle-right'></i>
+                </button>
+            </div>
+            <div class='walkthrough-footer'>
+                <button class='button next-screen'>Next</button>
+            </div>
+            </div>
+
+
+             <h2 class="mobile-left-padding">Most Recent House Votes</h2>
+            <div class='walkthrough2 show2  reveal2'>
+                <div class='walkthrough-pagination2'>
+                    <a class='dot2 active2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                </div>
+                <div class='walkthrough-body2'>
+                    <ul class='screens2 animate2'>
+                    <li class='screen2 active2'>
+                        <div class='media2 logo2'>
+                            <canvas id="houseVoteChart1" class='logo2'></canvas>
+                        </div>
+                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                        <h3 class="bill-summary" id="house-bill-number-1">   </h3>
+                        <p id="house-bill-summary-1">   </p>
+                    </li>
+                    <li class='screen2 active2'>
+                        <div class='media2 logo2'>
+                            <canvas id="houseVoteChart2" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-2">   </h3>
+                        <p id="house-bill-summary-2">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 books2'>
+                            <canvas id="houseVoteChart3" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-3">   </h3>
+                        <p id="house-bill-summary-3">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 books2'>
+                            <canvas id="houseVoteChart4" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-4">   </h3>
+                        <p id="house-bill-summary-4">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart5" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-5">   </h3>
+                        <p id="house-bill-summary-5">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart6" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-6">   </h3>
+                        <p id="house-bill-summary-6">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart7" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-7">   </h3>
+                        <p id="house-bill-summary-7">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart8" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-8">   </h3>
+                        <p id="house-bill-summary-8">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart9" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-9">   </h3>
+                        <p id="house-bill-summary-9">   </p>
+                    </li>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart10" class='logo2'></canvas>
+                        </div>
+                        <h3 class="bill-summary" id="house-bill-number-10">   </h3>
+                        <p id="house-bill-summary-10">   </p>
+                    </li>
+                    </ul>
+                    <button class='prev-screen2'>
+                    <i class='icon-angle-left'></i>
+                    </button>
+                    <button class='next-screen2'>
+                    <i class='icon-angle-right'></i>
+                    </button>
+                </div>
+                <div class='walkthrough-footer2'>
+                    <button class='button2 next-screen2'>Next</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const _0x1b2959=_0x3588;function _0xf128(){const _0x1277f9=['kentucky','second-house-rep-bill-summary-6','first-senator','slow','northcarolina','first_name','Did\x20not\x20vote\x20on\x20the\x20bill\x20','first-sourced-from-senate-6','missouri','second-house-rep-bill-number-3','#state-name','southcarolina','maine','voteRecord','enter','first-senator-bill-summary-3','tennessee','second-house-rep-vote-10-short','massachusetts','1.5px','second-house-rep-vote-4','first-senator-vote-9-short','Voted\x20in\x20favor\x20of\x20passing\x20the\x20bill\x20','second-house-rep-vote-8-short','number','first-house-rep-bill-number-10','first-sourced-from-senate-1','idaho','montana','southdakota','first-senator-bill-number-10','push','washington','first-senator-vote-8','first-senator-bill-number-9','second-house-rep-bill-summary-10','state-name','first-sourced-from-senate-7','second-house-rep-vote-1-short','second-house-rep-vote-8','data','USBackground','voteLabel','second-house-rep-bill-number-1','first-house-rep-bill-summary-7','757872hCVNcx','first-house-rep-vote-7-short','billNumber','(\x22NOT\x20VOTING\x22)','first-house-rep-bill-number-3','second-sourced-from-senate-6','class','newyork','second-house-rep-bill-number-8','title','projection','first-senator-vote-4-short','second-house-rep-bill-number-6','second-sourced-from-senate-2','attr','bounds','first-senator-bill-number-2','northdakota','oklahoma','first-senator-bill-number-5','second-house-rep-vote-5','forEach','Senate\x20Bill\x20Number:\x20','second-senator-vote-6-short','first-senator-vote-3-short','289987UgkFkf','first-senator-bill-summary-5','oregan','first-senator-vote-10','second-house-rep-vote-10','second-sourced-from-senate-7','georgia','michigan','first-senator-vote-4','61737hYPmKl','subject','height','vermont','max','second-senator-vote-4','first-sourced-from-senate-10','state','second-senator-bill-number-10','present','svg','second-sourced-from-senate-4','first-senator-vote-9','wisconsin','Present','first-senator-bill-summary-1','rhodeisland','second-house-rep-vote-4-short','second-senator-vote-5','second-senator-bill-summary-2','Yea','mesh','second-house-rep-bill-number-2','second-senator-vote-5-short','vote_id','arkansas','second-senator-vote-9','geo','second-senator-vote-1','datum','nodeValue','second-senator-bill-number-9','second-senator-bill-summary-7','second-house-rep-bill-summary-2','getElementById','second-senator-vote-7','linear','second-house-rep-vote-3','click','second-house-rep-bill-number-7','first-sourced-from-senate-8','first-house-rep-bill-number-4','(\x22YEA\x22)','first-house-rep-vote-3','second-house-rep-bill-summary-1','first-house-rep-vote-4-short','first-house-rep-vote-4','first-senator-vote-7-short','internalSenatorId','stroke-width','first-house-rep-bill-number-8','second-senator-bill-number-2','votes','billSubject','active','first-house-rep-vote-5-short','westvirginia','second-senator-vote-8','voteId','florida','second-house-rep-vote-6','california','first-house-rep-vote-6','second-house-rep-bill-summary-9','first-senator-bill-number-3','#customSelectOutput','features','first-senator-bill-number-6','second-sourced-from-senate-1','setAttribute','first-sourced-from-senate-9','first-sourced-from-senate-3','second-senator-bill-number-1','(\x22NAY\x22)','first-house-rep-vote-8','second-house-rep-bill-number-5','first-house-rep-vote-2','second-senator-bill-number-5','first-senator-bill-number-1','firstChild','voteShort','second-house-rep-vote-6-short','maryland','first-house-rep-vote-9-short','first-house-rep-bill-summary-8','states','nevada','Voted\x20against\x20passing\x20the\x20bill\x20','second-sourced-from-senate-10','first-senator-vote-2-short','second-senator-bill-summary-10','first-senator-vote-5-short','translate(','second-sourced-from-senate-5','first-senator-bill-number-7','placeholder','append','first-sourced-from-senate-5','first-sourced-from-senate-4','second-house-rep-vote-7-short','newjersey','second-senator-vote-6','second-senator-vote-8-short','first-house-rep-bill-summary-2','first-senator-bill-number-8','second-senator-vote-10-short','billTitle','first-senator-bill-summary-4','second-house-rep-vote-2','113472LFgzry','Nay','selectAll','kansas','second-senator-vote-4-short','14tfUpRk','bill','notVoting','first-house-rep-bill-number-2','fadeIn','first-house-rep-bill-number-5','second-senator-vote-7-short','width','second-senator-bill-number-8','alaska','second-house-rep-bill-summary-8','newhampshire','second-house-rep-bill-summary-3','first-house-rep-bill-summary-5','second-senator-vote-3','second-house-rep','scale','first-house-rep-bill-number-1','first-house-rep-vote-2-short','select','mississippi','first-house-rep-bill-summary-10','length','delaware','first-senator-bill-summary-9','href','Not\x20Voting','second-senator-vote-3-short','classed','innerWidth','1228144GgBvBQ','hawaii','duration','first-sourced-from-senate-2','transition','objects','second-senator-bill-summary-5','feature','source_url','second-senator-bill-summary-4','fadeToggle','albersUsa','style','illinois','second-senator-bill-number-4','second-house-rep-bill-number-4','connecticut','node','second-house-rep-vote-7','first-house-rep-bill-summary-3','first-house-rep-vote-7','second-house-rep-bill-summary-7','second-senator-bill-number-7','second-senator-vote-2-short','266130ZUkdbS','second-sourced-from-senate-8','first-house-rep-bill-summary-4','first-senator-bill-summary-7','nay','first-house-rep-vote-5','second-house-rep-bill-number-10','first-senator-bill-summary-10','display_name','washingtondc','second-senator-bill-summary-8','Selected:\x20','yea','path','695cGWqPe','second-house-rep-bill-summary-5','pennsylvania','first-house-rep-vote-10','ohio','second-senator-bill-number-6','second-house-rep-vote-2-short','first-senator-vote-6-short','alabama','second-senator','first-house-rep-vote-1-short','second-senator-vote-1-short','2264RrWeCW','first-senator-vote-5'];_0xf128=function(){return _0x1277f9;};return _0xf128();}(function(_0x35e5bb,_0x42e919){const _0x11af99=_0x3588,_0x43e82e=_0x35e5bb();while(!![]){try{const _0x3eea28=parseInt(_0x11af99(0x195))/0x1+-parseInt(_0x11af99(0x133))/0x2+parseInt(_0x11af99(0x19e))/0x3+-parseInt(_0x11af99(0x14d))/0x4*(-parseInt(_0x11af99(0x141))/0x5)+-parseInt(_0x11af99(0x17c))/0x6*(parseInt(_0x11af99(0xfd))/0x7)+parseInt(_0x11af99(0x11b))/0x8+parseInt(_0x11af99(0xf8))/0x9;if(_0x3eea28===_0x42e919)break;else _0x43e82e['push'](_0x43e82e['shift']());}catch(_0x193648){_0x43e82e['push'](_0x43e82e['shift']());}}}(_0xf128,0x296cd));function _0x3588(_0xf6d550,_0xc901f2){const _0xf1283a=_0xf128();return _0x3588=function(_0x3588d7,_0x7b67c9){_0x3588d7=_0x3588d7-0xdb;let _0x274c46=_0xf1283a[_0x3588d7];return _0x274c46;},_0x3588(_0xf6d550,_0xc901f2);}if(window[_0x1b2959(0x11a)]<0x258)var width=0x136,height=0xfa,active=d3['select'](null),givenScale=0x1a4;else{if(window[_0x1b2959(0x11a)]<0x352)var width=0x226,height=0x186,active=d3[_0x1b2959(0x110)](null),givenScale=0x2b2;else var width=0x320,height=0x1f4,active=d3[_0x1b2959(0x110)](null),givenScale=0x3e8;}var projection=d3[_0x1b2959(0x1b9)][_0x1b2959(0x126)]()[_0x1b2959(0x10d)](givenScale)['translate']([width/0x2,height/0x2]),path=d3[_0x1b2959(0x1b9)][_0x1b2959(0x140)]()[_0x1b2959(0x186)](projection),svg=d3[_0x1b2959(0x110)]('div.customMapWidget')[_0x1b2959(0xeb)](_0x1b2959(0x1a8))[_0x1b2959(0x18a)](_0x1b2959(0x104),width)[_0x1b2959(0x18a)](_0x1b2959(0x1a0),height);svg[_0x1b2959(0xeb)]('rect')['attr']('class',_0x1b2959(0x178))[_0x1b2959(0x18a)](_0x1b2959(0x104),width)['attr'](_0x1b2959(0x1a0),height)['on']('click',reset);var g=svg[_0x1b2959(0xeb)]('g')[_0x1b2959(0x127)]('stroke-width',_0x1b2959(0x162));d3['json']('https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json',function(_0x5b7b6e,_0x2cd408){const _0x112a46=_0x1b2959;if(_0x5b7b6e)throw _0x5b7b6e;g[_0x112a46(0xfa)](_0x112a46(0x140))[_0x112a46(0x177)](topojson[_0x112a46(0x122)](_0x2cd408,_0x2cd408[_0x112a46(0x120)]['states'])[_0x112a46(0x1e0)])[_0x112a46(0x15d)]()[_0x112a46(0xeb)](_0x112a46(0x140))['attr']('d',path)['attr'](_0x112a46(0x182),'feature')['on'](_0x112a46(0x1c4),clicked),g[_0x112a46(0xeb)](_0x112a46(0x140))[_0x112a46(0x1bb)](topojson[_0x112a46(0x1b3)](_0x2cd408,_0x2cd408[_0x112a46(0x120)][_0x112a46(0xe0)],function(_0x366efe,_0x2f2f32){return _0x366efe!==_0x2f2f32;}))[_0x112a46(0x18a)]('class',_0x112a46(0x1b3))[_0x112a46(0x18a)]('d',path);});function clicked(_0x377567){const _0x493974=_0x1b2959;function _0xfce26d(){const _0x35f841=_0x3588,_0x4bd386=document['getElementById'](_0x35f841(0x173)),_0x5b2284=_0x35f841(0x165),_0x48391b=_0x35f841(0xe2),_0x196fd8='Did\x20not\x20vote\x20on\x20the\x20bill\x20',_0xdd4110=_0x35f841(0x155),_0x42fefd=_0x35f841(0x1c8),_0xa7d0c6=_0x35f841(0x1e7),_0x12534d=_0x35f841(0x17f),_0x1d0015='(\x22PRESENT\x22)',_0x4a85df=document[_0x35f841(0x1c0)](_0x35f841(0x151)),_0x222b00=document[_0x35f841(0x1c0)]('first-senator-vote-1'),_0x16acc6=document[_0x35f841(0x1c0)]('first-senator-vote-2'),_0xd2dfbf=document[_0x35f841(0x1c0)]('first-senator-vote-3'),_0x2f200d=document['getElementById'](_0x35f841(0x19d)),_0x4c5067=document['getElementById'](_0x35f841(0x14e)),_0x16637c=document[_0x35f841(0x1c0)]('first-senator-vote-6'),_0x2b45aa=document[_0x35f841(0x1c0)]('first-senator-vote-7'),_0x504177=document['getElementById'](_0x35f841(0x170)),_0x49e954=document['getElementById'](_0x35f841(0x1aa)),_0x23a969=document[_0x35f841(0x1c0)](_0x35f841(0x198)),_0x57a2a7=document[_0x35f841(0x1c0)]('first-senator-vote-1-short'),_0x75abcb=document[_0x35f841(0x1c0)](_0x35f841(0xe4)),_0x199710=document[_0x35f841(0x1c0)](_0x35f841(0x194)),_0x7c5d14=document[_0x35f841(0x1c0)](_0x35f841(0x187)),_0x137026=document[_0x35f841(0x1c0)](_0x35f841(0xe6)),_0x341139=document[_0x35f841(0x1c0)](_0x35f841(0x148)),_0x1cf768=document[_0x35f841(0x1c0)](_0x35f841(0x1cd)),_0x360b42=document[_0x35f841(0x1c0)]('first-senator-vote-8-short'),_0x32d632=document['getElementById'](_0x35f841(0x164)),_0x10fc7c=document[_0x35f841(0x1c0)]('first-senator-vote-10-short'),_0x4b9a5b=document[_0x35f841(0x1c0)](_0x35f841(0x1ec)),_0x56cd52=document['getElementById'](_0x35f841(0x18c)),_0x14dfdf=document[_0x35f841(0x1c0)](_0x35f841(0x1de)),_0x4df5ff=document[_0x35f841(0x1c0)]('first-senator-bill-number-4'),_0x508e25=document[_0x35f841(0x1c0)](_0x35f841(0x18f)),_0x10feea=document[_0x35f841(0x1c0)](_0x35f841(0x1e1)),_0x3b1458=document[_0x35f841(0x1c0)](_0x35f841(0xe9)),_0x4b76bb=document[_0x35f841(0x1c0)](_0x35f841(0xf3)),_0x52ecc2=document[_0x35f841(0x1c0)](_0x35f841(0x171)),_0x144980=document[_0x35f841(0x1c0)](_0x35f841(0x16d)),_0x2c40bc=document[_0x35f841(0x1c0)](_0x35f841(0x1ad)),_0x56a557=document['getElementById']('first-senator-bill-summary-2'),_0x59387a=document[_0x35f841(0x1c0)](_0x35f841(0x15e)),_0x14f8ae=document[_0x35f841(0x1c0)](_0x35f841(0xf6)),_0x5a7f50=document[_0x35f841(0x1c0)](_0x35f841(0x196)),_0x55aab9=document[_0x35f841(0x1c0)]('first-senator-bill-summary-6'),_0x53adee=document[_0x35f841(0x1c0)](_0x35f841(0x136)),_0x1ffd06=document[_0x35f841(0x1c0)]('first-senator-bill-summary-8'),_0x3677e3=document[_0x35f841(0x1c0)](_0x35f841(0x115)),_0x219efe=document[_0x35f841(0x1c0)](_0x35f841(0x13a)),_0x1853db=document[_0x35f841(0x1c0)](_0x35f841(0x169)),_0x2672ca=document[_0x35f841(0x1c0)](_0x35f841(0x11e)),_0x157531=document[_0x35f841(0x1c0)](_0x35f841(0x1e5)),_0x5a8085=document[_0x35f841(0x1c0)](_0x35f841(0xed)),_0x576c51=document['getElementById'](_0x35f841(0xec)),_0x1d5771=document['getElementById'](_0x35f841(0x156)),_0x1422ac=document[_0x35f841(0x1c0)](_0x35f841(0x174)),_0x52f521=document[_0x35f841(0x1c0)](_0x35f841(0x1c6)),_0x3ca254=document['getElementById'](_0x35f841(0x1e4)),_0x1f98bb=document[_0x35f841(0x1c0)](_0x35f841(0x1a4)),_0x5afb21=document['getElementById'](_0x35f841(0x1e2)),_0x442c6a=document[_0x35f841(0x1c0)](_0x35f841(0x189)),_0x3b03bc=document[_0x35f841(0x1c0)]('second-sourced-from-senate-3'),_0x47aa26=document[_0x35f841(0x1c0)](_0x35f841(0x1a9)),_0x4c0d2f=document[_0x35f841(0x1c0)](_0x35f841(0xe8)),_0xf08c9e=document[_0x35f841(0x1c0)](_0x35f841(0x181)),_0x2e7d45=document[_0x35f841(0x1c0)](_0x35f841(0x19a)),_0x11280b=document[_0x35f841(0x1c0)](_0x35f841(0x134)),_0x434cd2=document[_0x35f841(0x1c0)]('second-sourced-from-senate-9'),_0xdae00b=document[_0x35f841(0x1c0)](_0x35f841(0xe3)),_0x52a420=document[_0x35f841(0x1c0)](_0x35f841(0x14a)),_0x151660=document[_0x35f841(0x1c0)](_0x35f841(0x1ba)),_0x16b1a3=document['getElementById']('second-senator-vote-2'),_0x266de5=document[_0x35f841(0x1c0)](_0x35f841(0x10b)),_0x366da9=document[_0x35f841(0x1c0)](_0x35f841(0x1a3)),_0x2276f4=document['getElementById'](_0x35f841(0x1b0)),_0x26eed3=document[_0x35f841(0x1c0)](_0x35f841(0xf0)),_0x36d2fc=document[_0x35f841(0x1c0)](_0x35f841(0x1c1)),_0x5e64b9=document[_0x35f841(0x1c0)](_0x35f841(0x1d7)),_0xf630c4=document[_0x35f841(0x1c0)](_0x35f841(0x1b8)),_0x578e43=document['getElementById']('second-senator-vote-10'),_0x256344=document['getElementById'](_0x35f841(0x14c)),_0x178ba3=document['getElementById'](_0x35f841(0x132)),_0x5c0638=document[_0x35f841(0x1c0)](_0x35f841(0x118)),_0x413bdd=document['getElementById'](_0x35f841(0xfc)),_0x560174=document[_0x35f841(0x1c0)](_0x35f841(0x1b5)),_0x205936=document[_0x35f841(0x1c0)](_0x35f841(0x193)),_0x190242=document[_0x35f841(0x1c0)](_0x35f841(0x103)),_0x366f8b=document[_0x35f841(0x1c0)](_0x35f841(0xf1)),_0x5070d7=document[_0x35f841(0x1c0)]('second-senator-vote-9-short'),_0x7ca63c=document['getElementById'](_0x35f841(0xf4)),_0x36366e=document[_0x35f841(0x1c0)](_0x35f841(0x1e6)),_0x2b2245=document['getElementById'](_0x35f841(0x1d1)),_0xe7f17f=document[_0x35f841(0x1c0)]('second-senator-bill-number-3'),_0x4332ea=document[_0x35f841(0x1c0)](_0x35f841(0x129)),_0x5c949d=document[_0x35f841(0x1c0)](_0x35f841(0x1eb)),_0x4d96b8=document[_0x35f841(0x1c0)](_0x35f841(0x146)),_0x306d19=document['getElementById'](_0x35f841(0x131)),_0xea6fb1=document[_0x35f841(0x1c0)](_0x35f841(0x105)),_0x4dd488=document[_0x35f841(0x1c0)](_0x35f841(0x1bd)),_0x5358c3=document[_0x35f841(0x1c0)](_0x35f841(0x1a6)),_0x20ebce=document[_0x35f841(0x1c0)]('second-senator-bill-summary-1'),_0x291b52=document[_0x35f841(0x1c0)](_0x35f841(0x1b1)),_0xfe6a23=document['getElementById']('second-senator-bill-summary-3'),_0x43e1bd=document[_0x35f841(0x1c0)](_0x35f841(0x124)),_0x3eb1f9=document['getElementById'](_0x35f841(0x121)),_0x14b7dc=document[_0x35f841(0x1c0)]('second-senator-bill-summary-6'),_0x29994f=document[_0x35f841(0x1c0)](_0x35f841(0x1be)),_0x59ac2a=document[_0x35f841(0x1c0)](_0x35f841(0x13d)),_0x509d05=document[_0x35f841(0x1c0)]('second-senator-bill-summary-9'),_0x333142=document[_0x35f841(0x1c0)](_0x35f841(0xe5));let _0xe08f98=[],_0x522c8e=[],_0x229cb0=[],_0x2051b1=[],_0x3edf83=[],_0x54f1cd=[],_0x563ef4=[],_0x1bb072=[],_0x1ab5c8=[],_0x555693=[],_0x482ac1='placeholder';const _0x226348=document[_0x35f841(0x1c0)]('first-house-rep'),_0x5f4bf4=document['getElementById']('first-house-rep-vote-1'),_0x5a7512=document[_0x35f841(0x1c0)](_0x35f841(0x1ea)),_0xe83a53=document[_0x35f841(0x1c0)](_0x35f841(0x1c9)),_0x444082=document[_0x35f841(0x1c0)](_0x35f841(0x1cc)),_0x3d6764=document[_0x35f841(0x1c0)](_0x35f841(0x138)),_0x54bb18=document['getElementById'](_0x35f841(0x1dc)),_0x59d29=document[_0x35f841(0x1c0)](_0x35f841(0x12f)),_0x4327c0=document[_0x35f841(0x1c0)](_0x35f841(0x1e8)),_0x155f25=document[_0x35f841(0x1c0)]('first-house-rep-vote-9'),_0x98c3ce=document[_0x35f841(0x1c0)](_0x35f841(0x144)),_0xc935f7=document[_0x35f841(0x1c0)](_0x35f841(0x14b)),_0x4c08c6=document[_0x35f841(0x1c0)](_0x35f841(0x10f)),_0xb00f50=document[_0x35f841(0x1c0)]('first-house-rep-vote-3-short'),_0x13a7f4=document[_0x35f841(0x1c0)](_0x35f841(0x1cb)),_0x5acdf0=document[_0x35f841(0x1c0)](_0x35f841(0x1d5)),_0xc0e9cf=document[_0x35f841(0x1c0)]('first-house-rep-vote-6-short'),_0x50efce=document[_0x35f841(0x1c0)](_0x35f841(0x17d)),_0x2e3109=document[_0x35f841(0x1c0)]('first-house-rep-vote-8-short'),_0x3030c4=document[_0x35f841(0x1c0)](_0x35f841(0xde)),_0x21f588=document[_0x35f841(0x1c0)]('first-house-rep-vote-10-short'),_0x200eb7=document[_0x35f841(0x1c0)](_0x35f841(0x10e)),_0x3ad244=document[_0x35f841(0x1c0)](_0x35f841(0x100)),_0x341d02=document[_0x35f841(0x1c0)](_0x35f841(0x180)),_0x4c3e0b=document['getElementById'](_0x35f841(0x1c7)),_0x1de07d=document[_0x35f841(0x1c0)](_0x35f841(0x102)),_0x11d9d4=document['getElementById']('first-house-rep-bill-number-6'),_0x34d14c=document[_0x35f841(0x1c0)]('first-house-rep-bill-number-7'),_0x3ca599=document['getElementById'](_0x35f841(0x1d0)),_0x17c2f7=document[_0x35f841(0x1c0)]('first-house-rep-bill-number-9'),_0x223a3f=document[_0x35f841(0x1c0)](_0x35f841(0x168)),_0x383b3c=document[_0x35f841(0x1c0)]('first-house-rep-bill-summary-1'),_0x5c492d=document[_0x35f841(0x1c0)](_0x35f841(0xf2)),_0x6b07be=document[_0x35f841(0x1c0)](_0x35f841(0x12e)),_0x5970ed=document[_0x35f841(0x1c0)](_0x35f841(0x135)),_0x4ce800=document[_0x35f841(0x1c0)](_0x35f841(0x10a)),_0x3ad465=document[_0x35f841(0x1c0)]('first-house-rep-bill-summary-6'),_0x1d9854=document['getElementById'](_0x35f841(0x17b)),_0x54caeb=document[_0x35f841(0x1c0)](_0x35f841(0xdf)),_0x2e0e29=document[_0x35f841(0x1c0)]('first-house-rep-bill-summary-9'),_0x3d9475=document['getElementById'](_0x35f841(0x112)),_0x87a85e=document['getElementById'](_0x35f841(0x10c)),_0xa568f3=document['getElementById']('second-house-rep-vote-1'),_0x345c37=document[_0x35f841(0x1c0)](_0x35f841(0xf7)),_0xdb0b0b=document[_0x35f841(0x1c0)](_0x35f841(0x1c3)),_0x1ee8a2=document[_0x35f841(0x1c0)](_0x35f841(0x163)),_0x1835c7=document[_0x35f841(0x1c0)](_0x35f841(0x190)),_0xdac271=document[_0x35f841(0x1c0)](_0x35f841(0x1da)),_0x1ef6f4=document[_0x35f841(0x1c0)](_0x35f841(0x12d)),_0x553aaa=document[_0x35f841(0x1c0)](_0x35f841(0x176)),_0x38018a=document[_0x35f841(0x1c0)]('second-house-rep-vote-9'),_0x32af23=document['getElementById'](_0x35f841(0x199)),_0x498d17=document['getElementById'](_0x35f841(0x175)),_0x4bcb10=document[_0x35f841(0x1c0)](_0x35f841(0x147)),_0x43b3c4=document['getElementById']('second-house-rep-vote-3-short'),_0x133b9f=document[_0x35f841(0x1c0)](_0x35f841(0x1af)),_0x4935ce=document['getElementById']('second-house-rep-vote-5-short'),_0x4cddb2=document[_0x35f841(0x1c0)](_0x35f841(0xdc)),_0x153898=document['getElementById'](_0x35f841(0xee)),_0x341e6e=document[_0x35f841(0x1c0)](_0x35f841(0x166)),_0x4b02f2=document[_0x35f841(0x1c0)]('second-house-rep-vote-9-short'),_0x2e286b=document[_0x35f841(0x1c0)](_0x35f841(0x160)),_0x4a1439=document[_0x35f841(0x1c0)](_0x35f841(0x17a)),_0x6447e7=document[_0x35f841(0x1c0)](_0x35f841(0x1b4)),_0x49616e=document[_0x35f841(0x1c0)](_0x35f841(0x158)),_0x93b953=document[_0x35f841(0x1c0)](_0x35f841(0x12a)),_0x31749a=document[_0x35f841(0x1c0)](_0x35f841(0x1e9)),_0x4b3188=document[_0x35f841(0x1c0)](_0x35f841(0x188)),_0x264b83=document[_0x35f841(0x1c0)](_0x35f841(0x1c5)),_0x41a9d8=document['getElementById'](_0x35f841(0x184)),_0x154afb=document[_0x35f841(0x1c0)]('second-house-rep-bill-number-9'),_0x348ba0=document['getElementById'](_0x35f841(0x139)),_0x1082f7=document[_0x35f841(0x1c0)](_0x35f841(0x1ca)),_0x59977a=document[_0x35f841(0x1c0)](_0x35f841(0x1bf)),_0x191ee3=document[_0x35f841(0x1c0)](_0x35f841(0x109)),_0x540554=document[_0x35f841(0x1c0)]('second-house-rep-bill-summary-4'),_0x1c11a2=document['getElementById'](_0x35f841(0x142)),_0x48cc51=document[_0x35f841(0x1c0)](_0x35f841(0x150)),_0x5a5f6f=document[_0x35f841(0x1c0)](_0x35f841(0x130)),_0x5e4646=document[_0x35f841(0x1c0)](_0x35f841(0x107)),_0x475d05=document[_0x35f841(0x1c0)](_0x35f841(0x1dd)),_0x3b5ae6=document[_0x35f841(0x1c0)](_0x35f841(0x172));let _0x526e54=[],_0x55855b=[],_0x147ae5=[],_0x18b9d3=[],_0xbdaa3f=[],_0x1ac01c=[],_0x44f4d6=[],_0x3f4c1d=[],_0x49b22b=_0x35f841(0xea);function _0xecca5e(_0x524f42){const _0x20e76e=_0x35f841;return _0x524f42[_0x20e76e(0x179)]='',_0x524f42[_0x20e76e(0x15c)]==_0x20e76e(0x13f)&&(_0x524f42[_0x20e76e(0x179)]=_0x5b2284),_0x524f42[_0x20e76e(0x15c)]==_0x20e76e(0x137)&&(_0x524f42[_0x20e76e(0x179)]=_0x48391b),_0x524f42[_0x20e76e(0x15c)]==_0x20e76e(0xff)&&(_0x524f42[_0x20e76e(0x179)]=_0x196fd8),_0x524f42[_0x20e76e(0x15c)]==_0x20e76e(0x1a7)&&(_0x524f42[_0x20e76e(0x179)]=_0xdd4110),_0x524f42[_0x20e76e(0x179)];}function _0xc20721(_0x5ec17a){const _0x1782a2=_0x35f841;return _0x5ec17a[_0x1782a2(0xdb)]='',_0x5ec17a['voteRecord']==_0x1782a2(0x13f)&&(_0x5ec17a[_0x1782a2(0xdb)]=_0x42fefd),_0x5ec17a[_0x1782a2(0x15c)]==_0x1782a2(0x137)&&(_0x5ec17a[_0x1782a2(0xdb)]=_0xa7d0c6),_0x5ec17a[_0x1782a2(0x15c)]==_0x1782a2(0xff)&&(_0x5ec17a[_0x1782a2(0xdb)]=_0x12534d),_0x5ec17a[_0x1782a2(0x15c)]==_0x1782a2(0x1a7)&&(_0x5ec17a[_0x1782a2(0xdb)]=_0x1d0015),_0x5ec17a[_0x1782a2(0xdb)];}function _0x26bbb1(_0x2617c7){return allSenateVotingData['forEach'](_0x4513c4=>{const _0x2f6fdd=_0x3588;_0x4513c4['billNumber']=_0x2f6fdd(0x192)+_0x4513c4[_0x2f6fdd(0x167)],_0x4513c4[_0x2f6fdd(0x1d3)]=_0x4513c4[_0x2f6fdd(0x19f)];function _0x3dc5c3(_0xc82238){const _0x3c1e65=_0x2f6fdd;_0xc82238[_0x3c1e65(0x1d8)]=_0x4513c4[_0x3c1e65(0x1b6)],_0xc82238['billTitle']=_0x4513c4[_0x3c1e65(0xfe)]?_0x4513c4['bill'][_0x3c1e65(0x185)]:'',_0xc82238[_0x3c1e65(0x1d3)]=_0x4513c4[_0x3c1e65(0x19f)];}for(let _0x263c03=0x0;_0x263c03<0x4;_0x263c03++){_0x263c03===0x0&&_0x4513c4[_0x2f6fdd(0x1d2)][_0x2f6fdd(0xf9)][_0x2f6fdd(0x191)](_0x5b3a05=>{const _0x26d485=_0x2f6fdd;if(_0x5b3a05[_0x26d485(0x1a5)]===_0x2617c7){_0x3dc5c3(_0x5b3a05),_0x5b3a05[_0x26d485(0x15c)]='nay';let _0xc16ab1=_0x5b3a05['id'];if(_0xc16ab1===_0x1bb072[0x0]?.['id']){let _0x4fad7a=_0x5b3a05['id'];_0x5b3a05['internalSenatorId']=0x1,_0xe08f98[_0x26d485(0x16e)](_0x5b3a05),_0x522c8e[_0x26d485(0x16e)](_0x5b3a05),_0x1bb072[_0x26d485(0x16e)](_0x5b3a05);}else{if(_0xc16ab1===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x5b3a05['id'],_0x5b3a05[_0x26d485(0x1ce)]=0x2,_0xe08f98[_0x26d485(0x16e)](_0x5b3a05),_0x522c8e[_0x26d485(0x16e)](_0x5b3a05),_0x1ab5c8['push'](_0x5b3a05);else{if(_0x1bb072[_0x26d485(0x113)]===0x0&&_0x1ab5c8[_0x26d485(0x113)]===0x0){let _0x48dcf0=_0x5b3a05['id'];_0x5b3a05[_0x26d485(0x1ce)]=0x1,_0xe08f98[_0x26d485(0x16e)](_0x5b3a05),_0x522c8e['push'](_0x5b3a05),_0x1bb072[_0x26d485(0x16e)](_0x5b3a05);}else _0x1bb072[_0x26d485(0x113)]!==0x0&&_0x1ab5c8[_0x26d485(0x113)]===0x0&&(_0x482ac1=_0x5b3a05['id'],_0x5b3a05['internalSenatorId']=0x2,_0xe08f98[_0x26d485(0x16e)](_0x5b3a05),_0x522c8e[_0x26d485(0x16e)](_0x5b3a05),_0x1ab5c8[_0x26d485(0x16e)](_0x5b3a05));}}}}),_0x263c03===0x1&&_0x4513c4[_0x2f6fdd(0x1d2)][_0x2f6fdd(0x117)][_0x2f6fdd(0x191)](_0x3e2045=>{const _0x2df147=_0x2f6fdd;if(_0x3e2045['state']===_0x2617c7){_0x3dc5c3(_0x3e2045),_0x3e2045[_0x2df147(0x15c)]='notVoting';let _0x4dbc0f=_0x3e2045['id'];if(_0x4dbc0f===_0x1bb072[0x0]?.['id']){let _0x24f216=_0x3e2045['id'];_0x3e2045[_0x2df147(0x1ce)]=0x1,_0xe08f98[_0x2df147(0x16e)](_0x3e2045),_0x522c8e['push'](_0x3e2045),_0x1bb072[_0x2df147(0x16e)](_0x3e2045);}else{if(_0x4dbc0f===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x3e2045['id'],_0x3e2045[_0x2df147(0x1ce)]=0x2,_0xe08f98['push'](_0x3e2045),_0x522c8e['push'](_0x3e2045),_0x1ab5c8[_0x2df147(0x16e)](_0x3e2045);else{if(_0x1bb072[_0x2df147(0x113)]===0x0&&_0x1ab5c8[_0x2df147(0x113)]===0x0){let _0x549df5=_0x3e2045['id'];_0x3e2045[_0x2df147(0x1ce)]=0x1,_0xe08f98['push'](_0x3e2045),_0x522c8e[_0x2df147(0x16e)](_0x3e2045),_0x1bb072['push'](_0x3e2045);}else _0x1bb072['length']!==0x0&&_0x1ab5c8[_0x2df147(0x113)]===0x0&&(_0x482ac1=_0x3e2045['id'],_0x3e2045['internalSenatorId']=0x2,_0xe08f98[_0x2df147(0x16e)](_0x3e2045),_0x522c8e['push'](_0x3e2045),_0x1ab5c8[_0x2df147(0x16e)](_0x3e2045));}}}}),_0x263c03===0x2&&_0x4513c4[_0x2f6fdd(0x1d2)]['Present']['forEach'](_0x5eefab=>{const _0x366c57=_0x2f6fdd;if(_0x5eefab[_0x366c57(0x1a5)]===_0x2617c7){_0x3dc5c3(_0x5eefab),_0x5eefab['voteRecord']=_0x366c57(0x1a7);let _0x4438b7=_0x5eefab['id'];if(_0x4438b7===_0x1bb072[0x0]?.['id']){let _0x5cf45e=_0x5eefab['id'];_0x5eefab[_0x366c57(0x1ce)]=0x1,_0xe08f98[_0x366c57(0x16e)](_0x5eefab),_0x522c8e['push'](_0x5eefab),_0x1bb072[_0x366c57(0x16e)](_0x5eefab);}else{if(_0x4438b7===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x5eefab['id'],_0x5eefab[_0x366c57(0x1ce)]=0x2,_0xe08f98['push'](_0x5eefab),_0x522c8e[_0x366c57(0x16e)](_0x5eefab),_0x1ab5c8[_0x366c57(0x16e)](_0x5eefab);else{if(_0x1bb072['length']===0x0&&_0x1ab5c8[_0x366c57(0x113)]===0x0){let _0x144d1c=_0x5eefab['id'];_0x5eefab['internalSenatorId']=0x1,_0xe08f98[_0x366c57(0x16e)](_0x5eefab),_0x522c8e[_0x366c57(0x16e)](_0x5eefab),_0x1bb072[_0x366c57(0x16e)](_0x5eefab);}else _0x1bb072[_0x366c57(0x113)]!==0x0&&_0x1ab5c8['length']===0x0&&(_0x482ac1=_0x5eefab['id'],_0x5eefab[_0x366c57(0x1ce)]=0x2,_0xe08f98['push'](_0x5eefab),_0x522c8e[_0x366c57(0x16e)](_0x5eefab),_0x1ab5c8[_0x366c57(0x16e)](_0x5eefab));}}}}),_0x263c03===0x3&&_0x4513c4[_0x2f6fdd(0x1d2)][_0x2f6fdd(0x1b2)][_0x2f6fdd(0x191)](_0x381266=>{const _0x1a0d92=_0x2f6fdd;if(_0x381266[_0x1a0d92(0x1a5)]===_0x2617c7){_0x3dc5c3(_0x381266),_0x381266[_0x1a0d92(0x15c)]=_0x1a0d92(0x13f);let _0x37b806=_0x381266['id'];if(_0x37b806===_0x1bb072[0x0]?.['id']){let _0x4494e5=_0x381266['id'];_0x381266['internalSenatorId']=0x1,_0xe08f98[_0x1a0d92(0x16e)](_0x381266),_0x522c8e[_0x1a0d92(0x16e)](_0x381266),_0x1bb072['push'](_0x381266);}else{if(_0x37b806===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x381266['id'],_0x381266['internalSenatorId']=0x2,_0xe08f98[_0x1a0d92(0x16e)](_0x381266),_0x522c8e[_0x1a0d92(0x16e)](_0x381266),_0x1ab5c8[_0x1a0d92(0x16e)](_0x381266);else{if(_0x1bb072[_0x1a0d92(0x113)]===0x0&&_0x1ab5c8['length']===0x0){let _0x59969b=_0x381266['id'];_0x381266[_0x1a0d92(0x1ce)]=0x1,_0xe08f98[_0x1a0d92(0x16e)](_0x381266),_0x522c8e['push'](_0x381266),_0x1bb072['push'](_0x381266);}else _0x1bb072[_0x1a0d92(0x113)]!==0x0&&_0x1ab5c8[_0x1a0d92(0x113)]===0x0&&(_0x482ac1=_0x381266['id'],_0x381266['internalSenatorId']=0x2,_0xe08f98[_0x1a0d92(0x16e)](_0x381266),_0x522c8e[_0x1a0d92(0x16e)](_0x381266),_0x1ab5c8[_0x1a0d92(0x16e)](_0x381266));}}}});}});};function _0x300ea3(_0x4c7d35){const _0x11889c=_0x35f841;return allSenateVotingData[_0x11889c(0x191)](_0x2e7372=>{const _0x2a8314=_0x11889c;_0x2e7372['billNumber']=_0x2a8314(0x192)+_0x2e7372[_0x2a8314(0x167)],_0x2e7372[_0x2a8314(0x1d3)]=_0x2e7372[_0x2a8314(0x19f)];function _0x3fac6d(_0x57e77d){const _0x4aed54=_0x2a8314;_0x57e77d['voteId']=_0x2e7372[_0x4aed54(0x1b6)],_0x57e77d[_0x4aed54(0xf5)]=_0x2e7372['bill']?_0x2e7372[_0x4aed54(0xfe)]['title']:'',_0x57e77d[_0x4aed54(0x1d3)]=_0x2e7372[_0x4aed54(0x19f)];}for(let _0x416603=0x0;_0x416603<0x4;_0x416603++){_0x416603===0x0&&_0x2e7372['votes'][_0x2a8314(0xf9)][_0x2a8314(0x191)](_0x3a56fb=>{const _0xdcd48a=_0x2a8314;if(_0x3a56fb[_0xdcd48a(0x1a5)]===_0x4c7d35){_0x3fac6d(_0x3a56fb),_0x3a56fb[_0xdcd48a(0x15c)]=_0xdcd48a(0x137);let _0x201a6a=_0x3a56fb['id'];if(_0x201a6a===_0x1bb072[0x0]?.['id']){let _0x295dd8=_0x3a56fb['id'];_0x3a56fb['internalSenatorId']=0x1,_0xe08f98[_0xdcd48a(0x16e)](_0x3a56fb),_0x522c8e[_0xdcd48a(0x16e)](_0x3a56fb),_0x1bb072[_0xdcd48a(0x16e)](_0x3a56fb);}else{if(_0x201a6a===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x3a56fb['id'],_0x3a56fb[_0xdcd48a(0x1ce)]=0x2,_0xe08f98[_0xdcd48a(0x16e)](_0x3a56fb),_0x522c8e[_0xdcd48a(0x16e)](_0x3a56fb),_0x1ab5c8[_0xdcd48a(0x16e)](_0x3a56fb);else{if(_0x1bb072[_0xdcd48a(0x113)]===0x0&&_0x1ab5c8[_0xdcd48a(0x113)]===0x0){let _0x5897c6=_0x3a56fb['id'];_0x3a56fb[_0xdcd48a(0x1ce)]=0x1,_0xe08f98[_0xdcd48a(0x16e)](_0x3a56fb),_0x522c8e[_0xdcd48a(0x16e)](_0x3a56fb),_0x1bb072[_0xdcd48a(0x16e)](_0x3a56fb);}else _0x1bb072['length']!==0x0&&_0x1ab5c8[_0xdcd48a(0x113)]===0x0&&(_0x482ac1=_0x3a56fb['id'],_0x3a56fb[_0xdcd48a(0x1ce)]=0x2,_0xe08f98[_0xdcd48a(0x16e)](_0x3a56fb),_0x522c8e[_0xdcd48a(0x16e)](_0x3a56fb),_0x1ab5c8[_0xdcd48a(0x16e)](_0x3a56fb));}}}}),_0x416603===0x1&&_0x2e7372['votes'][_0x2a8314(0x117)]['forEach'](_0x3b90a5=>{const _0x102478=_0x2a8314;if(_0x3b90a5[_0x102478(0x1a5)]===_0x4c7d35){_0x3fac6d(_0x3b90a5),_0x3b90a5[_0x102478(0x15c)]='notVoting';let _0x1ebb0f=_0x3b90a5['id'];if(_0x1ebb0f===_0x1bb072[0x0]?.['id']){let _0xacb7b8=_0x3b90a5['id'];_0x3b90a5[_0x102478(0x1ce)]=0x1,_0xe08f98['push'](_0x3b90a5),_0x522c8e['push'](_0x3b90a5),_0x1bb072[_0x102478(0x16e)](_0x3b90a5);}else{if(_0x1ebb0f===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x3b90a5['id'],_0x3b90a5[_0x102478(0x1ce)]=0x2,_0xe08f98[_0x102478(0x16e)](_0x3b90a5),_0x522c8e[_0x102478(0x16e)](_0x3b90a5),_0x1ab5c8[_0x102478(0x16e)](_0x3b90a5);else{if(_0x1bb072[_0x102478(0x113)]===0x0&&_0x1ab5c8['length']===0x0){let _0x19b4e1=_0x3b90a5['id'];_0x3b90a5[_0x102478(0x1ce)]=0x1,_0xe08f98[_0x102478(0x16e)](_0x3b90a5),_0x522c8e[_0x102478(0x16e)](_0x3b90a5),_0x1bb072[_0x102478(0x16e)](_0x3b90a5);}else _0x1bb072['length']!==0x0&&_0x1ab5c8[_0x102478(0x113)]===0x0&&(_0x482ac1=_0x3b90a5['id'],_0x3b90a5[_0x102478(0x1ce)]=0x2,_0xe08f98['push'](_0x3b90a5),_0x522c8e[_0x102478(0x16e)](_0x3b90a5),_0x1ab5c8[_0x102478(0x16e)](_0x3b90a5));}}}}),_0x416603===0x2&&_0x2e7372['votes'][_0x2a8314(0x1ac)]['forEach'](_0x10e046=>{const _0x298d00=_0x2a8314;if(_0x10e046[_0x298d00(0x1a5)]===_0x4c7d35){_0x3fac6d(_0x10e046),_0x10e046[_0x298d00(0x15c)]=_0x298d00(0x1a7);let _0x20fdea=_0x10e046['id'];if(_0x20fdea===_0x1bb072[0x0]?.['id']){let _0x4c7920=_0x10e046['id'];_0x10e046[_0x298d00(0x1ce)]=0x1,_0xe08f98[_0x298d00(0x16e)](_0x10e046),_0x522c8e[_0x298d00(0x16e)](_0x10e046),_0x1bb072[_0x298d00(0x16e)](_0x10e046);}else{if(_0x20fdea===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x10e046['id'],_0x10e046[_0x298d00(0x1ce)]=0x2,_0xe08f98[_0x298d00(0x16e)](_0x10e046),_0x522c8e[_0x298d00(0x16e)](_0x10e046),_0x1ab5c8[_0x298d00(0x16e)](_0x10e046);else{if(_0x1bb072['length']===0x0&&_0x1ab5c8[_0x298d00(0x113)]===0x0){let _0x2b6be7=_0x10e046['id'];_0x10e046[_0x298d00(0x1ce)]=0x1,_0xe08f98['push'](_0x10e046),_0x522c8e[_0x298d00(0x16e)](_0x10e046),_0x1bb072['push'](_0x10e046);}else _0x1bb072[_0x298d00(0x113)]!==0x0&&_0x1ab5c8[_0x298d00(0x113)]===0x0&&(_0x482ac1=_0x10e046['id'],_0x10e046[_0x298d00(0x1ce)]=0x2,_0xe08f98['push'](_0x10e046),_0x522c8e[_0x298d00(0x16e)](_0x10e046),_0x1ab5c8['push'](_0x10e046));}}}}),_0x416603===0x3&&_0x2e7372[_0x2a8314(0x1d2)][_0x2a8314(0x1b2)][_0x2a8314(0x191)](_0x22e84e=>{const _0x18fb95=_0x2a8314;if(_0x22e84e[_0x18fb95(0x1a5)]===_0x4c7d35){_0x3fac6d(_0x22e84e),_0x22e84e[_0x18fb95(0x15c)]='yea';let _0x4960ee=_0x22e84e['id'];if(_0x4960ee===_0x1bb072[0x0]?.['id']){let _0x437987=_0x22e84e['id'];_0x22e84e[_0x18fb95(0x1ce)]=0x1,_0xe08f98[_0x18fb95(0x16e)](_0x22e84e),_0x522c8e[_0x18fb95(0x16e)](_0x22e84e),_0x1bb072[_0x18fb95(0x16e)](_0x22e84e);}else{if(_0x4960ee===_0x1ab5c8[0x0]?.['id'])_0x482ac1=_0x22e84e['id'],_0x22e84e[_0x18fb95(0x1ce)]=0x2,_0xe08f98[_0x18fb95(0x16e)](_0x22e84e),_0x522c8e['push'](_0x22e84e),_0x1ab5c8[_0x18fb95(0x16e)](_0x22e84e);else{if(_0x1bb072[_0x18fb95(0x113)]===0x0&&_0x1ab5c8[_0x18fb95(0x113)]===0x0){let _0x1e5a48=_0x22e84e['id'];_0x22e84e['internalSenatorId']=0x1,_0xe08f98[_0x18fb95(0x16e)](_0x22e84e),_0x522c8e[_0x18fb95(0x16e)](_0x22e84e),_0x1bb072[_0x18fb95(0x16e)](_0x22e84e);}else _0x1bb072[_0x18fb95(0x113)]!==0x0&&_0x1ab5c8[_0x18fb95(0x113)]===0x0&&(_0x482ac1=_0x22e84e['id'],_0x22e84e[_0x18fb95(0x1ce)]=0x2,_0xe08f98[_0x18fb95(0x16e)](_0x22e84e),_0x522c8e[_0x18fb95(0x16e)](_0x22e84e),_0x1ab5c8['push'](_0x22e84e));}}}});}});};function _0x1ec297(_0x107c0c,_0x3027aa,_0x4df6a5){const _0x4d5b5f=_0x35f841;_0x4a85df[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x3027aa[0x0]['first_name']+'\x20'+_0x3027aa[0x0][_0x4d5b5f(0x13b)],_0x222b00[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x0]),_0x16acc6[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x1]),_0xd2dfbf[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x2]),_0x2f200d[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x3]),_0x4c5067[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x4]),_0x16637c[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x5]),_0x2b45aa['firstChild'][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x6]),_0x504177['firstChild']['nodeValue']=_0xecca5e(_0x3027aa[0x7]),_0x49e954['firstChild'][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x8]),_0x23a969[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x3027aa[0x9]),_0x57a2a7[_0x4d5b5f(0x1ed)]['nodeValue']=_0xc20721(_0x3027aa[0x0]),_0x75abcb[_0x4d5b5f(0x1ed)]['nodeValue']=_0xc20721(_0x3027aa[0x1]),_0x199710[_0x4d5b5f(0x1ed)]['nodeValue']=_0xc20721(_0x3027aa[0x2]),_0x7c5d14[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x3]),_0x137026[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x4]),_0x341139['firstChild'][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x5]),_0x1cf768[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x6]),_0x360b42[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x7]),_0x32d632[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x8]),_0x10fc7c[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x3027aa[0x9]),_0x4b9a5b[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x0][_0x4d5b5f(0x17e)],_0x56cd52[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x1]['billNumber'],_0x14dfdf[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x2][_0x4d5b5f(0x17e)],_0x4df5ff['firstChild'][_0x4d5b5f(0x1bc)]=_0x107c0c[0x3]['billNumber'],_0x508e25[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x4]['billNumber'],_0x10feea[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x5][_0x4d5b5f(0x17e)],_0x3b1458[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x6]['billNumber'],_0x4b76bb['firstChild'][_0x4d5b5f(0x1bc)]=_0x107c0c[0x7][_0x4d5b5f(0x17e)],_0x52ecc2[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x8][_0x4d5b5f(0x17e)],_0x144980[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x9][_0x4d5b5f(0x17e)],_0x2c40bc['firstChild']['nodeValue']=_0x3027aa[0x0][_0x4d5b5f(0x1d3)],_0x56a557[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x3027aa[0x1][_0x4d5b5f(0x1d3)],_0x59387a[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x3027aa[0x2][_0x4d5b5f(0x1d3)],_0x14f8ae['firstChild'][_0x4d5b5f(0x1bc)]=_0x3027aa[0x3]['billSubject'],_0x5a7f50[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x3027aa[0x4]['billSubject'],_0x55aab9[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x3027aa[0x5][_0x4d5b5f(0x1d3)],_0x53adee['firstChild'][_0x4d5b5f(0x1bc)]=_0x3027aa[0x6]['billSubject'],_0x1ffd06[_0x4d5b5f(0x1ed)]['nodeValue']=_0x3027aa[0x7][_0x4d5b5f(0x1d3)],_0x3677e3['firstChild']['nodeValue']=_0x3027aa[0x8][_0x4d5b5f(0x1d3)],_0x219efe['firstChild']['nodeValue']=_0x3027aa[0x9]['billSubject'],_0x1853db['setAttribute']('href',_0x107c0c[0x0][_0x4d5b5f(0x123)]),_0x2672ca[_0x4d5b5f(0x1e3)]('href',_0x107c0c[0x1]['source_url']),_0x157531['setAttribute']('href',_0x107c0c[0x2]['source_url']),_0x5a8085['setAttribute'](_0x4d5b5f(0x116),_0x107c0c[0x3][_0x4d5b5f(0x123)]),_0x576c51[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x4][_0x4d5b5f(0x123)]),_0x1d5771[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x5][_0x4d5b5f(0x123)]),_0x1422ac['setAttribute'](_0x4d5b5f(0x116),_0x107c0c[0x6][_0x4d5b5f(0x123)]),_0x52f521[_0x4d5b5f(0x1e3)]('href',_0x107c0c[0x7][_0x4d5b5f(0x123)]),_0x3ca254[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x8][_0x4d5b5f(0x123)]),_0x1f98bb[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x9][_0x4d5b5f(0x123)]),_0x5afb21[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x0][_0x4d5b5f(0x123)]),_0x442c6a[_0x4d5b5f(0x1e3)]('href',_0x107c0c[0x1][_0x4d5b5f(0x123)]),_0x3b03bc[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x2]['source_url']),_0x47aa26[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x3][_0x4d5b5f(0x123)]),_0x4c0d2f[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x4][_0x4d5b5f(0x123)]),_0xf08c9e[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x5][_0x4d5b5f(0x123)]),_0x2e7d45['setAttribute'](_0x4d5b5f(0x116),_0x107c0c[0x6][_0x4d5b5f(0x123)]),_0x11280b['setAttribute']('href',_0x107c0c[0x7][_0x4d5b5f(0x123)]),_0x434cd2[_0x4d5b5f(0x1e3)](_0x4d5b5f(0x116),_0x107c0c[0x8][_0x4d5b5f(0x123)]),_0xdae00b['setAttribute'](_0x4d5b5f(0x116),_0x107c0c[0x9][_0x4d5b5f(0x123)]),_0x52a420['firstChild'][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x0][_0x4d5b5f(0x154)]+'\x20'+_0x4df6a5[0x0][_0x4d5b5f(0x13b)],_0x151660['firstChild'][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x0]),_0x16b1a3[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x1]),_0x266de5[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x2]),_0x366da9[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x3]),_0x2276f4[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x4]),_0x26eed3[_0x4d5b5f(0x1ed)]['nodeValue']=_0xecca5e(_0x4df6a5[0x5]),_0x36d2fc[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x6]),_0x5e64b9[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x7]),_0xf630c4[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x8]),_0x578e43[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xecca5e(_0x4df6a5[0x9]),_0x256344[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x0]),_0x178ba3[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x1]),_0x5c0638['firstChild'][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x2]),_0x413bdd['firstChild'][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x3]),_0x560174['firstChild']['nodeValue']=_0xc20721(_0x4df6a5[0x4]),_0x205936['firstChild'][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x5]),_0x190242[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x6]),_0x366f8b[_0x4d5b5f(0x1ed)]['nodeValue']=_0xc20721(_0x4df6a5[0x7]),_0x5070d7[_0x4d5b5f(0x1ed)]['nodeValue']=_0xc20721(_0x4df6a5[0x8]),_0x7ca63c[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0xc20721(_0x4df6a5[0x9]),_0x36366e[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x0][_0x4d5b5f(0x17e)],_0x2b2245[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x1][_0x4d5b5f(0x17e)],_0xe7f17f[_0x4d5b5f(0x1ed)]['nodeValue']=_0x107c0c[0x2][_0x4d5b5f(0x17e)],_0x4332ea[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x3][_0x4d5b5f(0x17e)],_0x5c949d[_0x4d5b5f(0x1ed)]['nodeValue']=_0x107c0c[0x4][_0x4d5b5f(0x17e)],_0x4d96b8[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x5][_0x4d5b5f(0x17e)],_0x306d19[_0x4d5b5f(0x1ed)]['nodeValue']=_0x107c0c[0x6][_0x4d5b5f(0x17e)],_0xea6fb1[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x107c0c[0x7][_0x4d5b5f(0x17e)],_0x4dd488['firstChild'][_0x4d5b5f(0x1bc)]=_0x107c0c[0x8][_0x4d5b5f(0x17e)],_0x5358c3[_0x4d5b5f(0x1ed)]['nodeValue']=_0x107c0c[0x9][_0x4d5b5f(0x17e)],_0x20ebce[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x0][_0x4d5b5f(0x1d3)],_0x291b52[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x1][_0x4d5b5f(0x1d3)],_0xfe6a23['firstChild'][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x2][_0x4d5b5f(0x1d3)],_0x43e1bd[_0x4d5b5f(0x1ed)]['nodeValue']=_0x4df6a5[0x3]['billSubject'],_0x3eb1f9[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x4][_0x4d5b5f(0x1d3)],_0x14b7dc[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x5][_0x4d5b5f(0x1d3)],_0x29994f['firstChild'][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x6][_0x4d5b5f(0x1d3)],_0x59ac2a[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x7][_0x4d5b5f(0x1d3)],_0x509d05[_0x4d5b5f(0x1ed)][_0x4d5b5f(0x1bc)]=_0x4df6a5[0x8]['billSubject'],_0x333142[_0x4d5b5f(0x1ed)]['nodeValue']=_0x4df6a5[0x9][_0x4d5b5f(0x1d3)];};function _0x5bbae3(_0x1e597d,_0x2d38ae,_0xff61ad){const _0x502432=_0x35f841;_0x226348[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x0][_0x502432(0x154)]+'\x20'+_0x2d38ae[0x0][_0x502432(0x13b)],_0x5f4bf4[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x0]),_0x5a7512[_0x502432(0x1ed)]['nodeValue']=_0xecca5e(_0x2d38ae[0x1]),_0xe83a53[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x2]),_0x444082[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x3]),_0x3d6764[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x4]),_0x54bb18[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x5]),_0x59d29['firstChild'][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x6]),_0x4327c0[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x7]),_0x155f25[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x8]),_0x98c3ce[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0x2d38ae[0x9]),_0xc935f7['firstChild'][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x0]),_0x4c08c6[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x1]),_0xb00f50[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x2]),_0x13a7f4[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x3]),_0x5acdf0[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x4]),_0xc0e9cf[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x5]),_0x50efce[_0x502432(0x1ed)]['nodeValue']=_0xc20721(_0x2d38ae[0x6]),_0x2e3109[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x7]),_0x3030c4[_0x502432(0x1ed)]['nodeValue']=_0xc20721(_0x2d38ae[0x8]),_0x21f588[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0x2d38ae[0x9]),_0x200eb7[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x0][_0x502432(0x17e)],_0x3ad244[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x1][_0x502432(0x17e)],_0x341d02[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x2][_0x502432(0x17e)],_0x4c3e0b[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x3][_0x502432(0x17e)],_0x1de07d[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x4][_0x502432(0x17e)],_0x11d9d4[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x5]['billNumber'],_0x34d14c[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x6]['billNumber'],_0x3ca599[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x7]['billNumber'],_0x17c2f7['firstChild']['nodeValue']=_0x1e597d[0x8][_0x502432(0x17e)],_0x223a3f[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x9][_0x502432(0x17e)],_0x383b3c['firstChild'][_0x502432(0x1bc)]=_0x2d38ae[0x0][_0x502432(0x1d3)],_0x5c492d[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x1][_0x502432(0x1d3)],_0x6b07be[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x2][_0x502432(0x1d3)],_0x5970ed[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x3][_0x502432(0x1d3)],_0x4ce800['firstChild'][_0x502432(0x1bc)]=_0x2d38ae[0x4][_0x502432(0x1d3)],_0x3ad465[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x5][_0x502432(0x1d3)],_0x1d9854[_0x502432(0x1ed)]['nodeValue']=_0x2d38ae[0x6][_0x502432(0x1d3)],_0x54caeb[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x2d38ae[0x7][_0x502432(0x1d3)],_0x2e0e29[_0x502432(0x1ed)]['nodeValue']=_0x2d38ae[0x8][_0x502432(0x1d3)],_0x3d9475['firstChild'][_0x502432(0x1bc)]=_0x2d38ae[0x9][_0x502432(0x1d3)],_0x87a85e[_0x502432(0x1ed)]['nodeValue']=_0xff61ad[0x0]['first_name']+'\x20'+_0xff61ad[0x0]['display_name'],_0xa568f3[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x0]),_0x345c37[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x1]),_0xdb0b0b['firstChild']['nodeValue']=_0xecca5e(_0xff61ad[0x2]),_0x1ee8a2[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x3]),_0x1835c7[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x4]),_0xdac271[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x5]),_0x1ef6f4[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x6]),_0x553aaa['firstChild'][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x7]),_0x38018a[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x8]),_0x32af23[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xecca5e(_0xff61ad[0x9]),_0x498d17['firstChild'][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x0]),_0x4bcb10[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x1]),_0x43b3c4[_0x502432(0x1ed)]['nodeValue']=_0xc20721(_0xff61ad[0x2]),_0x133b9f[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x3]),_0x4935ce[_0x502432(0x1ed)]['nodeValue']=_0xc20721(_0xff61ad[0x4]),_0x4cddb2['firstChild'][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x5]),_0x153898[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x6]),_0x341e6e[_0x502432(0x1ed)]['nodeValue']=_0xc20721(_0xff61ad[0x7]),_0x4b02f2[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x8]),_0x2e286b[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xc20721(_0xff61ad[0x9]),_0x4a1439[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x0][_0x502432(0x17e)],_0x6447e7[_0x502432(0x1ed)]['nodeValue']=_0x1e597d[0x1][_0x502432(0x17e)],_0x49616e[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x2][_0x502432(0x17e)],_0x93b953[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x3][_0x502432(0x17e)],_0x31749a['firstChild'][_0x502432(0x1bc)]=_0x1e597d[0x4][_0x502432(0x17e)],_0x4b3188[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x5][_0x502432(0x17e)],_0x264b83[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x6][_0x502432(0x17e)],_0x41a9d8[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0x1e597d[0x7]['billNumber'],_0x154afb['firstChild'][_0x502432(0x1bc)]=_0x1e597d[0x8][_0x502432(0x17e)],_0x348ba0['firstChild'][_0x502432(0x1bc)]=_0x1e597d[0x9][_0x502432(0x17e)],_0x1082f7[_0x502432(0x1ed)]['nodeValue']=_0xff61ad[0x0][_0x502432(0x1d3)],_0x59977a[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x1][_0x502432(0x1d3)],_0x191ee3[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x2][_0x502432(0x1d3)],_0x540554[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x3][_0x502432(0x1d3)],_0x1c11a2['firstChild'][_0x502432(0x1bc)]=_0xff61ad[0x4]['billSubject'],_0x48cc51[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x5]['billSubject'],_0x5a5f6f['firstChild'][_0x502432(0x1bc)]=_0xff61ad[0x6][_0x502432(0x1d3)],_0x5e4646[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x7]['billSubject'],_0x475d05[_0x502432(0x1ed)]['nodeValue']=_0xff61ad[0x8][_0x502432(0x1d3)],_0x3b5ae6[_0x502432(0x1ed)][_0x502432(0x1bc)]=_0xff61ad[0x9][_0x502432(0x1d3)];};if(_0x4bd386===null)$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2));else{if(_0x377567['id']==0x30)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['texas'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('TX'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x6)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1db)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('CA'),$(_0x35f841(0x1df))['fadeIn'](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x24)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x183)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('NY'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x32)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1a1)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('VT'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x21)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x108)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('NH'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x17)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x15b)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('ME'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x19)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x161)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('MA'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2c)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1ae)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('RI'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x9)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x12b)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('CT'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x22)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0xef)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('NJ'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2a)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x143)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('PA'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x27)_0x4bd386['firstChild']['nodeValue']='Selected:\x20'+statesData[_0x35f841(0x145)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('OH'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x36)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1d6)],$('#state-name')['fadeIn'](),_0x26bbb1('WV'),$(_0x35f841(0x1df))['fadeIn']('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x33)_0x4bd386['firstChild']['nodeValue']='Selected:\x20'+statesData['virginia'],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('VA'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0xa)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x114)],$('#state-name')['fadeIn'](),_0x26bbb1('DE'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x18)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']='Selected:\x20'+statesData[_0x35f841(0xdd)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('MD'),$(_0x35f841(0x1df))['fadeIn']('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x25)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x153)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('NC'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2d)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x15a)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('SC'),$(_0x35f841(0x1df))['fadeIn'](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x15)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x14f)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('KY'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow','linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2f)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x15f)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('TN'),$(_0x35f841(0x1df))['fadeIn']('slow','linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0xd)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x19b)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('GA'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0xc)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1d9)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('FL'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow','linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x149)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('AL'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1c)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x111)],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('MS'),$(_0x35f841(0x1df))['fadeIn']('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x11)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x128)],_0x26bbb1('IL'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow','linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8),$(_0x35f841(0x159))[_0x35f841(0x101)]();else{if(_0x377567['id']==0x12)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['indiana'],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('IN'),$(_0x35f841(0x1df))['fadeIn'](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1a)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x19c)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('MI'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x37)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x1ab)],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('WI'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1b)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['minnesota'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('MN'),$(_0x35f841(0x1df))['fadeIn'](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x13)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData['iowa'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('IA'),$('#customSelectOutput')['fadeIn'](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1d)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x157)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('MO'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x5)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x1b7)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('AR'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x16)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['louisiana'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('LA'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x26)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x18d)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('ND'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2e)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x16c)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('SD'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1f)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['nebraska'],$('#state-name')['fadeIn'](),_0x26bbb1('NE'),$('#customSelectOutput')['fadeIn'](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x14)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0xfb)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('KS'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x28)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x18e)],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('OK'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x23)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData['newmexico'],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('NM'),$(_0x35f841(0x1df))['fadeIn'](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x8)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['colorado'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('CO'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x38)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['wyoming'],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('WY'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow','linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x1e)_0x4bd386[_0x35f841(0x1ed)]['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x16b)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('MT'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x10)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x16a)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('ID'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x31)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['utah'],$('#state-name')['fadeIn'](),_0x26bbb1('UT'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x4)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData['arizona'],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('AZ'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x20)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0xe1)],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('NV'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x29)_0x4bd386['firstChild']['nodeValue']=_0x35f841(0x13e)+statesData[_0x35f841(0x197)],$(_0x35f841(0x159))[_0x35f841(0x101)](),_0x26bbb1('OR'),$(_0x35f841(0x1df))[_0x35f841(0x101)]('slow',_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x35)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x16f)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('WA'),$(_0x35f841(0x1df))[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0x2)_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x106)],$('#state-name')[_0x35f841(0x101)](),_0x26bbb1('AK'),$('#customSelectOutput')[_0x35f841(0x101)](_0x35f841(0x152),_0x35f841(0x1c2)),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else{if(_0x377567['id']==0xf)_0x4bd386['firstChild'][_0x35f841(0x1bc)]=_0x35f841(0x13e)+statesData[_0x35f841(0x11c)],$(_0x35f841(0x159))['fadeIn'](),_0x26bbb1('HI'),$('#customSelectOutput')['fadeIn'](_0x35f841(0x152),'linear'),_0x1ec297(allSenateVotingData,_0x1bb072,_0x1ab5c8);else _0x377567['id']==0xb?(_0x4bd386[_0x35f841(0x1ed)][_0x35f841(0x1bc)]='Selected:\x20'+statesData[_0x35f841(0x13c)],$(_0x35f841(0x159))[_0x35f841(0x101)]()):$(_0x35f841(0x1df))[_0x35f841(0x125)]('slow',_0x35f841(0x1c2));}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}_0xfce26d();if(active[_0x493974(0x12c)]()===this)return reset();active['classed'](_0x493974(0x1d4),![]),active=d3[_0x493974(0x110)](this)[_0x493974(0x119)](_0x493974(0x1d4),!![]);var _0x4b40b2=path[_0x493974(0x18b)](_0x377567),_0x4831aa=_0x4b40b2[0x1][0x0]-_0x4b40b2[0x0][0x0],_0x1bdbe3=_0x4b40b2[0x1][0x1]-_0x4b40b2[0x0][0x1],_0x3bf6fe=(_0x4b40b2[0x0][0x0]+_0x4b40b2[0x1][0x0])/0x2,_0x4a73c6=(_0x4b40b2[0x0][0x1]+_0x4b40b2[0x1][0x1])/0x2,_0x350035=0.9/Math[_0x493974(0x1a2)](_0x4831aa/width,_0x1bdbe3/height),_0xfb6ef8=[width/0x2-_0x350035*_0x3bf6fe,height/0x2-_0x350035*_0x4a73c6];g[_0x493974(0x11f)]()[_0x493974(0x11d)](0x2ee)[_0x493974(0x127)]('stroke-width',1.5/_0x350035+'px')[_0x493974(0x18a)]('transform',_0x493974(0xe7)+_0xfb6ef8+')scale('+_0x350035+')');}function reset(){const _0x810b87=_0x1b2959;active['classed']('active',![]),active=d3[_0x810b87(0x110)](null),g[_0x810b87(0x11f)]()[_0x810b87(0x11d)](0x2ee)[_0x810b87(0x127)](_0x810b87(0x1cf),'1.5px')[_0x810b87(0x18a)]('transform','');}
+        </script>
+                                
+
+                                <section id="about-us" class="wow fadeIn ptb ptb-sm-80">
+                                    <div class="container">
+                                        <div class="row text-center">
+                                            <div class="col-lg-12">
+                                                <h2>About Us</h2>
+                                                <img src="images/6_14.png" alt="tracking congress logo" width="550" />
+                                            </div>
+                        
+                                        </div>
+                                        <div class="spacer-15"></div>
+                                        <p class="about-us-description">Our mission is to create a modern web app for exploring the latest events of the world's most infuential governmental body, the United States Congress.</p>
+                                        <div class="spacer-15"></div>
+                                        <p class="about-us-description">We strive to create greater transparency of government with an app that allows everyone to see the recent activites of their representatives.</p>
+
+                                    </div>
+                                </section>
+
+        <footer id="footer" class="footer section-padding gray-bg">
+            <div class="container text-center">
+                <div class="footer-logo mb-25 wow fadeInUp" data-wow-duration="1.5s">
+                    <a class="scroll-top" href="#intro">
+                    </a>
+                </div>
+
+                <p class="copyright mb-25">&copy; <a>2022 <b>Scientific Politics LLC</b></a>. All Rights Reserved.<br></p>
+            </div>
+        </footer>
+        </div>
     </div>
 
+    <script src="statesData.js"></script>
+    <script src="./rawData/senateFiles/data1.js"></script>
+    <script src="./rawData/senateFiles/data2.js"></script>
+    <script src="./rawData/senateFiles/data3.js"></script>
+    <script src="./rawData/senateFiles/data4.js"></script>
+    <script src="./rawData/senateFiles/data5.js"></script>
+    <script src="./rawData/senateFiles/data6.js"></script>
+    <script src="./rawData/senateFiles/data7.js"></script>
+    <script src="./rawData/senateFiles/data8.js"></script>
+    <script src="./rawData/senateFiles/data9.js"></script>
+    <script src="./rawData/senateFiles/data10.js"></script>
 
+    <script src="./rawData/houseFiles/data1.js"></script>
+    <script src="./rawData/houseFiles/data2.js"></script>
+    <script src="./rawData/houseFiles/data3.js"></script>
+    <script src="./rawData/houseFiles/data4.js"></script>
+    <script src="./rawData/houseFiles/data5.js"></script>
+    <script src="./rawData/houseFiles/data6.js"></script>
+    <script src="./rawData/houseFiles/data7.js"></script>
+    <script src="./rawData/houseFiles/data8.js"></script>
+    <script src="./rawData/houseFiles/data9.js"></script>
+    <script src="./rawData/houseFiles/data10.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      function _0x53d1(_0x486a39,_0x413aeb){const _0x12d3d7=_0x12d3();return _0x53d1=function(_0x53d179,_0x534d16){_0x53d179=_0x53d179-0x1bb;let _0x2c61b7=_0x12d3d7[_0x53d179];return _0x2c61b7;},_0x53d1(_0x486a39,_0x413aeb);}const _0x24ce9d=_0x53d1;(function(_0xbde5eb,_0x3a1dc3){const _0x213b18=_0x53d1,_0x3b03e1=_0xbde5eb();while(!![]){try{const _0x8ae139=parseInt(_0x213b18(0x201))/0x1+-parseInt(_0x213b18(0x1db))/0x2+parseInt(_0x213b18(0x202))/0x3+-parseInt(_0x213b18(0x1eb))/0x4+parseInt(_0x213b18(0x1df))/0x5*(-parseInt(_0x213b18(0x1ee))/0x6)+parseInt(_0x213b18(0x1d3))/0x7*(-parseInt(_0x213b18(0x1c9))/0x8)+parseInt(_0x213b18(0x1f2))/0x9;if(_0x8ae139===_0x3a1dc3)break;else _0x3b03e1['push'](_0x3b03e1['shift']());}catch(_0x40ac12){_0x3b03e1['push'](_0x3b03e1['shift']());}}}(_0x12d3,0x54892));let senateVoteCalculation1={},senateVoteCalculation2={},senateVoteCalculation3={},senateVoteCalculation4={},senateVoteCalculation5={},senateVoteCalculation6={},senateVoteCalculation7={},senateVoteCalculation8={},senateVoteCalculation9={},senateVoteCalculation10={},houseVoteCalculation1={},houseVoteCalculation2={},houseVoteCalculation3={},houseVoteCalculation4={},houseVoteCalculation5={},houseVoteCalculation6={},houseVoteCalculation7={},houseVoteCalculation8={},houseVoteCalculation9={},houseVoteCalculation10={};function repChartHelper(_0x2f6cef){const _0x2ee882=_0x53d1;let _0x67b8c0=0x0;return _0x2f6cef[_0x2ee882(0x1bb)](_0x293c2f=>{const _0x43f3c0=_0x2ee882;if(_0x293c2f['hasOwnProperty'](_0x43f3c0(0x1f8)))_0x293c2f[_0x43f3c0(0x1f8)][_0x43f3c0(0x1d8)]('R')&&(_0x67b8c0+=0x1);else _0x293c2f[_0x43f3c0(0x1d2)]('display_name')&&(_0x293c2f[_0x43f3c0(0x1da)][_0x43f3c0(0x1d8)]('(R-')&&(_0x67b8c0+=0x1));}),_0x67b8c0;}function demChartHelper(_0x7b0680){const _0x36b954=_0x53d1;let _0x1b3bb9=0x0;return _0x7b0680[_0x36b954(0x1bb)](_0xed6dc5=>{const _0x510033=_0x36b954;if(_0xed6dc5[_0x510033(0x1d2)](_0x510033(0x1f8)))(_0xed6dc5[_0x510033(0x1f8)][_0x510033(0x1d8)]('D')||_0xed6dc5[_0x510033(0x1f8)][_0x510033(0x1d8)]('I'))&&(_0x1b3bb9+=0x1);else _0xed6dc5['hasOwnProperty'](_0x510033(0x1da))&&((_0xed6dc5[_0x510033(0x1da)]['includes'](_0x510033(0x1dd))||_0xed6dc5[_0x510033(0x1da)][_0x510033(0x1d8)]('(I-'))&&(_0x1b3bb9+=0x1));}),_0x1b3bb9;}function generateSenateVoteChartValues(_0x3290af,_0x21012a){const _0x5f271f=_0x53d1;if(_0x21012a===0x0)_0x3290af[_0x5f271f(0x1c3)]==='amendment'?(senateVoteCalculation1['repsInFavor']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation1[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation1['repsAgainst']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation1[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation1[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation1[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Yea']),senateVoteCalculation1['repsAgainst']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay']),senateVoteCalculation1[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation1['didNotVote']=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)]['length'];else{if(_0x21012a===0x1)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation2[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation2[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af['votes'][_0x5f271f(0x1fd)]),senateVoteCalculation2['repsAgainst']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation2['demsAgainst']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation2[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation2[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Yea']),senateVoteCalculation2[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)]),senateVoteCalculation2[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation2['didNotVote']=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)]['length']+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x2)_0x3290af['category']===_0x5f271f(0x1d5)?(senateVoteCalculation3[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation3[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation3[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation3[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation3[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation3['demsInFavor']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation3['repsAgainst']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay']),senateVoteCalculation3[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation3['didNotVote']=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x3)_0x3290af['category']===_0x5f271f(0x1d5)?(senateVoteCalculation4['repsInFavor']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation4['demsInFavor']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation4[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation4[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation4['repsInFavor']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation4[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation4[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)]),senateVoteCalculation4[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay'])),senateVoteCalculation4[_0x5f271f(0x1fc)]=_0x3290af['votes'][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x4)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation5[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation5[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation5['repsAgainst']=repChartHelper(_0x3290af['votes']['No']),senateVoteCalculation5[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af['votes']['No'])):(senateVoteCalculation5[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation5[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation5['repsAgainst']=repChartHelper(_0x3290af['votes'][_0x5f271f(0x1de)]),senateVoteCalculation5[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation5[_0x5f271f(0x1fc)]=_0x3290af['votes'][_0x5f271f(0x1ed)]['length']+_0x3290af['votes']['Present'][_0x5f271f(0x1e0)];else{if(_0x21012a===0x5)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation6[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation6[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation6[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation6[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation6[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Yea']),senateVoteCalculation6[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af['votes']['Yea']),senateVoteCalculation6[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af['votes'][_0x5f271f(0x1de)]),senateVoteCalculation6[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay'])),senateVoteCalculation6[_0x5f271f(0x1fc)]=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x6)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation7[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation7[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation7[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af['votes']['No']),senateVoteCalculation7[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af['votes']['No'])):(senateVoteCalculation7[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation7['demsInFavor']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation7[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay']),senateVoteCalculation7[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation7[_0x5f271f(0x1fc)]=_0x3290af['votes']['Not\x20Voting'][_0x5f271f(0x1e0)]+_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x7)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation8[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af['votes']['Aye']),senateVoteCalculation8[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af['votes']['Aye']),senateVoteCalculation8[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation8[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation8[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation8[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation8[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Nay']),senateVoteCalculation8['demsAgainst']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation8[_0x5f271f(0x1fc)]=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af['votes'][_0x5f271f(0x200)][_0x5f271f(0x1e0)];else{if(_0x21012a===0x8)_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation9[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation9[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af['votes'][_0x5f271f(0x1fd)]),senateVoteCalculation9[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation9[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation9['repsInFavor']=repChartHelper(_0x3290af['votes'][_0x5f271f(0x1e1)]),senateVoteCalculation9['demsInFavor']=demChartHelper(_0x3290af['votes']['Yea']),senateVoteCalculation9[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)]),senateVoteCalculation9[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation9[_0x5f271f(0x1fc)]=_0x3290af['votes']['Not\x20Voting']['length']+_0x3290af['votes']['Present']['length'];else _0x21012a===0x9&&(_0x3290af[_0x5f271f(0x1c3)]===_0x5f271f(0x1d5)?(senateVoteCalculation10['repsInFavor']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['Aye']),senateVoteCalculation10[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1fd)]),senateVoteCalculation10[_0x5f271f(0x1bc)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No']),senateVoteCalculation10['demsAgainst']=demChartHelper(_0x3290af[_0x5f271f(0x1e2)]['No'])):(senateVoteCalculation10[_0x5f271f(0x1f1)]=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation10[_0x5f271f(0x1c1)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1e1)]),senateVoteCalculation10['repsAgainst']=repChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)]),senateVoteCalculation10[_0x5f271f(0x1c6)]=demChartHelper(_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1de)])),senateVoteCalculation10[_0x5f271f(0x1fc)]=_0x3290af[_0x5f271f(0x1e2)][_0x5f271f(0x1ed)][_0x5f271f(0x1e0)]+_0x3290af['votes'][_0x5f271f(0x200)]['length']);}}}}}}}}}function generateHouseVoteChartValues(_0x560c2a,_0x3083b9){const _0x2bb945=_0x53d1;if(_0x3083b9===0x0)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation1['repsInFavor']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Aye']),houseVoteCalculation1[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation1[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation1[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation1[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation1[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation1[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)]),houseVoteCalculation1['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation1[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)]['length'];else{if(_0x3083b9===0x1)_0x560c2a['category']===_0x2bb945(0x1d5)?(houseVoteCalculation2[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation2['demsInFavor']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation2['repsAgainst']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation2['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation2[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation2[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1e1)]),houseVoteCalculation2[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a['votes']['Nay']),houseVoteCalculation2[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation2[_0x2bb945(0x1fc)]=_0x560c2a['votes'][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x2)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation3[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation3[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1fd)]),houseVoteCalculation3[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a['votes']['No']),houseVoteCalculation3['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation3['repsInFavor']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Yea']),houseVoteCalculation3[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation3[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Nay']),houseVoteCalculation3['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Nay'])),houseVoteCalculation3[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)]['Present'][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x3)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation4[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Aye']),houseVoteCalculation4['demsInFavor']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation4[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation4[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation4['repsInFavor']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation4['demsInFavor']=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1e1)]),houseVoteCalculation4[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)]),houseVoteCalculation4[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation4[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x4)_0x560c2a[_0x2bb945(0x1c3)]==='amendment'?(houseVoteCalculation5['repsInFavor']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation5[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Aye']),houseVoteCalculation5[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a['votes']['No']),houseVoteCalculation5[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation5[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation5['demsInFavor']=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1e1)]),houseVoteCalculation5[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a['votes']['Nay']),houseVoteCalculation5['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Nay'])),houseVoteCalculation5[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1ed)]['length']+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x5)_0x560c2a[_0x2bb945(0x1c3)]==='amendment'?(houseVoteCalculation6[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation6[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Aye']),houseVoteCalculation6[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation6[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation6['repsInFavor']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation6['demsInFavor']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Yea']),houseVoteCalculation6[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a['votes'][_0x2bb945(0x1de)]),houseVoteCalculation6[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation6[_0x2bb945(0x1fc)]=_0x560c2a['votes'][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x6)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation7['repsInFavor']=repChartHelper(_0x560c2a['votes'][_0x2bb945(0x1fd)]),houseVoteCalculation7[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1fd)]),houseVoteCalculation7[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation7['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation7[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation7['demsInFavor']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation7[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)]),houseVoteCalculation7[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation7[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)]['Not\x20Voting']['length']+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)]['length'];else{if(_0x3083b9===0x7)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation8[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation8[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Aye']),houseVoteCalculation8['repsAgainst']=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation8[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation8[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Yea']),houseVoteCalculation8[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Yea']),houseVoteCalculation8[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)]),houseVoteCalculation8[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)])),houseVoteCalculation8[_0x2bb945(0x1fc)]=_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1ed)]['length']+_0x560c2a['votes'][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else{if(_0x3083b9===0x8)_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation9[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation9[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation9[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation9[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a['votes']['No'])):(houseVoteCalculation9[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation9[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation9['repsAgainst']=repChartHelper(_0x560c2a['votes']['Nay']),houseVoteCalculation9['demsAgainst']=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['Nay'])),houseVoteCalculation9[_0x2bb945(0x1fc)]=_0x560c2a['votes'][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)];else _0x3083b9===0x9&&(_0x560c2a[_0x2bb945(0x1c3)]===_0x2bb945(0x1d5)?(houseVoteCalculation10[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1fd)]),houseVoteCalculation10[_0x2bb945(0x1c1)]=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1fd)]),houseVoteCalculation10[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No']),houseVoteCalculation10[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a[_0x2bb945(0x1e2)]['No'])):(houseVoteCalculation10[_0x2bb945(0x1f1)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1e1)]),houseVoteCalculation10['demsInFavor']=demChartHelper(_0x560c2a['votes'][_0x2bb945(0x1e1)]),houseVoteCalculation10[_0x2bb945(0x1bc)]=repChartHelper(_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x1de)]),houseVoteCalculation10[_0x2bb945(0x1c6)]=demChartHelper(_0x560c2a['votes']['Nay'])),houseVoteCalculation10[_0x2bb945(0x1fc)]=_0x560c2a['votes'][_0x2bb945(0x1ed)][_0x2bb945(0x1e0)]+_0x560c2a[_0x2bb945(0x1e2)][_0x2bb945(0x200)][_0x2bb945(0x1e0)]);}}}}}}}}}const senateBillNumber1=document['getElementById'](_0x24ce9d(0x1e9)),senateBillNumber2=document[_0x24ce9d(0x1bf)]('senate-bill-number-2'),senateBillNumber3=document[_0x24ce9d(0x1bf)]('senate-bill-number-3'),senateBillNumber4=document['getElementById'](_0x24ce9d(0x1c0)),senateBillNumber5=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1f6)),senateBillNumber6=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1f5)),senateBillNumber7=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1c4)),senateBillNumber8=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1c2)),senateBillNumber9=document['getElementById'](_0x24ce9d(0x1e7)),senateBillNumber10=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1d9)),houseBillNumber1=document[_0x24ce9d(0x1bf)]('house-bill-number-1'),houseBillNumber2=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1c7)),houseBillNumber3=document['getElementById'](_0x24ce9d(0x1f9)),houseBillNumber4=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1f4)),houseBillNumber5=document[_0x24ce9d(0x1bf)]('house-bill-number-5'),houseBillNumber6=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1cf)),houseBillNumber7=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1ef)),houseBillNumber8=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1e5)),houseBillNumber9=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1be)),houseBillNumber10=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1ff)),senateBillSummary1=document[_0x24ce9d(0x1bf)]('senate-bill-summary-1'),senateBillSummary2=document['getElementById'](_0x24ce9d(0x1fa)),senateBillSummary3=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1d0)),senateBillSummary4=document[_0x24ce9d(0x1bf)]('senate-bill-summary-4'),senateBillSummary5=document[_0x24ce9d(0x1bf)]('senate-bill-summary-5'),senateBillSummary6=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1d7)),senateBillSummary7=document[_0x24ce9d(0x1bf)]('senate-bill-summary-7'),senateBillSummary8=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1f7)),senateBillSummary9=document[_0x24ce9d(0x1bf)]('senate-bill-summary-9'),senateBillSummary10=document[_0x24ce9d(0x1bf)]('senate-bill-summary-10'),houseBillSummary1=document[_0x24ce9d(0x1bf)]('house-bill-summary-1'),houseBillSummary2=document[_0x24ce9d(0x1bf)]('house-bill-summary-2'),houseBillSummary3=document['getElementById'](_0x24ce9d(0x1dc)),houseBillSummary4=document[_0x24ce9d(0x1bf)]('house-bill-summary-4'),houseBillSummary5=document['getElementById'](_0x24ce9d(0x1ce)),houseBillSummary6=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1c5)),houseBillSummary7=document[_0x24ce9d(0x1bf)]('house-bill-summary-7'),houseBillSummary8=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1ca)),houseBillSummary9=document[_0x24ce9d(0x1bf)](_0x24ce9d(0x1f0)),houseBillSummary10=document['getElementById']('house-bill-summary-10');let allSenateVotingData=[];allSenateVotingData['push'](senate1Votes),allSenateVotingData[_0x24ce9d(0x1e3)](senate2Votes),allSenateVotingData[_0x24ce9d(0x1e3)](senate3Votes),allSenateVotingData['push'](senate4Votes),allSenateVotingData['push'](senate5Votes),allSenateVotingData['push'](senate6Votes),allSenateVotingData[_0x24ce9d(0x1e3)](senate7Votes),allSenateVotingData[_0x24ce9d(0x1e3)](senate8Votes),allSenateVotingData[_0x24ce9d(0x1e3)](senate9Votes),allSenateVotingData['push'](senate10Votes);let allHouseVotingData=[];allHouseVotingData[_0x24ce9d(0x1e3)](house1Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house2Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house3Votes),allHouseVotingData['push'](house4Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house5Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house6Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house7Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house8Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house9Votes),allHouseVotingData[_0x24ce9d(0x1e3)](house10Votes),allSenateVotingData['forEach']((_0x5f060d,_0x576e57)=>{const _0xac83d2=_0x24ce9d;return _0x5f060d['billNumber']=_0xac83d2(0x1d6)+_0x5f060d[_0xac83d2(0x1ea)],_0x5f060d['billSubject']=_0x5f060d[_0xac83d2(0x1bd)],generateSenateVoteChartValues(_0x5f060d,_0x576e57);}),allHouseVotingData[_0x24ce9d(0x1bb)]((_0x47053d,_0x4e2d70)=>{const _0x196132=_0x24ce9d;return _0x47053d[_0x196132(0x1e6)]=_0x196132(0x1d4)+_0x47053d[_0x196132(0x1ea)],_0x47053d[_0x196132(0x1cc)]=_0x47053d[_0x196132(0x1bd)],generateHouseVoteChartValues(_0x47053d,_0x4e2d70);});const chartJSLabels=[_0x24ce9d(0x1c8),'Reps\x20Against',_0x24ce9d(0x1fb),_0x24ce9d(0x1e4),'Did\x20not\x20Vote'],chartBackgroundColors=[_0x24ce9d(0x1d1),_0x24ce9d(0x1f3),_0x24ce9d(0x1fe),_0x24ce9d(0x1cb),'rgb(102,\x20102,\x20102)'],senateVoteChartInputs1={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation1[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation1[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation1[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation1[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation1[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation1[_0x24ce9d(0x1f1)],senateVoteCalculation1[_0x24ce9d(0x1bc)],senateVoteCalculation1['demsInFavor'],senateVoteCalculation1[_0x24ce9d(0x1c6)],senateVoteCalculation1[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs2={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation2['repsInFavor'],chartJSLabels[0x1]+':\x20'+senateVoteCalculation2[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation2[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation2['demsAgainst'],chartJSLabels[0x4]+':\x20'+senateVoteCalculation2['didNotVote']],'datasets':[{'data':[senateVoteCalculation2[_0x24ce9d(0x1f1)],senateVoteCalculation2[_0x24ce9d(0x1bc)],senateVoteCalculation2[_0x24ce9d(0x1c1)],senateVoteCalculation2['demsAgainst'],senateVoteCalculation2['didNotVote']],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs3={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation3['repsInFavor'],chartJSLabels[0x1]+':\x20'+senateVoteCalculation3[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation3[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation3[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation3[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation3['repsInFavor'],senateVoteCalculation3[_0x24ce9d(0x1bc)],senateVoteCalculation3[_0x24ce9d(0x1c1)],senateVoteCalculation3[_0x24ce9d(0x1c6)],senateVoteCalculation3[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs4={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation4[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation4[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation4[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation4[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation4[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation4[_0x24ce9d(0x1f1)],senateVoteCalculation4[_0x24ce9d(0x1bc)],senateVoteCalculation4[_0x24ce9d(0x1c1)],senateVoteCalculation4['demsAgainst'],senateVoteCalculation4[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs5={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation5[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation5[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation5['demsInFavor'],chartJSLabels[0x3]+':\x20'+senateVoteCalculation5[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation5[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation5[_0x24ce9d(0x1f1)],senateVoteCalculation5[_0x24ce9d(0x1bc)],senateVoteCalculation5['demsInFavor'],senateVoteCalculation5[_0x24ce9d(0x1c6)],senateVoteCalculation5[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs6={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation6[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation6[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation6[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation6['demsAgainst'],chartJSLabels[0x4]+':\x20'+senateVoteCalculation6[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation6[_0x24ce9d(0x1f1)],senateVoteCalculation6[_0x24ce9d(0x1bc)],senateVoteCalculation6['demsInFavor'],senateVoteCalculation6[_0x24ce9d(0x1c6)],senateVoteCalculation6[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs7={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation7[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation7['repsAgainst'],chartJSLabels[0x2]+':\x20'+senateVoteCalculation7[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation7[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation7['didNotVote']],'datasets':[{'data':[senateVoteCalculation7[_0x24ce9d(0x1f1)],senateVoteCalculation7['repsAgainst'],senateVoteCalculation7[_0x24ce9d(0x1c1)],senateVoteCalculation7[_0x24ce9d(0x1c6)],senateVoteCalculation7[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs8={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation8[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation8['repsAgainst'],chartJSLabels[0x2]+':\x20'+senateVoteCalculation8[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation8[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation8[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation8[_0x24ce9d(0x1f1)],senateVoteCalculation8[_0x24ce9d(0x1bc)],senateVoteCalculation8[_0x24ce9d(0x1c1)],senateVoteCalculation8['demsAgainst'],senateVoteCalculation8[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs9={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation9[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+senateVoteCalculation9['repsAgainst'],chartJSLabels[0x2]+':\x20'+senateVoteCalculation9[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation9['demsAgainst'],chartJSLabels[0x4]+':\x20'+senateVoteCalculation9[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation9[_0x24ce9d(0x1f1)],senateVoteCalculation9[_0x24ce9d(0x1bc)],senateVoteCalculation9[_0x24ce9d(0x1c1)],senateVoteCalculation9['demsAgainst'],senateVoteCalculation9[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},senateVoteChartInputs10={'labels':[chartJSLabels[0x0]+':\x20'+senateVoteCalculation10['repsInFavor'],chartJSLabels[0x1]+':\x20'+senateVoteCalculation10[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+senateVoteCalculation10[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+senateVoteCalculation10[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+senateVoteCalculation10[_0x24ce9d(0x1fc)]],'datasets':[{'data':[senateVoteCalculation10['repsInFavor'],senateVoteCalculation10[_0x24ce9d(0x1bc)],senateVoteCalculation10['demsInFavor'],senateVoteCalculation10['demsAgainst'],senateVoteCalculation10[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},options={'plugins':{'legend':{'labels':{'color':_0x24ce9d(0x1cd),'font':{'size':0xf},'padding':0x6}}},'layout':{'padding':{'top':-0x3}}},houseVoteChartInputs1={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation1[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation1['repsAgainst'],chartJSLabels[0x2]+':\x20'+houseVoteCalculation1['demsInFavor'],chartJSLabels[0x3]+':\x20'+houseVoteCalculation1[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation1['didNotVote']],'datasets':[{'data':[houseVoteCalculation1['repsInFavor'],houseVoteCalculation1['repsAgainst'],houseVoteCalculation1['demsInFavor'],houseVoteCalculation1[_0x24ce9d(0x1c6)],houseVoteCalculation1[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs2={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation2[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation2['repsAgainst'],chartJSLabels[0x2]+':\x20'+houseVoteCalculation2[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation2[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation2[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation2[_0x24ce9d(0x1f1)],houseVoteCalculation2[_0x24ce9d(0x1bc)],houseVoteCalculation2[_0x24ce9d(0x1c1)],houseVoteCalculation2[_0x24ce9d(0x1c6)],houseVoteCalculation2[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs3={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation3[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation3[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation3[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation3[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation3[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation3[_0x24ce9d(0x1f1)],houseVoteCalculation3[_0x24ce9d(0x1bc)],houseVoteCalculation3[_0x24ce9d(0x1c1)],houseVoteCalculation3[_0x24ce9d(0x1c6)],houseVoteCalculation3['didNotVote']],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs4={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation4[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation4[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation4['demsInFavor'],chartJSLabels[0x3]+':\x20'+houseVoteCalculation4[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation4[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation4[_0x24ce9d(0x1f1)],houseVoteCalculation4[_0x24ce9d(0x1bc)],houseVoteCalculation4[_0x24ce9d(0x1c1)],houseVoteCalculation4['demsAgainst'],houseVoteCalculation4['didNotVote']],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs5={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation5[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation5[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation5[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation5['demsAgainst'],chartJSLabels[0x4]+':\x20'+houseVoteCalculation5[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation5['repsInFavor'],houseVoteCalculation5[_0x24ce9d(0x1bc)],houseVoteCalculation5[_0x24ce9d(0x1c1)],houseVoteCalculation5[_0x24ce9d(0x1c6)],houseVoteCalculation5['didNotVote']],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs6={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation6[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation6[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation6[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation6[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation6[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation6['repsInFavor'],houseVoteCalculation6[_0x24ce9d(0x1bc)],houseVoteCalculation6[_0x24ce9d(0x1c1)],houseVoteCalculation6[_0x24ce9d(0x1c6)],houseVoteCalculation6[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs7={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation7[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation7[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation7[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation7[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation7[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation7[_0x24ce9d(0x1f1)],houseVoteCalculation7[_0x24ce9d(0x1bc)],houseVoteCalculation7[_0x24ce9d(0x1c1)],houseVoteCalculation7[_0x24ce9d(0x1c6)],houseVoteCalculation7[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs8={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation8[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation8[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation8[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation8[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation8['didNotVote']],'datasets':[{'data':[houseVoteCalculation8[_0x24ce9d(0x1f1)],houseVoteCalculation8['repsAgainst'],houseVoteCalculation8[_0x24ce9d(0x1c1)],houseVoteCalculation8[_0x24ce9d(0x1c6)],houseVoteCalculation8[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs9={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation9[_0x24ce9d(0x1f1)],chartJSLabels[0x1]+':\x20'+houseVoteCalculation9['repsAgainst'],chartJSLabels[0x2]+':\x20'+houseVoteCalculation9[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation9[_0x24ce9d(0x1c6)],chartJSLabels[0x4]+':\x20'+houseVoteCalculation9[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation9[_0x24ce9d(0x1f1)],houseVoteCalculation9['repsAgainst'],houseVoteCalculation9[_0x24ce9d(0x1c1)],houseVoteCalculation9['demsAgainst'],houseVoteCalculation9[_0x24ce9d(0x1fc)]],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]},houseVoteChartInputs10={'labels':[chartJSLabels[0x0]+':\x20'+houseVoteCalculation10['repsInFavor'],chartJSLabels[0x1]+':\x20'+houseVoteCalculation10[_0x24ce9d(0x1bc)],chartJSLabels[0x2]+':\x20'+houseVoteCalculation10[_0x24ce9d(0x1c1)],chartJSLabels[0x3]+':\x20'+houseVoteCalculation10['demsAgainst'],chartJSLabels[0x4]+':\x20'+houseVoteCalculation10[_0x24ce9d(0x1fc)]],'datasets':[{'data':[houseVoteCalculation10[_0x24ce9d(0x1f1)],houseVoteCalculation10[_0x24ce9d(0x1bc)],houseVoteCalculation10['demsInFavor'],houseVoteCalculation10[_0x24ce9d(0x1c6)],houseVoteCalculation10['didNotVote']],'backgroundColor':[chartBackgroundColors[0x0],chartBackgroundColors[0x1],chartBackgroundColors[0x2],chartBackgroundColors[0x3],chartBackgroundColors[0x4]],'hoverOffset':0x4}]};senateBillNumber1[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x0]['billNumber'],senateBillNumber2[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x1]['billNumber'],senateBillNumber3[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x2]['billNumber'],senateBillNumber4[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x3][_0x24ce9d(0x1e6)],senateBillNumber5[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x4][_0x24ce9d(0x1e6)],senateBillNumber6[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x5]['billNumber'],senateBillNumber7[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x6][_0x24ce9d(0x1e6)],senateBillNumber8[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x7]['billNumber'],senateBillNumber9['firstChild']['nodeValue']=allSenateVotingData[0x8][_0x24ce9d(0x1e6)],senateBillNumber10[_0x24ce9d(0x1e8)]['nodeValue']=allSenateVotingData[0x9][_0x24ce9d(0x1e6)],houseBillNumber1[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x0][_0x24ce9d(0x1e6)],houseBillNumber2['firstChild'][_0x24ce9d(0x1ec)]=allHouseVotingData[0x1][_0x24ce9d(0x1e6)],houseBillNumber3[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x2][_0x24ce9d(0x1e6)],houseBillNumber4[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x3][_0x24ce9d(0x1e6)],houseBillNumber5[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x4]['billNumber'],houseBillNumber6[_0x24ce9d(0x1e8)]['nodeValue']=allHouseVotingData[0x5][_0x24ce9d(0x1e6)],houseBillNumber7[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x6]['billNumber'],houseBillNumber8[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x7][_0x24ce9d(0x1e6)],houseBillNumber9['firstChild'][_0x24ce9d(0x1ec)]=allHouseVotingData[0x8][_0x24ce9d(0x1e6)],houseBillNumber10[_0x24ce9d(0x1e8)]['nodeValue']=allHouseVotingData[0x9]['billNumber'],senateBillSummary1[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x0][_0x24ce9d(0x1cc)],senateBillSummary2[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x1][_0x24ce9d(0x1cc)],senateBillSummary3[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x2]['billSubject'],senateBillSummary4[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x3][_0x24ce9d(0x1cc)],senateBillSummary5[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x4][_0x24ce9d(0x1cc)],senateBillSummary6[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x5][_0x24ce9d(0x1cc)],senateBillSummary7[_0x24ce9d(0x1e8)]['nodeValue']=allSenateVotingData[0x6][_0x24ce9d(0x1cc)],senateBillSummary8[_0x24ce9d(0x1e8)]['nodeValue']=allSenateVotingData[0x7]['billSubject'],senateBillSummary9[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x8][_0x24ce9d(0x1cc)],senateBillSummary10[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allSenateVotingData[0x9][_0x24ce9d(0x1cc)],houseBillSummary1[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x0]['billSubject'],houseBillSummary2[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x1][_0x24ce9d(0x1cc)],houseBillSummary3[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x2]['billSubject'],houseBillSummary4[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x3][_0x24ce9d(0x1cc)],houseBillSummary5[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x4][_0x24ce9d(0x1cc)],houseBillSummary6[_0x24ce9d(0x1e8)]['nodeValue']=allHouseVotingData[0x5][_0x24ce9d(0x1cc)],houseBillSummary7[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x6][_0x24ce9d(0x1cc)],houseBillSummary8['firstChild'][_0x24ce9d(0x1ec)]=allHouseVotingData[0x7]['billSubject'],houseBillSummary9['firstChild'][_0x24ce9d(0x1ec)]=allHouseVotingData[0x8][_0x24ce9d(0x1cc)],houseBillSummary10[_0x24ce9d(0x1e8)][_0x24ce9d(0x1ec)]=allHouseVotingData[0x9][_0x24ce9d(0x1cc)];function _0x12d3(){const _0xb46907=['votes','push','Dems\x20Against','house-bill-number-8','billNumber','senate-bill-number-9','firstChild','senate-bill-number-1','number','945432fiaiNg','nodeValue','Not\x20Voting','166596OVfZbO','house-bill-number-7','house-bill-summary-9','repsInFavor','7355097kAVCvC','rgb(180,\x200,\x200)','house-bill-number-4','senate-bill-number-6','senate-bill-number-5','senate-bill-summary-8','party','house-bill-number-3','senate-bill-summary-2','Dems\x20in\x20Favor','didNotVote','Aye','rgb(0,\x20153,\x20255)','house-bill-number-10','Present','378401BbdliP','1328445dtSltz','forEach','repsAgainst','subject','house-bill-number-9','getElementById','senate-bill-number-4','demsInFavor','senate-bill-number-8','category','senate-bill-number-7','house-bill-summary-6','demsAgainst','house-bill-number-2','Reps\x20in\x20Favor','8piFBUW','house-bill-summary-8','rgb(0,\x20107,\x20179)','billSubject','white','house-bill-summary-5','house-bill-number-6','senate-bill-summary-3','rgb(255,\x2026,\x2026)','hasOwnProperty','500696SRSiBH','House\x20Bill\x20Number:\x20','amendment','Senate\x20Bill\x20Number:\x20','senate-bill-summary-6','includes','senate-bill-number-10','display_name','1246694AtuYNm','house-bill-summary-3','(D-','Nay','65RzoqVQ','length','Yea'];_0x12d3=function(){return _0xb46907;};return _0x12d3();}
+    </script>
+    <script>
+      function _0x5d35(_0x5da458,_0x22b791){const _0x2e61b4=_0x2e61();return _0x5d35=function(_0x5d35ef,_0x46eb62){_0x5d35ef=_0x5d35ef-0x122;let _0x3ef53d=_0x2e61b4[_0x5d35ef];return _0x3ef53d;},_0x5d35(_0x5da458,_0x22b791);}const _0x2cfccf=_0x5d35;(function(_0x2fc8e3,_0x5aec36){const _0x5af93c=_0x5d35,_0x27a972=_0x2fc8e3();while(!![]){try{const _0x3abd1d=-parseInt(_0x5af93c(0x139))/0x1+parseInt(_0x5af93c(0x137))/0x2+parseInt(_0x5af93c(0x13d))/0x3+-parseInt(_0x5af93c(0x127))/0x4*(parseInt(_0x5af93c(0x122))/0x5)+-parseInt(_0x5af93c(0x126))/0x6+-parseInt(_0x5af93c(0x13a))/0x7*(parseInt(_0x5af93c(0x125))/0x8)+parseInt(_0x5af93c(0x12a))/0x9*(parseInt(_0x5af93c(0x131))/0xa);if(_0x3abd1d===_0x5aec36)break;else _0x27a972['push'](_0x27a972['shift']());}catch(_0x5d770b){_0x27a972['push'](_0x27a972['shift']());}}}(_0x2e61,0x2627c));function _0x2e61(){const _0x17624b=['houseVoteChart5','868325ZKcKHu','houseVoteChart7','senateVoteChart3','140928FswEpx','1359798eIfGJB','4oIuxMG','houseVoteChart4','senateVoteChart5','4379175FSrMVy','houseVoteChart3','doughnut','houseVoteChart2','houseVoteChart10','senateVoteChart9','senateVoteChart1','10BETKSx','getElementById','houseVoteChart9','houseVoteChart1','houseVoteChart8','senateVoteChart8','611100ojDMqY','senateVoteChart7','112236kIdIDb','84XUSNGe','houseVoteChart6','senateVoteChart2','264255UFYcvq'];_0x2e61=function(){return _0x17624b;};return _0x2e61();}const senateChart1={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs1,'options':options},senateChart2={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs2,'options':options},senateChart3={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs3,'options':options},senateChart4={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs4,'options':options},senateChart5={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs5,'options':options},senateChart6={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs6,'options':options},senateChart7={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs7,'options':options},senateChart8={'type':'doughnut','data':senateVoteChartInputs8,'options':options},senateChart9={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs9,'options':options},senateChart10={'type':_0x2cfccf(0x12c),'data':senateVoteChartInputs10,'options':options},houseChart1={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs1,'options':options},houseChart2={'type':'doughnut','data':houseVoteChartInputs2,'options':options},houseChart3={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs3,'options':options},houseChart4={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs4,'options':options},houseChart5={'type':'doughnut','data':houseVoteChartInputs5,'options':options},houseChart6={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs6,'options':options},houseChart7={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs7,'options':options},houseChart8={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs8,'options':options},houseChart9={'type':'doughnut','data':houseVoteChartInputs9,'options':options},houseChart10={'type':_0x2cfccf(0x12c),'data':houseVoteChartInputs10,'options':options},senateVoteChart1=new Chart(document['getElementById'](_0x2cfccf(0x130)),senateChart1),senateVoteChart2=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x13c)),senateChart2),senateVoteChart3=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x124)),senateChart3),senateVoteChart4=new Chart(document['getElementById']('senateVoteChart4'),senateChart4),senateVoteChart5=new Chart(document['getElementById'](_0x2cfccf(0x129)),senateChart5),senateVoteChart6=new Chart(document[_0x2cfccf(0x132)]('senateVoteChart6'),senateChart6),senateVoteChart7=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x138)),senateChart7),senateVoteChart8=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x136)),senateChart8),senateVoteChart9=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x12f)),senateChart9),senateVoteChart10=new Chart(document['getElementById']('senateVoteChart10'),senateChart10),houseVoteChart1=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x134)),houseChart1),houseVoteChart2=new Chart(document['getElementById'](_0x2cfccf(0x12d)),houseChart2),houseVoteChart3=new Chart(document['getElementById'](_0x2cfccf(0x12b)),houseChart3),houseVoteChart4=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x128)),houseChart4),houseVoteChart5=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x13e)),houseChart5),houseVoteChart6=new Chart(document['getElementById'](_0x2cfccf(0x13b)),houseChart6),houseVoteChart7=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x123)),houseChart7),houseVoteChart8=new Chart(document['getElementById'](_0x2cfccf(0x135)),houseChart8),houseVoteChart9=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x133)),houseChart9),houseVoteChart10=new Chart(document[_0x2cfccf(0x132)](_0x2cfccf(0x12e)),houseChart10);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="tracking-congress-resources/second-infographic/script.js"></script>
+    <script src="tracking-congress-resources/second-infographic/script2.js"></script>
 
     <script src="tracking-congress-resources/html-template/01_multipurpose/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.downCount.js" type="text/javascript"></script>
-
-    <!-- <script type="text/javascript">
-        $('.countdown').downCount({
-            date: '06/01/2022 12:00:00',
-            offset: +10
-        }, function () {
-            alert('WOOT WOOT, done!');
-        });
-    </script> -->
-    <script type="text/javascript">
-
-        $(document).ready(function () {
-            headerResize();
-        });
-
-        $(window).resize(function () {
-            headerResize();
-        })
-
-        function headerResize() {
-            var winWidthMd = $(window).height();
-            if ($(window).width() > 767) {
-                // alert('deskstop');
-                $('.full-screen-intro').css({ "height": winWidthMd, "padding": "100px 0px" });
-            }
-            else {
-                $('.full-screen-intro').css({ "height": "600px", "padding": "100px 0px" });
-            };
-
-        };
-
-    </script>
-    <script type="text/javascript">
-        navigation_menu();
-        function navigation_menu() {
-
-            var navMenuLink = $(".nav-menu > ul > li"),
-              //  menuIconBtn = $('.menu-dropdown-icon'),
-                dropDown_Menu = $('.nav-dropdown'),
-                nav_menu_item = $('.nav-menu-item'),
-                nav_Mobile_Btn = $(".menu-mobile-btn"),
-                nav_menu_wrap = $(".nav-menu");
-
-            // Dropdown Menu
-            $('.nav-menu > ul > li:has( > .nav-dropdown)').prepend('<span class="menu-dropdown-icon"></span>');
-            $('.nav-dropdown > ul > li:has( > .nav-dropdown-sub)').addClass('sub-dropdown-icon');
-            $(".nav-menu > ul > li:has( > .nav-dropdown)").addClass('dd-menu-dropdown-icon');
-            navMenuLink.on('mouseenter mouseleave', function (e) {
-                if ($(window).width() > winWidthSm) {
-                    $(this).children(".nav-dropdown").stop(true, false).fadeToggle(150);
-                    e.preventDefault();
-                }
-            });
-
-            $('.menu-dropdown-icon').on('click', function () {
-                if ($(window).width() <= winWidthSm) {
-                    $(this).siblings(".nav-dropdown").stop(true, false).fadeToggle(150);
-                }
-            });
-
-            // Sub Dropdown Menu
-            nav_menu_item.on('mouseenter mouseleave', function (e) {
-                if ($(window).width() > winWidthSm) {
-                    $(this).children(".nav-dropdown-sub").stop(true, false).fadeToggle(150);
-                    e.preventDefault();
-                }
-            });
-            nav_menu_item.on('click', function () {
-                if ($(window).width() <= winWidthSm) {
-                    $(this).children(".nav-dropdown-sub").stop(true, false).fadeToggle(150);
-                }
-            });
-
-            // Dropdon Center align
-            dropDown_Menu.each(function (indx) {
-                if ($(this).hasClass("center")) {
-                    var dropdownWidth = $(this).outerWidth();
-                    var navItemWidth = $(this).parents(nav_menu_item).outerWidth();
-                    var dropdown_halfWidth = parseInt(dropdownWidth / 2);
-                    var navItem_halfWidth = parseInt(navItemWidth / 2);
-                    var totlePosition = parseInt(dropdown_halfWidth - navItem_halfWidth);
-                    if ($window.width() > winWidthSm) {
-                        $(this).css("left", "-" + totlePosition + "px");
-                    } else {
-                        $(this).css("left", "0");
-                    };
-                }
-            }).resize();
-
-            // Mobile Menu Button
-            nav_Mobile_Btn.on('click', function (e) {
-                nav_menu_wrap.toggleClass('show-on-mobile');
-                $(this).toggleClass("active");
-                e.preventDefault();
-            });
-
-        };
-
-    </script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="tracking-congress-resources/html-template/01_multipurpose/js/theme.js" type="text/javascript"></script>
 </body>
 </html>

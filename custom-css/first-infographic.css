@@ -1,0 +1,20 @@
+.USBackground {
+    fill: none;
+    pointer-events: all;
+  }
+  
+  .feature {
+    fill: rgb(53, 52, 52);
+    cursor: pointer;
+  }
+  
+  .feature.active {
+    fill: hsl(249, 90%, 76%);
+  }
+
+  .mesh {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }

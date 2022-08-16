@@ -1,4 +1,4 @@
-#switch-test {
+#state-name {
     padding-top: 0px;
     font-size: 1.8em;
     text-transform: none;
@@ -7,4 +7,127 @@
 #statements-and-actions {
     padding-bottom: 0px;
     margin-bottom: 0px;
+}
+
+#about {
+    padding-bottom: 0px;
+}
+
+.mainDataRow .mainDataRow .row .col:last-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+}
+
+.tab-content {
+    overflow-y: scroll;
+}
+
+.long-btn {
+    width: 280px;
+}
+
+/* .swipe-button {
+    width: 250px;
+} */
+
+.sourcedFromSenate {
+    justify-content: center;
+}
+
+.tweet-container {
+    z-index: 9;
+}
+
+.body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+    .dark-mode {
+    background-color: black;
+    color: white;
+}
+    .light-mode {
+    background-color: white;
+    color: black;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+    padding-right: 30px;
+}
+
+.bill-number, .bill-summary {
+    color: white;
+}
+
+.bill-summary {
+    font-size: large;
+}
+
+.about-us-description {
+    font-size: large;
+}
+
+@media (max-width: 950px) {
+    .tabs {
+      margin-left: 0vw;
+      margin-right: 0vw;
+    }
+  }
+
+@media (max-width: 400px) {
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+    .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+    .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+    .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+    .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    body {
+        width: 95%;
+        overflow-x: hidden;
+    }
+
+    #testimonial {
+        margin-left: -5%;
+    }
+
+    .lead {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .mobile-left-padding, .container-icon {
+        padding-left: 5.5%;
+    }
+    .walkthrough .walkthrough-body .media {
+        height: 300px;
+        margin: 2px auto;
+        width: 260px;
+    }
+    .walkthrough2 .walkthrough-body2 .media2 {
+        height: 300px;
+        margin: 2px auto;
+        width: 260px;
+    }
+
+    .bill-summary {
+        font-size: 3000em;
+    }
 }

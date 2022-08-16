@@ -37,6 +37,8 @@ input {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .tab {
@@ -49,9 +51,10 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: lightblue;
+  background: hsl(249, 90%, 76%);
   font-weight: bold;
   cursor: pointer;
+  font-size: large;
   /* Icon */
 }
 .tab-label:hover {
@@ -76,7 +79,7 @@ input {
   justify-content: flex-end;
   padding: 1em;
   font-size: 0.75em;
-  background: lightblue;
+  background: hsl(249, 90%, 76%);
   cursor: pointer;
 }
 .tab-close:hover {

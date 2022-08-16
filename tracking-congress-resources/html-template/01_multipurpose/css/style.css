@@ -2981,7 +2981,7 @@ form label.error {
     }
 
     .overlay-dark80:before {
-        background-color: rgba(32,32,32,0.8);
+        background-color: rgb(53, 52, 52);
     }
 
     .overlay-light:before {
