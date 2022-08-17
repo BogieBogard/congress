@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll408.xml",
   "subject": "Providing for consideration of the bill (H.R. 1808) to regulate assault weapons, to ensure that the right to keep and bear arms is not unlimited, and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-08-16T17:19:18-04:00",
+  "updated_at": "2022-08-17T09:54:01-04:00",
   "vote_id": "h408-117.2022",
   "votes": {
     "Nay": [

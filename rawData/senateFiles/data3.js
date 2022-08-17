@@ -20,7 +20,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00272.xml",
   "subject": "On the Cloture Motion S. 3373",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s272-117.2022",
   "votes": {
     "Nay": [

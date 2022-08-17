@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00270.xml",
   "subject": "Motion to Waive All Budgetary Discipline Re: Amdt. No. 5135",
   "type": "On the Motion to Waive All Budgetary Discipline Re: Amdt. No. 5135",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s270-117.2022",
   "votes": {
     "Nay": [

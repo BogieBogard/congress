@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00266.xml",
   "subject": "Confirmation: Reuben E. Brigety II, of Florida, to be Ambassador of the United States of America to the Republic of South Africa",
   "type": "On the Nomination",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s266-117.2022",
   "votes": {
     "Nay": [

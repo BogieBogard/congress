@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00267.xml",
   "subject": "Confirmation: Shereef M. Elnahal, of New Jersey, to be Under Secretary for Health of the Department of Veterans Affairs",
   "type": "On the Nomination",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s267-117.2022",
   "votes": {
     "Nay": [

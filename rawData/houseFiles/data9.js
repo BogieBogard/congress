@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll409.xml",
   "subject": "Assault Weapons Ban",
   "type": "On the Motion to Recommit",
-  "updated_at": "2022-08-16T17:19:18-04:00",
+  "updated_at": "2022-08-17T09:54:01-04:00",
   "vote_id": "h409-117.2022",
   "votes": {
     "Nay": [

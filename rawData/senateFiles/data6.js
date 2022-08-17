@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00269.xml",
   "subject": "Motion to Waive Section 404(a) of S. Con. Res. 13, 111th Congress, as amended by S. Con. Res. 11, 114th Congress re: Amendment No. 5135",
   "type": "On the Motion to Waive Section 404(a) of S. Con. Res. 13, 111th Congress, as amended by S. Con. Res. 11, 114th Congress re: Amendment No. 5135",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s269-117.2022",
   "votes": {
     "Nay": [

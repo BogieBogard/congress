@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require('path');
 
 // Joining path of directory 
-const directoryPath = path.join(__dirname, '../../GitHub/congress/data/117/votes/2022');
+const directoryPath = path.join(__dirname, '../../../GitHub/congress/data/117/votes/2022');
 // Passing directoryPath and callback function
 fs.readdir(directoryPath, function (err, files) {
     if (err) {
@@ -48,7 +48,7 @@ fs.readdir(directoryPath, function (err, files) {
             let dataFilePosition = senateFileIntegers[senateFileIntegers.length - iteration];            
             let dataFile = senateFiles.find(element => parseInt(element.substring(1)) === dataFilePosition)
 
-            let oldPath = `../../GitHub/congress/data/117/votes/2022/${dataFile}/data.json`;
+            let oldPath = `../../../GitHub/congress/data/117/votes/2022/${dataFile}/data.json`;
             let newPath = `rawData/senateFiles/data${iteration}.js`;
 
             // Move and rename the file
@@ -75,7 +75,7 @@ fs.readdir(directoryPath, function (err, files) {
             let dataFilePosition = houseFileIntegers[houseFileIntegers.length - iteration];            
             let dataFile = houseFiles.find(element => parseInt(element.substring(1)) === dataFilePosition)
     
-            let oldPath = `../../GitHub/congress/data/117/votes/2022/${dataFile}/data.json`;
+            let oldPath = `../../../GitHub/congress/data/117/votes/2022/${dataFile}/data.json`;
             let newPath = `rawData/houseFiles/data${iteration}.js`;
     
             // Move and rename the file

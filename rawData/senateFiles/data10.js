@@ -20,7 +20,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00265.xml",
   "subject": "Motion to Proceed to S.Con.Res. 43",
   "type": "On the Motion to Proceed",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s265-117.2022",
   "votes": {
     "Nay": [

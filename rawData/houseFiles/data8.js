@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll410.xml",
   "subject": "Assault Weapons Ban",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-08-16T17:19:18-04:00",
+  "updated_at": "2022-08-17T09:54:01-04:00",
   "vote_id": "h410-117.2022",
   "votes": {
     "Nay": [

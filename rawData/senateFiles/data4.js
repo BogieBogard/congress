@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00271.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate Amendment to H.R. 4346 with Amendment No. 5135,",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-08-16T17:19:45-04:00",
+  "updated_at": "2022-08-17T09:54:25-04:00",
   "vote_id": "s271-117.2022",
   "votes": {
     "Nay": [
