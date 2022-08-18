@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00320.xml",
   "subject": "Sullivan Amendment No. 5435",
   "type": "On the Amendment",
-  "updated_at": "2022-08-17T14:51:24-04:00",
+  "updated_at": "2022-08-18T12:33:45-04:00",
   "vote_id": "s320-117.2022",
   "votes": {
     "Nay": [

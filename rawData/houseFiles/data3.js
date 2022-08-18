@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll418.xml",
   "subject": "Providing for consideration of the Senate amendment to the bill (H.R. 5376) to provide for reconciliation pursuant to title II of S. Con. Res. 14",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2022-08-17T14:47:51-04:00",
+  "updated_at": "2022-08-18T12:30:13-04:00",
   "vote_id": "h418-117.2022",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll416.xml",
   "subject": "STREAM Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-08-17T14:47:52-04:00",
+  "updated_at": "2022-08-18T12:30:14-04:00",
   "vote_id": "h416-117.2022",
   "votes": {
     "Nay": [
