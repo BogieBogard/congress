@@ -84,7 +84,7 @@
     }
   }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
     .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
@@ -116,6 +116,104 @@
     .mobile-left-padding, .container-icon {
         padding-left: 5.5%;
     }
+
+    #second-infographic-senate-heading, #second-infographic-house-heading {
+        font-size: 15pt;
+        padding-left: 3%
+    }
+
+    #click-any-state-for-rep-votes, .official-description {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #first-senator-bill-summary-1,
+    #first-senator-bill-summary-2,
+    #first-senator-bill-summary-3,
+    #first-senator-bill-summary-4,
+    #first-senator-bill-summary-5,
+    #first-senator-bill-summary-6,
+    #first-senator-bill-summary-7,
+    #first-senator-bill-summary-8,
+    #first-senator-bill-summary-9,
+    #first-senator-bill-summary-10,
+    #second-senator-bill-summary-1,
+    #second-senator-bill-summary-2,
+    #second-senator-bill-summary-3,
+    #second-senator-bill-summary-4,
+    #second-senator-bill-summary-5,
+    #second-senator-bill-summary-6,
+    #second-senator-bill-summary-7,
+    #second-senator-bill-summary-8,
+    #second-senator-bill-summary-9,
+    #second-senator-bill-summary-10,
+    #first-senator-vote-1,
+    #first-senator-vote-2,
+    #first-senator-vote-3,
+    #first-senator-vote-4,
+    #first-senator-vote-5,
+    #first-senator-vote-6,
+    #first-senator-vote-7,
+    #first-senator-vote-8,
+    #first-senator-vote-9,
+    #first-senator-vote-10,
+    #second-senator-vote-1,
+    #second-senator-vote-2,
+    #second-senator-vote-3,
+    #second-senator-vote-4,
+    #second-senator-vote-5,
+    #second-senator-vote-6,
+    #second-senator-vote-7,
+    #second-senator-vote-8,
+    #second-senator-vote-9,
+    #second-senator-vote-10 {
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    #first-senator-bill-summary-1,
+    #first-senator-bill-summary-2,
+    #first-senator-bill-summary-3,
+    #first-senator-bill-summary-4,
+    #first-senator-bill-summary-5,
+    #first-senator-bill-summary-6,
+    #first-senator-bill-summary-7,
+    #first-senator-bill-summary-8,
+    #first-senator-bill-summary-9,
+    #first-senator-bill-summary-10,
+    #second-senator-bill-summary-1,
+    #second-senator-bill-summary-2,
+    #second-senator-bill-summary-3,
+    #second-senator-bill-summary-4,
+    #second-senator-bill-summary-5,
+    #second-senator-bill-summary-6,
+    #second-senator-bill-summary-7,
+    #second-senator-bill-summary-8,
+    #second-senator-bill-summary-9,
+    #second-senator-bill-summary-10,
+    #senate-bill-summary-1,
+    #senate-bill-summary-2,
+    #senate-bill-summary-3,
+    #senate-bill-summary-4,
+    #senate-bill-summary-5,
+    #senate-bill-summary-6,
+    #senate-bill-summary-7,
+    #senate-bill-summary-8,
+    #senate-bill-summary-9,
+    #senate-bill-summary-10,
+    #house-bill-summary-1,
+    #house-bill-summary-2,
+    #house-bill-summary-3,
+    #house-bill-summary-4,
+    #house-bill-summary-5,
+    #house-bill-summary-6,
+    #house-bill-summary-7,
+    #house-bill-summary-8,
+    #house-bill-summary-9,
+    #house-bill-summary-10 {
+        text-align: left
+    }
+
     .walkthrough .walkthrough-body .media {
         height: 300px;
         margin: 2px auto;
