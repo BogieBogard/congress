@@ -80,6 +80,10 @@
     color:  dimgray;
 }
 
+.supporting-second-infographic-header {
+    margin-top: -15px;
+}
+
 @media (max-width: 950px) {
     .tabs {
       margin-left: 0vw;
@@ -120,9 +124,20 @@
         padding-left: 5.5%;
     }
 
-    #second-infographic-senate-heading, #second-infographic-house-heading {
+    #second-infographic-senate-heading {
         font-size: 15pt;
+        padding-left: 3%;
+        padding-bottom: 1px;
+    }
+
+    #second-infographic-house-heading {
+        font-size: 12pt;
         padding-left: 3%
+    }
+
+    .supporting-second-infographic-header {
+        padding-left: 3%;
+        margin-top: -15px;
     }
 
     #click-any-state-for-rep-votes, .official-description {
