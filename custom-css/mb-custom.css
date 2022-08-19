@@ -74,7 +74,10 @@
 }
 
 .about-us-description {
-    font-size: large;
+    font-size: 15pt;
+    line-height: 26px;
+    text-transform: none;
+    color:  dimgray;
 }
 
 @media (max-width: 950px) {
