@@ -234,15 +234,11 @@
         padding-left: 5.5%;
     }
 
-    #second-infographic-senate-heading {
+    #second-infographic-senate-heading, #second-infographic-house-heading {
         font-size: 15pt;
         padding-left: 3%;
         padding-bottom: 1px;
-    }
-
-    #second-infographic-house-heading {
-        font-size: 12pt;
-        padding-left: 3%
+        line-height: 31px;
     }
 
     .supporting-second-infographic-header {
