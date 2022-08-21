@@ -22,7 +22,7 @@
 }
 
 .tab-content {
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -210,7 +210,11 @@
     .tabs {
         margin-left: 0vw;
         margin-right: 0vw;
-        }
+    }
+
+    .tab-content {
+        overflow-y: hidden;
+    }
 
     .row .col:last-child {
         margin-left: 0em;
