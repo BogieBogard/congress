@@ -354,27 +354,7 @@
     #second-senator-result-7,
     #second-senator-result-8,
     #second-senator-result-9,
-    #second-senator-result-10,
-    #first-senator-vote-1,
-    #first-senator-vote-2,
-    #first-senator-vote-3,
-    #first-senator-vote-4,
-    #first-senator-vote-5,
-    #first-senator-vote-6,
-    #first-senator-vote-7,
-    #first-senator-vote-8,
-    #first-senator-vote-9,
-    #first-senator-vote-10,
-    #second-senator-vote-1,
-    #second-senator-vote-2,
-    #second-senator-vote-3,
-    #second-senator-vote-4,
-    #second-senator-vote-5,
-    #second-senator-vote-6,
-    #second-senator-vote-7,
-    #second-senator-vote-8,
-    #second-senator-vote-9,
-    #second-senator-vote-10 {
+    #second-senator-result-10 {
         padding-left: 13%;
         padding-right: 13%;
         text-align: left
@@ -414,8 +394,8 @@
         width: 260px;
     }
 
-    #top-taps-small-heading, .tab-label {
-        padding-left: 6%;
+    #top-taps-small-heading, .tab-label, .most-recent-votes-1st-infographic {
+        padding-left: 9%;
     }
 
     #footer-logo-image {
