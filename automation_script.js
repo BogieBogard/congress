@@ -122,7 +122,7 @@ function getLocalTime(date) {
 
 // Set the current date and time
 const data = fs.readFileSync('index.html').toString().split("\n");
-data.splice(70, 1, `                        ${currentMonthToInsert} ${day}, ${year} at ${getLocalTime(new Date)} Central Time`);
+data.splice(71, 1, `                        ${currentMonthToInsert} ${day}, ${year} at ${getLocalTime(new Date)} Central Time`);
 const text = data.join("\n");
 
 fs.writeFile('index.html', text, function (err) {
