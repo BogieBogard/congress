@@ -36,7 +36,8 @@
     flex: 0 0 auto;
     font-size: 14px;
     height: 464px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     max-width: 69vw;
     z-index: 1000;
@@ -49,7 +50,7 @@
   .walkthrough.reveal {
     opacity: 1;
     transform: translateY(0);
-    height: 700px;
+    height: 800px;
   }
   .walkthrough .walkthrough-body {
     align-items: center;
@@ -125,6 +126,11 @@
     padding-top: 0;
     color: rgba(255, 255, 255, 0.8);
   }
+
+  .walkthrough .walkthrough-body .screen .more-details p {
+    text-align: left;
+  }
+
   .walkthrough .walkthrough-pagination {
     align-items: center;
     display: flex;
@@ -350,5 +356,20 @@
 
     .generalSenateAndHouseContent {
       padding-left: 0px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .walkthrough.reveal {
+      opacity: 1;
+      transform: translateY(0);
+      height: 600px;
+    }
+
+    .walkthrough .walkthrough-body .prev-screen,
+    .walkthrough .walkthrough-body .next-screen {
+      padding: 0px;
+      margin-right: 4px;
+      margin-left: 9px;
     }
   }
