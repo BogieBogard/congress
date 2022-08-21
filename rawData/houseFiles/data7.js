@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll414.xml",
   "subject": "Continental Divide Trail Completion Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-08-18T12:30:15-04:00",
+  "updated_at": "2022-08-20T22:58:57-04:00",
   "vote_id": "h414-117.2022",
   "votes": {
     "Nay": [

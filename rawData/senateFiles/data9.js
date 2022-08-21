@@ -20,7 +20,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00317.xml",
   "subject": "Hoeven Motion to Commit H.R. 5376 to the Committee on Finance with Instructions",
   "type": "On the Motion (Hoeven Motion to Commit H.R. 5376 to the Committee on Finance with Instructions)",
-  "updated_at": "2022-08-18T12:33:47-04:00",
+  "updated_at": "2022-08-20T23:02:29-04:00",
   "vote_id": "s317-117.2022",
   "votes": {
     "Nay": [
