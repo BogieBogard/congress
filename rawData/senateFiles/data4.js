@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00322.xml",
   "subject": "Hagerty Motion to Commit H.R. 5376 to the Committee on the Judiciary with Instructions",
   "type": "On the Motion (Hagerty Motion to Commit H.R. 5376 to the Committee on the Judiciary with Instructions)",
-  "updated_at": "2022-08-20T23:02:27-04:00",
+  "updated_at": "2022-08-22T10:36:24-04:00",
   "vote_id": "s322-117.2022",
   "votes": {
     "Nay": [

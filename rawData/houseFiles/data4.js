@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll417.xml",
   "subject": "To include certain computer-related projects in the Federal permitting program under title XLI of the FAST Act, and for other purposes",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-08-20T22:58:56-04:00",
+  "updated_at": "2022-08-22T10:32:47-04:00",
   "vote_id": "h417-117.2022",
   "votes": {
     "Nay": [
