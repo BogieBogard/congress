@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll420.xml",
   "subject": "To provide for reconciliation pursuant to title II of S. Con. Res. 14",
   "type": "Concurring in the Senate Amendment",
-  "updated_at": "2022-08-22T10:32:46-04:00",
+  "updated_at": "2022-08-23T10:02:23-04:00",
   "vote_id": "h420-117.2022",
   "votes": {
     "Nay": [
