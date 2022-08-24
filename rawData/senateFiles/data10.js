@@ -20,7 +20,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00316.xml",
   "subject": "Cruz Motion to Commit H.R. 5376 to the Committee on the Judiciary with Instructions",
   "type": "On the Motion (Cruz Motion to Commit H.R. 5376 to the Committee on the Judiciary with Instructions)",
-  "updated_at": "2022-08-23T10:05:59-04:00",
+  "updated_at": "2022-08-24T09:00:34-04:00",
   "vote_id": "s316-117.2022",
   "votes": {
     "Nay": [

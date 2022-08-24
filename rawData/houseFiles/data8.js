@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll413.xml",
   "subject": "Continental Divide Trail Completion Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2022-08-23T10:02:27-04:00",
+  "updated_at": "2022-08-24T08:57:01-04:00",
   "vote_id": "h413-117.2022",
   "votes": {
     "Nay": [
