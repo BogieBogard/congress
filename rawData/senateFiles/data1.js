@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.xml",
   "subject": "H.R. 5376, As Amended",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-08-24T09:00:30-04:00",
+  "updated_at": "2022-08-24T19:35:35-04:00",
   "vote_id": "s325-117.2022",
   "votes": {
     "Nay": [

@@ -25,7 +25,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00323.xml",
   "subject": "Thune Amendment No.5472",
   "type": "On the Amendment",
-  "updated_at": "2022-08-24T09:00:31-04:00",
+  "updated_at": "2022-08-24T19:35:36-04:00",
   "vote_id": "s323-117.2022",
   "votes": {
     "Nay": [
