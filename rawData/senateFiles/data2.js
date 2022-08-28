@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00324.xml",
   "subject": "Warner Amendment No. 5488",
   "type": "On the Amendment",
-  "updated_at": "2022-08-25T16:54:46-04:00",
+  "updated_at": "2022-08-28T14:35:31-04:00",
   "vote_id": "s324-117.2022",
   "votes": {
     "Nay": [
