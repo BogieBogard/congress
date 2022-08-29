@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00319.xml",
   "subject": "Rubio Motion to Commit H.R. 5376 to the Committee on Health, Education, Labor and Pensions with Instructions",
   "type": "On the Motion (Rubio Motion to Commit H.R. 5376 to the Committee on Health, Education, Labor and Pensions with Instructions)",
-  "updated_at": "2022-08-28T14:35:33-04:00",
+  "updated_at": "2022-08-29T16:03:15-04:00",
   "vote_id": "s319-117.2022",
   "votes": {
     "Nay": [

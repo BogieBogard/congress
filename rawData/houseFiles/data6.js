@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll415.xml",
   "subject": "Big Cat Public Safety Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-08-28T14:32:02-04:00",
+  "updated_at": "2022-08-29T16:02:50-04:00",
   "vote_id": "h415-117.2022",
   "votes": {
     "Nay": [
