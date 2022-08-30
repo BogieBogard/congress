@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00321.xml",
   "subject": "Graham Amendment No. 5487",
   "type": "On the Amendment",
-  "updated_at": "2022-08-29T16:03:15-04:00",
+  "updated_at": "2022-08-30T17:21:07-04:00",
   "vote_id": "s321-117.2022",
   "votes": {
     "Nay": [
