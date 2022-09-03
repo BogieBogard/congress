@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00318.xml",
   "subject": "Blackburn Motion to Commit H.R. 5376 to the Committee on Agriculture, Nutrition, and Forestry with Instructions.",
   "type": "On the Motion (Blackburn Motion to Commit H.R. 5376 to the Committee on Agriculture, Nutrition, and Forestry with Instructions.)",
-  "updated_at": "2022-08-31T15:21:18-04:00",
+  "updated_at": "2022-09-03T12:28:26-04:00",
   "vote_id": "s318-117.2022",
   "votes": {
     "Nay": [
