@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-14T11:32:00-04:00",
+  "date": "2022-09-14T12:33:00-04:00",
   "nomination": {
-    "number": "2140",
-    "title": "Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit"
+    "number": "2141",
+    "title": "Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit"
   },
-  "number": 335,
-  "question": "On the Nomination PN2140: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
-  "record_modified": "2022-09-14T12:47:00-04:00",
+  "number": 336,
+  "question": "Motion to Invoke Cloture: Sarah A. L. Merriam to be United States Circuit Judge for the Second Circuit: Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
+  "record_modified": "2022-09-14T13:59:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-47)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00335.xml",
-  "subject": "Confirmation: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
-  "type": "On the Nomination",
-  "updated_at": "2022-09-15T09:30:35-04:00",
-  "vote_id": "s335-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00336.xml",
+  "subject": "On the Cloture Motion PN2141",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-15T14:33:14-04:00",
+  "vote_id": "s336-117.2022",
   "votes": {
     "Nay": [
       {

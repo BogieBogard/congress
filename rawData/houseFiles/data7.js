@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll424.xml",
   "subject": "Providing for consideration of the bill (H.R. 302) Preventing a Patronage System Act; providing for consideration of the bill (H.R. 2988) Whistleblower Protection Improvement Act; providing for consideration of the bill (H.R. 8326) Ensuring a Fair and Accurate Census Act",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2022-09-15T09:27:00-04:00",
+  "updated_at": "2022-09-15T14:29:39-04:00",
   "vote_id": "h424-117.2022",
   "votes": {
     "Nay": [

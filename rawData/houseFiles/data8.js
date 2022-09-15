@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll423.xml",
   "subject": "Wildfire Recovery Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-15T09:27:01-04:00",
+  "updated_at": "2022-09-15T14:29:39-04:00",
   "vote_id": "h423-117.2022",
   "votes": {
     "Nay": [

@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-07T14:15:00-04:00",
+  "date": "2022-09-07T14:55:00-04:00",
   "nomination": {
-    "number": "1965",
-    "title": "John Z. Lee, of Illinois, to be United States Circuit Judge for the Seventh Circuit"
+    "number": "1502",
+    "title": "Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit"
   },
-  "number": 327,
-  "question": "On the Nomination PN1965: John Z. Lee, of Illinois, to be United States Circuit Judge for the Seventh Circuit",
-  "record_modified": "2022-09-07T15:07:00-04:00",
+  "number": 328,
+  "question": "Motion to Invoke Cloture: Andre B. Mathis to be U.S. Circuit Judge for the Sixth Circuit: Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit",
+  "record_modified": "2022-09-07T16:00:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (50-44)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (48-45)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00327.xml",
-  "subject": "Confirmation: John Z. Lee, of Illinois, to be U.S. Circuit Judge for the Seventh Circuit",
-  "type": "On the Nomination",
-  "updated_at": "2022-09-15T09:30:39-04:00",
-  "vote_id": "s327-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00328.xml",
+  "subject": "On the Cloture Motion PN1502",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-15T14:33:17-04:00",
+  "vote_id": "s328-117.2022",
   "votes": {
     "Nay": [
       {
@@ -79,6 +79,14 @@ const senate10Votes =
         "state": "LA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -101,14 +109,6 @@ const senate10Votes =
         "last_name": "Cramer",
         "party": "R",
         "state": "ND"
-      },
-      {
-        "display_name": "Crapo (R-ID)",
-        "first_name": "Mike",
-        "id": "S266",
-        "last_name": "Crapo",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -141,6 +141,14 @@ const senate10Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -385,6 +393,14 @@ const senate10Votes =
         "state": "NC"
       },
       {
+        "display_name": "Crapo (R-ID)",
+        "first_name": "Mike",
+        "id": "S266",
+        "last_name": "Crapo",
+        "party": "R",
+        "state": "ID"
+      },
+      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -500,14 +516,6 @@ const senate10Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -554,14 +562,6 @@ const senate10Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",

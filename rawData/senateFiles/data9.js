@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-07T14:55:00-04:00",
+  "date": "2022-09-08T11:22:00-04:00",
   "nomination": {
     "number": "1502",
     "title": "Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit"
   },
-  "number": 328,
-  "question": "Motion to Invoke Cloture: Andre B. Mathis to be U.S. Circuit Judge for the Sixth Circuit: Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit",
-  "record_modified": "2022-09-07T16:00:00-04:00",
+  "number": 329,
+  "question": "On the Nomination PN1502: Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit",
+  "record_modified": "2022-09-08T12:34:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (48-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (48-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00328.xml",
-  "subject": "On the Cloture Motion PN1502",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-15T09:30:38-04:00",
-  "vote_id": "s328-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00329.xml",
+  "subject": "Confirmation: Andre B. Mathis, of Tennessee, to be U.S. Circuit Judge for the Sixth Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-15T14:33:17-04:00",
+  "vote_id": "s329-117.2022",
   "votes": {
     "Nay": [
       {
@@ -109,6 +109,14 @@ const senate9Votes =
         "last_name": "Cramer",
         "party": "R",
         "state": "ND"
+      },
+      {
+        "display_name": "Crapo (R-ID)",
+        "first_name": "Mike",
+        "id": "S266",
+        "last_name": "Crapo",
+        "party": "R",
+        "state": "ID"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -335,6 +343,14 @@ const senate9Votes =
         "state": "AL"
       },
       {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Thune (R-SD)",
         "first_name": "John",
         "id": "S303",
@@ -393,14 +409,6 @@ const senate9Votes =
         "state": "NC"
       },
       {
-        "display_name": "Crapo (R-ID)",
-        "first_name": "Mike",
-        "id": "S266",
-        "last_name": "Crapo",
-        "party": "R",
-        "state": "ID"
-      },
-      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -431,14 +439,6 @@ const senate9Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
       }
     ],
     "Present": [],

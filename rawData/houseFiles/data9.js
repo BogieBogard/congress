@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll422.xml",
   "subject": "Drone Infrastructure Inspection Grant Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-15T09:27:01-04:00",
+  "updated_at": "2022-09-15T14:29:40-04:00",
   "vote_id": "h422-117.2022",
   "votes": {
     "Nay": [
