@@ -1,27 +1,25 @@
 const senate1Votes = 
 {
-  "bill": {
-    "congress": 117,
-    "number": 5376,
-    "title": "A bill to provide for reconciliation pursuant to title II of S. Con. Res. 14.",
-    "type": "hr"
-  },
-  "category": "passage",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-08-07T15:04:00-04:00",
-  "number": 325,
-  "question": "On Passage of the Bill H.R. 5376",
-  "record_modified": "2022-08-07T15:38:00-04:00",
+  "date": "2022-09-14T12:33:00-04:00",
+  "nomination": {
+    "number": "2141",
+    "title": "Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit"
+  },
+  "number": 336,
+  "question": "Motion to Invoke Cloture: Sarah A. L. Merriam to be United States Circuit Judge for the Second Circuit: Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
+  "record_modified": "2022-09-14T13:59:00-04:00",
   "requires": "1/2",
-  "result": "Bill Passed",
-  "result_text": "Bill Passed (50-50, Vice President of the United States, voted Yea)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.xml",
-  "subject": "H.R. 5376, As Amended",
-  "type": "On Passage of the Bill",
-  "updated_at": "2022-09-03T12:28:26-04:00",
-  "vote_id": "s325-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00336.xml",
+  "subject": "On the Cloture Motion PN2141",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-14T22:32:25-04:00",
+  "vote_id": "s336-117.2022",
   "votes": {
     "Nay": [
       {
@@ -89,14 +87,6 @@ const senate1Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -159,14 +149,6 @@ const senate1Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -279,14 +261,6 @@ const senate1Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -425,10 +399,18 @@ const senate1Votes =
         "state": "IN"
       }
     ],
-    "Not Voting": [],
+    "Not Voting": [
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
+      }
+    ],
     "Present": [],
     "Yea": [
-      "VP",
       {
         "display_name": "Baldwin (D-WI)",
         "first_name": "Tammy",
@@ -502,6 +484,14 @@ const senate1Votes =
         "state": "PA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -548,6 +538,14 @@ const senate1Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -662,6 +660,14 @@ const senate1Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -764,14 +770,6 @@ const senate1Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",

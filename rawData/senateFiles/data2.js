@@ -1,32 +1,25 @@
 const senate2Votes = 
 {
-  "amendment": {
-    "number": 5488,
-    "purpose": "To strike the extension of the limitation on State and local taxes and extend the limitation on excess business losses of noncorporate taxpayers, and for other purposes.",
-    "type": "s"
-  },
-  "bill": {
-    "congress": 117,
-    "number": 5376,
-    "title": "No short title on file",
-    "type": "hr"
-  },
-  "category": "amendment",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-08-07T14:50:00-04:00",
-  "number": 324,
-  "question": "On the Amendment S.Amdt. 5488 to S.Amdt. 5194 to H.R. 5376 (No short title on file)",
-  "record_modified": "2022-08-07T15:09:00-04:00",
+  "date": "2022-09-14T11:32:00-04:00",
+  "nomination": {
+    "number": "2140",
+    "title": "Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit"
+  },
+  "number": 335,
+  "question": "On the Nomination PN2140: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
+  "record_modified": "2022-09-14T12:47:00-04:00",
   "requires": "1/2",
-  "result": "Amendment Agreed to",
-  "result_text": "Amendment Agreed to (50-50, Vice President of the United States, voted Yea)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00324.xml",
-  "subject": "Warner Amendment No. 5488",
-  "type": "On the Amendment",
-  "updated_at": "2022-09-03T12:28:26-04:00",
-  "vote_id": "s324-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00335.xml",
+  "subject": "Confirmation: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-14T22:32:25-04:00",
+  "vote_id": "s335-117.2022",
   "votes": {
     "Nay": [
       {
@@ -94,14 +87,6 @@ const senate2Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -164,14 +149,6 @@ const senate2Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -284,14 +261,6 @@ const senate2Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -430,10 +399,18 @@ const senate2Votes =
         "state": "IN"
       }
     ],
-    "Not Voting": [],
+    "Not Voting": [
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
+      }
+    ],
     "Present": [],
     "Yea": [
-      "VP",
       {
         "display_name": "Baldwin (D-WI)",
         "first_name": "Tammy",
@@ -507,6 +484,14 @@ const senate2Votes =
         "state": "PA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -553,6 +538,14 @@ const senate2Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -667,6 +660,14 @@ const senate2Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -769,14 +770,6 @@ const senate2Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
