@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00327.xml",
   "subject": "Confirmation: John Z. Lee, of Illinois, to be U.S. Circuit Judge for the Seventh Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-14T22:32:29-04:00",
+  "updated_at": "2022-09-15T09:30:39-04:00",
   "vote_id": "s327-117.2022",
   "votes": {
     "Nay": [

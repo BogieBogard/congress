@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll429.xml",
   "subject": "CREW Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-14T22:28:44-04:00",
+  "updated_at": "2022-09-15T09:26:58-04:00",
   "vote_id": "h429-117.2022",
   "votes": {
     "Nay": [

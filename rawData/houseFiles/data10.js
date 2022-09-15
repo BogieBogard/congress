@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll421.xml",
   "subject": "To extend by 19 days the authorization for the special assessment for the Domestic Trafficking Victims\u2019 Fund",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-14T22:28:48-04:00",
+  "updated_at": "2022-09-15T09:27:02-04:00",
   "vote_id": "h421-117.2022",
   "votes": {
     "Nay": [],

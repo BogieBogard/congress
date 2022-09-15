@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll427.xml",
   "subject": "National Aviation Preparedness Plan Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-14T22:28:45-04:00",
+  "updated_at": "2022-09-15T09:26:59-04:00",
   "vote_id": "h427-117.2022",
   "votes": {
     "Nay": [

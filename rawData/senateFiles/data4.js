@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00333.xml",
   "subject": "Confirmation: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-14T22:32:26-04:00",
+  "updated_at": "2022-09-15T09:30:36-04:00",
   "vote_id": "s333-117.2022",
   "votes": {
     "Nay": [
