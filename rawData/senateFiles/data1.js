@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00338.xml",
   "subject": "Confirmation: David P. Pekoske, of Maryland, to be Administrator of the Transportation Security Administration",
   "type": "On the Nomination",
-  "updated_at": "2022-09-15T21:28:46-04:00",
+  "updated_at": "2022-09-16T16:23:03-04:00",
   "vote_id": "s338-117.2022",
   "votes": {
     "Nay": [
