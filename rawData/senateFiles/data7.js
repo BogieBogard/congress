@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-12T17:31:00-04:00",
+  "date": "2022-09-12T18:25:00-04:00",
   "nomination": {
-    "number": "1966",
-    "title": "Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit"
+    "number": "1684",
+    "title": "Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
   },
-  "number": 331,
-  "question": "On the Nomination PN1966: Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit",
-  "record_modified": "2022-09-13T16:43:00-04:00",
+  "number": 332,
+  "question": "Motion to Invoke Cloture: Arianna J. Freeman to be U.S. Circuit Judge for the Third Circuit: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
+  "record_modified": "2022-09-15T13:05:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (46-40)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (45-44)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00331.xml",
-  "subject": "Confirmation: Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit",
-  "type": "On the Nomination",
-  "updated_at": "2022-09-15T14:33:16-04:00",
-  "vote_id": "s331-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00332.xml",
+  "subject": "On the Cloture Motion PN1684",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-15T21:28:49-04:00",
+  "vote_id": "s332-117.2022",
   "votes": {
     "Nay": [
       {
@@ -29,14 +29,6 @@ const senate7Votes =
         "last_name": "Blackburn",
         "party": "R",
         "state": "TN"
-      },
-      {
-        "display_name": "Blunt (R-MO)",
-        "first_name": "Roy",
-        "id": "S342",
-        "last_name": "Blunt",
-        "party": "R",
-        "state": "MO"
       },
       {
         "display_name": "Boozman (R-AR)",
@@ -69,6 +61,14 @@ const senate7Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -133,6 +133,14 @@ const senate7Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -247,6 +255,22 @@ const senate7Votes =
         "state": "KS"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Portman (R-OH)",
         "first_name": "Rob",
         "id": "S349",
@@ -293,6 +317,14 @@ const senate7Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Shelby (R-AL)",
@@ -353,6 +385,14 @@ const senate7Votes =
         "state": "WY"
       },
       {
+        "display_name": "Blunt (R-MO)",
+        "first_name": "Roy",
+        "id": "S342",
+        "last_name": "Blunt",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Braun (R-IN)",
         "first_name": "Mike",
         "id": "S397",
@@ -385,22 +425,6 @@ const senate7Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Padilla (D-CA)",
-        "first_name": "Alex",
-        "id": "S413",
-        "last_name": "Padilla",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
-        "party": "R",
-        "state": "KY"
-      },
-      {
         "display_name": "Peters (D-MI)",
         "first_name": "Gary",
         "id": "S380",
@@ -415,22 +439,6 @@ const senate7Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
-        "display_name": "Sinema (D-AZ)",
-        "first_name": "Kyrsten",
-        "id": "S403",
-        "last_name": "Sinema",
-        "party": "D",
-        "state": "AZ"
       },
       {
         "display_name": "Stabenow (D-MI)",
@@ -524,14 +532,6 @@ const senate7Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -578,14 +578,6 @@ const senate7Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -684,14 +676,6 @@ const senate7Votes =
         "state": "OR"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -714,6 +698,14 @@ const senate7Votes =
         "last_name": "Ossoff",
         "party": "D",
         "state": "GA"
+      },
+      {
+        "display_name": "Padilla (D-CA)",
+        "first_name": "Alex",
+        "id": "S413",
+        "last_name": "Padilla",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Reed (D-RI)",
@@ -762,6 +754,14 @@ const senate7Votes =
         "last_name": "Shaheen",
         "party": "D",
         "state": "NH"
+      },
+      {
+        "display_name": "Sinema (D-AZ)",
+        "first_name": "Kyrsten",
+        "id": "S403",
+        "last_name": "Sinema",
+        "party": "D",
+        "state": "AZ"
       },
       {
         "display_name": "Smith (D-MN)",

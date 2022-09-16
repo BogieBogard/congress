@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-14T12:33:00-04:00",
+  "date": "2022-09-15T11:33:00-04:00",
   "nomination": {
     "number": "2141",
     "title": "Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit"
   },
-  "number": 336,
-  "question": "Motion to Invoke Cloture: Sarah A. L. Merriam to be United States Circuit Judge for the Second Circuit: Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
-  "record_modified": "2022-09-14T13:59:00-04:00",
+  "number": 337,
+  "question": "On the Nomination PN2141: Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
+  "record_modified": "2022-09-15T12:46:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-47)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-44)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00336.xml",
-  "subject": "On the Cloture Motion PN2141",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-15T14:33:14-04:00",
-  "vote_id": "s336-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00337.xml",
+  "subject": "Confirmation: Sarah A.L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-15T21:28:46-04:00",
+  "vote_id": "s337-117.2022",
   "votes": {
     "Nay": [
       {
@@ -103,28 +103,12 @@ const senate2Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
         "last_name": "Crapo",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -253,14 +237,6 @@ const senate2Votes =
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -401,12 +377,28 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -770,6 +762,14 @@ const senate2Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
