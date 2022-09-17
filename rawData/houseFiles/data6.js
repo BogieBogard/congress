@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll432.xml",
   "subject": "Preventing a Patronage System Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-16T16:19:24-04:00",
+  "updated_at": "2022-09-16T22:26:05-04:00",
   "vote_id": "h432-117.2022",
   "votes": {
     "Nay": [

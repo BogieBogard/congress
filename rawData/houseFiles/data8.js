@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll430.xml",
   "subject": "BRIGHT Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-16T16:19:25-04:00",
+  "updated_at": "2022-09-16T22:26:06-04:00",
   "vote_id": "h430-117.2022",
   "votes": {
     "Nay": [
