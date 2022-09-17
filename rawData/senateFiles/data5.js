@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00334.xml",
   "subject": "On the Cloture Motion PN2140",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-09-17T11:30:03-04:00",
+  "updated_at": "2022-09-17T17:36:47-04:00",
   "vote_id": "s334-117.2022",
   "votes": {
     "Nay": [
