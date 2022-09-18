@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00329.xml",
   "subject": "Confirmation: Andre B. Mathis, of Tennessee, to be U.S. Circuit Judge for the Sixth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-17T23:43:29-04:00",
+  "updated_at": "2022-09-18T12:21:14-04:00",
   "vote_id": "s329-117.2022",
   "votes": {
     "Nay": [
