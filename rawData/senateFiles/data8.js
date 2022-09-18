@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00331.xml",
   "subject": "Confirmation: Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-17T17:36:48-04:00",
+  "updated_at": "2022-09-17T23:43:28-04:00",
   "vote_id": "s331-117.2022",
   "votes": {
     "Nay": [
