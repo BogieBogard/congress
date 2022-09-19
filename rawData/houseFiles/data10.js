@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll428.xml",
   "subject": "Expediting Disaster Recovery Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-19T00:30:57-04:00",
+  "updated_at": "2022-09-19T06:37:41-04:00",
   "vote_id": "h428-117.2022",
   "votes": {
     "Nay": [
