@@ -1,31 +1,27 @@
 const house4Votes = 
 {
-  "amendment": {
-    "author": "Hice of Georgia Part E Amendment No. 2",
-    "number": 2,
-    "type": "h-bill"
-  },
   "bill": {
     "congress": 117,
-    "number": 8326,
+    "number": 2988,
     "type": "hr"
   },
-  "category": "amendment",
+  "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-15T15:02:00-04:00",
-  "number": 434,
-  "question": "On Agreeing to the Amendment: Amendment 2 to H R 8326",
+  "date": "2022-09-15T15:39:00-04:00",
+  "number": 437,
+  "question": "On Passage: H R 2988 Whistleblower Protection Improvement Act",
   "requires": "1/2",
-  "result": "Failed",
-  "result_text": "Failed",
+  "result": "Passed",
+  "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll434.xml",
-  "type": "On the Amendment",
-  "updated_at": "2022-09-19T12:44:27-04:00",
-  "vote_id": "h434-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll437.xml",
+  "subject": "Whistleblower Protection Improvement Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-09-19T18:51:11-04:00",
+  "vote_id": "h437-117.2022",
   "votes": {
-    "Aye": [
+    "Nay": [
       {
         "display_name": "Aderholt",
         "id": "A000055",
@@ -381,12 +377,6 @@ const house4Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -415,12 +405,6 @@ const house4Votes =
         "id": "F000472",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Fulcher",
-        "id": "F000469",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Gaetz",
@@ -475,12 +459,6 @@ const house4Votes =
         "id": "G000588",
         "party": "R",
         "state": "OH"
-      },
-      {
-        "display_name": "Gonz\u00e1lez-Col\u00f3n (PR)",
-        "id": "G000582",
-        "party": "R",
-        "state": "XX"
       },
       {
         "display_name": "Good (VA)",
@@ -789,12 +767,6 @@ const house4Votes =
         "state": "MO"
       },
       {
-        "display_name": "Mace",
-        "id": "M000194",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Malliotakis",
         "id": "M000317",
         "party": "R",
@@ -915,12 +887,6 @@ const house4Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murphy (NC)",
-        "id": "M001210",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Nehls",
         "id": "N000026",
         "party": "R",
@@ -997,12 +963,6 @@ const house4Votes =
         "id": "R000597",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Rodgers (WA)",
-        "id": "M001159",
-        "party": "R",
-        "state": "WA"
       },
       {
         "display_name": "Rogers (AL)",
@@ -1087,12 +1047,6 @@ const house4Votes =
         "id": "S001148",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Slotkin",
-        "id": "S001208",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Smith (MO)",
@@ -1215,6 +1169,12 @@ const house4Votes =
         "state": "NJ"
       },
       {
+        "display_name": "Van Duyne",
+        "id": "V000134",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Wagner",
         "id": "W000812",
         "party": "R",
@@ -1257,12 +1217,6 @@ const house4Votes =
         "state": "AR"
       },
       {
-        "display_name": "Williams (TX)",
-        "id": "W000816",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Wilson (SC)",
         "id": "W000795",
         "party": "R",
@@ -1287,7 +1241,58 @@ const house4Votes =
         "state": "NY"
       }
     ],
-    "No": [
+    "Not Voting": [
+      {
+        "display_name": "Budd",
+        "id": "B001305",
+        "party": "R",
+        "state": "NC"
+      },
+      {
+        "display_name": "Cheney",
+        "id": "C001109",
+        "party": "R",
+        "state": "WY"
+      },
+      {
+        "display_name": "Fulcher",
+        "id": "F000469",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
+      },
+      {
+        "display_name": "Murphy (NC)",
+        "id": "M001210",
+        "party": "R",
+        "state": "NC"
+      },
+      {
+        "display_name": "Pascrell",
+        "id": "P000096",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Rodgers (WA)",
+        "id": "M001159",
+        "party": "R",
+        "state": "WA"
+      },
+      {
+        "display_name": "Williams (TX)",
+        "id": "W000816",
+        "party": "R",
+        "state": "TX"
+      }
+    ],
+    "Present": [],
+    "Yea": [
       {
         "display_name": "Adams",
         "id": "A000370",
@@ -1679,6 +1684,12 @@ const house4Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -2015,6 +2026,12 @@ const house4Votes =
         "state": "MA"
       },
       {
+        "display_name": "Mace",
+        "id": "M000194",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Malinowski",
         "id": "M001203",
         "party": "D",
@@ -2159,12 +2176,6 @@ const house4Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Norton",
-        "id": "N000147",
-        "party": "D",
-        "state": "XX"
-      },
-      {
         "display_name": "O'Halleran",
         "id": "O000171",
         "party": "D",
@@ -2201,12 +2212,6 @@ const house4Votes =
         "state": "NH"
       },
       {
-        "display_name": "Pascrell",
-        "id": "P000096",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Payne",
         "id": "P000604",
         "party": "D",
@@ -2241,12 +2246,6 @@ const house4Votes =
         "id": "P000597",
         "party": "D",
         "state": "ME"
-      },
-      {
-        "display_name": "Plaskett",
-        "id": "P000610",
-        "party": "D",
-        "state": "XX"
       },
       {
         "display_name": "Pocan",
@@ -2333,12 +2332,6 @@ const house4Votes =
         "state": "OH"
       },
       {
-        "display_name": "Sablan",
-        "id": "S001177",
-        "party": "D",
-        "state": "XX"
-      },
-      {
         "display_name": "S\u00e1nchez",
         "id": "S001156",
         "party": "D",
@@ -2421,6 +2414,12 @@ const house4Votes =
         "id": "S001165",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Slotkin",
+        "id": "S001208",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Smith (WA)",
@@ -2620,45 +2619,6 @@ const house4Votes =
         "party": "D",
         "state": "KY"
       }
-    ],
-    "Not Voting": [
-      {
-        "display_name": "Budd",
-        "id": "B001305",
-        "party": "R",
-        "state": "NC"
-      },
-      {
-        "display_name": "Cheney",
-        "id": "C001109",
-        "party": "R",
-        "state": "WY"
-      },
-      {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
-      },
-      {
-        "display_name": "Radewagen",
-        "id": "R000600",
-        "party": "R",
-        "state": "XX"
-      },
-      {
-        "display_name": "San Nicolas",
-        "id": "S001204",
-        "party": "D",
-        "state": "XX"
-      },
-      {
-        "display_name": "Van Duyne",
-        "id": "V000134",
-        "party": "R",
-        "state": "TX"
-      }
-    ],
-    "Present": []
+    ]
   }
 }

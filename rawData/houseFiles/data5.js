@@ -1,29 +1,29 @@
 const house5Votes = 
 {
   "amendment": {
-    "author": "Danny K. Davis of Illinois Part E Amendment En Bloc",
+    "author": "Carolyn B. Maloney of New York Part C Amendment En Bloc",
     "number": 1,
     "type": "h-bill"
   },
   "bill": {
     "congress": 117,
-    "number": 8326,
+    "number": 2988,
     "type": "hr"
   },
   "category": "amendment",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-15T14:51:00-04:00",
-  "number": 433,
-  "question": "On Agreeing to the Amendment: Amendment 1 to H R 8326",
+  "date": "2022-09-15T15:25:00-04:00",
+  "number": 436,
+  "question": "On Agreeing to the Amendment: Amendment 1 to H R 2988",
   "requires": "1/2",
   "result": "Agreed to",
   "result_text": "Agreed to",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll433.xml",
+  "source_url": "https://clerk.house.gov/evs/2022/roll436.xml",
   "type": "On the Amendment",
-  "updated_at": "2022-09-19T12:44:27-04:00",
-  "vote_id": "h433-117.2022",
+  "updated_at": "2022-09-19T18:51:11-04:00",
+  "vote_id": "h436-117.2022",
   "votes": {
     "Aye": [
       {
@@ -414,6 +414,12 @@ const house5Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
         "state": "PA"
       },
       {
@@ -897,12 +903,6 @@ const house5Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Norton",
-        "id": "N000147",
-        "party": "D",
-        "state": "XX"
-      },
-      {
         "display_name": "O'Halleran",
         "id": "O000171",
         "party": "D",
@@ -1073,6 +1073,12 @@ const house5Votes =
       {
         "display_name": "Sablan",
         "id": "S001177",
+        "party": "D",
+        "state": "XX"
+      },
+      {
+        "display_name": "San Nicolas",
+        "id": "S001204",
         "party": "D",
         "state": "XX"
       },
@@ -1469,12 +1475,6 @@ const house5Votes =
         "state": "NC"
       },
       {
-        "display_name": "Boebert",
-        "id": "B000825",
-        "party": "R",
-        "state": "CO"
-      },
-      {
         "display_name": "Bost",
         "id": "B001295",
         "party": "R",
@@ -1721,12 +1721,6 @@ const house5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1755,12 +1749,6 @@ const house5Votes =
         "id": "F000472",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Fulcher",
-        "id": "F000469",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Gaetz",
@@ -2055,12 +2043,6 @@ const house5Votes =
         "id": "K000397",
         "party": "R",
         "state": "CA"
-      },
-      {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
       },
       {
         "display_name": "Kustoff",
@@ -2459,12 +2441,6 @@ const house5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Spartz",
-        "id": "S000929",
-        "party": "R",
-        "state": "IN"
-      },
-      {
         "display_name": "Stauber",
         "id": "S001212",
         "party": "R",
@@ -2635,6 +2611,12 @@ const house5Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Boebert",
+        "id": "B000825",
+        "party": "R",
+        "state": "CO"
+      },
+      {
         "display_name": "Budd",
         "id": "B001305",
         "party": "R",
@@ -2647,16 +2629,34 @@ const house5Votes =
         "state": "WY"
       },
       {
+        "display_name": "Fulcher",
+        "id": "F000469",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
+      },
+      {
+        "display_name": "Norton",
+        "id": "N000147",
+        "party": "D",
+        "state": "XX"
+      },
+      {
         "display_name": "Radewagen",
         "id": "R000600",
         "party": "R",
         "state": "XX"
       },
       {
-        "display_name": "San Nicolas",
-        "id": "S001204",
-        "party": "D",
-        "state": "XX"
+        "display_name": "Spartz",
+        "id": "S000929",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Present": []

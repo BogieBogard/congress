@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-13T12:30:00-04:00",
+  "date": "2022-09-14T11:32:00-04:00",
   "nomination": {
     "number": "2140",
     "title": "Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit"
   },
-  "number": 334,
-  "question": "Motion to Invoke Cloture: Lara E. Montecalvo to be United States Circuit Judge for the First Circuit: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
-  "record_modified": "2022-09-13T13:28:00-04:00",
+  "number": 335,
+  "question": "On the Nomination PN2140: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
+  "record_modified": "2022-09-14T12:47:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00334.xml",
-  "subject": "On the Cloture Motion PN2140",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-19T12:48:08-04:00",
-  "vote_id": "s334-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00335.xml",
+  "subject": "Confirmation: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-19T18:54:54-04:00",
+  "vote_id": "s335-117.2022",
   "votes": {
     "Nay": [
       {
@@ -77,6 +77,14 @@ const senate5Votes =
         "last_name": "Capito",
         "party": "R",
         "state": "WV"
+      },
+      {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -381,32 +389,6 @@ const senate5Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      }
-    ],
-    "Not Voting": [
-      {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Hassan (D-NH)",
-        "first_name": "Maggie",
-        "id": "S388",
-        "last_name": "Hassan",
-        "party": "D",
-        "state": "NH"
       },
       {
         "display_name": "Young (R-IN)",
@@ -415,6 +397,16 @@ const senate5Votes =
         "last_name": "Young",
         "party": "R",
         "state": "IN"
+      }
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       }
     ],
     "Present": [],
@@ -516,6 +508,14 @@ const senate5Votes =
         "state": "NV"
       },
       {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Durbin (D-IL)",
         "first_name": "Richard",
         "id": "S253",
@@ -546,6 +546,14 @@ const senate5Votes =
         "last_name": "Graham",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Hassan (D-NH)",
+        "first_name": "Maggie",
+        "id": "S388",
+        "last_name": "Hassan",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -762,14 +770,6 @@ const senate5Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",

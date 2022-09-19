@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-13T11:37:00-04:00",
+  "date": "2022-09-13T12:30:00-04:00",
   "nomination": {
-    "number": "1684",
-    "title": "Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
+    "number": "2140",
+    "title": "Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit"
   },
-  "number": 333,
-  "question": "On the Nomination PN1684: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-  "record_modified": "2022-09-13T12:48:00-04:00",
+  "number": 334,
+  "question": "Motion to Invoke Cloture: Lara E. Montecalvo to be United States Circuit Judge for the First Circuit: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
+  "record_modified": "2022-09-13T13:28:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Rejected",
-  "result_text": "Nomination Rejected (47-50)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (51-45)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00333.xml",
-  "subject": "Confirmation: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-  "type": "On the Nomination",
-  "updated_at": "2022-09-19T12:48:09-04:00",
-  "vote_id": "s333-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00334.xml",
+  "subject": "On the Cloture Motion PN2140",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-19T18:54:55-04:00",
+  "vote_id": "s334-117.2022",
   "votes": {
     "Nay": [
       {
@@ -77,22 +77,6 @@ const senate6Votes =
         "last_name": "Capito",
         "party": "R",
         "state": "WV"
-      },
-      {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -157,14 +141,6 @@ const senate6Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -279,14 +255,6 @@ const senate6Votes =
         "state": "KS"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -341,14 +309,6 @@ const senate6Votes =
         "last_name": "Sasse",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       },
       {
         "display_name": "Scott (R-FL)",
@@ -424,6 +384,14 @@ const senate6Votes =
       }
     ],
     "Not Voting": [
+      {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
+      },
       {
         "display_name": "Duckworth (D-IL)",
         "first_name": "Tammy",
@@ -524,6 +492,14 @@ const senate6Votes =
         "state": "PA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -562,6 +538,14 @@ const senate6Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -668,6 +652,14 @@ const senate6Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -738,6 +730,14 @@ const senate6Votes =
         "last_name": "Schatz",
         "party": "D",
         "state": "HI"
+      },
+      {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Shaheen (D-NH)",

@@ -2,24 +2,24 @@ const house6Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 302,
+    "number": 8326,
     "type": "hr"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-15T14:28:00-04:00",
-  "number": 432,
-  "question": "On Passage: H R 302 Preventing a Patronage System Act",
+  "date": "2022-09-15T15:14:00-04:00",
+  "number": 435,
+  "question": "On Passage: H R 8326 Ensuring a Fair and Accurate Census Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll432.xml",
-  "subject": "Preventing a Patronage System Act",
+  "source_url": "https://clerk.house.gov/evs/2022/roll435.xml",
+  "subject": "Ensuring a Fair and Accurate Census Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-19T12:44:28-04:00",
-  "vote_id": "h432-117.2022",
+  "updated_at": "2022-09-19T18:51:12-04:00",
+  "vote_id": "h435-117.2022",
   "votes": {
     "Nay": [
       {
@@ -57,6 +57,12 @@ const house6Votes =
         "id": "B001291",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Bacon",
+        "id": "B001298",
+        "party": "R",
+        "state": "NE"
       },
       {
         "display_name": "Baird",
@@ -371,6 +377,12 @@ const house6Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -453,6 +465,12 @@ const house6Votes =
         "id": "G000594",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Gonzalez (OH)",
+        "id": "G000588",
+        "party": "R",
+        "state": "OH"
       },
       {
         "display_name": "Good (VA)",
@@ -659,6 +677,12 @@ const house6Votes =
         "state": "PA"
       },
       {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
+      },
+      {
         "display_name": "Keller",
         "id": "K000395",
         "party": "R",
@@ -813,6 +837,12 @@ const house6Votes =
         "id": "M001156",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "McKinley",
+        "id": "M001180",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Meijer",
@@ -1073,12 +1103,6 @@ const house6Votes =
         "state": "PA"
       },
       {
-        "display_name": "Spartz",
-        "id": "S000929",
-        "party": "R",
-        "state": "IN"
-      },
-      {
         "display_name": "Stauber",
         "id": "S001212",
         "party": "R",
@@ -1261,10 +1285,16 @@ const house6Votes =
         "state": "WY"
       },
       {
-        "display_name": "O'Halleran",
-        "id": "O000171",
-        "party": "D",
-        "state": "AZ"
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
+      },
+      {
+        "display_name": "Spartz",
+        "id": "S000929",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Present": [],
@@ -1298,12 +1328,6 @@ const house6Votes =
         "id": "A000378",
         "party": "D",
         "state": "IA"
-      },
-      {
-        "display_name": "Bacon",
-        "id": "B001298",
-        "party": "R",
-        "state": "NE"
       },
       {
         "display_name": "Barrag\u00e1n",
@@ -1666,12 +1690,6 @@ const house6Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -1724,12 +1742,6 @@ const house6Votes =
         "id": "G000585",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Gonzalez (OH)",
-        "id": "G000588",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Gonzalez, Vicente",
@@ -1858,12 +1870,6 @@ const house6Votes =
         "state": "OH"
       },
       {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
-      },
-      {
         "display_name": "Keating",
         "id": "K000375",
         "party": "D",
@@ -1904,12 +1910,6 @@ const house6Votes =
         "id": "K000188",
         "party": "D",
         "state": "WI"
-      },
-      {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
       },
       {
         "display_name": "Kirkpatrick",
@@ -2080,12 +2080,6 @@ const house6Votes =
         "state": "MA"
       },
       {
-        "display_name": "McKinley",
-        "id": "M001180",
-        "party": "R",
-        "state": "WV"
-      },
-      {
         "display_name": "McNerney",
         "id": "M001166",
         "party": "D",
@@ -2174,6 +2168,12 @@ const house6Votes =
         "id": "N000188",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "O'Halleran",
+        "id": "O000171",
+        "party": "D",
+        "state": "AZ"
       },
       {
         "display_name": "Ocasio-Cortez",

@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-08T11:22:00-04:00",
+  "date": "2022-09-08T13:36:00-04:00",
   "nomination": {
-    "number": "1502",
-    "title": "Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit"
+    "number": "1966",
+    "title": "Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit"
   },
-  "number": 329,
-  "question": "On the Nomination PN1502: Andre B. Mathis, of Tennessee, to be United States Circuit Judge for the Sixth Circuit",
-  "record_modified": "2022-09-08T12:34:00-04:00",
+  "number": 330,
+  "question": "Motion to Invoke Cloture: Salvador Mendoza, Jr. to be U.S. Circuit Judge for the Ninth Circuit: Salvador Mendoza, Jr., of Washington, to be United States Circuit Judge for the Ninth Circuit",
+  "record_modified": "2022-09-08T15:06:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (48-47)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (48-43)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00329.xml",
-  "subject": "Confirmation: Andre B. Mathis, of Tennessee, to be U.S. Circuit Judge for the Sixth Circuit",
-  "type": "On the Nomination",
-  "updated_at": "2022-09-19T12:48:11-04:00",
-  "vote_id": "s329-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00330.xml",
+  "subject": "On the Cloture Motion PN1966",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-09-19T18:54:57-04:00",
+  "vote_id": "s330-117.2022",
   "votes": {
     "Nay": [
       {
@@ -79,14 +79,6 @@ const senate10Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -109,14 +101,6 @@ const senate10Votes =
         "last_name": "Cramer",
         "party": "R",
         "state": "ND"
-      },
-      {
-        "display_name": "Crapo (R-ID)",
-        "first_name": "Mike",
-        "id": "S266",
-        "last_name": "Crapo",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -149,14 +133,6 @@ const senate10Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -215,6 +191,14 @@ const senate10Votes =
         "state": "WI"
       },
       {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -271,14 +255,6 @@ const senate10Votes =
         "state": "KY"
       },
       {
-        "display_name": "Portman (R-OH)",
-        "first_name": "Rob",
-        "id": "S349",
-        "last_name": "Portman",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
@@ -325,14 +301,6 @@ const senate10Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Shelby (R-AL)",
@@ -409,6 +377,14 @@ const senate10Votes =
         "state": "NC"
       },
       {
+        "display_name": "Crapo (R-ID)",
+        "first_name": "Mike",
+        "id": "S266",
+        "last_name": "Crapo",
+        "party": "R",
+        "state": "ID"
+      },
+      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -433,12 +409,36 @@ const senate10Votes =
         "state": "GA"
       },
       {
+        "display_name": "Peters (D-MI)",
+        "first_name": "Gary",
+        "id": "S380",
+        "last_name": "Peters",
+        "party": "D",
+        "state": "MI"
+      },
+      {
+        "display_name": "Portman (R-OH)",
+        "first_name": "Rob",
+        "id": "S349",
+        "last_name": "Portman",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -516,6 +516,14 @@ const senate10Votes =
         "state": "PA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -564,6 +572,14 @@ const senate10Votes =
         "state": "NY"
       },
       {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -610,14 +626,6 @@ const senate10Votes =
         "last_name": "Kelly",
         "party": "D",
         "state": "AZ"
-      },
-      {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "King (I-ME)",
@@ -698,14 +706,6 @@ const senate10Votes =
         "last_name": "Padilla",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Peters (D-MI)",
-        "first_name": "Gary",
-        "id": "S380",
-        "last_name": "Peters",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Reed (D-RI)",
