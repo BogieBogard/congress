@@ -11,14 +11,14 @@ const house2Votes =
   "date": "2022-09-19T19:23:00-04:00",
   "number": 439,
   "question": "On Motion to Suspend the Rules and Pass: S 3157 Bridging the Gap for New Americans Act",
-  "requires": "1/2",
+  "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll439.xml",
   "subject": "Bridging the Gap for New Americans Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-20T07:04:46-04:00",
+  "updated_at": "2022-09-20T13:11:28-04:00",
   "vote_id": "h439-117.2022",
   "votes": {
     "Nay": [

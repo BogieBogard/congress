@@ -11,14 +11,14 @@ const house1Votes =
   "date": "2022-09-19T19:32:00-04:00",
   "number": 440,
   "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 1456 Peace Corps Reauthorization Act",
-  "requires": "1/2",
+  "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll440.xml",
   "subject": "Peace Corps Reauthorization Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-20T07:04:45-04:00",
+  "updated_at": "2022-09-20T13:11:27-04:00",
   "vote_id": "h440-117.2022",
   "votes": {
     "Nay": [

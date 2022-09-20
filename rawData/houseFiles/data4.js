@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll437.xml",
   "subject": "Whistleblower Protection Improvement Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-20T07:04:47-04:00",
+  "updated_at": "2022-09-20T13:11:28-04:00",
   "vote_id": "h437-117.2022",
   "votes": {
     "Nay": [
