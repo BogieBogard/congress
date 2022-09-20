@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00335.xml",
   "subject": "Confirmation: Lara E. Montecalvo, of Rhode Island, to be United States Circuit Judge for the First Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-19T18:54:54-04:00",
+  "updated_at": "2022-09-20T01:01:40-04:00",
   "vote_id": "s335-117.2022",
   "votes": {
     "Nay": [

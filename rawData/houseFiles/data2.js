@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll439.xml",
   "subject": "Bridging the Gap for New Americans Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-19T18:51:10-04:00",
+  "updated_at": "2022-09-20T00:57:56-04:00",
   "vote_id": "h439-117.2022",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll435.xml",
   "subject": "Ensuring a Fair and Accurate Census Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-19T18:51:12-04:00",
+  "updated_at": "2022-09-20T00:57:58-04:00",
   "vote_id": "h435-117.2022",
   "votes": {
     "Nay": [
