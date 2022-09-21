@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll444.xml",
   "subject": "Blackwell School National Historic Site Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-20T19:18:12-04:00",
+  "updated_at": "2022-09-21T01:24:59-04:00",
   "vote_id": "h444-117.2022",
   "votes": {
     "Nay": [
