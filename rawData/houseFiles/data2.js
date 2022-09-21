@@ -12,7 +12,7 @@ const house2Votes =
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll443.xml",
   "type": "On Motion to Suspend the Rules and Pass Certain Bills and Agree to a Resolution",
-  "updated_at": "2022-09-21T01:25:00-04:00",
+  "updated_at": "2022-09-21T07:31:44-04:00",
   "vote_id": "h443-117.2022",
   "votes": {
     "Nay": [

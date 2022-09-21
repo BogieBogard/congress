@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll438.xml",
   "subject": "United States Commission on International Religious Freedom Reauthorization Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-21T01:25:02-04:00",
+  "updated_at": "2022-09-21T07:31:47-04:00",
   "vote_id": "h438-117.2022",
   "votes": {
     "Nay": [
