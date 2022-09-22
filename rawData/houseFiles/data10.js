@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll440.xml",
   "subject": "Peace Corps Reauthorization Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-22T01:51:58-04:00",
+  "updated_at": "2022-09-22T07:58:46-04:00",
   "vote_id": "h440-117.2022",
   "votes": {
     "Nay": [
