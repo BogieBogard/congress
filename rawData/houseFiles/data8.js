@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll442.xml",
   "subject": "Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-09-21T19:45:09-04:00",
+  "updated_at": "2022-09-22T01:51:57-04:00",
   "vote_id": "h442-117.2022",
   "votes": {
     "Nay": [

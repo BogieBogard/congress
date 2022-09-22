@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll447.xml",
   "subject": "Joint Consolidation Loan Separation Act",
   "type": "On Motion to Commit",
-  "updated_at": "2022-09-21T19:45:06-04:00",
+  "updated_at": "2022-09-22T01:51:54-04:00",
   "vote_id": "h447-117.2022",
   "votes": {
     "Nay": [
