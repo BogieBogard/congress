@@ -2,24 +2,24 @@ const house8Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 2988,
-    "type": "hr"
+    "number": 1361,
+    "type": "hres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-15T15:39:00-04:00",
-  "number": 437,
-  "question": "On Passage: H R 2988 Whistleblower Protection Improvement Act",
+  "date": "2022-09-20T14:01:00-04:00",
+  "number": 442,
+  "question": "On Agreeing to the Resolution: H RES 1361 Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll437.xml",
-  "subject": "Whistleblower Protection Improvement Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2022-09-21T13:38:31-04:00",
-  "vote_id": "h437-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll442.xml",
+  "subject": "Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
+  "type": "On the Resolution",
+  "updated_at": "2022-09-21T19:45:09-04:00",
+  "vote_id": "h442-117.2022",
   "votes": {
     "Nay": [
       {
@@ -227,6 +227,12 @@ const house8Votes =
         "state": "OH"
       },
       {
+        "display_name": "Cheney",
+        "id": "C001109",
+        "party": "R",
+        "state": "WY"
+      },
+      {
         "display_name": "Cline",
         "id": "C001118",
         "party": "R",
@@ -273,12 +279,6 @@ const house8Votes =
         "id": "C001120",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Curtis",
-        "id": "C001114",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Davidson",
@@ -377,6 +377,12 @@ const house8Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -407,6 +413,12 @@ const house8Votes =
         "state": "FL"
       },
       {
+        "display_name": "Fulcher",
+        "id": "F000469",
+        "party": "R",
+        "state": "ID"
+      },
+      {
         "display_name": "Gaetz",
         "id": "G000578",
         "party": "R",
@@ -429,12 +441,6 @@ const house8Votes =
         "id": "G000061",
         "party": "R",
         "state": "CA"
-      },
-      {
-        "display_name": "Gibbs",
-        "id": "G000563",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Gimenez",
@@ -665,12 +671,6 @@ const house8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
-      },
-      {
         "display_name": "Keller",
         "id": "K000395",
         "party": "R",
@@ -765,6 +765,12 @@ const house8Votes =
         "id": "L000569",
         "party": "R",
         "state": "MO"
+      },
+      {
+        "display_name": "Mace",
+        "id": "M000194",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Malliotakis",
@@ -887,6 +893,12 @@ const house8Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murphy (NC)",
+        "id": "M001210",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Nehls",
         "id": "N000026",
         "party": "R",
@@ -963,6 +975,12 @@ const house8Votes =
         "id": "R000597",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Rodgers (WA)",
+        "id": "M001159",
+        "party": "R",
+        "state": "WA"
       },
       {
         "display_name": "Rogers (AL)",
@@ -1199,12 +1217,6 @@ const house8Votes =
         "state": "TX"
       },
       {
-        "display_name": "Webster (FL)",
-        "id": "W000806",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Wenstrup",
         "id": "W000815",
         "party": "R",
@@ -1215,6 +1227,12 @@ const house8Votes =
         "id": "W000821",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Williams (TX)",
+        "id": "W000816",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Wilson (SC)",
@@ -1233,12 +1251,6 @@ const house8Votes =
         "id": "W000809",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Zeldin",
-        "id": "Z000017",
-        "party": "R",
-        "state": "NY"
       }
     ],
     "Not Voting": [
@@ -1249,16 +1261,22 @@ const house8Votes =
         "state": "NC"
       },
       {
-        "display_name": "Cheney",
-        "id": "C001109",
+        "display_name": "Curtis",
+        "id": "C001114",
         "party": "R",
-        "state": "WY"
+        "state": "UT"
       },
       {
-        "display_name": "Fulcher",
-        "id": "F000469",
+        "display_name": "Gibbs",
+        "id": "G000563",
         "party": "R",
-        "state": "ID"
+        "state": "OH"
+      },
+      {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
       },
       {
         "display_name": "Kinzinger",
@@ -1267,28 +1285,16 @@ const house8Votes =
         "state": "IL"
       },
       {
-        "display_name": "Murphy (NC)",
-        "id": "M001210",
+        "display_name": "Webster (FL)",
+        "id": "W000806",
         "party": "R",
-        "state": "NC"
+        "state": "FL"
       },
       {
-        "display_name": "Pascrell",
-        "id": "P000096",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
-        "display_name": "Rodgers (WA)",
-        "id": "M001159",
+        "display_name": "Zeldin",
+        "id": "Z000017",
         "party": "R",
-        "state": "WA"
-      },
-      {
-        "display_name": "Williams (TX)",
-        "id": "W000816",
-        "party": "R",
-        "state": "TX"
+        "state": "NY"
       }
     ],
     "Present": [],
@@ -1684,12 +1690,6 @@ const house8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -2026,12 +2026,6 @@ const house8Votes =
         "state": "MA"
       },
       {
-        "display_name": "Mace",
-        "id": "M000194",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Malinowski",
         "id": "M001203",
         "party": "D",
@@ -2210,6 +2204,12 @@ const house8Votes =
         "id": "P000614",
         "party": "D",
         "state": "NH"
+      },
+      {
+        "display_name": "Pascrell",
+        "id": "P000096",
+        "party": "D",
+        "state": "NJ"
       },
       {
         "display_name": "Payne",

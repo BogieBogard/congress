@@ -3,23 +3,23 @@ const senate9Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-13T11:37:00-04:00",
+  "date": "2022-09-15T11:33:00-04:00",
   "nomination": {
-    "number": "1684",
-    "title": "Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
+    "number": "2141",
+    "title": "Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit"
   },
-  "number": 333,
-  "question": "On the Nomination PN1684: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-  "record_modified": "2022-09-13T12:48:00-04:00",
+  "number": 337,
+  "question": "On the Nomination PN2141: Sarah A. L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
+  "record_modified": "2022-09-15T12:46:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Rejected",
-  "result_text": "Nomination Rejected (47-50)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-44)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00333.xml",
-  "subject": "Confirmation: Arianna J. Freeman, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00337.xml",
+  "subject": "Confirmation: Sarah A.L. Merriam, of Connecticut, to be United States Circuit Judge for the Second Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-21T13:42:17-04:00",
-  "vote_id": "s333-117.2022",
+  "updated_at": "2022-09-21T19:48:56-04:00",
+  "vote_id": "s337-117.2022",
   "votes": {
     "Nay": [
       {
@@ -87,14 +87,6 @@ const senate9Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -111,28 +103,12 @@ const senate9Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
         "last_name": "Crapo",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -157,14 +133,6 @@ const senate9Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -271,22 +239,6 @@ const senate9Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -341,14 +293,6 @@ const senate9Votes =
         "last_name": "Sasse",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       },
       {
         "display_name": "Scott (R-FL)",
@@ -421,24 +365,6 @@ const senate9Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      }
-    ],
-    "Not Voting": [
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Hassan (D-NH)",
-        "first_name": "Maggie",
-        "id": "S388",
-        "last_name": "Hassan",
-        "party": "D",
-        "state": "NH"
       },
       {
         "display_name": "Young (R-IN)",
@@ -447,6 +373,32 @@ const senate9Votes =
         "last_name": "Young",
         "party": "R",
         "state": "IN"
+      }
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -524,6 +476,14 @@ const senate9Votes =
         "state": "PA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -538,6 +498,14 @@ const senate9Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -562,6 +530,22 @@ const senate9Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Hassan (D-NH)",
+        "first_name": "Maggie",
+        "id": "S388",
+        "last_name": "Hassan",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -668,6 +652,14 @@ const senate9Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -738,6 +730,14 @@ const senate9Votes =
         "last_name": "Schatz",
         "party": "D",
         "state": "HI"
+      },
+      {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Shaheen (D-NH)",
