@@ -5,21 +5,21 @@ const house5Votes =
     "number": 1372,
     "type": "hres"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-21T14:06:00-04:00",
-  "number": 445,
-  "question": "On Ordering the Previous Question: H RES 1372 Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
+  "date": "2022-09-21T14:18:00-04:00",
+  "number": 446,
+  "question": "On Agreeing to the Resolution: H RES 1372 Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll445.xml",
+  "source_url": "https://clerk.house.gov/evs/2022/roll446.xml",
   "subject": "Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2022-09-22T07:58:43-04:00",
-  "vote_id": "h445-117.2022",
+  "type": "On the Resolution",
+  "updated_at": "2022-09-22T14:05:53-04:00",
+  "vote_id": "h446-117.2022",
   "votes": {
     "Nay": [
       {
@@ -579,6 +579,12 @@ const house5Votes =
         "id": "H001084",
         "party": "R",
         "state": "NM"
+      },
+      {
+        "display_name": "Herrera Beutler",
+        "id": "H001056",
+        "party": "R",
+        "state": "WA"
       },
       {
         "display_name": "Hice (GA)",
@@ -1157,12 +1163,6 @@ const house5Votes =
         "state": "NY"
       },
       {
-        "display_name": "Thompson (PA)",
-        "id": "T000467",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Tiffany",
         "id": "T000165",
         "party": "R",
@@ -1279,22 +1279,22 @@ const house5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Crow",
-        "id": "C001121",
+        "display_name": "Kaptur",
+        "id": "K000009",
         "party": "D",
-        "state": "CO"
-      },
-      {
-        "display_name": "Herrera Beutler",
-        "id": "H001056",
-        "party": "R",
-        "state": "WA"
+        "state": "OH"
       },
       {
         "display_name": "Kinzinger",
         "id": "K000378",
         "party": "R",
         "state": "IL"
+      },
+      {
+        "display_name": "Thompson (PA)",
+        "id": "T000467",
+        "party": "R",
+        "state": "PA"
       },
       {
         "display_name": "Vargas",
@@ -1588,6 +1588,12 @@ const house5Votes =
         "state": "MN"
       },
       {
+        "display_name": "Crow",
+        "id": "C001121",
+        "party": "D",
+        "state": "CO"
+      },
+      {
         "display_name": "Cuellar",
         "id": "C001063",
         "party": "D",
@@ -1868,12 +1874,6 @@ const house5Votes =
         "id": "K000396",
         "party": "D",
         "state": "HI"
-      },
-      {
-        "display_name": "Kaptur",
-        "id": "K000009",
-        "party": "D",
-        "state": "OH"
       },
       {
         "display_name": "Keating",

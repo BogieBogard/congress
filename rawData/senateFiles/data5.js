@@ -1,24 +1,24 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "treaty",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-20T14:16:00-04:00",
-  "number": 341,
-  "question": "Motion to Invoke Cloture: Treaty Doc 117-1, Kigali Amendment to the Montreal Protocol",
-  "record_modified": "2022-09-20T15:33:00-04:00",
-  "requires": "3/5",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (64-30, 3/5 majority required)",
+  "date": "2022-09-21T15:22:00-04:00",
+  "number": 343,
+  "question": "On the Resolution of Ratification Treaty Doc. 117-1",
+  "record_modified": "2022-09-21T16:33:00-04:00",
+  "requires": "2/3",
+  "result": "Resolution of Ratification Agreed to",
+  "result_text": "Resolution of Ratification Agreed to (69-27, 2/3 majority required)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00341.xml",
-  "subject": "On the Cloture Motion Treaty Doc. 117-1",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00343.xml",
+  "subject": "Resolution of Ratification to Treaty Doc No 117-1, the Kigali Amendment to the Montreal Protocol",
   "treaty": {
     "title": "Amendment to the Montreal Protocol on Substances that Deplete the Ozone Layer (the \"Montreal Protocol\"), adopted at Kigali on October 15, 2016, by the Twenty-Eighth Meeting of the Parties to the Montreal Protocol (the \"Kigali Amendment\")"
   },
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-22T08:02:31-04:00",
-  "vote_id": "s341-117.2022",
+  "type": "On the Resolution of Ratification",
+  "updated_at": "2022-09-22T14:09:43-04:00",
+  "vote_id": "s343-117.2022",
   "votes": {
     "Nay": [
       {
@@ -62,12 +62,12 @@ const senate5Votes =
         "state": "AR"
       },
       {
-        "display_name": "Crapo (R-ID)",
-        "first_name": "Mike",
-        "id": "S266",
-        "last_name": "Crapo",
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
         "party": "R",
-        "state": "ID"
+        "state": "ND"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -166,14 +166,6 @@ const senate5Votes =
         "state": "KS"
       },
       {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -188,14 +180,6 @@ const senate5Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Sasse (R-NE)",
-        "first_name": "Ben",
-        "id": "S382",
-        "last_name": "Sasse",
-        "party": "R",
-        "state": "NE"
       },
       {
         "display_name": "Scott (R-FL)",
@@ -238,14 +222,6 @@ const senate5Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Toomey (R-PA)",
         "first_name": "Patrick",
         "id": "S351",
@@ -272,20 +248,12 @@ const senate5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
+        "display_name": "Crapo (R-ID)",
+        "first_name": "Mike",
+        "id": "S266",
+        "last_name": "Crapo",
         "party": "R",
-        "state": "ND"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
+        "state": "ID"
       },
       {
         "display_name": "Leahy (D-VT)",
@@ -302,14 +270,6 @@ const senate5Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
       }
     ],
     "Present": [],
@@ -441,6 +401,14 @@ const senate5Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -595,6 +563,14 @@ const senate5Votes =
         "state": "MA"
       },
       {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -715,6 +691,14 @@ const senate5Votes =
         "state": "VT"
       },
       {
+        "display_name": "Sasse (R-NE)",
+        "first_name": "Ben",
+        "id": "S382",
+        "last_name": "Sasse",
+        "party": "R",
+        "state": "NE"
+      },
+      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -771,6 +755,14 @@ const senate5Votes =
         "state": "MT"
       },
       {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Van Hollen (D-MD)",
         "first_name": "Chris",
         "id": "S390",
@@ -809,6 +801,14 @@ const senate5Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Wyden (D-OR)",

@@ -5,21 +5,21 @@ const house9Votes =
     "number": 1361,
     "type": "hres"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-20T13:46:00-04:00",
-  "number": 441,
-  "question": "On Ordering the Previous Question: H RES 1361 Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
+  "date": "2022-09-20T14:01:00-04:00",
+  "number": 442,
+  "question": "On Agreeing to the Resolution: H RES 1361 Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll441.xml",
+  "source_url": "https://clerk.house.gov/evs/2022/roll442.xml",
   "subject": "Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2022-09-22T07:58:45-04:00",
-  "vote_id": "h441-117.2022",
+  "type": "On the Resolution",
+  "updated_at": "2022-09-22T14:05:55-04:00",
+  "vote_id": "h442-117.2022",
   "votes": {
     "Nay": [
       {
@@ -281,12 +281,6 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Curtis",
-        "id": "C001114",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Davidson",
         "id": "D000626",
         "party": "R",
@@ -525,6 +519,12 @@ const house9Votes =
         "id": "G000568",
         "party": "R",
         "state": "VA"
+      },
+      {
+        "display_name": "Grothman",
+        "id": "G000576",
+        "party": "R",
+        "state": "WI"
       },
       {
         "display_name": "Guest",
@@ -1217,12 +1217,6 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Webster (FL)",
-        "id": "W000806",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Wenstrup",
         "id": "W000815",
         "party": "R",
@@ -1267,16 +1261,16 @@ const house9Votes =
         "state": "NC"
       },
       {
+        "display_name": "Curtis",
+        "id": "C001114",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Gibbs",
         "id": "G000563",
         "party": "R",
         "state": "OH"
-      },
-      {
-        "display_name": "Grothman",
-        "id": "G000576",
-        "party": "R",
-        "state": "WI"
       },
       {
         "display_name": "Katko",
@@ -1291,10 +1285,10 @@ const house9Votes =
         "state": "IL"
       },
       {
-        "display_name": "Takano",
-        "id": "T000472",
-        "party": "D",
-        "state": "CA"
+        "display_name": "Webster (FL)",
+        "id": "W000806",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Zeldin",
@@ -2484,6 +2478,12 @@ const house9Votes =
       {
         "display_name": "Swalwell",
         "id": "S001193",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Takano",
+        "id": "T000472",
         "party": "D",
         "state": "CA"
       },
