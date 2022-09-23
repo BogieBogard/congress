@@ -2,24 +2,24 @@ const house10Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 1361,
+    "number": 1372,
     "type": "hres"
   },
   "category": "procedural",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-20T13:46:00-04:00",
-  "number": 441,
-  "question": "On Ordering the Previous Question: H RES 1361 Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
+  "date": "2022-09-21T14:06:00-04:00",
+  "number": 445,
+  "question": "On Ordering the Previous Question: H RES 1372 Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll441.xml",
-  "subject": "Providing for consideration of S. 1098, the Joint Consolidation Loan Separation Act; and for other purposes",
+  "source_url": "https://clerk.house.gov/evs/2022/roll445.xml",
+  "subject": "Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2022-09-22T14:05:55-04:00",
-  "vote_id": "h441-117.2022",
+  "updated_at": "2022-09-22T20:12:52-04:00",
+  "vote_id": "h445-117.2022",
   "votes": {
     "Nay": [
       {
@@ -167,6 +167,12 @@ const house10Votes =
         "state": "IN"
       },
       {
+        "display_name": "Budd",
+        "id": "B001305",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Burchett",
         "id": "B001309",
         "party": "R",
@@ -225,12 +231,6 @@ const house10Votes =
         "id": "C000266",
         "party": "R",
         "state": "OH"
-      },
-      {
-        "display_name": "Cheney",
-        "id": "C001109",
-        "party": "R",
-        "state": "WY"
       },
       {
         "display_name": "Cline",
@@ -449,6 +449,12 @@ const house10Votes =
         "state": "CA"
       },
       {
+        "display_name": "Gibbs",
+        "id": "G000563",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Gimenez",
         "id": "G000593",
         "party": "R",
@@ -527,6 +533,12 @@ const house10Votes =
         "state": "VA"
       },
       {
+        "display_name": "Grothman",
+        "id": "G000576",
+        "party": "R",
+        "state": "WI"
+      },
+      {
         "display_name": "Guest",
         "id": "G000591",
         "party": "R",
@@ -567,12 +579,6 @@ const house10Votes =
         "id": "H001084",
         "party": "R",
         "state": "NM"
-      },
-      {
-        "display_name": "Herrera Beutler",
-        "id": "H001056",
-        "party": "R",
-        "state": "WA"
       },
       {
         "display_name": "Hice (GA)",
@@ -669,6 +675,12 @@ const house10Votes =
         "id": "J000302",
         "party": "R",
         "state": "PA"
+      },
+      {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
       },
       {
         "display_name": "Keller",
@@ -1257,32 +1269,26 @@ const house10Votes =
         "id": "W000809",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Zeldin",
+        "id": "Z000017",
+        "party": "R",
+        "state": "NY"
       }
     ],
     "Not Voting": [
       {
-        "display_name": "Budd",
-        "id": "B001305",
-        "party": "R",
-        "state": "NC"
+        "display_name": "Crow",
+        "id": "C001121",
+        "party": "D",
+        "state": "CO"
       },
       {
-        "display_name": "Gibbs",
-        "id": "G000563",
+        "display_name": "Herrera Beutler",
+        "id": "H001056",
         "party": "R",
-        "state": "OH"
-      },
-      {
-        "display_name": "Grothman",
-        "id": "G000576",
-        "party": "R",
-        "state": "WI"
-      },
-      {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
+        "state": "WA"
       },
       {
         "display_name": "Kinzinger",
@@ -1291,16 +1297,10 @@ const house10Votes =
         "state": "IL"
       },
       {
-        "display_name": "Takano",
-        "id": "T000472",
+        "display_name": "Vargas",
+        "id": "V000130",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Zeldin",
-        "id": "Z000017",
-        "party": "R",
-        "state": "NY"
       }
     ],
     "Present": [],
@@ -1498,6 +1498,12 @@ const house10Votes =
         "state": "TX"
       },
       {
+        "display_name": "Cheney",
+        "id": "C001109",
+        "party": "R",
+        "state": "WY"
+      },
+      {
         "display_name": "Cherfilus-McCormick",
         "id": "C001127",
         "party": "D",
@@ -1580,12 +1586,6 @@ const house10Votes =
         "id": "C001119",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Crow",
-        "id": "C001121",
-        "party": "D",
-        "state": "CO"
       },
       {
         "display_name": "Cuellar",
@@ -2488,6 +2488,12 @@ const house10Votes =
         "state": "CA"
       },
       {
+        "display_name": "Takano",
+        "id": "T000472",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Thompson (CA)",
         "id": "T000460",
         "party": "D",
@@ -2546,12 +2552,6 @@ const house10Votes =
         "id": "U000040",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Vargas",
-        "id": "V000130",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Veasey",

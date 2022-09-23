@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-19T17:27:00-04:00",
+  "date": "2022-09-20T11:28:00-04:00",
   "nomination": {
     "number": "2193",
     "title": "Florence Y. Pan, of the District of Columbia, to be United States Circuit Judge for the District of Columbia Circuit"
   },
-  "number": 339,
-  "question": "Motion to Invoke Cloture: Florence Y. Pan to be U.S. Circuit Judge for the District of Columbia Circuit: Florence Y. Pan, of the District of Columbia, to be United States Circuit Judge for the District of Columbia Circuit",
-  "record_modified": "2022-09-19T18:52:00-04:00",
+  "number": 340,
+  "question": "On the Nomination PN2193: Florence Y. Pan, of the District of Columbia, to be United States Circuit Judge for the District of Columbia Circuit",
+  "record_modified": "2022-09-20T12:37:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-38)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-42)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00339.xml",
-  "subject": "On the Cloture Motion PN2193",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-22T14:09:45-04:00",
-  "vote_id": "s339-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00340.xml",
+  "subject": "Confirmation: Florence Y. Pan, of the District of Columbia, to be U.S. Circuit Judge for the District of Columbia Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-22T20:16:41-04:00",
+  "vote_id": "s340-117.2022",
   "votes": {
     "Nay": [
       {
@@ -135,6 +135,14 @@ const senate9Votes =
         "state": "NE"
       },
       {
+        "display_name": "Grassley (R-IA)",
+        "first_name": "Charles",
+        "id": "S153",
+        "last_name": "Grassley",
+        "party": "R",
+        "state": "IA"
+      },
+      {
         "display_name": "Hagerty (R-TN)",
         "first_name": "Bill",
         "id": "S407",
@@ -183,6 +191,14 @@ const senate9Votes =
         "state": "WI"
       },
       {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -221,6 +237,14 @@ const senate9Votes =
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -303,6 +327,14 @@ const senate9Votes =
         "state": "NC"
       },
       {
+        "display_name": "Toomey (R-PA)",
+        "first_name": "Patrick",
+        "id": "S351",
+        "last_name": "Toomey",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -361,20 +393,12 @@ const senate9Votes =
         "state": "SC"
       },
       {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
+        "display_name": "Leahy (D-VT)",
+        "first_name": "Patrick",
+        "id": "S057",
+        "last_name": "Leahy",
+        "party": "D",
+        "state": "VT"
       },
       {
         "display_name": "Risch (R-ID)",
@@ -383,30 +407,6 @@ const senate9Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Toomey (R-PA)",
-        "first_name": "Patrick",
-        "id": "S351",
-        "last_name": "Toomey",
-        "party": "R",
-        "state": "PA"
-      },
-      {
-        "display_name": "Warnock (D-GA)",
-        "first_name": "Raphael",
-        "id": "S415",
-        "last_name": "Warnock",
-        "party": "D",
-        "state": "GA"
-      },
-      {
-        "display_name": "Wyden (D-OR)",
-        "first_name": "Ron",
-        "id": "S247",
-        "last_name": "Wyden",
-        "party": "D",
-        "state": "OR"
       }
     ],
     "Present": [],
@@ -532,14 +532,6 @@ const senate9Votes =
         "state": "NY"
       },
       {
-        "display_name": "Grassley (R-IA)",
-        "first_name": "Charles",
-        "id": "S153",
-        "last_name": "Grassley",
-        "party": "R",
-        "state": "IA"
-      },
-      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -602,14 +594,6 @@ const senate9Votes =
         "last_name": "Klobuchar",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Leahy (D-VT)",
-        "first_name": "Patrick",
-        "id": "S057",
-        "last_name": "Leahy",
-        "party": "D",
-        "state": "VT"
       },
       {
         "display_name": "Lujan (D-NM)",
@@ -812,6 +796,14 @@ const senate9Votes =
         "state": "VA"
       },
       {
+        "display_name": "Warnock (D-GA)",
+        "first_name": "Raphael",
+        "id": "S415",
+        "last_name": "Warnock",
+        "party": "D",
+        "state": "GA"
+      },
+      {
         "display_name": "Warren (D-MA)",
         "first_name": "Elizabeth",
         "id": "S366",
@@ -826,6 +818,14 @@ const senate9Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Wyden (D-OR)",
+        "first_name": "Ron",
+        "id": "S247",
+        "last_name": "Wyden",
+        "party": "D",
+        "state": "OR"
       }
     ]
   }
