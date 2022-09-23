@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll449.xml",
   "subject": "Presidential Election Reform Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-22T20:12:50-04:00",
+  "updated_at": "2022-09-23T02:19:43-04:00",
   "vote_id": "h449-117.2022",
   "votes": {
     "Nay": [
