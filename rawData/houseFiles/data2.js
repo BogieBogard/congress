@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll453.xml",
   "subject": "Break the Cycle of Violence Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-23T02:19:41-04:00",
+  "updated_at": "2022-09-23T08:26:34-04:00",
   "vote_id": "h453-117.2022",
   "votes": {
     "Nay": [

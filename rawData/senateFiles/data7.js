@@ -23,7 +23,7 @@ const senate7Votes =
     "number": "1"
   },
   "type": "On the Amendment",
-  "updated_at": "2022-09-23T02:23:33-04:00",
+  "updated_at": "2022-09-23T08:30:26-04:00",
   "vote_id": "s342-117.2022",
   "votes": {
     "Nay": [],
