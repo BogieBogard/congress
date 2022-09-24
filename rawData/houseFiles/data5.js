@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll450.xml",
   "subject": "Providing for consideration of H.R. 4118, the Break the Cycle of Violence Act; H.R. 5768, the Violent Incident Clearance and Technological Investigative Methods Act of 2022; H.R. 6448, the Invest to Protect Act of 2022; and H.R. 8542, the Mental Health Justice Act of 2022",
   "type": "On the Resolution",
-  "updated_at": "2022-09-23T20:40:23-04:00",
+  "updated_at": "2022-09-24T02:47:16-04:00",
   "vote_id": "h450-117.2022",
   "votes": {
     "Nay": [
