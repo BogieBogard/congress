@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll454.xml",
   "subject": "Violent Incident Clearance and Technological Investigative Methods Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-24T15:01:29-04:00",
+  "updated_at": "2022-09-24T21:08:30-04:00",
   "vote_id": "h454-117.2022",
   "votes": {
     "Nay": [
