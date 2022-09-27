@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll445.xml",
   "subject": "Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2022-09-27T10:17:41-04:00",
+  "updated_at": "2022-09-27T16:24:37-04:00",
   "vote_id": "h445-117.2022",
   "votes": {
     "Nay": [
