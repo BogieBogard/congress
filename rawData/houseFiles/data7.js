@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll448.xml",
   "subject": "Joint Consolidation Loan Separation Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-27T04:10:45-04:00",
+  "updated_at": "2022-09-27T10:17:39-04:00",
   "vote_id": "h448-117.2022",
   "votes": {
     "Nay": [
