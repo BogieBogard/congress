@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00340.xml",
   "subject": "Confirmation: Florence Y. Pan, of the District of Columbia, to be U.S. Circuit Judge for the District of Columbia Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-09-27T22:35:22-04:00",
+  "updated_at": "2022-09-28T04:42:22-04:00",
   "vote_id": "s340-117.2022",
   "votes": {
     "Nay": [

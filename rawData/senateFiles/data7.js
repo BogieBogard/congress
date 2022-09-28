@@ -17,7 +17,7 @@ const senate7Votes =
     "title": "Amendment to the Montreal Protocol on Substances that Deplete the Ozone Layer (the \"Montreal Protocol\"), adopted at Kigali on October 15, 2016, by the Twenty-Eighth Meeting of the Parties to the Montreal Protocol (the \"Kigali Amendment\")"
   },
   "type": "On the Resolution of Ratification",
-  "updated_at": "2022-09-27T22:35:21-04:00",
+  "updated_at": "2022-09-28T04:42:20-04:00",
   "vote_id": "s343-117.2022",
   "votes": {
     "Nay": [
