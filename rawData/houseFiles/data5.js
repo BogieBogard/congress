@@ -2,24 +2,24 @@ const house5Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 1377,
-    "type": "hres"
+    "number": 4118,
+    "type": "hr"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-22T13:28:00-04:00",
-  "number": 450,
-  "question": "On Agreeing to the Resolution: H RES 1377 Providing for consideration of H.R. 4118, the Break the Cycle of Violence Act; H.R. 5768, the Violent Incident Clearance and Technological Investigative Methods Act of 2022; H.R. 6448, the Invest to Protect Act of 2022; and H.R. 8542, the Mental Health Justice Act of 2022",
+  "date": "2022-09-22T16:26:00-04:00",
+  "number": 453,
+  "question": "On Passage: H R 4118 Break the Cycle of Violence Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll450.xml",
-  "subject": "Providing for consideration of H.R. 4118, the Break the Cycle of Violence Act; H.R. 5768, the Violent Incident Clearance and Technological Investigative Methods Act of 2022; H.R. 6448, the Invest to Protect Act of 2022; and H.R. 8542, the Mental Health Justice Act of 2022",
-  "type": "On the Resolution",
-  "updated_at": "2022-09-28T16:52:20-04:00",
-  "vote_id": "h450-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll453.xml",
+  "subject": "Break the Cycle of Violence Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-09-28T22:59:27-04:00",
+  "vote_id": "h453-117.2022",
   "votes": {
     "Nay": [
       {
@@ -137,12 +137,6 @@ const house5Votes =
         "state": "IL"
       },
       {
-        "display_name": "Bowman",
-        "id": "B001223",
-        "party": "D",
-        "state": "NY"
-      },
-      {
         "display_name": "Brady",
         "id": "B000755",
         "party": "R",
@@ -191,12 +185,6 @@ const house5Votes =
         "state": "TX"
       },
       {
-        "display_name": "Bush",
-        "id": "B001224",
-        "party": "D",
-        "state": "MO"
-      },
-      {
         "display_name": "Calvert",
         "id": "C000059",
         "party": "R",
@@ -243,6 +231,12 @@ const house5Votes =
         "id": "C000266",
         "party": "R",
         "state": "OH"
+      },
+      {
+        "display_name": "Cheney",
+        "id": "C001109",
+        "party": "R",
+        "state": "WY"
       },
       {
         "display_name": "Cline",
@@ -395,12 +389,6 @@ const house5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -417,12 +405,6 @@ const house5Votes =
         "id": "F000473",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Foxx",
-        "id": "F000450",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Franklin, C. Scott",
@@ -833,12 +815,6 @@ const house5Votes =
         "state": "FL"
       },
       {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -959,12 +935,6 @@ const house5Votes =
         "state": "CA"
       },
       {
-        "display_name": "Ocasio-Cortez",
-        "id": "O000172",
-        "party": "D",
-        "state": "NY"
-      },
-      {
         "display_name": "Owens",
         "id": "O000086",
         "party": "R",
@@ -1071,12 +1041,6 @@ const house5Votes =
         "id": "S000168",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scalise",
-        "id": "S001176",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Schweikert",
@@ -1205,12 +1169,6 @@ const house5Votes =
         "state": "SC"
       },
       {
-        "display_name": "Tlaib",
-        "id": "T000481",
-        "party": "D",
-        "state": "MI"
-      },
-      {
         "display_name": "Turner",
         "id": "T000463",
         "party": "R",
@@ -1305,6 +1263,32 @@ const house5Votes =
         "id": "W000809",
         "party": "R",
         "state": "AR"
+      }
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Cohen",
+        "id": "C001068",
+        "party": "D",
+        "state": "TN"
+      },
+      {
+        "display_name": "Foxx",
+        "id": "F000450",
+        "party": "R",
+        "state": "NC"
+      },
+      {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
+      },
+      {
+        "display_name": "Scalise",
+        "id": "S001176",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Zeldin",
@@ -1313,22 +1297,7 @@ const house5Votes =
         "state": "NY"
       }
     ],
-    "Not Voting": [
-      {
-        "display_name": "Cheney",
-        "id": "C001109",
-        "party": "R",
-        "state": "WY"
-      }
-    ],
-    "Present": [
-      {
-        "display_name": "Pressley",
-        "id": "P000617",
-        "party": "D",
-        "state": "MA"
-      }
-    ],
+    "Present": [],
     "Yea": [
       {
         "display_name": "Adams",
@@ -1421,6 +1390,12 @@ const house5Votes =
         "state": "GA"
       },
       {
+        "display_name": "Bowman",
+        "id": "B001223",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Boyle, Brendan F.",
         "id": "B001296",
         "party": "D",
@@ -1443,6 +1418,12 @@ const house5Votes =
         "id": "B001285",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Bush",
+        "id": "B001224",
+        "party": "D",
+        "state": "MO"
       },
       {
         "display_name": "Bustos",
@@ -1551,12 +1532,6 @@ const house5Votes =
         "id": "C000537",
         "party": "D",
         "state": "SC"
-      },
-      {
-        "display_name": "Cohen",
-        "id": "C001068",
-        "party": "D",
-        "state": "TN"
       },
       {
         "display_name": "Connolly",
@@ -1706,6 +1681,12 @@ const house5Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
         "state": "PA"
       },
       {
@@ -2195,6 +2176,12 @@ const house5Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Ocasio-Cortez",
+        "id": "O000172",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Omar",
         "id": "O000173",
         "party": "D",
@@ -2229,12 +2216,6 @@ const house5Votes =
         "id": "P000604",
         "party": "D",
         "state": "NJ"
-      },
-      {
-        "display_name": "Pelosi",
-        "id": "P000197",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Peltola",
@@ -2277,6 +2258,12 @@ const house5Votes =
         "id": "P000618",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Pressley",
+        "id": "P000617",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Price (NC)",
@@ -2517,6 +2504,12 @@ const house5Votes =
         "id": "T000468",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Tlaib",
+        "id": "T000481",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Tonko",

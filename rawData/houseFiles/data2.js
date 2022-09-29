@@ -2,24 +2,24 @@ const house2Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 4118,
-    "type": "hr"
+    "number": 1396,
+    "type": "hres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-22T16:26:00-04:00",
-  "number": 453,
-  "question": "On Passage: H R 4118 Break the Cycle of Violence Act",
+  "date": "2022-09-28T19:25:00-04:00",
+  "number": 456,
+  "question": "On Agreeing to the Resolution: H RES 1396 Providing for consideration of the bill (H.R. 3843) Merger Filing Fee Modernization Act; providing for consideration of the bill (H.R. 7780) Mental Health Matters Act; and providing for consideration of the bill (S. 3969) PAVA Program Inclusion Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll453.xml",
-  "subject": "Break the Cycle of Violence Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2022-09-28T16:52:19-04:00",
-  "vote_id": "h453-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll456.xml",
+  "subject": "Providing for consideration of the bill (H.R. 3843) Merger Filing Fee Modernization Act; providing for consideration of the bill (H.R. 7780) Mental Health Matters Act; and providing for consideration of the bill (S. 3969) PAVA Program Inclusion Act",
+  "type": "On the Resolution",
+  "updated_at": "2022-09-28T22:59:26-04:00",
+  "vote_id": "h456-117.2022",
   "votes": {
     "Nay": [
       {
@@ -275,6 +275,12 @@ const house2Votes =
         "state": "CA"
       },
       {
+        "display_name": "Correa",
+        "id": "C001110",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Crawford",
         "id": "C001087",
         "party": "R",
@@ -389,6 +395,12 @@ const house2Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -405,6 +417,12 @@ const house2Votes =
         "id": "F000473",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Foxx",
+        "id": "F000450",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Franklin, C. Scott",
@@ -707,12 +725,6 @@ const house2Votes =
         "state": "CA"
       },
       {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
-      },
-      {
         "display_name": "Kustoff",
         "id": "K000392",
         "party": "R",
@@ -759,6 +771,12 @@ const house2Votes =
         "id": "L000595",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Lofgren",
+        "id": "L000397",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Long",
@@ -813,6 +831,12 @@ const house2Votes =
         "id": "M001199",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
       },
       {
         "display_name": "McCaul",
@@ -1043,6 +1067,12 @@ const house2Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scalise",
+        "id": "S001176",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "Schweikert",
         "id": "S001183",
         "party": "R",
@@ -1267,28 +1297,16 @@ const house2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cohen",
-        "id": "C001068",
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
+      },
+      {
+        "display_name": "Swalwell",
+        "id": "S001193",
         "party": "D",
-        "state": "TN"
-      },
-      {
-        "display_name": "Foxx",
-        "id": "F000450",
-        "party": "R",
-        "state": "NC"
-      },
-      {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
         "state": "CA"
-      },
-      {
-        "display_name": "Scalise",
-        "id": "S001176",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Zeldin",
@@ -1534,6 +1552,12 @@ const house2Votes =
         "state": "SC"
       },
       {
+        "display_name": "Cohen",
+        "id": "C001068",
+        "party": "D",
+        "state": "TN"
+      },
+      {
         "display_name": "Connolly",
         "id": "C001078",
         "party": "D",
@@ -1544,12 +1568,6 @@ const house2Votes =
         "id": "C000754",
         "party": "D",
         "state": "TN"
-      },
-      {
-        "display_name": "Correa",
-        "id": "C001110",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Costa",
@@ -1681,12 +1699,6 @@ const house2Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
-        "state": "PA"
-      },
-      {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
         "state": "PA"
       },
       {
@@ -1998,12 +2010,6 @@ const house2Votes =
       {
         "display_name": "Lieu",
         "id": "L000582",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Lofgren",
-        "id": "L000397",
         "party": "D",
         "state": "CA"
       },
@@ -2474,12 +2480,6 @@ const house2Votes =
         "id": "S001201",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Swalwell",
-        "id": "S001193",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Takano",

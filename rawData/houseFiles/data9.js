@@ -2,24 +2,24 @@ const house9Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 1372,
-    "type": "hres"
+    "number": 8873,
+    "type": "hr"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-21T14:18:00-04:00",
-  "number": 446,
-  "question": "On Agreeing to the Resolution: H RES 1372 Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
+  "date": "2022-09-21T16:56:00-04:00",
+  "number": 449,
+  "question": "On Passage: H R 8873 Presidential Election Reform Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll446.xml",
-  "subject": "Providing for consideration of the bill (H.R. 8873) to amend title 3, United States Code, to reform the process for the counting of electoral votes, and for other purposes",
-  "type": "On the Resolution",
-  "updated_at": "2022-09-28T16:52:22-04:00",
-  "vote_id": "h446-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll449.xml",
+  "subject": "Presidential Election Reform Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-09-28T22:59:29-04:00",
+  "vote_id": "h449-117.2022",
   "votes": {
     "Nay": [
       {
@@ -473,12 +473,6 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Gonzalez (OH)",
-        "id": "G000588",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Good (VA)",
         "id": "G000595",
         "party": "R",
@@ -581,12 +575,6 @@ const house9Votes =
         "state": "NM"
       },
       {
-        "display_name": "Herrera Beutler",
-        "id": "H001056",
-        "party": "R",
-        "state": "WA"
-      },
-      {
         "display_name": "Hice (GA)",
         "id": "H001071",
         "party": "R",
@@ -641,12 +629,6 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Jacobs (NY)",
-        "id": "J000020",
-        "party": "R",
-        "state": "NY"
-      },
-      {
         "display_name": "Johnson (LA)",
         "id": "J000299",
         "party": "R",
@@ -681,12 +663,6 @@ const house9Votes =
         "id": "J000302",
         "party": "R",
         "state": "PA"
-      },
-      {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
       },
       {
         "display_name": "Keller",
@@ -851,12 +827,6 @@ const house9Votes =
         "state": "WV"
       },
       {
-        "display_name": "Meijer",
-        "id": "M001186",
-        "party": "R",
-        "state": "MI"
-      },
-      {
         "display_name": "Meuser",
         "id": "M001204",
         "party": "R",
@@ -987,12 +957,6 @@ const house9Votes =
         "id": "R000610",
         "party": "R",
         "state": "PA"
-      },
-      {
-        "display_name": "Rice (SC)",
-        "id": "R000597",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Rodgers (WA)",
@@ -1163,6 +1127,12 @@ const house9Votes =
         "state": "NY"
       },
       {
+        "display_name": "Thompson (PA)",
+        "id": "T000467",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Tiffany",
         "id": "T000165",
         "party": "R",
@@ -1179,12 +1149,6 @@ const house9Votes =
         "id": "T000463",
         "party": "R",
         "state": "OH"
-      },
-      {
-        "display_name": "Upton",
-        "id": "U000031",
-        "party": "R",
-        "state": "MI"
       },
       {
         "display_name": "Valadao",
@@ -1278,24 +1242,6 @@ const house9Votes =
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Kaptur",
-        "id": "K000009",
-        "party": "D",
-        "state": "OH"
-      },
-      {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
-      },
-      {
-        "display_name": "Thompson (PA)",
-        "id": "T000467",
-        "party": "R",
-        "state": "PA"
-      },
       {
         "display_name": "Vargas",
         "id": "V000130",
@@ -1756,6 +1702,12 @@ const house9Votes =
         "state": "CA"
       },
       {
+        "display_name": "Gonzalez (OH)",
+        "id": "G000588",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Gonzalez, Vicente",
         "id": "G000581",
         "party": "D",
@@ -1790,6 +1742,12 @@ const house9Votes =
         "id": "H001081",
         "party": "D",
         "state": "CT"
+      },
+      {
+        "display_name": "Herrera Beutler",
+        "id": "H001056",
+        "party": "R",
+        "state": "WA"
       },
       {
         "display_name": "Higgins (NY)",
@@ -1840,6 +1798,12 @@ const house9Votes =
         "state": "CA"
       },
       {
+        "display_name": "Jacobs (NY)",
+        "id": "J000020",
+        "party": "R",
+        "state": "NY"
+      },
+      {
         "display_name": "Jayapal",
         "id": "J000298",
         "party": "D",
@@ -1874,6 +1838,18 @@ const house9Votes =
         "id": "K000396",
         "party": "D",
         "state": "HI"
+      },
+      {
+        "display_name": "Kaptur",
+        "id": "K000009",
+        "party": "D",
+        "state": "OH"
+      },
+      {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
       },
       {
         "display_name": "Keating",
@@ -1916,6 +1892,12 @@ const house9Votes =
         "id": "K000188",
         "party": "D",
         "state": "WI"
+      },
+      {
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
       },
       {
         "display_name": "Kirkpatrick",
@@ -2098,6 +2080,12 @@ const house9Votes =
         "state": "NY"
       },
       {
+        "display_name": "Meijer",
+        "id": "M001186",
+        "party": "R",
+        "state": "MI"
+      },
+      {
         "display_name": "Meng",
         "id": "M001188",
         "party": "D",
@@ -2224,6 +2212,12 @@ const house9Votes =
         "state": "NJ"
       },
       {
+        "display_name": "Pelosi",
+        "id": "P000197",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Peltola",
         "id": "P000619",
         "party": "D",
@@ -2294,6 +2288,12 @@ const house9Votes =
         "id": "R000602",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Rice (SC)",
+        "id": "R000597",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Ross",
@@ -2552,6 +2552,12 @@ const house9Votes =
         "id": "U000040",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Upton",
+        "id": "U000031",
+        "party": "R",
+        "state": "MI"
       },
       {
         "display_name": "Veasey",
