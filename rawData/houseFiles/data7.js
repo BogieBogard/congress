@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll451.xml",
   "subject": "Invest to Protect Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-28T22:59:28-04:00",
+  "updated_at": "2022-09-29T05:06:30-04:00",
   "vote_id": "h451-117.2022",
   "votes": {
     "Nay": [

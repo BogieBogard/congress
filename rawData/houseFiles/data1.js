@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll457.xml",
   "subject": "National Center for the Advancement of Aviation Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-28T22:59:25-04:00",
+  "updated_at": "2022-09-29T05:06:27-04:00",
   "vote_id": "h457-117.2022",
   "votes": {
     "Nay": [
