@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-21T18:38:00-04:00",
+  "date": "2022-09-22T13:51:00-04:00",
   "nomination": {
     "number": "2267",
     "title": "Arati Prabhakar, of California, to be Director of the Office of Science and Technology Policy"
   },
-  "number": 345,
-  "question": "Motion to Invoke Cloture: Arati Prabhakar to be Director of the Office of Science and Technology Policy: Arati Prabhakar, of California, to be Director of the Office of Science and Technology Policy",
-  "record_modified": "2022-09-21T19:37:00-04:00",
+  "number": 348,
+  "question": "On the Nomination PN2267: Arati Prabhakar, of California, to be Director of the Office of Science and Technology Policy",
+  "record_modified": "2022-09-22T14:49:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (58-38)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (56-40)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00345.xml",
-  "subject": "On the Cloture Motion PN2267",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-29T11:17:19-04:00",
-  "vote_id": "s345-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00348.xml",
+  "subject": "Confirmation: Arati Prabhakar, of California, to be Director of the Office of Science and Technology Policy",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-29T17:24:28-04:00",
+  "vote_id": "s348-117.2022",
   "votes": {
     "Nay": [
       {
@@ -77,6 +77,14 @@ const senate5Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -231,6 +239,14 @@ const senate5Votes =
         "state": "KY"
       },
       {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
         "display_name": "Romney (R-UT)",
         "first_name": "Mitt",
         "id": "S401",
@@ -337,14 +353,6 @@ const senate5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -353,12 +361,20 @@ const senate5Votes =
         "state": "ID"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
+        "display_name": "Heinrich (D-NM)",
+        "first_name": "Martin",
+        "id": "S359",
+        "last_name": "Heinrich",
+        "party": "D",
+        "state": "NM"
+      },
+      {
+        "display_name": "Murray (D-WA)",
+        "first_name": "Patty",
+        "id": "S229",
+        "last_name": "Murray",
+        "party": "D",
+        "state": "WA"
       }
     ],
     "Present": [],
@@ -516,14 +532,6 @@ const senate5Votes =
         "state": "NH"
       },
       {
-        "display_name": "Heinrich (D-NM)",
-        "first_name": "Martin",
-        "id": "S359",
-        "last_name": "Heinrich",
-        "party": "D",
-        "state": "NM"
-      },
-      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -642,14 +650,6 @@ const senate5Votes =
         "last_name": "Murphy",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Murray (D-WA)",
-        "first_name": "Patty",
-        "id": "S229",
-        "last_name": "Murray",
-        "party": "D",
-        "state": "WA"
       },
       {
         "display_name": "Ossoff (D-GA)",

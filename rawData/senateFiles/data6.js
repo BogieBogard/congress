@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-21T17:51:00-04:00",
+  "date": "2022-09-22T12:23:00-04:00",
   "nomination": {
     "number": "1566",
     "title": "Amanda Bennett, of the District of Columbia, to be Chief Executive Officer of the United States Agency for Global Media"
   },
-  "number": 344,
-  "question": "Motion to Invoke Cloture: Amanda Bennett to be Chief Executive Officer of the United States Agency for Global Media: Amanda Bennett, of the District of Columbia, to be Chief Executive Officer of the United States Agency for Global Media",
-  "record_modified": "2022-09-21T18:49:00-04:00",
+  "number": 347,
+  "question": "On the Nomination PN1566: Amanda Bennett, of the District of Columbia, to be Chief Executive Officer of the United States Agency for Global Media",
+  "record_modified": "2022-09-22T13:19:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (60-37)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (60-36)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00344.xml",
-  "subject": "On the Cloture Motion PN1566",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-09-29T11:17:20-04:00",
-  "vote_id": "s344-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00347.xml",
+  "subject": "Confirmation: Amanda Bennett, of the District of Columbia, to be Chief Executive Officer of the U.S. Agency for Global Media",
+  "type": "On the Nomination",
+  "updated_at": "2022-09-29T17:24:29-04:00",
+  "vote_id": "s347-117.2022",
   "votes": {
     "Nay": [
       {
@@ -175,14 +175,6 @@ const senate6Votes =
         "state": "OK"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -329,6 +321,14 @@ const senate6Votes =
         "state": "WI"
       },
       {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -337,12 +337,12 @@ const senate6Votes =
         "state": "ID"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
         "party": "R",
-        "state": "ID"
+        "state": "UT"
       }
     ],
     "Present": [],
@@ -386,14 +386,6 @@ const senate6Votes =
         "last_name": "Blunt",
         "party": "R",
         "state": "MO"
-      },
-      {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -682,6 +674,14 @@ const senate6Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
       },
       {
         "display_name": "Romney (R-UT)",
