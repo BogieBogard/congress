@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll452.xml",
   "subject": "Mental Health Justice Act of 2022",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-09-29T05:06:29-04:00",
+  "updated_at": "2022-09-29T11:13:26-04:00",
   "vote_id": "h452-117.2022",
   "votes": {
     "Nay": [

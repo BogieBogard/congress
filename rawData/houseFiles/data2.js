@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll456.xml",
   "subject": "Providing for consideration of the bill (H.R. 3843) Merger Filing Fee Modernization Act; providing for consideration of the bill (H.R. 7780) Mental Health Matters Act; and providing for consideration of the bill (S. 3969) PAVA Program Inclusion Act",
   "type": "On the Resolution",
-  "updated_at": "2022-09-29T05:06:27-04:00",
+  "updated_at": "2022-09-29T11:13:24-04:00",
   "vote_id": "h456-117.2022",
   "votes": {
     "Nay": [
