@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll467.xml",
   "subject": "Global Aircraft Maintenance Safety Improvement Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-29T23:27:38-04:00",
+  "updated_at": "2022-09-30T05:34:58-04:00",
   "vote_id": "h467-117.2022",
   "votes": {
     "Nay": [

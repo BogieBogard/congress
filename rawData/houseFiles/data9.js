@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll465.xml",
   "subject": "Maximizing Outcomes through Better Investments in Lifesaving Equipment for (MOBILE) Health Care Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-29T23:27:39-04:00",
+  "updated_at": "2022-09-30T05:34:59-04:00",
   "vote_id": "h465-117.2022",
   "votes": {
     "Nay": [

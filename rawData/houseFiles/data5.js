@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll469.xml",
   "subject": "Food Security for All Veterans Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-09-29T23:27:37-04:00",
+  "updated_at": "2022-09-30T05:34:57-04:00",
   "vote_id": "h469-117.2022",
   "votes": {
     "Nay": [
