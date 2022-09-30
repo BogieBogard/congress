@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00349.xml",
   "subject": "On Cloture on the Motion to Proceed H.R. 6833",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-09-29T17:24:28-04:00",
+  "updated_at": "2022-09-29T23:31:38-04:00",
   "vote_id": "s349-117.2022",
   "votes": {
     "Nay": [

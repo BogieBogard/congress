@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll464.xml",
   "subject": "AI Training Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-09-29T17:20:27-04:00",
+  "updated_at": "2022-09-29T23:27:40-04:00",
   "vote_id": "h464-117.2022",
   "votes": {
     "Nay": [
