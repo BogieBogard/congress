@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00351.xml",
   "subject": "H.R. 6833, As Amended",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-10-01T00:00:18-04:00",
+  "updated_at": "2022-10-01T22:05:48-04:00",
   "vote_id": "s351-117.2022",
   "votes": {
     "Nay": [
