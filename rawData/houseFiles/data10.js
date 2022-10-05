@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll468.xml",
   "subject": "Preventing PFAS Runoff at Airports Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-10-05T06:18:30-04:00",
+  "updated_at": "2022-10-05T12:25:40-04:00",
   "vote_id": "h468-117.2022",
   "votes": {
     "Nay": [
