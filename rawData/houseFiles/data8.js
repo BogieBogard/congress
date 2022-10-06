@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll470.xml",
   "subject": "Supporting Families of the Fallen Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-10-06T06:47:18-04:00",
+  "updated_at": "2022-10-06T12:54:26-04:00",
   "vote_id": "h470-117.2022",
   "votes": {
     "Nay": [],
