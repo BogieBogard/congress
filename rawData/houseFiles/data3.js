@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll475.xml",
   "subject": "Providing for consideration of the Senate amendment to the bill (H.R. 6833) Affordable Insulin Now Act and providing for consideration of the bill (H.R. 8987) Fairness for 9/11 Families Act",
   "type": "On the Resolution",
-  "updated_at": "2022-10-08T19:59:16-04:00",
+  "updated_at": "2022-10-09T02:06:30-04:00",
   "vote_id": "h475-117.2022",
   "votes": {
     "Nay": [
