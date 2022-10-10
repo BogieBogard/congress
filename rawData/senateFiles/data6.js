@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00347.xml",
   "subject": "Confirmation: Amanda Bennett, of the District of Columbia, to be Chief Executive Officer of the U.S. Agency for Global Media",
   "type": "On the Nomination",
-  "updated_at": "2022-10-10T09:16:17-04:00",
+  "updated_at": "2022-10-10T15:23:23-04:00",
   "vote_id": "s347-117.2022",
   "votes": {
     "Nay": [
