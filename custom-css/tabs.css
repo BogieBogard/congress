@@ -25,12 +25,12 @@ input {
 .row {
   display: flex;
 }
-.row .col {
+/* .row .col {
   flex: 1;
-}
-.row .col:last-child {
+} */
+/* .row .col:last-child {
   margin-left: 1em;
-}
+} */
 
 /* Accordion styles */
 .tabs {
