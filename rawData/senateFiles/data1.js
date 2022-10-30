@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00352.xml",
   "subject": "Upon Reconsideration, Confirmation: Lisa M. Gomez, of New Jersey, to be an Assistant Secretary of Labor",
   "type": "On the Nomination",
-  "updated_at": "2022-10-16T12:07:38-04:00",
+  "updated_at": "2022-10-30T15:05:57-04:00",
   "vote_id": "s352-117.2022",
   "votes": {
     "Nay": [
