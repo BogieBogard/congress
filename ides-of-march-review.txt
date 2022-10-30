@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TrackingCongress.com</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="nileforest">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="google-site-verification" content="Y2o3N7Gl6NbpH6eqGLhy5titnuaHLAAey479OprAF0o" />
+    
+        <!-- Favicone Icon -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/small_6_14.png">
+        <link rel="icon" type="image/png" href="images/small_6_14.png">
+        <link rel="apple-touch-icon" href="images/small_6_14.png">
+    
+        <!-- CSS -->
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/style.css" rel="stylesheet" type="text/css">
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/ionicons.css" rel="stylesheet" type="text/css">
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/plugin/animate.css" rel="stylesheet" type="text/css">
+        <link href="tracking-congress-resources/html-template/01_multipurpose/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    
+    <style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style>
+</head>
+    <body cz-shortcut-listen="true" style="overflow: visible;">
+
+        <!-- Preloader -->
+        <section id="preloader" style="display: none;">
+            <div class="loader" id="loader" style="display: none;">
+                <div class="loader-img"></div>
+            </div>
+        </section>
+        <!-- End Preloader -->
+    
+        <!-- Site Wraper -->
+        <div class="wrapper">
+    
+            <!-- Blog Post Section -->
+            <section class="ptb ptb-sm-80">
+                <div class="container">
+                    <div class="row">
+                        <!-- Post Bar -->
+                        <div class="col-lg-9 col-md-9 blog-post-hr">
+                            <div class="blog-post mb-30">
+                                <div class="post-meta"><span>by <a>Matthew Bogard</a>,</span> <span>December 15, 2014</span></div>
+    
+                                <div class="post-header">
+                                    <h2>The Prison of Drugs</h2>
+                                </div>
+    
+                                <div class="post-media">
+                                    <img alt="" src="images/mono_min.png">
+                                </div>
+    
+                                <div class="post-entry">
+                                    <p>The following writing sample is the text version of a brief documentary I produced while interning with Spectrum News Austin. It examines America’s prison system and the policies that have significantly influenced incarceration trends in recent decades. With the help of several experts this documentary wades into the complicated realm of drug and incarceration policy and in the end offers hope that recent political initiatives will be successful in curbing incarceration rates while also treating the problem of drug abuse.</p>
+
+                                    <p>The United States has a greater percentage of its people in prison than any other nation in the world. America leads the world in illegal drug use as well. And illegal drug use has remained the same since 1972 when former President Richard Nixon launched the War on Drugs campaign (Jarecki). But there is tremendous room for progress in America’s drug and incarceration policy.</p>
+
+                                    <p>American drug laws have been greatly influenced by political initiatives. In 1972 Richard Nixon launched the War on Drugs declaring, “America’s public enemy number one in the United States is drug abuse.” (“Richard Nixon…” 2013). Yet surprisingly, Nixon’s presidency did not mark the beginning of harsher drug policy. In fact, Congress voted in 1970 to eliminate almost all mandatory minimum sentences for drug offenders. It was Nelson Rockefeller, the then Governor of New York, who stated in 1973 that every drug dealer be punished with a mandatory prison sentence for life without the chance of parole. States around the country subsequently enacted significantly stricter drug penalties (Mehta). Once harsh narcotic punishments were established they were made difficult to remove due to institutional incentives and a lack of political appeal for lenient drug policy.</p>
+
+                                    <p>The demonizing of drugs intensified during the Ronald Reagan Administration with the “Just Say No” campaign. President Reagan asserted, “Drugs are menacing our society. They’re threatening our values and undercutting our institutions. They’re killing our children,” (“Ronald Reagan Speech…” 2010). Whereas Nixon devoted two thirds of his drug legislation to treatment the Rockefeller laws and the Reagan Administration emphasized criminal prosecution. While this approach may be good politics it does not appear to be smart public policy.</p>
+
+                                    <p>These initiatives are not ideal policies in part because stringent drug laws and high imprisonment rates are correlated. Census data collected by the Department of Justice in 2008 supports this. Twenty states and the District of Columbia have legalized medical marijuana. These states can be characterized as having lenient drug policies. All but one of the states that have legalized medical marijuana have fewer individuals locked up than the national average. And over half of the states with legalized marijuana are among the twenty states with the lowest prison population. Furthermore, Florida, Louisiana, Arkansas, and Georgia have some of the toughest penalties for marijuana in the United States (Rao). All of these states are in the top ten in the nation for the greatest number of inmates. States that adopt harsh consequences for minor drug offenses tend to have high prison populations while states that institute weak punishments for minor drug offenses have relatively low incarceration rates.</p>
+
+                                    <p>Derek Cohen, a representative of the Texas Public Policy Foundation, describes how this relationship has been persistent over time. He points out that “during the mid-nineties crime is trending downward across the nation, however our admissions rates for state and federal prisons keeps going up. And I’m not even talking about the number of people in—I’m talking about the number of people we’re bringing in yearly keeps going up even though crime is going down. So I would say that is definitely a fair assessment that drug sentencing laws do lead to high incarceration rates.”</p>
+
+                                    <p>Part of the reason tough drug laws have lasted so long is because of institutional incentives. The Justice Policy Institute claimed that private, for-profit prisons tend to lobby for policies that serve them, which are harsher prison sentences and a greater reliance on incarceration rather than on probation and parole (The Economist). The Correction Corporation of America, the largest private prison business in the United States, even stated publicly that “demand for our facilities and services could be adversely affected by . . . leniency in conviction or parole standards and sentencing practices,” (ACLU).</p>
+
+                                    <p>Charles M. Blow, a columnist of the New York Times, points to the same conflict when he argues that “[the] private prison system profits from high incarceration rates and tough sentencing, and… many with the power to curtail the system actually have a financial incentive to perpetuate it.”</p>
+
+                                    <p>The major problem is that state-run prisons also have motivation to seek severe drug-related sentences. This can be exemplified with California’s public prison unions. Cohen explains, “California has very, very powerful prison officers and peace officers unions. Those particular unions you’d figure in the state of California, you know it’s a fairly left of center state, they’d be first out the door when it comes to decriminalization, incarceration reform, so on and so forth. But you basically see that state with some of the toughest laws in the union, you know three strikes so on, lobbied for mainly by these particular organizations.”</p>
+
+                                    <p>Michele Deitch, a Senior Lecturer at the LBJ School of Public Affairs at the University of Texas at Austin, points out that these unions are not always successful. She claims, “There are some states in which unions have had a lot of influence such as in California. That’s not a particularly apt description of what’s been happening in Texas. Unions are not particularly strong here. In places like California the unions have been successful at advocating for tough on crime measures such as three strikes and you’re out policies and such. That hasn’t been the case in other states.”</p>
+
+                                    <p>Originally private prisons were seen as a better alternative to state-run prisons by being more efficient. And during the Great Recession with state budgets being squeezed, private prisons grew considerably (Tan). But the economics of private prisons are uncertain. Deitch describes, “Private prisons were long sold to legislators and taxpayers as providing a better product at a lower cost. But years of experience have shown that the performance is actually not living up to its promise and the cost savings have never materialized.” The Economist concurs with this idea when it states, “[The] evidence that private prisons offer significant cost savings to their state-run counterparts is both thinner and more ambiguous in practice than in theory.” However the debate isn’t solely based on economics.</p>
+
+                                    <p>The American Civil Liberties Union (ACLU) has filed lawsuits against several private prison companies, asserting that their environment promotes violence, and that they provide unsatisfactory access to mental health care (Chen). Matthew Simpson, a representative of the ACLU, explains the problems that his agency has discovered, “We’ve seen in immigration facilities—very dramatic issues with medical neglect to the point where people say they’re diabetic or going into comas because they’re not getting their medication. We have heard the same from other private facilities and really it’s true across the country as well. I think the track record of private prisons is really not very good in the United States.” By calling into question the conditions of inmates in private prisons, the industry’s claim to being more efficient is at least partially invalidated. This is because a private prison may be more efficient only because it is cutting corners on the necessities for its prisoners.</p>
+
+                                    <p>The influence of private prisons is particularly important to Texas. Texas operates the largest private prison system in the nation. Deitch details, “Private prisons pretty much got their start here in Texas in the mid-eighties… first it was created as a bit of an experiment in a very small way, a few facilities. But in the early nineties they really sprung up all over the country.”</p>
+
+                                    <p>The Texas Legislature was forced to address the problem of over incarceration in 2007 when over two billion dollars was needed to sustain the current rate of prison expansion in the state. But Cohen responds, “Or there has to be a better way. You know it is very hard to ask for that much money from the taxpayer. So they said well let’s look at prioritizing community corrections, let’s look at probation, let’s look at parole, let’s look at treatment options. And they went ahead and made those reforms and we were able to not only slash our prison population but crime rates have been going down as fast or faster than the national average ever since.” Texas achieved great success by creating alternatives to incarceration for nonviolent drug offenders. Yet both private and public prisons have a structural motivation to lobby for the harshest drug laws possible. Private prisons appear to be more influential in states that house a great number of their facilities like Texas while public prisons appear to be more dominant in states with powerful employee unions like California.</p>
+
+                                    <p>But despite the interests of these institutions recently political support for drug policy emphasizing rehabilitation rather than criminal prosecution has grown. President Obama stated he believes that drug abuse should be treated as a public health issue. And Attorney General Eric Holder supports an easing of penalties for drug-related crimes. The Smarter Sentencing Act of 2013, which would reform federal drug laws, is making its way through Congress. Furthermore, Texas Governor Rick Perry has reiterated his support for Texas’ drug courts, which were created in 2001 as an alternative to prison for drug-related convictions. All of these elements demonstrate that America is reassessing its drug policy to deal with the problem more pragmatically and justly.</p>
+
+                                    <hr>
+
+                                    <p class="lead">Works Cited</p>
+                                    <ul>
+                                        <li>Blow, Charles M. “Plantations, Prisons and Profits.” <i>The New York Times</i>. The New York Times Company, 25 May 2012. Web. 3 Feb. 2014.</li>
+                                        <li>Chen, Stephanie. “Larger Inmate Population Is Boon to Private Prisons.” <i>The Wall Street Journal</i>. Dow Jones & Company, 19 Nov. 2009. Web. 5 Feb. 2014.</li>
+                                        <li><i>The House I Live In</i>. Dir. Eugene Jarecki. Perf. Nannie Jeter, David Simon. 2012. DVD.</li>
+                                        <li>Mehta, Jigar. “The Rockefeller Drug Laws.” <i>The New York Times</i>. The New York Times Company, 4 Mar. 2009. Web. 1 Mar. 2014.</li>
+                                        <li>Rao, Jessica. “Tough Marijuana States: Southern Discomfort.” <i>CNBC.com</i>. NBC Universal, 20 Apr. 2010. Web. 3 Feb. 2014.</li>
+                                        <li>“Richard Nixon on the War on Drugs.” <i>YouTube</i>. YouTube, 5 July 2013. Web. 28 Feb. 2014.</li>
+                                        <li>“Ronald Reagan Speech to the Nation on the Campaign Against Drug Abuse (September 14, 1996).” <i>YouTube</i>. YouTube, 22 July 2010. Web. 28 Feb. 2014</li>
+                                        <li>Schlosser, Eric. “The Prison-­Industrial Complex.” <i>The Atlantic</i>. Atlantic Media Company, 1 Dec. 1998. Web. 3 Feb. 2014.</li>
+                                        <li>Tan, Kopin. “Private Prison Companies Have a Lock on the Business.” <i>The Wall Street Journal</i>. Dow Jones & Company, 25 Oct. 2009. Web. 5 Feb. 2014.</li>
+                                        <li>“Private Prisons.” <i>American Civil Liberties Union</i>. N.p., n.d. Web. 04 Feb. 2014.</li>
+                                        <li>“We’re in the Jailhouse Now.” <i>The Economist</i>. The Economist Newspaper, 22 June 2011. Web. 5 Feb. 2014</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <footer class="footer">
+                <section class="copyright ptb-60">
+                    <div class="container">
+                        <p>&copy; 2022 <b>Scientific Politics LLC</b></p>
+                        <p>All Rights Reserved.</p>
+                    </div>
+                </section>
+            </footer>
+
+        </div>
+
+</body>
+</html>
