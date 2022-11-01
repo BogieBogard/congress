@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll472.xml",
   "subject": "Millennium Challenge Corporation Eligibility Expansion Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-11-01T03:39:44-04:00",
+  "updated_at": "2022-11-01T09:46:51-04:00",
   "vote_id": "h472-117.2022",
   "votes": {
     "Nay": [
