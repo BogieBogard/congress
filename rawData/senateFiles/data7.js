@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00346.xml",
   "subject": "On the Cloture Motion S. 4822",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-11-11T02:35:49-05:00",
+  "updated_at": "2022-11-11T08:42:57-05:00",
   "vote_id": "s346-117.2022",
   "votes": {
     "Nay": [
