@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll477.xml",
   "subject": "Fairness for 9/11 Families Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-11-10T14:17:26-05:00",
+  "updated_at": "2022-11-10T20:24:35-05:00",
   "vote_id": "h477-117.2022",
   "votes": {
     "Nay": [
