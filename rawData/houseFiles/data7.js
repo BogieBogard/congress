@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll471.xml",
   "subject": "Global Food Security Reauthorization Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-11-11T22:49:32-05:00",
+  "updated_at": "2022-11-12T04:56:41-05:00",
   "vote_id": "h471-117.2022",
   "votes": {
     "Nay": [
