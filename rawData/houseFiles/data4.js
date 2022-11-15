@@ -5,21 +5,21 @@ const house4Votes =
     "number": 1404,
     "type": "hres"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-09-30T10:53:00-04:00",
-  "number": 474,
-  "question": "On Ordering the Previous Question: H RES 1404 Providing for consideration of the Senate amendment to the bill (H.R. 6833) Affordable Insulin Now Act and providing for consideration of the bill (H.R. 8987) Fairness for 9/11 Families Act",
+  "date": "2022-09-30T11:10:00-04:00",
+  "number": 475,
+  "question": "On Agreeing to the Resolution: H RES 1404 Providing for consideration of the Senate amendment to the bill (H.R. 6833) Affordable Insulin Now Act and providing for consideration of the bill (H.R. 8987) Fairness for 9/11 Families Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll474.xml",
+  "source_url": "https://clerk.house.gov/evs/2022/roll475.xml",
   "subject": "Providing for consideration of the Senate amendment to the bill (H.R. 6833) Affordable Insulin Now Act and providing for consideration of the bill (H.R. 8987) Fairness for 9/11 Families Act",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2022-11-14T18:07:53-05:00",
-  "vote_id": "h474-117.2022",
+  "type": "On the Resolution",
+  "updated_at": "2022-11-15T00:15:00-05:00",
+  "vote_id": "h475-117.2022",
   "votes": {
     "Nay": [
       {
@@ -689,6 +689,12 @@ const house4Votes =
         "state": "PA"
       },
       {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
+      },
+      {
         "display_name": "Keller",
         "id": "K000395",
         "party": "R",
@@ -1279,12 +1285,6 @@ const house4Votes =
         "state": "IN"
       },
       {
-        "display_name": "Johnson (GA)",
-        "id": "J000288",
-        "party": "D",
-        "state": "GA"
-      },
-      {
         "display_name": "Kinzinger",
         "id": "K000378",
         "party": "R",
@@ -1840,6 +1840,12 @@ const house4Votes =
         "state": "NY"
       },
       {
+        "display_name": "Johnson (GA)",
+        "id": "J000288",
+        "party": "D",
+        "state": "GA"
+      },
+      {
         "display_name": "Johnson (TX)",
         "id": "J000126",
         "party": "D",
@@ -1862,12 +1868,6 @@ const house4Votes =
         "id": "K000009",
         "party": "D",
         "state": "OH"
-      },
-      {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
       },
       {
         "display_name": "Keating",
