@@ -6,24 +6,32 @@ const senate5Votes =
     "title": "A bill to amend title XXVII of the Public Health Service Act, the Internal Revenue Code of 1986, and the Employee Retirement Income Security Act of 1974 to establish requirements with respect to cost-sharing for certain insulin products, and for other purposes.",
     "type": "hr"
   },
-  "category": "cloture",
+  "category": "passage",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-09-27T17:35:00-04:00",
-  "number": 349,
-  "question": "Motion to Invoke Cloture: Motion to Proceed to H.R. 6833",
-  "record_modified": "2022-09-27T19:05:00-04:00",
+  "date": "2022-09-29T14:01:00-04:00",
+  "number": 351,
+  "question": "On Passage of the Bill H.R. 6833",
+  "record_modified": "2022-09-29T16:09:00-04:00",
   "requires": "3/5",
-  "result": "Cloture on the Motion to Proceed Agreed to",
-  "result_text": "Cloture on the Motion to Proceed Agreed to (72-23, 3/5 majority required)",
+  "result": "Bill Passed",
+  "result_text": "Bill Passed (72-25, 3/5 majority required)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00349.xml",
-  "subject": "On Cloture on the Motion to Proceed H.R. 6833",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-11-15T12:34:42-05:00",
-  "vote_id": "s349-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00351.xml",
+  "subject": "H.R. 6833, As Amended",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-11-15T18:41:51-05:00",
+  "vote_id": "s351-117.2022",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -81,6 +89,14 @@ const senate5Votes =
         "state": "NE"
       },
       {
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
         "display_name": "Hawley (R-MO)",
         "first_name": "Josh",
         "id": "S399",
@@ -121,12 +137,12 @@ const senate5Votes =
         "state": "OK"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
+        "display_name": "Lummis (R-WY)",
+        "first_name": "Cynthia",
+        "id": "S410",
+        "last_name": "Lummis",
         "party": "R",
-        "state": "UT"
+        "state": "WY"
       },
       {
         "display_name": "Marshall (R-KS)",
@@ -211,36 +227,20 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
         "party": "R",
-        "state": "WY"
+        "state": "UT"
       },
       {
-        "display_name": "Burr (R-NC)",
-        "first_name": "Richard",
-        "id": "S300",
-        "last_name": "Burr",
+        "display_name": "Portman (R-OH)",
+        "first_name": "Rob",
+        "id": "S349",
+        "last_name": "Portman",
         "party": "R",
-        "state": "NC"
-      },
-      {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
-        "party": "R",
-        "state": "TN"
-      },
-      {
-        "display_name": "Lummis (R-WY)",
-        "first_name": "Cynthia",
-        "id": "S410",
-        "last_name": "Lummis",
-        "party": "R",
-        "state": "WY"
+        "state": "OH"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -308,6 +308,14 @@ const senate5Votes =
         "last_name": "Brown",
         "party": "D",
         "state": "OH"
+      },
+      {
+        "display_name": "Burr (R-NC)",
+        "first_name": "Richard",
+        "id": "S300",
+        "last_name": "Burr",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Cantwell (D-WA)",
@@ -644,14 +652,6 @@ const senate5Votes =
         "last_name": "Peters",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Portman (R-OH)",
-        "first_name": "Rob",
-        "id": "S349",
-        "last_name": "Portman",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Reed (D-RI)",
