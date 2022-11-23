@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll480.xml",
   "subject": "Speak Out Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-11-23T08:33:28-05:00",
+  "updated_at": "2022-11-23T14:43:03-05:00",
   "vote_id": "h480-117.2022",
   "votes": {
     "Nay": [
