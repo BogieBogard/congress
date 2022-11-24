@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00356.xml",
   "subject": "On the Cloture Motion H.R. 8404",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-11-24T03:01:42-05:00",
+  "updated_at": "2022-11-24T09:08:56-05:00",
   "vote_id": "s356-117.2022",
   "votes": {
     "Nay": [

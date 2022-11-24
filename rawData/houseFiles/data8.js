@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll478.xml",
   "subject": "PAST Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-11-24T02:57:39-05:00",
+  "updated_at": "2022-11-24T09:04:52-05:00",
   "vote_id": "h478-117.2022",
   "votes": {
     "Nay": [
