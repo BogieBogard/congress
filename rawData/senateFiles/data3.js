@@ -20,7 +20,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00355.xml",
   "subject": "S.J.Res. 63",
   "type": "On the Joint Resolution",
-  "updated_at": "2022-11-24T21:23:25-05:00",
+  "updated_at": "2022-11-25T03:30:40-05:00",
   "vote_id": "s355-117.2022",
   "votes": {
     "Nay": [
