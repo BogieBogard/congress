@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00354.xml",
   "subject": "Confirmation: Maria del R. Antongiorgi-Jordan, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
   "type": "On the Nomination",
-  "updated_at": "2022-11-25T03:30:41-05:00",
+  "updated_at": "2022-11-25T09:37:55-05:00",
   "vote_id": "s354-117.2022",
   "votes": {
     "Nay": [
