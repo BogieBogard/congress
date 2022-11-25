@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00348.xml",
   "subject": "Confirmation: Arati Prabhakar, of California, to be Director of the Office of Science and Technology Policy",
   "type": "On the Nomination",
-  "updated_at": "2022-11-25T09:37:58-05:00",
+  "updated_at": "2022-11-25T15:45:13-05:00",
   "vote_id": "s348-117.2022",
   "votes": {
     "Nay": [
