@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll483.xml",
   "subject": "Senator Johnny Isakson VA Regional Office Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-11-26T22:17:26-05:00",
+  "updated_at": "2022-11-27T04:24:46-05:00",
   "vote_id": "h483-117.2022",
   "votes": {
     "Nay": [
