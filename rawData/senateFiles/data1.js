@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00357.xml",
   "subject": "Motion to Proceed to Consider H.R. 8404",
   "type": "On the Motion to Proceed",
-  "updated_at": "2022-11-27T04:28:52-05:00",
+  "updated_at": "2022-11-27T10:36:16-05:00",
   "vote_id": "s357-117.2022",
   "votes": {
     "Nay": [
