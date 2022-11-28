@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll484.xml",
   "subject": "Department of Veterans Affairs Information Technology Reform Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-11-27T16:39:26-05:00",
+  "updated_at": "2022-11-27T22:46:40-05:00",
   "vote_id": "h484-117.2022",
   "votes": {
     "Nay": [

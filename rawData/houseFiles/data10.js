@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll476.xml",
   "subject": "Affordable Insulin Now Act",
   "type": "Concurring in the Senate Amendment",
-  "updated_at": "2022-11-27T16:39:30-05:00",
+  "updated_at": "2022-11-27T22:46:44-05:00",
   "vote_id": "h476-117.2022",
   "votes": {
     "Nay": [
