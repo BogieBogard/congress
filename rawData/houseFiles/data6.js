@@ -2,40 +2,46 @@ const house6Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 4359,
-    "type": "s"
+    "number": 2250,
+    "type": "hr"
   },
   "category": "passage-suspension",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-11-17T14:34:00-05:00",
-  "number": 483,
-  "question": "On Motion to Suspend the Rules and Pass: S 4359 Senator Johnny Isakson VA Regional Office Act",
+  "date": "2022-11-17T14:43:00-05:00",
+  "number": 484,
+  "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 2250 Department of Veterans Affairs Information Technology Reform Act",
   "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll483.xml",
-  "subject": "Senator Johnny Isakson VA Regional Office Act",
-  "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-11-30T05:52:03-05:00",
-  "vote_id": "h483-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll484.xml",
+  "subject": "Department of Veterans Affairs Information Technology Reform Act",
+  "type": "On Motion to Suspend the Rules and Pass, as Amended",
+  "updated_at": "2022-11-30T12:01:11-05:00",
+  "vote_id": "h484-117.2022",
   "votes": {
     "Nay": [
       {
-        "display_name": "Boebert",
-        "id": "B000825",
-        "party": "R",
-        "state": "CO"
+        "display_name": "Casten",
+        "id": "C001117",
+        "party": "D",
+        "state": "IL"
       },
       {
-        "display_name": "Massie",
-        "id": "M001184",
-        "party": "R",
-        "state": "KY"
+        "display_name": "Garcia (TX)",
+        "id": "G000587",
+        "party": "D",
+        "state": "TX"
       }
     ],
     "Not Voting": [
+      {
+        "display_name": "Cartwright",
+        "id": "C001090",
+        "party": "D",
+        "state": "PA"
+      },
       {
         "display_name": "Cheney",
         "id": "C001109",
@@ -47,6 +53,18 @@ const house6Votes =
         "id": "D000482",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Ferguson",
+        "id": "F000465",
+        "party": "R",
+        "state": "GA"
+      },
+      {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Herrera Beutler",
@@ -67,6 +85,12 @@ const house6Votes =
         "state": "TX"
       },
       {
+        "display_name": "Kahele",
+        "id": "K000396",
+        "party": "D",
+        "state": "HI"
+      },
+      {
         "display_name": "Kinzinger",
         "id": "K000378",
         "party": "R",
@@ -79,36 +103,36 @@ const house6Votes =
         "state": "OK"
       },
       {
-        "display_name": "Palazzo",
-        "id": "P000601",
-        "party": "R",
-        "state": "MS"
-      },
-      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
         "state": "IN"
       },
       {
+        "display_name": "Salazar",
+        "id": "S000168",
+        "party": "R",
+        "state": "FL"
+      },
+      {
         "display_name": "Welch",
         "id": "W000800",
         "party": "D",
         "state": "VT"
+      },
+      {
+        "display_name": "Yarmuth",
+        "id": "Y000062",
+        "party": "D",
+        "state": "KY"
       }
     ],
     "Present": [
       {
-        "display_name": "Rosendale",
-        "id": "R000103",
-        "party": "R",
-        "state": "MT"
-      },
-      {
-        "display_name": "Roy",
-        "id": "R000614",
-        "party": "R",
-        "state": "TX"
+        "display_name": "DelBene",
+        "id": "D000617",
+        "party": "D",
+        "state": "WA"
       }
     ],
     "Yea": [
@@ -293,6 +317,12 @@ const house6Votes =
         "state": "DE"
       },
       {
+        "display_name": "Boebert",
+        "id": "B000825",
+        "party": "R",
+        "state": "CO"
+      },
+      {
         "display_name": "Bonamici",
         "id": "B001278",
         "party": "D",
@@ -467,22 +497,10 @@ const house6Votes =
         "state": "TX"
       },
       {
-        "display_name": "Cartwright",
-        "id": "C001090",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Case",
         "id": "C001055",
         "party": "D",
         "state": "HI"
-      },
-      {
-        "display_name": "Casten",
-        "id": "C001117",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Castor (FL)",
@@ -707,12 +725,6 @@ const house6Votes =
         "state": "CT"
       },
       {
-        "display_name": "DelBene",
-        "id": "D000617",
-        "party": "D",
-        "state": "WA"
-      },
-      {
         "display_name": "Demings",
         "id": "D000627",
         "party": "D",
@@ -819,12 +831,6 @@ const house6Votes =
         "id": "F000446",
         "party": "R",
         "state": "IA"
-      },
-      {
-        "display_name": "Ferguson",
-        "id": "F000465",
-        "party": "R",
-        "state": "GA"
       },
       {
         "display_name": "Finstad",
@@ -947,12 +953,6 @@ const house6Votes =
         "state": "IL"
       },
       {
-        "display_name": "Garcia (TX)",
-        "id": "G000587",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Gibbs",
         "id": "G000563",
         "party": "R",
@@ -993,12 +993,6 @@ const house6Votes =
         "id": "G000588",
         "party": "R",
         "state": "OH"
-      },
-      {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Good (VA)",
@@ -1293,12 +1287,6 @@ const house6Votes =
         "id": "J000302",
         "party": "R",
         "state": "PA"
-      },
-      {
-        "display_name": "Kahele",
-        "id": "K000396",
-        "party": "D",
-        "state": "HI"
       },
       {
         "display_name": "Kaptur",
@@ -1607,6 +1595,12 @@ const house6Votes =
         "state": "NC"
       },
       {
+        "display_name": "Massie",
+        "id": "M001184",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Mast",
         "id": "M001199",
         "party": "R",
@@ -1877,6 +1871,12 @@ const house6Votes =
         "state": "UT"
       },
       {
+        "display_name": "Palazzo",
+        "id": "P000601",
+        "party": "R",
+        "state": "MS"
+      },
+      {
         "display_name": "Pallone",
         "id": "P000034",
         "party": "D",
@@ -2039,6 +2039,12 @@ const house6Votes =
         "state": "TN"
       },
       {
+        "display_name": "Rosendale",
+        "id": "R000103",
+        "party": "R",
+        "state": "MT"
+      },
+      {
         "display_name": "Ross",
         "id": "R000305",
         "party": "D",
@@ -2049,6 +2055,12 @@ const house6Votes =
         "id": "R000603",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Roy",
+        "id": "R000614",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Roybal-Allard",
@@ -2091,12 +2103,6 @@ const house6Votes =
         "id": "R000577",
         "party": "D",
         "state": "OH"
-      },
-      {
-        "display_name": "Salazar",
-        "id": "S000168",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "S\u00e1nchez",
@@ -2607,12 +2613,6 @@ const house6Votes =
         "id": "Y000067",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Yarmuth",
-        "id": "Y000062",
-        "party": "D",
-        "state": "KY"
       },
       {
         "display_name": "Zeldin",

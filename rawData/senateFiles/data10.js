@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-14T17:31:00-05:00",
+  "date": "2022-11-15T14:16:00-05:00",
   "nomination": {
     "number": "2263",
     "title": "Maria del R. Antongiorgi-Jordan, of Puerto Rico, to be United States District Judge for the District of Puerto Rico"
   },
-  "number": 353,
-  "question": "Motion to Invoke Cloture: Maria del R. Antongiorgi-Jordan to be United States District Judge for the District of Puerto Rico: Maria del R. Antongiorgi-Jordan, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
-  "record_modified": "2022-11-14T19:04:00-05:00",
+  "number": 354,
+  "question": "On the Nomination PN2263: Maria del R. Antongiorgi-Jordan, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
+  "record_modified": "2022-11-15T16:40:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-43)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (55-43)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00353.xml",
-  "subject": "On the Cloture Motion PN2263",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-11-30T05:56:13-05:00",
-  "vote_id": "s353-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00354.xml",
+  "subject": "Confirmation: Maria del R. Antongiorgi-Jordan, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
+  "type": "On the Nomination",
+  "updated_at": "2022-11-30T12:05:21-05:00",
+  "vote_id": "s354-117.2022",
   "votes": {
     "Nay": [
       {
@@ -369,38 +369,6 @@ const senate10Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
-        "display_name": "Carper (D-DE)",
-        "first_name": "Thomas",
-        "id": "S277",
-        "last_name": "Carper",
-        "party": "D",
-        "state": "DE"
-      },
-      {
-        "display_name": "Hickenlooper (D-CO)",
-        "first_name": "John",
-        "id": "S408",
-        "last_name": "Hickenlooper",
-        "party": "D",
-        "state": "CO"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Sasse (R-NE)",
         "first_name": "Ben",
         "id": "S382",
@@ -466,6 +434,22 @@ const senate10Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
+        "display_name": "Carper (D-DE)",
+        "first_name": "Thomas",
+        "id": "S277",
+        "last_name": "Carper",
+        "party": "D",
+        "state": "DE"
       },
       {
         "display_name": "Casey (D-PA)",
@@ -564,6 +548,14 @@ const senate10Votes =
         "state": "NM"
       },
       {
+        "display_name": "Hickenlooper (D-CO)",
+        "first_name": "John",
+        "id": "S408",
+        "last_name": "Hickenlooper",
+        "party": "D",
+        "state": "CO"
+      },
+      {
         "display_name": "Hirono (D-HI)",
         "first_name": "Mazie",
         "id": "S361",
@@ -650,6 +642,14 @@ const senate10Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
