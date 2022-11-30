@@ -1,8 +1,8 @@
 const senate2Votes = 
 {
   "amendment": {
-    "number": 6496,
-    "purpose": "To improve the bill.",
+    "number": 6493,
+    "purpose": "To eliminate a private right of action.",
     "type": "s"
   },
   "bill": {
@@ -14,19 +14,19 @@ const senate2Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-29T16:40:00-05:00",
-  "number": 360,
-  "question": "On the Amendment S.Amdt. 6496 to S.Amdt. 6487 to H.R. 8404 (No short title on file)",
-  "record_modified": "2022-11-29T17:40:00-05:00",
+  "date": "2022-11-29T17:14:00-05:00",
+  "number": 361,
+  "question": "On the Amendment S.Amdt. 6493 to S.Amdt. 6487 to H.R. 8404 (No short title on file)",
+  "record_modified": "2022-11-29T18:01:00-05:00",
   "requires": "1/2",
   "result": "Amendment Rejected",
   "result_text": "Amendment Rejected (45-52)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00360.xml",
-  "subject": "Lankford Amdt. No. 6496",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00361.xml",
+  "subject": "Rubio Amdt. No. 6493",
   "type": "On the Amendment",
-  "updated_at": "2022-11-29T17:41:33-05:00",
-  "vote_id": "s360-117.2022",
+  "updated_at": "2022-11-29T23:48:51-05:00",
+  "vote_id": "s361-117.2022",
   "votes": {
     "Nay": [
       {
