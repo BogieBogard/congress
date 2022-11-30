@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll479.xml",
   "subject": "Providing for consideration of the bill S. 4524, the Speak Out Act, and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-11-29T23:44:47-05:00",
+  "updated_at": "2022-11-30T05:52:05-05:00",
   "vote_id": "h479-117.2022",
   "votes": {
     "Nay": [

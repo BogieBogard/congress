@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll487.xml",
   "subject": "Justice and Mental Health Collaboration Reauthorization Act of 2022",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-11-29T23:44:43-05:00",
+  "updated_at": "2022-11-30T05:52:01-05:00",
   "vote_id": "h487-117.2022",
   "votes": {
     "Nay": [

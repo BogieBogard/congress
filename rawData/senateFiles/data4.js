@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00359.xml",
   "subject": "Lee Amdt. No. 6482",
   "type": "On the Amendment",
-  "updated_at": "2022-11-29T23:48:52-05:00",
+  "updated_at": "2022-11-30T05:56:10-05:00",
   "vote_id": "s359-117.2022",
   "votes": {
     "Nay": [
