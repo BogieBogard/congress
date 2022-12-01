@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll482.xml",
   "subject": "To designate the medical center of the Department of Veterans Affairs in metropolitan Atlanta, Georgia, as the \u201cJoseph Maxwell Cleland Atlanta Department of Veterans Affairs Medical Center\u201d",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-11-30T18:08:32-05:00",
+  "updated_at": "2022-12-01T00:15:56-05:00",
   "vote_id": "h482-117.2022",
   "votes": {
     "Nay": [

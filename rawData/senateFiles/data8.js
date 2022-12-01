@@ -25,7 +25,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00360.xml",
   "subject": "Lankford Amdt. No. 6496",
   "type": "On the Amendment",
-  "updated_at": "2022-11-30T18:12:42-05:00",
+  "updated_at": "2022-12-01T00:20:04-05:00",
   "vote_id": "s360-117.2022",
   "votes": {
     "Nay": [

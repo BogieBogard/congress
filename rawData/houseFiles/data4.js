@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll488.xml",
   "subject": "Terry Technical Correction Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-11-30T18:08:29-05:00",
+  "updated_at": "2022-12-01T00:15:53-05:00",
   "vote_id": "h488-117.2022",
   "votes": {
     "Nay": [
