@@ -6,24 +6,32 @@ const senate6Votes =
     "title": "A bill to repeal the Defense of Marriage Act and ensure respect for State regulation of marriage, and for other purposes.",
     "type": "hr"
   },
-  "category": "cloture",
+  "category": "passage",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-28T17:31:00-05:00",
-  "number": 358,
-  "question": "Motion to Invoke Cloture: Amdt. No. 6487 to H.R. 8404",
-  "record_modified": "2022-11-28T20:45:00-05:00",
+  "date": "2022-11-29T17:52:00-05:00",
+  "number": 362,
+  "question": "On Passage of the Bill H.R. 8404",
+  "record_modified": "2022-11-29T18:39:00-05:00",
   "requires": "3/5",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (61-35, 3/5 majority required)",
+  "result": "Bill Passed",
+  "result_text": "Bill Passed (61-36, 3/5 majority required)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00358.xml",
-  "subject": "On the Cloture Motion H.R. 8404",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-11-30T12:05:19-05:00",
-  "vote_id": "s358-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00362.xml",
+  "subject": "H.R. 8404, as amended",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-11-30T18:12:41-05:00",
+  "vote_id": "s362-117.2022",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -306,14 +314,6 @@ const senate6Votes =
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Sasse (R-NE)",
         "first_name": "Ben",
