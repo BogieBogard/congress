@@ -1,7 +1,7 @@
 const senate9Votes = 
 {
   "amendment": {
-    "number": 6482,
+    "number": 6496,
     "purpose": "To improve the bill.",
     "type": "s"
   },
@@ -14,19 +14,19 @@ const senate9Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-29T15:55:00-05:00",
-  "number": 359,
-  "question": "On the Amendment S.Amdt. 6482 to S.Amdt. 6487 to H.R. 8404 (No short title on file)",
-  "record_modified": "2022-11-29T17:36:00-05:00",
-  "requires": "3/5",
+  "date": "2022-11-29T16:40:00-05:00",
+  "number": 360,
+  "question": "On the Amendment S.Amdt. 6496 to S.Amdt. 6487 to H.R. 8404 (No short title on file)",
+  "record_modified": "2022-11-29T17:40:00-05:00",
+  "requires": "1/2",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (48-49, 3/5 majority required)",
+  "result_text": "Amendment Rejected (45-52)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00359.xml",
-  "subject": "Lee Amdt. No. 6482",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00360.xml",
+  "subject": "Lankford Amdt. No. 6496",
   "type": "On the Amendment",
-  "updated_at": "2022-12-01T06:27:27-05:00",
-  "vote_id": "s359-117.2022",
+  "updated_at": "2022-12-01T12:34:50-05:00",
+  "vote_id": "s360-117.2022",
   "votes": {
     "Nay": [
       {
@@ -238,6 +238,14 @@ const senate9Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -260,6 +268,14 @@ const senate9Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -300,6 +316,14 @@ const senate9Votes =
         "last_name": "Peters",
         "party": "D",
         "state": "MI"
+      },
+      {
+        "display_name": "Portman (R-OH)",
+        "first_name": "Rob",
+        "id": "S349",
+        "last_name": "Portman",
+        "party": "R",
+        "state": "OH"
       },
       {
         "display_name": "Reed (D-RI)",
@@ -675,14 +699,6 @@ const senate9Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -707,28 +723,12 @@ const senate9Votes =
         "state": "KS"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
         "last_name": "Paul",
         "party": "R",
         "state": "KY"
-      },
-      {
-        "display_name": "Portman (R-OH)",
-        "first_name": "Rob",
-        "id": "S349",
-        "last_name": "Portman",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Risch (R-ID)",

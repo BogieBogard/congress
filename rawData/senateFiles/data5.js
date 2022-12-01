@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-30T11:30:00-05:00",
+  "date": "2022-11-30T12:15:00-05:00",
   "nomination": {
-    "number": "2264",
-    "title": "Camille L. Velez-Rive, of Puerto Rico, to be United States District Judge for the District of Puerto Rico"
+    "number": "2143",
+    "title": "Anne M. Nardacci, of New York, to be United States District Judge for the Northern District of New York"
   },
-  "number": 363,
-  "question": "Motion to Invoke Cloture: Camille L. Velez-Rive to be U.S. District Judge for the District of Puerto Rico: Camille L. Velez-Rive, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
-  "record_modified": "2022-11-30T13:21:00-05:00",
+  "number": 364,
+  "question": "Motion to Invoke Cloture: Anne M. Nardacci to be U.S. District Judge for the Northern District of New York: Anne M. Nardacci, of New York, to be United States District Judge for the Northern District of New York",
+  "record_modified": "2022-11-30T13:13:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-43)",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00363.xml",
-  "subject": "On the Cloture Motion PN2264",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00364.xml",
+  "subject": "On the Cloture Motion PN2143",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-12-01T06:27:25-05:00",
-  "vote_id": "s363-117.2022",
+  "updated_at": "2022-12-01T12:34:48-05:00",
+  "vote_id": "s364-117.2022",
   "votes": {
     "Nay": [
       {
@@ -87,6 +87,14 @@ const senate5Votes =
         "state": "LA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -151,6 +159,14 @@ const senate5Votes =
         "state": "NE"
       },
       {
+        "display_name": "Grassley (R-IA)",
+        "first_name": "Charles",
+        "id": "S153",
+        "last_name": "Grassley",
+        "party": "R",
+        "state": "IA"
+      },
+      {
         "display_name": "Hagerty (R-TN)",
         "first_name": "Bill",
         "id": "S407",
@@ -199,14 +215,6 @@ const senate5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -253,6 +261,14 @@ const senate5Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -369,12 +385,12 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Rosen (D-NV)",
-        "first_name": "Jacklyn",
-        "id": "S402",
-        "last_name": "Rosen",
+        "display_name": "Heinrich (D-NM)",
+        "first_name": "Martin",
+        "id": "S359",
+        "last_name": "Heinrich",
         "party": "D",
-        "state": "NV"
+        "state": "NM"
       },
       {
         "display_name": "Sasse (R-NE)",
@@ -468,14 +484,6 @@ const senate5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -532,28 +540,12 @@ const senate5Votes =
         "state": "SC"
       },
       {
-        "display_name": "Grassley (R-IA)",
-        "first_name": "Charles",
-        "id": "S153",
-        "last_name": "Grassley",
-        "party": "R",
-        "state": "IA"
-      },
-      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
         "last_name": "Hassan",
         "party": "D",
         "state": "NH"
-      },
-      {
-        "display_name": "Heinrich (D-NM)",
-        "first_name": "Martin",
-        "id": "S359",
-        "last_name": "Heinrich",
-        "party": "D",
-        "state": "NM"
       },
       {
         "display_name": "Hickenlooper (D-CO)",
@@ -586,6 +578,14 @@ const senate5Votes =
         "last_name": "Kelly",
         "party": "D",
         "state": "AZ"
+      },
+      {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "King (I-ME)",
@@ -652,14 +652,6 @@ const senate5Votes =
         "state": "OR"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -706,6 +698,14 @@ const senate5Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Rosen (D-NV)",
+        "first_name": "Jacklyn",
+        "id": "S402",
+        "last_name": "Rosen",
+        "party": "D",
+        "state": "NV"
       },
       {
         "display_name": "Rounds (R-SD)",
