@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll485.xml",
   "subject": "Lymphedema Treatment Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-12-01T00:15:54-05:00",
+  "updated_at": "2022-12-01T06:23:17-05:00",
   "vote_id": "h485-117.2022",
   "votes": {
     "Nay": [
