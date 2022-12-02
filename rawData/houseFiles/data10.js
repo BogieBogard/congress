@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll490.xml",
   "subject": "To provide for a resolution with respect to the unresolved disputes between certain railroads represented by the National Carriers\u2019 Conference Committee of the National Railway Labor Conference and certain of their employees",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-02T00:45:35-05:00",
+  "updated_at": "2022-12-02T06:53:03-05:00",
   "vote_id": "h490-117.2022",
   "votes": {
     "Nay": [
