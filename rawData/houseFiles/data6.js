@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll494.xml",
   "subject": "Uyghur Policy Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-12-01T18:38:02-05:00",
+  "updated_at": "2022-12-02T00:45:33-05:00",
   "vote_id": "h494-117.2022",
   "votes": {
     "Nay": [

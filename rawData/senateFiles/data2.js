@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00371.xml",
   "subject": "H.Con.Res. 119",
   "type": "On the Concurrent Resolution",
-  "updated_at": "2022-12-01T18:42:14-05:00",
+  "updated_at": "2022-12-02T00:49:44-05:00",
   "vote_id": "s371-117.2022",
   "votes": {
     "Nay": [

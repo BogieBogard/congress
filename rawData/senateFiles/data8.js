@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00365.xml",
   "subject": "Confirmation: Camille L. Velez-Rive, to be U.S. District Judge for the District of Puerto Rico",
   "type": "On the Nomination",
-  "updated_at": "2022-12-01T18:42:17-05:00",
+  "updated_at": "2022-12-02T00:49:47-05:00",
   "vote_id": "s365-117.2022",
   "votes": {
     "Nay": [

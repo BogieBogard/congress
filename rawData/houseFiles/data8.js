@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll492.xml",
   "subject": "One Stop Shop Community Reentry Program Act of 2021",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-01T18:38:03-05:00",
+  "updated_at": "2022-12-02T00:45:34-05:00",
   "vote_id": "h492-117.2022",
   "votes": {
     "Nay": [
