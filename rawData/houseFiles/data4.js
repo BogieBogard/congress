@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll497.xml",
   "subject": "DOULA for VA Act of 2022",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-12-03T01:15:36-05:00",
+  "updated_at": "2022-12-03T07:23:06-05:00",
   "vote_id": "h497-117.2022",
   "votes": {
     "Nay": [
