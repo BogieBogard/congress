@@ -12,7 +12,7 @@ const house6Votes =
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll495.xml",
   "type": "On Motion to Suspend the Rules and Pass Certain Bills and Agree to Certain Resolutions",
-  "updated_at": "2022-12-03T07:23:07-05:00",
+  "updated_at": "2022-12-03T13:30:37-05:00",
   "vote_id": "h495-117.2022",
   "votes": {
     "Nay": [

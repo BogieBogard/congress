@@ -25,7 +25,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00370.xml",
   "subject": "Sullivan Amdt. No. 6503",
   "type": "On the Amendment",
-  "updated_at": "2022-12-03T07:27:19-05:00",
+  "updated_at": "2022-12-03T13:34:50-05:00",
   "vote_id": "s370-117.2022",
   "votes": {
     "Nay": [
