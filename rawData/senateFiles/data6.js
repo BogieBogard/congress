@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00367.xml",
   "subject": "Confirmation: Robert Phillip Storch, of the District of Columbia, to be Inspector General, Department of Defense",
   "type": "On the Nomination",
-  "updated_at": "2022-12-02T13:04:45-05:00",
+  "updated_at": "2022-12-02T19:12:18-05:00",
   "vote_id": "s367-117.2022",
   "votes": {
     "Nay": [
