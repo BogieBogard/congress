@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll498.xml",
   "subject": "Protecting Firefighters from Adverse Substances Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-04T07:53:14-05:00",
+  "updated_at": "2022-12-04T14:00:51-05:00",
   "vote_id": "h498-117.2022",
   "votes": {
     "Nay": [
