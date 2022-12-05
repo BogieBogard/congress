@@ -18,7 +18,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00366.xml",
   "subject": "Confirmation: Anne M. Nardacci, of New York, to be U.S. District Judge for the Northern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2022-12-05T08:27:38-05:00",
+  "updated_at": "2022-12-05T14:35:10-05:00",
   "vote_id": "s366-117.2022",
   "votes": {
     "Nay": [
