@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll499.xml",
   "subject": "To remove the 4-year sunset from the Pro bono Work to Empower and Represent Act of 2018",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-05T14:30:52-05:00",
+  "updated_at": "2022-12-05T20:38:28-05:00",
   "vote_id": "h499-117.2022",
   "votes": {
     "Nay": [

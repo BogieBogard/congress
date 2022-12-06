@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll500.xml",
   "subject": "Jackie Walorski Maternal and Child Home Visiting Reauthorization Act of 2022",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-05T14:30:52-05:00",
+  "updated_at": "2022-12-05T20:38:28-05:00",
   "vote_id": "h500-117.2022",
   "votes": {
     "Nay": [
