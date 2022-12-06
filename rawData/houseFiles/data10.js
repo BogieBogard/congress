@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll491.xml",
   "subject": "Providing for a correction in the enrollment of H.J. Res. 100",
   "type": "On the Resolution",
-  "updated_at": "2022-12-06T02:46:07-05:00",
+  "updated_at": "2022-12-06T08:53:38-05:00",
   "vote_id": "h491-117.2022",
   "votes": {
     "Nay": [

@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00372.xml",
   "subject": "H.J.Res. 100",
   "type": "On the Resolution",
-  "updated_at": "2022-12-06T02:50:17-05:00",
+  "updated_at": "2022-12-06T08:57:48-05:00",
   "vote_id": "s372-117.2022",
   "votes": {
     "Nay": [
