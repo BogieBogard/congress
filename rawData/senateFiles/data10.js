@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-11-30T12:15:00-05:00",
+  "date": "2022-11-30T15:13:00-05:00",
   "nomination": {
     "number": "2143",
     "title": "Anne M. Nardacci, of New York, to be United States District Judge for the Northern District of New York"
   },
-  "number": 364,
-  "question": "Motion to Invoke Cloture: Anne M. Nardacci to be U.S. District Judge for the Northern District of New York: Anne M. Nardacci, of New York, to be United States District Judge for the Northern District of New York",
-  "record_modified": "2022-11-30T13:13:00-05:00",
+  "number": 366,
+  "question": "On the Nomination PN2143: Anne M. Nardacci, of New York, to be United States District Judge for the Northern District of New York",
+  "record_modified": "2022-11-30T16:16:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-44)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00364.xml",
-  "subject": "On the Cloture Motion PN2143",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-06T08:57:52-05:00",
-  "vote_id": "s364-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00366.xml",
+  "subject": "Confirmation: Anne M. Nardacci, of New York, to be U.S. District Judge for the Northern District of New York",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-06T15:05:23-05:00",
+  "vote_id": "s366-117.2022",
   "votes": {
     "Nay": [
       {
@@ -165,14 +165,6 @@ const senate10Votes =
         "last_name": "Grassley",
         "party": "R",
         "state": "IA"
-      },
-      {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
-        "party": "R",
-        "state": "TN"
       },
       {
         "display_name": "Hawley (R-MO)",
@@ -385,12 +377,20 @@ const senate10Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Heinrich (D-NM)",
-        "first_name": "Martin",
-        "id": "S359",
-        "last_name": "Heinrich",
-        "party": "D",
-        "state": "NM"
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Sasse (R-NE)",
@@ -546,6 +546,14 @@ const senate10Votes =
         "last_name": "Hassan",
         "party": "D",
         "state": "NH"
+      },
+      {
+        "display_name": "Heinrich (D-NM)",
+        "first_name": "Martin",
+        "id": "S359",
+        "last_name": "Heinrich",
+        "party": "D",
+        "state": "NM"
       },
       {
         "display_name": "Hickenlooper (D-CO)",
@@ -714,14 +722,6 @@ const senate10Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
