@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll493.xml",
   "subject": "Pregnant Women in Custody Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-05T20:38:31-05:00",
+  "updated_at": "2022-12-06T02:46:06-05:00",
   "vote_id": "h493-117.2022",
   "votes": {
     "Nay": [
