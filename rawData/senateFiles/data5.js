@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00373.xml",
   "subject": "Confirmation: Doris L. Pryor, of Indiana, to be U.S. Circuit Judge for the Seventh Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-12-07T03:20:47-05:00",
+  "updated_at": "2022-12-07T09:28:26-05:00",
   "vote_id": "s373-117.2022",
   "votes": {
     "Nay": [

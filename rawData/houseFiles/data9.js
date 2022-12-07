@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll503.xml",
   "subject": "Veteran Service Recognition Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-07T03:16:30-05:00",
+  "updated_at": "2022-12-07T09:24:09-05:00",
   "vote_id": "h503-117.2022",
   "votes": {
     "Nay": [
