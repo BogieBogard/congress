@@ -1,25 +1,25 @@
 const senate1Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-06T14:16:00-05:00",
+  "date": "2022-12-06T17:36:00-05:00",
   "nomination": {
     "number": "2365",
     "title": "Kelley Brisbon Hodge, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
   },
-  "number": 375,
-  "question": "Motion to Invoke Cloture: Kelley Brisbon Hodge to be U.S. District Judge for the Eastern District of Pennsylvania: Kelley Brisbon Hodge, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
-  "record_modified": "2022-12-06T15:16:00-05:00",
+  "number": 377,
+  "question": "On the Nomination PN2365: Kelley Brisbon Hodge, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+  "record_modified": "2022-12-06T18:32:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-43)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-44)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00375.xml",
-  "subject": "On the Cloture Motion PN2365",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-06T15:05:19-05:00",
-  "vote_id": "s375-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00377.xml",
+  "subject": "Confirmation: Kelley Brisbon Hodge, of Pennsylvania, to be U.S. District Judge for the Eastern District of Pennsylvania",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-06T21:12:56-05:00",
+  "vote_id": "s377-117.2022",
   "votes": {
     "Nay": [
       {
@@ -271,6 +271,14 @@ const senate1Votes =
         "state": "KY"
       },
       {
+        "display_name": "Portman (R-OH)",
+        "first_name": "Rob",
+        "id": "S349",
+        "last_name": "Portman",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
@@ -383,14 +391,6 @@ const senate1Votes =
         "last_name": "Kelly",
         "party": "D",
         "state": "AZ"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -644,6 +644,14 @@ const senate1Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murray (D-WA)",
         "first_name": "Patty",
         "id": "S229",
@@ -674,14 +682,6 @@ const senate1Votes =
         "last_name": "Peters",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Portman (R-OH)",
-        "first_name": "Rob",
-        "id": "S349",
-        "last_name": "Portman",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Reed (D-RI)",
