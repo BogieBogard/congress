@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll506.xml",
   "subject": "SBA Cyber Awareness Act",
   "type": "On the Motion to Suspend the Rules and Concur in the Senate Amendment",
-  "updated_at": "2022-12-07T09:24:07-05:00",
+  "updated_at": "2022-12-07T15:31:47-05:00",
   "vote_id": "h506-117.2022",
   "votes": {
     "Nay": [],

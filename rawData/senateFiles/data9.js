@@ -1,35 +1,27 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-01T12:35:00-05:00",
+  "date": "2022-12-05T17:29:00-05:00",
   "nomination": {
     "number": "2192",
     "title": "Doris L. Pryor, of Indiana, to be United States Circuit Judge for the Seventh Circuit"
   },
-  "number": 369,
-  "question": "Motion to Invoke Cloture: Doris L. Pryor, of Indiana, to be U.S. Circuit Judge for the Seventh Circuit: Doris L. Pryor, of Indiana, to be United States Circuit Judge for the Seventh Circuit",
-  "record_modified": "2022-12-01T14:10:00-05:00",
+  "number": 373,
+  "question": "On the Nomination PN2192: Doris L. Pryor, of Indiana, to be United States Circuit Judge for the Seventh Circuit",
+  "record_modified": "2022-12-05T19:36:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (62-31)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (60-31)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00369.xml",
-  "subject": "On the Cloture Motion PN2192",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-07T09:28:28-05:00",
-  "vote_id": "s369-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00373.xml",
+  "subject": "Confirmation: Doris L. Pryor, of Indiana, to be U.S. Circuit Judge for the Seventh Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-07T15:36:09-05:00",
+  "vote_id": "s373-117.2022",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -45,6 +37,14 @@ const senate9Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Burr (R-NC)",
+        "first_name": "Richard",
+        "id": "S300",
+        "last_name": "Burr",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -111,12 +111,28 @@ const senate9Votes =
         "state": "TN"
       },
       {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Hoeven (R-ND)",
         "first_name": "John",
         "id": "S344",
         "last_name": "Hoeven",
         "party": "R",
         "state": "ND"
+      },
+      {
+        "display_name": "Hyde-Smith (R-MS)",
+        "first_name": "Cindy",
+        "id": "S395",
+        "last_name": "Hyde-Smith",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Inhofe (R-OK)",
@@ -191,22 +207,6 @@ const senate9Votes =
         "state": "KY"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Sasse (R-NE)",
         "first_name": "Ben",
         "id": "S382",
@@ -273,28 +273,44 @@ const senate9Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Burr (R-NC)",
-        "first_name": "Richard",
-        "id": "S300",
-        "last_name": "Burr",
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
         "party": "R",
-        "state": "NC"
+        "state": "WY"
       },
       {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
+        "display_name": "Brown (D-OH)",
+        "first_name": "Sherrod ",
+        "id": "S307",
+        "last_name": "Brown",
+        "party": "D",
+        "state": "OH"
       },
       {
-        "display_name": "Hyde-Smith (R-MS)",
-        "first_name": "Cindy",
-        "id": "S395",
-        "last_name": "Hyde-Smith",
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
         "party": "R",
-        "state": "MS"
+        "state": "ND"
+      },
+      {
+        "display_name": "Hickenlooper (D-CO)",
+        "first_name": "John",
+        "id": "S408",
+        "last_name": "Hickenlooper",
+        "party": "D",
+        "state": "CO"
+      },
+      {
+        "display_name": "Leahy (D-VT)",
+        "first_name": "Patrick",
+        "id": "S057",
+        "last_name": "Leahy",
+        "party": "D",
+        "state": "VT"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -305,20 +321,20 @@ const senate9Votes =
         "state": "CT"
       },
       {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
         "party": "R",
-        "state": "NC"
+        "state": "FL"
       },
       {
         "display_name": "Warnock (D-GA)",
@@ -378,14 +394,6 @@ const senate9Votes =
         "last_name": "Braun",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Brown (D-OH)",
-        "first_name": "Sherrod ",
-        "id": "S307",
-        "last_name": "Brown",
-        "party": "D",
-        "state": "OH"
       },
       {
         "display_name": "Cantwell (D-WA)",
@@ -468,14 +476,6 @@ const senate9Votes =
         "state": "NV"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Duckworth (D-IL)",
         "first_name": "Tammy",
         "id": "S386",
@@ -532,14 +532,6 @@ const senate9Votes =
         "state": "NM"
       },
       {
-        "display_name": "Hickenlooper (D-CO)",
-        "first_name": "John",
-        "id": "S408",
-        "last_name": "Hickenlooper",
-        "party": "D",
-        "state": "CO"
-      },
-      {
         "display_name": "Hirono (D-HI)",
         "first_name": "Mazie",
         "id": "S361",
@@ -578,14 +570,6 @@ const senate9Votes =
         "last_name": "Klobuchar",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Leahy (D-VT)",
-        "first_name": "Patrick",
-        "id": "S057",
-        "last_name": "Leahy",
-        "party": "D",
-        "state": "VT"
       },
       {
         "display_name": "Lujan (D-NM)",
@@ -740,6 +724,14 @@ const senate9Votes =
         "state": "NY"
       },
       {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
+      },
+      {
         "display_name": "Sinema (D-AZ)",
         "first_name": "Kyrsten",
         "id": "S403",
@@ -770,6 +762,14 @@ const senate9Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",

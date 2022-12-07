@@ -3,23 +3,23 @@ const senate3Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-06T14:16:00-05:00",
+  "date": "2022-12-07T12:18:00-05:00",
   "nomination": {
-    "number": "2365",
-    "title": "Kelley Brisbon Hodge, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
+    "number": "2366",
+    "title": "Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
   },
-  "number": 375,
-  "question": "Motion to Invoke Cloture: Kelley Brisbon Hodge to be U.S. District Judge for the Eastern District of Pennsylvania: Kelley Brisbon Hodge, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
-  "record_modified": "2022-12-06T15:16:00-05:00",
+  "number": 379,
+  "question": "Motion to Invoke Cloture: Kai N. Scott to be U.S. District Judge for the Eastern District of Pennsylvania: Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+  "record_modified": "2022-12-07T13:12:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-43)",
+  "result_text": "Cloture Motion Agreed to (52-42)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00375.xml",
-  "subject": "On the Cloture Motion PN2365",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00379.xml",
+  "subject": "On the Cloture Motion PN2366",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-12-07T09:28:25-05:00",
-  "vote_id": "s375-117.2022",
+  "updated_at": "2022-12-07T15:36:06-05:00",
+  "vote_id": "s379-117.2022",
   "votes": {
     "Nay": [
       {
@@ -37,14 +37,6 @@ const senate3Votes =
         "last_name": "Blackburn",
         "party": "R",
         "state": "TN"
-      },
-      {
-        "display_name": "Blunt (R-MO)",
-        "first_name": "Roy",
-        "id": "S342",
-        "last_name": "Blunt",
-        "party": "R",
-        "state": "MO"
       },
       {
         "display_name": "Boozman (R-AR)",
@@ -119,14 +111,6 @@ const senate3Votes =
         "state": "ID"
       },
       {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Daines (R-MT)",
         "first_name": "Steve",
         "id": "S375",
@@ -199,14 +183,6 @@ const senate3Votes =
         "state": "OK"
       },
       {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
-      },
-      {
         "display_name": "Kennedy (R-LA)",
         "first_name": "John",
         "id": "S389",
@@ -271,6 +247,14 @@ const senate3Votes =
         "state": "KY"
       },
       {
+        "display_name": "Portman (R-OH)",
+        "first_name": "Rob",
+        "id": "S349",
+        "last_name": "Portman",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
@@ -285,6 +269,14 @@ const senate3Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -369,6 +361,14 @@ const senate3Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -377,28 +377,28 @@ const senate3Votes =
         "state": "CO"
       },
       {
-        "display_name": "Kelly (D-AZ)",
-        "first_name": "Mark",
-        "id": "S406",
-        "last_name": "Kelly",
-        "party": "D",
-        "state": "AZ"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
         "party": "R",
-        "state": "AK"
+        "state": "WI"
       },
       {
-        "display_name": "Murphy (D-CT)",
-        "first_name": "Christopher",
-        "id": "S364",
-        "last_name": "Murphy",
+        "display_name": "Kaine (D-VA)",
+        "first_name": "Timothy",
+        "id": "S362",
+        "last_name": "Kaine",
         "party": "D",
-        "state": "CT"
+        "state": "VA"
+      },
+      {
+        "display_name": "Warner (D-VA)",
+        "first_name": "Mark",
+        "id": "S327",
+        "last_name": "Warner",
+        "party": "D",
+        "state": "VA"
       },
       {
         "display_name": "Warnock (D-GA)",
@@ -434,6 +434,14 @@ const senate3Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
+      },
+      {
+        "display_name": "Blunt (R-MO)",
+        "first_name": "Roy",
+        "id": "S342",
+        "last_name": "Blunt",
+        "party": "R",
+        "state": "MO"
       },
       {
         "display_name": "Booker (D-NJ)",
@@ -572,12 +580,12 @@ const senate3Votes =
         "state": "HI"
       },
       {
-        "display_name": "Kaine (D-VA)",
-        "first_name": "Timothy",
-        "id": "S362",
-        "last_name": "Kaine",
+        "display_name": "Kelly (D-AZ)",
+        "first_name": "Mark",
+        "id": "S406",
+        "last_name": "Kelly",
         "party": "D",
-        "state": "VA"
+        "state": "AZ"
       },
       {
         "display_name": "King (I-ME)",
@@ -644,6 +652,22 @@ const senate3Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
+        "display_name": "Murphy (D-CT)",
+        "first_name": "Christopher",
+        "id": "S364",
+        "last_name": "Murphy",
+        "party": "D",
+        "state": "CT"
+      },
+      {
         "display_name": "Murray (D-WA)",
         "first_name": "Patty",
         "id": "S229",
@@ -676,14 +700,6 @@ const senate3Votes =
         "state": "MI"
       },
       {
-        "display_name": "Portman (R-OH)",
-        "first_name": "Rob",
-        "id": "S349",
-        "last_name": "Portman",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Reed (D-RI)",
         "first_name": "John",
         "id": "S259",
@@ -698,14 +714,6 @@ const senate3Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -794,14 +802,6 @@ const senate3Votes =
         "last_name": "Van Hollen",
         "party": "D",
         "state": "MD"
-      },
-      {
-        "display_name": "Warner (D-VA)",
-        "first_name": "Mark",
-        "id": "S327",
-        "last_name": "Warner",
-        "party": "D",
-        "state": "VA"
       },
       {
         "display_name": "Warren (D-MA)",
