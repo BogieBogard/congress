@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll505.xml",
   "subject": "Early Hearing Detection and Intervention Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-08T03:47:12-05:00",
+  "updated_at": "2022-12-08T09:54:53-05:00",
   "vote_id": "h505-117.2022",
   "votes": {
     "Nay": [
