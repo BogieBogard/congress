@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00376.xml",
   "subject": "Confirmation: Frances Kay Behm, of Michigan, to be U.S. District Judge for the Eastern District of Michigan",
   "type": "On the Nomination",
-  "updated_at": "2022-12-07T21:43:49-05:00",
+  "updated_at": "2022-12-08T03:51:32-05:00",
   "vote_id": "s376-117.2022",
   "votes": {
     "Nay": [

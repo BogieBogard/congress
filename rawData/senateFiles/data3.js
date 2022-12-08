@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00381.xml",
   "subject": "Confirmation: John Frank Murphy, of Pennsylvania, to be U.S. District Judge for the Eastern District of Pennsylvania",
   "type": "On the Nomination",
-  "updated_at": "2022-12-07T21:43:47-05:00",
+  "updated_at": "2022-12-08T03:51:29-05:00",
   "vote_id": "s381-117.2022",
   "votes": {
     "Nay": [

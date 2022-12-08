@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll507.xml",
   "subject": "Community Disaster Resilience Zones Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-07T21:39:28-05:00",
+  "updated_at": "2022-12-08T03:47:11-05:00",
   "vote_id": "h507-117.2022",
   "votes": {
     "Nay": [
