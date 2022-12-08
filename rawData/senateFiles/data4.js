@@ -3,23 +3,23 @@ const senate4Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-07T11:28:00-05:00",
+  "date": "2022-12-07T13:32:00-05:00",
   "nomination": {
-    "number": "2367",
-    "title": "Mia Roberts Perez, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
+    "number": "2366",
+    "title": "Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
   },
-  "number": 378,
-  "question": "On the Nomination PN2367: Mia Roberts Perez, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
-  "record_modified": "2022-12-07T12:30:00-05:00",
+  "number": 380,
+  "question": "On the Nomination PN2366: Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+  "record_modified": "2022-12-07T14:26:00-05:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-43)",
+  "result_text": "Nomination Confirmed (50-42)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00378.xml",
-  "subject": "Confirmation: Mia Roberts Perez, of Pennsylvania, to U.S. District Judge for the Eastern District of Pennsylvania",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00380.xml",
+  "subject": "Confirmation: Kai N. Scott, of Pennsylvania, to be U.S. District Judge for the Eastern District of Pennsylvania",
   "type": "On the Nomination",
-  "updated_at": "2022-12-07T15:36:07-05:00",
-  "vote_id": "s378-117.2022",
+  "updated_at": "2022-12-07T21:43:47-05:00",
+  "vote_id": "s380-117.2022",
   "votes": {
     "Nay": [
       {
@@ -181,14 +181,6 @@ const senate4Votes =
         "last_name": "Inhofe",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
       },
       {
         "display_name": "Kennedy (R-LA)",
@@ -377,6 +369,14 @@ const senate4Votes =
         "state": "TX"
       },
       {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -385,12 +385,28 @@ const senate4Votes =
         "state": "CO"
       },
       {
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
+      },
+      {
         "display_name": "Kaine (D-VA)",
         "first_name": "Timothy",
         "id": "S362",
         "last_name": "Kaine",
         "party": "D",
         "state": "VA"
+      },
+      {
+        "display_name": "Schatz (D-HI)",
+        "first_name": "Brian",
+        "id": "S353",
+        "last_name": "Schatz",
+        "party": "D",
+        "state": "HI"
       },
       {
         "display_name": "Warner (D-VA)",
@@ -514,14 +530,6 @@ const senate4Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -722,14 +730,6 @@ const senate4Votes =
         "last_name": "Sanders",
         "party": "I",
         "state": "VT"
-      },
-      {
-        "display_name": "Schatz (D-HI)",
-        "first_name": "Brian",
-        "id": "S353",
-        "last_name": "Schatz",
-        "party": "D",
-        "state": "HI"
       },
       {
         "display_name": "Schumer (D-NY)",

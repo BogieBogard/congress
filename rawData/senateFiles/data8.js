@@ -1,25 +1,25 @@
 const senate8Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-06T11:57:00-05:00",
+  "date": "2022-12-06T16:53:00-05:00",
   "nomination": {
     "number": "2314",
     "title": "Frances Kay Behm, of Michigan, to be United States District Judge for the Eastern District of Michigan"
   },
-  "number": 374,
-  "question": "Motion to Invoke Cloture: Frances Kay Behm to be U.S. District Judge for the Eastern District of Michigan: Frances Kay Behm, of Michigan, to be United States District Judge for the Eastern District of Michigan",
-  "record_modified": "2022-12-06T13:02:00-05:00",
+  "number": 376,
+  "question": "On the Nomination PN2314: Frances Kay Behm, of Michigan, to be United States District Judge for the Eastern District of Michigan",
+  "record_modified": "2022-12-06T17:56:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (47-46)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (49-47)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00374.xml",
-  "subject": "On the Cloture Motion PN2314",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-07T15:36:09-05:00",
-  "vote_id": "s374-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00376.xml",
+  "subject": "Confirmation: Frances Kay Behm, of Michigan, to be U.S. District Judge for the Eastern District of Michigan",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-07T21:43:49-05:00",
+  "vote_id": "s376-117.2022",
   "votes": {
     "Nay": [
       {
@@ -263,6 +263,14 @@ const senate8Votes =
         "state": "KS"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -393,14 +401,6 @@ const senate8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -417,28 +417,12 @@ const senate8Votes =
         "state": "AZ"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
         "last_name": "Murphy",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Warnock (D-GA)",
@@ -546,6 +530,14 @@ const senate8Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -722,6 +714,14 @@ const senate8Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
