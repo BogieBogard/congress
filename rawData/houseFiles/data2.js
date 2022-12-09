@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll516.xml",
   "subject": "Providing for the concurrence by the House in the Senate amendment to H.R. 7776, with an amendment",
   "type": "On Motion to Suspend the Rules and Agree",
-  "updated_at": "2022-12-08T22:10:21-05:00",
+  "updated_at": "2022-12-09T04:18:14-05:00",
   "vote_id": "h516-117.2022",
   "votes": {
     "Nay": [
