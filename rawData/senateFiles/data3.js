@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00384.xml",
   "subject": "Confirmation: Jeffery Paul Hopkins, of Ohio, to be U.S. District Judge for the Southern District of Ohio",
   "type": "On the Nomination",
-  "updated_at": "2022-12-10T04:53:50-05:00",
+  "updated_at": "2022-12-10T11:01:35-05:00",
   "vote_id": "s384-117.2022",
   "votes": {
     "Nay": [
