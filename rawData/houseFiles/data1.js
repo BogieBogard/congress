@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll517.xml",
   "subject": "Disaster Assistance for Rural Communities Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-09T16:33:55-05:00",
+  "updated_at": "2022-12-09T22:41:42-05:00",
   "vote_id": "h517-117.2022",
   "votes": {
     "Nay": [
