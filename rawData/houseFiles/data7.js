@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll511.xml",
   "subject": "Patents for Humanity Act",
   "type": "On the Motion to Suspend the Rules and Concur in the Senate Amendment",
-  "updated_at": "2022-12-09T22:41:45-05:00",
+  "updated_at": "2022-12-10T04:49:30-05:00",
   "vote_id": "h511-117.2022",
   "votes": {
     "Nay": [
