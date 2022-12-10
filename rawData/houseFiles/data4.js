@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll514.xml",
   "subject": "Respect for Marriage Act",
   "type": "Table Motion to Reconsider",
-  "updated_at": "2022-12-10T10:57:13-05:00",
+  "updated_at": "2022-12-10T17:04:58-05:00",
   "vote_id": "h514-117.2022",
   "votes": {
     "Nay": [
