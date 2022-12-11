@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00378.xml",
   "subject": "Confirmation: Mia Roberts Perez, of Pennsylvania, to U.S. District Judge for the Eastern District of Pennsylvania",
   "type": "On the Nomination",
-  "updated_at": "2022-12-11T05:24:56-05:00",
+  "updated_at": "2022-12-11T11:32:41-05:00",
   "vote_id": "s378-117.2022",
   "votes": {
     "Nay": [
