@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll509.xml",
   "subject": "Rural Opioid Abuse Prevention Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-11T11:28:18-05:00",
+  "updated_at": "2022-12-11T17:36:03-05:00",
   "vote_id": "h509-117.2022",
   "votes": {
     "Nay": [
