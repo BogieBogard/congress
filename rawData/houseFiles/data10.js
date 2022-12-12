@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll508.xml",
   "subject": "To amend the Post-Katrina Emergency Management Reform Act of 2006 to repeal certain obsolete requirements, and for other purposes",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-11T17:36:04-05:00",
+  "updated_at": "2022-12-11T23:43:51-05:00",
   "vote_id": "h508-117.2022",
   "votes": {
     "Nay": [
