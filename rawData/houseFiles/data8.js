@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll510.xml",
   "subject": "PROTECT Our Children Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-12T05:51:35-05:00",
+  "updated_at": "2022-12-12T11:59:19-05:00",
   "vote_id": "h510-117.2022",
   "votes": {
     "Nay": [
