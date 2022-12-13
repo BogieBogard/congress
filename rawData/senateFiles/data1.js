@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00387.xml",
   "subject": "Confirmation: Tamika R. Montgomery-Reeves, of Delaware, to be United States Circuit Judge for the Third Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-12-13T00:19:20-05:00",
+  "updated_at": "2022-12-13T06:27:17-05:00",
   "vote_id": "s387-117.2022",
   "votes": {
     "Nay": [
