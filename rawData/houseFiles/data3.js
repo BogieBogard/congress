@@ -12,7 +12,7 @@ const house3Votes =
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll515.xml",
   "type": "On the Motion to Adjourn",
-  "updated_at": "2022-12-12T11:59:17-05:00",
+  "updated_at": "2022-12-12T18:07:02-05:00",
   "vote_id": "h515-117.2022",
   "votes": {
     "Nay": [
