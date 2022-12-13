@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll513.xml",
   "subject": "Respect for Marriage Act",
   "type": "Concurring in the Senate Amendment",
-  "updated_at": "2022-12-13T06:22:57-05:00",
+  "updated_at": "2022-12-13T12:30:44-05:00",
   "vote_id": "h513-117.2022",
   "votes": {
     "Nay": [

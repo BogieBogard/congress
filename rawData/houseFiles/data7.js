@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll512.xml",
   "subject": "Providing for consideration of the Senate amendment to the bill (H.R. 8404) to repeal the Defense of Marriage Act and ensure respect for State regulation of marriage, and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-12-13T06:22:57-05:00",
+  "updated_at": "2022-12-13T12:30:44-05:00",
   "vote_id": "h512-117.2022",
   "votes": {
     "Nay": [
