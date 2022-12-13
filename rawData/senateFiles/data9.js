@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-07T11:28:00-05:00",
+  "date": "2022-12-07T12:18:00-05:00",
   "nomination": {
-    "number": "2367",
-    "title": "Mia Roberts Perez, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
+    "number": "2366",
+    "title": "Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
   },
-  "number": 378,
-  "question": "On the Nomination PN2367: Mia Roberts Perez, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
-  "record_modified": "2022-12-08T13:06:00-05:00",
+  "number": 379,
+  "question": "Motion to Invoke Cloture: Kai N. Scott to be U.S. District Judge for the Eastern District of Pennsylvania: Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+  "record_modified": "2022-12-08T13:07:00-05:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-43)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-42)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00378.xml",
-  "subject": "Confirmation: Mia Roberts Perez, of Pennsylvania, to U.S. District Judge for the Eastern District of Pennsylvania",
-  "type": "On the Nomination",
-  "updated_at": "2022-12-12T18:11:27-05:00",
-  "vote_id": "s378-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00379.xml",
+  "subject": "On the Cloture Motion PN2366",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-12-13T00:19:25-05:00",
+  "vote_id": "s379-117.2022",
   "votes": {
     "Nay": [
       {
@@ -181,14 +181,6 @@ const senate9Votes =
         "last_name": "Inhofe",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
       },
       {
         "display_name": "Kennedy (R-LA)",
@@ -383,6 +375,14 @@ const senate9Votes =
         "last_name": "Hickenlooper",
         "party": "D",
         "state": "CO"
+      },
+      {
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
       },
       {
         "display_name": "Kaine (D-VA)",
