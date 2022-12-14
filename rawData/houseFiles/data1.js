@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll519.xml",
   "subject": "Quantum Computing Cybersecurity Preparedness Act",
   "type": "On Motion to Suspend the Rules and Concur in the Senate Amendment",
-  "updated_at": "2022-12-14T00:46:19-05:00",
+  "updated_at": "2022-12-14T06:54:06-05:00",
   "vote_id": "h519-117.2022",
   "votes": {
     "Nay": [
