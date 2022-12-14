@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00380.xml",
   "subject": "Confirmation: Kai N. Scott, of Pennsylvania, to be U.S. District Judge for the Eastern District of Pennsylvania",
   "type": "On the Nomination",
-  "updated_at": "2022-12-14T06:58:34-05:00",
+  "updated_at": "2022-12-14T13:06:22-05:00",
   "vote_id": "s380-117.2022",
   "votes": {
     "Nay": [

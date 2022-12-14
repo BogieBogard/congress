@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00389.xml",
   "subject": "Confirmation: Jay Curtis Shambaugh, of Maryland, to be an Under Secretary of the Treasury",
   "type": "On the Nomination",
-  "updated_at": "2022-12-14T06:58:30-05:00",
+  "updated_at": "2022-12-14T13:06:18-05:00",
   "vote_id": "s389-117.2022",
   "votes": {
     "Nay": [
