@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-07T12:18:00-05:00",
+  "date": "2022-12-07T13:32:00-05:00",
   "nomination": {
     "number": "2366",
     "title": "Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania"
   },
-  "number": 379,
-  "question": "Motion to Invoke Cloture: Kai N. Scott to be U.S. District Judge for the Eastern District of Pennsylvania: Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
-  "record_modified": "2022-12-08T13:07:00-05:00",
+  "number": 380,
+  "question": "On the Nomination PN2366: Kai N. Scott, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+  "record_modified": "2022-12-08T13:09:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-42)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (50-42)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00379.xml",
-  "subject": "On the Cloture Motion PN2366",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-13T12:35:09-05:00",
-  "vote_id": "s379-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00380.xml",
+  "subject": "Confirmation: Kai N. Scott, of Pennsylvania, to be U.S. District Judge for the Eastern District of Pennsylvania",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-13T18:42:57-05:00",
+  "vote_id": "s380-117.2022",
   "votes": {
     "Nay": [
       {
@@ -369,6 +369,14 @@ const senate10Votes =
         "state": "TX"
       },
       {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -391,6 +399,14 @@ const senate10Votes =
         "last_name": "Kaine",
         "party": "D",
         "state": "VA"
+      },
+      {
+        "display_name": "Schatz (D-HI)",
+        "first_name": "Brian",
+        "id": "S353",
+        "last_name": "Schatz",
+        "party": "D",
+        "state": "HI"
       },
       {
         "display_name": "Warner (D-VA)",
@@ -514,14 +530,6 @@ const senate10Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -722,14 +730,6 @@ const senate10Votes =
         "last_name": "Sanders",
         "party": "I",
         "state": "VT"
-      },
-      {
-        "display_name": "Schatz (D-HI)",
-        "first_name": "Brian",
-        "id": "S353",
-        "last_name": "Schatz",
-        "party": "D",
-        "state": "HI"
       },
       {
         "display_name": "Schumer (D-NY)",
