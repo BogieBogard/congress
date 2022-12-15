@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-08T13:56:00-05:00",
+  "date": "2022-12-13T12:04:00-05:00",
   "nomination": {
     "number": "2261",
     "title": "Dana M. Douglas, of Louisiana, to be United States Circuit Judge for the Fifth Circuit"
   },
-  "number": 386,
-  "question": "Motion to Invoke Cloture: Dana M. Douglas to be U.S. Circuit Judge for the Fifth Circuit: Dana M. Douglas, of Louisiana, to be United States Circuit Judge for the Fifth Circuit",
-  "record_modified": "2022-12-08T14:46:00-05:00",
+  "number": 388,
+  "question": "On the Nomination PN2261: Dana M. Douglas, of Louisiana, to be United States Circuit Judge for the Fifth Circuit",
+  "record_modified": "2022-12-13T13:10:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (63-31)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (65-31)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00386.xml",
-  "subject": "On the Cloture Motion PN2261",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-14T13:06:19-05:00",
-  "vote_id": "s386-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00388.xml",
+  "subject": "Confirmation: Dana M. Douglas, of Louisiana, to be U.S. Circuit Judge for the Fifth Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-14T19:14:17-05:00",
+  "vote_id": "s388-117.2022",
   "votes": {
     "Nay": [
       {
@@ -191,6 +191,14 @@ const senate4Votes =
         "state": "KY"
       },
       {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -247,14 +255,6 @@ const senate4Votes =
         "state": "AL"
       },
       {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Thune (R-SD)",
         "first_name": "John",
         "id": "S303",
@@ -273,36 +273,12 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Burr (R-NC)",
-        "first_name": "Richard",
-        "id": "S300",
-        "last_name": "Burr",
-        "party": "R",
-        "state": "NC"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
         "last_name": "Cruz",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Hickenlooper (D-CO)",
@@ -313,12 +289,20 @@ const senate4Votes =
         "state": "CO"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
         "party": "R",
-        "state": "KS"
+        "state": "AK"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
       }
     ],
     "Present": [],
@@ -372,12 +356,28 @@ const senate4Votes =
         "state": "OH"
       },
       {
+        "display_name": "Burr (R-NC)",
+        "first_name": "Richard",
+        "id": "S300",
+        "last_name": "Burr",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Cantwell (D-WA)",
         "first_name": "Maria",
         "id": "S275",
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -442,6 +442,14 @@ const senate4Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -594,14 +602,6 @@ const senate4Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

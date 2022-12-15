@@ -1,25 +1,25 @@
 const senate8Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-07T16:58:00-05:00",
+  "date": "2022-12-08T11:51:00-05:00",
   "nomination": {
     "number": "2438",
     "title": "Jeffery Paul Hopkins, of Ohio, to be United States District Judge for the Southern District of Ohio"
   },
-  "number": 382,
-  "question": "Motion to Invoke Cloture: Jeffery Paul Hopkins to be U.S. District Judge for the Southern District of Ohio: Jeffery Paul Hopkins, of Ohio, to be United States District Judge for the Southern District of Ohio",
-  "record_modified": "2022-12-08T13:10:00-05:00",
+  "number": 384,
+  "question": "On the Nomination PN2438: Jeffery Paul Hopkins, of Ohio, to be United States District Judge for the Southern District of Ohio",
+  "record_modified": "2022-12-08T12:49:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (60-34)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (64-32)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00382.xml",
-  "subject": "On the Cloture Motion PN2438",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-14T13:06:21-05:00",
-  "vote_id": "s382-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00384.xml",
+  "subject": "Confirmation: Jeffery Paul Hopkins, of Ohio, to be U.S. District Judge for the Southern District of Ohio",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-14T19:14:19-05:00",
+  "vote_id": "s384-117.2022",
   "votes": {
     "Nay": [
       {
@@ -37,14 +37,6 @@ const senate8Votes =
         "last_name": "Blackburn",
         "party": "R",
         "state": "TN"
-      },
-      {
-        "display_name": "Blunt (R-MO)",
-        "first_name": "Roy",
-        "id": "S342",
-        "last_name": "Blunt",
-        "party": "R",
-        "state": "MO"
       },
       {
         "display_name": "Boozman (R-AR)",
@@ -77,6 +69,14 @@ const senate8Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -207,14 +207,6 @@ const senate8Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -285,25 +277,9 @@ const senate8Votes =
         "last_name": "Tuberville",
         "party": "R",
         "state": "AL"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
       {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
@@ -329,20 +305,12 @@ const senate8Votes =
         "state": "CO"
       },
       {
-        "display_name": "Schatz (D-HI)",
-        "first_name": "Brian",
-        "id": "S353",
-        "last_name": "Schatz",
-        "party": "D",
-        "state": "HI"
-      },
-      {
-        "display_name": "Warner (D-VA)",
-        "first_name": "Mark",
-        "id": "S327",
-        "last_name": "Warner",
-        "party": "D",
-        "state": "VA"
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -370,6 +338,14 @@ const senate8Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
+      },
+      {
+        "display_name": "Blunt (R-MO)",
+        "first_name": "Roy",
+        "id": "S342",
+        "last_name": "Blunt",
+        "party": "R",
+        "state": "MO"
       },
       {
         "display_name": "Booker (D-NJ)",
@@ -716,6 +692,14 @@ const senate8Votes =
         "state": "NE"
       },
       {
+        "display_name": "Schatz (D-HI)",
+        "first_name": "Brian",
+        "id": "S353",
+        "last_name": "Schatz",
+        "party": "D",
+        "state": "HI"
+      },
+      {
         "display_name": "Schumer (D-NY)",
         "first_name": "Charles",
         "id": "S270",
@@ -788,6 +772,14 @@ const senate8Votes =
         "state": "MD"
       },
       {
+        "display_name": "Warner (D-VA)",
+        "first_name": "Mark",
+        "id": "S327",
+        "last_name": "Warner",
+        "party": "D",
+        "state": "VA"
+      },
+      {
         "display_name": "Warnock (D-GA)",
         "first_name": "Raphael",
         "id": "S415",
@@ -826,6 +818,14 @@ const senate8Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ]
   }

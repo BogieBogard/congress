@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-08T11:51:00-05:00",
+  "date": "2022-12-08T13:56:00-05:00",
   "nomination": {
-    "number": "2438",
-    "title": "Jeffery Paul Hopkins, of Ohio, to be United States District Judge for the Southern District of Ohio"
+    "number": "2261",
+    "title": "Dana M. Douglas, of Louisiana, to be United States Circuit Judge for the Fifth Circuit"
   },
-  "number": 384,
-  "question": "On the Nomination PN2438: Jeffery Paul Hopkins, of Ohio, to be United States District Judge for the Southern District of Ohio",
-  "record_modified": "2022-12-08T12:49:00-05:00",
+  "number": 386,
+  "question": "Motion to Invoke Cloture: Dana M. Douglas to be U.S. Circuit Judge for the Fifth Circuit: Dana M. Douglas, of Louisiana, to be United States Circuit Judge for the Fifth Circuit",
+  "record_modified": "2022-12-08T14:46:00-05:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (64-32)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (63-31)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00384.xml",
-  "subject": "Confirmation: Jeffery Paul Hopkins, of Ohio, to be U.S. District Judge for the Southern District of Ohio",
-  "type": "On the Nomination",
-  "updated_at": "2022-12-14T13:06:20-05:00",
-  "vote_id": "s384-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00386.xml",
+  "subject": "On the Cloture Motion PN2261",
+  "type": "On the Cloture Motion",
+  "updated_at": "2022-12-14T19:14:18-05:00",
+  "vote_id": "s386-117.2022",
   "votes": {
     "Nay": [
       {
@@ -53,22 +53,6 @@ const senate6Votes =
         "last_name": "Braun",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -231,6 +215,14 @@ const senate6Votes =
         "state": "FL"
       },
       {
+        "display_name": "Sasse (R-NE)",
+        "first_name": "Ben",
+        "id": "S382",
+        "last_name": "Sasse",
+        "party": "R",
+        "state": "NE"
+      },
+      {
         "display_name": "Scott (R-FL)",
         "first_name": "Rick",
         "id": "S404",
@@ -280,6 +272,22 @@ const senate6Votes =
       }
     ],
     "Not Voting": [
+      {
+        "display_name": "Burr (R-NC)",
+        "first_name": "Richard",
+        "id": "S300",
+        "last_name": "Burr",
+        "party": "R",
+        "state": "NC"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
+      },
       {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
@@ -364,14 +372,6 @@ const senate6Votes =
         "state": "OH"
       },
       {
-        "display_name": "Burr (R-NC)",
-        "first_name": "Richard",
-        "id": "S300",
-        "last_name": "Burr",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Cantwell (D-WA)",
         "first_name": "Maria",
         "id": "S275",
@@ -402,6 +402,14 @@ const senate6Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Collins (R-ME)",
@@ -682,14 +690,6 @@ const senate6Votes =
         "last_name": "Sanders",
         "party": "I",
         "state": "VT"
-      },
-      {
-        "display_name": "Sasse (R-NE)",
-        "first_name": "Ben",
-        "id": "S382",
-        "last_name": "Sasse",
-        "party": "R",
-        "state": "NE"
       },
       {
         "display_name": "Schatz (D-HI)",

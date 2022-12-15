@@ -1,35 +1,27 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 117,
-  "date": "2022-12-08T12:32:00-05:00",
+  "date": "2022-12-12T17:24:00-05:00",
   "nomination": {
     "number": "2315",
     "title": "Tamika R. Montgomery-Reeves, of Delaware, to be United States Circuit Judge for the Third Circuit"
   },
-  "number": 385,
-  "question": "Motion to Invoke Cloture: Tamika R. Montgomery-Reeves, to be U.S. Circuit Judge for the Third Circuit: Tamika R. Montgomery-Reeves, of Delaware, to be United States Circuit Judge for the Third Circuit",
-  "record_modified": "2022-12-08T13:27:00-05:00",
+  "number": 387,
+  "question": "On the Nomination PN2315: Tamika R. Montgomery-Reeves, of Delaware, to be United States Circuit Judge for the Third Circuit",
+  "record_modified": "2022-12-13T11:15:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (57-39)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-35)",
   "session": "2022",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00385.xml",
-  "subject": "On the Cloture Motion PN2315",
-  "type": "On the Cloture Motion",
-  "updated_at": "2022-12-14T13:06:20-05:00",
-  "vote_id": "s385-117.2022",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00387.xml",
+  "subject": "Confirmation: Tamika R. Montgomery-Reeves, of Delaware, to be United States Circuit Judge for the Third Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2022-12-14T19:14:18-05:00",
+  "vote_id": "s387-117.2022",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -45,14 +37,6 @@ const senate5Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Capito (R-WV)",
@@ -223,28 +207,12 @@ const senate5Votes =
         "state": "KY"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
         "display_name": "Romney (R-UT)",
         "first_name": "Mitt",
         "id": "S401",
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Sasse (R-NE)",
@@ -337,20 +305,44 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
         "last_name": "Cruz",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Hickenlooper (D-CO)",
@@ -361,12 +353,52 @@ const senate5Votes =
         "state": "CO"
       },
       {
+        "display_name": "Merkley (D-OR)",
+        "first_name": "Jeff",
+        "id": "S322",
+        "last_name": "Merkley",
+        "party": "D",
+        "state": "OR"
+      },
+      {
         "display_name": "Moran (R-KS)",
         "first_name": "Jerry",
         "id": "S347",
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
+      },
+      {
+        "display_name": "Wyden (D-OR)",
+        "first_name": "Ron",
+        "id": "S247",
+        "last_name": "Wyden",
+        "party": "D",
+        "state": "OR"
       }
     ],
     "Present": [],
@@ -436,14 +468,6 @@ const senate5Votes =
         "state": "WA"
       },
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
         "display_name": "Carper (D-DE)",
         "first_name": "Thomas",
         "id": "S277",
@@ -492,12 +516,12 @@ const senate5Votes =
         "state": "NV"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -628,14 +652,6 @@ const senate5Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Merkley (D-OR)",
-        "first_name": "Jeff",
-        "id": "S322",
-        "last_name": "Merkley",
-        "party": "D",
-        "state": "OR"
-      },
-      {
         "display_name": "Murkowski (R-AK)",
         "first_name": "Lisa",
         "id": "S288",
@@ -740,14 +756,6 @@ const senate5Votes =
         "state": "NY"
       },
       {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
-      },
-      {
         "display_name": "Sinema (D-AZ)",
         "first_name": "Kyrsten",
         "id": "S403",
@@ -818,14 +826,6 @@ const senate5Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Wyden (D-OR)",
-        "first_name": "Ron",
-        "id": "S247",
-        "last_name": "Wyden",
-        "party": "D",
-        "state": "OR"
       }
     ]
   }
