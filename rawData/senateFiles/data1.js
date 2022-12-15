@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00391.xml",
   "subject": "Confirmation: Francisco O. Mora, of Florida, to be Permanent Representative of the United States of America to the Organization of American States",
   "type": "On the Nomination",
-  "updated_at": "2022-12-15T01:22:10-05:00",
+  "updated_at": "2022-12-15T07:30:49-05:00",
   "vote_id": "s391-117.2022",
   "votes": {
     "Nay": [

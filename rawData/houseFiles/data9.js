@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll518.xml",
   "subject": "Saline Lake Ecosystems in the Great Basin States Program Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2022-12-15T01:17:47-05:00",
+  "updated_at": "2022-12-15T07:25:51-05:00",
   "vote_id": "h518-117.2022",
   "votes": {
     "Nay": [
