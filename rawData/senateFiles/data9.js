@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00383.xml",
   "subject": "Confirmation: Jerry W. Blackwell, of Minnesota, to be U.S. District Judge for the District of Minnesota",
   "type": "On the Nomination",
-  "updated_at": "2022-12-14T19:14:20-05:00",
+  "updated_at": "2022-12-15T01:22:14-05:00",
   "vote_id": "s383-117.2022",
   "votes": {
     "Nay": [

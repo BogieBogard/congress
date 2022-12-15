@@ -2,24 +2,24 @@ const house3Votes =
 {
   "bill": {
     "congress": 117,
-    "number": 1518,
-    "type": "hres"
+    "number": 3905,
+    "type": "s"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 117,
-  "date": "2022-12-14T13:47:00-05:00",
-  "number": 520,
-  "question": "On Ordering the Previous Question: H RES 1518 Providing for consideration of the bills H.R. 1948, S. 3905, and S. 4003; providing for consideration of the Senate amendment to the bill H.R. 1437; relating to consideration of the Senate amendments to the bill H.R. 2617; and for other purposes; and for other purposes",
+  "date": "2022-12-14T20:19:00-05:00",
+  "number": 524,
+  "question": "On Passage: S 3905 Preventing Organizational Conflicts of Interest in Federal Acquisition Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2022",
-  "source_url": "https://clerk.house.gov/evs/2022/roll520.xml",
-  "subject": "Providing for consideration of the bills H.R. 1948, S. 3905, and S. 4003; providing for consideration of the Senate amendment to the bill H.R. 1437; relating to consideration of the Senate amendments to the bill H.R. 2617; and for other purposes; and for other purposes",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2022-12-14T19:09:47-05:00",
-  "vote_id": "h520-117.2022",
+  "source_url": "https://clerk.house.gov/evs/2022/roll524.xml",
+  "subject": "Preventing Organizational Conflicts of Interest in Federal Acquisition Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2022-12-15T01:17:44-05:00",
+  "vote_id": "h524-117.2022",
   "votes": {
     "Nay": [
       {
@@ -383,12 +383,6 @@ const house3Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -513,6 +507,12 @@ const house3Votes =
         "id": "G000546",
         "party": "R",
         "state": "MO"
+      },
+      {
+        "display_name": "Green (TN)",
+        "id": "G000590",
+        "party": "R",
+        "state": "TN"
       },
       {
         "display_name": "Greene (GA)",
@@ -671,12 +671,6 @@ const house3Votes =
         "state": "PA"
       },
       {
-        "display_name": "Katko",
-        "id": "K000386",
-        "party": "R",
-        "state": "NY"
-      },
-      {
         "display_name": "Keller",
         "id": "K000395",
         "party": "R",
@@ -699,12 +693,6 @@ const house3Votes =
         "id": "K000397",
         "party": "R",
         "state": "CA"
-      },
-      {
-        "display_name": "Kinzinger",
-        "id": "K000378",
-        "party": "R",
-        "state": "IL"
       },
       {
         "display_name": "Kustoff",
@@ -837,12 +825,6 @@ const house3Votes =
         "id": "M001156",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "McKinley",
-        "id": "M001180",
-        "party": "R",
-        "state": "WV"
       },
       {
         "display_name": "Meijer",
@@ -1037,12 +1019,6 @@ const house3Votes =
         "state": "FL"
       },
       {
-        "display_name": "Salazar",
-        "id": "S000168",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Scalise",
         "id": "S001176",
         "party": "R",
@@ -1217,12 +1193,6 @@ const house3Votes =
         "state": "MI"
       },
       {
-        "display_name": "Waltz",
-        "id": "W000823",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Weber (TX)",
         "id": "W000814",
         "party": "R",
@@ -1285,28 +1255,16 @@ const house3Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Bush",
-        "id": "B001224",
-        "party": "D",
-        "state": "MO"
-      },
-      {
-        "display_name": "Carter (LA)",
-        "id": "C001125",
-        "party": "D",
-        "state": "LA"
-      },
-      {
         "display_name": "Cheney",
         "id": "C001109",
         "party": "R",
         "state": "WY"
       },
       {
-        "display_name": "Green (TN)",
-        "id": "G000590",
-        "party": "R",
-        "state": "TN"
+        "display_name": "Garcia (TX)",
+        "id": "G000587",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Hinson",
@@ -1315,22 +1273,22 @@ const house3Votes =
         "state": "IA"
       },
       {
-        "display_name": "Lee (NV)",
-        "id": "L000590",
-        "party": "D",
-        "state": "NV"
+        "display_name": "Kinzinger",
+        "id": "K000378",
+        "party": "R",
+        "state": "IL"
       },
       {
-        "display_name": "Porter",
-        "id": "P000618",
-        "party": "D",
-        "state": "CA"
+        "display_name": "McKinley",
+        "id": "M001180",
+        "party": "R",
+        "state": "WV"
       },
       {
-        "display_name": "Raskin",
-        "id": "R000606",
-        "party": "D",
-        "state": "MD"
+        "display_name": "Waltz",
+        "id": "W000823",
+        "party": "R",
+        "state": "FL"
       }
     ],
     "Present": [],
@@ -1450,6 +1408,12 @@ const house3Votes =
         "state": "CA"
       },
       {
+        "display_name": "Bush",
+        "id": "B001224",
+        "party": "D",
+        "state": "MO"
+      },
+      {
         "display_name": "Bustos",
         "id": "B001286",
         "party": "D",
@@ -1478,6 +1442,12 @@ const house3Votes =
         "id": "C001072",
         "party": "D",
         "state": "IN"
+      },
+      {
+        "display_name": "Carter (LA)",
+        "id": "C001125",
+        "party": "D",
+        "state": "LA"
       },
       {
         "display_name": "Cartwright",
@@ -1702,6 +1672,12 @@ const house3Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -1736,12 +1712,6 @@ const house3Votes =
         "id": "G000586",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Garcia (TX)",
-        "id": "G000587",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Golden",
@@ -1882,6 +1852,12 @@ const house3Votes =
         "state": "OH"
       },
       {
+        "display_name": "Katko",
+        "id": "K000386",
+        "party": "R",
+        "state": "NY"
+      },
+      {
         "display_name": "Keating",
         "id": "K000375",
         "party": "D",
@@ -1982,6 +1958,12 @@ const house3Votes =
         "id": "L000551",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Lee (NV)",
+        "id": "L000590",
+        "party": "D",
+        "state": "NV"
       },
       {
         "display_name": "Leger Fernandez",
@@ -2254,6 +2236,12 @@ const house3Votes =
         "state": "WI"
       },
       {
+        "display_name": "Porter",
+        "id": "P000618",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Pressley",
         "id": "P000617",
         "party": "D",
@@ -2270,6 +2258,12 @@ const house3Votes =
         "id": "Q000023",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Raskin",
+        "id": "R000606",
+        "party": "D",
+        "state": "MD"
       },
       {
         "display_name": "Rice (NY)",
@@ -2318,6 +2312,12 @@ const house3Votes =
         "id": "R000577",
         "party": "D",
         "state": "OH"
+      },
+      {
+        "display_name": "Salazar",
+        "id": "S000168",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "S\u00e1nchez",

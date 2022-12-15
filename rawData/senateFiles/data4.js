@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00388.xml",
   "subject": "Confirmation: Dana M. Douglas, of Louisiana, to be U.S. Circuit Judge for the Fifth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2022-12-14T19:14:17-05:00",
+  "updated_at": "2022-12-15T01:22:12-05:00",
   "vote_id": "s388-117.2022",
   "votes": {
     "Nay": [
