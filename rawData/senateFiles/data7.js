@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00393.xml",
   "subject": "Motion to Proceed to the House Message to Accompany H.R. 1437",
   "type": "On the Motion to Proceed",
-  "updated_at": "2022-12-16T01:57:44-05:00",
+  "updated_at": "2022-12-16T08:05:43-05:00",
   "vote_id": "s393-117.2022",
   "votes": {
     "Nay": [
