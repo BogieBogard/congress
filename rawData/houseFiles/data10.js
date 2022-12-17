@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll521.xml",
   "subject": "Providing for consideration of the bills H.R. 1948, S. 3905, and S. 4003; providing for consideration of the Senate amendment to the bill H.R. 1437; relating to consideration of the Senate amendments to the bill H.R. 2617; and for other purposes; and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-12-16T14:09:14-05:00",
+  "updated_at": "2022-12-16T20:17:17-05:00",
   "vote_id": "h521-117.2022",
   "votes": {
     "Nay": [
