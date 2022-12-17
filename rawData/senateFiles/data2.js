@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00398.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate amendment to H.R. 1437, with Lee amendment No. 6451, as modified",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-16T20:21:41-05:00",
+  "updated_at": "2022-12-17T02:29:40-05:00",
   "vote_id": "s398-117.2022",
   "votes": {
     "Nay": [
