@@ -20,7 +20,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00395.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate Amendment to H.R. 7776 with the Johnson Amendment No. 6526",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-17T02:29:41-05:00",
+  "updated_at": "2022-12-17T08:37:39-05:00",
   "vote_id": "s395-117.2022",
   "votes": {
     "Nay": [
