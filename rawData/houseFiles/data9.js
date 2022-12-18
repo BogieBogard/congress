@@ -12,7 +12,7 @@ const house9Votes =
   "session": "2022",
   "source_url": "https://clerk.house.gov/evs/2022/roll522.xml",
   "type": "On Motion to Suspend the Rules and Pass Certain Bills and Concur in a Senate Amendment",
-  "updated_at": "2022-12-17T20:49:19-05:00",
+  "updated_at": "2022-12-18T02:57:20-05:00",
   "vote_id": "h522-117.2022",
   "votes": {
     "Nay": [

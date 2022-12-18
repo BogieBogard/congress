@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll526.xml",
   "subject": "Billy\u2019s Law",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-17T20:49:17-05:00",
+  "updated_at": "2022-12-18T02:57:18-05:00",
   "vote_id": "h526-117.2022",
   "votes": {
     "Nay": [
