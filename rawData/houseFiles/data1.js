@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll530.xml",
   "subject": "VA Employee Fairness Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-18T09:05:14-05:00",
+  "updated_at": "2022-12-18T15:13:15-05:00",
   "vote_id": "h530-117.2022",
   "votes": {
     "Nay": [

@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00399.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate Amendment to H.R. 1437",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-18T09:09:43-05:00",
+  "updated_at": "2022-12-18T15:17:44-05:00",
   "vote_id": "s399-117.2022",
   "votes": {
     "Nay": [
