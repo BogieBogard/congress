@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll527.xml",
   "subject": "Providing for consideration of the bill (H.R. 8393) the Puerto Rico Status Act",
   "type": "On the Resolution",
-  "updated_at": "2022-12-19T03:29:24-05:00",
+  "updated_at": "2022-12-19T09:37:23-05:00",
   "vote_id": "h527-117.2022",
   "votes": {
     "Nay": [
