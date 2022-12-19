@@ -20,7 +20,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00394.xml",
   "subject": "On the Cloture Motion H.R. 7776",
   "type": "On the Cloture Motion",
-  "updated_at": "2022-12-19T09:41:53-05:00",
+  "updated_at": "2022-12-19T15:49:55-05:00",
   "vote_id": "s394-117.2022",
   "votes": {
     "Nay": [
