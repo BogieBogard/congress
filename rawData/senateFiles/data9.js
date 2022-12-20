@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00392.xml",
   "subject": "Confirmation: Musetta Tia Johnson, of Virginia, to be a Judge of the U.S. Court of Appeals for the Armed Forces",
   "type": "On the Nomination",
-  "updated_at": "2022-12-19T21:57:58-05:00",
+  "updated_at": "2022-12-20T04:05:56-05:00",
   "vote_id": "s392-117.2022",
   "votes": {
     "Nay": [
