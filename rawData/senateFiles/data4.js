@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00397.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate Amendment to H.R. 1437 with the Scott (FL) Amendment No. 6540",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-20T04:05:54-05:00",
+  "updated_at": "2022-12-20T10:13:52-05:00",
   "vote_id": "s397-117.2022",
   "votes": {
     "Nay": [
