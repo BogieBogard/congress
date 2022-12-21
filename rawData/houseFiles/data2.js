@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll529.xml",
   "subject": "Puerto Rico Status Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-21T04:33:25-05:00",
+  "updated_at": "2022-12-21T10:41:26-05:00",
   "vote_id": "h529-117.2022",
   "votes": {
     "Nay": [

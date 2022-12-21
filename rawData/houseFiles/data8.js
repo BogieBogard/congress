@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll523.xml",
   "subject": "PRECIP Act",
   "type": "Concurring in the Senate Amendment",
-  "updated_at": "2022-12-21T04:33:28-05:00",
+  "updated_at": "2022-12-21T10:41:29-05:00",
   "vote_id": "h523-117.2022",
   "votes": {
     "Nay": [

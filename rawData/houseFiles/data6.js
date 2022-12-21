@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll525.xml",
   "subject": "Law Enforcement De-Escalation Training Act of 2022",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-21T04:33:27-05:00",
+  "updated_at": "2022-12-21T10:41:28-05:00",
   "vote_id": "h525-117.2022",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll524.xml",
   "subject": "Preventing Organizational Conflicts of Interest in Federal Acquisition Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-21T04:33:28-05:00",
+  "updated_at": "2022-12-21T10:41:28-05:00",
   "vote_id": "h524-117.2022",
   "votes": {
     "Nay": [
