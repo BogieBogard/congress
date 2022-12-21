@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll528.xml",
   "subject": "Puerto Rico Status Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2022-12-21T10:41:26-05:00",
+  "updated_at": "2022-12-21T16:49:27-05:00",
   "vote_id": "h528-117.2022",
   "votes": {
     "Nay": [
