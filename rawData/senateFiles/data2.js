@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00402.xml",
   "subject": "Confirmation: Robert Harley Shriver III, of Virginia, to be Deputy Director of the Office of Personnel Management",
   "type": "On the Nomination",
-  "updated_at": "2022-12-20T22:29:52-05:00",
+  "updated_at": "2022-12-21T04:37:54-05:00",
   "vote_id": "s402-117.2022",
   "votes": {
     "Nay": [

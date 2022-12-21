@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00401.xml",
   "subject": "Confirmation: R. Russell Rumbaugh, of Nebraska, to be an Assistant Secretary of the Navy",
   "type": "On the Nomination",
-  "updated_at": "2022-12-20T22:29:52-05:00",
+  "updated_at": "2022-12-21T04:37:54-05:00",
   "vote_id": "s401-117.2022",
   "votes": {
     "Nay": [

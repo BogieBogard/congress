@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00403.xml",
   "subject": "Motion to Proceed to the House Message to Accompany H.R. 2617",
   "type": "On the Motion to Proceed",
-  "updated_at": "2022-12-20T22:29:51-05:00",
+  "updated_at": "2022-12-21T04:37:53-05:00",
   "vote_id": "s403-117.2022",
   "votes": {
     "Nay": [

@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00396.xml",
   "subject": "Motion to Concur in the House Amendment to the Senate Amendment to H.R. 7776",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-20T22:29:55-05:00",
+  "updated_at": "2022-12-21T04:37:57-05:00",
   "vote_id": "s396-117.2022",
   "votes": {
     "Nay": [
