@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00405.xml",
   "subject": "Confirmation: Agnes Schaefer, of Pennsylvania, to be an Assistant Secretary of the Army",
   "type": "On the Nomination",
-  "updated_at": "2022-12-21T23:01:56-05:00",
+  "updated_at": "2022-12-22T05:10:02-05:00",
   "vote_id": "s405-117.2022",
   "votes": {
     "Nay": [

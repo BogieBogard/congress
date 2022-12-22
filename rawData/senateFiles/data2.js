@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00404.xml",
   "subject": "Confirmation: Lynne M. Tracy, of Ohio, to be Ambassador of the United States of America to the Russian Federation",
   "type": "On the Nomination",
-  "updated_at": "2022-12-21T23:01:56-05:00",
+  "updated_at": "2022-12-22T05:10:02-05:00",
   "vote_id": "s404-117.2022",
   "votes": {
     "Nay": [

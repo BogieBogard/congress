@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00400.xml",
   "subject": "Confirmation: Martin J. Gruenberg, of Maryland, to be a Member of the Board of Directors of the Federal Deposit Insurance Corporation",
   "type": "On the Nomination",
-  "updated_at": "2022-12-21T23:01:58-05:00",
+  "updated_at": "2022-12-22T05:10:04-05:00",
   "vote_id": "s400-117.2022",
   "votes": {
     "Nay": [
