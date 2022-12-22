@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll533.xml",
   "subject": "Energy Security and Lightering Independence Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-22T05:05:31-05:00",
+  "updated_at": "2022-12-22T11:13:37-05:00",
   "vote_id": "h533-117.2022",
   "votes": {
     "Nay": [

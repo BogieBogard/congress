@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll531.xml",
   "subject": "Providing for consideration of H.R. 9640, to amend the Internal Revenue Code of 1986 to provide for examination and disclosure with respect to Presidential income tax returns; S. 1942, the National Heritage Area Act; and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-12-22T05:05:32-05:00",
+  "updated_at": "2022-12-22T11:13:38-05:00",
   "vote_id": "h531-117.2022",
   "votes": {
     "Nay": [

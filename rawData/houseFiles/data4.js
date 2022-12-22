@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll535.xml",
   "subject": "Dr. Joanne Smith Memorial Rehabilitation Innovation Centers Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-22T05:05:30-05:00",
+  "updated_at": "2022-12-22T11:13:36-05:00",
   "vote_id": "h535-117.2022",
   "votes": {
     "Nay": [

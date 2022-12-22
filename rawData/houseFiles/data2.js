@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll537.xml",
   "subject": "To amend the White Mountain Apache Tribe Water Rights Quantification Act of 2010 to modify the enforceability date for certain provisions, and for other purposes",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-22T05:05:29-05:00",
+  "updated_at": "2022-12-22T11:13:35-05:00",
   "vote_id": "h537-117.2022",
   "votes": {
     "Nay": [
