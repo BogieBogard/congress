@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll545.xml",
   "subject": "Durbin Feeling Native American Languages Act of 2021",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-22T23:30:02-05:00",
+  "updated_at": "2022-12-23T05:38:24-05:00",
   "vote_id": "h545-117.2022",
   "votes": {
     "Nay": [

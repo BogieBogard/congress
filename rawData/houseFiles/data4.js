@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll543.xml",
   "subject": "To amend the Not Invisible Act of 2019 to extend, and provide additional support for, the activities of the Department of the Interior and the Department of Justice Joint Commission on Reducing Violent Crime Against Indians, and for other purposes.",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-22T23:30:03-05:00",
+  "updated_at": "2022-12-23T05:38:25-05:00",
   "vote_id": "h543-117.2022",
   "votes": {
     "Nay": [
