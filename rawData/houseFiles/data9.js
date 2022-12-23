@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll538.xml",
   "subject": "Colorado River Indian Tribes Water Resiliency Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-23T05:38:28-05:00",
+  "updated_at": "2022-12-23T11:46:44-05:00",
   "vote_id": "h538-117.2022",
   "votes": {
     "Nay": [

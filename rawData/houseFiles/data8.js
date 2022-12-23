@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll539.xml",
   "subject": "Presidential Tax Filings and Audit Transparency Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-23T05:38:27-05:00",
+  "updated_at": "2022-12-23T11:46:44-05:00",
   "vote_id": "h539-117.2022",
   "votes": {
     "Nay": [

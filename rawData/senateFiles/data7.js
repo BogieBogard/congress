@@ -25,7 +25,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00415.xml",
   "subject": "Braun Amendment No. 6569",
   "type": "On the Amendment",
-  "updated_at": "2022-12-23T05:43:03-05:00",
+  "updated_at": "2022-12-23T11:51:22-05:00",
   "vote_id": "s415-117.2022",
   "votes": {
     "Nay": [
