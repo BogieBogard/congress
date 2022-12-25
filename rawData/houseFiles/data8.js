@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll542.xml",
   "subject": "Hualapai Tribe Water Rights Settlement Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2022-12-24T18:28:22-05:00",
+  "updated_at": "2022-12-25T00:36:41-05:00",
   "vote_id": "h542-117.2022",
   "votes": {
     "Nay": [
