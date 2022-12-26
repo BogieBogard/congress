@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll546.xml",
   "subject": "Student Veteran Emergency Relief Act",
   "type": "On Motion to Suspend the Rules and Concur in the Senate Amendment",
-  "updated_at": "2022-12-25T12:53:15-05:00",
+  "updated_at": "2022-12-25T19:01:37-05:00",
   "vote_id": "h546-117.2022",
   "votes": {
     "Nay": [
