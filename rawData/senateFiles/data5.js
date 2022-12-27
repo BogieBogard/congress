@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00417.xml",
   "subject": "Merkley Amendment No. 6595",
   "type": "On the Amendment",
-  "updated_at": "2022-12-26T13:31:12-05:00",
+  "updated_at": "2022-12-26T19:39:35-05:00",
   "vote_id": "s417-117.2022",
   "votes": {
     "Nay": [
