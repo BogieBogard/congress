@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll540.xml",
   "subject": "National Heritage Area Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2022-12-27T01:43:17-05:00",
+  "updated_at": "2022-12-27T07:51:35-05:00",
   "vote_id": "h540-117.2022",
   "votes": {
     "Nay": [
