@@ -25,7 +25,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00419.xml",
   "subject": "Gillibrand Amendment No. 6607 As Modified",
   "type": "On the Amendment",
-  "updated_at": "2022-12-27T14:09:53-05:00",
+  "updated_at": "2022-12-27T20:18:12-05:00",
   "vote_id": "s419-117.2022",
   "votes": {
     "Nay": [

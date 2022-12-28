@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll547.xml",
   "subject": "Providing for consideration of the Senate amendment to the House amendment to the Senate amendment to H.R. 2617, Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act; and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2022-12-27T14:05:15-05:00",
+  "updated_at": "2022-12-27T20:13:33-05:00",
   "vote_id": "h547-117.2022",
   "votes": {
     "Nay": [
