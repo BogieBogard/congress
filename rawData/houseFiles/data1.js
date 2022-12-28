@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll549.xml",
   "subject": "To amend section 1115 of title 31, United States Code, to amend the description of how performance goals are achieved, and for other purposes",
   "type": "Concurring in the Senate Amendment",
-  "updated_at": "2022-12-28T02:21:51-05:00",
+  "updated_at": "2022-12-28T08:30:11-05:00",
   "vote_id": "h549-117.2022",
   "votes": {
     "Nay": [
