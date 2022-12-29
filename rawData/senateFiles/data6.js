@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00416.xml",
   "subject": "Cassidy Amendment No. 6558",
   "type": "On the Amendment",
-  "updated_at": "2022-12-29T02:59:49-05:00",
+  "updated_at": "2022-12-29T09:08:08-05:00",
   "vote_id": "s416-117.2022",
   "votes": {
     "Nay": [

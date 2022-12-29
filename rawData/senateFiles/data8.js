@@ -25,7 +25,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00414.xml",
   "subject": "Lankford Amendment No. 6577",
   "type": "On the Amendment",
-  "updated_at": "2022-12-29T02:59:50-05:00",
+  "updated_at": "2022-12-29T09:08:09-05:00",
   "vote_id": "s414-117.2022",
   "votes": {
     "Nay": [
