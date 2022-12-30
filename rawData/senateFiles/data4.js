@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00418.xml",
   "subject": "Klobuchar Amendment No. 6597",
   "type": "On the Amendment",
-  "updated_at": "2022-12-29T21:24:50-05:00",
+  "updated_at": "2022-12-30T03:33:09-05:00",
   "vote_id": "s418-117.2022",
   "votes": {
     "Nay": [
