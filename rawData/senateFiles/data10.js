@@ -25,7 +25,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00412.xml",
   "subject": "Sinema Amendment No. 6621",
   "type": "On the Amendment",
-  "updated_at": "2022-12-31T04:06:52-05:00",
+  "updated_at": "2022-12-31T10:15:11-05:00",
   "vote_id": "s412-117.2022",
   "votes": {
     "Nay": [
