@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll544.xml",
   "subject": "Native American Langauge Resource Center Act of 2022",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-01-01T10:43:48-05:00",
+  "updated_at": "2023-01-01T16:52:09-05:00",
   "vote_id": "h544-117.2022",
   "votes": {
     "Nay": [

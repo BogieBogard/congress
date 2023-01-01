@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00420.xml",
   "subject": "Menendez Amendment No. 6617",
   "type": "On the Amendment",
-  "updated_at": "2023-01-01T10:48:25-05:00",
+  "updated_at": "2023-01-01T16:56:45-05:00",
   "vote_id": "s420-117.2022",
   "votes": {
     "Nay": [
