@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00421.xml",
   "subject": "Motion to Concur in the House Amendment to Senate Amendment No. 4 with an Amendment No. 6552",
   "type": "On the Motion to Concur",
-  "updated_at": "2022-12-31T16:23:27-05:00",
+  "updated_at": "2022-12-31T22:31:46-05:00",
   "vote_id": "s421-117.2022",
   "votes": {
     "Nay": [
