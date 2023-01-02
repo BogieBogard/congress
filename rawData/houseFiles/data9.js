@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2022/roll541.xml",
   "subject": "To authorize leases of up to 99 years for land held in trust for the Confederated Tribes of the Chehalis Reservation",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-01-01T23:00:29-05:00",
+  "updated_at": "2023-01-02T05:08:47-05:00",
   "vote_id": "h541-117.2022",
   "votes": {
     "Nay": [
