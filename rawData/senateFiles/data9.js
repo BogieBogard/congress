@@ -25,7 +25,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00413.xml",
   "subject": "Lee Amendment No. 6563",
   "type": "On the Amendment",
-  "updated_at": "2023-01-02T11:21:44-05:00",
+  "updated_at": "2023-01-02T17:30:03-05:00",
   "vote_id": "s413-117.2022",
   "votes": {
     "Nay": [
