@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll028.xml",
   "subject": "Born-Alive Abortion Survivors Protection Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-01-24T16:03:21-05:00",
+  "updated_at": "2023-01-24T16:07:18-05:00",
   "vote_id": "h28-118.2023",
   "votes": {
     "Nay": [

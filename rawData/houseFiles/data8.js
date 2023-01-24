@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll024.xml",
   "subject": "Family and Small Business Taxpayer Protection Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-01-24T16:03:23-05:00",
+  "updated_at": "2023-01-24T16:07:20-05:00",
   "vote_id": "h24-118.2023",
   "votes": {
     "Nay": [

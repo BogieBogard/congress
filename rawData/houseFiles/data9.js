@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll023.xml",
   "subject": "Adopting the Rules of the House of Representatives for the One Hundred Eighteenth Congress, and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2023-01-24T16:03:23-05:00",
+  "updated_at": "2023-01-24T16:07:21-05:00",
   "vote_id": "h23-118.2023",
   "votes": {
     "Nay": [

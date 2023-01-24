@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll031.xml",
   "subject": "Protecting America\u2019s Strategic Petroleum Reserve from China Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-01-24T16:03:19-05:00",
+  "updated_at": "2023-01-24T16:07:17-05:00",
   "vote_id": "h31-118.2023",
   "votes": {
     "Nay": [
