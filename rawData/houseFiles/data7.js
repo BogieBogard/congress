@@ -2,24 +2,24 @@ const house7Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 23,
-    "type": "hr"
+    "number": 12,
+    "type": "hres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-09T21:23:00-05:00",
-  "number": 25,
-  "question": "On Passage: H R 23 Family and Small Business Taxpayer Protection Act",
+  "date": "2023-01-10T16:29:00-05:00",
+  "number": 27,
+  "question": "On Agreeing to the Resolution: H RES 12 Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll025.xml",
-  "subject": "Family and Small Business Taxpayer Protection Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-01-24T16:07:20-05:00",
-  "vote_id": "h25-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll027.xml",
+  "subject": "Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
+  "type": "On the Resolution",
+  "updated_at": "2023-01-24T22:07:41-05:00",
+  "vote_id": "h27-118.2023",
   "votes": {
     "Nay": [
       {
@@ -201,6 +201,12 @@ const house7Votes =
         "id": "C001091",
         "party": "D",
         "state": "TX"
+      },
+      {
+        "display_name": "Cherfilus-McCormick",
+        "id": "C001127",
+        "party": "D",
+        "state": "FL"
       },
       {
         "display_name": "Chu",
@@ -393,12 +399,6 @@ const house7Votes =
         "id": "F000454",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Foushee",
-        "id": "F000477",
-        "party": "D",
-        "state": "NC"
       },
       {
         "display_name": "Frankel, Lois",
@@ -669,6 +669,12 @@ const house7Votes =
         "id": "L000551",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Lee (NV)",
+        "id": "L000590",
+        "party": "D",
+        "state": "NV"
       },
       {
         "display_name": "Lee (PA)",
@@ -1285,22 +1291,16 @@ const house7Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cherfilus-McCormick",
-        "id": "C001127",
-        "party": "D",
-        "state": "FL"
-      },
-      {
         "display_name": "Crenshaw",
         "id": "C001120",
         "party": "R",
         "state": "TX"
       },
       {
-        "display_name": "Lee (NV)",
-        "id": "L000590",
+        "display_name": "Foushee",
+        "id": "F000477",
         "party": "D",
-        "state": "NV"
+        "state": "NC"
       }
     ],
     "Present": [],

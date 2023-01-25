@@ -2,24 +2,24 @@ const house10Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 5,
-    "type": "hres"
+    "number": 23,
+    "type": "hr"
   },
-  "category": "procedural",
+  "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-09T18:55:00-05:00",
-  "number": 22,
-  "question": "On Motion to Commit: H RES 5 Adopting the Rules of the House of Representatives for the One Hundred Eighteenth Congress, and for other purposes",
+  "date": "2023-01-09T21:16:00-05:00",
+  "number": 24,
+  "question": "On Motion to Recommit: H R 23 Family and Small Business Taxpayer Protection Act",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll022.xml",
-  "subject": "Adopting the Rules of the House of Representatives for the One Hundred Eighteenth Congress, and for other purposes",
-  "type": "On Motion to Commit",
-  "updated_at": "2023-01-24T16:07:21-05:00",
-  "vote_id": "h22-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll024.xml",
+  "subject": "Family and Small Business Taxpayer Protection Act",
+  "type": "On the Motion to Recommit",
+  "updated_at": "2023-01-24T22:07:42-05:00",
+  "vote_id": "h24-118.2023",
   "votes": {
     "Nay": [
       {
@@ -585,6 +585,12 @@ const house10Votes =
         "id": "H001082",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Higgins (LA)",
+        "id": "H001077",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Hill",
@@ -1345,28 +1351,34 @@ const house10Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cherfilus-McCormick",
+        "id": "C001127",
+        "party": "D",
+        "state": "FL"
+      },
+      {
+        "display_name": "Costa",
+        "id": "C001059",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Crenshaw",
         "id": "C001120",
         "party": "R",
         "state": "TX"
       },
       {
-        "display_name": "Green (TX)",
-        "id": "G000553",
+        "display_name": "Schiff",
+        "id": "S001150",
         "party": "D",
-        "state": "TX"
+        "state": "CA"
       },
       {
-        "display_name": "Higgins (LA)",
-        "id": "H001077",
-        "party": "R",
-        "state": "LA"
-      },
-      {
-        "display_name": "Schakowsky",
-        "id": "S001145",
+        "display_name": "Wasserman Schultz",
+        "id": "W000797",
         "party": "D",
-        "state": "IL"
+        "state": "FL"
       }
     ],
     "Present": [],
@@ -1552,12 +1564,6 @@ const house10Votes =
         "state": "TX"
       },
       {
-        "display_name": "Cherfilus-McCormick",
-        "id": "C001127",
-        "party": "D",
-        "state": "FL"
-      },
-      {
         "display_name": "Chu",
         "id": "C001080",
         "party": "D",
@@ -1608,12 +1614,6 @@ const house10Votes =
       {
         "display_name": "Correa",
         "id": "C001110",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Costa",
-        "id": "C001059",
         "party": "D",
         "state": "CA"
       },
@@ -1826,6 +1826,12 @@ const house10Votes =
         "id": "G000583",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Green (TX)",
+        "id": "G000553",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Grijalva",
@@ -2368,10 +2374,10 @@ const house10Votes =
         "state": "PA"
       },
       {
-        "display_name": "Schiff",
-        "id": "S001150",
+        "display_name": "Schakowsky",
+        "id": "S001145",
         "party": "D",
-        "state": "CA"
+        "state": "IL"
       },
       {
         "display_name": "Schneider",
@@ -2588,12 +2594,6 @@ const house10Votes =
         "id": "V000081",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Wasserman Schultz",
-        "id": "W000797",
-        "party": "D",
-        "state": "FL"
       },
       {
         "display_name": "Waters",

@@ -2,24 +2,24 @@ const house5Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 12,
-    "type": "hres"
+    "number": 26,
+    "type": "hr"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-10T16:29:00-05:00",
-  "number": 27,
-  "question": "On Agreeing to the Resolution: H RES 12 Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
+  "date": "2023-01-11T16:29:00-05:00",
+  "number": 29,
+  "question": "On Passage: H R 26 Born-Alive Abortion Survivors Protection Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll027.xml",
-  "subject": "Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
-  "type": "On the Resolution",
-  "updated_at": "2023-01-24T16:07:19-05:00",
-  "vote_id": "h27-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll029.xml",
+  "subject": "Born-Alive Abortion Survivors Protection Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-01-24T22:07:40-05:00",
+  "vote_id": "h29-118.2023",
   "votes": {
     "Nay": [
       {
@@ -293,12 +293,6 @@ const house5Votes =
         "state": "CO"
       },
       {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Davids (KS)",
         "id": "D000629",
         "party": "D",
@@ -401,6 +395,12 @@ const house5Votes =
         "state": "IL"
       },
       {
+        "display_name": "Foushee",
+        "id": "F000477",
+        "party": "D",
+        "state": "NC"
+      },
+      {
         "display_name": "Frankel, Lois",
         "id": "F000462",
         "party": "D",
@@ -459,12 +459,6 @@ const house5Votes =
         "id": "G000585",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Gottheimer",
@@ -1291,19 +1285,32 @@ const house5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Crenshaw",
-        "id": "C001120",
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
         "party": "R",
         "state": "TX"
       },
       {
-        "display_name": "Foushee",
-        "id": "F000477",
-        "party": "D",
-        "state": "NC"
+        "display_name": "Williams (TX)",
+        "id": "W000816",
+        "party": "R",
+        "state": "TX"
       }
     ],
-    "Present": [],
+    "Present": [
+      {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
+        "state": "TX"
+      }
+    ],
     "Yea": [
       {
         "display_name": "Aderholt",
@@ -1438,12 +1445,6 @@ const house5Votes =
         "state": "OK"
       },
       {
-        "display_name": "Buchanan",
-        "id": "B001260",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Buck",
         "id": "B001297",
         "party": "R",
@@ -1568,6 +1569,18 @@ const house5Votes =
         "id": "C001087",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Crenshaw",
+        "id": "C001120",
+        "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Curtis",
@@ -1904,12 +1917,6 @@ const house5Votes =
         "id": "H001058",
         "party": "R",
         "state": "MI"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Issa",
@@ -2594,12 +2601,6 @@ const house5Votes =
         "id": "W000828",
         "party": "R",
         "state": "NY"
-      },
-      {
-        "display_name": "Williams (TX)",
-        "id": "W000816",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Wilson (SC)",

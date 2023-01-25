@@ -2,24 +2,24 @@ const house9Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 5,
-    "type": "hres"
+    "number": 23,
+    "type": "hr"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-09T19:05:00-05:00",
-  "number": 23,
-  "question": "On Agreeing to the Resolution: H RES 5 Adopting the Rules of the House of Representatives for the One Hundred Eighteenth Congress, and for other purposes",
+  "date": "2023-01-09T21:23:00-05:00",
+  "number": 25,
+  "question": "On Passage: H R 23 Family and Small Business Taxpayer Protection Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll023.xml",
-  "subject": "Adopting the Rules of the House of Representatives for the One Hundred Eighteenth Congress, and for other purposes",
-  "type": "On the Resolution",
-  "updated_at": "2023-01-24T16:07:21-05:00",
-  "vote_id": "h23-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll025.xml",
+  "subject": "Family and Small Business Taxpayer Protection Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-01-24T22:07:42-05:00",
+  "vote_id": "h25-118.2023",
   "votes": {
     "Nay": [
       {
@@ -201,12 +201,6 @@ const house9Votes =
         "id": "C001091",
         "party": "D",
         "state": "TX"
-      },
-      {
-        "display_name": "Cherfilus-McCormick",
-        "id": "C001127",
-        "party": "D",
-        "state": "FL"
       },
       {
         "display_name": "Chu",
@@ -467,12 +461,6 @@ const house9Votes =
         "state": "CA"
       },
       {
-        "display_name": "Gonzales, Tony",
-        "id": "G000594",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Gonzalez, Vicente",
         "id": "G000581",
         "party": "D",
@@ -681,12 +669,6 @@ const house9Votes =
         "id": "L000551",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Lee (NV)",
-        "id": "L000590",
-        "party": "D",
-        "state": "NV"
       },
       {
         "display_name": "Lee (PA)",
@@ -1303,10 +1285,22 @@ const house9Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cherfilus-McCormick",
+        "id": "C001127",
+        "party": "D",
+        "state": "FL"
+      },
+      {
         "display_name": "Crenshaw",
         "id": "C001120",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Lee (NV)",
+        "id": "L000590",
+        "party": "D",
+        "state": "NV"
       }
     ],
     "Present": [],
@@ -1772,6 +1766,12 @@ const house9Votes =
         "id": "G000593",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Gonzales, Tony",
+        "id": "G000594",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Good (VA)",
