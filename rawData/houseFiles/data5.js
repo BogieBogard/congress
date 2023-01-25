@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll029.xml",
   "subject": "Born-Alive Abortion Survivors Protection Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-01-24T22:07:40-05:00",
+  "updated_at": "2023-01-25T04:08:02-05:00",
   "vote_id": "h29-118.2023",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll026.xml",
   "subject": "Establishing the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
   "type": "On the Resolution",
-  "updated_at": "2023-01-24T22:07:41-05:00",
+  "updated_at": "2023-01-25T04:08:04-05:00",
   "vote_id": "h26-118.2023",
   "votes": {
     "Nay": [
