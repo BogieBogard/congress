@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll025.xml",
   "subject": "Family and Small Business Taxpayer Protection Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-01-25T04:08:04-05:00",
+  "updated_at": "2023-01-25T10:08:27-05:00",
   "vote_id": "h25-118.2023",
   "votes": {
     "Nay": [
