@@ -2,32 +2,39 @@ const house1Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 300,
-    "type": "hr"
+    "number": 7,
+    "type": "hconres"
   },
   "category": "passage-suspension",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-24T19:04:00-05:00",
-  "number": 33,
-  "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 300 Settlement Agreement Information Database Act of 2023",
+  "date": "2023-01-25T16:41:00-05:00",
+  "number": 36,
+  "question": "On Motion to Suspend the Rules and Agree to the Resolution, as Amended: H CON RES 7 Commending the bravery, courage, and resolve of the women and men of Iran demonstrating in more than 133 cities and risking their safety to speak out against the Iranian regime\u2019s human rights abuses",
   "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll033.xml",
-  "subject": "Settlement Agreement Information Database Act of 2023",
-  "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-01-25T10:08:23-05:00",
-  "vote_id": "h33-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll036.xml",
+  "subject": "Commending the bravery, courage, and resolve of the women and men of Iran demonstrating in more than 133 cities and risking their safety to speak out against the Iranian regime\u2019s human rights abuses",
+  "type": "On Motion to Suspend the Rules and Agree to the Resolution, as Amended",
+  "updated_at": "2023-01-25T16:08:46-05:00",
+  "vote_id": "h36-118.2023",
   "votes": {
-    "Nay": [],
+    "Nay": [
+      {
+        "display_name": "Massie",
+        "id": "M001184",
+        "party": "R",
+        "state": "KY"
+      }
+    ],
     "Not Voting": [
       {
-        "display_name": "Balint",
-        "id": "B001318",
-        "party": "D",
-        "state": "VT"
+        "display_name": "Bilirakis",
+        "id": "B001257",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Bonamici",
@@ -36,16 +43,16 @@ const house1Votes =
         "state": "OR"
       },
       {
-        "display_name": "Buchanan",
-        "id": "B001260",
+        "display_name": "Crenshaw",
+        "id": "C001120",
         "party": "R",
-        "state": "FL"
+        "state": "TX"
       },
       {
-        "display_name": "Chu",
-        "id": "C001080",
-        "party": "D",
-        "state": "CA"
+        "display_name": "De La Cruz",
+        "id": "D000594",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Eshoo",
@@ -58,6 +65,12 @@ const house1Votes =
         "id": "G000586",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Granger",
+        "id": "G000377",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Mullin",
@@ -76,6 +89,24 @@ const house1Votes =
         "id": "S001214",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Takano",
+        "id": "T000472",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Tlaib",
+        "id": "T000481",
+        "party": "D",
+        "state": "MI"
+      },
+      {
+        "display_name": "Wexton",
+        "id": "W000825",
+        "party": "D",
+        "state": "VA"
       }
     ],
     "Present": [],
@@ -165,6 +196,12 @@ const house1Votes =
         "state": "OH"
       },
       {
+        "display_name": "Balint",
+        "id": "B001318",
+        "party": "D",
+        "state": "VT"
+      },
+      {
         "display_name": "Banks",
         "id": "B001299",
         "party": "R",
@@ -231,12 +268,6 @@ const house1Votes =
         "state": "AZ"
       },
       {
-        "display_name": "Bilirakis",
-        "id": "B001257",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Bishop (GA)",
         "id": "B000490",
         "party": "D",
@@ -301,6 +332,12 @@ const house1Votes =
         "id": "B001285",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Buck",
@@ -459,6 +496,12 @@ const house1Votes =
         "state": "FL"
       },
       {
+        "display_name": "Chu",
+        "id": "C001080",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Cicilline",
         "id": "C001084",
         "party": "D",
@@ -579,12 +622,6 @@ const house1Votes =
         "state": "AR"
       },
       {
-        "display_name": "Crenshaw",
-        "id": "C001120",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Crockett",
         "id": "C001130",
         "party": "D",
@@ -637,12 +674,6 @@ const house1Votes =
         "id": "D000230",
         "party": "D",
         "state": "NC"
-      },
-      {
-        "display_name": "De La Cruz",
-        "id": "D000594",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Dean (PA)",
@@ -991,12 +1022,6 @@ const house1Votes =
         "id": "G000583",
         "party": "D",
         "state": "NJ"
-      },
-      {
-        "display_name": "Granger",
-        "id": "G000377",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Graves (LA)",
@@ -1573,12 +1598,6 @@ const house1Votes =
         "id": "M001135",
         "party": "D",
         "state": "NC"
-      },
-      {
-        "display_name": "Massie",
-        "id": "M001184",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Mast",
@@ -2349,12 +2368,6 @@ const house1Votes =
         "state": "OH"
       },
       {
-        "display_name": "Takano",
-        "id": "T000472",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Tenney",
         "id": "T000478",
         "party": "R",
@@ -2401,12 +2414,6 @@ const house1Votes =
         "id": "T000468",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Tlaib",
-        "id": "T000481",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tokuda",
@@ -2563,12 +2570,6 @@ const house1Votes =
         "id": "W000821",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Wexton",
-        "id": "W000825",
-        "party": "D",
-        "state": "VA"
       },
       {
         "display_name": "Wild",

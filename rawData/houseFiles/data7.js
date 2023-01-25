@@ -2,24 +2,24 @@ const house7Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 12,
-    "type": "hres"
+    "number": 3,
+    "type": "hconres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-10T16:29:00-05:00",
-  "number": 27,
-  "question": "On Agreeing to the Resolution: H RES 12 Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
+  "date": "2023-01-11T16:38:00-05:00",
+  "number": 30,
+  "question": "On Agreeing to the Resolution: H CON RES 3 Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll027.xml",
-  "subject": "Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
+  "source_url": "https://clerk.house.gov/evs/2023/roll030.xml",
+  "subject": "Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches",
   "type": "On the Resolution",
-  "updated_at": "2023-01-25T10:08:26-05:00",
-  "vote_id": "h27-118.2023",
+  "updated_at": "2023-01-25T16:08:49-05:00",
+  "vote_id": "h30-118.2023",
   "votes": {
     "Nay": [
       {
@@ -401,6 +401,12 @@ const house7Votes =
         "state": "IL"
       },
       {
+        "display_name": "Foushee",
+        "id": "F000477",
+        "party": "D",
+        "state": "NC"
+      },
+      {
         "display_name": "Frankel, Lois",
         "id": "F000462",
         "party": "D",
@@ -461,12 +467,6 @@ const house7Votes =
         "state": "CA"
       },
       {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Gottheimer",
         "id": "G000583",
         "party": "D",
@@ -513,12 +513,6 @@ const house7Votes =
         "id": "H001066",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Houlahan",
-        "id": "H001085",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Hoyer",
@@ -905,12 +899,6 @@ const house7Votes =
         "state": "AK"
       },
       {
-        "display_name": "Perez",
-        "id": "G000600",
-        "party": "D",
-        "state": "WA"
-      },
-      {
         "display_name": "Peters",
         "id": "P000608",
         "party": "D",
@@ -1291,16 +1279,22 @@ const house7Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Crenshaw",
-        "id": "C001120",
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
         "party": "R",
         "state": "TX"
       },
       {
-        "display_name": "Foushee",
-        "id": "F000477",
-        "party": "D",
-        "state": "NC"
+        "display_name": "Williams (TX)",
+        "id": "W000816",
+        "party": "R",
+        "state": "TX"
       }
     ],
     "Present": [],
@@ -1438,12 +1432,6 @@ const house7Votes =
         "state": "OK"
       },
       {
-        "display_name": "Buchanan",
-        "id": "B001260",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Buck",
         "id": "B001297",
         "party": "R",
@@ -1568,6 +1556,12 @@ const house7Votes =
         "id": "C001087",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Crenshaw",
+        "id": "C001120",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Curtis",
@@ -1774,6 +1768,12 @@ const house7Votes =
         "state": "TX"
       },
       {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Good (VA)",
         "id": "G000595",
         "party": "R",
@@ -1894,6 +1894,12 @@ const house7Votes =
         "state": "IN"
       },
       {
+        "display_name": "Houlahan",
+        "id": "H001085",
+        "party": "D",
+        "state": "PA"
+      },
+      {
         "display_name": "Hudson",
         "id": "H001067",
         "party": "R",
@@ -1904,12 +1910,6 @@ const house7Votes =
         "id": "H001058",
         "party": "R",
         "state": "MI"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Issa",
@@ -2302,6 +2302,12 @@ const house7Votes =
         "state": "IN"
       },
       {
+        "display_name": "Perez",
+        "id": "G000600",
+        "party": "D",
+        "state": "WA"
+      },
+      {
         "display_name": "Perry",
         "id": "P000605",
         "party": "R",
@@ -2594,12 +2600,6 @@ const house7Votes =
         "id": "W000828",
         "party": "R",
         "state": "NY"
-      },
-      {
-        "display_name": "Williams (TX)",
-        "id": "W000816",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Wilson (SC)",
