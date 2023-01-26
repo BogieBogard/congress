@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll030.xml",
   "subject": "Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches",
   "type": "On the Resolution",
-  "updated_at": "2023-01-26T10:09:59-05:00",
+  "updated_at": "2023-01-26T16:10:23-05:00",
   "vote_id": "h30-118.2023",
   "votes": {
     "Nay": [

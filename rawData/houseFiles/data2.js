@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll035.xml",
   "subject": "Investing in Main Street Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-01-26T10:09:57-05:00",
+  "updated_at": "2023-01-26T16:10:21-05:00",
   "vote_id": "h35-118.2023",
   "votes": {
     "Nay": [

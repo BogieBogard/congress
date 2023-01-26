@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll033.xml",
   "subject": "Settlement Agreement Information Database Act of 2023",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-01-26T10:09:58-05:00",
+  "updated_at": "2023-01-26T16:10:21-05:00",
   "vote_id": "h33-118.2023",
   "votes": {
     "Nay": [],
