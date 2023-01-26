@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll027.xml",
   "subject": "Establishing a Select Subcommittee on the Weaponization of the Federal Government as a select investigative subcommittee of the Committee on the Judiciary",
   "type": "On the Resolution",
-  "updated_at": "2023-01-26T04:09:38-05:00",
+  "updated_at": "2023-01-26T10:10:01-05:00",
   "vote_id": "h27-118.2023",
   "votes": {
     "Nay": [
