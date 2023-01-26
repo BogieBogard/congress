@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll036.xml",
   "subject": "Commending the bravery, courage, and resolve of the women and men of Iran demonstrating in more than 133 cities and risking their safety to speak out against the Iranian regime\u2019s human rights abuses",
   "type": "On Motion to Suspend the Rules and Agree to the Resolution, as Amended",
-  "updated_at": "2023-01-25T22:09:10-05:00",
+  "updated_at": "2023-01-26T04:09:33-05:00",
   "vote_id": "h36-118.2023",
   "votes": {
     "Nay": [
