@@ -1,27 +1,31 @@
 const house8Votes = 
 {
+  "amendment": {
+    "author": "Grijalva of Arizona Amendment No. 56",
+    "number": 27,
+    "type": "h-bill"
+  },
   "bill": {
     "congress": 118,
-    "number": 26,
+    "number": 21,
     "type": "hr"
   },
-  "category": "passage",
+  "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-11T16:29:00-05:00",
-  "number": 29,
-  "question": "On Passage: H R 26 Born-Alive Abortion Survivors Protection Act",
+  "date": "2023-01-26T18:15:00-05:00",
+  "number": 53,
+  "question": "On Agreeing to the Amendment: Amendment 27 to H R 21",
   "requires": "1/2",
-  "result": "Passed",
-  "result_text": "Passed",
+  "result": "Failed",
+  "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll029.xml",
-  "subject": "Born-Alive Abortion Survivors Protection Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-01-26T16:10:23-05:00",
-  "vote_id": "h29-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll053.xml",
+  "type": "On the Amendment",
+  "updated_at": "2023-01-26T22:10:48-05:00",
+  "vote_id": "h53-118.2023",
   "votes": {
-    "Nay": [
+    "Aye": [
       {
         "display_name": "Adams",
         "id": "A000370",
@@ -93,12 +97,6 @@ const house8Votes =
         "id": "B001303",
         "party": "D",
         "state": "DE"
-      },
-      {
-        "display_name": "Bonamici",
-        "id": "B001278",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Bowman",
@@ -293,6 +291,12 @@ const house8Votes =
         "state": "CO"
       },
       {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Davids (KS)",
         "id": "D000629",
         "party": "D",
@@ -383,6 +387,12 @@ const house8Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -425,12 +435,6 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Garc\u00eda (IL)",
-        "id": "G000586",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Garcia (TX)",
         "id": "G000587",
         "party": "D",
@@ -461,13 +465,19 @@ const house8Votes =
         "state": "CA"
       },
       {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Gottheimer",
         "id": "G000583",
         "party": "D",
         "state": "NJ"
       },
       {
-        "display_name": "Green (TX)",
+        "display_name": "Green, Al (TX)",
         "id": "G000553",
         "party": "D",
         "state": "TX"
@@ -845,6 +855,12 @@ const house8Votes =
         "state": "NJ"
       },
       {
+        "display_name": "Norton",
+        "id": "N000147",
+        "party": "D",
+        "state": "XX"
+      },
+      {
         "display_name": "Ocasio-Cortez",
         "id": "O000172",
         "party": "D",
@@ -899,12 +915,6 @@ const house8Votes =
         "state": "AK"
       },
       {
-        "display_name": "Perez",
-        "id": "G000600",
-        "party": "D",
-        "state": "WA"
-      },
-      {
         "display_name": "Peters",
         "id": "P000608",
         "party": "D",
@@ -927,6 +937,12 @@ const house8Votes =
         "id": "P000597",
         "party": "D",
         "state": "ME"
+      },
+      {
+        "display_name": "Plaskett",
+        "id": "P000610",
+        "party": "D",
+        "state": "XX"
       },
       {
         "display_name": "Pocan",
@@ -987,6 +1003,12 @@ const house8Votes =
         "id": "R000579",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Sablan",
+        "id": "S001177",
+        "party": "D",
+        "state": "XX"
       },
       {
         "display_name": "Salinas",
@@ -1283,35 +1305,7 @@ const house8Votes =
         "state": "FL"
       }
     ],
-    "Not Voting": [
-      {
-        "display_name": "Buchanan",
-        "id": "B001260",
-        "party": "R",
-        "state": "FL"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Williams (TX)",
-        "id": "W000816",
-        "party": "R",
-        "state": "TX"
-      }
-    ],
-    "Present": [
-      {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
-      }
-    ],
-    "Yea": [
+    "No": [
       {
         "display_name": "Aderholt",
         "id": "A000055",
@@ -1443,6 +1437,12 @@ const house8Votes =
         "id": "B001317",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Buck",
@@ -1577,12 +1577,6 @@ const house8Votes =
         "state": "TX"
       },
       {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Curtis",
         "id": "C001114",
         "party": "R",
@@ -1707,12 +1701,6 @@ const house8Votes =
         "id": "F000471",
         "party": "R",
         "state": "WI"
-      },
-      {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
       },
       {
         "display_name": "Fleischmann",
@@ -2141,12 +2129,6 @@ const house8Votes =
         "state": "FL"
       },
       {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2307,6 +2289,12 @@ const house8Votes =
         "id": "P000615",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Perez",
+        "id": "G000600",
+        "party": "D",
+        "state": "WA"
       },
       {
         "display_name": "Perry",
@@ -2483,12 +2471,6 @@ const house8Votes =
         "state": "WI"
       },
       {
-        "display_name": "Steube",
-        "id": "S001214",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Stewart",
         "id": "S001192",
         "party": "R",
@@ -2603,6 +2585,12 @@ const house8Votes =
         "state": "NY"
       },
       {
+        "display_name": "Williams (TX)",
+        "id": "W000816",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Wilson (SC)",
         "id": "W000795",
         "party": "R",
@@ -2632,6 +2620,51 @@ const house8Votes =
         "party": "R",
         "state": "MT"
       }
-    ]
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Bonamici",
+        "id": "B001278",
+        "party": "D",
+        "state": "OR"
+      },
+      {
+        "display_name": "Garc\u00eda (IL)",
+        "id": "G000586",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Gonz\u00e1lez-Col\u00f3n (PR)",
+        "id": "G000582",
+        "party": "R",
+        "state": "XX"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
+        "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Moylan",
+        "id": "M001219",
+        "party": "R",
+        "state": "XX"
+      },
+      {
+        "display_name": "Radewagen",
+        "id": "R000600",
+        "party": "R",
+        "state": "XX"
+      },
+      {
+        "display_name": "Steube",
+        "id": "S001214",
+        "party": "R",
+        "state": "FL"
+      }
+    ],
+    "Present": []
   }
 }
