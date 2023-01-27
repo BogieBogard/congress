@@ -1,8 +1,8 @@
 const house8Votes = 
 {
   "amendment": {
-    "author": "Grijalva of Arizona Amendment No. 56",
-    "number": 27,
+    "author": "Plaskett of Virgin Islands Amendment No. 43",
+    "number": 65,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house8Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-26T18:15:00-05:00",
-  "number": 53,
-  "question": "On Agreeing to the Amendment: Amendment 27 to H R 21",
+  "date": "2023-01-27T12:15:00-05:00",
+  "number": 86,
+  "question": "On Agreeing to the Amendment: Amendment 65 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll053.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll086.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-27T10:12:00-05:00",
-  "vote_id": "h53-118.2023",
+  "updated_at": "2023-01-27T16:12:35-05:00",
+  "vote_id": "h86-118.2023",
   "votes": {
     "Aye": [
       {
@@ -231,12 +231,6 @@ const house8Votes =
         "state": "NY"
       },
       {
-        "display_name": "Cleaver",
-        "id": "C001061",
-        "party": "D",
-        "state": "MO"
-      },
-      {
         "display_name": "Clyburn",
         "id": "C000537",
         "party": "D",
@@ -387,12 +381,6 @@ const house8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -525,12 +513,6 @@ const house8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Hoyer",
-        "id": "H000874",
-        "party": "D",
-        "state": "MD"
-      },
-      {
         "display_name": "Hoyle (OR)",
         "id": "H001094",
         "party": "D",
@@ -559,12 +541,6 @@ const house8Votes =
         "id": "J000308",
         "party": "D",
         "state": "NC"
-      },
-      {
-        "display_name": "Jackson Lee",
-        "id": "J000032",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Jacobs",
@@ -909,10 +885,10 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Peltola",
-        "id": "P000619",
+        "display_name": "Perez",
+        "id": "G000600",
         "party": "D",
-        "state": "AK"
+        "state": "WA"
       },
       {
         "display_name": "Peters",
@@ -1703,6 +1679,12 @@ const house8Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -2129,6 +2111,12 @@ const house8Votes =
         "state": "FL"
       },
       {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
+      },
+      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2285,16 +2273,16 @@ const house8Votes =
         "state": "AL"
       },
       {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Perez",
-        "id": "G000600",
-        "party": "D",
-        "state": "WA"
       },
       {
         "display_name": "Perry",
@@ -2629,6 +2617,12 @@ const house8Votes =
         "state": "OR"
       },
       {
+        "display_name": "Cleaver",
+        "id": "C001061",
+        "party": "D",
+        "state": "MO"
+      },
+      {
         "display_name": "Garc\u00eda (IL)",
         "id": "G000586",
         "party": "D",
@@ -2641,9 +2635,21 @@ const house8Votes =
         "state": "XX"
       },
       {
+        "display_name": "Hoyer",
+        "id": "H000874",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Hunt",
         "id": "H001095",
         "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Jackson Lee",
+        "id": "J000032",
+        "party": "D",
         "state": "TX"
       },
       {

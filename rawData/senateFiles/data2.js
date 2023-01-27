@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00001.xml",
   "subject": "Confirmation: Brendan Owens, of Virginia, to be an Assistant Secretary of Defense",
   "type": "On the Nomination",
-  "updated_at": "2023-01-27T10:12:27-05:00",
+  "updated_at": "2023-01-27T16:13:20-05:00",
   "vote_id": "s1-118.2023",
   "votes": {
     "Nay": [
