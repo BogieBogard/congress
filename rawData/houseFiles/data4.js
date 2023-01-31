@@ -1,8 +1,8 @@
 const house4Votes = 
 {
   "amendment": {
-    "author": "Jackson of North Carolina Amendment No. 46",
-    "number": 71,
+    "author": "Lieu of California Amendment No. 61",
+    "number": 75,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house4Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:26:00-05:00",
-  "number": 90,
-  "question": "On Agreeing to the Amendment: Amendment 71 to H R 21",
+  "date": "2023-01-27T12:29:00-05:00",
+  "number": 91,
+  "question": "On Agreeing to the Amendment: Amendment 75 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll090.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll091.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-30T15:26:27-05:00",
-  "vote_id": "h90-118.2023",
+  "updated_at": "2023-01-30T21:27:19-05:00",
+  "vote_id": "h91-118.2023",
   "votes": {
     "Aye": [
       {
@@ -255,22 +255,10 @@ const house4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Costa",
-        "id": "C001059",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Courtney",
         "id": "C001069",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Craig",
-        "id": "C001119",
-        "party": "D",
-        "state": "MN"
       },
       {
         "display_name": "Crockett",
@@ -283,12 +271,6 @@ const house4Votes =
         "id": "C001121",
         "party": "D",
         "state": "CO"
-      },
-      {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Davids (KS)",
@@ -435,12 +417,6 @@ const house4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Goldman (NY)",
         "id": "G000599",
         "party": "D",
@@ -493,12 +469,6 @@ const house4Votes =
         "id": "H001038",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Himes",
-        "id": "H001047",
-        "party": "D",
-        "state": "CT"
       },
       {
         "display_name": "Horsford",
@@ -651,22 +621,10 @@ const house4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Lee (NV)",
-        "id": "L000590",
-        "party": "D",
-        "state": "NV"
-      },
-      {
         "display_name": "Lee (PA)",
         "id": "L000602",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Leger Fernandez",
-        "id": "L000273",
-        "party": "D",
-        "state": "NM"
       },
       {
         "display_name": "Levin",
@@ -861,12 +819,6 @@ const house4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Pappas",
-        "id": "P000614",
-        "party": "D",
-        "state": "NH"
-      },
-      {
         "display_name": "Pascrell",
         "id": "P000096",
         "party": "D",
@@ -881,24 +833,6 @@ const house4Votes =
       {
         "display_name": "Pelosi",
         "id": "P000197",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
-      },
-      {
-        "display_name": "Perez",
-        "id": "G000600",
-        "party": "D",
-        "state": "WA"
-      },
-      {
-        "display_name": "Peters",
-        "id": "P000608",
         "party": "D",
         "state": "CA"
       },
@@ -1027,12 +961,6 @@ const house4Votes =
         "id": "S001150",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Schneider",
-        "id": "S001190",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Scholten",
@@ -1421,12 +1349,6 @@ const house4Votes =
         "state": "OK"
       },
       {
-        "display_name": "Buchanan",
-        "id": "B001260",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Buck",
         "id": "B001297",
         "party": "R",
@@ -1541,6 +1463,18 @@ const house4Votes =
         "state": "KY"
       },
       {
+        "display_name": "Costa",
+        "id": "C001059",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Craig",
+        "id": "C001119",
+        "party": "D",
+        "state": "MN"
+      },
+      {
         "display_name": "Crane",
         "id": "C001132",
         "party": "R",
@@ -1556,6 +1490,12 @@ const house4Votes =
         "display_name": "Crenshaw",
         "id": "C001120",
         "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
         "state": "TX"
       },
       {
@@ -1757,6 +1697,12 @@ const house4Votes =
         "state": "FL"
       },
       {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
+      },
+      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
@@ -1869,6 +1815,12 @@ const house4Votes =
         "id": "H001072",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Himes",
+        "id": "H001047",
+        "party": "D",
+        "state": "CT"
       },
       {
         "display_name": "Hinson",
@@ -2045,6 +1997,12 @@ const house4Votes =
         "state": "FL"
       },
       {
+        "display_name": "Lee (NV)",
+        "id": "L000590",
+        "party": "D",
+        "state": "NV"
+      },
+      {
         "display_name": "Lesko",
         "id": "L000589",
         "party": "R",
@@ -2145,12 +2103,6 @@ const house4Votes =
         "id": "M001218",
         "party": "R",
         "state": "GA"
-      },
-      {
-        "display_name": "McHenry",
-        "id": "M001156",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Meuser",
@@ -2279,16 +2231,40 @@ const house4Votes =
         "state": "AL"
       },
       {
+        "display_name": "Pappas",
+        "id": "P000614",
+        "party": "D",
+        "state": "NH"
+      },
+      {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
         "state": "IN"
       },
       {
+        "display_name": "Perez",
+        "id": "G000600",
+        "party": "D",
+        "state": "WA"
+      },
+      {
         "display_name": "Perry",
         "id": "P000605",
         "party": "R",
         "state": "PA"
+      },
+      {
+        "display_name": "Peters",
+        "id": "P000608",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Pfluger",
@@ -2373,6 +2349,12 @@ const house4Votes =
         "id": "S001176",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Schneider",
+        "id": "S001190",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Schweikert",
@@ -2617,6 +2599,12 @@ const house4Votes =
         "state": "OR"
       },
       {
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
+      },
+      {
         "display_name": "Cleaver",
         "id": "C001061",
         "party": "D",
@@ -2651,6 +2639,18 @@ const house4Votes =
         "id": "J000032",
         "party": "D",
         "state": "TX"
+      },
+      {
+        "display_name": "Leger Fernandez",
+        "id": "L000273",
+        "party": "D",
+        "state": "NM"
+      },
+      {
+        "display_name": "McHenry",
+        "id": "M001156",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Moylan",

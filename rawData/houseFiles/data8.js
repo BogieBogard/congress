@@ -1,8 +1,8 @@
 const house8Votes = 
 {
   "amendment": {
-    "author": "Plaskett of Virgin Islands Amendment No. 43",
-    "number": 65,
+    "author": "Perez of Washington Amendment No. 79",
+    "number": 66,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house8Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:15:00-05:00",
-  "number": 86,
-  "question": "On Agreeing to the Amendment: Amendment 65 to H R 21",
+  "date": "2023-01-27T12:18:00-05:00",
+  "number": 87,
+  "question": "On Agreeing to the Amendment: Amendment 66 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll086.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll087.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-30T15:26:29-05:00",
-  "vote_id": "h86-118.2023",
+  "updated_at": "2023-01-30T21:27:21-05:00",
+  "vote_id": "h87-118.2023",
   "votes": {
     "Aye": [
       {
@@ -381,10 +381,10 @@ const house8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fletcher",
-        "id": "F000468",
-        "party": "D",
-        "state": "TX"
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
       },
       {
         "display_name": "Foster",
@@ -885,6 +885,12 @@ const house8Votes =
         "state": "CA"
       },
       {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Perez",
         "id": "G000600",
         "party": "D",
@@ -1283,12 +1289,6 @@ const house8Votes =
     ],
     "No": [
       {
-        "display_name": "Aderholt",
-        "id": "A000055",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Alford",
         "id": "A000379",
         "party": "R",
@@ -1679,16 +1679,16 @@ const house8Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
         "state": "TN"
+      },
+      {
+        "display_name": "Fletcher",
+        "id": "F000468",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Flood",
@@ -2273,12 +2273,6 @@ const house8Votes =
         "state": "AL"
       },
       {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
-      },
-      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
@@ -2610,6 +2604,12 @@ const house8Votes =
       }
     ],
     "Not Voting": [
+      {
+        "display_name": "Aderholt",
+        "id": "A000055",
+        "party": "R",
+        "state": "AL"
+      },
       {
         "display_name": "Bonamici",
         "id": "B001278",

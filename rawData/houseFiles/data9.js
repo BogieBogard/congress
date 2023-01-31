@@ -1,8 +1,8 @@
 const house9Votes = 
 {
   "amendment": {
-    "author": "Barragan of California Amendment No. 24",
-    "number": 64,
+    "author": "Plaskett of Virgin Islands Amendment No. 43",
+    "number": 65,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house9Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:12:00-05:00",
-  "number": 85,
-  "question": "On Agreeing to the Amendment: Amendment 64 to H R 21",
+  "date": "2023-01-27T12:15:00-05:00",
+  "number": 86,
+  "question": "On Agreeing to the Amendment: Amendment 65 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll085.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll086.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-30T15:26:29-05:00",
-  "vote_id": "h85-118.2023",
+  "updated_at": "2023-01-30T21:27:22-05:00",
+  "vote_id": "h86-118.2023",
   "votes": {
     "Aye": [
       {
@@ -379,6 +379,12 @@ const house9Votes =
         "id": "E000296",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Fletcher",
+        "id": "F000468",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Foster",
@@ -877,12 +883,6 @@ const house9Votes =
         "id": "P000197",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
       },
       {
         "display_name": "Perez",
@@ -1691,12 +1691,6 @@ const house9Votes =
         "state": "TN"
       },
       {
-        "display_name": "Fletcher",
-        "id": "F000468",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Flood",
         "id": "F000474",
         "party": "R",
@@ -1881,6 +1875,12 @@ const house9Votes =
         "id": "H001093",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Hudson",
+        "id": "H001067",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Huizenga",
@@ -2273,6 +2273,12 @@ const house9Votes =
         "state": "AL"
       },
       {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
@@ -2337,6 +2343,12 @@ const house9Votes =
         "id": "R000603",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Roy",
+        "id": "R000614",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Rutherford",
@@ -2629,12 +2641,6 @@ const house9Votes =
         "state": "MD"
       },
       {
-        "display_name": "Hudson",
-        "id": "H001067",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Hunt",
         "id": "H001095",
         "party": "R",
@@ -2657,12 +2663,6 @@ const house9Votes =
         "id": "R000600",
         "party": "R",
         "state": "XX"
-      },
-      {
-        "display_name": "Roy",
-        "id": "R000614",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Steube",

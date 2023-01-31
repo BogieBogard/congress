@@ -1,8 +1,8 @@
 const house5Votes = 
 {
   "amendment": {
-    "author": "Grijalva of Arizona Amendment No. 145",
-    "number": 70,
+    "author": "Jackson of North Carolina Amendment No. 46",
+    "number": 71,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house5Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:23:00-05:00",
-  "number": 89,
-  "question": "On Agreeing to the Amendment: Amendment 70 to H R 21",
+  "date": "2023-01-27T12:26:00-05:00",
+  "number": 90,
+  "question": "On Agreeing to the Amendment: Amendment 71 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll089.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll090.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-30T15:26:27-05:00",
-  "vote_id": "h89-118.2023",
+  "updated_at": "2023-01-30T21:27:20-05:00",
+  "vote_id": "h90-118.2023",
   "votes": {
     "Aye": [
       {
@@ -378,12 +378,6 @@ const house5Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
-        "state": "PA"
-      },
-      {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
         "state": "PA"
       },
       {
@@ -829,6 +823,12 @@ const house5Votes =
         "id": "N000194",
         "party": "D",
         "state": "NC"
+      },
+      {
+        "display_name": "Norcross",
+        "id": "N000188",
+        "party": "D",
+        "state": "NJ"
       },
       {
         "display_name": "Norton",
@@ -1685,6 +1685,12 @@ const house5Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -2139,6 +2145,12 @@ const house5Votes =
         "id": "M001218",
         "party": "R",
         "state": "GA"
+      },
+      {
+        "display_name": "McHenry",
+        "id": "M001156",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Meuser",
@@ -2641,22 +2653,10 @@ const house5Votes =
         "state": "TX"
       },
       {
-        "display_name": "McHenry",
-        "id": "M001156",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Moylan",
         "id": "M001219",
         "party": "R",
         "state": "XX"
-      },
-      {
-        "display_name": "Norcross",
-        "id": "N000188",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Radewagen",
