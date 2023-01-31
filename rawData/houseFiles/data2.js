@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll093.xml",
   "subject": "Strategic Production Response Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-01-30T21:27:18-05:00",
+  "updated_at": "2023-01-31T03:28:11-05:00",
   "vote_id": "h93-118.2023",
   "votes": {
     "Nay": [
