@@ -1,8 +1,8 @@
 const house8Votes = 
 {
   "amendment": {
-    "author": "Perez of Washington Amendment No. 79",
-    "number": 66,
+    "author": "Grijalva of Arizona Amendment No. 145",
+    "number": 70,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house8Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:18:00-05:00",
-  "number": 87,
-  "question": "On Agreeing to the Amendment: Amendment 66 to H R 21",
+  "date": "2023-01-27T12:23:00-05:00",
+  "number": 89,
+  "question": "On Agreeing to the Amendment: Amendment 70 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll087.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll089.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-31T09:29:07-05:00",
-  "vote_id": "h87-118.2023",
+  "updated_at": "2023-01-31T15:30:01-05:00",
+  "vote_id": "h89-118.2023",
   "votes": {
     "Aye": [
       {
@@ -385,6 +385,12 @@ const house8Votes =
         "id": "F000466",
         "party": "R",
         "state": "PA"
+      },
+      {
+        "display_name": "Fletcher",
+        "id": "F000468",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Foster",
@@ -823,12 +829,6 @@ const house8Votes =
         "id": "N000194",
         "party": "D",
         "state": "NC"
-      },
-      {
-        "display_name": "Norcross",
-        "id": "N000188",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Norton",
@@ -1289,6 +1289,12 @@ const house8Votes =
     ],
     "No": [
       {
+        "display_name": "Aderholt",
+        "id": "A000055",
+        "party": "R",
+        "state": "AL"
+      },
+      {
         "display_name": "Alford",
         "id": "A000379",
         "party": "R",
@@ -1683,12 +1689,6 @@ const house8Votes =
         "id": "F000459",
         "party": "R",
         "state": "TN"
-      },
-      {
-        "display_name": "Fletcher",
-        "id": "F000468",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Flood",
@@ -2139,12 +2139,6 @@ const house8Votes =
         "id": "M001218",
         "party": "R",
         "state": "GA"
-      },
-      {
-        "display_name": "McHenry",
-        "id": "M001156",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Meuser",
@@ -2605,12 +2599,6 @@ const house8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Aderholt",
-        "id": "A000055",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Bonamici",
         "id": "B001278",
         "party": "D",
@@ -2653,10 +2641,22 @@ const house8Votes =
         "state": "TX"
       },
       {
+        "display_name": "McHenry",
+        "id": "M001156",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Moylan",
         "id": "M001219",
         "party": "R",
         "state": "XX"
+      },
+      {
+        "display_name": "Norcross",
+        "id": "N000188",
+        "party": "D",
+        "state": "NJ"
       },
       {
         "display_name": "Radewagen",

@@ -1,8 +1,8 @@
 const house10Votes = 
 {
   "amendment": {
-    "author": "Barragan of California Amendment No. 24",
-    "number": 64,
+    "author": "Perez of Washington Amendment No. 79",
+    "number": 66,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house10Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:12:00-05:00",
-  "number": 85,
-  "question": "On Agreeing to the Amendment: Amendment 64 to H R 21",
+  "date": "2023-01-27T12:18:00-05:00",
+  "number": 87,
+  "question": "On Agreeing to the Amendment: Amendment 66 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll085.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll087.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-31T09:29:08-05:00",
-  "vote_id": "h85-118.2023",
+  "updated_at": "2023-01-31T15:30:02-05:00",
+  "vote_id": "h87-118.2023",
   "votes": {
     "Aye": [
       {
@@ -378,6 +378,12 @@ const house10Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
         "state": "PA"
       },
       {
@@ -1283,12 +1289,6 @@ const house10Votes =
     ],
     "No": [
       {
-        "display_name": "Aderholt",
-        "id": "A000055",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Alford",
         "id": "A000379",
         "party": "R",
@@ -1679,12 +1679,6 @@ const house10Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1881,6 +1875,12 @@ const house10Votes =
         "id": "H001093",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Hudson",
+        "id": "H001067",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Huizenga",
@@ -2339,6 +2339,12 @@ const house10Votes =
         "state": "NC"
       },
       {
+        "display_name": "Roy",
+        "id": "R000614",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Rutherford",
         "id": "R000609",
         "party": "R",
@@ -2599,6 +2605,12 @@ const house10Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Aderholt",
+        "id": "A000055",
+        "party": "R",
+        "state": "AL"
+      },
+      {
         "display_name": "Bonamici",
         "id": "B001278",
         "party": "D",
@@ -2629,12 +2641,6 @@ const house10Votes =
         "state": "MD"
       },
       {
-        "display_name": "Hudson",
-        "id": "H001067",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Hunt",
         "id": "H001095",
         "party": "R",
@@ -2657,12 +2663,6 @@ const house10Votes =
         "id": "R000600",
         "party": "R",
         "state": "XX"
-      },
-      {
-        "display_name": "Roy",
-        "id": "R000614",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Steube",

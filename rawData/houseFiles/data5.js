@@ -1,8 +1,8 @@
 const house5Votes = 
 {
   "amendment": {
-    "author": "Jackson of North Carolina Amendment No. 46",
-    "number": 71,
+    "author": "Nickel of North Carolina Amendment No. 77",
+    "number": 77,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house5Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:26:00-05:00",
-  "number": 90,
-  "question": "On Agreeing to the Amendment: Amendment 71 to H R 21",
+  "date": "2023-01-27T12:32:00-05:00",
+  "number": 92,
+  "question": "On Agreeing to the Amendment: Amendment 77 to H R 21",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll090.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll092.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-01-31T09:29:06-05:00",
-  "vote_id": "h90-118.2023",
+  "updated_at": "2023-01-31T15:29:59-05:00",
+  "vote_id": "h92-118.2023",
   "votes": {
     "Aye": [
       {
@@ -251,12 +251,6 @@ const house5Votes =
       {
         "display_name": "Correa",
         "id": "C001110",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Costa",
-        "id": "C001059",
         "party": "D",
         "state": "CA"
       },
@@ -493,12 +487,6 @@ const house5Votes =
         "id": "H001038",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Himes",
-        "id": "H001047",
-        "party": "D",
-        "state": "CT"
       },
       {
         "display_name": "Horsford",
@@ -883,12 +871,6 @@ const house5Votes =
         "id": "P000197",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
       },
       {
         "display_name": "Perez",
@@ -1541,6 +1523,12 @@ const house5Votes =
         "state": "KY"
       },
       {
+        "display_name": "Costa",
+        "id": "C001059",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Crane",
         "id": "C001132",
         "party": "R",
@@ -1623,12 +1611,6 @@ const house5Votes =
         "id": "E000246",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "Ellzey",
-        "id": "E000071",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Emmer",
@@ -1869,6 +1851,12 @@ const house5Votes =
         "id": "H001072",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Himes",
+        "id": "H001047",
+        "party": "D",
+        "state": "CT"
       },
       {
         "display_name": "Hinson",
@@ -2279,6 +2267,12 @@ const house5Votes =
         "state": "AL"
       },
       {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
@@ -2621,6 +2615,12 @@ const house5Votes =
         "id": "C001061",
         "party": "D",
         "state": "MO"
+      },
+      {
+        "display_name": "Ellzey",
+        "id": "E000071",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Garc\u00eda (IL)",
