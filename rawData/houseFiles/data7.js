@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll094.xml",
   "subject": "Financial Exploitation Prevention Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-01-31T21:30:55-05:00",
+  "updated_at": "2023-02-01T03:31:53-05:00",
   "vote_id": "h94-118.2023",
   "votes": {
     "Nay": [],
