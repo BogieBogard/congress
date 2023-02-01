@@ -2,24 +2,24 @@ const house8Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 21,
-    "type": "hr"
+    "number": 75,
+    "type": "hres"
   },
-  "category": "passage",
+  "category": "procedural",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-27T12:40:00-05:00",
-  "number": 93,
-  "question": "On Passage: H R 21 Strategic Production Response Act",
+  "date": "2023-01-31T13:52:00-05:00",
+  "number": 95,
+  "question": "On Ordering the Previous Question: H RES 75 Providing for consideration of the bill (H.J. Res. 7) relating to a national emergency declared by the President on March 13, 2020; consideration of (H.R. 139) the SHOW UP Act; consideration of (H.R. 382) the Pandemic is Over Act; and consideration of (H.R. 497) the Freedom for Health Care Workers Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll093.xml",
-  "subject": "Strategic Production Response Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-02-01T09:32:51-05:00",
-  "vote_id": "h93-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll095.xml",
+  "subject": "Providing for consideration of the bill (H.J. Res. 7) relating to a national emergency declared by the President on March 13, 2020; consideration of (H.R. 139) the SHOW UP Act; consideration of (H.R. 382) the Pandemic is Over Act; and consideration of (H.R. 497) the Freedom for Health Care Workers Act",
+  "type": "On Ordering the Previous Question",
+  "updated_at": "2023-02-01T15:33:49-05:00",
+  "vote_id": "h95-118.2023",
   "votes": {
     "Nay": [
       {
@@ -93,6 +93,12 @@ const house8Votes =
         "id": "B001303",
         "party": "D",
         "state": "DE"
+      },
+      {
+        "display_name": "Bonamici",
+        "id": "B001278",
+        "party": "D",
+        "state": "OR"
       },
       {
         "display_name": "Bowman",
@@ -225,6 +231,12 @@ const house8Votes =
         "id": "C001067",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Cleaver",
+        "id": "C001061",
+        "party": "D",
+        "state": "MO"
       },
       {
         "display_name": "Clyburn",
@@ -419,6 +431,12 @@ const house8Votes =
         "state": "CA"
       },
       {
+        "display_name": "Garc\u00eda (IL)",
+        "id": "G000586",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Garcia (TX)",
         "id": "G000587",
         "party": "D",
@@ -431,10 +449,10 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Goldman (NY)",
-        "id": "G000599",
+        "display_name": "Golden (ME)",
+        "id": "G000592",
         "party": "D",
-        "state": "NY"
+        "state": "ME"
       },
       {
         "display_name": "Gomez",
@@ -447,12 +465,6 @@ const house8Votes =
         "id": "G000581",
         "party": "D",
         "state": "TX"
-      },
-      {
-        "display_name": "Gottheimer",
-        "id": "G000583",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Green, Al (TX)",
@@ -503,6 +515,12 @@ const house8Votes =
         "state": "PA"
       },
       {
+        "display_name": "Hoyer",
+        "id": "H000874",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Hoyle (OR)",
         "id": "H001094",
         "party": "D",
@@ -531,6 +549,12 @@ const house8Votes =
         "id": "J000308",
         "party": "D",
         "state": "NC"
+      },
+      {
+        "display_name": "Jackson Lee",
+        "id": "J000032",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Jacobs",
@@ -731,12 +755,6 @@ const house8Votes =
         "state": "NY"
       },
       {
-        "display_name": "Menendez",
-        "id": "M001226",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Meng",
         "id": "M001188",
         "party": "D",
@@ -867,6 +885,12 @@ const house8Votes =
         "id": "P000197",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
       },
       {
         "display_name": "Perez",
@@ -1255,46 +1279,34 @@ const house8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Bonamici",
-        "id": "B001278",
-        "party": "D",
-        "state": "OR"
-      },
-      {
-        "display_name": "Cleaver",
-        "id": "C001061",
-        "party": "D",
-        "state": "MO"
-      },
-      {
-        "display_name": "Garc\u00eda (IL)",
-        "id": "G000586",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Hoyer",
-        "id": "H000874",
-        "party": "D",
-        "state": "MD"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
+        "display_name": "Bacon",
+        "id": "B001298",
         "party": "R",
-        "state": "TX"
+        "state": "NE"
       },
       {
-        "display_name": "Jackson Lee",
-        "id": "J000032",
+        "display_name": "Goldman (NY)",
+        "id": "G000599",
         "party": "D",
-        "state": "TX"
+        "state": "NY"
       },
       {
-        "display_name": "Peltola",
-        "id": "P000619",
+        "display_name": "Gottheimer",
+        "id": "G000583",
         "party": "D",
-        "state": "AK"
+        "state": "NJ"
+      },
+      {
+        "display_name": "Menendez",
+        "id": "M001226",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Pence",
+        "id": "P000615",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Steube",
@@ -1346,12 +1358,6 @@ const house8Votes =
         "id": "B001291",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Bacon",
-        "id": "B001298",
-        "party": "R",
-        "state": "NE"
       },
       {
         "display_name": "Baird",
@@ -1774,12 +1780,6 @@ const house8Votes =
         "state": "FL"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
@@ -1916,6 +1916,12 @@ const house8Votes =
         "id": "H001058",
         "party": "R",
         "state": "MI"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Issa",
@@ -2140,12 +2146,6 @@ const house8Votes =
         "state": "FL"
       },
       {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2300,12 +2300,6 @@ const house8Votes =
         "id": "P000609",
         "party": "R",
         "state": "AL"
-      },
-      {
-        "display_name": "Pence",
-        "id": "P000615",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Perry",
