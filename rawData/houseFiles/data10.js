@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll095.xml",
   "subject": "Providing for consideration of the bill (H.J. Res. 7) relating to a national emergency declared by the President on March 13, 2020; consideration of (H.R. 139) the SHOW UP Act; consideration of (H.R. 382) the Pandemic is Over Act; and consideration of (H.R. 497) the Freedom for Health Care Workers Act",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-02-02T03:35:46-05:00",
+  "updated_at": "2023-02-02T09:36:45-05:00",
   "vote_id": "h95-118.2023",
   "votes": {
     "Nay": [
