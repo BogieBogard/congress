@@ -1,156 +1,53 @@
 const senate2Votes = 
 {
-  "category": "nomination",
+  "bill": {
+    "congress": 118,
+    "number": 21,
+    "title": "A resolution supporting the observation of National Trafficking and Modern Slavery Prevention Month during the period beginning on January 1, 2023, and ending on February 1, 2023, to raise awareness of, and opposition to, human trafficking and modern slavery.",
+    "type": "sres"
+  },
+  "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-01-30T17:30:00-05:00",
-  "nomination": {
-    "number": "62",
-    "title": "Roger Israel Zakheim, of Maryland, to be a Member of the Board of Directors of the United States Institute of Peace for a term of four years"
-  },
-  "number": 3,
-  "question": "On the Nomination PN62: Roger Israel Zakheim, of Maryland, to be a Member of the Board of Directors of the United States Institute of Peace for a term of four years",
-  "record_modified": "2023-01-30T18:45:00-05:00",
+  "date": "2023-02-01T15:29:00-05:00",
+  "number": 4,
+  "question": "On the Resolution S.Res. 21",
+  "record_modified": "2023-02-01T16:32:00-05:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (84-10)",
+  "result": "Resolution Agreed to",
+  "result_text": "Resolution Agreed to (97-0)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00003.xml",
-  "subject": "Confirmation: Roger Israel Zakheim, of Maryland, to be a Member of the Board of Directors of the United States Institute of Peace",
-  "type": "On the Nomination",
-  "updated_at": "2023-02-02T09:37:34-05:00",
-  "vote_id": "s3-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00004.xml",
+  "subject": "S. Res. 21",
+  "type": "On the Resolution",
+  "updated_at": "2023-02-02T15:38:34-05:00",
+  "vote_id": "s4-118.2023",
   "votes": {
-    "Nay": [
+    "Nay": [],
+    "Not Voting": [
       {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
         "party": "R",
-        "state": "IN"
+        "state": "AK"
       },
       {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
-        "display_name": "Merkley (D-OR)",
-        "first_name": "Jeff",
-        "id": "S322",
-        "last_name": "Merkley",
-        "party": "D",
-        "state": "OR"
-      },
-      {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
-        "party": "R",
-        "state": "KY"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
-      },
-      {
-        "display_name": "Schmitt (R-MO)",
-        "first_name": "Eric ",
-        "id": "S420",
-        "last_name": "Schmitt",
-        "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Scott (R-FL)",
-        "first_name": "Rick",
-        "id": "S404",
-        "last_name": "Scott",
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
         "party": "R",
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
-      }
-    ],
-    "Not Voting": [
-      {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
+        "display_name": "Wyden (D-OR)",
+        "first_name": "Ron",
+        "id": "S247",
+        "last_name": "Wyden",
         "party": "D",
-        "state": "NJ"
-      },
-      {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
-        "display_name": "Lummis (R-WY)",
-        "first_name": "Cynthia",
-        "id": "S410",
-        "last_name": "Lummis",
-        "party": "R",
-        "state": "WY"
-      },
-      {
-        "display_name": "Markey (D-MA)",
-        "first_name": "Edward",
-        "id": "S369",
-        "last_name": "Markey",
-        "party": "D",
-        "state": "MA"
-      },
-      {
-        "display_name": "Menendez (D-NJ)",
-        "first_name": "Robert",
-        "id": "S306",
-        "last_name": "Menendez",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
+        "state": "OR"
       }
     ],
     "Present": [],
@@ -196,12 +93,28 @@ const senate2Votes =
         "state": "CT"
       },
       {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
         "display_name": "Boozman (R-AR)",
         "first_name": "John",
         "id": "S343",
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -242,6 +155,14 @@ const senate2Votes =
         "last_name": "Capito",
         "party": "R",
         "state": "WV"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
       },
       {
         "display_name": "Carper (D-DE)",
@@ -428,6 +349,14 @@ const senate2Votes =
         "state": "NH"
       },
       {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Heinrich (D-NM)",
         "first_name": "Martin",
         "id": "S359",
@@ -524,6 +453,14 @@ const senate2Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
@@ -532,12 +469,28 @@ const senate2Votes =
         "state": "NM"
       },
       {
+        "display_name": "Lummis (R-WY)",
+        "first_name": "Cynthia",
+        "id": "S410",
+        "last_name": "Lummis",
+        "party": "R",
+        "state": "WY"
+      },
+      {
         "display_name": "Manchin (D-WV)",
         "first_name": "Joseph",
         "id": "S338",
         "last_name": "Manchin",
         "party": "D",
         "state": "WV"
+      },
+      {
+        "display_name": "Markey (D-MA)",
+        "first_name": "Edward",
+        "id": "S369",
+        "last_name": "Markey",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Marshall (R-KS)",
@@ -556,6 +509,22 @@ const senate2Votes =
         "state": "KY"
       },
       {
+        "display_name": "Menendez (D-NJ)",
+        "first_name": "Robert",
+        "id": "S306",
+        "last_name": "Menendez",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Merkley (D-OR)",
+        "first_name": "Jeff",
+        "id": "S322",
+        "last_name": "Merkley",
+        "party": "D",
+        "state": "OR"
+      },
+      {
         "display_name": "Moran (R-KS)",
         "first_name": "Jerry",
         "id": "S347",
@@ -570,14 +539,6 @@ const senate2Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -610,6 +571,14 @@ const senate2Votes =
         "last_name": "Padilla",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Peters (D-MI)",
@@ -668,12 +637,12 @@ const senate2Votes =
         "state": "SD"
       },
       {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
@@ -684,12 +653,36 @@ const senate2Votes =
         "state": "HI"
       },
       {
+        "display_name": "Schmitt (R-MO)",
+        "first_name": "Eric ",
+        "id": "S420",
+        "last_name": "Schmitt",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Schumer (D-NY)",
         "first_name": "Charles",
         "id": "S270",
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Scott (R-FL)",
+        "first_name": "Rick",
+        "id": "S404",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Shaheen (D-NH)",
@@ -772,6 +765,14 @@ const senate2Votes =
         "state": "MD"
       },
       {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Warner (D-VA)",
         "first_name": "Mark",
         "id": "S327",
@@ -812,12 +813,12 @@ const senate2Votes =
         "state": "RI"
       },
       {
-        "display_name": "Wyden (D-OR)",
-        "first_name": "Ron",
-        "id": "S247",
-        "last_name": "Wyden",
-        "party": "D",
-        "state": "OR"
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Young (R-IN)",

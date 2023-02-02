@@ -2,24 +2,24 @@ const house4Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 83,
-    "type": "hres"
+    "number": 139,
+    "type": "hr"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-02-01T13:55:00-05:00",
-  "number": 101,
-  "question": "On Ordering the Previous Question: H RES 83 Providing for consideration of the concurrent resolution (H. Con. Res. 9) denouncing the horrors of Socialism; and providing for consideration of the resolution (H. Res. 76) removing a certain member from a certain standing committee of the House",
+  "date": "2023-02-01T16:54:00-05:00",
+  "number": 103,
+  "question": "On Passage: H R 139 SHOW UP Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll101.xml",
-  "subject": "Providing for consideration of the concurrent resolution (H. Con. Res. 9) denouncing the horrors of Socialism; and providing for consideration of the resolution (H. Res. 76) removing a certain member from a certain standing committee of the House",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2023-02-02T09:36:42-05:00",
-  "vote_id": "h101-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll103.xml",
+  "subject": "SHOW UP Act",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-02-02T15:37:41-05:00",
+  "vote_id": "h103-118.2023",
   "votes": {
     "Nay": [
       {
@@ -105,12 +105,6 @@ const house4Votes =
         "id": "B001223",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Boyle (PA)",
-        "id": "B001296",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Brown",
@@ -383,6 +377,12 @@ const house4Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -477,12 +477,6 @@ const house4Votes =
         "id": "G000551",
         "party": "D",
         "state": "AZ"
-      },
-      {
-        "display_name": "Harder (CA)",
-        "id": "H001090",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Hayes",
@@ -905,6 +899,12 @@ const house4Votes =
         "state": "CA"
       },
       {
+        "display_name": "Pettersen",
+        "id": "P000620",
+        "party": "D",
+        "state": "CO"
+      },
+      {
         "display_name": "Phillips",
         "id": "P000616",
         "party": "D",
@@ -927,6 +927,12 @@ const house4Votes =
         "id": "P000618",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Pressley",
+        "id": "P000617",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Quigley",
@@ -1017,12 +1023,6 @@ const house4Votes =
         "id": "S001221",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Schrier",
-        "id": "S001216",
-        "party": "D",
-        "state": "WA"
       },
       {
         "display_name": "Scott (VA)",
@@ -1247,12 +1247,6 @@ const house4Votes =
         "state": "VA"
       },
       {
-        "display_name": "Wild",
-        "id": "W000826",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Williams (GA)",
         "id": "W000788",
         "party": "D",
@@ -1267,10 +1261,10 @@ const house4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Carey",
-        "id": "C001126",
-        "party": "R",
-        "state": "OH"
+        "display_name": "Boyle (PA)",
+        "id": "B001296",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Cohen",
@@ -1295,18 +1289,6 @@ const house4Votes =
         "id": "P000615",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Pettersen",
-        "id": "P000620",
-        "party": "D",
-        "state": "CO"
-      },
-      {
-        "display_name": "Pressley",
-        "id": "P000617",
-        "party": "D",
-        "state": "MA"
       },
       {
         "display_name": "Steube",
@@ -1496,6 +1478,12 @@ const house4Votes =
         "id": "C001039",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Carey",
+        "id": "C001126",
+        "party": "R",
+        "state": "OH"
       },
       {
         "display_name": "Carl",
@@ -1708,12 +1696,6 @@ const house4Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1862,6 +1844,12 @@ const house4Votes =
         "id": "H001096",
         "party": "R",
         "state": "WY"
+      },
+      {
+        "display_name": "Harder (CA)",
+        "id": "H001090",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Harris",
@@ -2146,12 +2134,6 @@ const house4Votes =
         "state": "FL"
       },
       {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2398,6 +2380,12 @@ const house4Votes =
         "state": "LA"
       },
       {
+        "display_name": "Schrier",
+        "id": "S001216",
+        "party": "D",
+        "state": "WA"
+      },
+      {
         "display_name": "Schweikert",
         "id": "S001183",
         "party": "R",
@@ -2588,6 +2576,12 @@ const house4Votes =
         "id": "W000821",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Wild",
+        "id": "W000826",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Williams (NY)",
