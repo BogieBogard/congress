@@ -2,24 +2,24 @@ const house6Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 497,
+    "number": 382,
     "type": "hr"
   },
   "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-31T17:07:00-05:00",
-  "number": 97,
-  "question": "On Motion to Recommit: H R 497 Freedom for Health Care Workers Act",
+  "date": "2023-01-31T17:21:00-05:00",
+  "number": 99,
+  "question": "On Motion to Recommit: H R 382 Pandemic is Over Act",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll097.xml",
-  "subject": "Freedom for Health Care Workers Act",
+  "source_url": "https://clerk.house.gov/evs/2023/roll099.xml",
+  "subject": "Pandemic is Over Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-02-01T15:33:48-05:00",
-  "vote_id": "h97-118.2023",
+  "updated_at": "2023-02-01T21:34:45-05:00",
+  "vote_id": "h99-118.2023",
   "votes": {
     "Nay": [
       {
@@ -1139,6 +1139,12 @@ const house6Votes =
         "state": "ID"
       },
       {
+        "display_name": "Smith (MO)",
+        "id": "S001195",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Smith (NE)",
         "id": "S001172",
         "party": "R",
@@ -1355,12 +1361,6 @@ const house6Votes =
         "id": "P000615",
         "party": "R",
         "state": "IN"
-      },
-      {
-        "display_name": "Smith (MO)",
-        "id": "S001195",
-        "party": "R",
-        "state": "MO"
       },
       {
         "display_name": "Steube",
