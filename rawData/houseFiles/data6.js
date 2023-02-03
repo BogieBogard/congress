@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll101.xml",
   "subject": "Providing for consideration of the concurrent resolution (H. Con. Res. 9) denouncing the horrors of Socialism; and providing for consideration of the resolution (H. Res. 76) removing a certain member from a certain standing committee of the House",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-02-02T21:38:44-05:00",
+  "updated_at": "2023-02-03T03:39:44-05:00",
   "vote_id": "h101-118.2023",
   "votes": {
     "Nay": [

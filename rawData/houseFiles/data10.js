@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll097.xml",
   "subject": "Freedom for Health Care Workers Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-02-02T21:38:45-05:00",
+  "updated_at": "2023-02-03T03:39:46-05:00",
   "vote_id": "h97-118.2023",
   "votes": {
     "Nay": [

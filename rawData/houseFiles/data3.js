@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll104.xml",
   "subject": "Relating to a national emergency declared by the President on March 13, 2020",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-02T21:38:42-05:00",
+  "updated_at": "2023-02-03T03:39:43-05:00",
   "vote_id": "h104-118.2023",
   "votes": {
     "Nay": [
