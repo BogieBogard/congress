@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll098.xml",
   "subject": "Freedom for Health Care Workers Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-04T09:44:49-05:00",
+  "updated_at": "2023-02-04T15:45:50-05:00",
   "vote_id": "h98-118.2023",
   "votes": {
     "Aye": [
