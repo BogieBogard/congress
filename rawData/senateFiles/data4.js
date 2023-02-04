@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00002.xml",
   "subject": "S.Res. 13",
   "type": "On the Resolution",
-  "updated_at": "2023-02-03T21:43:39-05:00",
+  "updated_at": "2023-02-04T03:44:40-05:00",
   "vote_id": "s2-118.2023",
   "votes": {
     "Nay": [],
