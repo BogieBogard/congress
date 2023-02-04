@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll100.xml",
   "subject": "Pandemic is Over Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-04T03:43:48-05:00",
+  "updated_at": "2023-02-04T09:44:48-05:00",
   "vote_id": "h100-118.2023",
   "votes": {
     "Nay": [
