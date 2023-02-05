@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll105.xml",
   "subject": "Removing a certain Member from a certain standing committee of the House",
   "type": "On the Resolution",
-  "updated_at": "2023-02-05T03:47:48-05:00",
+  "updated_at": "2023-02-05T09:48:48-05:00",
   "vote_id": "h105-118.2023",
   "votes": {
     "Nay": [
