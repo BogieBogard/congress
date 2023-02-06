@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll099.xml",
   "subject": "Pandemic is Over Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-02-06T09:52:53-05:00",
+  "updated_at": "2023-02-06T15:53:55-05:00",
   "vote_id": "h99-118.2023",
   "votes": {
     "Nay": [
