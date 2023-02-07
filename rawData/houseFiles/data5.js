@@ -2,24 +2,24 @@ const house5Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 139,
-    "type": "hr"
+    "number": 76,
+    "type": "hres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-02-01T16:54:00-05:00",
-  "number": 103,
-  "question": "On Passage: H R 139 SHOW UP Act",
+  "date": "2023-02-02T12:27:00-05:00",
+  "number": 105,
+  "question": "On Agreeing to the Resolution: H RES 76 Removing a certain Member from a certain standing committee of the House",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll103.xml",
-  "subject": "SHOW UP Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-02-07T09:56:58-05:00",
-  "vote_id": "h103-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll105.xml",
+  "subject": "Removing a certain Member from a certain standing committee of the House",
+  "type": "On the Resolution",
+  "updated_at": "2023-02-07T15:57:59-05:00",
+  "vote_id": "h105-118.2023",
   "votes": {
     "Nay": [
       {
@@ -105,6 +105,12 @@ const house5Votes =
         "id": "B001223",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Boyle (PA)",
+        "id": "B001296",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Brown",
@@ -377,12 +383,6 @@ const house5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -423,6 +423,12 @@ const house5Votes =
         "id": "G000559",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Garc\u00eda (IL)",
+        "id": "G000586",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Garcia (TX)",
@@ -477,6 +483,12 @@ const house5Votes =
         "id": "G000551",
         "party": "D",
         "state": "AZ"
+      },
+      {
+        "display_name": "Harder (CA)",
+        "id": "H001090",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Hayes",
@@ -543,6 +555,12 @@ const house5Votes =
         "id": "J000308",
         "party": "D",
         "state": "NC"
+      },
+      {
+        "display_name": "Jackson Lee",
+        "id": "J000032",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Jacobs",
@@ -1025,6 +1043,12 @@ const house5Votes =
         "state": "MI"
       },
       {
+        "display_name": "Schrier",
+        "id": "S001216",
+        "party": "D",
+        "state": "WA"
+      },
+      {
         "display_name": "Scott (VA)",
         "id": "S000185",
         "party": "D",
@@ -1247,6 +1271,12 @@ const house5Votes =
         "state": "VA"
       },
       {
+        "display_name": "Wild",
+        "id": "W000826",
+        "party": "D",
+        "state": "PA"
+      },
+      {
         "display_name": "Williams (GA)",
         "id": "W000788",
         "party": "D",
@@ -1261,27 +1291,15 @@ const house5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Boyle (PA)",
-        "id": "B001296",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Cohen",
         "id": "C001068",
         "party": "D",
         "state": "TN"
       },
       {
-        "display_name": "Garc\u00eda (IL)",
-        "id": "G000586",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Jackson Lee",
-        "id": "J000032",
-        "party": "D",
+        "display_name": "Hunt",
+        "id": "H001095",
+        "party": "R",
         "state": "TX"
       },
       {
@@ -1297,7 +1315,14 @@ const house5Votes =
         "state": "FL"
       }
     ],
-    "Present": [],
+    "Present": [
+      {
+        "display_name": "Joyce (OH)",
+        "id": "J000295",
+        "party": "R",
+        "state": "OH"
+      }
+    ],
     "Yea": [
       {
         "display_name": "Aderholt",
@@ -1696,6 +1721,12 @@ const house5Votes =
         "state": "WI"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1846,12 +1877,6 @@ const house5Votes =
         "state": "WY"
       },
       {
-        "display_name": "Harder (CA)",
-        "id": "H001090",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Harris",
         "id": "H001052",
         "party": "R",
@@ -1906,12 +1931,6 @@ const house5Votes =
         "state": "MI"
       },
       {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Issa",
         "id": "I000056",
         "party": "R",
@@ -1950,12 +1969,6 @@ const house5Votes =
       {
         "display_name": "Jordan",
         "id": "J000289",
-        "party": "R",
-        "state": "OH"
-      },
-      {
-        "display_name": "Joyce (OH)",
-        "id": "J000295",
         "party": "R",
         "state": "OH"
       },
@@ -2132,6 +2145,12 @@ const house5Votes =
         "id": "M001199",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
       },
       {
         "display_name": "McCaul",
@@ -2380,12 +2399,6 @@ const house5Votes =
         "state": "LA"
       },
       {
-        "display_name": "Schrier",
-        "id": "S001216",
-        "party": "D",
-        "state": "WA"
-      },
-      {
         "display_name": "Schweikert",
         "id": "S001183",
         "party": "R",
@@ -2576,12 +2589,6 @@ const house5Votes =
         "id": "W000821",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Wild",
-        "id": "W000826",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Williams (NY)",
