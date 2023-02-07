@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00004.xml",
   "subject": "S. Res. 21",
   "type": "On the Resolution",
-  "updated_at": "2023-02-06T21:55:48-05:00",
+  "updated_at": "2023-02-07T03:56:49-05:00",
   "vote_id": "s4-118.2023",
   "votes": {
     "Nay": [],
