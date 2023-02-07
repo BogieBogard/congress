@@ -5,23 +5,23 @@ const house10Votes =
     "number": 497,
     "type": "hr"
   },
-  "category": "recommit",
+  "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-31T17:07:00-05:00",
-  "number": 97,
-  "question": "On Motion to Recommit: H R 497 Freedom for Health Care Workers Act",
+  "date": "2023-01-31T17:15:00-05:00",
+  "number": 98,
+  "question": "On Passage: H R 497 Freedom for Health Care Workers Act",
   "requires": "1/2",
-  "result": "Failed",
-  "result_text": "Failed",
+  "result": "Passed",
+  "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll097.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll098.xml",
   "subject": "Freedom for Health Care Workers Act",
-  "type": "On the Motion to Recommit",
-  "updated_at": "2023-02-06T15:53:56-05:00",
-  "vote_id": "h97-118.2023",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-02-06T21:54:58-05:00",
+  "vote_id": "h98-118.2023",
   "votes": {
-    "Nay": [
+    "Aye": [
       {
         "display_name": "Aderholt",
         "id": "A000055",
@@ -311,6 +311,12 @@ const house10Votes =
         "state": "OH"
       },
       {
+        "display_name": "Davis (NC)",
+        "id": "D000230",
+        "party": "D",
+        "state": "NC"
+      },
+      {
         "display_name": "De La Cruz",
         "id": "D000594",
         "party": "R",
@@ -491,6 +497,12 @@ const house10Votes =
         "state": "FL"
       },
       {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
+      },
+      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
@@ -615,6 +627,18 @@ const house10Votes =
         "id": "H001093",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Houlahan",
+        "id": "H001085",
+        "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Hoyle (OR)",
+        "id": "H001094",
+        "party": "D",
+        "state": "OR"
       },
       {
         "display_name": "Hudson",
@@ -1019,6 +1043,12 @@ const house10Votes =
         "state": "AL"
       },
       {
+        "display_name": "Perez",
+        "id": "G000600",
+        "party": "D",
+        "state": "WA"
+      },
+      {
         "display_name": "Perry",
         "id": "P000605",
         "party": "R",
@@ -1097,6 +1127,12 @@ const house10Votes =
         "state": "FL"
       },
       {
+        "display_name": "Salinas",
+        "id": "S001226",
+        "party": "D",
+        "state": "OR"
+      },
+      {
         "display_name": "Santos",
         "id": "S001222",
         "party": "R",
@@ -1139,6 +1175,12 @@ const house10Votes =
         "state": "ID"
       },
       {
+        "display_name": "Smith (MO)",
+        "id": "S001195",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Smith (NE)",
         "id": "S001172",
         "party": "R",
@@ -1155,6 +1197,12 @@ const house10Votes =
         "id": "S001199",
         "party": "R",
         "state": "PA"
+      },
+      {
+        "display_name": "Spanberger",
+        "id": "S001209",
+        "party": "D",
+        "state": "VA"
       },
       {
         "display_name": "Spartz",
@@ -1337,40 +1385,7 @@ const house10Votes =
         "state": "MT"
       }
     ],
-    "Not Voting": [
-      {
-        "display_name": "Garc\u00eda (IL)",
-        "id": "G000586",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Goldman (NY)",
-        "id": "G000599",
-        "party": "D",
-        "state": "NY"
-      },
-      {
-        "display_name": "Pence",
-        "id": "P000615",
-        "party": "R",
-        "state": "IN"
-      },
-      {
-        "display_name": "Smith (MO)",
-        "id": "S001195",
-        "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Steube",
-        "id": "S001214",
-        "party": "R",
-        "state": "FL"
-      }
-    ],
-    "Present": [],
-    "Yea": [
+    "No": [
       {
         "display_name": "Adams",
         "id": "A000370",
@@ -1660,12 +1675,6 @@ const house10Votes =
         "state": "IL"
       },
       {
-        "display_name": "Davis (NC)",
-        "id": "D000230",
-        "party": "D",
-        "state": "NC"
-      },
-      {
         "display_name": "Dean (PA)",
         "id": "D000631",
         "party": "D",
@@ -1792,12 +1801,6 @@ const house10Votes =
         "state": "CA"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Gomez",
         "id": "G000585",
         "party": "D",
@@ -1858,22 +1861,10 @@ const house10Votes =
         "state": "NV"
       },
       {
-        "display_name": "Houlahan",
-        "id": "H001085",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Hoyer",
         "id": "H000874",
         "party": "D",
         "state": "MD"
-      },
-      {
-        "display_name": "Hoyle (OR)",
-        "id": "H001094",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Huffman",
@@ -2248,12 +2239,6 @@ const house10Votes =
         "state": "AK"
       },
       {
-        "display_name": "Perez",
-        "id": "G000600",
-        "party": "D",
-        "state": "WA"
-      },
-      {
         "display_name": "Peters",
         "id": "P000608",
         "party": "D",
@@ -2336,12 +2321,6 @@ const house10Votes =
         "id": "R000579",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Salinas",
-        "id": "S001226",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "S\u00e1nchez",
@@ -2444,12 +2423,6 @@ const house10Votes =
         "id": "S001200",
         "party": "D",
         "state": "FL"
-      },
-      {
-        "display_name": "Spanberger",
-        "id": "S001209",
-        "party": "D",
-        "state": "VA"
       },
       {
         "display_name": "Stansbury",
@@ -2631,6 +2604,33 @@ const house10Votes =
         "party": "D",
         "state": "FL"
       }
-    ]
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Garc\u00eda (IL)",
+        "id": "G000586",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Goldman (NY)",
+        "id": "G000599",
+        "party": "D",
+        "state": "NY"
+      },
+      {
+        "display_name": "Pence",
+        "id": "P000615",
+        "party": "R",
+        "state": "IN"
+      },
+      {
+        "display_name": "Steube",
+        "id": "S001214",
+        "party": "R",
+        "state": "FL"
+      }
+    ],
+    "Present": []
   }
 }

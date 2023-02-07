@@ -2,24 +2,24 @@ const house7Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 382,
-    "type": "hr"
+    "number": 83,
+    "type": "hres"
   },
-  "category": "passage",
+  "category": "procedural",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-01-31T17:39:00-05:00",
-  "number": 100,
-  "question": "On Passage: H R 382 Pandemic is Over Act",
+  "date": "2023-02-01T13:55:00-05:00",
+  "number": 101,
+  "question": "On Ordering the Previous Question: H RES 83 Providing for consideration of the concurrent resolution (H. Con. Res. 9) denouncing the horrors of Socialism; and providing for consideration of the resolution (H. Res. 76) removing a certain member from a certain standing committee of the House",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll100.xml",
-  "subject": "Pandemic is Over Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-02-06T15:53:54-05:00",
-  "vote_id": "h100-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll101.xml",
+  "subject": "Providing for consideration of the concurrent resolution (H. Con. Res. 9) denouncing the horrors of Socialism; and providing for consideration of the resolution (H. Res. 76) removing a certain member from a certain standing committee of the House",
+  "type": "On Ordering the Previous Question",
+  "updated_at": "2023-02-06T21:54:57-05:00",
+  "vote_id": "h101-118.2023",
   "votes": {
     "Nay": [
       {
@@ -245,12 +245,6 @@ const house7Votes =
         "state": "SC"
       },
       {
-        "display_name": "Cohen",
-        "id": "C001068",
-        "party": "D",
-        "state": "TN"
-      },
-      {
         "display_name": "Connolly",
         "id": "C001078",
         "party": "D",
@@ -449,6 +443,12 @@ const house7Votes =
         "state": "ME"
       },
       {
+        "display_name": "Goldman (NY)",
+        "id": "G000599",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Gomez",
         "id": "G000585",
         "party": "D",
@@ -549,12 +549,6 @@ const house7Votes =
         "id": "J000308",
         "party": "D",
         "state": "NC"
-      },
-      {
-        "display_name": "Jackson Lee",
-        "id": "J000032",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Jacobs",
@@ -911,12 +905,6 @@ const house7Votes =
         "state": "CA"
       },
       {
-        "display_name": "Pettersen",
-        "id": "P000620",
-        "party": "D",
-        "state": "CO"
-      },
-      {
         "display_name": "Phillips",
         "id": "P000616",
         "party": "D",
@@ -939,12 +927,6 @@ const house7Votes =
         "id": "P000618",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Pressley",
-        "id": "P000617",
-        "party": "D",
-        "state": "MA"
       },
       {
         "display_name": "Quigley",
@@ -1285,22 +1267,46 @@ const house7Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Carey",
+        "id": "C001126",
+        "party": "R",
+        "state": "OH"
+      },
+      {
+        "display_name": "Cohen",
+        "id": "C001068",
+        "party": "D",
+        "state": "TN"
+      },
+      {
         "display_name": "Garc\u00eda (IL)",
         "id": "G000586",
         "party": "D",
         "state": "IL"
       },
       {
-        "display_name": "Goldman (NY)",
-        "id": "G000599",
+        "display_name": "Jackson Lee",
+        "id": "J000032",
         "party": "D",
-        "state": "NY"
+        "state": "TX"
       },
       {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Pettersen",
+        "id": "P000620",
+        "party": "D",
+        "state": "CO"
+      },
+      {
+        "display_name": "Pressley",
+        "id": "P000617",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Steube",
@@ -1490,12 +1496,6 @@ const house7Votes =
         "id": "C001039",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Carey",
-        "id": "C001126",
-        "party": "R",
-        "state": "OH"
       },
       {
         "display_name": "Carl",
