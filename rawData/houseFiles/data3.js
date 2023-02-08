@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll107.xml",
   "subject": "Energy Cybersecurity University Leadership Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-02-08T04:00:04-05:00",
+  "updated_at": "2023-02-08T10:01:09-05:00",
   "vote_id": "h107-118.2023",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll106.xml",
   "subject": "Denouncing the horrors of socialism",
   "type": "On the Resolution",
-  "updated_at": "2023-02-08T04:00:05-05:00",
+  "updated_at": "2023-02-08T10:01:09-05:00",
   "vote_id": "h106-118.2023",
   "votes": {
     "Nay": [
