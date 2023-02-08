@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll103.xml",
   "subject": "SHOW UP Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-07T15:58:01-05:00",
+  "updated_at": "2023-02-07T21:59:03-05:00",
   "vote_id": "h103-118.2023",
   "votes": {
     "Nay": [
