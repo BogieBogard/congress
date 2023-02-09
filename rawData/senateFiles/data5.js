@@ -2,76 +2,52 @@ const senate5Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 13,
-    "title": "A resolution raising awareness and encouraging the prevention of stalking by designating January 2023 as \"National Stalking Awareness Month\".",
+    "number": 21,
+    "title": "A resolution supporting the observation of National Trafficking and Modern Slavery Prevention Month during the period beginning on January 1, 2023, and ending on February 1, 2023, to raise awareness of, and opposition to, human trafficking and modern slavery.",
     "type": "sres"
   },
   "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-01-26T13:40:00-05:00",
-  "number": 2,
-  "question": "On the Resolution S.Res. 13",
-  "record_modified": "2023-01-26T14:47:00-05:00",
+  "date": "2023-02-01T15:29:00-05:00",
+  "number": 4,
+  "question": "On the Resolution S.Res. 21",
+  "record_modified": "2023-02-01T16:32:00-05:00",
   "requires": "1/2",
   "result": "Resolution Agreed to",
-  "result_text": "Resolution Agreed to (94-0)",
+  "result_text": "Resolution Agreed to (97-0)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00002.xml",
-  "subject": "S.Res. 13",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00004.xml",
+  "subject": "S. Res. 21",
   "type": "On the Resolution",
-  "updated_at": "2023-02-09T10:07:02-05:00",
-  "vote_id": "s2-118.2023",
+  "updated_at": "2023-02-09T16:08:11-05:00",
+  "vote_id": "s4-118.2023",
   "votes": {
     "Nay": [],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
         "party": "R",
-        "state": "SC"
+        "state": "AK"
       },
       {
-        "display_name": "Johnson (R-WI)",
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Wyden (D-OR)",
         "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
-        "party": "R",
-        "state": "KY"
-      },
-      {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
+        "id": "S247",
+        "last_name": "Wyden",
+        "party": "D",
+        "state": "OR"
       }
     ],
     "Present": [],
@@ -309,6 +285,14 @@ const senate5Votes =
         "state": "IA"
       },
       {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
@@ -331,6 +315,14 @@ const senate5Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -403,6 +395,14 @@ const senate5Votes =
         "last_name": "Hyde-Smith",
         "party": "R",
         "state": "MS"
+      },
+      {
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
       },
       {
         "display_name": "Kaine (D-VA)",
@@ -525,20 +525,20 @@ const senate5Votes =
         "state": "OR"
       },
       {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -571,6 +571,14 @@ const senate5Votes =
         "last_name": "Padilla",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Peters (D-MI)",
@@ -627,14 +635,6 @@ const senate5Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -765,6 +765,14 @@ const senate5Votes =
         "state": "MD"
       },
       {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Warner (D-VA)",
         "first_name": "Mark",
         "id": "S327",
@@ -811,14 +819,6 @@ const senate5Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Wyden (D-OR)",
-        "first_name": "Ron",
-        "id": "S247",
-        "last_name": "Wyden",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Young (R-IN)",

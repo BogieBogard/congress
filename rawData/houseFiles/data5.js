@@ -1,29 +1,25 @@
 const house5Votes = 
 {
-  "amendment": {
-    "author": "Golden of Maine Amendment No. 3",
-    "number": 3,
-    "type": "h-bill"
-  },
   "bill": {
     "congress": 118,
     "number": 185,
     "type": "hr"
   },
-  "category": "amendment",
+  "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-02-08T16:32:00-05:00",
-  "number": 112,
-  "question": "On Agreeing to the Amendment: Amendment 3 to H R 185",
+  "date": "2023-02-08T16:49:00-05:00",
+  "number": 115,
+  "question": "On Motion to Recommit: H R 185 To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll112.xml",
-  "type": "On the Amendment",
-  "updated_at": "2023-02-09T10:06:03-05:00",
-  "vote_id": "h112-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll115.xml",
+  "subject": "To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes",
+  "type": "On the Motion to Recommit",
+  "updated_at": "2023-02-09T16:07:10-05:00",
+  "vote_id": "h115-118.2023",
   "votes": {
     "Aye": [
       {
@@ -429,6 +425,12 @@ const house5Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Garamendi",
+        "id": "G000559",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Garcia (TX)",
         "id": "G000587",
         "party": "D",
@@ -681,6 +683,12 @@ const house5Votes =
         "state": "CA"
       },
       {
+        "display_name": "Lieu",
+        "id": "L000582",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Lofgren",
         "id": "L000397",
         "party": "D",
@@ -831,16 +839,16 @@ const house5Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Norton",
-        "id": "N000147",
-        "party": "D",
-        "state": "XX"
-      },
-      {
         "display_name": "Ocasio-Cortez",
         "id": "O000172",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Omar",
+        "id": "O000173",
+        "party": "D",
+        "state": "MN"
       },
       {
         "display_name": "Pallone",
@@ -915,12 +923,6 @@ const house5Votes =
         "state": "ME"
       },
       {
-        "display_name": "Plaskett",
-        "id": "P000610",
-        "party": "D",
-        "state": "XX"
-      },
-      {
         "display_name": "Porter",
         "id": "P000618",
         "party": "D",
@@ -973,12 +975,6 @@ const house5Votes =
         "id": "R000579",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Sablan",
-        "id": "S001177",
-        "party": "D",
-        "state": "XX"
       },
       {
         "display_name": "Salinas",
@@ -1129,6 +1125,12 @@ const house5Votes =
         "id": "S001223",
         "party": "D",
         "state": "OH"
+      },
+      {
+        "display_name": "Takano",
+        "id": "T000472",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Thanedar",
@@ -1367,6 +1369,12 @@ const house5Votes =
         "state": "OK"
       },
       {
+        "display_name": "Biggs",
+        "id": "B001302",
+        "party": "R",
+        "state": "AZ"
+      },
+      {
         "display_name": "Bilirakis",
         "id": "B001257",
         "party": "R",
@@ -1515,6 +1523,12 @@ const house5Votes =
         "id": "C001108",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Crane",
+        "id": "C001132",
+        "party": "R",
+        "state": "AZ"
       },
       {
         "display_name": "Crawford",
@@ -1709,12 +1723,6 @@ const house5Votes =
         "state": "WI"
       },
       {
-        "display_name": "Garamendi",
-        "id": "G000559",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Garbarino",
         "id": "G000597",
         "party": "R",
@@ -1737,12 +1745,6 @@ const house5Votes =
         "id": "G000594",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Gonz\u00e1lez-Col\u00f3n",
-        "id": "G000582",
-        "party": "R",
-        "state": "XX"
       },
       {
         "display_name": "Good (VA)",
@@ -1839,6 +1841,12 @@ const house5Votes =
         "id": "H001082",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Higgins (LA)",
+        "id": "H001077",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Hill",
@@ -2033,6 +2041,12 @@ const house5Votes =
         "state": "LA"
       },
       {
+        "display_name": "Loudermilk",
+        "id": "L000583",
+        "party": "R",
+        "state": "GA"
+      },
+      {
         "display_name": "Lucas",
         "id": "L000491",
         "party": "R",
@@ -2195,12 +2209,6 @@ const house5Votes =
         "state": "TX"
       },
       {
-        "display_name": "Moylan",
-        "id": "M001219",
-        "party": "R",
-        "state": "XX"
-      },
-      {
         "display_name": "Murphy",
         "id": "M001210",
         "party": "R",
@@ -2277,12 +2285,6 @@ const house5Votes =
         "id": "P000599",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Radewagen",
-        "id": "R000600",
-        "party": "R",
-        "state": "XX"
       },
       {
         "display_name": "Reschenthaler",
@@ -2593,28 +2595,10 @@ const house5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Biggs",
-        "id": "B001302",
-        "party": "R",
-        "state": "AZ"
-      },
-      {
-        "display_name": "Crane",
-        "id": "C001132",
-        "party": "R",
-        "state": "AZ"
-      },
-      {
         "display_name": "Garc\u00eda (IL)",
         "id": "G000586",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Higgins (LA)",
-        "id": "H001077",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Hunt",
@@ -2635,24 +2619,6 @@ const house5Votes =
         "state": "CT"
       },
       {
-        "display_name": "Lieu",
-        "id": "L000582",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Loudermilk",
-        "id": "L000583",
-        "party": "R",
-        "state": "GA"
-      },
-      {
-        "display_name": "Omar",
-        "id": "O000173",
-        "party": "D",
-        "state": "MN"
-      },
-      {
         "display_name": "Pocan",
         "id": "P000607",
         "party": "D",
@@ -2663,12 +2629,6 @@ const house5Votes =
         "id": "S001214",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Takano",
-        "id": "T000472",
-        "party": "D",
-        "state": "CA"
       }
     ],
     "Present": []

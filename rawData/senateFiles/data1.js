@@ -3,23 +3,23 @@ const senate1Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-07T17:31:00-05:00",
+  "date": "2023-02-09T13:41:00-05:00",
   "nomination": {
-    "number": "88",
-    "title": "DeAndrea Gist Benjamin, of South Carolina, to be United States Circuit Judge for the Fourth Circuit"
+    "number": "92",
+    "title": "Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
   },
-  "number": 6,
-  "question": "Motion to Invoke Cloture: DeAndrea Gist Benjamin to be U.S. Circuit Judge for the Fourth Circuit: DeAndrea Gist Benjamin, of South Carolina, to be United States Circuit Judge for the Fourth Circuit",
-  "record_modified": "2023-02-07T18:50:00-05:00",
+  "number": 8,
+  "question": "Motion to Invoke Cloture: Cindy K. Chung to be U.S. Circuit Judge for the Third Circuit: Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
+  "record_modified": "2023-02-09T14:52:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-43)",
+  "result_text": "Cloture Motion Agreed to (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00006.xml",
-  "subject": "On the Cloture Motion PN88",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00008.xml",
+  "subject": "On the Cloture Motion PN92",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-09T10:07:00-05:00",
-  "vote_id": "s6-118.2023",
+  "updated_at": "2023-02-09T16:08:09-05:00",
+  "vote_id": "s8-118.2023",
   "votes": {
     "Nay": [
       {
@@ -327,12 +327,36 @@ const senate1Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Thune (R-SD)",
         "first_name": "John",
         "id": "S303",
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -369,28 +393,20 @@ const senate1Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Brown (D-OH)",
-        "first_name": "Sherrod ",
-        "id": "S307",
-        "last_name": "Brown",
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
         "party": "D",
-        "state": "OH"
+        "state": "PA"
       },
       {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
       }
     ],
     "Present": [],
@@ -426,6 +442,14 @@ const senate1Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Brown (D-OH)",
+        "first_name": "Sherrod ",
+        "id": "S307",
+        "last_name": "Brown",
+        "party": "D",
+        "state": "OH"
       },
       {
         "display_name": "Cantwell (D-WA)",
@@ -508,20 +532,20 @@ const senate1Votes =
         "state": "CA"
       },
       {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -708,22 +732,6 @@ const senate1Votes =
         "state": "HI"
       },
       {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -762,14 +770,6 @@ const senate1Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",
