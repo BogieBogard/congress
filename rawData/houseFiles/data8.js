@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll109.xml",
   "subject": "Providing for consideration of H.R. 185, To terminate the requirement imposed by the Dir. of the CDC for proof of COVID-19 vaccination for foreign travelers; H.J. Res. 24, Disapproving the action of the DC Council in approving the Local Voting Rights Amendment; H.J. Res. 26, Disapproving the action of the DC Council",
   "type": "On the Resolution",
-  "updated_at": "2023-02-09T04:04:24-05:00",
+  "updated_at": "2023-02-09T10:06:05-05:00",
   "vote_id": "h109-118.2023",
   "votes": {
     "Aye": [
