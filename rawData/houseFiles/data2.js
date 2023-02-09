@@ -2,26 +2,26 @@ const house2Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 97,
-    "type": "hres"
+    "number": 185,
+    "type": "hr"
   },
-  "category": "procedural",
+  "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-02-07T13:52:00-05:00",
-  "number": 108,
-  "question": "On Ordering the Previous Question: H RES 97 Providing for consideration of H.R. 185, To terminate the requirement imposed by the Dir. of the CDC for proof of COVID-19 vaccination for foreign travelers; H.J. Res. 24, Disapproving the action of the DC Council in approving the Local Voting Rights Amendment; H.J. Res. 26, Disapproving the action of the DC Council",
+  "date": "2023-02-08T16:49:00-05:00",
+  "number": 115,
+  "question": "On Motion to Recommit: H R 185 To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes",
   "requires": "1/2",
-  "result": "Passed",
-  "result_text": "Passed",
+  "result": "Failed",
+  "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll108.xml",
-  "subject": "Providing for consideration of H.R. 185, To terminate the requirement imposed by the Dir. of the CDC for proof of COVID-19 vaccination for foreign travelers; H.J. Res. 24, Disapproving the action of the DC Council in approving the Local Voting Rights Amendment; H.J. Res. 26, Disapproving the action of the DC Council",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2023-02-08T16:02:11-05:00",
-  "vote_id": "h108-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll115.xml",
+  "subject": "To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes",
+  "type": "On the Motion to Recommit",
+  "updated_at": "2023-02-08T22:03:14-05:00",
+  "vote_id": "h115-118.2023",
   "votes": {
-    "Nay": [
+    "Aye": [
       {
         "display_name": "Adams",
         "id": "A000370",
@@ -431,12 +431,6 @@ const house2Votes =
         "state": "CA"
       },
       {
-        "display_name": "Garc\u00eda (IL)",
-        "id": "G000586",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Garcia (TX)",
         "id": "G000587",
         "party": "D",
@@ -477,6 +471,12 @@ const house2Votes =
         "id": "G000583",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Green, Al (TX)",
+        "id": "G000553",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Grijalva",
@@ -581,6 +581,12 @@ const house2Votes =
         "state": "NY"
       },
       {
+        "display_name": "Johnson (GA)",
+        "id": "J000288",
+        "party": "D",
+        "state": "GA"
+      },
+      {
         "display_name": "Kamlager-Dove",
         "id": "K000400",
         "party": "D",
@@ -633,12 +639,6 @@ const house2Votes =
         "id": "K000391",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Kuster",
-        "id": "K000382",
-        "party": "D",
-        "state": "NH"
       },
       {
         "display_name": "Landsman",
@@ -759,6 +759,12 @@ const house2Votes =
         "id": "M001188",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Mfume",
+        "id": "M000687",
+        "party": "D",
+        "state": "MD"
       },
       {
         "display_name": "Moore (WI)",
@@ -915,12 +921,6 @@ const house2Votes =
         "id": "P000597",
         "party": "D",
         "state": "ME"
-      },
-      {
-        "display_name": "Pocan",
-        "id": "P000607",
-        "party": "D",
-        "state": "WI"
       },
       {
         "display_name": "Porter",
@@ -1271,64 +1271,13 @@ const house2Votes =
         "state": "FL"
       }
     ],
-    "Not Voting": [
+    "No": [
       {
         "display_name": "Aderholt",
         "id": "A000055",
         "party": "R",
         "state": "AL"
       },
-      {
-        "display_name": "Arrington",
-        "id": "A000375",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Johnson (GA)",
-        "id": "J000288",
-        "party": "D",
-        "state": "GA"
-      },
-      {
-        "display_name": "Larson (CT)",
-        "id": "L000557",
-        "party": "D",
-        "state": "CT"
-      },
-      {
-        "display_name": "Mfume",
-        "id": "M000687",
-        "party": "D",
-        "state": "MD"
-      },
-      {
-        "display_name": "Nehls",
-        "id": "N000026",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Spartz",
-        "id": "S000929",
-        "party": "R",
-        "state": "IN"
-      },
-      {
-        "display_name": "Steube",
-        "id": "S001214",
-        "party": "R",
-        "state": "FL"
-      }
-    ],
-    "Present": [],
-    "Yea": [
       {
         "display_name": "Alford",
         "id": "A000379",
@@ -1352,6 +1301,12 @@ const house2Votes =
         "id": "A000377",
         "party": "R",
         "state": "ND"
+      },
+      {
+        "display_name": "Arrington",
+        "id": "A000375",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Babin",
@@ -1834,12 +1789,6 @@ const house2Votes =
         "state": "TN"
       },
       {
-        "display_name": "Green, Al (TX)",
-        "id": "G000553",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Greene (GA)",
         "id": "G000596",
         "party": "R",
@@ -2266,6 +2215,12 @@ const house2Votes =
         "state": "NC"
       },
       {
+        "display_name": "Nehls",
+        "id": "N000026",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Newhouse",
         "id": "N000189",
         "party": "R",
@@ -2458,6 +2413,12 @@ const house2Votes =
         "state": "PA"
       },
       {
+        "display_name": "Spartz",
+        "id": "S000929",
+        "party": "R",
+        "state": "IN"
+      },
+      {
         "display_name": "Stauber",
         "id": "S001212",
         "party": "R",
@@ -2631,6 +2592,45 @@ const house2Votes =
         "party": "R",
         "state": "MT"
       }
-    ]
+    ],
+    "Not Voting": [
+      {
+        "display_name": "Garc\u00eda (IL)",
+        "id": "G000586",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
+        "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Kuster",
+        "id": "K000382",
+        "party": "D",
+        "state": "NH"
+      },
+      {
+        "display_name": "Larson (CT)",
+        "id": "L000557",
+        "party": "D",
+        "state": "CT"
+      },
+      {
+        "display_name": "Pocan",
+        "id": "P000607",
+        "party": "D",
+        "state": "WI"
+      },
+      {
+        "display_name": "Steube",
+        "id": "S001214",
+        "party": "R",
+        "state": "FL"
+      }
+    ],
+    "Present": []
   }
 }
