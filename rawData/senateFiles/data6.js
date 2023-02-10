@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00003.xml",
   "subject": "Confirmation: Roger Israel Zakheim, of Maryland, to be a Member of the Board of Directors of the United States Institute of Peace",
   "type": "On the Nomination",
-  "updated_at": "2023-02-09T22:09:21-05:00",
+  "updated_at": "2023-02-10T04:10:30-05:00",
   "vote_id": "s3-118.2023",
   "votes": {
     "Nay": [
