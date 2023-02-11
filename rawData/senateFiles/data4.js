@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00005.xml",
   "subject": "Confirmation: Joseph Lee Falk, of Florida, to be a Member of the Board of Directors of the U.S. Institute of Peace",
   "type": "On the Nomination",
-  "updated_at": "2023-02-10T22:13:56-05:00",
+  "updated_at": "2023-02-11T04:15:05-05:00",
   "vote_id": "s5-118.2023",
   "votes": {
     "Nay": [

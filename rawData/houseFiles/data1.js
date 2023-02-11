@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll119.xml",
   "subject": "Disapproving the action of the District of Columbia Council in approving the Revised Criminal Code Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-10T22:12:54-05:00",
+  "updated_at": "2023-02-11T04:14:03-05:00",
   "vote_id": "h119-118.2023",
   "votes": {
     "Nay": [
