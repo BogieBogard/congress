@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00009.xml",
   "subject": "Confirmation: Cindy K. Chung. of Pennsylvania, to be United States Circuit Judge for the Third Circuit.",
   "type": "On the Nomination",
-  "updated_at": "2023-02-15T03:50:42-05:00",
+  "updated_at": "2023-02-15T09:51:55-05:00",
   "vote_id": "s9-118.2023",
   "votes": {
     "Nay": [
