@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-09T13:41:00-05:00",
+  "date": "2023-02-14T11:37:00-05:00",
   "nomination": {
-    "number": "92",
-    "title": "Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
+    "number": "79",
+    "title": "Gina R. Mendez-Miro, of Puerto Rico, to be United States District Judge for the District of Puerto Rico"
   },
-  "number": 8,
-  "question": "Motion to Invoke Cloture: Cindy K. Chung to be U.S. Circuit Judge for the Third Circuit: Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-  "record_modified": "2023-02-09T14:52:00-05:00",
+  "number": 11,
+  "question": "On the Nomination PN79: Gina R. Mendez-Miro, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
+  "record_modified": "2023-02-14T13:02:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-46)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (54-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00008.xml",
-  "subject": "On the Cloture Motion PN92",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T09:51:56-05:00",
-  "vote_id": "s8-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00011.xml",
+  "subject": "Confirmation: Gina R. Mendez-Miro, of Puerto Rico, to be U.S. District Judge for the District of Puerto Rico",
+  "type": "On the Nomination",
+  "updated_at": "2023-02-15T15:53:09-05:00",
+  "vote_id": "s11-118.2023",
   "votes": {
     "Nay": [
       {
@@ -375,14 +375,6 @@ const senate9Votes =
         "state": "OH"
       },
       {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
-      },
-      {
         "display_name": "Young (R-IN)",
         "first_name": "Todd",
         "id": "S391",
@@ -393,20 +385,12 @@ const senate9Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
+        "display_name": "Casey (D-PA)",
+        "first_name": "Bob",
+        "id": "S309",
+        "last_name": "Casey",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       }
     ],
     "Present": [],
@@ -476,14 +460,6 @@ const senate9Votes =
         "state": "DE"
       },
       {
-        "display_name": "Casey (D-PA)",
-        "first_name": "Bob",
-        "id": "S309",
-        "last_name": "Casey",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Collins (R-ME)",
         "first_name": "Susan",
         "id": "S252",
@@ -530,6 +506,14 @@ const senate9Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -732,6 +716,14 @@ const senate9Votes =
         "state": "HI"
       },
       {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -818,6 +810,14 @@ const senate9Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Wyden (D-OR)",

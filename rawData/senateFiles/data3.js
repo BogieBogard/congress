@@ -1,25 +1,25 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T14:57:00-05:00",
+  "date": "2023-02-15T11:31:00-05:00",
   "nomination": {
-    "number": "72",
-    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
+    "number": "71",
+    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
   },
-  "number": 14,
-  "question": "Motion to Invoke Cloture: Matthew L. Garcia to be U.S. District Judge for the District of New Mexico: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
-  "record_modified": "2023-02-14T16:00:00-05:00",
+  "number": 17,
+  "question": "On the Nomination PN71: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
+  "record_modified": "2023-02-15T12:33:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00014.xml",
-  "subject": "On the Cloture Motion PN72",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T09:51:52-05:00",
-  "vote_id": "s14-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00017.xml",
+  "subject": "Confirmation: Adrienne C. Nelson, of Oregon, to be U.S. District Judge for the District of Oregon",
+  "type": "On the Nomination",
+  "updated_at": "2023-02-15T15:53:06-05:00",
+  "vote_id": "s17-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,6 +85,14 @@ const senate3Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Cornyn (R-TX)",
+        "first_name": "John",
+        "id": "S287",
+        "last_name": "Cornyn",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -391,6 +399,14 @@ const senate3Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
       }
     ],
     "Present": [],
@@ -476,14 +492,6 @@ const senate3Votes =
         "state": "DE"
       },
       {
-        "display_name": "Cornyn (R-TX)",
-        "first_name": "John",
-        "id": "S287",
-        "last_name": "Cornyn",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Cortez Masto (D-NV)",
         "first_name": "Catherine",
         "id": "S385",
@@ -506,14 +514,6 @@ const senate3Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",

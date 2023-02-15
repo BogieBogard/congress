@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T11:37:00-05:00",
+  "date": "2023-02-14T14:57:00-05:00",
   "nomination": {
-    "number": "79",
-    "title": "Gina R. Mendez-Miro, of Puerto Rico, to be United States District Judge for the District of Puerto Rico"
+    "number": "72",
+    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
   },
-  "number": 11,
-  "question": "On the Nomination PN79: Gina R. Mendez-Miro, of Puerto Rico, to be United States District Judge for the District of Puerto Rico",
-  "record_modified": "2023-02-14T13:02:00-05:00",
+  "number": 14,
+  "question": "Motion to Invoke Cloture: Matthew L. Garcia to be U.S. District Judge for the District of New Mexico: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
+  "record_modified": "2023-02-14T16:00:00-05:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (54-45)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (54-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00011.xml",
-  "subject": "Confirmation: Gina R. Mendez-Miro, of Puerto Rico, to be U.S. District Judge for the District of Puerto Rico",
-  "type": "On the Nomination",
-  "updated_at": "2023-02-15T09:51:54-05:00",
-  "vote_id": "s11-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00014.xml",
+  "subject": "On the Cloture Motion PN72",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-02-15T15:53:07-05:00",
+  "vote_id": "s14-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,14 +85,6 @@ const senate6Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
-      },
-      {
-        "display_name": "Cornyn (R-TX)",
-        "first_name": "John",
-        "id": "S287",
-        "last_name": "Cornyn",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -375,6 +367,14 @@ const senate6Votes =
         "state": "OH"
       },
       {
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
+      },
+      {
         "display_name": "Young (R-IN)",
         "first_name": "Todd",
         "id": "S391",
@@ -474,6 +474,14 @@ const senate6Votes =
         "last_name": "Coons",
         "party": "D",
         "state": "DE"
+      },
+      {
+        "display_name": "Cornyn (R-TX)",
+        "first_name": "John",
+        "id": "S287",
+        "last_name": "Cornyn",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Cortez Masto (D-NV)",
@@ -810,14 +818,6 @@ const senate6Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
       },
       {
         "display_name": "Wyden (D-OR)",

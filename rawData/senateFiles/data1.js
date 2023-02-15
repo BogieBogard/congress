@@ -3,23 +3,23 @@ const senate1Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T17:14:00-05:00",
+  "date": "2023-02-15T13:57:00-05:00",
   "nomination": {
-    "number": "71",
-    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
+    "number": "73",
+    "title": "Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California"
   },
-  "number": 16,
-  "question": "Motion to Invoke Cloture: Adrienne C. Nelson to be U.S. District Judge for the District of Oregon: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
-  "record_modified": "2023-02-14T18:24:00-05:00",
+  "number": 19,
+  "question": "Motion to Invoke Cloture: Daniel J. Calabretta to be U.S. District Judge for the Eastern District of California: Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California",
+  "record_modified": "2023-02-15T15:07:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (53-44)",
+  "result_text": "Cloture Motion Agreed to (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00016.xml",
-  "subject": "On the Cloture Motion PN71",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00019.xml",
+  "subject": "On the Cloture Motion PN73",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T09:51:52-05:00",
-  "vote_id": "s16-118.2023",
+  "updated_at": "2023-02-15T15:53:05-05:00",
+  "vote_id": "s19-118.2023",
   "votes": {
     "Nay": [
       {
@@ -215,6 +215,14 @@ const senate1Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -343,6 +351,14 @@ const senate1Votes =
         "state": "SD"
       },
       {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -377,28 +393,20 @@ const senate1Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Casey (D-PA)",
         "first_name": "Bob",
         "id": "S309",
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       }
     ],
     "Present": [],
@@ -450,14 +458,6 @@ const senate1Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
       },
       {
         "display_name": "Carper (D-DE)",
