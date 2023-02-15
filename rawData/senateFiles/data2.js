@@ -3,23 +3,23 @@ const senate2Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-09T11:09:00-05:00",
+  "date": "2023-02-14T16:28:00-05:00",
   "nomination": {
-    "number": "88",
-    "title": "DeAndrea Gist Benjamin, of South Carolina, to be United States Circuit Judge for the Fourth Circuit"
+    "number": "72",
+    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
   },
-  "number": 7,
-  "question": "On the Nomination PN88: DeAndrea Gist Benjamin, of South Carolina, to be United States Circuit Judge for the Fourth Circuit",
-  "record_modified": "2023-02-09T12:01:00-05:00",
+  "number": 15,
+  "question": "On the Nomination PN72: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
+  "record_modified": "2023-02-14T17:23:00-05:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-44)",
+  "result_text": "Nomination Confirmed (53-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00007.xml",
-  "subject": "Confirmation: DeAndrea Gist Benjamin, of South Carolina, to be U.S. Circuit Judge for the Fourth Circuit",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00015.xml",
+  "subject": "Confirmation: Matthew L. Garcia, of New Mexico, to be U.S. District Judge for the District of New Mexico",
   "type": "On the Nomination",
-  "updated_at": "2023-02-12T10:20:46-05:00",
-  "vote_id": "s7-118.2023",
+  "updated_at": "2023-02-14T21:49:25-05:00",
+  "vote_id": "s15-118.2023",
   "votes": {
     "Nay": [
       {
@@ -327,6 +327,14 @@ const senate2Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -341,6 +349,14 @@ const senate2Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -377,28 +393,12 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Coons (D-DE)",
-        "first_name": "Christopher",
-        "id": "S337",
-        "last_name": "Coons",
-        "party": "D",
-        "state": "DE"
-      },
-      {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
+        "display_name": "Casey (D-PA)",
+        "first_name": "Bob",
+        "id": "S309",
+        "last_name": "Casey",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       }
     ],
     "Present": [],
@@ -468,20 +468,20 @@ const senate2Votes =
         "state": "DE"
       },
       {
-        "display_name": "Casey (D-PA)",
-        "first_name": "Bob",
-        "id": "S309",
-        "last_name": "Casey",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Collins (R-ME)",
         "first_name": "Susan",
         "id": "S252",
         "last_name": "Collins",
         "party": "R",
         "state": "ME"
+      },
+      {
+        "display_name": "Coons (D-DE)",
+        "first_name": "Christopher",
+        "id": "S337",
+        "last_name": "Coons",
+        "party": "D",
+        "state": "DE"
       },
       {
         "display_name": "Cortez Masto (D-NV)",
@@ -514,6 +514,14 @@ const senate2Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -716,12 +724,12 @@ const senate2Votes =
         "state": "HI"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Shaheen (D-NH)",
@@ -762,14 +770,6 @@ const senate2Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",

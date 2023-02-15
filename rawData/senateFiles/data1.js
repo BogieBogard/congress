@@ -3,23 +3,23 @@ const senate1Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-09T13:41:00-05:00",
+  "date": "2023-02-14T17:14:00-05:00",
   "nomination": {
-    "number": "92",
-    "title": "Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit"
+    "number": "71",
+    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
   },
-  "number": 8,
-  "question": "Motion to Invoke Cloture: Cindy K. Chung to be U.S. Circuit Judge for the Third Circuit: Cindy K. Chung, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-  "record_modified": "2023-02-09T14:52:00-05:00",
+  "number": 16,
+  "question": "Motion to Invoke Cloture: Adrienne C. Nelson to be U.S. District Judge for the District of Oregon: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
+  "record_modified": "2023-02-14T18:24:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-46)",
+  "result_text": "Cloture Motion Agreed to (53-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00008.xml",
-  "subject": "On the Cloture Motion PN92",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00016.xml",
+  "subject": "On the Cloture Motion PN71",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-12T10:20:46-05:00",
-  "vote_id": "s8-118.2023",
+  "updated_at": "2023-02-14T21:49:25-05:00",
+  "vote_id": "s16-118.2023",
   "votes": {
     "Nay": [
       {
@@ -215,14 +215,6 @@ const senate1Votes =
         "state": "OK"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -351,14 +343,6 @@ const senate1Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -393,20 +377,28 @@ const senate1Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
+        "display_name": "Casey (D-PA)",
+        "first_name": "Bob",
+        "id": "S309",
+        "last_name": "Casey",
         "party": "D",
         "state": "PA"
       },
       {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       }
     ],
     "Present": [],
@@ -476,14 +468,6 @@ const senate1Votes =
         "state": "DE"
       },
       {
-        "display_name": "Casey (D-PA)",
-        "first_name": "Bob",
-        "id": "S309",
-        "last_name": "Casey",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Collins (R-ME)",
         "first_name": "Susan",
         "id": "S252",
@@ -530,6 +514,14 @@ const senate1Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -730,6 +722,14 @@ const senate1Votes =
         "last_name": "Schatz",
         "party": "D",
         "state": "HI"
+      },
+      {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Shaheen (D-NH)",
