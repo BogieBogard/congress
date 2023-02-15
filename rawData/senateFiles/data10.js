@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00007.xml",
   "subject": "Confirmation: DeAndrea Gist Benjamin, of South Carolina, to be U.S. Circuit Judge for the Fourth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-02-14T21:49:29-05:00",
+  "updated_at": "2023-02-15T03:50:43-05:00",
   "vote_id": "s7-118.2023",
   "votes": {
     "Nay": [

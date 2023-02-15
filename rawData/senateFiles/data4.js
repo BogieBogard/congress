@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00013.xml",
   "subject": "Confirmation: Lindsay C. Jenkins, of Illinois, to be United States District Judge for the Northern District of Illinois",
   "type": "On the Nomination",
-  "updated_at": "2023-02-14T21:49:26-05:00",
+  "updated_at": "2023-02-15T03:50:40-05:00",
   "vote_id": "s13-118.2023",
   "votes": {
     "Nay": [

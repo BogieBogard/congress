@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00011.xml",
   "subject": "Confirmation: Gina R. Mendez-Miro, of Puerto Rico, to be U.S. District Judge for the District of Puerto Rico",
   "type": "On the Nomination",
-  "updated_at": "2023-02-14T21:49:27-05:00",
+  "updated_at": "2023-02-15T03:50:41-05:00",
   "vote_id": "s11-118.2023",
   "votes": {
     "Nay": [
