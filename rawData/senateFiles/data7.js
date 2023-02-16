@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T16:28:00-05:00",
+  "date": "2023-02-15T12:26:00-05:00",
   "nomination": {
-    "number": "72",
-    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
+    "number": "80",
+    "title": "Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia"
   },
-  "number": 15,
-  "question": "On the Nomination PN72: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
-  "record_modified": "2023-02-14T17:23:00-05:00",
+  "number": 18,
+  "question": "Motion to Invoke Cloture: Ana C. Reyes to be U.S. District Judge for the District of Columbia: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
+  "record_modified": "2023-02-15T13:25:00-05:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-46)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00015.xml",
-  "subject": "Confirmation: Matthew L. Garcia, of New Mexico, to be U.S. District Judge for the District of New Mexico",
-  "type": "On the Nomination",
-  "updated_at": "2023-02-16T09:56:54-05:00",
-  "vote_id": "s15-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00018.xml",
+  "subject": "On the Cloture Motion PN80",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-02-16T15:58:11-05:00",
+  "vote_id": "s18-118.2023",
   "votes": {
     "Nay": [
       {
@@ -261,6 +261,14 @@ const senate7Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -642,14 +650,6 @@ const senate7Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-15T11:31:00-05:00",
+  "date": "2023-02-15T16:36:00-05:00",
   "nomination": {
-    "number": "71",
-    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
+    "number": "80",
+    "title": "Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia"
   },
-  "number": 17,
-  "question": "On the Nomination PN71: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
-  "record_modified": "2023-02-15T12:33:00-05:00",
+  "number": 20,
+  "question": "On the Nomination PN80: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
+  "record_modified": "2023-02-15T17:32:00-05:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-46)",
+  "result_text": "Nomination Confirmed (51-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00017.xml",
-  "subject": "Confirmation: Adrienne C. Nelson, of Oregon, to be U.S. District Judge for the District of Oregon",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00020.xml",
+  "subject": "Confirmation: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
   "type": "On the Nomination",
-  "updated_at": "2023-02-16T09:56:53-05:00",
-  "vote_id": "s17-118.2023",
+  "updated_at": "2023-02-16T15:58:10-05:00",
+  "vote_id": "s20-118.2023",
   "votes": {
     "Nay": [
       {
@@ -263,6 +263,14 @@ const senate5Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -401,12 +409,12 @@ const senate5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
         "party": "D",
-        "state": "CA"
+        "state": "PA"
       }
     ],
     "Present": [],
@@ -516,12 +524,12 @@ const senate5Votes =
         "state": "IL"
       },
       {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
         "party": "D",
-        "state": "PA"
+        "state": "CA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -642,14 +650,6 @@ const senate5Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

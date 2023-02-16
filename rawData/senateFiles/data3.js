@@ -1,25 +1,25 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-15T13:57:00-05:00",
+  "date": "2023-02-16T23:27:00-05:00",
   "nomination": {
     "number": "73",
     "title": "Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California"
   },
-  "number": 19,
-  "question": "Motion to Invoke Cloture: Daniel J. Calabretta to be U.S. District Judge for the Eastern District of California: Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California",
-  "record_modified": "2023-02-15T15:07:00-05:00",
+  "number": 22,
+  "question": "On the Nomination PN73: Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California",
+  "record_modified": "2023-02-16T13:19:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-46)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (51-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00019.xml",
-  "subject": "On the Cloture Motion PN73",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-02-16T09:56:52-05:00",
-  "vote_id": "s19-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00022.xml",
+  "subject": "Confirmation: Daniel J. Calabretta, of California, to be U.S. District Judge for the Eastern District of California",
+  "type": "On the Nomination",
+  "updated_at": "2023-02-16T15:58:09-05:00",
+  "vote_id": "s22-118.2023",
   "votes": {
     "Nay": [
       {
@@ -367,14 +367,6 @@ const senate3Votes =
         "state": "AL"
       },
       {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Wicker (R-MS)",
         "first_name": "Roger",
         "id": "S318",
@@ -393,12 +385,12 @@ const senate3Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
+        "display_name": "Brown (D-OH)",
+        "first_name": "Sherrod ",
+        "id": "S307",
+        "last_name": "Brown",
         "party": "D",
-        "state": "MD"
+        "state": "OH"
       },
       {
         "display_name": "Casey (D-PA)",
@@ -407,6 +399,22 @@ const senate3Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
       }
     ],
     "Present": [],
@@ -444,20 +452,20 @@ const senate3Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Brown (D-OH)",
-        "first_name": "Sherrod ",
-        "id": "S307",
-        "last_name": "Brown",
-        "party": "D",
-        "state": "OH"
-      },
-      {
         "display_name": "Cantwell (D-WA)",
         "first_name": "Maria",
         "id": "S275",
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
       },
       {
         "display_name": "Carper (D-DE)",
@@ -514,14 +522,6 @@ const senate3Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
