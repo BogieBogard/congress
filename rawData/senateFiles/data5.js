@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T16:28:00-05:00",
+  "date": "2023-02-15T11:31:00-05:00",
   "nomination": {
-    "number": "72",
-    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
+    "number": "71",
+    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
   },
-  "number": 15,
-  "question": "On the Nomination PN72: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
-  "record_modified": "2023-02-14T17:23:00-05:00",
+  "number": 17,
+  "question": "On the Nomination PN71: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
+  "record_modified": "2023-02-15T12:33:00-05:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-46)",
+  "result_text": "Nomination Confirmed (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00015.xml",
-  "subject": "Confirmation: Matthew L. Garcia, of New Mexico, to be U.S. District Judge for the District of New Mexico",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00017.xml",
+  "subject": "Confirmation: Adrienne C. Nelson, of Oregon, to be U.S. District Judge for the District of Oregon",
   "type": "On the Nomination",
-  "updated_at": "2023-02-15T15:53:07-05:00",
-  "vote_id": "s15-118.2023",
+  "updated_at": "2023-02-15T21:54:22-05:00",
+  "vote_id": "s17-118.2023",
   "votes": {
     "Nay": [
       {
@@ -399,6 +399,14 @@ const senate5Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
       }
     ],
     "Present": [],
@@ -506,14 +514,6 @@ const senate5Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",

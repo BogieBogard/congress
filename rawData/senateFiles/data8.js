@@ -3,23 +3,23 @@ const senate8Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T12:26:00-05:00",
+  "date": "2023-02-14T14:57:00-05:00",
   "nomination": {
-    "number": "74",
-    "title": "Lindsay C. Jenkins, of Illinois, to be United States District Judge for the Northern District of Illinois"
+    "number": "72",
+    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
   },
-  "number": 12,
-  "question": "Motion to Invoke Cloture: Lindsay C. Jenkins to be U.S. District Judge for the Northern District of Illinois: Lindsay C. Jenkins, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-02-14T13:35:00-05:00",
+  "number": 14,
+  "question": "Motion to Invoke Cloture: Matthew L. Garcia to be U.S. District Judge for the District of New Mexico: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
+  "record_modified": "2023-02-14T16:00:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (58-41)",
+  "result_text": "Cloture Motion Agreed to (54-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00012.xml",
-  "subject": "On the Cloture Motion PN74",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00014.xml",
+  "subject": "On the Cloture Motion PN72",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T15:53:08-05:00",
-  "vote_id": "s12-118.2023",
+  "updated_at": "2023-02-15T21:54:24-05:00",
+  "vote_id": "s14-118.2023",
   "votes": {
     "Nay": [
       {
@@ -69,6 +69,14 @@ const senate8Votes =
         "last_name": "Budd",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -133,6 +141,14 @@ const senate8Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Grassley (R-IA)",
+        "first_name": "Chuck",
+        "id": "S153",
+        "last_name": "Grassley",
+        "party": "R",
+        "state": "IA"
       },
       {
         "display_name": "Hagerty (R-TN)",
@@ -261,6 +277,22 @@ const senate8Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -412,14 +444,6 @@ const senate8Votes =
         "state": "WA"
       },
       {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
         "display_name": "Cardin (D-MD)",
         "first_name": "Ben",
         "id": "S308",
@@ -514,14 +538,6 @@ const senate8Votes =
         "last_name": "Graham",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Grassley (R-IA)",
-        "first_name": "Chuck",
-        "id": "S153",
-        "last_name": "Grassley",
-        "party": "R",
-        "state": "IA"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -684,28 +700,12 @@ const senate8Votes =
         "state": "RI"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",

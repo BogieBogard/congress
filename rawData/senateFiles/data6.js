@@ -3,23 +3,23 @@ const senate6Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T14:57:00-05:00",
+  "date": "2023-02-14T17:14:00-05:00",
   "nomination": {
-    "number": "72",
-    "title": "Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico"
+    "number": "71",
+    "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
   },
-  "number": 14,
-  "question": "Motion to Invoke Cloture: Matthew L. Garcia to be U.S. District Judge for the District of New Mexico: Matthew L. Garcia, of New Mexico, to be United States District Judge for the District of New Mexico",
-  "record_modified": "2023-02-14T16:00:00-05:00",
+  "number": 16,
+  "question": "Motion to Invoke Cloture: Adrienne C. Nelson to be U.S. District Judge for the District of Oregon: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
+  "record_modified": "2023-02-14T18:24:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-45)",
+  "result_text": "Cloture Motion Agreed to (53-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00014.xml",
-  "subject": "On the Cloture Motion PN72",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00016.xml",
+  "subject": "On the Cloture Motion PN71",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T15:53:07-05:00",
-  "vote_id": "s14-118.2023",
+  "updated_at": "2023-02-15T21:54:22-05:00",
+  "vote_id": "s16-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,6 +85,14 @@ const senate6Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Cornyn (R-TX)",
+        "first_name": "John",
+        "id": "S287",
+        "last_name": "Cornyn",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -205,14 +213,6 @@ const senate6Votes =
         "last_name": "Lankford",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Lummis (R-WY)",
@@ -343,14 +343,6 @@ const senate6Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -391,6 +383,22 @@ const senate6Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       }
     ],
     "Present": [],
@@ -474,14 +482,6 @@ const senate6Votes =
         "last_name": "Coons",
         "party": "D",
         "state": "DE"
-      },
-      {
-        "display_name": "Cornyn (R-TX)",
-        "first_name": "John",
-        "id": "S287",
-        "last_name": "Cornyn",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Cortez Masto (D-NV)",

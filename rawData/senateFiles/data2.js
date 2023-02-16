@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-15T12:26:00-05:00",
+  "date": "2023-02-15T16:36:00-05:00",
   "nomination": {
     "number": "80",
     "title": "Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia"
   },
-  "number": 18,
-  "question": "Motion to Invoke Cloture: Ana C. Reyes to be U.S. District Judge for the District of Columbia: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
-  "record_modified": "2023-02-15T13:25:00-05:00",
+  "number": 20,
+  "question": "On the Nomination PN80: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
+  "record_modified": "2023-02-15T17:32:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-47)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (51-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00018.xml",
-  "subject": "On the Cloture Motion PN80",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-02-15T15:53:05-05:00",
-  "vote_id": "s18-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00020.xml",
+  "subject": "Confirmation: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
+  "type": "On the Nomination",
+  "updated_at": "2023-02-15T21:54:20-05:00",
+  "vote_id": "s20-118.2023",
   "votes": {
     "Nay": [
       {
@@ -407,6 +407,14 @@ const senate2Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
       }
     ],
     "Present": [],
@@ -522,14 +530,6 @@ const senate2Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
