@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00015.xml",
   "subject": "Confirmation: Matthew L. Garcia, of New Mexico, to be U.S. District Judge for the District of New Mexico",
   "type": "On the Nomination",
-  "updated_at": "2023-02-16T21:59:33-05:00",
+  "updated_at": "2023-02-17T04:00:50-05:00",
   "vote_id": "s15-118.2023",
   "votes": {
     "Nay": [
