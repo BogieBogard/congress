@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00023.xml",
   "subject": "Confirmation: Lester Martinez-Lopez, of Florida, to be an Assistant Secretary of Defense",
   "type": "On the Nomination",
-  "updated_at": "2023-02-23T04:33:02-05:00",
+  "updated_at": "2023-02-23T10:34:20-05:00",
   "vote_id": "s23-118.2023",
   "votes": {
     "Nay": [
