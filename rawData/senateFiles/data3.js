@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00022.xml",
   "subject": "Confirmation: Daniel J. Calabretta, of California, to be U.S. District Judge for the Eastern District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-02-22T22:31:42-05:00",
+  "updated_at": "2023-02-23T04:33:03-05:00",
   "vote_id": "s22-118.2023",
   "votes": {
     "Nay": [
