@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00020.xml",
   "subject": "Confirmation: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
   "type": "On the Nomination",
-  "updated_at": "2023-02-23T16:35:39-05:00",
+  "updated_at": "2023-02-23T22:36:57-05:00",
   "vote_id": "s20-118.2023",
   "votes": {
     "Nay": [
