@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll118.xml",
   "subject": "Disapproving the action of the District of Columbia Council in approving the Local Resident Voting Rights Amendment Act of 2022",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-24T22:41:10-05:00",
+  "updated_at": "2023-02-25T04:42:28-05:00",
   "vote_id": "h118-118.2023",
   "votes": {
     "Nay": [
