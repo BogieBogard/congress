@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll117.xml",
   "subject": "Condemning the Chinese Communist Party\u2019s use of a high-altitude surveillance balloon over United States territory as a brazen violation of United States sovereignty",
   "type": "On Motion to Suspend the Rules and Agree",
-  "updated_at": "2023-02-25T04:42:28-05:00",
+  "updated_at": "2023-02-25T10:43:46-05:00",
   "vote_id": "h117-118.2023",
   "votes": {
     "Nay": [],
