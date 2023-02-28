@@ -1,8 +1,8 @@
 const house8Votes = 
 {
   "amendment": {
-    "author": "Golden of Maine Amendment No. 3",
-    "number": 3,
+    "author": "Torres of California Amendment No. 5",
+    "number": 5,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house8Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-02-08T16:32:00-05:00",
-  "number": 112,
-  "question": "On Agreeing to the Amendment: Amendment 3 to H R 185",
+  "date": "2023-02-08T16:41:00-05:00",
+  "number": 114,
+  "question": "On Agreeing to the Amendment: Amendment 5 to H R 185",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll112.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll114.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-02-27T16:55:30-05:00",
-  "vote_id": "h112-118.2023",
+  "updated_at": "2023-02-27T22:56:48-05:00",
+  "vote_id": "h114-118.2023",
   "votes": {
     "Aye": [
       {
@@ -429,6 +429,12 @@ const house8Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Garamendi",
+        "id": "G000559",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Garcia (TX)",
         "id": "G000587",
         "party": "D",
@@ -439,12 +445,6 @@ const house8Votes =
         "id": "G000598",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
       },
       {
         "display_name": "Goldman (NY)",
@@ -475,12 +475,6 @@ const house8Votes =
         "id": "G000553",
         "party": "D",
         "state": "TX"
-      },
-      {
-        "display_name": "Grijalva",
-        "id": "G000551",
-        "party": "D",
-        "state": "AZ"
       },
       {
         "display_name": "Harder (CA)",
@@ -681,6 +675,12 @@ const house8Votes =
         "state": "CA"
       },
       {
+        "display_name": "Lieu",
+        "id": "L000582",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Lofgren",
         "id": "L000397",
         "party": "D",
@@ -841,6 +841,12 @@ const house8Votes =
         "id": "O000172",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Omar",
+        "id": "O000173",
+        "party": "D",
+        "state": "MN"
       },
       {
         "display_name": "Pallone",
@@ -1131,6 +1137,12 @@ const house8Votes =
         "state": "OH"
       },
       {
+        "display_name": "Takano",
+        "id": "T000472",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Thanedar",
         "id": "T000488",
         "party": "D",
@@ -1367,6 +1379,12 @@ const house8Votes =
         "state": "OK"
       },
       {
+        "display_name": "Biggs",
+        "id": "B001302",
+        "party": "R",
+        "state": "AZ"
+      },
+      {
         "display_name": "Bilirakis",
         "id": "B001257",
         "party": "R",
@@ -1515,6 +1533,12 @@ const house8Votes =
         "id": "C001108",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Crane",
+        "id": "C001132",
+        "party": "R",
+        "state": "AZ"
       },
       {
         "display_name": "Crawford",
@@ -1709,12 +1733,6 @@ const house8Votes =
         "state": "WI"
       },
       {
-        "display_name": "Garamendi",
-        "id": "G000559",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Garbarino",
         "id": "G000597",
         "party": "R",
@@ -1731,6 +1749,12 @@ const house8Votes =
         "id": "G000593",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
       },
       {
         "display_name": "Gonzales, Tony",
@@ -1839,6 +1863,12 @@ const house8Votes =
         "id": "H001082",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Higgins (LA)",
+        "id": "H001077",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Hill",
@@ -2031,6 +2061,12 @@ const house8Votes =
         "id": "L000595",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Loudermilk",
+        "id": "L000583",
+        "party": "R",
+        "state": "GA"
       },
       {
         "display_name": "Lucas",
@@ -2593,28 +2629,16 @@ const house8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Biggs",
-        "id": "B001302",
-        "party": "R",
-        "state": "AZ"
-      },
-      {
-        "display_name": "Crane",
-        "id": "C001132",
-        "party": "R",
-        "state": "AZ"
-      },
-      {
         "display_name": "Garc\u00eda (IL)",
         "id": "G000586",
         "party": "D",
         "state": "IL"
       },
       {
-        "display_name": "Higgins (LA)",
-        "id": "H001077",
-        "party": "R",
-        "state": "LA"
+        "display_name": "Grijalva",
+        "id": "G000551",
+        "party": "D",
+        "state": "AZ"
       },
       {
         "display_name": "Hunt",
@@ -2635,24 +2659,6 @@ const house8Votes =
         "state": "CT"
       },
       {
-        "display_name": "Lieu",
-        "id": "L000582",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Loudermilk",
-        "id": "L000583",
-        "party": "R",
-        "state": "GA"
-      },
-      {
-        "display_name": "Omar",
-        "id": "O000173",
-        "party": "D",
-        "state": "MN"
-      },
-      {
         "display_name": "Pocan",
         "id": "P000607",
         "party": "D",
@@ -2663,12 +2669,6 @@ const house8Votes =
         "id": "S001214",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Takano",
-        "id": "T000472",
-        "party": "D",
-        "state": "CA"
       }
     ],
     "Present": []

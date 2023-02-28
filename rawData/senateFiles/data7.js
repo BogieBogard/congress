@@ -3,23 +3,23 @@ const senate7Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-15T12:26:00-05:00",
+  "date": "2023-02-15T13:57:00-05:00",
   "nomination": {
-    "number": "80",
-    "title": "Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia"
+    "number": "73",
+    "title": "Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California"
   },
-  "number": 18,
-  "question": "Motion to Invoke Cloture: Ana C. Reyes to be U.S. District Judge for the District of Columbia: Ana C. Reyes, of the District of Columbia, to be United States District Judge for the District of Columbia",
-  "record_modified": "2023-02-15T13:25:00-05:00",
+  "number": 19,
+  "question": "Motion to Invoke Cloture: Daniel J. Calabretta to be U.S. District Judge for the Eastern District of California: Daniel J. Calabretta, of California, to be United States District Judge for the Eastern District of California",
+  "record_modified": "2023-02-15T15:07:00-05:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-47)",
+  "result_text": "Cloture Motion Agreed to (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00018.xml",
-  "subject": "On the Cloture Motion PN80",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00019.xml",
+  "subject": "On the Cloture Motion PN73",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-02-27T16:56:30-05:00",
-  "vote_id": "s18-118.2023",
+  "updated_at": "2023-02-27T22:57:49-05:00",
+  "vote_id": "s19-118.2023",
   "votes": {
     "Nay": [
       {
@@ -263,14 +263,6 @@ const senate7Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -401,6 +393,14 @@ const senate7Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Casey (D-PA)",
         "first_name": "Bob",
         "id": "S309",
@@ -458,14 +458,6 @@ const senate7Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
       },
       {
         "display_name": "Carper (D-DE)",
@@ -650,6 +642,14 @@ const senate7Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

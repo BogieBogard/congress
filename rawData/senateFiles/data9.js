@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-02-14T17:14:00-05:00",
+  "date": "2023-02-15T11:31:00-05:00",
   "nomination": {
     "number": "71",
     "title": "Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon"
   },
-  "number": 16,
-  "question": "Motion to Invoke Cloture: Adrienne C. Nelson to be U.S. District Judge for the District of Oregon: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
-  "record_modified": "2023-02-14T18:24:00-05:00",
+  "number": 17,
+  "question": "On the Nomination PN71: Adrienne C. Nelson, of Oregon, to be United States District Judge for the District of Oregon",
+  "record_modified": "2023-02-15T12:33:00-05:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (53-44)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00016.xml",
-  "subject": "On the Cloture Motion PN71",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-02-27T16:56:31-05:00",
-  "vote_id": "s16-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00017.xml",
+  "subject": "Confirmation: Adrienne C. Nelson, of Oregon, to be U.S. District Judge for the District of Oregon",
+  "type": "On the Nomination",
+  "updated_at": "2023-02-27T22:57:50-05:00",
+  "vote_id": "s17-118.2023",
   "votes": {
     "Nay": [
       {
@@ -215,6 +215,14 @@ const senate9Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -343,6 +351,14 @@ const senate9Votes =
         "state": "SD"
       },
       {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -385,20 +401,12 @@ const senate9Votes =
         "state": "PA"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
       }
     ],
     "Present": [],
@@ -506,14 +514,6 @@ const senate9Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",
