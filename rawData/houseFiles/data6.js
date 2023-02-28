@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll116.xml",
   "subject": "To terminate the requirement imposed by the Director of the Centers for Disease Control and Prevention for proof of COVID-19 vaccination for foreign travelers, and for other purposes",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-02-28T04:58:07-05:00",
+  "updated_at": "2023-02-28T10:59:26-05:00",
   "vote_id": "h116-118.2023",
   "votes": {
     "Nay": [

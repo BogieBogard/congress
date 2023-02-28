@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll121.xml",
   "subject": "Informing Consumers about Smart Devices Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-02-28T04:58:04-05:00",
+  "updated_at": "2023-02-28T10:59:24-05:00",
   "vote_id": "h121-118.2023",
   "votes": {
     "Nay": [
