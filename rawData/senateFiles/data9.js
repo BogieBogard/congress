@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00054.xml",
   "subject": "Confirmation: Brent Neiman, of Illinois, to be a Deputy Under Secretary of the Treasury",
   "type": "On the Nomination",
-  "updated_at": "2023-03-21T03:14:11-04:00",
+  "updated_at": "2023-03-21T09:16:00-04:00",
   "vote_id": "s54-118.2023",
   "votes": {
     "Nay": [
