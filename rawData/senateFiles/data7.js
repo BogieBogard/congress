@@ -18,7 +18,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00056.xml",
   "subject": "Confirmation: Eric M. Garcetti, of California, to be Ambassador of the United States of America to the Republic of India",
   "type": "On the Nomination",
-  "updated_at": "2023-03-21T09:15:59-04:00",
+  "updated_at": "2023-03-21T15:17:49-04:00",
   "vote_id": "s56-118.2023",
   "votes": {
     "Nay": [
