@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll141.xml",
   "subject": "Protecting Speech from Government Interference Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-03-20T21:11:06-04:00",
+  "updated_at": "2023-03-21T03:12:56-04:00",
   "vote_id": "h141-118.2023",
   "votes": {
     "Nay": [
