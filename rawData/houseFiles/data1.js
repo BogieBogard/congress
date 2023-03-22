@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll143.xml",
   "subject": "COVID-19 Origin Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-03-22T09:22:04-04:00",
+  "updated_at": "2023-03-22T15:23:54-04:00",
   "vote_id": "h143-118.2023",
   "votes": {
     "Nay": [],

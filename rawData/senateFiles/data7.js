@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-15T14:57:00-04:00",
+  "date": "2023-03-15T17:18:00-04:00",
   "nomination": {
     "number": "6",
     "title": "Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force"
   },
-  "number": 57,
-  "question": "Motion to Invoke Cloture: Ravi Chaudhary to be an Assistant Secretary of the Air Force: Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force",
-  "record_modified": "2023-03-15T16:02:00-04:00",
+  "number": 58,
+  "question": "On the Nomination PN6: Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force",
+  "record_modified": "2023-03-15T18:56:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (64-29)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (65-29)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00057.xml",
-  "subject": "On the Cloture Motion PN6",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-22T09:23:20-04:00",
-  "vote_id": "s57-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00058.xml",
+  "subject": "Confirmation: Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force",
+  "type": "On the Nomination",
+  "updated_at": "2023-03-22T15:25:10-04:00",
+  "vote_id": "s58-118.2023",
   "votes": {
     "Nay": [
       {
@@ -265,14 +265,6 @@ const senate7Votes =
         "state": "WY"
       },
       {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
@@ -338,6 +330,14 @@ const senate7Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
+      },
+      {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
       },
       {
         "display_name": "Boozman (R-AR)",
