@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll142.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of the Army, Corps of Engineers, Department of Defense and the Environmental Protection Agency relating to \u201cRevised Definition of \u2019Waters of the United States\u2019 \u201d",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-03-22T03:20:13-04:00",
+  "updated_at": "2023-03-22T09:22:05-04:00",
   "vote_id": "h142-118.2023",
   "votes": {
     "Nay": [

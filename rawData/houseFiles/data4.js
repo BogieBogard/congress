@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll140.xml",
   "subject": "Protecting Speech from Government Interference Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-03-22T03:20:14-04:00",
+  "updated_at": "2023-03-22T09:22:06-04:00",
   "vote_id": "h140-118.2023",
   "votes": {
     "Nay": [

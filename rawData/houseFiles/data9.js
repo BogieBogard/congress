@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll135.xml",
   "subject": "Providing for consideration of the bill (H.R. 140) the Protecting Speech from Government Interference Act; consideration of the resolution (H.J. Res. 27) relating to Revised Definition of Waters of the United States; consideration of the bill (S.619) the COVID-19 Origin Act; and for other purposes",
   "type": "On the Resolution",
-  "updated_at": "2023-03-22T03:20:17-04:00",
+  "updated_at": "2023-03-22T09:22:08-04:00",
   "vote_id": "h135-118.2023",
   "votes": {
     "Aye": [
