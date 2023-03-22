@@ -1,25 +1,25 @@
 const senate8Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-15T12:25:00-04:00",
+  "date": "2023-03-15T14:15:00-04:00",
   "nomination": {
     "number": "29",
     "title": "Eric M. Garcetti, of California, to be Ambassador to the Republic of India"
   },
-  "number": 55,
-  "question": "Motion to Invoke Cloture: Eric M. Garcetti, to be Ambassador of the United States of America to the Republic of India: Eric M. Garcetti, of California, to be Ambassador to the Republic of India",
-  "record_modified": "2023-03-15T13:28:00-04:00",
+  "number": 56,
+  "question": "On the Nomination PN29: Eric M. Garcetti, of California, to be Ambassador to the Republic of India",
+  "record_modified": "2023-03-15T15:13:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-42)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00055.xml",
-  "subject": "On the Cloture Motion PN29",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-21T15:17:49-04:00",
-  "vote_id": "s55-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00056.xml",
+  "subject": "Confirmation: Eric M. Garcetti, of California, to be Ambassador of the United States of America to the Republic of India",
+  "type": "On the Nomination",
+  "updated_at": "2023-03-21T21:19:39-04:00",
+  "vote_id": "s56-118.2023",
   "votes": {
     "Nay": [
       {

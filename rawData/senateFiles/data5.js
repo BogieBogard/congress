@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-15T17:18:00-04:00",
+  "date": "2023-03-15T18:12:00-04:00",
   "nomination": {
-    "number": "6",
-    "title": "Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force"
+    "number": "2",
+    "title": "Laura Taylor-Kale, of California, to be an Assistant Secretary of Defense"
   },
-  "number": 58,
-  "question": "On the Nomination PN6: Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force",
-  "record_modified": "2023-03-15T18:56:00-04:00",
+  "number": 59,
+  "question": "Motion to Invoke Cloture: Laura Taylor-Kale to be an Assistant Secretary of Defense: Laura Taylor-Kale, of California, to be an Assistant Secretary of Defense",
+  "record_modified": "2023-03-15T19:19:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (65-29)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (68-26)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00058.xml",
-  "subject": "Confirmation: Ravi Chaudhary, of Virginia, to be an Assistant Secretary of the Air Force",
-  "type": "On the Nomination",
-  "updated_at": "2023-03-21T15:17:48-04:00",
-  "vote_id": "s58-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00059.xml",
+  "subject": "On the Cloture Motion PN2",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-03-21T21:19:37-04:00",
+  "vote_id": "s59-118.2023",
   "votes": {
     "Nay": [
       {
@@ -71,14 +71,6 @@ const senate5Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -93,22 +85,6 @@ const senate5Votes =
         "last_name": "Daines",
         "party": "R",
         "state": "MT"
-      },
-      {
-        "display_name": "Ernst (R-IA)",
-        "first_name": "Joni",
-        "id": "S376",
-        "last_name": "Ernst",
-        "party": "R",
-        "state": "IA"
-      },
-      {
-        "display_name": "Fischer (R-NE)",
-        "first_name": "Deb",
-        "id": "S357",
-        "last_name": "Fischer",
-        "party": "R",
-        "state": "NE"
       },
       {
         "display_name": "Hagerty (R-TN)",
@@ -127,12 +103,12 @@ const senate5Votes =
         "state": "MO"
       },
       {
-        "display_name": "Hoeven (R-ND)",
-        "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
+        "display_name": "Hyde-Smith (R-MS)",
+        "first_name": "Cindy",
+        "id": "S395",
+        "last_name": "Hyde-Smith",
         "party": "R",
-        "state": "ND"
+        "state": "MS"
       },
       {
         "display_name": "Johnson (R-WI)",
@@ -191,14 +167,6 @@ const senate5Votes =
         "state": "KY"
       },
       {
-        "display_name": "Ricketts (R-NE)",
-        "first_name": "Pete",
-        "id": "S423",
-        "last_name": "Ricketts",
-        "party": "R",
-        "state": "NE"
-      },
-      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
@@ -237,6 +205,14 @@ const senate5Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -428,6 +404,14 @@ const senate5Votes =
         "state": "NV"
       },
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Duckworth (D-IL)",
         "first_name": "Tammy",
         "id": "S386",
@@ -442,6 +426,22 @@ const senate5Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Ernst (R-IA)",
+        "first_name": "Joni",
+        "id": "S376",
+        "last_name": "Ernst",
+        "party": "R",
+        "state": "IA"
+      },
+      {
+        "display_name": "Fischer (R-NE)",
+        "first_name": "Deb",
+        "id": "S357",
+        "last_name": "Fischer",
+        "party": "R",
+        "state": "NE"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -500,12 +500,12 @@ const senate5Votes =
         "state": "HI"
       },
       {
-        "display_name": "Hyde-Smith (R-MS)",
-        "first_name": "Cindy",
-        "id": "S395",
-        "last_name": "Hyde-Smith",
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
         "party": "R",
-        "state": "MS"
+        "state": "ND"
       },
       {
         "display_name": "Kaine (D-VA)",
@@ -652,6 +652,14 @@ const senate5Votes =
         "state": "RI"
       },
       {
+        "display_name": "Ricketts (R-NE)",
+        "first_name": "Pete",
+        "id": "S423",
+        "last_name": "Ricketts",
+        "party": "R",
+        "state": "NE"
+      },
+      {
         "display_name": "Romney (R-UT)",
         "first_name": "Mitt",
         "id": "S401",
@@ -730,14 +738,6 @@ const senate5Votes =
         "last_name": "Stabenow",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Tester (D-MT)",

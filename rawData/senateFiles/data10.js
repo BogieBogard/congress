@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-14T17:26:00-04:00",
+  "date": "2023-03-15T11:32:00-04:00",
   "nomination": {
     "number": "122",
     "title": "Brent Neiman, of Illinois, to be a Deputy Under Secretary of the Treasury"
   },
-  "number": 53,
-  "question": "Motion to Invoke Cloture: Brent Neiman to be a Deputy Under Secretary of the Treasury: Brent Neiman, of Illinois, to be a Deputy Under Secretary of the Treasury",
-  "record_modified": "2023-03-14T18:36:00-04:00",
+  "number": 54,
+  "question": "On the Nomination PN122: Brent Neiman, of Illinois, to be a Deputy Under Secretary of the Treasury",
+  "record_modified": "2023-03-15T12:47:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-40)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (54-40)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00053.xml",
-  "subject": "On the Cloture Motion PN122",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-21T15:17:50-04:00",
-  "vote_id": "s53-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00054.xml",
+  "subject": "Confirmation: Brent Neiman, of Illinois, to be a Deputy Under Secretary of the Treasury",
+  "type": "On the Nomination",
+  "updated_at": "2023-03-21T21:19:40-04:00",
+  "vote_id": "s54-118.2023",
   "votes": {
     "Nay": [
       {
@@ -101,14 +101,6 @@ const senate10Votes =
         "last_name": "Cramer",
         "party": "R",
         "state": "ND"
-      },
-      {
-        "display_name": "Crapo (R-ID)",
-        "first_name": "Mike",
-        "id": "S266",
-        "last_name": "Crapo",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -303,6 +295,14 @@ const senate10Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -353,6 +353,14 @@ const senate10Votes =
         "state": "WY"
       },
       {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
@@ -383,30 +391,6 @@ const senate10Votes =
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
-      },
-      {
-        "display_name": "Padilla (D-CA)",
-        "first_name": "Alex",
-        "id": "S413",
-        "last_name": "Padilla",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       }
     ],
     "Present": [],
@@ -434,14 +418,6 @@ const senate10Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -506,6 +482,14 @@ const senate10Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Crapo (R-ID)",
+        "first_name": "Mike",
+        "id": "S266",
+        "last_name": "Crapo",
+        "party": "R",
+        "state": "ID"
       },
       {
         "display_name": "Duckworth (D-IL)",
@@ -668,6 +652,14 @@ const senate10Votes =
         "state": "GA"
       },
       {
+        "display_name": "Padilla (D-CA)",
+        "first_name": "Alex",
+        "id": "S413",
+        "last_name": "Padilla",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Peters (D-MI)",
         "first_name": "Gary",
         "id": "S380",
@@ -682,6 +674,14 @@ const senate10Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
       },
       {
         "display_name": "Rosen (D-NV)",
