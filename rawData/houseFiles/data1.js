@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll145.xml",
   "subject": "To amend the Taiwan Assurance Act of 2020 to require periodic reviews and updated reports relating to the Department of State\u2019s Taiwan Guidelines",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-03-22T21:25:36-04:00",
+  "updated_at": "2023-03-23T03:27:29-04:00",
   "vote_id": "h145-118.2023",
   "votes": {
     "Nay": [

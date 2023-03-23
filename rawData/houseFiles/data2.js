@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll144.xml",
   "subject": "To direct the Secretary of State to submit to Congress a report on implementation of the advanced capabilities pillar of the trilateral security partnership between Australia, the United Kingdom, and the United States",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-03-22T21:25:37-04:00",
+  "updated_at": "2023-03-23T03:27:29-04:00",
   "vote_id": "h144-118.2023",
   "votes": {
     "Nay": [

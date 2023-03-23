@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll136.xml",
   "subject": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from Syria",
   "type": "On the Resolution",
-  "updated_at": "2023-03-22T21:25:41-04:00",
+  "updated_at": "2023-03-23T03:27:33-04:00",
   "vote_id": "h136-118.2023",
   "votes": {
     "Nay": [

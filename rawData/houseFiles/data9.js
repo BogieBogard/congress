@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll137.xml",
   "subject": "VA COST SAVINGS Enhancements Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-03-22T21:25:40-04:00",
+  "updated_at": "2023-03-23T03:27:33-04:00",
   "vote_id": "h137-118.2023",
   "votes": {
     "Nay": [],
