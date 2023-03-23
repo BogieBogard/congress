@@ -1,25 +1,25 @@
 const senate8Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-15T18:12:00-04:00",
+  "date": "2023-03-16T13:52:00-04:00",
   "nomination": {
-    "number": "2",
-    "title": "Laura Taylor-Kale, of California, to be an Assistant Secretary of Defense"
+    "number": "85",
+    "title": "Jessica G. L. Clarke, of New York, to be United States District Judge for the Southern District of New York"
   },
-  "number": 59,
-  "question": "Motion to Invoke Cloture: Laura Taylor-Kale to be an Assistant Secretary of Defense: Laura Taylor-Kale, of California, to be an Assistant Secretary of Defense",
-  "record_modified": "2023-03-15T19:19:00-04:00",
+  "number": 62,
+  "question": "On the Nomination PN85: Jessica G. L. Clarke, of New York, to be United States District Judge for the Southern District of New York",
+  "record_modified": "2023-03-16T14:56:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (68-26)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (48-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00059.xml",
-  "subject": "On the Cloture Motion PN2",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-23T09:30:38-04:00",
-  "vote_id": "s59-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00062.xml",
+  "subject": "Confirmation: Jessica G.L. Clarke, of New York, to be U.S. District Judge for the Southern District of New York",
+  "type": "On the Nomination",
+  "updated_at": "2023-03-23T15:32:40-04:00",
+  "vote_id": "s62-118.2023",
   "votes": {
     "Nay": [
       {
@@ -29,6 +29,14 @@ const senate8Votes =
         "last_name": "Blackburn",
         "party": "R",
         "state": "TN"
+      },
+      {
+        "display_name": "Boozman (R-AR)",
+        "first_name": "John",
+        "id": "S343",
+        "last_name": "Boozman",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Braun (R-IN)",
@@ -55,12 +63,36 @@ const senate8Votes =
         "state": "NC"
       },
       {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
+      },
+      {
         "display_name": "Cassidy (R-LA)",
         "first_name": "Bill",
         "id": "S373",
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
+        "display_name": "Cornyn (R-TX)",
+        "first_name": "John",
+        "id": "S287",
+        "last_name": "Cornyn",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -87,6 +119,38 @@ const senate8Votes =
         "state": "MT"
       },
       {
+        "display_name": "Ernst (R-IA)",
+        "first_name": "Joni",
+        "id": "S376",
+        "last_name": "Ernst",
+        "party": "R",
+        "state": "IA"
+      },
+      {
+        "display_name": "Fischer (R-NE)",
+        "first_name": "Deb",
+        "id": "S357",
+        "last_name": "Fischer",
+        "party": "R",
+        "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Grassley (R-IA)",
+        "first_name": "Chuck",
+        "id": "S153",
+        "last_name": "Grassley",
+        "party": "R",
+        "state": "IA"
+      },
+      {
         "display_name": "Hagerty (R-TN)",
         "first_name": "Bill",
         "id": "S407",
@@ -103,6 +167,14 @@ const senate8Votes =
         "state": "MO"
       },
       {
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Hyde-Smith (R-MS)",
         "first_name": "Cindy",
         "id": "S395",
@@ -117,6 +189,14 @@ const senate8Votes =
         "last_name": "Johnson",
         "party": "R",
         "state": "WI"
+      },
+      {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Lankford (R-OK)",
@@ -159,6 +239,14 @@ const senate8Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -167,12 +255,36 @@ const senate8Votes =
         "state": "KY"
       },
       {
+        "display_name": "Ricketts (R-NE)",
+        "first_name": "Pete",
+        "id": "S423",
+        "last_name": "Ricketts",
+        "party": "R",
+        "state": "NE"
+      },
+      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -199,20 +311,28 @@ const senate8Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
         "last_name": "Sullivan",
         "party": "R",
         "state": "AK"
+      },
+      {
+        "display_name": "Thune (R-SD)",
+        "first_name": "John",
+        "id": "S303",
+        "last_name": "Thune",
+        "party": "R",
+        "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -229,6 +349,22 @@ const senate8Votes =
         "last_name": "Vance",
         "party": "R",
         "state": "OH"
+      },
+      {
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Not Voting": [
@@ -239,6 +375,14 @@ const senate8Votes =
         "last_name": "Barrasso",
         "party": "R",
         "state": "WY"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -273,12 +417,28 @@ const senate8Votes =
         "state": "KY"
       },
       {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
         "party": "R",
-        "state": "IN"
+        "state": "KS"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -316,14 +476,6 @@ const senate8Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Boozman (R-AR)",
-        "first_name": "John",
-        "id": "S343",
-        "last_name": "Boozman",
-        "party": "R",
-        "state": "AR"
-      },
-      {
         "display_name": "Brown (D-OH)",
         "first_name": "Sherrod ",
         "id": "S307",
@@ -338,14 +490,6 @@ const senate8Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -372,14 +516,6 @@ const senate8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -388,28 +524,12 @@ const senate8Votes =
         "state": "DE"
       },
       {
-        "display_name": "Cornyn (R-TX)",
-        "first_name": "John",
-        "id": "S287",
-        "last_name": "Cornyn",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Cortez Masto (D-NV)",
         "first_name": "Catherine",
         "id": "S385",
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Duckworth (D-IL)",
@@ -428,44 +548,12 @@ const senate8Votes =
         "state": "IL"
       },
       {
-        "display_name": "Ernst (R-IA)",
-        "first_name": "Joni",
-        "id": "S376",
-        "last_name": "Ernst",
-        "party": "R",
-        "state": "IA"
-      },
-      {
-        "display_name": "Fischer (R-NE)",
-        "first_name": "Deb",
-        "id": "S357",
-        "last_name": "Fischer",
-        "party": "R",
-        "state": "NE"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
-      },
-      {
-        "display_name": "Grassley (R-IA)",
-        "first_name": "Chuck",
-        "id": "S153",
-        "last_name": "Grassley",
-        "party": "R",
-        "state": "IA"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -500,14 +588,6 @@ const senate8Votes =
         "state": "HI"
       },
       {
-        "display_name": "Hoeven (R-ND)",
-        "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Kaine (D-VA)",
         "first_name": "Timothy",
         "id": "S362",
@@ -522,14 +602,6 @@ const senate8Votes =
         "last_name": "Kelly",
         "party": "D",
         "state": "AZ"
-      },
-      {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "King (I-ME)",
@@ -588,22 +660,6 @@ const senate8Votes =
         "state": "OR"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -652,44 +708,12 @@ const senate8Votes =
         "state": "RI"
       },
       {
-        "display_name": "Ricketts (R-NE)",
-        "first_name": "Pete",
-        "id": "S423",
-        "last_name": "Ricketts",
-        "party": "R",
-        "state": "NE"
-      },
-      {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
@@ -748,22 +772,6 @@ const senate8Votes =
         "state": "MT"
       },
       {
-        "display_name": "Thune (R-SD)",
-        "first_name": "John",
-        "id": "S303",
-        "last_name": "Thune",
-        "party": "R",
-        "state": "SD"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Van Hollen (D-MD)",
         "first_name": "Chris",
         "id": "S390",
@@ -810,14 +818,6 @@ const senate8Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
       },
       {
         "display_name": "Wyden (D-OR)",
