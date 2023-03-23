@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-16T11:32:00-04:00",
+  "date": "2023-03-16T13:52:00-04:00",
   "nomination": {
     "number": "85",
     "title": "Jessica G. L. Clarke, of New York, to be United States District Judge for the Southern District of New York"
   },
-  "number": 60,
-  "question": "Motion to Invoke Cloture: Jessica G. L. Clarke to be U.S. District Judge for the Southern District of New York: Jessica G. L. Clarke, of New York, to be United States District Judge for the Southern District of New York",
-  "record_modified": "2023-03-16T13:18:00-04:00",
+  "number": 62,
+  "question": "On the Nomination PN85: Jessica G. L. Clarke, of New York, to be United States District Judge for the Southern District of New York",
+  "record_modified": "2023-03-16T14:56:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (49-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (48-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00060.xml",
-  "subject": "On the Cloture Motion PN85",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-22T15:25:09-04:00",
-  "vote_id": "s60-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00062.xml",
+  "subject": "Confirmation: Jessica G.L. Clarke, of New York, to be U.S. District Judge for the Southern District of New York",
+  "type": "On the Nomination",
+  "updated_at": "2023-03-22T21:26:52-04:00",
+  "vote_id": "s62-118.2023",
   "votes": {
     "Nay": [
       {
@@ -103,14 +103,6 @@ const senate5Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -175,6 +167,14 @@ const senate5Votes =
         "state": "MO"
       },
       {
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Hyde-Smith (R-MS)",
         "first_name": "Cindy",
         "id": "S395",
@@ -227,14 +227,6 @@ const senate5Votes =
         "first_name": "Roger",
         "id": "S411",
         "last_name": "Marshall",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
         "party": "R",
         "state": "KS"
       },
@@ -319,14 +311,6 @@ const senate5Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -393,6 +377,14 @@ const senate5Votes =
         "state": "WY"
       },
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
@@ -417,20 +409,36 @@ const senate5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Hoeven (R-ND)",
-        "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "McConnell (R-KY)",
         "first_name": "Mitch",
         "id": "S174",
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -706,14 +714,6 @@ const senate5Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

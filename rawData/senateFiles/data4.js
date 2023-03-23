@@ -6,22 +6,22 @@ const senate4Votes =
     "title": "A bill to repeal the authorizations for use of military force against Iraq.",
     "type": "s"
   },
-  "category": "cloture",
+  "category": "procedural",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-16T12:25:00-04:00",
-  "number": 61,
-  "question": "Motion to Invoke Cloture: Motion to Proceed to S. 316",
-  "record_modified": "2023-03-16T13:30:00-04:00",
-  "requires": "3/5",
-  "result": "Cloture on the Motion to Proceed Agreed to",
-  "result_text": "Cloture on the Motion to Proceed Agreed to (68-27, 3/5 majority required)",
+  "date": "2023-03-21T17:36:00-04:00",
+  "number": 63,
+  "question": "On the Motion to Proceed S. 316",
+  "record_modified": "2023-03-22T19:14:00-04:00",
+  "requires": "1/2",
+  "result": "Motion to Proceed Agreed to",
+  "result_text": "Motion to Proceed Agreed to (67-28)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00061.xml",
-  "subject": "On Cloture on the Motion to Proceed S. 316",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-03-22T15:25:09-04:00",
-  "vote_id": "s61-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00063.xml",
+  "subject": "Motion to Proceed to S. 316",
+  "type": "On the Motion to Proceed",
+  "updated_at": "2023-03-22T21:26:52-04:00",
+  "vote_id": "s63-118.2023",
   "votes": {
     "Nay": [
       {
@@ -79,6 +79,14 @@ const senate4Votes =
         "last_name": "Crapo",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Ernst (R-IA)",
@@ -251,12 +259,12 @@ const senate4Votes =
         "state": "WY"
       },
       {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
+        "display_name": "Durbin (D-IL)",
+        "first_name": "Richard",
+        "id": "S253",
+        "last_name": "Durbin",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Feinstein (D-CA)",
@@ -426,14 +434,6 @@ const senate4Votes =
         "first_name": "Tammy",
         "id": "S386",
         "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Durbin (D-IL)",
-        "first_name": "Richard",
-        "id": "S253",
-        "last_name": "Durbin",
         "party": "D",
         "state": "IL"
       },
