@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00063.xml",
   "subject": "Motion to Proceed to S. 316",
   "type": "On the Motion to Proceed",
-  "updated_at": "2023-03-23T15:32:40-04:00",
+  "updated_at": "2023-03-23T21:34:37-04:00",
   "vote_id": "s63-118.2023",
   "votes": {
     "Nay": [

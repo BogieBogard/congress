@@ -2,24 +2,24 @@ const house8Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 140,
-    "type": "hr"
+    "number": 241,
+    "type": "hres"
   },
-  "category": "passage",
+  "category": "procedural",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-03-09T16:37:00-05:00",
-  "number": 141,
-  "question": "On Passage: H R 140 Protecting Speech from Government Interference Act",
+  "date": "2023-03-23T14:00:00-04:00",
+  "number": 146,
+  "question": "On Ordering the Previous Question: H RES 241 Providing for consideration of the bill (H.R. 5) Parents Bill of Rights Act",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll141.xml",
-  "subject": "Protecting Speech from Government Interference Act",
-  "type": "On Passage of the Bill",
-  "updated_at": "2023-03-23T15:31:25-04:00",
-  "vote_id": "h141-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll146.xml",
+  "subject": "Providing for consideration of the bill (H.R. 5) Parents Bill of Rights Act",
+  "type": "On Ordering the Previous Question",
+  "updated_at": "2023-03-23T21:33:20-04:00",
+  "vote_id": "h146-118.2023",
   "votes": {
     "Nay": [
       {
@@ -83,12 +83,6 @@ const house8Votes =
         "state": "GA"
       },
       {
-        "display_name": "Blumenauer",
-        "id": "B000574",
-        "party": "D",
-        "state": "OR"
-      },
-      {
         "display_name": "Blunt Rochester",
         "id": "B001303",
         "party": "D",
@@ -105,6 +99,12 @@ const house8Votes =
         "id": "B001223",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Boyle (PA)",
+        "id": "B001296",
+        "party": "D",
+        "state": "PA"
       },
       {
         "display_name": "Brown",
@@ -241,12 +241,6 @@ const house8Votes =
       {
         "display_name": "Correa",
         "id": "C001110",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Costa",
-        "id": "C001059",
         "party": "D",
         "state": "CA"
       },
@@ -593,12 +587,6 @@ const house8Votes =
         "state": "MA"
       },
       {
-        "display_name": "Kelly (IL)",
-        "id": "K000385",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Khanna",
         "id": "K000389",
         "party": "D",
@@ -673,6 +661,12 @@ const house8Votes =
       {
         "display_name": "Levin",
         "id": "L000593",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Lieu",
+        "id": "L000582",
         "party": "D",
         "state": "CA"
       },
@@ -773,12 +767,6 @@ const house8Votes =
         "state": "NY"
       },
       {
-        "display_name": "Moskowitz",
-        "id": "M001217",
-        "party": "D",
-        "state": "FL"
-      },
-      {
         "display_name": "Moulton",
         "id": "M001196",
         "party": "D",
@@ -789,12 +777,6 @@ const house8Votes =
         "id": "M001214",
         "party": "D",
         "state": "IN"
-      },
-      {
-        "display_name": "Mullin",
-        "id": "M001225",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Nadler",
@@ -903,6 +885,12 @@ const house8Votes =
         "id": "P000620",
         "party": "D",
         "state": "CO"
+      },
+      {
+        "display_name": "Phillips",
+        "id": "P000616",
+        "party": "D",
+        "state": "MN"
       },
       {
         "display_name": "Pingree",
@@ -1017,6 +1005,12 @@ const house8Votes =
         "id": "S001221",
         "party": "D",
         "state": "MI"
+      },
+      {
+        "display_name": "Schrier",
+        "id": "S001216",
+        "party": "D",
+        "state": "WA"
       },
       {
         "display_name": "Scott (VA)",
@@ -1187,12 +1181,6 @@ const house8Votes =
         "state": "MD"
       },
       {
-        "display_name": "Underwood",
-        "id": "U000040",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Vargas",
         "id": "V000130",
         "party": "D",
@@ -1261,10 +1249,22 @@ const house8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Boyle (PA)",
-        "id": "B001296",
+        "display_name": "Bishop (NC)",
+        "id": "B001311",
+        "party": "R",
+        "state": "NC"
+      },
+      {
+        "display_name": "Blumenauer",
+        "id": "B000574",
         "party": "D",
-        "state": "PA"
+        "state": "OR"
+      },
+      {
+        "display_name": "Bucshon",
+        "id": "B001275",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Castro (TX)",
@@ -1279,10 +1279,22 @@ const house8Votes =
         "state": "MO"
       },
       {
-        "display_name": "Dunn (FL)",
-        "id": "D000628",
+        "display_name": "Cole",
+        "id": "C001053",
         "party": "R",
-        "state": "FL"
+        "state": "OK"
+      },
+      {
+        "display_name": "Costa",
+        "id": "C001059",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Kelly (IL)",
+        "id": "K000385",
+        "party": "D",
+        "state": "IL"
       },
       {
         "display_name": "Leger Fernandez",
@@ -1291,28 +1303,22 @@ const house8Votes =
         "state": "NM"
       },
       {
-        "display_name": "Lieu",
-        "id": "L000582",
+        "display_name": "Moskowitz",
+        "id": "M001217",
+        "party": "D",
+        "state": "FL"
+      },
+      {
+        "display_name": "Mullin",
+        "id": "M001225",
         "party": "D",
         "state": "CA"
       },
       {
-        "display_name": "Phillips",
-        "id": "P000616",
+        "display_name": "Underwood",
+        "id": "U000040",
         "party": "D",
-        "state": "MN"
-      },
-      {
-        "display_name": "Schrier",
-        "id": "S001216",
-        "party": "D",
-        "state": "WA"
-      },
-      {
-        "display_name": "Steube",
-        "id": "S001214",
-        "party": "R",
-        "state": "FL"
+        "state": "IL"
       }
     ],
     "Present": [],
@@ -1426,12 +1432,6 @@ const house8Votes =
         "state": "FL"
       },
       {
-        "display_name": "Bishop (NC)",
-        "id": "B001311",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Boebert",
         "id": "B000825",
         "party": "R",
@@ -1460,12 +1460,6 @@ const house8Votes =
         "id": "B001297",
         "party": "R",
         "state": "CO"
-      },
-      {
-        "display_name": "Bucshon",
-        "id": "B001275",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Burchett",
@@ -1552,12 +1546,6 @@ const house8Votes =
         "state": "GA"
       },
       {
-        "display_name": "Cole",
-        "id": "C001053",
-        "party": "R",
-        "state": "OK"
-      },
-      {
         "display_name": "Collins",
         "id": "C001129",
         "party": "R",
@@ -1640,6 +1628,12 @@ const house8Votes =
         "id": "D000615",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Dunn (FL)",
+        "id": "D000628",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Edwards",
@@ -2146,6 +2140,12 @@ const house8Votes =
         "state": "FL"
       },
       {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
+      },
+      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2480,6 +2480,12 @@ const house8Votes =
         "id": "S001213",
         "party": "R",
         "state": "WI"
+      },
+      {
+        "display_name": "Steube",
+        "id": "S001214",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Stewart",
