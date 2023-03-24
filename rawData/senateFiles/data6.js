@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00064.xml",
   "subject": "Confirmation: Gordon P. Gallagher, of Colorado, to be U.S. District Judge for the District of Colorado",
   "type": "On the Nomination",
-  "updated_at": "2023-03-23T21:34:37-04:00",
+  "updated_at": "2023-03-24T03:36:34-04:00",
   "vote_id": "s64-118.2023",
   "votes": {
     "Nay": [

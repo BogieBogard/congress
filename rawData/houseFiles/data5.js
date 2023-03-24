@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll149.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Labor relating to \u201cPrudence and Loyalty in Selecting Plan Investments and Exercising Shareholder Rights\u201d",
   "type": "Passage, Objections of the President To The Contrary Notwithstanding",
-  "updated_at": "2023-03-23T21:33:19-04:00",
+  "updated_at": "2023-03-24T03:35:17-04:00",
   "vote_id": "h149-118.2023",
   "votes": {
     "Nay": [
