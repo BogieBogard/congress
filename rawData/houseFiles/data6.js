@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll148.xml",
   "subject": "PARTNER with ASEAN Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-03-24T03:35:17-04:00",
+  "updated_at": "2023-03-24T09:37:14-04:00",
   "vote_id": "h148-118.2023",
   "votes": {
     "Nay": [

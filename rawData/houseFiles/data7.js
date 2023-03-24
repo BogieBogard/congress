@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll147.xml",
   "subject": "Providing for consideration of the bill (H.R. 5) Parents Bill of Rights Act",
   "type": "On the Resolution",
-  "updated_at": "2023-03-24T03:35:18-04:00",
+  "updated_at": "2023-03-24T09:37:15-04:00",
   "vote_id": "h147-118.2023",
   "votes": {
     "Aye": [

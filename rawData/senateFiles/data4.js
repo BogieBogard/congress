@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00066.xml",
   "subject": "Graham Amdt No. 14",
   "type": "On the Amendment",
-  "updated_at": "2023-03-24T03:36:33-04:00",
+  "updated_at": "2023-03-24T09:38:31-04:00",
   "vote_id": "s66-118.2023",
   "votes": {
     "Nay": [
