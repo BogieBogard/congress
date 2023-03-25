@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00068.xml",
   "subject": "Rubio Amdt. No. 4",
   "type": "On the Amendment",
-  "updated_at": "2023-03-24T21:42:34-04:00",
+  "updated_at": "2023-03-25T03:44:35-04:00",
   "vote_id": "s68-118.2023",
   "votes": {
     "Nay": [

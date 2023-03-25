@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00065.xml",
   "subject": "Paul Amdt No. 2",
   "type": "On the Amendment",
-  "updated_at": "2023-03-24T21:42:35-04:00",
+  "updated_at": "2023-03-25T03:44:36-04:00",
   "vote_id": "s65-118.2023",
   "votes": {
     "Nay": [
