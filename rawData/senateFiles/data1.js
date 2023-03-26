@@ -25,7 +25,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00069.xml",
   "subject": "Risch Amdt. No. 43",
   "type": "On the Amendment",
-  "updated_at": "2023-03-26T03:52:49-04:00",
+  "updated_at": "2023-03-26T09:54:52-04:00",
   "vote_id": "s69-118.2023",
   "votes": {
     "Nay": [

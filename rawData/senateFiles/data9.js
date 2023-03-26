@@ -20,7 +20,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00061.xml",
   "subject": "On Cloture on the Motion to Proceed S. 316",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-03-26T03:52:53-04:00",
+  "updated_at": "2023-03-26T09:54:55-04:00",
   "vote_id": "s61-118.2023",
   "votes": {
     "Nay": [
