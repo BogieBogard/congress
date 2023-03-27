@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll161.xml",
   "subject": "Parents Bill of Rights Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-03-26T15:55:32-04:00",
+  "updated_at": "2023-03-26T21:57:35-04:00",
   "vote_id": "h161-118.2023",
   "votes": {
     "Aye": [
