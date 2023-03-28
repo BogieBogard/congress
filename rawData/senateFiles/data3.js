@@ -1,32 +1,27 @@
 const senate3Votes = 
 {
-  "amendment": {
-    "number": 4,
-    "purpose": "To require a certification.",
-    "type": "s"
-  },
   "bill": {
     "congress": 118,
     "number": 316,
-    "title": "No short title on file",
+    "title": "A bill to repeal the authorizations for use of military force against Iraq.",
     "type": "s"
   },
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-23T12:29:00-04:00",
-  "number": 68,
-  "question": "On the Amendment S.Amdt. 4 to S. 316 (No short title on file)",
-  "record_modified": "2023-03-23T14:53:00-04:00",
+  "date": "2023-03-28T12:37:00-04:00",
+  "number": 72,
+  "question": "On the Amendment S. 316",
+  "record_modified": "2023-03-28T13:47:00-04:00",
   "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (32-63, 3/5 majority required)",
+  "result_text": "Amendment Rejected (31-65, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00068.xml",
-  "subject": "Rubio Amdt. No. 4",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00072.xml",
+  "subject": "Ricketts Amdt. No. 30",
   "type": "On the Amendment",
-  "updated_at": "2023-03-28T10:11:19-04:00",
-  "vote_id": "s68-118.2023",
+  "updated_at": "2023-03-28T16:13:24-04:00",
+  "vote_id": "s72-118.2023",
   "votes": {
     "Nay": [
       {
@@ -134,20 +129,28 @@ const senate3Votes =
         "state": "ME"
       },
       {
-        "display_name": "Coons (D-DE)",
-        "first_name": "Christopher",
-        "id": "S337",
-        "last_name": "Coons",
-        "party": "D",
-        "state": "DE"
-      },
-      {
         "display_name": "Cortez Masto (D-NV)",
         "first_name": "Catherine",
         "id": "S385",
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -162,6 +165,14 @@ const senate3Votes =
         "first_name": "Tammy",
         "id": "S386",
         "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Durbin (D-IL)",
+        "first_name": "Richard",
+        "id": "S253",
+        "last_name": "Durbin",
         "party": "D",
         "state": "IL"
       },
@@ -220,14 +231,6 @@ const senate3Votes =
         "last_name": "Hirono",
         "party": "D",
         "state": "HI"
-      },
-      {
-        "display_name": "Hyde-Smith (R-MS)",
-        "first_name": "Cindy",
-        "id": "S395",
-        "last_name": "Hyde-Smith",
-        "party": "R",
-        "state": "MS"
       },
       {
         "display_name": "Kaine (D-VA)",
@@ -438,6 +441,14 @@ const senate3Votes =
         "state": "NH"
       },
       {
+        "display_name": "Sinema (I-AZ)",
+        "first_name": "Kyrsten",
+        "id": "S403",
+        "last_name": "Sinema",
+        "party": "I",
+        "state": "AZ"
+      },
+      {
         "display_name": "Smith (D-MN)",
         "first_name": "Tina",
         "id": "S394",
@@ -536,20 +547,12 @@ const senate3Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
-        "display_name": "Durbin (D-IL)",
-        "first_name": "Richard",
-        "id": "S253",
-        "last_name": "Durbin",
+        "display_name": "Coons (D-DE)",
+        "first_name": "Christopher",
+        "id": "S337",
+        "last_name": "Coons",
         "party": "D",
-        "state": "IL"
+        "state": "DE"
       },
       {
         "display_name": "Feinstein (D-CA)",
@@ -643,14 +646,6 @@ const senate3Votes =
         "state": "ID"
       },
       {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Ernst (R-IA)",
         "first_name": "Joni",
         "id": "S376",
@@ -689,6 +684,14 @@ const senate3Votes =
         "last_name": "Hoeven",
         "party": "R",
         "state": "ND"
+      },
+      {
+        "display_name": "Hyde-Smith (R-MS)",
+        "first_name": "Cindy",
+        "id": "S395",
+        "last_name": "Hyde-Smith",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Johnson (R-WI)",
@@ -785,14 +788,6 @@ const senate3Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Sinema (I-AZ)",
-        "first_name": "Kyrsten",
-        "id": "S403",
-        "last_name": "Sinema",
-        "party": "I",
-        "state": "AZ"
       },
       {
         "display_name": "Sullivan (R-AK)",
