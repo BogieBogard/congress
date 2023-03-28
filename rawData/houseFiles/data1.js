@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll164.xml",
   "subject": "PRC Is Not a Developing Country Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-03-28T04:07:52-04:00",
+  "updated_at": "2023-03-28T10:09:55-04:00",
   "vote_id": "h164-118.2023",
   "votes": {
     "Nay": [],

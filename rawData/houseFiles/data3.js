@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll162.xml",
   "subject": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony as part of the commemoration of the days of remembrance of victims of the Holocaust",
   "type": "On Motion to Suspend the Rules and Agree",
-  "updated_at": "2023-03-28T04:07:53-04:00",
+  "updated_at": "2023-03-28T10:09:56-04:00",
   "vote_id": "h162-118.2023",
   "votes": {
     "Nay": [],
