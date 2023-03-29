@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll165.xml",
   "subject": "Providing for consideration of the bill (H.R. 1) the Lower Energy Costs Act",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-03-29T04:16:49-04:00",
+  "updated_at": "2023-03-29T10:18:57-04:00",
   "vote_id": "h165-118.2023",
   "votes": {
     "Nay": [

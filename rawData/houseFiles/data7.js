@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll160.xml",
   "subject": "Parents Bill of Rights Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-03-29T04:16:52-04:00",
+  "updated_at": "2023-03-29T10:18:59-04:00",
   "vote_id": "h160-118.2023",
   "votes": {
     "Nay": [

@@ -20,7 +20,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00072.xml",
   "subject": "Ricketts Amdt. No. 30",
   "type": "On the Amendment",
-  "updated_at": "2023-03-29T04:18:15-04:00",
+  "updated_at": "2023-03-29T10:20:22-04:00",
   "vote_id": "s72-118.2023",
   "votes": {
     "Nay": [
