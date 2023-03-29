@@ -1,8 +1,8 @@
 const senate9Votes = 
 {
   "amendment": {
-    "number": 14,
-    "purpose": "To provide for more targeted authority under the Authorization for Use of Military Force Against Iraq Resolution of 2002.",
+    "number": 4,
+    "purpose": "To require a certification.",
     "type": "s"
   },
   "bill": {
@@ -14,19 +14,19 @@ const senate9Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-03-22T18:40:00-04:00",
-  "number": 66,
-  "question": "On the Amendment S.Amdt. 14 to S. 316 (No short title on file)",
-  "record_modified": "2023-03-22T19:39:00-04:00",
-  "requires": "1/2",
+  "date": "2023-03-23T12:29:00-04:00",
+  "number": 68,
+  "question": "On the Amendment S.Amdt. 4 to S. 316 (No short title on file)",
+  "record_modified": "2023-03-23T14:53:00-04:00",
+  "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (36-60)",
+  "result_text": "Amendment Rejected (32-63, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00066.xml",
-  "subject": "Graham Amdt No. 14",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00068.xml",
+  "subject": "Rubio Amdt. No. 4",
   "type": "On the Amendment",
-  "updated_at": "2023-03-28T16:13:27-04:00",
-  "vote_id": "s66-118.2023",
+  "updated_at": "2023-03-28T22:15:33-04:00",
+  "vote_id": "s68-118.2023",
   "votes": {
     "Nay": [
       {
@@ -60,6 +60,14 @@ const senate9Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -108,6 +116,14 @@ const senate9Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
       },
       {
         "display_name": "Collins (R-ME)",
@@ -206,6 +222,14 @@ const senate9Votes =
         "state": "HI"
       },
       {
+        "display_name": "Hyde-Smith (R-MS)",
+        "first_name": "Cindy",
+        "id": "S395",
+        "last_name": "Hyde-Smith",
+        "party": "R",
+        "state": "MS"
+      },
+      {
         "display_name": "Kaine (D-VA)",
         "first_name": "Timothy",
         "id": "S362",
@@ -260,6 +284,14 @@ const senate9Votes =
         "last_name": "Lummis",
         "party": "R",
         "state": "WY"
+      },
+      {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
       },
       {
         "display_name": "Markey (D-MA)",
@@ -406,14 +438,6 @@ const senate9Votes =
         "state": "NH"
       },
       {
-        "display_name": "Sinema (I-AZ)",
-        "first_name": "Kyrsten",
-        "id": "S403",
-        "last_name": "Sinema",
-        "party": "I",
-        "state": "AZ"
-      },
-      {
         "display_name": "Smith (D-MN)",
         "first_name": "Tina",
         "id": "S394",
@@ -512,6 +536,14 @@ const senate9Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Durbin (D-IL)",
         "first_name": "Richard",
         "id": "S253",
@@ -571,14 +603,6 @@ const senate9Votes =
         "state": "AR"
       },
       {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
-      },
-      {
         "display_name": "Britt (R-AL)",
         "first_name": "Katie",
         "id": "S416",
@@ -595,14 +619,6 @@ const senate9Votes =
         "state": "WV"
       },
       {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -617,14 +633,6 @@ const senate9Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -683,14 +691,6 @@ const senate9Votes =
         "state": "ND"
       },
       {
-        "display_name": "Hyde-Smith (R-MS)",
-        "first_name": "Cindy",
-        "id": "S395",
-        "last_name": "Hyde-Smith",
-        "party": "R",
-        "state": "MS"
-      },
-      {
         "display_name": "Johnson (R-WI)",
         "first_name": "Ron",
         "id": "S345",
@@ -713,14 +713,6 @@ const senate9Votes =
         "last_name": "Lankford",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
       },
       {
         "display_name": "Mullin (R-OK)",
@@ -793,6 +785,14 @@ const senate9Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Sinema (I-AZ)",
+        "first_name": "Kyrsten",
+        "id": "S403",
+        "last_name": "Sinema",
+        "party": "I",
+        "state": "AZ"
       },
       {
         "display_name": "Sullivan (R-AK)",
