@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll163.xml",
   "subject": "Stop Forced Organ Harvesting Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-03-28T22:14:06-04:00",
+  "updated_at": "2023-03-29T04:16:50-04:00",
   "vote_id": "h163-118.2023",
   "votes": {
     "Nay": [
