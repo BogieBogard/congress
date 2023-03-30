@@ -20,7 +20,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00071.xml",
   "subject": "Johnson Amdt. No. 11",
   "type": "On the Amendment",
-  "updated_at": "2023-03-29T22:25:20-04:00",
+  "updated_at": "2023-03-30T04:27:34-04:00",
   "vote_id": "s71-118.2023",
   "votes": {
     "Nay": [
