@@ -20,7 +20,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00079.xml",
   "subject": "H.J. Res. 27",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-03-30T16:34:35-04:00",
+  "updated_at": "2023-03-30T22:36:53-04:00",
   "vote_id": "s79-118.2023",
   "votes": {
     "Nay": [

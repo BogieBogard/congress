@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll181.xml",
   "subject": "Lower Energy Costs Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-03-30T16:33:02-04:00",
+  "updated_at": "2023-03-30T22:35:20-04:00",
   "vote_id": "h181-118.2023",
   "votes": {
     "Nay": [
