@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00075.xml",
   "subject": "Scott (FL) Amdt. No. 13",
   "type": "On the Amendment",
-  "updated_at": "2023-03-30T22:36:55-04:00",
+  "updated_at": "2023-03-31T04:39:18-04:00",
   "vote_id": "s75-118.2023",
   "votes": {
     "Nay": [
