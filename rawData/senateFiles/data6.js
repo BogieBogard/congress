@@ -20,7 +20,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00077.xml",
   "subject": "S. 316",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-03-31T22:46:18-04:00",
+  "updated_at": "2023-04-01T04:48:37-04:00",
   "vote_id": "s77-118.2023",
   "votes": {
     "Nay": [
