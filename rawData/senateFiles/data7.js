@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00076.xml",
   "subject": "Hawley Amdt. No. 40",
   "type": "On the Amendment",
-  "updated_at": "2023-04-02T04:57:54-04:00",
+  "updated_at": "2023-04-02T11:00:12-04:00",
   "vote_id": "s76-118.2023",
   "votes": {
     "Nay": [
