@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll182.xml",
   "subject": "Lower Energy Costs Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-04-04T23:21:48-04:00",
+  "updated_at": "2023-04-05T05:24:07-04:00",
   "vote_id": "h182-118.2023",
   "votes": {
     "Nay": [
