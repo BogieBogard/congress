@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00081.xml",
   "subject": "Confirmation: Richard R. Verma, of Maryland, to be Deputy Secretary of State for Management and Resources",
   "type": "On the Nomination",
-  "updated_at": "2023-04-05T05:25:39-04:00",
+  "updated_at": "2023-04-05T11:27:59-04:00",
   "vote_id": "s81-118.2023",
   "votes": {
     "Nay": [
