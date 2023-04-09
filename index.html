@@ -76,13 +76,13 @@
                             <div class="row">
                                 <p class="lead col-md-6 offset-md-3">View our executive summary of both chambers below.</p>
                                 <br>
-                                <p class="lead col-md-6 offset-md-3">Or visit our interactive US state map to browse individual representative's votes.</p>
+                                <p class="lead col-md-6 offset-md-3">Or use our interactive US state map to browse individual senator's votes.</p>
                             </div>
                             <br>
                             <div>
-                                <a class="btn btn-md btn-white-line scroll-down" href="#about">See Summary</a>
+                                <a class="btn btn-md btn-white-line scroll-down" href="#second-infographic-senate-heading">See Summary</a>
                                 <span class="btn-space-10"></span>
-                                <a id="visitInteractiveMap" class="btn btn-md btn-white" href="./states.html">Visit Interactive Map</a>
+                                <a id="visitInteractiveMap" class="btn btn-md btn-white" href="#about">Use Interactive Map</a>
                             </div>
                         </div>
                     </div>
@@ -95,355 +95,695 @@
                 <div class="row text-center">
                     <div class="col-lg-12">
                         <p class="lead">Data sourced from <a class="tipped" href="https://www.congress.gov/" data-title="Go to congress.gov" data-tipper-options='{"direction":"top"}'><b>congress.gov</b></a> on
-                        April 8, 2023 at 8:35PM Central Time
-                        </p>
+                        October 16, 2022 at 12:10PM Central Time
+                        <div class="customMapWidget text-center"></div>
+                        <h1 id="state-name" class="text-center">Click any state</h1>
                     </div>
                 </div>
             </div>
         </section>
 
+            <div class="row mainDataRow">
+                <div class="col mainDataColumn">
+                            <div id="customSelectOutput" style="display: none" class="tabs">
+                                <div class="tab">
+                                    <h4 id="top-taps-small-heading">Senators</h4>
+                                    <input type="checkbox" id="chck1">
+                                    <label id="first-senator" class="tab-label" for="chck1"> </label>
+                                    <div class="tab-content">
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 mb-45">
+                                            <h4 class="most-recent-votes-1st-infographic mobile-left-padding">Most Recent Votes</h4>
 
-            <!-- General Senate and House content goes here -->
-            <div class="generalSenateAndHouseContent">
-                <h2 id="second-infographic-senate-heading" class="mobile-left-padding">The United States Senate</h2>
-                <h4 class="supporting-second-infographic-header mobile-left-padding">Most Recent Votes</h4>
-                <div class='walkthrough show reveal'>
-                <div class='walkthrough-pagination'>
-                    <a class='dot active'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
-                    <a class='dot'></a>
+                                            <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" data-stellar-background-ratio="0.4">
+                                                <div class="container">
+                                                    <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-1" class="quote-author"> <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-1">   </p>
+                                                                <p id="first-senator-bill-summary-1"> </p>
+                                                                <p id="first-senator-question-1">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-1">   </p>
+                                                                <p id="first-senator-result-1">   </p>
+                                                                <h6 id="first-senator-vote-1" class="quote-author">  <span id="first-senator-vote-1-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-1" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-2" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-2">   </p>
+                                                                <p id="first-senator-bill-summary-2"> </p>
+                                                                <p id="first-senator-question-2">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-2">   </p>
+                                                                <p id="first-senator-result-2">   </p>
+                                                                <h6 id="first-senator-vote-2" class="quote-author">  <span id="first-senator-vote-2-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-2" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-3" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-3">   </p>
+                                                                <p id="first-senator-bill-summary-3"> </p>
+                                                                <p id="first-senator-question-3">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-3">   </p>
+                                                                <p id="first-senator-result-3">   </p>
+                                                                <h6 id="first-senator-vote-3" class="quote-author">  <span id="first-senator-vote-3-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-3" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-4" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-4">   </p>
+                                                                <p id="first-senator-bill-summary-4"> </p>
+                                                                <p id="first-senator-question-4">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-4">   </p>
+                                                                <p id="first-senator-result-4">   </p>
+                                                                <h6 id="first-senator-vote-4" class="quote-author">  <span id="first-senator-vote-4-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-4" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-5" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-5">   </p>
+                                                                <p id="first-senator-bill-summary-5"> </p>
+                                                                <p id="first-senator-question-5">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-5">   </p>
+                                                                <p id="first-senator-result-5">   </p>
+                                                                <h6 id="first-senator-vote-5" class="quote-author">  <span id="first-senator-vote-5-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-5" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-6"  class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-6">   </p>
+                                                                <p id="first-senator-bill-summary-6"> </p>
+                                                                <p id="first-senator-question-6">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-6">   </p>
+                                                                <p id="first-senator-result-6">   </p>
+                                                                <h6 id="first-senator-vote-6" class="quote-author">  <span id="first-senator-vote-6-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-6" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-7" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-7">   </p>
+                                                                <p id="first-senator-bill-summary-7"> </p>
+                                                                <p id="first-senator-question-7">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-7">   </p>
+                                                                <p id="first-senator-result-7">   </p>
+                                                                <h6 id="first-senator-vote-7" class="quote-author">  <span id="first-senator-vote-7-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-7" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-8" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-8">   </p>
+                                                                <p id="first-senator-bill-summary-8"> </p>
+                                                                <p id="first-senator-question-8">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-8">   </p>
+                                                                <p id="first-senator-result-8">   </p>
+                                                                <h6 id="first-senator-vote-8" class="quote-author">  <span id="first-senator-vote-8-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-8" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-9" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-9">   </p>
+                                                                <p id="first-senator-bill-summary-9"> </p>
+                                                                <p id="first-senator-question-9">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-9">   </p>
+                                                                <p id="first-senator-result-9">   </p>
+                                                                <h6 id="first-senator-vote-9" class="quote-author">  <span id="first-senator-vote-9-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-9" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="testimonial text-center dark-color">
+                                                                <h6 id="first-senator-bill-number-10" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                <p id="first-senator-vote-date-10">   </p>
+                                                                <p id="first-senator-bill-summary-10"> </p>
+                                                                <p id="first-senator-question-10">   </p>
+                                                                <p id="first-senator-vote-type-and-requires-10">   </p>
+                                                                <p id="first-senator-result-10">   </p>
+                                                                <h6 id="first-senator-vote-10" class="quote-author">  <span id="first-senator-vote-10-short" style="font-weight: 400;">  </span></h6>
+                                                                <a id="first-sourced-from-senate-10" href="https://www.senate.gov">
+                                                                    <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab">
+                                    <input type="checkbox" id="chck2">
+                                    <label id="second-senator" class="tab-label" for="chck2">View any senator's words and acts</label>
+                                    <div class="tab-content">
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12 mb-45">
+                                                <h4 class="most-recent-votes-1st-infographic mobile-left-padding">Most Recent Votes</h4>
+    
+                                                <section id="testimonial" class="overlay-dark80 dark-bg ptb ptb-sm-80" data-stellar-background-ratio="0.4">
+                                                    <div class="container">
+                                                       
+                                                        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-1" class="quote-author"> <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-1">   </p>
+                                                                    <p id="second-senator-bill-summary-1"> </p>
+                                                                    <p id="second-senator-question-1">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-1">   </p>
+                                                                    <p id="second-senator-result-1">   </p>
+                                                                    <h6 id="second-senator-vote-1" class="quote-author">  <span id="second-senator-vote-1-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-1" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-2" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-2">   </p>
+                                                                    <p id="second-senator-bill-summary-2"> </p>
+                                                                    <p id="second-senator-question-2">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-2">   </p>
+                                                                    <p id="second-senator-result-2">   </p>
+                                                                    <h6 id="second-senator-vote-2" class="quote-author">  <span id="second-senator-vote-2-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-2" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-3" class="quote-author">   <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-3">   </p>
+                                                                    <p id="second-senator-bill-summary-3"> </p>
+                                                                    <p id="second-senator-question-3">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-3">   </p>
+                                                                    <p id="second-senator-result-3">   </p>
+                                                                    <h6 id="second-senator-vote-3" class="quote-author">  <span id="second-senator-vote-3-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-3" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-4" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-4">   </p>
+                                                                    <p id="second-senator-bill-summary-4"> </p>
+                                                                    <p id="second-senator-question-4">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-4">   </p>
+                                                                    <p id="second-senator-result-4">   </p>
+                                                                    <h6 id="second-senator-vote-4" class="quote-author">  <span id="second-senator-vote-4-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-4" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-5" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-5">   </p>
+                                                                    <p id="second-senator-bill-summary-5"> </p>
+                                                                    <p id="second-senator-question-5">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-5">   </p>
+                                                                    <p id="second-senator-result-5">   </p>
+                                                                    <h6 id="second-senator-vote-5" class="quote-author">  <span id="second-senator-vote-5-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-5" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-6"  class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-6">   </p>
+                                                                    <p id="second-senator-bill-summary-6"> </p>
+                                                                    <p id="second-senator-question-6">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-6">   </p>
+                                                                    <p id="second-senator-result-6">   </p>
+                                                                    <h6 id="second-senator-vote-6" class="quote-author">  <span id="second-senator-vote-6-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-6" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-7" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-7">   </p>
+                                                                    <p id="second-senator-bill-summary-7"> </p>
+                                                                    <p id="second-senator-question-7">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-7">   </p>
+                                                                    <p id="second-senator-result-7">   </p>
+                                                                    <h6 id="second-senator-vote-7" class="quote-author">  <span id="second-senator-vote-7-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-7" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-8" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-8">   </p>
+                                                                    <p id="second-senator-bill-summary-8"> </p>
+                                                                    <p id="second-senator-question-8">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-8">   </p>
+                                                                    <p id="second-senator-result-8">   </p>
+                                                                    <h6 id="second-senator-vote-8" class="quote-author">  <span id="second-senator-vote-8-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-8" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-9" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-9">   </p>
+                                                                    <p id="second-senator-bill-summary-9"> </p>
+                                                                    <p id="second-senator-question-9">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-9">   </p>
+                                                                    <p id="second-senator-result-9">   </p>
+                                                                    <h6 id="second-senator-vote-9" class="quote-author">  <span id="second-senator-vote-9-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-9" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="testimonial text-center dark-color">
+                                                                    <h6 id="second-senator-bill-number-10" class="quote-author">    <span style="font-weight: 400;"></span></h6>
+                                                                    <p id="second-senator-vote-date-10">   </p>
+                                                                    <p id="second-senator-bill-summary-10"> </p>
+                                                                    <p id="second-senator-question-10">   </p>
+                                                                    <p id="second-senator-vote-type-and-requires-10">   </p>
+                                                                    <p id="second-senator-result-10">   </p>
+                                                                    <h6 id="second-senator-vote-10" class="quote-author">  <span id="second-senator-vote-10-short" style="font-weight: 400;">  </span></h6>
+                                                                    <a id="second-sourced-from-senate-10" href="https://www.senate.gov">
+                                                                        <button class="long-btn custom-btn btn-5 text-center">Sourced from Senate.gov</button>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </section>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                        </div>
                 </div>
+
+                <div class="spacer-60"></div>
+
+                <section>
+    
+                    <div class="container">
+        
+            </div>
+            </section>
+
+        <div class="generalSenateAndHouseContent">
+            <h2 id="second-infographic-senate-heading" class="mobile-left-padding">The United States Senate</h2>
+            <h4 class="supporting-second-infographic-header mobile-left-padding">Most Recent Votes</h4>
+            <div class='walkthrough show reveal'>
+            <div class='walkthrough-pagination'>
+                <a class='dot active'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+                <a class='dot'></a>
+            </div>
+           
+            <div class='walkthrough-body'>
+                <ul class='screens animate'>
+                <li class='screen active'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart1" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-1">   </p>
+                    <h3 class="bill-number" id="senate-bill-number-1">  </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-1">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-1">   </p>
+                        <p id="senate-question-1">   </p>
+                        <p id="senate-vote-type-and-requires-1">   </p>
+                        <p id="senate-result-1">   </p>
+                    </div>
+                </li>
                
-                <div class='walkthrough-body'>
-                    <ul class='screens animate'>
-                    <li class='screen active'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart1" class='logo'></canvas>
+                <li class='screen active'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart2" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-2">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-2">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-2">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-2">   </p>
+                        <p id="senate-question-2">   </p>
+                        <p id="senate-vote-type-and-requires-2">   </p>
+                        <p id="senate-result-2">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart3" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-3">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-3">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-3">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-3">   </p>
+                        <p id="senate-question-3">   </p>
+                        <p id="senate-vote-type-and-requires-3">   </p>
+                        <p id="senate-result-3">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart4" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-4">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-4">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-4">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-4">   </p>
+                        <p id="senate-question-4">   </p>
+                        <p id="senate-vote-type-and-requires-4">   </p>
+                        <p id="senate-result-4">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart5" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-5">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-5">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-5">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-5">   </p>
+                        <p id="senate-question-5">   </p>
+                        <p id="senate-vote-type-and-requires-5">   </p>
+                        <p id="senate-result-5">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart6" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-6">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-6">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-6">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-6">   </p>
+                        <p id="senate-question-6">   </p>
+                        <p id="senate-vote-type-and-requires-6">   </p>
+                        <p id="senate-result-6">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart7" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-7">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-7">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-7">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-7">   </p>
+                        <p id="senate-question-7">   </p>
+                        <p id="senate-vote-type-and-requires-7">   </p>
+                        <p id="senate-result-7">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart8" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-8">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-8">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-8">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-8">   </p>
+                        <p id="senate-question-8">   </p>
+                        <p id="senate-vote-type-and-requires-8">   </p>
+                        <p id="senate-result-8">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart9" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-9">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-9">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-9">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-9">   </p>
+                        <p id="senate-question-9">   </p>
+                        <p id="senate-vote-type-and-requires-9">   </p>
+                        <p id="senate-result-9">   </p>
+                    </div>
+                </li>
+                <li class='screen'>
+                    <div class='media logo'>
+                        <canvas id="senateVoteChart10" class='logo'></canvas>
+                    </div>
+                    <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
+                    <p id="senate-bill-vp-vote-10">   </p>
+                    <h3 class="bill-number"id="senate-bill-number-10">   </h3>
+                    <div class="more-details">
+                        <p id="senate-vote-date-10">   </p>
+                        <p class="bill-summary" id="senate-bill-summary-10">   </p>
+                        <p id="senate-question-10">   </p>
+                        <p id="senate-vote-type-and-requires-10">   </p>
+                        <p id="senate-result-10">   </p>
+                    </div>
+                </li>
+                </ul>
+                <button class='prev-screen'>
+                <i class='icon-angle-left'></i>
+                </button>
+                <button class='next-screen'>
+                <i class='icon-angle-right'></i>
+                </button>
+            </div>
+
+            </div>
+
+            <div class="spacer-60"></div>
+
+             <h2 id="second-infographic-house-heading" class="mobile-left-padding">The U.S. House of Representatives</h2>
+            <h4 class="supporting-second-infographic-header mobile-left-padding">Most Recent Votes</h4>
+            <div class='walkthrough2 show2  reveal2'>
+                <div class='walkthrough-pagination2'>
+                    <a class='dot2 active2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                    <a class='dot2'></a>
+                </div>
+                <div class='walkthrough-body2'>
+                    <ul class='screens2 animate2'>
+                    <li class='screen2 active2'>
+                        <div class='media2 logo2'>
+                            <canvas id="houseVoteChart1" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-1">   </p>
-                        <h3 class="bill-number" id="senate-bill-number-1">  </h3>
+                        <h3 class="bill-summary" id="house-bill-number-1">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-1">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-1">   </p>
-                            <p id="senate-question-1">   </p>
-                            <p id="senate-vote-type-and-requires-1">   </p>
-                            <p id="senate-result-1">   </p>
+                            <p id="house-vote-date-1">   </p>
+                            <p id="house-bill-summary-1">   </p>
+                            <p id="house-question-1">   </p>
+                            <p id="house-vote-type-and-requires-1">   </p>
+                            <p id="house-result-1">   </p>
                         </div>
                     </li>
-                   
-                    <li class='screen active'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart2" class='logo'></canvas>
+                    <li class='screen2 active2'>
+                        <div class='media2 logo2'>
+                            <canvas id="houseVoteChart2" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-2">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-2">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-2">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-2">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-2">   </p>
-                            <p id="senate-question-2">   </p>
-                            <p id="senate-vote-type-and-requires-2">   </p>
-                            <p id="senate-result-2">   </p>
+                            <p id="house-vote-date-2">   </p>
+                            <p id="house-bill-summary-2">   </p>
+                            <p id="house-question-2">   </p>
+                            <p id="house-vote-type-and-requires-2">   </p>
+                            <p id="house-result-2">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart3" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 books2'>
+                            <canvas id="houseVoteChart3" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-3">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-3">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-3">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-3">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-3">   </p>
-                            <p id="senate-question-3">   </p>
-                            <p id="senate-vote-type-and-requires-3">   </p>
-                            <p id="senate-result-3">   </p>
+                            <p id="house-vote-date-3">   </p>
+                            <p id="house-bill-summary-3">   </p>
+                            <p id="house-question-3">   </p>
+                            <p id="house-vote-type-and-requires-3">   </p>
+                            <p id="house-result-3">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart4" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 books2'>
+                            <canvas id="houseVoteChart4" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-4">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-4">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-4">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-4">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-4">   </p>
-                            <p id="senate-question-4">   </p>
-                            <p id="senate-vote-type-and-requires-4">   </p>
-                            <p id="senate-result-4">   </p>
+                            <p id="house-vote-date-4">   </p>
+                            <p id="house-bill-summary-4">   </p>
+                            <p id="house-question-4">   </p>
+                            <p id="house-vote-type-and-requires-4">   </p>
+                            <p id="house-result-4">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart5" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart5" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-5">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-5">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-5">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-5">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-5">   </p>
-                            <p id="senate-question-5">   </p>
-                            <p id="senate-vote-type-and-requires-5">   </p>
-                            <p id="senate-result-5">   </p>
+                            <p id="house-vote-date-5">   </p>
+                            <p id="house-bill-summary-5">   </p>
+                            <p id="house-question-5">   </p>
+                            <p id="house-vote-type-and-requires-5">   </p>
+                            <p id="house-result-5">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart6" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart6" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-6">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-6">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-6">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-6">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-6">   </p>
-                            <p id="senate-question-6">   </p>
-                            <p id="senate-vote-type-and-requires-6">   </p>
-                            <p id="senate-result-6">   </p>
+                            <p id="house-vote-date-6">   </p>
+                            <p id="house-bill-summary-6">   </p>
+                            <p id="house-question-6">   </p>
+                            <p id="house-vote-type-and-requires-6">   </p>
+                            <p id="house-result-6">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart7" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart7" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-7">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-7">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-7">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-7">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-7">   </p>
-                            <p id="senate-question-7">   </p>
-                            <p id="senate-vote-type-and-requires-7">   </p>
-                            <p id="senate-result-7">   </p>
+                            <p id="house-vote-date-7">   </p>
+                            <p id="house-bill-summary-7">   </p>
+                            <p id="house-question-7">   </p>
+                            <p id="house-vote-type-and-requires-7">   </p>
+                            <p id="house-result-7">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart8" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart8" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-8">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-8">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-8">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-8">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-8">   </p>
-                            <p id="senate-question-8">   </p>
-                            <p id="senate-vote-type-and-requires-8">   </p>
-                            <p id="senate-result-8">   </p>
+                            <p id="house-vote-date-8">   </p>
+                            <p id="house-bill-summary-8">   </p>
+                            <p id="house-question-8">   </p>
+                            <p id="house-vote-type-and-requires-8">   </p>
+                            <p id="house-result-8">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart9" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart9" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-9">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-9">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-9">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-9">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-9">   </p>
-                            <p id="senate-question-9">   </p>
-                            <p id="senate-vote-type-and-requires-9">   </p>
-                            <p id="senate-result-9">   </p>
+                            <p id="house-vote-date-9">   </p>
+                            <p id="house-bill-summary-9">   </p>
+                            <p id="house-question-9">   </p>
+                            <p id="house-vote-type-and-requires-9">   </p>
+                            <p id="house-result-9">   </p>
                         </div>
                     </li>
-                    <li class='screen'>
-                        <div class='media logo'>
-                            <canvas id="senateVoteChart10" class='logo'></canvas>
+                    <li class='screen2'>
+                        <div class='media2 comm2'>
+                            <canvas id="houseVoteChart10" class='logo2'></canvas>
                         </div>
-                        <p>*Democrats' numbers include two Independent senators who caucus with Democrats</p>
-                        <p id="senate-bill-vp-vote-10">   </p>
-                        <h3 class="bill-number"id="senate-bill-number-10">   </h3>
+                        <h3 class="bill-summary" id="house-bill-number-10">   </h3>
                         <div class="more-details">
-                            <p id="senate-vote-date-10">   </p>
-                            <p class="bill-summary" id="senate-bill-summary-10">   </p>
-                            <p id="senate-question-10">   </p>
-                            <p id="senate-vote-type-and-requires-10">   </p>
-                            <p id="senate-result-10">   </p>
+                            <p id="house-vote-date-10">   </p>
+                            <p id="house-bill-summary-10">   </p>
+                            <p id="house-question-10">   </p>
+                            <p id="house-vote-type-and-requires-10">   </p>
+                            <p id="house-result-10">   </p>
                         </div>
                     </li>
                     </ul>
-                    <button class='prev-screen'>
+                    <button class='prev-screen2'>
                     <i class='icon-angle-left'></i>
                     </button>
-                    <button class='next-screen'>
+                    <button class='next-screen2'>
                     <i class='icon-angle-right'></i>
                     </button>
                 </div>
-            
-                </div>
-            
-                <div class="spacer-60"></div>
-            
-                 <h2 id="second-infographic-house-heading" class="mobile-left-padding">The U.S. House of Representatives</h2>
-                <h4 class="supporting-second-infographic-header mobile-left-padding">Most Recent Votes</h4>
-                <div class='walkthrough2 show2  reveal2'>
-                    <div class='walkthrough-pagination2'>
-                        <a class='dot2 active2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                        <a class='dot2'></a>
-                    </div>
-                    <div class='walkthrough-body2'>
-                        <ul class='screens2 animate2'>
-                        <li class='screen2 active2'>
-                            <div class='media2 logo2'>
-                                <canvas id="houseVoteChart1" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-1">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-1">   </p>
-                                <p id="house-bill-summary-1">   </p>
-                                <p id="house-question-1">   </p>
-                                <p id="house-vote-type-and-requires-1">   </p>
-                                <p id="house-result-1">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2 active2'>
-                            <div class='media2 logo2'>
-                                <canvas id="houseVoteChart2" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-2">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-2">   </p>
-                                <p id="house-bill-summary-2">   </p>
-                                <p id="house-question-2">   </p>
-                                <p id="house-vote-type-and-requires-2">   </p>
-                                <p id="house-result-2">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 books2'>
-                                <canvas id="houseVoteChart3" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-3">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-3">   </p>
-                                <p id="house-bill-summary-3">   </p>
-                                <p id="house-question-3">   </p>
-                                <p id="house-vote-type-and-requires-3">   </p>
-                                <p id="house-result-3">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 books2'>
-                                <canvas id="houseVoteChart4" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-4">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-4">   </p>
-                                <p id="house-bill-summary-4">   </p>
-                                <p id="house-question-4">   </p>
-                                <p id="house-vote-type-and-requires-4">   </p>
-                                <p id="house-result-4">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart5" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-5">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-5">   </p>
-                                <p id="house-bill-summary-5">   </p>
-                                <p id="house-question-5">   </p>
-                                <p id="house-vote-type-and-requires-5">   </p>
-                                <p id="house-result-5">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart6" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-6">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-6">   </p>
-                                <p id="house-bill-summary-6">   </p>
-                                <p id="house-question-6">   </p>
-                                <p id="house-vote-type-and-requires-6">   </p>
-                                <p id="house-result-6">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart7" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-7">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-7">   </p>
-                                <p id="house-bill-summary-7">   </p>
-                                <p id="house-question-7">   </p>
-                                <p id="house-vote-type-and-requires-7">   </p>
-                                <p id="house-result-7">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart8" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-8">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-8">   </p>
-                                <p id="house-bill-summary-8">   </p>
-                                <p id="house-question-8">   </p>
-                                <p id="house-vote-type-and-requires-8">   </p>
-                                <p id="house-result-8">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart9" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-9">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-9">   </p>
-                                <p id="house-bill-summary-9">   </p>
-                                <p id="house-question-9">   </p>
-                                <p id="house-vote-type-and-requires-9">   </p>
-                                <p id="house-result-9">   </p>
-                            </div>
-                        </li>
-                        <li class='screen2'>
-                            <div class='media2 comm2'>
-                                <canvas id="houseVoteChart10" class='logo2'></canvas>
-                            </div>
-                            <h3 class="bill-summary" id="house-bill-number-10">   </h3>
-                            <div class="more-details">
-                                <p id="house-vote-date-10">   </p>
-                                <p id="house-bill-summary-10">   </p>
-                                <p id="house-question-10">   </p>
-                                <p id="house-vote-type-and-requires-10">   </p>
-                                <p id="house-result-10">   </p>
-                            </div>
-                        </li>
-                        </ul>
-                        <button class='prev-screen2'>
-                        <i class='icon-angle-left'></i>
-                        </button>
-                        <button class='next-screen2'>
-                        <i class='icon-angle-right'></i>
-                        </button>
-                    </div>
-                </div>
             </div>
+        </div>
+
+        <script>
+            function _0x1811(){const _0x4df0a5=['massachusetts','second-senator-question-9','second-senator-vote-date-6','second-house-member-vote-7','arizona','Did\x20not\x20vote','first-senator-question-7','first-sourced-from-senate-9','34055UVHYzM','(\x22NOT\x20VOTING\x22)','voteRecord','voteId','question','style','billQuestion','second-senator-vote-type-and-requires-5','Vote\x20Type:\x20','second-senator-vote-date-8','rect','first-senator-question-10','December','mississippi','first-senator-vote-type-and-requires-4','second-senator-bill-number-8','first-senator-bill-number-2','first-house-member-bill-number-7','second-senator-vote-7','stroke-width','first-house-member-vote-10','second-house-member-vote-8-short','second-senator-result-7','first-senator-question-6','washingtondc','second-senator-vote-1-short','second-senator-vote-date-2','title','second-senator-question-1','second-senator-vote-9','second-house-member-vote-10-short','transform','maryland','enter','second-house-member-bill-number-9','first-senator-vote-10-short','votes','href','first-senator-vote-date-4','second-senator','first-senator-vote-3-short','Present','duration','geo','second-house-member-vote-5','billVoteTypeAndRequires','first-house-member-vote-7','first-senator-result-1','first-house-member-bill-number-6','second-senator-bill-number-3','ohio','second-house-member-vote-4','present','June','first-senator-vote-9-short','(\x22NAY\x22)','second-senator-vote-3-short','type','first-house-member-bill-number-5','first-senator-vote-type-and-requires-7','second-house-member-vote-10','first-senator-vote-7-short','second-senator-bill-number-2','indiana','second-house-member-vote-3','requires','texas','first-house-member-vote-9-short','second-house-member-vote-2-short','iowa','second-house-member-bill-number-10','idaho','second-senator-vote-type-and-requires-2','July','105400BPAcZW','subject','second-senator-vote-date-7','first-senator-vote-4-short','result','Subject:\x20','second-senator-bill-summary-1','linear','834rlDhHg','notVoting','billLink','first-senator-question-1','first-senator-bill-summary-7','first-senator-vote-date-1','second-senator-vote-4-short','second-senator-bill-summary-2','second-sourced-from-senate-1','second-house-member-bill-number-3','first-senator-bill-summary-6','first-house-member-vote-2','second-senator-bill-summary-9','first-senator-vote-8-short','maine','southcarolina','second-senator-vote-2-short','first-sourced-from-senate-3','billCongress','second-senator-vote-type-and-requires-3','1.5px','attr','second-senator-vote-8','first-house-member-vote-6-short','append','oregan','October','translate','first-house-member-vote-5','date','first-senator-vote-type-and-requires-9','second-sourced-from-senate-10','slow','Voted\x20against\x20','second-senator-question-3','first-senator-question-5','first-senator','nevada','first-senator-result-7','first-sourced-from-senate-2','first-house-member-vote-4','first-senator-vote-type-and-requires-1','second-house-member-bill-summary-6','voteShort','second-senator-bill-summary-7','House\x20Bill\x20Number:\x20','second-senator-bill-summary-10','internalHouseMemberId','second-senator-result-9','first-senator-bill-number-5','first-house-member','first-house-member-bill-number-4','first-senator-result-9','first-senator-bill-number-1','first-senator-vote-date-5','August','second-senator-question-10','div.customMapWidget','15833660LoNahK','second-senator-vote-8-short','18tIehWL','first-sourced-from-senate-8','width','second-house-member-vote-6','first-senator-vote-type-and-requires-2','second-house-member-bill-number-8','Vote\x20Date:\x20','classed','second-senator-vote-9-short','#customSelectOutput','Senate\x20Bill\x20Number:\x20','minnesota','second-senator-bill-summary-8','first-senator-bill-number-8','display_name','second-senator-bill-number-5','first-senator-vote-2','hawaii','February','first-senator-vote-2-short','(\x22AYE\x22)','virginia','March','party','second-house-member-vote-5-short','rhodeisland','first-house-member-vote-5-short','transition','second-senator-bill-number-4','first-house-member-bill-number-10','second-senator-bill-number-6','Voted\x20in\x20favor\x20','second-senator-vote-type-and-requires-7','first-sourced-from-senate-7','November','first-sourced-from-senate-1','second-house-member-bill-number-6','nebraska','internalSenatorId','vermont','first-senator-bill-summary-3','wisconsin','first-house-member-vote-3','oklahoma','second-senator-result-10','first-house-member-bill-summary-4','bounds','first-senator-vote-1-short','first-house-member-vote-3-short','firstChild','second-senator-vote-date-10','first-house-member-vote-7-short','first-senator-question-8','USBackground','Not\x20Voting','arkansas','second-sourced-from-senate-3','second-house-member-vote-7-short','first-senator-vote-4','florida','first-senator-vote-8','Aye','first-senator-vote-date-10','forEach','April','first-senator-vote-type-and-requires-3','path','northdakota',')scale(','features','first-senator-vote-5-short','getDate','first-senator-vote-5','second-house-member-vote-9','aye','second-senator-question-8','second-sourced-from-senate-4','first-senator-bill-summary-10','translate(','yea','getElementById','billResult','newhampshire','second-senator-bill-summary-4','datum','click','second-senator-result-2','first-senator-vote-3','second-senator-vote-type-and-requires-6','albersUsa','billSubject','mesh','first-house-member-bill-summary-1','first-senator-vote-6','second-house-member-bill-summary-10','second-senator-bill-number-9','second-house-member','second-senator-bill-number-7','September','northcarolina','first-senator-question-3','colorado',',\x20\x20Requires:\x20','nodeValue','second-senator-vote-10-short','Question:\x20','first-senator-vote-date-6','htm','second-senator-vote-date-3','second-sourced-from-senate-9','first-senator-result-4','fadeIn','second-sourced-from-senate-2','kansas','westvirginia','first-house-member-vote-10-short','height','#state-name','getMonth','projection','Nay','second-senator-vote-6','second-house-member-bill-summary-2','first-sourced-from-senate-4','first-senator-vote-type-and-requires-6','congress','push','class','first-senator-vote-type-and-requires-8','hasOwnProperty','1875846kALEKb','House\x20Nomination\x20Number:\x20','select','california','7197778MlVxVr','second-house-member-bill-number-2','second-house-member-bill-number-5','nay','January','second-house-member-bill-number-1','newjersey','th\x20Congress','second-senator-vote-date-5','feature','first-house-member-bill-number-1','first-house-member-vote-6','billNumber','second-house-member-bill-summary-4','bill','second-senator-question-6','first-house-member-bill-number-3','first-house-member-vote-9','states','southdakota','(\x22YEA\x22)','Result:\x20','data','second-senator-vote-4','second-senator-vote-type-and-requires-9','second-house-member-bill-summary-8','second-senator-vote-1','source_url','first-senator-result-10','first-senator-bill-summary-1','nomination','first-house-member-bill-summary-9','billTitle','second-senator-bill-number-1','fadeToggle','selectAll','getFullYear','first-senator-bill-summary-8','first-sourced-from-senate-10','first-senator-vote-6-short','Selected:\x20','second-senator-vote-5','vote_id','(\x22PRESENT\x22)','9006AdaRzK','first-senator-vote-10','state','second-senator-vote-7-short','setAttribute','first-senator-bill-summary-2','first-house-member-vote-2-short','billDate','slice','second-house-member-bill-summary-5','second-senator-vote-date-1','second-senator-bill-summary-6','first-house-member-vote-8','first-senator-vote-type-and-requires-5','second-sourced-from-senate-8','first-senator-vote-date-7','936349dPBnLl','second-senator-vote-3','first-senator-result-5','second-senator-vote-6-short','first-senator-bill-summary-9','176PBXjZn','Senate\x20Nomination\x20Number:\x20','second-senator-vote-date-9','voteLabel','placeholder','first-senator-vote-date-3','first_name','second-house-member-vote-8','tennessee','first-senator-bill-summary-4','first-house-member-bill-summary-8','second-house-member-bill-summary-1','May','(\x22NO\x22)','max','number','second-house-member-vote-3-short','first-house-member-bill-summary-10','objects','first-house-member-vote-1-short','length','second-house-member-bill-number-4','first-senator-vote-1','Yea','first-house-member-vote-4-short','first-senator-vote-type-and-requires-10'];_0x1811=function(){return _0x4df0a5;};return _0x1811();}const _0x2eab46=_0x4aaf;function _0x4aaf(_0x4ea6e9,_0x109a30){const _0x18118d=_0x1811();return _0x4aaf=function(_0x4aaf0a,_0x49536e){_0x4aaf0a=_0x4aaf0a-0x7c;let _0x2067de=_0x18118d[_0x4aaf0a];return _0x2067de;},_0x4aaf(_0x4ea6e9,_0x109a30);}(function(_0x203ae8,_0x4fbbf){const _0x3ac5c2=_0x4aaf,_0x820d43=_0x203ae8();while(!![]){try{const _0x301631=parseInt(_0x3ac5c2(0x177))/0x1+parseInt(_0x3ac5c2(0x137))/0x2+parseInt(_0x3ac5c2(0x167))/0x3*(-parseInt(_0x3ac5c2(0x17c))/0x4)+parseInt(_0x3ac5c2(0x19e))/0x5*(parseInt(_0x3ac5c2(0x1f0))/0x6)+parseInt(_0x3ac5c2(0x13b))/0x7+-parseInt(_0x3ac5c2(0x1e8))/0x8+parseInt(_0x3ac5c2(0xb5))/0x9*(-parseInt(_0x3ac5c2(0xb3))/0xa);if(_0x301631===_0x4fbbf)break;else _0x820d43['push'](_0x820d43['shift']());}catch(_0x25ba1d){_0x820d43['push'](_0x820d43['shift']());}}}(_0x1811,0x832ac));if(window['innerWidth']<0x258)var width=0x136,height=0xfa,active=d3[_0x2eab46(0x139)](null),givenScale=0x1a4;else{if(window['innerWidth']<0x352)var width=0x226,height=0x186,active=d3[_0x2eab46(0x139)](null),givenScale=0x2b2;else var width=0x320,height=0x1f4,active=d3[_0x2eab46(0x139)](null),givenScale=0x3e8;}var projection=d3[_0x2eab46(0x1c9)][_0x2eab46(0x10e)]()['scale'](givenScale)[_0x2eab46(0x94)]([width/0x2,height/0x2]),path=d3[_0x2eab46(0x1c9)][_0x2eab46(0xf7)]()[_0x2eab46(0x12c)](projection),svg=d3[_0x2eab46(0x139)](_0x2eab46(0xb2))['append']('svg')[_0x2eab46(0x8e)](_0x2eab46(0xb7),width)[_0x2eab46(0x8e)](_0x2eab46(0x129),height);svg[_0x2eab46(0x91)](_0x2eab46(0x1a8))[_0x2eab46(0x8e)](_0x2eab46(0x134),_0x2eab46(0xea))[_0x2eab46(0x8e)](_0x2eab46(0xb7),width)[_0x2eab46(0x8e)](_0x2eab46(0x129),height)['on']('click',reset);var g=svg[_0x2eab46(0x91)]('g')[_0x2eab46(0x1a3)](_0x2eab46(0x1b1),_0x2eab46(0x8d));d3['json']('https://raw.githubusercontent.com/BogieBogard/trackingcongress.com_public_resources/main/us.json',function(_0x4c736e,_0x37e377){const _0x4a055b=_0x2eab46;if(_0x4c736e)throw _0x4c736e;g[_0x4a055b(0x15e)]('path')[_0x4a055b(0x151)](topojson[_0x4a055b(0x144)](_0x37e377,_0x37e377[_0x4a055b(0x18e)][_0x4a055b(0x14d)])[_0x4a055b(0xfa)])[_0x4a055b(0x1bf)]()[_0x4a055b(0x91)]('path')[_0x4a055b(0x8e)]('d',path)[_0x4a055b(0x8e)](_0x4a055b(0x134),_0x4a055b(0x144))['on'](_0x4a055b(0x10a),clicked),g[_0x4a055b(0x91)](_0x4a055b(0xf7))[_0x4a055b(0x109)](topojson[_0x4a055b(0x110)](_0x37e377,_0x37e377[_0x4a055b(0x18e)][_0x4a055b(0x14d)],function(_0x19c78d,_0x2f3b2b){return _0x19c78d!==_0x2f3b2b;}))[_0x4a055b(0x8e)](_0x4a055b(0x134),_0x4a055b(0x110))['attr']('d',path);});function clicked(_0x4e552c){const _0x22b313=_0x2eab46;function _0x5e5b55(){const _0x438a41=_0x4aaf,_0x1d585f=document[_0x438a41(0x105)]('state-name'),_0x1fdc00=_0x438a41(0xd4),_0x2b990d=_0x438a41(0x9a),_0x137413='Voted\x20in\x20favor\x20',_0x37c1d2=_0x438a41(0x9a),_0x7c4072=_0x438a41(0x19b),_0x1f25ec=_0x438a41(0x19b),_0x1f001e=_0x438a41(0x14f),_0xbb2bc6=_0x438a41(0x1d5),_0x30bd14=_0x438a41(0xc9),_0x404133=_0x438a41(0x189),_0x549d47=_0x438a41(0x19f),_0xac487c=_0x438a41(0x166),_0x439136=document[_0x438a41(0x105)](_0x438a41(0x9d)),_0x5d1614=document[_0x438a41(0x105)](_0x438a41(0x192)),_0x478f6d=document[_0x438a41(0x105)](_0x438a41(0xc5)),_0x1dcd1b=document[_0x438a41(0x105)](_0x438a41(0x10c)),_0x104bbb=document[_0x438a41(0x105)](_0x438a41(0xef)),_0x2fbca9=document[_0x438a41(0x105)](_0x438a41(0xfd)),_0x22c1d3=document[_0x438a41(0x105)](_0x438a41(0x112)),_0x4ebb29=document[_0x438a41(0x105)]('first-senator-vote-7'),_0x3971cf=document['getElementById'](_0x438a41(0xf1)),_0x44e7ff=document[_0x438a41(0x105)]('first-senator-vote-9'),_0x1e1f29=document[_0x438a41(0x105)](_0x438a41(0x168)),_0x4f7957=document['getElementById'](_0x438a41(0xe4)),_0x49a78b=document[_0x438a41(0x105)](_0x438a41(0xc8)),_0x3f1e67=document[_0x438a41(0x105)](_0x438a41(0x1c6)),_0xfd0a61=document[_0x438a41(0x105)](_0x438a41(0x1eb)),_0x550205=document['getElementById'](_0x438a41(0xfb)),_0x1ccf50=document[_0x438a41(0x105)](_0x438a41(0x162)),_0x59cf1f=document[_0x438a41(0x105)](_0x438a41(0x1db)),_0x4c1061=document[_0x438a41(0x105)](_0x438a41(0x86)),_0x3dfb7b=document['getElementById'](_0x438a41(0x1d4)),_0xdb7c0=document[_0x438a41(0x105)](_0x438a41(0x1c1)),_0x32136a=document[_0x438a41(0x105)](_0x438a41(0xae)),_0x2a47b5=document[_0x438a41(0x105)](_0x438a41(0x1ae)),_0x36e3e0=document[_0x438a41(0x105)]('first-senator-bill-number-3'),_0xf90982=document[_0x438a41(0x105)]('first-senator-bill-number-4'),_0x5b44a5=document['getElementById'](_0x438a41(0xaa)),_0x9d5603=document['getElementById']('first-senator-bill-number-6'),_0x15027b=document[_0x438a41(0x105)]('first-senator-bill-number-7'),_0x437d5c=document['getElementById'](_0x438a41(0xc2)),_0x538f6e=document[_0x438a41(0x105)]('first-senator-bill-number-9'),_0x4f7664=document[_0x438a41(0x105)]('first-senator-bill-number-10'),_0x593379=document['getElementById'](_0x438a41(0x158)),_0x164c6f=document[_0x438a41(0x105)](_0x438a41(0x16c)),_0x34e285=document[_0x438a41(0x105)](_0x438a41(0xdd)),_0x3b8428=document[_0x438a41(0x105)](_0x438a41(0x185)),_0x275a87=document[_0x438a41(0x105)]('first-senator-bill-summary-5'),_0x174deb=document[_0x438a41(0x105)](_0x438a41(0x83)),_0x2309af=document[_0x438a41(0x105)](_0x438a41(0x7d)),_0x1ecae9=document['getElementById'](_0x438a41(0x160)),_0x18a767=document['getElementById'](_0x438a41(0x17b)),_0x1f5d47=document[_0x438a41(0x105)](_0x438a41(0x102)),_0xa82b00=document[_0x438a41(0x105)](_0x438a41(0x7e)),_0x22d4cc=document[_0x438a41(0x105)]('first-senator-vote-date-2'),_0x7c3d69=document[_0x438a41(0x105)](_0x438a41(0x181)),_0x4522b3=document[_0x438a41(0x105)](_0x438a41(0x1c4)),_0x2ab1f1=document[_0x438a41(0x105)](_0x438a41(0xaf)),_0x1cd2ec=document[_0x438a41(0x105)](_0x438a41(0x11f)),_0x4297d0=document['getElementById'](_0x438a41(0x176)),_0x1e03ee=document['getElementById']('first-senator-vote-date-8'),_0x109012=document['getElementById']('first-senator-vote-date-9'),_0x543386=document['getElementById'](_0x438a41(0xf3)),_0x7ddd65=document[_0x438a41(0x105)](_0x438a41(0x7c)),_0x53b603=document[_0x438a41(0x105)]('first-senator-question-2'),_0x2c5074=document['getElementById'](_0x438a41(0x119)),_0x38e94e=document[_0x438a41(0x105)]('first-senator-question-4'),_0x22bf12=document['getElementById'](_0x438a41(0x9c)),_0x264047=document[_0x438a41(0x105)](_0x438a41(0x1b5)),_0x46e07a=document[_0x438a41(0x105)](_0x438a41(0x19c)),_0x24e0e1=document[_0x438a41(0x105)](_0x438a41(0xe9)),_0x373e8a=document['getElementById']('first-senator-question-9'),_0x51d866=document['getElementById'](_0x438a41(0x1a9)),_0x2a8b6e=document[_0x438a41(0x105)](_0x438a41(0xa2)),_0x7a0f5e=document[_0x438a41(0x105)](_0x438a41(0xb9)),_0x131e0f=document['getElementById'](_0x438a41(0xf6)),_0x1696df=document[_0x438a41(0x105)](_0x438a41(0x1ac)),_0x4fa22a=document[_0x438a41(0x105)](_0x438a41(0x174)),_0x36fea4=document[_0x438a41(0x105)](_0x438a41(0x131)),_0xc16ca9=document[_0x438a41(0x105)](_0x438a41(0x1d9)),_0x4b75db=document['getElementById'](_0x438a41(0x135)),_0x4034dc=document[_0x438a41(0x105)](_0x438a41(0x97)),_0x139db7=document['getElementById'](_0x438a41(0x195)),_0x44ad94=document['getElementById'](_0x438a41(0x1cd)),_0x371d4c=document['getElementById']('first-senator-result-2'),_0x42ea34=document[_0x438a41(0x105)]('first-senator-result-3'),_0x131be5=document['getElementById'](_0x438a41(0x123)),_0x493560=document[_0x438a41(0x105)](_0x438a41(0x179)),_0x1c30ee=document['getElementById']('first-senator-result-6'),_0x3fede3=document[_0x438a41(0x105)](_0x438a41(0x9f)),_0xc99786=document[_0x438a41(0x105)]('first-senator-result-8'),_0x5ad397=document[_0x438a41(0x105)](_0x438a41(0xad)),_0x40b668=document['getElementById'](_0x438a41(0x157)),_0x1427fb=document['getElementById'](_0x438a41(0x171)),_0x39fab2=document[_0x438a41(0x105)](_0x438a41(0x1b8)),_0xe3d449=document[_0x438a41(0x105)](_0x438a41(0x121)),_0xbf28c=document[_0x438a41(0x105)]('second-senator-vote-date-4'),_0x3ffd9e=document[_0x438a41(0x105)](_0x438a41(0x143)),_0x5178e3=document['getElementById'](_0x438a41(0x198)),_0x35ac4e=document[_0x438a41(0x105)](_0x438a41(0x1ea)),_0x3e5555=document['getElementById'](_0x438a41(0x1a7)),_0xc8784d=document[_0x438a41(0x105)](_0x438a41(0x17e)),_0x2803b0=document['getElementById'](_0x438a41(0xe7)),_0x55d799=document['getElementById'](_0x438a41(0x1ba)),_0x512d8c=document[_0x438a41(0x105)]('second-senator-question-2'),_0x4eeb58=document[_0x438a41(0x105)](_0x438a41(0x9b)),_0x5a2fd3=document[_0x438a41(0x105)]('second-senator-question-4'),_0x62e34e=document[_0x438a41(0x105)]('second-senator-question-5'),_0x58cefd=document['getElementById'](_0x438a41(0x14a)),_0x36a526=document[_0x438a41(0x105)]('second-senator-question-7'),_0x11f514=document[_0x438a41(0x105)](_0x438a41(0x100)),_0x32ddc0=document[_0x438a41(0x105)](_0x438a41(0x197)),_0x4d3da3=document[_0x438a41(0x105)](_0x438a41(0xb1)),_0x3e45d2=document['getElementById']('second-senator-vote-type-and-requires-1'),_0x477873=document['getElementById'](_0x438a41(0x1e6)),_0x3228f6=document[_0x438a41(0x105)](_0x438a41(0x8c)),_0x2c71a2=document[_0x438a41(0x105)]('second-senator-vote-type-and-requires-4'),_0x1987c0=document[_0x438a41(0x105)](_0x438a41(0x1a5)),_0xdaf86e=document[_0x438a41(0x105)](_0x438a41(0x10d)),_0x1d3f3c=document['getElementById'](_0x438a41(0xd5)),_0x440cb9=document[_0x438a41(0x105)]('second-senator-vote-type-and-requires-8'),_0x4f78a7=document['getElementById'](_0x438a41(0x153)),_0x1d215d=document[_0x438a41(0x105)]('second-senator-vote-type-and-requires-10'),_0xa50e9=document[_0x438a41(0x105)]('second-senator-result-1'),_0x111c8a=document['getElementById'](_0x438a41(0x10b)),_0x5c7a10=document['getElementById']('second-senator-result-3'),_0x31cb85=document['getElementById']('second-senator-result-4'),_0xb157bd=document[_0x438a41(0x105)]('second-senator-result-5'),_0x1e1279=document[_0x438a41(0x105)]('second-senator-result-6'),_0x2d6b6a=document[_0x438a41(0x105)](_0x438a41(0x1b4)),_0x5ce081=document[_0x438a41(0x105)]('second-senator-result-8'),_0x59f470=document[_0x438a41(0x105)](_0x438a41(0xa9)),_0x264623=document[_0x438a41(0x105)](_0x438a41(0xe1)),_0x4f756c=document['getElementById'](_0x438a41(0xd8)),_0xe95180=document['getElementById'](_0x438a41(0xa0)),_0xa4d20e=document[_0x438a41(0x105)](_0x438a41(0x8a)),_0x4fe476=document[_0x438a41(0x105)](_0x438a41(0x130)),_0x47a2ee=document['getElementById']('first-sourced-from-senate-5'),_0x3d23e6=document[_0x438a41(0x105)]('first-sourced-from-senate-6'),_0x1f4c98=document[_0x438a41(0x105)](_0x438a41(0xd6)),_0x1c914a=document['getElementById'](_0x438a41(0xb6)),_0x5b4400=document['getElementById'](_0x438a41(0x19d)),_0x18d848=document[_0x438a41(0x105)](_0x438a41(0x161)),_0x14f5b2=document[_0x438a41(0x105)](_0x438a41(0x81)),_0x25685d=document[_0x438a41(0x105)](_0x438a41(0x125)),_0x995733=document[_0x438a41(0x105)](_0x438a41(0xed)),_0x3d8864=document[_0x438a41(0x105)](_0x438a41(0x101)),_0x42cdfe=document[_0x438a41(0x105)]('second-sourced-from-senate-5'),_0x33168e=document[_0x438a41(0x105)]('second-sourced-from-senate-6'),_0x27aaf2=document[_0x438a41(0x105)]('second-sourced-from-senate-7'),_0x1e2d9c=document[_0x438a41(0x105)](_0x438a41(0x175)),_0x42c071=document[_0x438a41(0x105)](_0x438a41(0x122)),_0x1966d8=document['getElementById'](_0x438a41(0x98)),_0x554e5f=document[_0x438a41(0x105)](_0x438a41(0x1c5)),_0x45435e=document[_0x438a41(0x105)](_0x438a41(0x155)),_0x30c9a7=document[_0x438a41(0x105)]('second-senator-vote-2'),_0xc193ca=document[_0x438a41(0x105)](_0x438a41(0x178)),_0x56bfcf=document['getElementById'](_0x438a41(0x152)),_0x22da80=document[_0x438a41(0x105)](_0x438a41(0x164)),_0x11bf50=document['getElementById'](_0x438a41(0x12e)),_0x4164ab=document[_0x438a41(0x105)](_0x438a41(0x1b0)),_0x2c0ae0=document[_0x438a41(0x105)](_0x438a41(0x8f)),_0x25a58f=document[_0x438a41(0x105)](_0x438a41(0x1bb)),_0x23c39f=document[_0x438a41(0x105)]('second-senator-vote-10'),_0x47b417=document[_0x438a41(0x105)](_0x438a41(0x1b7)),_0x1c74c2=document[_0x438a41(0x105)](_0x438a41(0x89)),_0x4a1a0a=document[_0x438a41(0x105)](_0x438a41(0x1d6)),_0x5a80aa=document[_0x438a41(0x105)](_0x438a41(0x7f)),_0x50be91=document[_0x438a41(0x105)]('second-senator-vote-5-short'),_0xa3a560=document[_0x438a41(0x105)](_0x438a41(0x17a)),_0x3e2282=document[_0x438a41(0x105)](_0x438a41(0x16a)),_0x4cf530=document[_0x438a41(0x105)](_0x438a41(0xb4)),_0x4a5887=document[_0x438a41(0x105)](_0x438a41(0xbd)),_0x202b9a=document[_0x438a41(0x105)](_0x438a41(0x11d)),_0x562813=document[_0x438a41(0x105)](_0x438a41(0x15c)),_0x772fb7=document[_0x438a41(0x105)](_0x438a41(0x1dc)),_0x43994e=document[_0x438a41(0x105)](_0x438a41(0x1cf)),_0x44dd9e=document[_0x438a41(0x105)](_0x438a41(0xd1)),_0x54fe8a=document[_0x438a41(0x105)](_0x438a41(0xc4)),_0x2e390a=document['getElementById'](_0x438a41(0xd3)),_0x566435=document[_0x438a41(0x105)](_0x438a41(0x116)),_0xdff198=document[_0x438a41(0x105)](_0x438a41(0x1ad)),_0x4c6cb3=document[_0x438a41(0x105)](_0x438a41(0x114)),_0x5c604d=document[_0x438a41(0x105)]('second-senator-bill-number-10'),_0xc2b654=document[_0x438a41(0x105)](_0x438a41(0x1ee)),_0x180c5e=document['getElementById'](_0x438a41(0x80)),_0x4dec49=document[_0x438a41(0x105)]('second-senator-bill-summary-3'),_0x54a29e=document[_0x438a41(0x105)](_0x438a41(0x108)),_0x3a86ab=document[_0x438a41(0x105)]('second-senator-bill-summary-5'),_0x13113e=document[_0x438a41(0x105)](_0x438a41(0x172)),_0x178e4b=document[_0x438a41(0x105)](_0x438a41(0xa5)),_0x235883=document[_0x438a41(0x105)](_0x438a41(0xc1)),_0x457f4a=document[_0x438a41(0x105)](_0x438a41(0x85)),_0x52d7a7=document['getElementById'](_0x438a41(0xa7));let _0x12cabb=[],_0x14857c=[],_0x1e6df5=[],_0x2fd5ad=[],_0x578770=[],_0xf3dc38=[],_0x4f44b9=[],_0x4f8638=[],_0x3f4979=[],_0xd8601c=[],_0x581251=_0x438a41(0x180);const _0x1fd3cd=document[_0x438a41(0x105)](_0x438a41(0xab)),_0x5619a0=document[_0x438a41(0x105)]('first-house-member-vote-1'),_0x2f38bb=document['getElementById'](_0x438a41(0x84)),_0xcca30c=document[_0x438a41(0x105)](_0x438a41(0xdf)),_0x408bf7=document['getElementById'](_0x438a41(0xa1)),_0x119722=document[_0x438a41(0x105)](_0x438a41(0x95)),_0x46968d=document[_0x438a41(0x105)](_0x438a41(0x146)),_0x10d70a=document[_0x438a41(0x105)](_0x438a41(0x1cc)),_0x564969=document[_0x438a41(0x105)](_0x438a41(0x173)),_0x42c83e=document[_0x438a41(0x105)](_0x438a41(0x14c)),_0x405dcc=document[_0x438a41(0x105)](_0x438a41(0x1b2)),_0x24545f=document['getElementById'](_0x438a41(0x18f)),_0x596d45=document[_0x438a41(0x105)](_0x438a41(0x16d)),_0x1cbca0=document[_0x438a41(0x105)](_0x438a41(0xe5)),_0x3627e3=document[_0x438a41(0x105)](_0x438a41(0x194)),_0x2288b2=document[_0x438a41(0x105)](_0x438a41(0xcf)),_0x312731=document['getElementById'](_0x438a41(0x90)),_0x58ec28=document['getElementById'](_0x438a41(0xe8)),_0x5e91dc=document['getElementById']('first-house-member-vote-8-short'),_0x4fd757=document[_0x438a41(0x105)](_0x438a41(0x1e1)),_0x57d391=document[_0x438a41(0x105)](_0x438a41(0x128)),_0x52a164=document['getElementById'](_0x438a41(0x145)),_0x15378c=document['getElementById']('first-house-member-bill-number-2'),_0x49bcab=document[_0x438a41(0x105)](_0x438a41(0x14b)),_0x1a35a7=document['getElementById'](_0x438a41(0xac)),_0xabc03a=document['getElementById'](_0x438a41(0x1d8)),_0x338cfd=document[_0x438a41(0x105)](_0x438a41(0x1ce)),_0x46170c=document[_0x438a41(0x105)](_0x438a41(0x1af)),_0x36a392=document[_0x438a41(0x105)]('first-house-member-bill-number-8'),_0x5cce62=document['getElementById']('first-house-member-bill-number-9'),_0x651982=document[_0x438a41(0x105)](_0x438a41(0xd2)),_0x59c16f=document['getElementById'](_0x438a41(0x111)),_0xf450c9=document[_0x438a41(0x105)]('first-house-member-bill-summary-2'),_0xd2dbb3=document[_0x438a41(0x105)]('first-house-member-bill-summary-3'),_0x44d7a7=document[_0x438a41(0x105)](_0x438a41(0xe2)),_0x405473=document['getElementById']('first-house-member-bill-summary-5'),_0xdf7757=document['getElementById']('first-house-member-bill-summary-6'),_0x13a26f=document[_0x438a41(0x105)]('first-house-member-bill-summary-7'),_0x3cc826=document['getElementById'](_0x438a41(0x186)),_0x2a75ef=document[_0x438a41(0x105)](_0x438a41(0x15a)),_0x4445b7=document[_0x438a41(0x105)](_0x438a41(0x18d)),_0x12ae22=document[_0x438a41(0x105)](_0x438a41(0x115)),_0x2a1e14=document['getElementById']('second-house-member-vote-1'),_0xbf7cd3=document[_0x438a41(0x105)]('second-house-member-vote-2'),_0x9acbf=document[_0x438a41(0x105)](_0x438a41(0x1de)),_0x2c55a1=document[_0x438a41(0x105)](_0x438a41(0x1d1)),_0x6dfb2=document['getElementById'](_0x438a41(0x1ca)),_0x30fc8c=document[_0x438a41(0x105)](_0x438a41(0xb8)),_0x84eddb=document[_0x438a41(0x105)](_0x438a41(0x199)),_0x1c86a5=document[_0x438a41(0x105)](_0x438a41(0x183)),_0x3f0b18=document[_0x438a41(0x105)](_0x438a41(0xfe)),_0x182e07=document['getElementById'](_0x438a41(0x1da)),_0x45d557=document[_0x438a41(0x105)]('second-house-member-vote-1-short'),_0xbe35f2=document[_0x438a41(0x105)](_0x438a41(0x1e2)),_0x5031f0=document['getElementById'](_0x438a41(0x18c)),_0x22ebc0=document[_0x438a41(0x105)]('second-house-member-vote-4-short'),_0x250398=document[_0x438a41(0x105)](_0x438a41(0xcd)),_0x40e4e8=document[_0x438a41(0x105)]('second-house-member-vote-6-short'),_0x16f6c9=document[_0x438a41(0x105)](_0x438a41(0xee)),_0x2339e3=document['getElementById'](_0x438a41(0x1b3)),_0x3a4279=document[_0x438a41(0x105)]('second-house-member-vote-9-short'),_0x4439c6=document['getElementById'](_0x438a41(0x1bc)),_0x4c5dc5=document[_0x438a41(0x105)](_0x438a41(0x140)),_0x12e959=document[_0x438a41(0x105)](_0x438a41(0x13c)),_0x3cccbd=document['getElementById'](_0x438a41(0x82)),_0xd7144e=document[_0x438a41(0x105)](_0x438a41(0x191)),_0x786c27=document[_0x438a41(0x105)](_0x438a41(0x13d)),_0x3ff6dc=document[_0x438a41(0x105)](_0x438a41(0xd9)),_0x3393c9=document[_0x438a41(0x105)]('second-house-member-bill-number-7'),_0x24605d=document['getElementById'](_0x438a41(0xba)),_0x1b78e8=document[_0x438a41(0x105)](_0x438a41(0x1c0)),_0x5976ee=document['getElementById'](_0x438a41(0x1e4)),_0x55e53d=document[_0x438a41(0x105)](_0x438a41(0x187)),_0x58b63d=document[_0x438a41(0x105)](_0x438a41(0x12f)),_0x268450=document[_0x438a41(0x105)]('second-house-member-bill-summary-3'),_0x1f92d6=document[_0x438a41(0x105)](_0x438a41(0x148)),_0x3d6f8e=document[_0x438a41(0x105)](_0x438a41(0x170)),_0x342c07=document['getElementById'](_0x438a41(0xa3)),_0x49783b=document[_0x438a41(0x105)]('second-house-member-bill-summary-7'),_0x404601=document[_0x438a41(0x105)](_0x438a41(0x154)),_0x4641e8=document[_0x438a41(0x105)]('second-house-member-bill-summary-9'),_0xe72772=document[_0x438a41(0x105)](_0x438a41(0x113));let _0x2b8b4f=[],_0x128f04=[],_0x1790a2=[],_0x4feb94=[],_0x827d46=[],_0x5aa1fb=[],_0x1701d0=[],_0x516a53=[],_0x23f1fb=[],_0x589e07=[],_0x932280=_0x438a41(0x180);function _0xed735f(_0x5363a9){const _0x52559b=_0x438a41;return _0x5363a9[_0x52559b(0x17f)]='',_0x5363a9[_0x52559b(0x1a0)]=='yea'&&(_0x5363a9[_0x52559b(0x17f)]=_0x1fdc00),_0x5363a9[_0x52559b(0x1a0)]==_0x52559b(0x13e)&&(_0x5363a9[_0x52559b(0x17f)]=_0x2b990d),_0x5363a9[_0x52559b(0x1a0)]==_0x52559b(0x1f1)&&(_0x5363a9[_0x52559b(0x17f)]=_0x7c4072),_0x5363a9[_0x52559b(0x1a0)]==_0x52559b(0x1d2)&&(_0x5363a9['voteLabel']=_0x1f25ec),_0x5363a9['voteRecord']==_0x52559b(0xff)&&(_0x5363a9[_0x52559b(0x17f)]=_0x137413),_0x5363a9[_0x52559b(0x1a0)]=='no'&&(_0x5363a9[_0x52559b(0x17f)]=_0x37c1d2),_0x5363a9[_0x52559b(0x17f)];}function _0x60e7f(_0x1c1534){const _0x3a62b2=_0x438a41;return _0x1c1534['voteShort']='',_0x1c1534[_0x3a62b2(0x1a0)]=='yea'&&(_0x1c1534[_0x3a62b2(0xa4)]=_0x1f001e),_0x1c1534['voteRecord']==_0x3a62b2(0x13e)&&(_0x1c1534[_0x3a62b2(0xa4)]=_0xbb2bc6),_0x1c1534[_0x3a62b2(0x1a0)]=='notVoting'&&(_0x1c1534[_0x3a62b2(0xa4)]=_0x549d47),_0x1c1534['voteRecord']==_0x3a62b2(0x1d2)&&(_0x1c1534['voteShort']=_0xac487c),_0x1c1534[_0x3a62b2(0x1a0)]=='aye'&&(_0x1c1534[_0x3a62b2(0x17f)]=_0x30bd14),_0x1c1534[_0x3a62b2(0x1a0)]=='no'&&(_0x1c1534[_0x3a62b2(0x17f)]=_0x404133),_0x1c1534[_0x3a62b2(0xa4)];}function _0x9f400e(_0x5b6f8e){const _0x840d27=_0x438a41;return allSenateVotingData[_0x840d27(0xf4)](_0x567a1d=>{const _0x543d12=_0x840d27;_0x567a1d['billCongress']=_0x567a1d[_0x543d12(0x132)]!==undefined?_0x567a1d[_0x543d12(0x132)]+_0x543d12(0x142):'';if(_0x567a1d[_0x543d12(0x136)](_0x543d12(0x159)))_0x567a1d[_0x543d12(0x147)]=_0x543d12(0x17d)+_0x567a1d[_0x543d12(0x159)]['number'];else _0x567a1d[_0x543d12(0x136)](_0x543d12(0x149))&&(_0x567a1d[_0x543d12(0x147)]=_0x543d12(0xbf)+_0x567a1d[_0x543d12(0x149)]['number']);let _0x46456e=new Date(_0x567a1d[_0x543d12(0x96)]),_0x319fc5=[_0x543d12(0x13f),_0x543d12(0xc7),_0x543d12(0xcb),_0x543d12(0xf5),_0x543d12(0x188),_0x543d12(0x1d3),_0x543d12(0x1e7),'August','September',_0x543d12(0x93),'November',_0x543d12(0x1aa)],_0x1b8643=_0x319fc5[_0x46456e[_0x543d12(0x12b)]()],_0xe73c12=_0x46456e[_0x543d12(0xfc)](),_0x42bdcb=_0x46456e['getFullYear']();_0x567a1d['date']!==undefined&&_0x1b8643!==undefined&&_0xe73c12!==undefined&&_0x42bdcb!==undefined?_0x567a1d[_0x543d12(0x16e)]=_0x567a1d[_0x543d12(0x96)]!==undefined?_0x543d12(0xbb)+_0x1b8643+'\x20'+_0xe73c12+',\x20'+_0x42bdcb:'':_0x567a1d[_0x543d12(0x16e)]='';_0x567a1d[_0x543d12(0x10f)]=_0x567a1d[_0x543d12(0x1e9)]!==undefined?'Subject:\x20'+_0x567a1d[_0x543d12(0x1e9)]:'',_0x567a1d[_0x543d12(0x1a4)]=_0x567a1d[_0x543d12(0x1a2)]!==undefined?_0x543d12(0x11e)+_0x567a1d[_0x543d12(0x1a2)]:'',_0x567a1d['billVoteTypeAndRequires']=_0x567a1d['type']!==undefined&&_0x567a1d['requires']!==undefined?_0x543d12(0x1a6)+_0x567a1d[_0x543d12(0x1d7)]+',\x20\x20Requires:\x20'+_0x567a1d['requires']:'',_0x567a1d[_0x543d12(0x106)]=_0x567a1d[_0x543d12(0x1ec)]!==undefined?_0x543d12(0x150)+_0x567a1d[_0x543d12(0x1ec)]:'';function _0x1c129(_0x1c4d05){const _0x45c2e4=_0x543d12;_0x1c4d05[_0x45c2e4(0x1a1)]=_0x567a1d['vote_id'],_0x1c4d05[_0x45c2e4(0x15b)]=_0x567a1d[_0x45c2e4(0x149)]?_0x567a1d[_0x45c2e4(0x149)][_0x45c2e4(0x1b9)]:'',_0x1c4d05[_0x45c2e4(0x10f)]=_0x567a1d[_0x45c2e4(0x1e9)]!==undefined?_0x45c2e4(0x1ed)+_0x567a1d[_0x45c2e4(0x1e9)]:'';let _0x3c4cef=new Date(_0x567a1d['date']),_0x30197e=['January',_0x45c2e4(0xc7),_0x45c2e4(0xcb),_0x45c2e4(0xf5),_0x45c2e4(0x188),_0x45c2e4(0x1d3),_0x45c2e4(0x1e7),'August',_0x45c2e4(0x117),_0x45c2e4(0x93),'November',_0x45c2e4(0x1aa)],_0x56a41d=_0x30197e[_0x3c4cef[_0x45c2e4(0x12b)]()],_0x5d02f3=_0x3c4cef[_0x45c2e4(0xfc)](),_0x6636ef=_0x3c4cef[_0x45c2e4(0x15f)]();_0x567a1d[_0x45c2e4(0x96)]!==undefined&&_0x56a41d!==undefined&&_0x5d02f3!==undefined&&_0x6636ef!==undefined?_0x567a1d[_0x45c2e4(0x16e)]=_0x567a1d[_0x45c2e4(0x96)]!==undefined?'Vote\x20Date:\x20'+_0x56a41d+'\x20'+_0x5d02f3+',\x20'+_0x6636ef:'':_0x567a1d[_0x45c2e4(0x16e)]='',_0x567a1d['billQuestion']=_0x567a1d['question']!==undefined?_0x45c2e4(0x11e)+_0x567a1d[_0x45c2e4(0x1a2)]:'',_0x567a1d[_0x45c2e4(0x1cb)]=_0x567a1d[_0x45c2e4(0x1d7)]!==undefined&&_0x567a1d[_0x45c2e4(0x1df)]!==undefined?_0x45c2e4(0x1a6)+_0x567a1d[_0x45c2e4(0x1d7)]+_0x45c2e4(0x11b)+_0x567a1d[_0x45c2e4(0x1df)]:'',_0x567a1d[_0x45c2e4(0x106)]=_0x567a1d['result']!==undefined?_0x45c2e4(0x150)+_0x567a1d[_0x45c2e4(0x1ec)]:'';}for(let _0x827f3c=0x0;_0x827f3c<0x4;_0x827f3c++){_0x827f3c===0x0&&_0x567a1d['votes'][_0x543d12(0x12d)][_0x543d12(0xf4)](_0x20552b=>{const _0x3e6785=_0x543d12;if(_0x20552b[_0x3e6785(0x169)]===_0x5b6f8e){_0x1c129(_0x20552b),_0x20552b[_0x3e6785(0x1a0)]=_0x3e6785(0x13e);let _0x205fac=_0x20552b['id'];if(_0x205fac===_0x4f8638[0x0]?.['id']){let _0x9f85e1=_0x20552b['id'];_0x20552b[_0x3e6785(0xdb)]=0x1,_0x12cabb['push'](_0x20552b),_0x14857c[_0x3e6785(0x133)](_0x20552b),_0x4f8638[_0x3e6785(0x133)](_0x20552b);}else{if(_0x205fac===_0x3f4979[0x0]?.['id'])_0x581251=_0x20552b['id'],_0x20552b[_0x3e6785(0xdb)]=0x2,_0x12cabb[_0x3e6785(0x133)](_0x20552b),_0x14857c['push'](_0x20552b),_0x3f4979[_0x3e6785(0x133)](_0x20552b);else{if(_0x4f8638[_0x3e6785(0x190)]===0x0&&_0x3f4979['length']===0x0){let _0x5b8cf8=_0x20552b['id'];_0x20552b[_0x3e6785(0xdb)]=0x1,_0x12cabb['push'](_0x20552b),_0x14857c[_0x3e6785(0x133)](_0x20552b),_0x4f8638[_0x3e6785(0x133)](_0x20552b);}else _0x4f8638[_0x3e6785(0x190)]!==0x0&&_0x3f4979['length']===0x0&&(_0x581251=_0x20552b['id'],_0x20552b[_0x3e6785(0xdb)]=0x2,_0x12cabb[_0x3e6785(0x133)](_0x20552b),_0x14857c[_0x3e6785(0x133)](_0x20552b),_0x3f4979[_0x3e6785(0x133)](_0x20552b));}}}}),_0x827f3c===0x1&&_0x567a1d[_0x543d12(0x1c2)][_0x543d12(0xeb)][_0x543d12(0xf4)](_0x4aadc0=>{const _0x2f423f=_0x543d12;if(_0x4aadc0[_0x2f423f(0x169)]===_0x5b6f8e){_0x1c129(_0x4aadc0),_0x4aadc0[_0x2f423f(0x1a0)]='notVoting';let _0x30f59a=_0x4aadc0['id'];if(_0x30f59a===_0x4f8638[0x0]?.['id']){let _0x561dba=_0x4aadc0['id'];_0x4aadc0['internalSenatorId']=0x1,_0x12cabb['push'](_0x4aadc0),_0x14857c['push'](_0x4aadc0),_0x4f8638[_0x2f423f(0x133)](_0x4aadc0);}else{if(_0x30f59a===_0x3f4979[0x0]?.['id'])_0x581251=_0x4aadc0['id'],_0x4aadc0[_0x2f423f(0xdb)]=0x2,_0x12cabb[_0x2f423f(0x133)](_0x4aadc0),_0x14857c[_0x2f423f(0x133)](_0x4aadc0),_0x3f4979[_0x2f423f(0x133)](_0x4aadc0);else{if(_0x4f8638[_0x2f423f(0x190)]===0x0&&_0x3f4979[_0x2f423f(0x190)]===0x0){let _0x8bf3b0=_0x4aadc0['id'];_0x4aadc0[_0x2f423f(0xdb)]=0x1,_0x12cabb[_0x2f423f(0x133)](_0x4aadc0),_0x14857c[_0x2f423f(0x133)](_0x4aadc0),_0x4f8638[_0x2f423f(0x133)](_0x4aadc0);}else _0x4f8638['length']!==0x0&&_0x3f4979[_0x2f423f(0x190)]===0x0&&(_0x581251=_0x4aadc0['id'],_0x4aadc0['internalSenatorId']=0x2,_0x12cabb[_0x2f423f(0x133)](_0x4aadc0),_0x14857c[_0x2f423f(0x133)](_0x4aadc0),_0x3f4979[_0x2f423f(0x133)](_0x4aadc0));}}}}),_0x827f3c===0x2&&_0x567a1d[_0x543d12(0x1c2)]['Present']['forEach'](_0x18a0bb=>{const _0x57e3fc=_0x543d12;if(_0x18a0bb[_0x57e3fc(0x169)]===_0x5b6f8e){_0x1c129(_0x18a0bb),_0x18a0bb[_0x57e3fc(0x1a0)]=_0x57e3fc(0x1d2);let _0x1637c0=_0x18a0bb['id'];if(_0x1637c0===_0x4f8638[0x0]?.['id']){let _0x703eff=_0x18a0bb['id'];_0x18a0bb[_0x57e3fc(0xdb)]=0x1,_0x12cabb[_0x57e3fc(0x133)](_0x18a0bb),_0x14857c[_0x57e3fc(0x133)](_0x18a0bb),_0x4f8638['push'](_0x18a0bb);}else{if(_0x1637c0===_0x3f4979[0x0]?.['id'])_0x581251=_0x18a0bb['id'],_0x18a0bb[_0x57e3fc(0xdb)]=0x2,_0x12cabb['push'](_0x18a0bb),_0x14857c[_0x57e3fc(0x133)](_0x18a0bb),_0x3f4979[_0x57e3fc(0x133)](_0x18a0bb);else{if(_0x4f8638[_0x57e3fc(0x190)]===0x0&&_0x3f4979[_0x57e3fc(0x190)]===0x0){let _0x2e388b=_0x18a0bb['id'];_0x18a0bb[_0x57e3fc(0xdb)]=0x1,_0x12cabb[_0x57e3fc(0x133)](_0x18a0bb),_0x14857c['push'](_0x18a0bb),_0x4f8638['push'](_0x18a0bb);}else _0x4f8638['length']!==0x0&&_0x3f4979[_0x57e3fc(0x190)]===0x0&&(_0x581251=_0x18a0bb['id'],_0x18a0bb[_0x57e3fc(0xdb)]=0x2,_0x12cabb[_0x57e3fc(0x133)](_0x18a0bb),_0x14857c[_0x57e3fc(0x133)](_0x18a0bb),_0x3f4979[_0x57e3fc(0x133)](_0x18a0bb));}}}}),_0x827f3c===0x3&&_0x567a1d[_0x543d12(0x1c2)][_0x543d12(0x193)][_0x543d12(0xf4)](_0x301b93=>{const _0x3e1aa3=_0x543d12;if(_0x301b93[_0x3e1aa3(0x169)]===_0x5b6f8e){_0x1c129(_0x301b93),_0x301b93['voteRecord']=_0x3e1aa3(0x104);let _0x316763=_0x301b93['id'];if(_0x316763===_0x4f8638[0x0]?.['id']){let _0x6f054a=_0x301b93['id'];_0x301b93['internalSenatorId']=0x1,_0x12cabb[_0x3e1aa3(0x133)](_0x301b93),_0x14857c[_0x3e1aa3(0x133)](_0x301b93),_0x4f8638[_0x3e1aa3(0x133)](_0x301b93);}else{if(_0x316763===_0x3f4979[0x0]?.['id'])_0x581251=_0x301b93['id'],_0x301b93[_0x3e1aa3(0xdb)]=0x2,_0x12cabb[_0x3e1aa3(0x133)](_0x301b93),_0x14857c[_0x3e1aa3(0x133)](_0x301b93),_0x3f4979[_0x3e1aa3(0x133)](_0x301b93);else{if(_0x4f8638[_0x3e1aa3(0x190)]===0x0&&_0x3f4979['length']===0x0){let _0x4b65f2=_0x301b93['id'];_0x301b93['internalSenatorId']=0x1,_0x12cabb[_0x3e1aa3(0x133)](_0x301b93),_0x14857c[_0x3e1aa3(0x133)](_0x301b93),_0x4f8638[_0x3e1aa3(0x133)](_0x301b93);}else _0x4f8638[_0x3e1aa3(0x190)]!==0x0&&_0x3f4979['length']===0x0&&(_0x581251=_0x301b93['id'],_0x301b93[_0x3e1aa3(0xdb)]=0x2,_0x12cabb['push'](_0x301b93),_0x14857c[_0x3e1aa3(0x133)](_0x301b93),_0x3f4979[_0x3e1aa3(0x133)](_0x301b93));}}}});}});};function _0x9553b3(_0x2ebc1c){const _0x2d08ea=_0x438a41;return allHouseVotingData[_0x2d08ea(0xf4)](_0x26bbf0=>{const _0x349d6b=_0x2d08ea;_0x26bbf0['billCongress']=_0x26bbf0[_0x349d6b(0x132)]!==undefined?_0x26bbf0[_0x349d6b(0x132)]+_0x349d6b(0x142):'';if(_0x26bbf0[_0x349d6b(0x136)](_0x349d6b(0x159)))_0x26bbf0[_0x349d6b(0x147)]=_0x349d6b(0x138)+_0x26bbf0[_0x349d6b(0x159)][_0x349d6b(0x18b)]+',\x20'+_0x26bbf0[_0x349d6b(0x8b)];else _0x26bbf0['hasOwnProperty'](_0x349d6b(0x149))&&(_0x26bbf0[_0x349d6b(0x147)]=_0x349d6b(0xa6)+_0x26bbf0[_0x349d6b(0x149)][_0x349d6b(0x18b)]+',\x20'+_0x26bbf0[_0x349d6b(0x8b)]);let _0x540692=new Date(_0x26bbf0[_0x349d6b(0x96)]),_0x21acde=[_0x349d6b(0x13f),_0x349d6b(0xc7),'March','April',_0x349d6b(0x188),_0x349d6b(0x1d3),_0x349d6b(0x1e7),_0x349d6b(0xb0),_0x349d6b(0x117),_0x349d6b(0x93),_0x349d6b(0xd7),_0x349d6b(0x1aa)],_0x26266a=_0x21acde[_0x540692['getMonth']()],_0x5e7757=_0x540692[_0x349d6b(0xfc)](),_0x1608a4=_0x540692['getFullYear']();_0x26bbf0[_0x349d6b(0x96)]!==undefined&&_0x26266a!==undefined&&_0x5e7757!==undefined&&_0x1608a4!==undefined?_0x26bbf0[_0x349d6b(0x16e)]=_0x26bbf0[_0x349d6b(0x96)]!==undefined?_0x349d6b(0xbb)+_0x26266a+'\x20'+_0x5e7757+',\x20'+_0x1608a4:'':_0x26bbf0[_0x349d6b(0x16e)]='';_0x26bbf0[_0x349d6b(0x10f)]=_0x26bbf0[_0x349d6b(0x1e9)]!==undefined?'Subject:\x20'+_0x26bbf0[_0x349d6b(0x1e9)]:'',_0x26bbf0[_0x349d6b(0x1a4)]=_0x26bbf0[_0x349d6b(0x1a2)]!==undefined?_0x349d6b(0x11e)+_0x26bbf0[_0x349d6b(0x1a2)]:'',_0x26bbf0[_0x349d6b(0x1cb)]=_0x26bbf0[_0x349d6b(0x1d7)]!==undefined&&_0x26bbf0[_0x349d6b(0x1df)]!==undefined?_0x349d6b(0x1a6)+_0x26bbf0[_0x349d6b(0x1d7)]+_0x349d6b(0x11b)+_0x26bbf0[_0x349d6b(0x1df)]:'',_0x26bbf0[_0x349d6b(0x106)]=_0x26bbf0[_0x349d6b(0x1ec)]!==undefined?_0x349d6b(0x150)+_0x26bbf0['result']:'',_0x26bbf0[_0x349d6b(0x1f2)]=_0x26bbf0['source_url']!==undefined?'':'';function _0x358e4d(_0x20f603){const _0x7415af=_0x349d6b;_0x20f603['voteId']=_0x26bbf0[_0x7415af(0x165)],_0x20f603['billTitle']=_0x26bbf0[_0x7415af(0x149)]?_0x26bbf0[_0x7415af(0x149)][_0x7415af(0x1b9)]:'',_0x20f603[_0x7415af(0x10f)]=_0x26bbf0[_0x7415af(0x1e9)];}for(let _0xa1cc=0x0;_0xa1cc<0x4;_0xa1cc++){if(_0xa1cc===0x0){if(_0x26bbf0['votes']['hasOwnProperty'](_0x349d6b(0x12d)))_0x26bbf0['votes'][_0x349d6b(0x12d)][_0x349d6b(0xf4)](_0x4a9a8e=>{const _0x15e090=_0x349d6b;if(_0x4a9a8e[_0x15e090(0x169)]===_0x2ebc1c){_0x358e4d(_0x4a9a8e),_0x4a9a8e[_0x15e090(0x1a0)]='nay';let _0xc70e66=_0x4a9a8e['id'];if(_0xc70e66===_0x516a53[0x0]?.['id']){let _0x439914=_0x4a9a8e['id'];_0x4a9a8e[_0x15e090(0xa8)]=0x1,_0x2b8b4f[_0x15e090(0x133)](_0x4a9a8e),_0x128f04[_0x15e090(0x133)](_0x4a9a8e),_0x516a53['push'](_0x4a9a8e);}else{if(_0xc70e66===_0x23f1fb[0x0]?.['id'])_0x932280=_0x4a9a8e['id'],_0x4a9a8e[_0x15e090(0xa8)]=0x2,_0x2b8b4f[_0x15e090(0x133)](_0x4a9a8e),_0x128f04['push'](_0x4a9a8e),_0x23f1fb[_0x15e090(0x133)](_0x4a9a8e);else{if(_0x516a53[_0x15e090(0x190)]===0x0&&_0x23f1fb[_0x15e090(0x190)]===0x0){let _0x4074dd=_0x4a9a8e['id'];_0x4a9a8e[_0x15e090(0xa8)]=0x1,_0x2b8b4f['push'](_0x4a9a8e),_0x128f04['push'](_0x4a9a8e),_0x516a53[_0x15e090(0x133)](_0x4a9a8e);}else _0x516a53[_0x15e090(0x190)]!==0x0&&_0x23f1fb[_0x15e090(0x190)]===0x0&&(_0x932280=_0x4a9a8e['id'],_0x4a9a8e['internalHouseMemberId']=0x2,_0x2b8b4f[_0x15e090(0x133)](_0x4a9a8e),_0x128f04[_0x15e090(0x133)](_0x4a9a8e),_0x23f1fb[_0x15e090(0x133)](_0x4a9a8e));}}}});else _0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x136)]('Aye')&&_0x26bbf0['votes'][_0x349d6b(0xf2)][_0x349d6b(0xf4)](_0x2cb649=>{const _0x1b28b1=_0x349d6b;if(_0x2cb649['state']===_0x2ebc1c){_0x358e4d(_0x2cb649),_0x2cb649[_0x1b28b1(0x1a0)]=_0x1b28b1(0xff);let _0xb85c8b=_0x2cb649['id'];if(_0xb85c8b===_0x516a53[0x0]?.['id']){let _0x2d8fe1=_0x2cb649['id'];_0x2cb649['internalHouseMemberId']=0x1,_0x2b8b4f['push'](_0x2cb649),_0x5aa1fb[_0x1b28b1(0x133)](_0x2cb649),_0x516a53[_0x1b28b1(0x133)](_0x2cb649);}else{if(_0xb85c8b===_0x23f1fb[0x0]?.['id'])_0x932280=_0x2cb649['id'],_0x2cb649[_0x1b28b1(0xa8)]=0x2,_0x2b8b4f[_0x1b28b1(0x133)](_0x2cb649),_0x5aa1fb[_0x1b28b1(0x133)](_0x2cb649),_0x23f1fb[_0x1b28b1(0x133)](_0x2cb649);else{if(_0x516a53[_0x1b28b1(0x190)]===0x0&&_0x23f1fb[_0x1b28b1(0x190)]===0x0){let _0x132d05=_0x2cb649['id'];_0x2cb649[_0x1b28b1(0xa8)]=0x1,_0x2b8b4f[_0x1b28b1(0x133)](_0x2cb649),_0x5aa1fb[_0x1b28b1(0x133)](_0x2cb649),_0x516a53[_0x1b28b1(0x133)](_0x2cb649);}else _0x516a53[_0x1b28b1(0x190)]!==0x0&&_0x23f1fb['length']===0x0&&(_0x932280=_0x2cb649['id'],_0x2cb649[_0x1b28b1(0xa8)]=0x2,_0x2b8b4f['push'](_0x2cb649),_0x5aa1fb[_0x1b28b1(0x133)](_0x2cb649),_0x23f1fb[_0x1b28b1(0x133)](_0x2cb649));}}}});}if(_0xa1cc===0x1){if(_0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x136)](_0x349d6b(0x12d)))_0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0xeb)][_0x349d6b(0xf4)](_0x25de4b=>{const _0x30f8bd=_0x349d6b;if(_0x25de4b[_0x30f8bd(0x169)]===_0x2ebc1c){_0x358e4d(_0x25de4b),_0x25de4b[_0x30f8bd(0x1a0)]=_0x30f8bd(0x1f1);let _0x5c6115=_0x25de4b['id'];if(_0x5c6115===_0x516a53[0x0]?.['id']){let _0x57dd99=_0x25de4b['id'];_0x25de4b[_0x30f8bd(0xa8)]=0x1,_0x2b8b4f[_0x30f8bd(0x133)](_0x25de4b),_0x128f04[_0x30f8bd(0x133)](_0x25de4b),_0x516a53[_0x30f8bd(0x133)](_0x25de4b);}else{if(_0x5c6115===_0x23f1fb[0x0]?.['id'])_0x932280=_0x25de4b['id'],_0x25de4b['internalHouseMemberId']=0x2,_0x2b8b4f[_0x30f8bd(0x133)](_0x25de4b),_0x128f04[_0x30f8bd(0x133)](_0x25de4b),_0x23f1fb['push'](_0x25de4b);else{if(_0x516a53['length']===0x0&&_0x23f1fb[_0x30f8bd(0x190)]===0x0){let _0x3a1f8f=_0x25de4b['id'];_0x25de4b['internalHouseMemberId']=0x1,_0x2b8b4f['push'](_0x25de4b),_0x128f04[_0x30f8bd(0x133)](_0x25de4b),_0x516a53[_0x30f8bd(0x133)](_0x25de4b);}else _0x516a53[_0x30f8bd(0x190)]!==0x0&&_0x23f1fb[_0x30f8bd(0x190)]===0x0&&(_0x932280=_0x25de4b['id'],_0x25de4b[_0x30f8bd(0xa8)]=0x2,_0x2b8b4f['push'](_0x25de4b),_0x128f04['push'](_0x25de4b),_0x23f1fb[_0x30f8bd(0x133)](_0x25de4b));}}}});else _0x26bbf0[_0x349d6b(0x1c2)]['hasOwnProperty']('Aye')&&_0x26bbf0[_0x349d6b(0x1c2)]['No'][_0x349d6b(0xf4)](_0x23399c=>{const _0x59b08c=_0x349d6b;if(_0x23399c['state']===_0x2ebc1c){_0x358e4d(_0x23399c),_0x23399c[_0x59b08c(0x1a0)]='no';let _0x46ea3a=_0x23399c['id'];if(_0x46ea3a===_0x516a53[0x0]?.['id']){let _0xb332e9=_0x23399c['id'];_0x23399c[_0x59b08c(0xa8)]=0x1,_0x2b8b4f[_0x59b08c(0x133)](_0x23399c),_0x128f04[_0x59b08c(0x133)](_0x23399c),_0x516a53[_0x59b08c(0x133)](_0x23399c);}else{if(_0x46ea3a===_0x23f1fb[0x0]?.['id'])_0x932280=_0x23399c['id'],_0x23399c[_0x59b08c(0xa8)]=0x2,_0x2b8b4f['push'](_0x23399c),_0x128f04[_0x59b08c(0x133)](_0x23399c),_0x23f1fb[_0x59b08c(0x133)](_0x23399c);else{if(_0x516a53[_0x59b08c(0x190)]===0x0&&_0x23f1fb['length']===0x0){let _0x4d6030=_0x23399c['id'];_0x23399c[_0x59b08c(0xa8)]=0x1,_0x2b8b4f[_0x59b08c(0x133)](_0x23399c),_0x128f04[_0x59b08c(0x133)](_0x23399c),_0x516a53[_0x59b08c(0x133)](_0x23399c);}else _0x516a53[_0x59b08c(0x190)]!==0x0&&_0x23f1fb[_0x59b08c(0x190)]===0x0&&(_0x932280=_0x23399c['id'],_0x23399c[_0x59b08c(0xa8)]=0x2,_0x2b8b4f['push'](_0x23399c),_0x128f04['push'](_0x23399c),_0x23f1fb[_0x59b08c(0x133)](_0x23399c));}}}});}if(_0xa1cc===0x2){if(_0x26bbf0[_0x349d6b(0x1c2)]['hasOwnProperty'](_0x349d6b(0x12d)))_0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x1c7)][_0x349d6b(0xf4)](_0xf049ac=>{const _0x5ae663=_0x349d6b;if(_0xf049ac['state']===_0x2ebc1c){_0x358e4d(_0xf049ac),_0xf049ac[_0x5ae663(0x1a0)]='present';let _0x5e8c9a=_0xf049ac['id'];if(_0x5e8c9a===_0x516a53[0x0]?.['id']){let _0x56110=_0xf049ac['id'];_0xf049ac[_0x5ae663(0xa8)]=0x1,_0x2b8b4f[_0x5ae663(0x133)](_0xf049ac),_0x128f04[_0x5ae663(0x133)](_0xf049ac),_0x516a53['push'](_0xf049ac);}else{if(_0x5e8c9a===_0x23f1fb[0x0]?.['id'])_0x932280=_0xf049ac['id'],_0xf049ac[_0x5ae663(0xa8)]=0x2,_0x2b8b4f[_0x5ae663(0x133)](_0xf049ac),_0x128f04['push'](_0xf049ac),_0x23f1fb['push'](_0xf049ac);else{if(_0x516a53['length']===0x0&&_0x23f1fb[_0x5ae663(0x190)]===0x0){let _0x2d22d5=_0xf049ac['id'];_0xf049ac['internalHouseMemberId']=0x1,_0x2b8b4f[_0x5ae663(0x133)](_0xf049ac),_0x128f04['push'](_0xf049ac),_0x516a53[_0x5ae663(0x133)](_0xf049ac);}else _0x516a53[_0x5ae663(0x190)]!==0x0&&_0x23f1fb[_0x5ae663(0x190)]===0x0&&(_0x932280=_0xf049ac['id'],_0xf049ac[_0x5ae663(0xa8)]=0x2,_0x2b8b4f[_0x5ae663(0x133)](_0xf049ac),_0x128f04[_0x5ae663(0x133)](_0xf049ac),_0x23f1fb['push'](_0xf049ac));}}}});else _0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x136)](_0x349d6b(0xf2))&&_0x26bbf0['votes'][_0x349d6b(0xeb)][_0x349d6b(0xf4)](_0x14a394=>{const _0x75563b=_0x349d6b;if(_0x14a394[_0x75563b(0x169)]===_0x2ebc1c){_0x358e4d(_0x14a394),_0x14a394['voteRecord']=_0x75563b(0x1f1);let _0x40f588=_0x14a394['id'];if(_0x40f588===_0x516a53[0x0]?.['id']){let _0x25240d=_0x14a394['id'];_0x14a394[_0x75563b(0xa8)]=0x1,_0x2b8b4f[_0x75563b(0x133)](_0x14a394),_0x128f04[_0x75563b(0x133)](_0x14a394),_0x516a53['push'](_0x14a394);}else{if(_0x40f588===_0x23f1fb[0x0]?.['id'])_0x932280=_0x14a394['id'],_0x14a394[_0x75563b(0xa8)]=0x2,_0x2b8b4f[_0x75563b(0x133)](_0x14a394),_0x128f04[_0x75563b(0x133)](_0x14a394),_0x23f1fb['push'](_0x14a394);else{if(_0x516a53[_0x75563b(0x190)]===0x0&&_0x23f1fb[_0x75563b(0x190)]===0x0){let _0xc3c632=_0x14a394['id'];_0x14a394[_0x75563b(0xa8)]=0x1,_0x2b8b4f[_0x75563b(0x133)](_0x14a394),_0x128f04[_0x75563b(0x133)](_0x14a394),_0x516a53[_0x75563b(0x133)](_0x14a394);}else _0x516a53[_0x75563b(0x190)]!==0x0&&_0x23f1fb[_0x75563b(0x190)]===0x0&&(_0x932280=_0x14a394['id'],_0x14a394[_0x75563b(0xa8)]=0x2,_0x2b8b4f[_0x75563b(0x133)](_0x14a394),_0x128f04[_0x75563b(0x133)](_0x14a394),_0x23f1fb[_0x75563b(0x133)](_0x14a394));}}}});}if(_0xa1cc===0x3){if(_0x26bbf0['votes'][_0x349d6b(0x136)](_0x349d6b(0x12d)))_0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x193)]['forEach'](_0x28c221=>{const _0x2f5896=_0x349d6b;if(_0x28c221[_0x2f5896(0x169)]===_0x2ebc1c){_0x358e4d(_0x28c221),_0x28c221[_0x2f5896(0x1a0)]=_0x2f5896(0x104);let _0x3841e1=_0x28c221['id'];if(_0x3841e1===_0x516a53[0x0]?.['id']){let _0x19ade8=_0x28c221['id'];_0x28c221['internalHouseMemberId']=0x1,_0x2b8b4f[_0x2f5896(0x133)](_0x28c221),_0x128f04['push'](_0x28c221),_0x516a53[_0x2f5896(0x133)](_0x28c221);}else{if(_0x3841e1===_0x23f1fb[0x0]?.['id'])_0x932280=_0x28c221['id'],_0x28c221[_0x2f5896(0xa8)]=0x2,_0x2b8b4f[_0x2f5896(0x133)](_0x28c221),_0x128f04[_0x2f5896(0x133)](_0x28c221),_0x23f1fb[_0x2f5896(0x133)](_0x28c221);else{if(_0x516a53[_0x2f5896(0x190)]===0x0&&_0x23f1fb['length']===0x0){let _0x230f76=_0x28c221['id'];_0x28c221[_0x2f5896(0xa8)]=0x1,_0x2b8b4f[_0x2f5896(0x133)](_0x28c221),_0x128f04[_0x2f5896(0x133)](_0x28c221),_0x516a53['push'](_0x28c221);}else _0x516a53[_0x2f5896(0x190)]!==0x0&&_0x23f1fb[_0x2f5896(0x190)]===0x0&&(_0x932280=_0x28c221['id'],_0x28c221[_0x2f5896(0xa8)]=0x2,_0x2b8b4f[_0x2f5896(0x133)](_0x28c221),_0x128f04[_0x2f5896(0x133)](_0x28c221),_0x23f1fb['push'](_0x28c221));}}}});else _0x26bbf0[_0x349d6b(0x1c2)][_0x349d6b(0x136)](_0x349d6b(0xf2))&&_0x26bbf0['votes'][_0x349d6b(0x1c7)][_0x349d6b(0xf4)](_0x585cfc=>{const _0x1c1975=_0x349d6b;if(_0x585cfc[_0x1c1975(0x169)]===_0x2ebc1c){_0x358e4d(_0x585cfc),_0x585cfc['voteRecord']=_0x1c1975(0x1d2);let _0x4bd55d=_0x585cfc['id'];if(_0x4bd55d===_0x516a53[0x0]?.['id']){let _0x44cf67=_0x585cfc['id'];_0x585cfc[_0x1c1975(0xa8)]=0x1,_0x2b8b4f['push'](_0x585cfc),_0x128f04[_0x1c1975(0x133)](_0x585cfc),_0x516a53[_0x1c1975(0x133)](_0x585cfc);}else{if(_0x4bd55d===_0x23f1fb[0x0]?.['id'])_0x932280=_0x585cfc['id'],_0x585cfc[_0x1c1975(0xa8)]=0x2,_0x2b8b4f[_0x1c1975(0x133)](_0x585cfc),_0x128f04['push'](_0x585cfc),_0x23f1fb[_0x1c1975(0x133)](_0x585cfc);else{if(_0x516a53[_0x1c1975(0x190)]===0x0&&_0x23f1fb[_0x1c1975(0x190)]===0x0){let _0x1876b5=_0x585cfc['id'];_0x585cfc[_0x1c1975(0xa8)]=0x1,_0x2b8b4f[_0x1c1975(0x133)](_0x585cfc),_0x128f04[_0x1c1975(0x133)](_0x585cfc),_0x516a53[_0x1c1975(0x133)](_0x585cfc);}else _0x516a53[_0x1c1975(0x190)]!==0x0&&_0x23f1fb[_0x1c1975(0x190)]===0x0&&(_0x932280=_0x585cfc['id'],_0x585cfc[_0x1c1975(0xa8)]=0x2,_0x2b8b4f[_0x1c1975(0x133)](_0x585cfc),_0x128f04[_0x1c1975(0x133)](_0x585cfc),_0x23f1fb[_0x1c1975(0x133)](_0x585cfc));}}}});}}});};function _0x205757(_0x575806,_0x14adc7,_0x4ea89f){const _0x1cc563=_0x438a41;_0x439136[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x0][_0x1cc563(0x182)]+'\x20'+_0x14adc7[0x0]['display_name'],_0x5d1614['firstChild'][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x0]),_0x478f6d[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x1]),_0x1dcd1b[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x2]),_0x104bbb[_0x1cc563(0xe6)]['nodeValue']=_0xed735f(_0x14adc7[0x3]),_0x2fbca9[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x4]),_0x22c1d3[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x5]),_0x4ebb29[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x6]),_0x3971cf['firstChild'][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x7]),_0x44e7ff['firstChild']['nodeValue']=_0xed735f(_0x14adc7[0x8]),_0x1e1f29[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x14adc7[0x9]),_0x4f7957[_0x1cc563(0xe6)]['nodeValue']=_0x60e7f(_0x14adc7[0x0]),_0x49a78b[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x1]),_0x3f1e67[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x2]),_0xfd0a61['firstChild'][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x3]),_0x550205[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x4]),_0x1ccf50[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x5]),_0x59cf1f[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x6]),_0x4c1061[_0x1cc563(0xe6)]['nodeValue']=_0x60e7f(_0x14adc7[0x7]),_0x3dfb7b['firstChild'][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x8]),_0xdb7c0[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x14adc7[0x9]),_0x32136a[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0]['billNumber'],_0x2a47b5[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x1][_0x1cc563(0x147)],_0x36e3e0['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x147)],_0xf90982['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x3][_0x1cc563(0x147)],_0x5b44a5[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x4]['billNumber'],_0x9d5603['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x5]['billNumber'],_0x15027b[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x147)],_0x437d5c['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x147)],_0x538f6e[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x8]['billNumber'],_0x4f7664['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x147)],_0x593379['firstChild'][_0x1cc563(0x11c)]=_0x14adc7[0x0][_0x1cc563(0x10f)],_0x164c6f[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x1][_0x1cc563(0x10f)],_0x34e285[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x2][_0x1cc563(0x10f)],_0x3b8428[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x3][_0x1cc563(0x10f)],_0x275a87[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x4][_0x1cc563(0x10f)],_0x174deb[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x5][_0x1cc563(0x10f)],_0x2309af[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x6][_0x1cc563(0x10f)],_0x1ecae9[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x7][_0x1cc563(0x10f)],_0x18a767[_0x1cc563(0xe6)]['nodeValue']=_0x14adc7[0x8][_0x1cc563(0x10f)],_0x1f5d47[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x14adc7[0x9][_0x1cc563(0x10f)],_0xa82b00[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x16e)],_0x22d4cc[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x16e)],_0x7c3d69[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x16e)],_0x4522b3['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x3]['billDate'],_0x2ab1f1['firstChild']['nodeValue']=_0x575806[0x4][_0x1cc563(0x16e)],_0x1cd2ec[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x5][_0x1cc563(0x16e)],_0x4297d0['firstChild']['nodeValue']=_0x575806[0x6][_0x1cc563(0x16e)],_0x1e03ee[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x7]['billDate'],_0x109012[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x16e)],_0x543386[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x16e)],_0x7ddd65[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x1a4)],_0x53b603['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x1a4)],_0x2c5074[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x1a4)],_0x38e94e[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x3]['billQuestion'],_0x22bf12[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x4]['billQuestion'],_0x264047[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x1a4)],_0x46e07a[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x6][_0x1cc563(0x1a4)],_0x24e0e1[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7]['billQuestion'],_0x373e8a[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x1a4)],_0x51d866[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x1a4)],_0x2a8b6e[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x1cb)],_0x7a0f5e[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x1cb)],_0x131e0f[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x2][_0x1cc563(0x1cb)],_0x1696df['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x3][_0x1cc563(0x1cb)],_0x4fa22a[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x4][_0x1cc563(0x1cb)],_0x36fea4[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x1cb)],_0xc16ca9[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x1cb)],_0x4b75db[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x1cb)],_0x4034dc[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x1cb)],_0x139db7[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x9]['billVoteTypeAndRequires'],_0x44ad94[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x106)],_0x371d4c[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x1][_0x1cc563(0x106)],_0x42ea34[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x106)],_0x131be5['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x3][_0x1cc563(0x106)],_0x493560[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x4][_0x1cc563(0x106)],_0x1c30ee[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x106)],_0x3fede3['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x106)],_0xc99786[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x106)],_0x5ad397[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x106)],_0x40b668[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x106)],_0x1427fb[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x0][_0x1cc563(0x16e)],_0x39fab2[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x16e)],_0xe3d449[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x2]['billDate'],_0xbf28c[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x3][_0x1cc563(0x16e)],_0x3ffd9e[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x4][_0x1cc563(0x16e)],_0x5178e3[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x16e)],_0x35ac4e[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x6][_0x1cc563(0x16e)],_0x3e5555[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x16e)],_0xc8784d[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x16e)],_0x2803b0['firstChild']['nodeValue']=_0x575806[0x9][_0x1cc563(0x16e)],_0x55d799['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x1a4)],_0x512d8c[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x1a4)],_0x4eeb58[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x1a4)],_0x5a2fd3['firstChild']['nodeValue']=_0x575806[0x3][_0x1cc563(0x1a4)],_0x62e34e[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x4][_0x1cc563(0x1a4)],_0x58cefd[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x1a4)],_0x36a526[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x1a4)],_0x11f514[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x1a4)],_0x32ddc0['firstChild']['nodeValue']=_0x575806[0x8][_0x1cc563(0x1a4)],_0x4d3da3[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x1a4)],_0x3e45d2[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0]['billVoteTypeAndRequires'],_0x477873[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1]['billVoteTypeAndRequires'],_0x3228f6[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x2][_0x1cc563(0x1cb)],_0x2c71a2[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x3]['billVoteTypeAndRequires'],_0x1987c0['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x4]['billVoteTypeAndRequires'],_0xdaf86e[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x1cb)],_0x1d3f3c[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x1cb)],_0x440cb9[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7]['billVoteTypeAndRequires'],_0x4f78a7[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x1cb)],_0x1d215d[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x1cb)],_0xa50e9[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x106)],_0x111c8a[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x1][_0x1cc563(0x106)],_0x5c7a10['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x2]['billResult'],_0x31cb85['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x3][_0x1cc563(0x106)],_0xb157bd['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x4]['billResult'],_0x1e1279[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x5][_0x1cc563(0x106)],_0x2d6b6a['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x6][_0x1cc563(0x106)],_0x5ce081[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x106)],_0x59f470['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x8][_0x1cc563(0x106)],_0x264623['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x9][_0x1cc563(0x106)],_0x4f756c[_0x1cc563(0x16b)]('href',_0x575806[0x0][_0x1cc563(0x156)]['slice'](0x0,-0x3)+_0x1cc563(0x120)),_0xe95180[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x1][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+'htm'),_0xa4d20e[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x2][_0x1cc563(0x156)]['slice'](0x0,-0x3)+_0x1cc563(0x120)),_0x4fe476[_0x1cc563(0x16b)]('href',_0x575806[0x3][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x47a2ee['setAttribute'](_0x1cc563(0x1c3),_0x575806[0x4][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x3d23e6[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x5][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+'htm'),_0x1f4c98['setAttribute'](_0x1cc563(0x1c3),_0x575806[0x6][_0x1cc563(0x156)]['slice'](0x0,-0x3)+_0x1cc563(0x120)),_0x1c914a[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x7][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x5b4400[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x8]['source_url']['slice'](0x0,-0x3)+_0x1cc563(0x120)),_0x18d848[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x9][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x14f5b2['setAttribute'](_0x1cc563(0x1c3),_0x575806[0x0][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+'htm'),_0x25685d[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x1][_0x1cc563(0x156)]['slice'](0x0,-0x3)+'htm'),_0x995733[_0x1cc563(0x16b)]('href',_0x575806[0x2][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x3d8864[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x3][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x42cdfe[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x4][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+'htm'),_0x33168e['setAttribute'](_0x1cc563(0x1c3),_0x575806[0x5][_0x1cc563(0x156)]['slice'](0x0,-0x3)+'htm'),_0x27aaf2['setAttribute']('href',_0x575806[0x6][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x1e2d9c[_0x1cc563(0x16b)]('href',_0x575806[0x7][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x42c071['setAttribute'](_0x1cc563(0x1c3),_0x575806[0x8]['source_url'][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x1966d8[_0x1cc563(0x16b)](_0x1cc563(0x1c3),_0x575806[0x9][_0x1cc563(0x156)][_0x1cc563(0x16f)](0x0,-0x3)+_0x1cc563(0x120)),_0x554e5f['firstChild'][_0x1cc563(0x11c)]=_0x4ea89f[0x0]['first_name']+'\x20'+_0x4ea89f[0x0][_0x1cc563(0xc3)],_0x45435e[_0x1cc563(0xe6)]['nodeValue']=_0xed735f(_0x4ea89f[0x0]),_0x30c9a7['firstChild'][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x1]),_0xc193ca['firstChild'][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x2]),_0x56bfcf[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x3]),_0x22da80[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x4]),_0x11bf50[_0x1cc563(0xe6)]['nodeValue']=_0xed735f(_0x4ea89f[0x5]),_0x4164ab[_0x1cc563(0xe6)]['nodeValue']=_0xed735f(_0x4ea89f[0x6]),_0x2c0ae0[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x7]),_0x25a58f[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x8]),_0x23c39f[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0xed735f(_0x4ea89f[0x9]),_0x47b417['firstChild']['nodeValue']=_0x60e7f(_0x4ea89f[0x0]),_0x1c74c2[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x1]),_0x4a1a0a[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x2]),_0x5a80aa[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x3]),_0x50be91[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x4]),_0xa3a560[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x5]),_0x3e2282[_0x1cc563(0xe6)]['nodeValue']=_0x60e7f(_0x4ea89f[0x6]),_0x4cf530[_0x1cc563(0xe6)]['nodeValue']=_0x60e7f(_0x4ea89f[0x7]),_0x4a5887[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x8]),_0x202b9a['firstChild'][_0x1cc563(0x11c)]=_0x60e7f(_0x4ea89f[0x9]),_0x562813[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x0][_0x1cc563(0x147)],_0x772fb7[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x1][_0x1cc563(0x147)],_0x43994e['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x2][_0x1cc563(0x147)],_0x44dd9e[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x3][_0x1cc563(0x147)],_0x54fe8a['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x4][_0x1cc563(0x147)],_0x2e390a['firstChild']['nodeValue']=_0x575806[0x5]['billNumber'],_0x566435[_0x1cc563(0xe6)]['nodeValue']=_0x575806[0x6]['billNumber'],_0xdff198['firstChild'][_0x1cc563(0x11c)]=_0x575806[0x7][_0x1cc563(0x147)],_0x4c6cb3[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x575806[0x8]['billNumber'],_0x5c604d['firstChild']['nodeValue']=_0x575806[0x9][_0x1cc563(0x147)],_0xc2b654['firstChild']['nodeValue']=_0x4ea89f[0x0]['billSubject'],_0x180c5e['firstChild'][_0x1cc563(0x11c)]=_0x4ea89f[0x1][_0x1cc563(0x10f)],_0x4dec49[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x4ea89f[0x2][_0x1cc563(0x10f)],_0x54a29e['firstChild'][_0x1cc563(0x11c)]=_0x4ea89f[0x3][_0x1cc563(0x10f)],_0x3a86ab['firstChild'][_0x1cc563(0x11c)]=_0x4ea89f[0x4][_0x1cc563(0x10f)],_0x13113e[_0x1cc563(0xe6)]['nodeValue']=_0x4ea89f[0x5]['billSubject'],_0x178e4b[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x4ea89f[0x6][_0x1cc563(0x10f)],_0x235883[_0x1cc563(0xe6)]['nodeValue']=_0x4ea89f[0x7][_0x1cc563(0x10f)],_0x457f4a[_0x1cc563(0xe6)]['nodeValue']=_0x4ea89f[0x8][_0x1cc563(0x10f)],_0x52d7a7[_0x1cc563(0xe6)][_0x1cc563(0x11c)]=_0x4ea89f[0x9]['billSubject'];};function _0x938ef8(_0x457ff9,_0x1d914a,_0x326a34){const _0x4cc511=_0x438a41;_0x1fd3cd[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x0]['display_name']+'\x20('+_0x1d914a[0x0][_0x4cc511(0xcc)]+'-'+_0x1d914a[0x0][_0x4cc511(0x169)]+')',_0x5619a0[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x1d914a[0x0]),_0x2f38bb['firstChild'][_0x4cc511(0x11c)]=_0xed735f(_0x1d914a[0x1]),_0xcca30c[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x1d914a[0x2]),_0x408bf7[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x1d914a[0x3]),_0x119722[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x1d914a[0x4]),_0x46968d[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x1d914a[0x5]),_0x10d70a['firstChild'][_0x4cc511(0x11c)]=_0xed735f(_0x1d914a[0x6]),_0x564969[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x1d914a[0x7]),_0x42c83e[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x1d914a[0x8]),_0x405dcc[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x1d914a[0x9]),_0x24545f[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x0]),_0x596d45[_0x4cc511(0xe6)]['nodeValue']=_0x60e7f(_0x1d914a[0x1]),_0x1cbca0[_0x4cc511(0xe6)]['nodeValue']=_0x60e7f(_0x1d914a[0x2]),_0x3627e3[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x3]),_0x2288b2[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x4]),_0x312731[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x5]),_0x58ec28['firstChild'][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x6]),_0x5e91dc[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x7]),_0x4fd757['firstChild'][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x8]),_0x57d391[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x1d914a[0x9]),_0x52a164[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x0]['billNumber'],_0x15378c[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x1][_0x4cc511(0x147)],_0x49bcab[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x2][_0x4cc511(0x147)],_0x1a35a7[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x3][_0x4cc511(0x147)],_0xabc03a[_0x4cc511(0xe6)]['nodeValue']=_0x457ff9[0x4]['billNumber'],_0x338cfd[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x5][_0x4cc511(0x147)],_0x46170c[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x6][_0x4cc511(0x147)],_0x36a392[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x7]['billNumber'],_0x5cce62[_0x4cc511(0xe6)]['nodeValue']=_0x457ff9[0x8][_0x4cc511(0x147)],_0x651982[_0x4cc511(0xe6)]['nodeValue']=_0x457ff9[0x9][_0x4cc511(0x147)],_0x59c16f[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x0]['billSubject'],_0xf450c9[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x1][_0x4cc511(0x10f)],_0xd2dbb3[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x2][_0x4cc511(0x10f)],_0x44d7a7['firstChild']['nodeValue']=_0x1d914a[0x3][_0x4cc511(0x10f)],_0x405473[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x4][_0x4cc511(0x10f)],_0xdf7757[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x5][_0x4cc511(0x10f)],_0x13a26f[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x1d914a[0x6]['billSubject'],_0x3cc826['firstChild'][_0x4cc511(0x11c)]=_0x1d914a[0x7][_0x4cc511(0x10f)],_0x2a75ef['firstChild'][_0x4cc511(0x11c)]=_0x1d914a[0x8][_0x4cc511(0x10f)],_0x4445b7['firstChild'][_0x4cc511(0x11c)]=_0x1d914a[0x9][_0x4cc511(0x10f)],_0x12ae22['firstChild'][_0x4cc511(0x11c)]=_0x326a34[0x0]['display_name']+'\x20('+_0x326a34[0x0]['party']+'-'+_0x326a34[0x0][_0x4cc511(0x169)]+')',_0x2a1e14['firstChild'][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x0]),_0xbf7cd3[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x1]),_0x9acbf[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x2]),_0x2c55a1[_0x4cc511(0xe6)]['nodeValue']=_0xed735f(_0x326a34[0x3]),_0x6dfb2['firstChild'][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x4]),_0x30fc8c[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x5]),_0x84eddb[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x6]),_0x1c86a5['firstChild']['nodeValue']=_0xed735f(_0x326a34[0x7]),_0x3f0b18[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x8]),_0x182e07['firstChild'][_0x4cc511(0x11c)]=_0xed735f(_0x326a34[0x9]),_0x45d557[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x0]),_0xbe35f2[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x1]),_0x5031f0[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x2]),_0x22ebc0[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x3]),_0x250398['firstChild'][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x4]),_0x40e4e8[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x5]),_0x16f6c9[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x6]),_0x2339e3[_0x4cc511(0xe6)]['nodeValue']=_0x60e7f(_0x326a34[0x7]),_0x3a4279[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x8]),_0x4439c6[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x60e7f(_0x326a34[0x9]),_0x4c5dc5[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x0][_0x4cc511(0x147)],_0x12e959[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x1][_0x4cc511(0x147)],_0x3cccbd[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x2][_0x4cc511(0x147)],_0xd7144e['firstChild'][_0x4cc511(0x11c)]=_0x457ff9[0x3][_0x4cc511(0x147)],_0x786c27[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x4][_0x4cc511(0x147)],_0x3ff6dc[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x5]['billNumber'],_0x3393c9[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x6][_0x4cc511(0x147)],_0x24605d[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x7]['billNumber'],_0x1b78e8[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x457ff9[0x8][_0x4cc511(0x147)],_0x5976ee['firstChild']['nodeValue']=_0x457ff9[0x9][_0x4cc511(0x147)],_0x55e53d[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x0][_0x4cc511(0x10f)],_0x58b63d['firstChild'][_0x4cc511(0x11c)]=_0x326a34[0x1][_0x4cc511(0x10f)],_0x268450[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x2][_0x4cc511(0x10f)],_0x1f92d6[_0x4cc511(0xe6)]['nodeValue']=_0x326a34[0x3][_0x4cc511(0x10f)],_0x3d6f8e[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x4]['billSubject'],_0x342c07[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x5][_0x4cc511(0x10f)],_0x49783b[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x6][_0x4cc511(0x10f)],_0x404601[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x7][_0x4cc511(0x10f)],_0x4641e8[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x8]['billSubject'],_0xe72772[_0x4cc511(0xe6)][_0x4cc511(0x11c)]=_0x326a34[0x9][_0x4cc511(0x10f)];};if(_0x1d585f===null)$(_0x438a41(0xbe))[_0x438a41(0x124)]('slow','linear');else{if(_0x4e552c['id']==0x30){_0x1d585f['firstChild']['nodeValue']=_0x438a41(0x163)+statesData[_0x438a41(0x1e0)];let _0x16532f=_0x4e552c['id'];$('#state-name')[_0x438a41(0x124)](),_0x9f400e('TX'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);}else{if(_0x4e552c['id']==0x6)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0x13a)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('CA'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x24)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['newyork'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('NY'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x32)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xdc)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('VT'),$(_0x438a41(0xbe))[_0x438a41(0x124)]('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x21)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x107)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('NH'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x17)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x87)],$('#state-name')['fadeIn'](),_0x9f400e('ME'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x19)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x196)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('MA'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2c)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xce)],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('RI'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x9)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['connecticut'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('CT'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x22)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0x141)],$('#state-name')['fadeIn'](),_0x9f400e('NJ'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2a)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['pennsylvania'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('PA'),$(_0x438a41(0xbe))['fadeIn']('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x27)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1d0)],$('#state-name')['fadeIn'](),_0x9f400e('OH'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x36)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x127)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('WV'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x33)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xca)],$('#state-name')['fadeIn'](),_0x9f400e('VA'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0xa)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['delaware'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('DE'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x18)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1be)],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('MD'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x25)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x118)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('NC'),$('#customSelectOutput')[_0x438a41(0x124)]('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2d)_0x1d585f[_0x438a41(0xe6)]['nodeValue']=_0x438a41(0x163)+statesData[_0x438a41(0x88)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('SC'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x15)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['kentucky'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('KY'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2f)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0x184)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('TN'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0xd)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData['georgia'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('GA'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0xc)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xf0)],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('FL'),$('#customSelectOutput')[_0x438a41(0x124)]('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData['alabama'],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('AL'),$(_0x438a41(0xbe))[_0x438a41(0x124)]('slow','linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1c)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1ab)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('MS'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x11)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['illinois'],_0x9f400e('IL'),$('#customSelectOutput')['fadeIn'](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979),$(_0x438a41(0x12a))[_0x438a41(0x124)]();else{if(_0x4e552c['id']==0x12)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0x1dd)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('IN'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1a)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['michigan'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('MI'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x37)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0xde)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('WI'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1b)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0xc0)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('MN'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x13)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1e3)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('IA'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1d)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['missouri'],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('MO'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x5)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xec)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('AR'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x16)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['louisiana'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('LA'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x26)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xf8)],$('#state-name')['fadeIn'](),_0x9f400e('ND'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2e)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x14e)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('SD'),$('#customSelectOutput')[_0x438a41(0x124)]('slow','linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1f)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xda)],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('NE'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x14)_0x1d585f[_0x438a41(0xe6)]['nodeValue']='Selected:\x20'+statesData[_0x438a41(0x126)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('KS'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x28)_0x1d585f['firstChild'][_0x438a41(0x11c)]='Selected:\x20'+statesData[_0x438a41(0xe0)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('OK'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x23)_0x1d585f[_0x438a41(0xe6)]['nodeValue']='Selected:\x20'+statesData['newmexico'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('NM'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x8)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x11a)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('CO'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x38)_0x1d585f[_0x438a41(0xe6)]['nodeValue']=_0x438a41(0x163)+statesData['wyoming'],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('WY'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x1e)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['montana'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('MT'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),'linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x10)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1e5)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('ID'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x31)_0x1d585f[_0x438a41(0xe6)]['nodeValue']=_0x438a41(0x163)+statesData['utah'],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('UT'),$(_0x438a41(0xbe))[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x4)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x19a)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('AZ'),$(_0x438a41(0xbe))[_0x438a41(0x124)]('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x20)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x9e)],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('NV'),$('#customSelectOutput')[_0x438a41(0x124)](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x29)_0x1d585f['firstChild']['nodeValue']=_0x438a41(0x163)+statesData[_0x438a41(0x92)],$('#state-name')[_0x438a41(0x124)](),_0x9f400e('OR'),$(_0x438a41(0xbe))['fadeIn']('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x35)_0x1d585f['firstChild']['nodeValue']=_0x438a41(0x163)+statesData['washington'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('WA'),$(_0x438a41(0xbe))[_0x438a41(0x124)]('slow','linear'),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0x2)_0x1d585f['firstChild'][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData['alaska'],$(_0x438a41(0x12a))[_0x438a41(0x124)](),_0x9f400e('AK'),$('#customSelectOutput')[_0x438a41(0x124)]('slow',_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else{if(_0x4e552c['id']==0xf)_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0xc6)],$(_0x438a41(0x12a))['fadeIn'](),_0x9f400e('HI'),$(_0x438a41(0xbe))['fadeIn'](_0x438a41(0x99),_0x438a41(0x1ef)),_0x205757(allSenateVotingData,_0x4f8638,_0x3f4979);else _0x4e552c['id']==0xb?(_0x1d585f[_0x438a41(0xe6)][_0x438a41(0x11c)]=_0x438a41(0x163)+statesData[_0x438a41(0x1b6)],$(_0x438a41(0x12a))[_0x438a41(0x124)]()):$(_0x438a41(0xbe))[_0x438a41(0x15d)](_0x438a41(0x99),_0x438a41(0x1ef));}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}_0x5e5b55();if(active['node']()===this)return reset();active['classed']('active',![]),active=d3['select'](this)[_0x22b313(0xbc)]('active',!![]);var _0x6b8367=path[_0x22b313(0xe3)](_0x4e552c),_0x449297=_0x6b8367[0x1][0x0]-_0x6b8367[0x0][0x0],_0x58789e=_0x6b8367[0x1][0x1]-_0x6b8367[0x0][0x1],_0x985c34=(_0x6b8367[0x0][0x0]+_0x6b8367[0x1][0x0])/0x2,_0x1109b1=(_0x6b8367[0x0][0x1]+_0x6b8367[0x1][0x1])/0x2,_0x5dd987=0.9/Math[_0x22b313(0x18a)](_0x449297/width,_0x58789e/height),_0x44475d=[width/0x2-_0x5dd987*_0x985c34,height/0x2-_0x5dd987*_0x1109b1];g[_0x22b313(0xd0)]()[_0x22b313(0x1c8)](0x2ee)[_0x22b313(0x1a3)]('stroke-width',1.5/_0x5dd987+'px')['attr'](_0x22b313(0x1bd),_0x22b313(0x103)+_0x44475d+_0x22b313(0xf9)+_0x5dd987+')');}function reset(){const _0x377441=_0x2eab46;active[_0x377441(0xbc)]('active',![]),active=d3[_0x377441(0x139)](null),g[_0x377441(0xd0)]()['duration'](0x2ee)[_0x377441(0x1a3)](_0x377441(0x1b1),'1.5px')[_0x377441(0x8e)](_0x377441(0x1bd),'');}
+        </script>
 
         <section id="about-us" class="wow fadeIn ptb ptb-sm-80">
             <div class="container">
@@ -459,6 +799,8 @@
                 <h2 class="text-center about-us-description">We believe in the value of simplicity and thoughtful design.</h2>
             </div>
         </section>
+        </div>
+        </div>
 
         <footer id="footer" class="footer section-padding gray-bg">
             <div class="container text-center">
@@ -468,7 +810,7 @@
                 </div>
 
 
-                <p>&copy; 2023 <b>Scientific Politics LLC</b></p>
+                <p>&copy; 2022 <b>Scientific Politics LLC</b></p>
                 <p>All Rights Reserved.</p>
                 <ul class="social">
                     <li>  </li>

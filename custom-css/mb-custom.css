@@ -1,13 +1,3 @@
-body {
-    margin: 0;
-    overflow-x: hidden;
-    border: solid;
-    width: 100vw;
-  
-    /* if you want to add some gaps between the edge of the screen, use padding instead */
-    /* padding-left: 2px; */
-  }
-
 #state-name {
     padding-top: 0px;
     font-size: 1.8em;
@@ -21,7 +11,6 @@ body {
 
 #about {
     padding-bottom: 0px;
-    padding-top: 25px;
 }
 
 .mainDataRow .mainDataRow .row .col:last-child {
@@ -93,9 +82,9 @@ body {
     padding-left: 3%;
 }
 
-/* #footer {
+#footer {
     width: 101vw;
-} */
+}
 
 #first-senator-bill-summary-1,
 #first-senator-bill-summary-2,
@@ -197,8 +186,8 @@ body {
 #second-senator-result-8,
 #second-senator-result-9,
 #second-senator-result-10 {
-    /* padding-left: 13%;
-    padding-right: 13%; */
+    padding-left: 13%;
+    padding-right: 13%;
     text-align: left
 }
 
@@ -227,43 +216,48 @@ body {
         overflow-y: hidden;
     }
 
-    /* .row .col:last-child { */
-        /* margin-left: 0em; */
-    /* } */
+    .row .col:last-child {
+        margin-left: 0em;
+    }
 
     body {
-        /* width: 95%; */
-        /* overflow-x: hidden; */
+        width: 95%;
+        overflow-x: hidden;
+    }
+
+    #intro {
+        width: 105.2%;
+        overflow-x: hidden;
     }
 
     #testimonial {
-        /* margin-left: -5%; */
+        margin-left: -5%;
     }
 
     .lead {
-        /* padding-right: 5%;
-        padding-left: 5%; */
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     .mobile-left-padding, .container-icon, .about-us-description {
-        /* padding-left: 5.5%; */
+        padding-left: 5.5%;
     }
 
     #second-infographic-senate-heading, #second-infographic-house-heading {
         font-size: 15pt;
-        /* padding-left: 3%; */
+        padding-left: 3%;
         padding-bottom: 1px;
         line-height: 31px;
     }
 
     .supporting-second-infographic-header {
-        /* padding-left: 3%; */
-        /* margin-top: -15px; */
+        padding-left: 3%;
+        margin-top: -15px;
     }
 
     #click-any-state-for-rep-votes, .official-description {
-        /* padding-left: 10%;
-        padding-right: 10%; */
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     #first-senator-bill-summary-1,
@@ -366,8 +360,8 @@ body {
     #second-senator-result-8,
     #second-senator-result-9,
     #second-senator-result-10 {
-        /* padding-left: 13%;
-        padding-right: 13%; */
+        padding-left: 13%;
+        padding-right: 13%;
         text-align: left
     }
 
@@ -406,24 +400,14 @@ body {
     }
 
     #top-taps-small-heading, .tab-label, .most-recent-votes-1st-infographic {
-        /* padding-left: 9%; */
+        padding-left: 9%;
     }
 
     #footer-logo-image {
-        /* padding-left: 1em; */
+        padding-left: 1em;
     }
 
     #footer {
-        /* width: 100vw; */
-    }
-
-    #intro .generalSenateAndHouseContent #footer .\mainDataRow{
         width: 100vw;
-    }
-}
-
-@media (max-width: 408px) {
-    #visitInteractiveMap {
-        margin-top: 15px;
     }
 }
