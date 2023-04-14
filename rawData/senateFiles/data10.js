@@ -20,7 +20,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00073.xml",
   "subject": "Cruz Amdt. No. 9",
   "type": "On the Amendment",
-  "updated_at": "2023-04-13T23:24:55-04:00",
+  "updated_at": "2023-04-14T05:27:14-04:00",
   "vote_id": "s73-118.2023",
   "votes": {
     "Nay": [
