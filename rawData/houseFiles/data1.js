@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll184.xml",
   "subject": "Condemning recent actons taken by the Russian military to down a United States Air Force drone",
   "type": "On Motion to Suspend the Rules and Agree, as Amended",
-  "updated_at": "2023-04-18T00:00:18-04:00",
+  "updated_at": "2023-04-18T06:02:38-04:00",
   "vote_id": "h184-118.2023",
   "votes": {
     "Nay": [],
