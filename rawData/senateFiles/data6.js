@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00082.xml",
   "subject": "Confirmation: Laura Taylor-Kale, of California, to be an Assistant Secretary of Defense",
   "type": "On the Nomination",
-  "updated_at": "2023-04-19T06:14:25-04:00",
+  "updated_at": "2023-04-19T12:16:50-04:00",
   "vote_id": "s82-118.2023",
   "votes": {
     "Nay": [

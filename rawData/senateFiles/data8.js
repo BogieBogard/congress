@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00080.xml",
   "subject": "H.J. Res. 7",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-04-19T06:14:26-04:00",
+  "updated_at": "2023-04-19T12:16:51-04:00",
   "vote_id": "s80-118.2023",
   "votes": {
     "Nay": [
