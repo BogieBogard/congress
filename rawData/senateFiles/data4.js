@@ -1,7 +1,7 @@
 const senate4Votes = 
 {
   "amendment": {
-    "number": 79,
+    "number": 72,
     "purpose": "To improve the bill.",
     "type": "s"
   },
@@ -14,19 +14,19 @@ const senate4Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-19T11:43:00-04:00",
-  "number": 88,
-  "question": "On the Amendment S.Amdt. 79 to S. 870 (No short title on file)",
-  "record_modified": "2023-04-19T12:57:00-04:00",
-  "requires": "1/2",
+  "date": "2023-04-19T12:45:00-04:00",
+  "number": 89,
+  "question": "On the Amendment S.Amdt. 72 to S. 870 (No short title on file)",
+  "record_modified": "2023-04-19T13:48:00-04:00",
+  "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (45-54)",
+  "result_text": "Amendment Rejected (45-54, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00088.xml",
-  "subject": "Paul Amdt. No. 79",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00089.xml",
+  "subject": "Hagerty Amdt. No. 72, as modified",
   "type": "On the Amendment",
-  "updated_at": "2023-04-20T06:24:08-04:00",
-  "vote_id": "s88-118.2023",
+  "updated_at": "2023-04-20T12:26:36-04:00",
+  "vote_id": "s89-118.2023",
   "votes": {
     "Nay": [
       {
@@ -164,6 +164,14 @@ const senate4Votes =
         "last_name": "Hassan",
         "party": "D",
         "state": "NH"
+      },
+      {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -316,14 +324,6 @@ const senate4Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Rosen (D-NV)",
@@ -627,14 +627,6 @@ const senate4Votes =
         "state": "TN"
       },
       {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
-      },
-      {
         "display_name": "Hoeven (R-ND)",
         "first_name": "John",
         "id": "S344",
@@ -745,6 +737,14 @@ const senate4Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
       },
       {
         "display_name": "Rubio (R-FL)",
