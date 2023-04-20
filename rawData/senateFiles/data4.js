@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00088.xml",
   "subject": "Paul Amdt. No. 79",
   "type": "On the Amendment",
-  "updated_at": "2023-04-20T00:21:41-04:00",
+  "updated_at": "2023-04-20T06:24:08-04:00",
   "vote_id": "s88-118.2023",
   "votes": {
     "Nay": [

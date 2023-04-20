@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll185.xml",
   "subject": "Providing for consideration of the bill (H.R. 734) Protection of Women and Girls in Sports Act and providing for consideration of the joint resolution (H.J.Res 42) disapproving the action of the District of Columbia Council in approving the Comprehensive Policing and Justice Reform Amendment Act of 2022",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-04-20T00:20:06-04:00",
+  "updated_at": "2023-04-20T06:22:33-04:00",
   "vote_id": "h185-118.2023",
   "votes": {
     "Nay": [
