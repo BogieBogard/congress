@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00084.xml",
   "subject": "Confirmation: Radha Iyengar Plumb, of New York, to be a Deputy Under Secretary of Defense",
   "type": "On the Nomination",
-  "updated_at": "2023-04-19T18:19:15-04:00",
+  "updated_at": "2023-04-20T00:21:43-04:00",
   "vote_id": "s84-118.2023",
   "votes": {
     "Nay": [

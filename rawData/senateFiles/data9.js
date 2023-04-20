@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00083.xml",
   "subject": "On the Cloture Motion PN5",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-04-19T18:19:16-04:00",
+  "updated_at": "2023-04-20T00:21:43-04:00",
   "vote_id": "s83-118.2023",
   "votes": {
     "Nay": [
