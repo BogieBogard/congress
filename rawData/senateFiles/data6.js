@@ -1,8 +1,8 @@
 const senate6Votes = 
 {
   "amendment": {
-    "number": 80,
-    "purpose": "To make a categorical exclusion available for use on certain land by States and Indian Tribes through a project delivery program.",
+    "number": 72,
+    "purpose": "To improve the bill.",
     "type": "s"
   },
   "bill": {
@@ -14,19 +14,19 @@ const senate6Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-18T16:41:00-04:00",
-  "number": 87,
-  "question": "On the Amendment S.Amdt. 80 to S. 870 (No short title on file)",
-  "record_modified": "2023-04-18T17:54:00-04:00",
+  "date": "2023-04-19T12:45:00-04:00",
+  "number": 89,
+  "question": "On the Amendment S.Amdt. 72 to S. 870 (No short title on file)",
+  "record_modified": "2023-04-19T13:48:00-04:00",
   "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (49-50, 3/5 majority required)",
+  "result_text": "Amendment Rejected (45-54, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00087.xml",
-  "subject": "Lee Amdt. No. 80",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00089.xml",
+  "subject": "Hagerty Amdt. No. 72, as modified",
   "type": "On the Amendment",
-  "updated_at": "2023-04-20T12:26:37-04:00",
-  "vote_id": "s87-118.2023",
+  "updated_at": "2023-04-20T18:29:06-04:00",
+  "vote_id": "s89-118.2023",
   "votes": {
     "Nay": [
       {
@@ -166,6 +166,14 @@ const senate6Votes =
         "state": "NH"
       },
       {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Heinrich (D-NM)",
         "first_name": "Martin",
         "id": "S359",
@@ -230,6 +238,14 @@ const senate6Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -252,6 +268,14 @@ const senate6Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -308,6 +332,14 @@ const senate6Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -595,14 +627,6 @@ const senate6Votes =
         "state": "TN"
       },
       {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
-      },
-      {
         "display_name": "Hoeven (R-ND)",
         "first_name": "John",
         "id": "S344",
@@ -659,14 +683,6 @@ const senate6Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -699,14 +715,6 @@ const senate6Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -737,14 +745,6 @@ const senate6Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
