@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll187.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of the Army, Corps of Engineers, Department of Defense and the Environmental Protection Agency relating to \u201cRevised Definition of \u2019Waters of the United States\u2019 \u201d",
   "type": "Passage, Objections of the President To The Contrary Notwithstanding",
-  "updated_at": "2023-04-21T06:32:28-04:00",
+  "updated_at": "2023-04-21T12:38:26-04:00",
   "vote_id": "h187-118.2023",
   "votes": {
     "Nay": [
