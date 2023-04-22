@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll191.xml",
   "subject": "Protection of Women and Girls in Sports Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-04-22T00:43:23-04:00",
+  "updated_at": "2023-04-22T06:45:53-04:00",
   "vote_id": "h191-118.2023",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00086.xml",
   "subject": "Confirmation: Amy Lefkowitz Solomon, of the District of Columbia, to be an Assistant Attorney General",
   "type": "On the Nomination",
-  "updated_at": "2023-04-22T00:45:04-04:00",
+  "updated_at": "2023-04-22T06:47:34-04:00",
   "vote_id": "s86-118.2023",
   "votes": {
     "Nay": [
