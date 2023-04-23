@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll192.xml",
   "subject": "Protection of Women and Girls in Sports Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-04-23T06:55:51-04:00",
+  "updated_at": "2023-04-23T12:58:20-04:00",
   "vote_id": "h192-118.2023",
   "votes": {
     "Nay": [
