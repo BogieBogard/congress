@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll188.xml",
   "subject": "Disapproving the action of the District of Columbia Council in approving the Comprehensive Policing and Justice Reform Amendment Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-04-23T00:53:23-04:00",
+  "updated_at": "2023-04-23T06:55:53-04:00",
   "vote_id": "h188-118.2023",
   "votes": {
     "Nay": [
