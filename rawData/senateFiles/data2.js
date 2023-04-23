@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00093.xml",
   "subject": "Sullivan Amdt. No. 83",
   "type": "On the Amendment",
-  "updated_at": "2023-04-22T18:52:29-04:00",
+  "updated_at": "2023-04-23T00:54:59-04:00",
   "vote_id": "s93-118.2023",
   "votes": {
     "Nay": [
