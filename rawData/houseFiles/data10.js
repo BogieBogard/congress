@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll183.xml",
   "subject": "Upholding Sovereignty of Airspace Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-04-24T07:05:56-04:00",
+  "updated_at": "2023-04-24T13:11:45-04:00",
   "vote_id": "h183-118.2023",
   "votes": {
     "Nay": [
