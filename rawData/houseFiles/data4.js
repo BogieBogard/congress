@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll189.xml",
   "subject": "Countering Untrusted Telecommunications Abroad Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-04-23T12:58:22-04:00",
+  "updated_at": "2023-04-23T19:00:51-04:00",
   "vote_id": "h189-118.2023",
   "votes": {
     "Nay": [
