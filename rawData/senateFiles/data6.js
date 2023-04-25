@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00089.xml",
   "subject": "Hagerty Amdt. No. 72, as modified",
   "type": "On the Amendment",
-  "updated_at": "2023-04-25T07:20:51-04:00",
+  "updated_at": "2023-04-25T13:23:21-04:00",
   "vote_id": "s89-118.2023",
   "votes": {
     "Nay": [
