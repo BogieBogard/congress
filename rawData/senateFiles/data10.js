@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-18T12:28:00-04:00",
+  "date": "2023-04-18T14:15:00-04:00",
   "nomination": {
     "number": "69",
     "title": "Amy Lefkowitz Solomon, of the District of Columbia, to be an Assistant Attorney General"
   },
-  "number": 85,
-  "question": "Motion to Invoke Cloture: Amy Lefkowitz Solomon to be an Assistant Attorney General: Amy Lefkowitz Solomon, of the District of Columbia, to be an Assistant Attorney General",
-  "record_modified": "2023-04-18T13:26:00-04:00",
+  "number": 86,
+  "question": "On the Nomination PN69: Amy Lefkowitz Solomon, of the District of Columbia, to be an Assistant Attorney General",
+  "record_modified": "2023-04-18T15:55:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (58-40)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (59-40)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00085.xml",
-  "subject": "On the Cloture Motion PN69",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-04-25T13:23:23-04:00",
-  "vote_id": "s85-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00086.xml",
+  "subject": "Confirmation: Amy Lefkowitz Solomon, of the District of Columbia, to be an Assistant Attorney General",
+  "type": "On the Nomination",
+  "updated_at": "2023-04-25T19:25:54-04:00",
+  "vote_id": "s86-118.2023",
   "votes": {
     "Nay": [
       {
@@ -351,14 +351,6 @@ const senate10Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Gillibrand (D-NY)",
-        "first_name": "Kirsten",
-        "id": "S331",
-        "last_name": "Gillibrand",
-        "party": "D",
-        "state": "NY"
       }
     ],
     "Present": [],
@@ -490,6 +482,14 @@ const senate10Votes =
         "last_name": "Fetterman",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Gillibrand (D-NY)",
+        "first_name": "Kirsten",
+        "id": "S331",
+        "last_name": "Gillibrand",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Graham (R-SC)",

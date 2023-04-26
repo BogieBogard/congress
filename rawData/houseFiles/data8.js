@@ -2,24 +2,24 @@ const house8Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 298,
-    "type": "hres"
+    "number": 27,
+    "type": "hjres"
   },
-  "category": "procedural",
+  "category": "veto-override",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-04-18T13:57:00-04:00",
-  "number": 185,
-  "question": "On Ordering the Previous Question: H RES 298 Providing for consideration of the bill (H.R. 734) Protection of Women and Girls in Sports Act and providing for consideration of the joint resolution (H.J.Res 42) disapproving the action of the District of Columbia Council in approving the Comprehensive Policing and Justice Reform Amendment Act of 2022",
-  "requires": "1/2",
-  "result": "Passed",
-  "result_text": "Passed",
+  "date": "2023-04-18T17:29:00-04:00",
+  "number": 187,
+  "question": "Passage, Objections of the President To The Contrary Notwithstanding: H J RES 27 Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of the Army, Corps of Engineers, Department of Defense and the Environmental Protection Agency relating to \u201cRevised Definition of \u2019Waters of the United States\u2019 \u201d",
+  "requires": "2/3",
+  "result": "Failed",
+  "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll185.xml",
-  "subject": "Providing for consideration of the bill (H.R. 734) Protection of Women and Girls in Sports Act and providing for consideration of the joint resolution (H.J.Res 42) disapproving the action of the District of Columbia Council in approving the Comprehensive Policing and Justice Reform Amendment Act of 2022",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2023-04-25T13:21:44-04:00",
-  "vote_id": "h185-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll187.xml",
+  "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of the Army, Corps of Engineers, Department of Defense and the Environmental Protection Agency relating to \u201cRevised Definition of \u2019Waters of the United States\u2019 \u201d",
+  "type": "Passage, Objections of the President To The Contrary Notwithstanding",
+  "updated_at": "2023-04-25T19:24:14-04:00",
+  "vote_id": "h187-118.2023",
   "votes": {
     "Nay": [
       {
@@ -75,12 +75,6 @@ const house8Votes =
         "id": "B001292",
         "party": "D",
         "state": "VA"
-      },
-      {
-        "display_name": "Bishop (GA)",
-        "id": "B000490",
-        "party": "D",
-        "state": "GA"
       },
       {
         "display_name": "Blumenauer",
@@ -239,6 +233,12 @@ const house8Votes =
         "state": "SC"
       },
       {
+        "display_name": "Cohen",
+        "id": "C001068",
+        "party": "D",
+        "state": "TN"
+      },
+      {
         "display_name": "Connolly",
         "id": "C001078",
         "party": "D",
@@ -251,22 +251,10 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Costa",
-        "id": "C001059",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Courtney",
         "id": "C001069",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Craig",
-        "id": "C001119",
-        "party": "D",
-        "state": "MN"
       },
       {
         "display_name": "Crockett",
@@ -281,12 +269,6 @@ const house8Votes =
         "state": "CO"
       },
       {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Davids (KS)",
         "id": "D000629",
         "party": "D",
@@ -297,12 +279,6 @@ const house8Votes =
         "id": "D000096",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Davis (NC)",
-        "id": "D000230",
-        "party": "D",
-        "state": "NC"
       },
       {
         "display_name": "Dean (PA)",
@@ -347,6 +323,12 @@ const house8Votes =
         "state": "MI"
       },
       {
+        "display_name": "Doggett",
+        "id": "D000399",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Escobar",
         "id": "E000299",
         "party": "D",
@@ -363,6 +345,12 @@ const house8Votes =
         "id": "E000297",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
       },
       {
         "display_name": "Fletcher",
@@ -425,12 +413,6 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Goldman (NY)",
         "id": "G000599",
         "party": "D",
@@ -441,12 +423,6 @@ const house8Votes =
         "id": "G000585",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Gottheimer",
@@ -641,12 +617,6 @@ const house8Votes =
         "state": "CT"
       },
       {
-        "display_name": "Lee (NV)",
-        "id": "L000590",
-        "party": "D",
-        "state": "NV"
-      },
-      {
         "display_name": "Lee (PA)",
         "id": "L000602",
         "party": "D",
@@ -839,12 +809,6 @@ const house8Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Panetta",
-        "id": "P000613",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Pappas",
         "id": "P000614",
         "party": "D",
@@ -957,12 +921,6 @@ const house8Votes =
         "id": "R000579",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Salinas",
-        "id": "S001226",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "S\u00e1nchez",
@@ -1255,16 +1213,10 @@ const house8Votes =
         "state": "MO"
       },
       {
-        "display_name": "Cohen",
-        "id": "C001068",
-        "party": "D",
-        "state": "TN"
-      },
-      {
-        "display_name": "Doggett",
-        "id": "D000399",
-        "party": "D",
-        "state": "TX"
+        "display_name": "Davidson",
+        "id": "D000626",
+        "party": "R",
+        "state": "OH"
       },
       {
         "display_name": "Evans",
@@ -1285,18 +1237,6 @@ const house8Votes =
         "state": "CA"
       },
       {
-        "display_name": "Miller (OH)",
-        "id": "M001222",
-        "party": "R",
-        "state": "OH"
-      },
-      {
-        "display_name": "Moore (UT)",
-        "id": "M001213",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Neal",
         "id": "N000015",
         "party": "D",
@@ -1309,16 +1249,22 @@ const house8Votes =
         "state": "NC"
       },
       {
-        "display_name": "Scott, David",
-        "id": "S001157",
+        "display_name": "Salinas",
+        "id": "S001226",
         "party": "D",
-        "state": "GA"
+        "state": "OR"
       },
       {
         "display_name": "Swalwell",
         "id": "S001193",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Thompson (PA)",
+        "id": "T000467",
+        "party": "R",
+        "state": "PA"
       }
     ],
     "Present": [],
@@ -1430,6 +1376,12 @@ const house8Votes =
         "id": "B001257",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Bishop (GA)",
+        "id": "B000490",
+        "party": "D",
+        "state": "GA"
       },
       {
         "display_name": "Bishop (NC)",
@@ -1570,6 +1522,18 @@ const house8Votes =
         "state": "KY"
       },
       {
+        "display_name": "Costa",
+        "id": "C001059",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Craig",
+        "id": "C001119",
+        "party": "D",
+        "state": "MN"
+      },
+      {
         "display_name": "Crane",
         "id": "C001132",
         "party": "R",
@@ -1588,6 +1552,12 @@ const house8Votes =
         "state": "TX"
       },
       {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Curtis",
         "id": "C001114",
         "party": "R",
@@ -1600,10 +1570,10 @@ const house8Votes =
         "state": "NY"
       },
       {
-        "display_name": "Davidson",
-        "id": "D000626",
-        "party": "R",
-        "state": "OH"
+        "display_name": "Davis (NC)",
+        "id": "D000230",
+        "party": "D",
+        "state": "NC"
       },
       {
         "display_name": "De La Cruz",
@@ -1714,12 +1684,6 @@ const house8Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1786,9 +1750,21 @@ const house8Votes =
         "state": "FL"
       },
       {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
+      },
+      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
         "state": "TX"
       },
       {
@@ -2080,6 +2056,12 @@ const house8Votes =
         "state": "FL"
       },
       {
+        "display_name": "Lee (NV)",
+        "id": "L000590",
+        "party": "D",
+        "state": "NV"
+      },
+      {
         "display_name": "Lesko",
         "id": "L000589",
         "party": "R",
@@ -2194,6 +2176,12 @@ const house8Votes =
         "state": "IL"
       },
       {
+        "display_name": "Miller (OH)",
+        "id": "M001222",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Miller (WV)",
         "id": "M001205",
         "party": "R",
@@ -2234,6 +2222,12 @@ const house8Votes =
         "id": "M001212",
         "party": "R",
         "state": "AL"
+      },
+      {
+        "display_name": "Moore (UT)",
+        "id": "M001213",
+        "party": "R",
+        "state": "UT"
       },
       {
         "display_name": "Moran",
@@ -2294,6 +2288,12 @@ const house8Votes =
         "id": "P000609",
         "party": "R",
         "state": "AL"
+      },
+      {
+        "display_name": "Panetta",
+        "id": "P000613",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Pence",
@@ -2404,6 +2404,12 @@ const house8Votes =
         "state": "GA"
       },
       {
+        "display_name": "Scott, David",
+        "id": "S001157",
+        "party": "D",
+        "state": "GA"
+      },
+      {
         "display_name": "Self",
         "id": "S001224",
         "party": "R",
@@ -2498,12 +2504,6 @@ const house8Votes =
         "id": "T000478",
         "party": "R",
         "state": "NY"
-      },
-      {
-        "display_name": "Thompson (PA)",
-        "id": "T000467",
-        "party": "R",
-        "state": "PA"
       },
       {
         "display_name": "Tiffany",
