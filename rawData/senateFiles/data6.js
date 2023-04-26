@@ -20,7 +20,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00090.xml",
   "subject": "Motion to Proceed to S.J.Res. 10",
   "type": "On the Motion to Proceed to S.J.Res. 10",
-  "updated_at": "2023-04-25T19:25:51-04:00",
+  "updated_at": "2023-04-26T01:28:23-04:00",
   "vote_id": "s90-118.2023",
   "votes": {
     "Nay": [
