@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00097.xml",
   "subject": "On Cloture on the Motion to Proceed S. 326",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-04-26T19:35:59-04:00",
+  "updated_at": "2023-04-27T01:38:35-04:00",
   "vote_id": "s97-118.2023",
   "votes": {
     "Nay": [
