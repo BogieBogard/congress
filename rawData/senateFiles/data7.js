@@ -25,7 +25,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00092.xml",
   "subject": "Van Hollen Amdt. No. 85",
   "type": "On the Amendment",
-  "updated_at": "2023-04-27T01:38:38-04:00",
+  "updated_at": "2023-04-27T07:41:16-04:00",
   "vote_id": "s92-118.2023",
   "votes": {
     "Nay": [
