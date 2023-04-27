@@ -1,27 +1,35 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-25T17:40:00-04:00",
+  "date": "2023-04-26T12:05:00-04:00",
   "nomination": {
     "number": "195",
     "title": "Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs"
   },
-  "number": 95,
-  "question": "Motion to Invoke Cloture: Joshua David Jacobs to be Under Secretary for Benefits of the Department of Veterans Affairs.: Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs",
-  "record_modified": "2023-04-25T18:54:00-04:00",
+  "number": 96,
+  "question": "On the Nomination PN195: Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs",
+  "record_modified": "2023-04-26T13:09:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (72-22)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (74-25)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00095.xml",
-  "subject": "On the Cloture Motion PN195",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-04-27T07:41:15-04:00",
-  "vote_id": "s95-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00096.xml",
+  "subject": "Confirmation: Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs",
+  "type": "On the Nomination",
+  "updated_at": "2023-04-27T13:43:50-04:00",
+  "vote_id": "s96-118.2023",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Braun (R-IN)",
         "first_name": "Mike",
@@ -87,6 +95,14 @@ const senate4Votes =
         "state": "MO"
       },
       {
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
+      },
+      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -141,6 +157,14 @@ const senate4Votes =
         "last_name": "Ricketts",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -201,52 +225,12 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
-      {
-        "display_name": "Blackburn (R-TN)",
-        "first_name": "Marsha",
-        "id": "S396",
-        "last_name": "Blackburn",
-        "party": "R",
-        "state": "TN"
-      },
-      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
-        "party": "R",
-        "state": "TN"
-      },
-      {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       }
     ],
     "Present": [],
@@ -266,6 +250,14 @@ const senate4Votes =
         "last_name": "Bennet",
         "party": "D",
         "state": "CO"
+      },
+      {
+        "display_name": "Blackburn (R-TN)",
+        "first_name": "Marsha",
+        "id": "S396",
+        "last_name": "Blackburn",
+        "party": "R",
+        "state": "TN"
       },
       {
         "display_name": "Blumenthal (D-CT)",
@@ -452,6 +444,14 @@ const senate4Votes =
         "state": "SC"
       },
       {
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -498,14 +498,6 @@ const senate4Votes =
         "last_name": "Hyde-Smith",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
       },
       {
         "display_name": "Kaine (D-VA)",
@@ -682,6 +674,14 @@ const senate4Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
