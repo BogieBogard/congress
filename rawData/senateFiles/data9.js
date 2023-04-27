@@ -1,32 +1,27 @@
 const senate9Votes = 
 {
-  "amendment": {
-    "number": 79,
-    "purpose": "To improve the bill.",
-    "type": "s"
-  },
   "bill": {
     "congress": 118,
-    "number": 870,
-    "title": "No short title on file",
-    "type": "s"
+    "number": 10,
+    "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Veterans Affairs relating to \"Reproductive Health Services\".",
+    "type": "sjres"
   },
-  "category": "amendment",
+  "category": "procedural",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-19T11:43:00-04:00",
-  "number": 88,
-  "question": "On the Amendment S.Amdt. 79 to S. 870 (No short title on file)",
-  "record_modified": "2023-04-19T12:57:00-04:00",
+  "date": "2023-04-19T16:22:00-04:00",
+  "number": 90,
+  "question": "On the Motion (Motion to Proceed to S.J.Res. 10)",
+  "record_modified": "2023-04-19T17:22:00-04:00",
   "requires": "1/2",
-  "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (45-54)",
+  "result": "Motion Rejected",
+  "result_text": "Motion Rejected (48-51)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00088.xml",
-  "subject": "Paul Amdt. No. 79",
-  "type": "On the Amendment",
-  "updated_at": "2023-04-26T13:33:27-04:00",
-  "vote_id": "s88-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00090.xml",
+  "subject": "Motion to Proceed to S.J.Res. 10",
+  "type": "On the Motion to Proceed to S.J.Res. 10",
+  "updated_at": "2023-04-26T19:36:02-04:00",
+  "vote_id": "s90-118.2023",
   "votes": {
     "Nay": [
       {
@@ -230,14 +225,6 @@ const senate9Votes =
         "state": "NM"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -318,28 +305,12 @@ const senate9Votes =
         "state": "RI"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -691,6 +662,14 @@ const senate9Votes =
         "state": "WY"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -745,6 +724,22 @@ const senate9Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
