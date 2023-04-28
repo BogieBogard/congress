@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll196.xml",
   "subject": "Providing for consideration of the bill (H.R. 2811) Limit, Save, Grow Act, and providing for consideration of (H.J.Res.39) disapproving the rule submitted by the Dept. of Commerce relating to \u201cProcedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414\u201d",
   "type": "On the Resolution",
-  "updated_at": "2023-04-28T01:51:29-04:00",
+  "updated_at": "2023-04-28T07:54:06-04:00",
   "vote_id": "h196-118.2023",
   "votes": {
     "Aye": [

@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll197.xml",
   "subject": "ALERT Parity Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-04-28T01:51:28-04:00",
+  "updated_at": "2023-04-28T07:54:06-04:00",
   "vote_id": "h197-118.2023",
   "votes": {
     "Nay": [

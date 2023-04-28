@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll194.xml",
   "subject": "Encouraging the expansion and strengthening of the Abraham Accords to urge other nations to normalize relations with Israel and ensure that existing agreements reap tangible security and economic benefits for the citizens of those countries and all peoples in the region",
   "type": "On Motion to Suspend the Rules and Agree",
-  "updated_at": "2023-04-28T01:51:30-04:00",
+  "updated_at": "2023-04-28T07:54:07-04:00",
   "vote_id": "h194-118.2023",
   "votes": {
     "Nay": [
