@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll201.xml",
   "subject": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove all United States Armed Forces, other than United States Armed Forces assigned to protect the United States Embassy, from Somalia",
   "type": "On the Resolution",
-  "updated_at": "2023-04-29T02:01:59-04:00",
+  "updated_at": "2023-04-29T08:04:37-04:00",
   "vote_id": "h201-118.2023",
   "votes": {
     "Nay": [
