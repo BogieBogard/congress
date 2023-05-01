@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00094.xml",
   "subject": "S. 870",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-04-30T20:22:16-04:00",
+  "updated_at": "2023-05-01T02:41:13-04:00",
   "vote_id": "s94-118.2023",
   "votes": {
     "Nay": [

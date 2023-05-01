@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00096.xml",
   "subject": "Confirmation: Joshua David Jacobs, of Washington, to be Under Secretary for Benefits of the Department of Veterans Affairs",
   "type": "On the Nomination",
-  "updated_at": "2023-04-30T20:22:15-04:00",
+  "updated_at": "2023-05-01T02:41:12-04:00",
   "vote_id": "s96-118.2023",
   "votes": {
     "Nay": [
