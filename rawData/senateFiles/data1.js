@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00101.xml",
   "subject": "Confirmation: Anthony Devos Johnstone, of Montana, to be United States Circuit Judge for the Ninth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-05-02T04:27:29-04:00",
+  "updated_at": "2023-05-02T10:53:37-04:00",
   "vote_id": "s101-118.2023",
   "votes": {
     "Nay": [
