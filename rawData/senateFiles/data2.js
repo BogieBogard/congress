@@ -1,27 +1,25 @@
 const senate2Votes = 
 {
-  "bill": {
-    "congress": 118,
-    "number": 4,
-    "title": "A joint resolution removing the deadline for the ratification of the Equal Rights Amendment.",
-    "type": "sjres"
-  },
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-27T12:30:00-04:00",
-  "number": 99,
-  "question": "Motion to Invoke Cloture: Motion to Proceed to S. J. Res. 4",
-  "record_modified": "2023-04-27T13:51:00-04:00",
-  "requires": "3/5",
-  "result": "Cloture on the Motion to Proceed Rejected",
-  "result_text": "Cloture on the Motion to Proceed Rejected (51-47, 3/5 majority required)",
+  "date": "2023-04-27T13:27:00-04:00",
+  "nomination": {
+    "number": "89",
+    "title": "Anthony Devos Johnstone, of Montana, to be United States Circuit Judge for the Ninth Circuit"
+  },
+  "number": 100,
+  "question": "Motion to Invoke Cloture: Anthony Devos Johnstone to be U.S. Circuit Judge for the Ninth Circuit: Anthony Devos Johnstone, of Montana, to be United States Circuit Judge for the Ninth Circuit",
+  "record_modified": "2023-04-27T15:21:00-04:00",
+  "requires": "1/2",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (50-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00099.xml",
-  "subject": "On Cloture on the Motion to Proceed S.J.Res. 4",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00100.xml",
+  "subject": "On the Cloture Motion PN89",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-01T15:30:22-04:00",
-  "vote_id": "s99-118.2023",
+  "updated_at": "2023-05-01T22:01:20-04:00",
+  "vote_id": "s100-118.2023",
   "votes": {
     "Nay": [
       {
@@ -47,14 +45,6 @@ const senate2Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -249,20 +239,20 @@ const senate2Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -319,14 +309,6 @@ const senate2Votes =
         "last_name": "Schmitt",
         "party": "R",
         "state": "MO"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       },
       {
         "display_name": "Scott (R-FL)",
@@ -403,6 +385,14 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
+      },
+      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
@@ -417,6 +407,22 @@ const senate2Votes =
         "last_name": "Lee",
         "party": "R",
         "state": "UT"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
+        "display_name": "Warnock (D-GA)",
+        "first_name": "Raphael",
+        "id": "S415",
+        "last_name": "Warnock",
+        "party": "D",
+        "state": "GA"
       }
     ],
     "Present": [],
@@ -654,14 +660,6 @@ const senate2Votes =
         "state": "OR"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -734,6 +732,14 @@ const senate2Votes =
         "state": "HI"
       },
       {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -788,14 +794,6 @@ const senate2Votes =
         "last_name": "Warner",
         "party": "D",
         "state": "VA"
-      },
-      {
-        "display_name": "Warnock (D-GA)",
-        "first_name": "Raphael",
-        "id": "S415",
-        "last_name": "Warnock",
-        "party": "D",
-        "state": "GA"
       },
       {
         "display_name": "Warren (D-MA)",
