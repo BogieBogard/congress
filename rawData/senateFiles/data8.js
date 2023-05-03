@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00099.xml",
   "subject": "On Cloture on the Motion to Proceed S.J.Res. 4",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-02T23:46:06-04:00",
+  "updated_at": "2023-05-03T06:12:16-04:00",
   "vote_id": "s99-118.2023",
   "votes": {
     "Nay": [
