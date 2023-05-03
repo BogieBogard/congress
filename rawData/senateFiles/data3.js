@@ -1,25 +1,25 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-02T11:34:00-04:00",
+  "date": "2023-05-02T14:38:00-04:00",
   "nomination": {
     "number": "97",
     "title": "Michael Farbiarz, of New Jersey, to be United States District Judge for the District of New Jersey"
   },
-  "number": 102,
-  "question": "Motion to Invoke Cloture: Michael Farbiarz to be U.S. District Judge for the District of New Jersey: Michael Farbiarz, of New Jersey, to be United States District Judge for the District of New Jersey",
-  "record_modified": "2023-05-02T12:39:00-04:00",
+  "number": 104,
+  "question": "On the Nomination PN97: Michael Farbiarz, of New Jersey, to be United States District Judge for the District of New Jersey",
+  "record_modified": "2023-05-02T15:26:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (65-34)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (65-34)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00102.xml",
-  "subject": "On the Cloture Motion PN97",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-02T17:19:49-04:00",
-  "vote_id": "s102-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00104.xml",
+  "subject": "Confirmation: Michael Farbiarz, of New Jersey, to be U.S. District Judge for the District of New Jersey",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-02T23:46:04-04:00",
+  "vote_id": "s104-118.2023",
   "votes": {
     "Nay": [
       {
@@ -175,14 +175,6 @@ const senate3Votes =
         "state": "OK"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -197,6 +189,14 @@ const senate3Votes =
         "last_name": "Marshall",
         "party": "R",
         "state": "KS"
+      },
+      {
+        "display_name": "Mullin (R-OK)",
+        "first_name": "Markwayne",
+        "id": "S419",
+        "last_name": "Mullin",
+        "party": "R",
+        "state": "OK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -548,6 +548,14 @@ const senate3Votes =
         "state": "MN"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
@@ -602,14 +610,6 @@ const senate3Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "Mullin (R-OK)",
-        "first_name": "Markwayne",
-        "id": "S419",
-        "last_name": "Mullin",
-        "party": "R",
-        "state": "OK"
       },
       {
         "display_name": "Murkowski (R-AK)",
