@@ -3,23 +3,23 @@ const senate3Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-02T17:02:00-04:00",
+  "date": "2023-05-03T11:29:00-04:00",
   "nomination": {
-    "number": "96",
-    "title": "Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey"
+    "number": "180",
+    "title": "Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 105,
-  "question": "On the Nomination PN96: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
-  "record_modified": "2023-05-02T18:12:00-04:00",
+  "number": 107,
+  "question": "On the Nomination PN180: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-05-03T12:34:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (57-42)",
+  "result_text": "Nomination Confirmed (51-48)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00105.xml",
-  "subject": "Confirmation: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00107.xml",
+  "subject": "Confirmation: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-05-03T12:38:33-04:00",
-  "vote_id": "s105-118.2023",
+  "updated_at": "2023-05-03T19:06:00-04:00",
+  "vote_id": "s107-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,6 +85,14 @@ const senate3Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -239,6 +247,14 @@ const senate3Votes =
         "state": "KS"
       },
       {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Moran (R-KS)",
         "first_name": "Jerry",
         "id": "S347",
@@ -253,6 +269,14 @@ const senate3Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -285,6 +309,22 @@ const senate3Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -325,6 +365,14 @@ const senate3Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -442,14 +490,6 @@ const senate3Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -596,14 +636,6 @@ const senate3Votes =
         "state": "MA"
       },
       {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
-      },
-      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -618,14 +650,6 @@ const senate3Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -682,22 +706,6 @@ const senate3Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -762,14 +770,6 @@ const senate3Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",
