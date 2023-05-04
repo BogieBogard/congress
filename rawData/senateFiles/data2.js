@@ -3,23 +3,23 @@ const senate2Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T19:18:00-04:00",
+  "date": "2023-05-04T11:37:00-04:00",
   "nomination": {
-    "number": "163",
-    "title": "Wesley L. Hsu, of California, to be United States District Judge for the Central District of California"
+    "number": "289",
+    "title": "LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 111,
-  "question": "On the Nomination PN163: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
-  "record_modified": "2023-05-03T20:36:00-04:00",
+  "number": 113,
+  "question": "On the Nomination PN289: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-05-04T12:43:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-43)",
+  "result_text": "Nomination Confirmed (56-41)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00111.xml",
-  "subject": "Confirmation: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00113.xml",
+  "subject": "Confirmation: LaShonda A. Hunt, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
   "type": "On the Nomination",
-  "updated_at": "2023-05-04T07:54:50-04:00",
-  "vote_id": "s111-118.2023",
+  "updated_at": "2023-05-04T14:21:10-04:00",
+  "vote_id": "s113-118.2023",
   "votes": {
     "Nay": [
       {
@@ -103,6 +103,14 @@ const senate2Votes =
         "state": "AR"
       },
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -151,6 +159,14 @@ const senate2Votes =
         "state": "IA"
       },
       {
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
         "display_name": "Hawley (R-MO)",
         "first_name": "Josh",
         "id": "S399",
@@ -173,22 +189,6 @@ const senate2Votes =
         "last_name": "Hyde-Smith",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
-      },
-      {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Lankford (R-OK)",
@@ -221,14 +221,6 @@ const senate2Votes =
         "last_name": "Marshall",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -335,14 +327,6 @@ const senate2Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Vance (R-OH)",
         "first_name": "J.",
         "id": "S421",
@@ -369,14 +353,6 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
@@ -385,20 +361,20 @@ const senate2Votes =
         "state": "CA"
       },
       {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
         "party": "R",
-        "state": "TN"
+        "state": "WI"
       },
       {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       }
     ],
     "Present": [],
@@ -588,6 +564,14 @@ const senate2Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "King (I-ME)",
         "first_name": "Angus",
         "id": "S363",
@@ -626,6 +610,14 @@ const senate2Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Menendez (D-NJ)",
@@ -730,6 +722,14 @@ const senate2Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",

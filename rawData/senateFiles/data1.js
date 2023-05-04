@@ -3,23 +3,23 @@ const senate1Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T19:58:00-04:00",
+  "date": "2023-05-04T12:29:00-04:00",
   "nomination": {
-    "number": "289",
-    "title": "LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois"
+    "number": "68",
+    "title": "Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States"
   },
-  "number": 112,
-  "question": "Motion to Invoke Cloture: LaShonda A. Hunt to be U.S. District Judge for the Northern District of Illinois: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-05-03T20:41:00-04:00",
+  "number": 114,
+  "question": "Motion to Invoke Cloture: Colleen Joy Shogan to be Archivist of the United States: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
+  "record_modified": "2023-05-04T13:32:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-42)",
+  "result_text": "Cloture Motion Agreed to (53-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00112.xml",
-  "subject": "On the Cloture Motion PN289",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00114.xml",
+  "subject": "On the Cloture Motion PN68",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-04T07:54:44-04:00",
-  "vote_id": "s112-118.2023",
+  "updated_at": "2023-05-04T14:21:09-04:00",
+  "vote_id": "s114-118.2023",
   "votes": {
     "Nay": [
       {
@@ -71,14 +71,6 @@ const senate1Votes =
         "state": "NC"
       },
       {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
         "display_name": "Cassidy (R-LA)",
         "first_name": "Bill",
         "id": "S373",
@@ -101,6 +93,14 @@ const senate1Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -143,6 +143,14 @@ const senate1Votes =
         "state": "NE"
       },
       {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Grassley (R-IA)",
         "first_name": "Chuck",
         "id": "S153",
@@ -183,12 +191,12 @@ const senate1Votes =
         "state": "MS"
       },
       {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
         "party": "R",
-        "state": "WI"
+        "state": "LA"
       },
       {
         "display_name": "Lankford (R-OK)",
@@ -221,6 +229,14 @@ const senate1Votes =
         "last_name": "Marshall",
         "party": "R",
         "state": "KS"
+      },
+      {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -327,12 +343,12 @@ const senate1Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
         "party": "R",
-        "state": "AL"
+        "state": "NC"
       },
       {
         "display_name": "Vance (R-OH)",
@@ -361,14 +377,6 @@ const senate1Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
@@ -377,20 +385,20 @@ const senate1Votes =
         "state": "CA"
       },
       {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
       },
       {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       }
     ],
     "Present": [],
@@ -442,6 +450,14 @@ const senate1Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -524,14 +540,6 @@ const senate1Votes =
         "state": "NY"
       },
       {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -580,14 +588,6 @@ const senate1Votes =
         "state": "AZ"
       },
       {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
         "display_name": "King (I-ME)",
         "first_name": "Angus",
         "id": "S363",
@@ -626,14 +626,6 @@ const senate1Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
-      },
-      {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Menendez (D-NJ)",
@@ -716,6 +708,14 @@ const senate1Votes =
         "state": "NV"
       },
       {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -730,6 +730,14 @@ const senate1Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",
@@ -762,14 +770,6 @@ const senate1Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",

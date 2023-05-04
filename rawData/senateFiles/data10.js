@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-02T12:25:00-04:00",
+  "date": "2023-05-02T17:02:00-04:00",
   "nomination": {
     "number": "96",
     "title": "Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey"
   },
-  "number": 103,
-  "question": "Motion to Invoke Cloture: Robert Kirsch to be U.S. District Judge for the District of New Jersey: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
-  "record_modified": "2023-05-02T13:42:00-04:00",
+  "number": 105,
+  "question": "On the Nomination PN96: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
+  "record_modified": "2023-05-02T18:12:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (57-42)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (57-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00103.xml",
-  "subject": "On the Cloture Motion PN96",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-04T07:54:54-04:00",
-  "vote_id": "s103-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00105.xml",
+  "subject": "Confirmation: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-04T14:21:14-04:00",
+  "vote_id": "s105-118.2023",
   "votes": {
     "Nay": [
       {
