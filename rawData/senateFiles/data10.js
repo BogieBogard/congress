@@ -3,23 +3,23 @@ const senate10Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-04-27T13:27:00-04:00",
+  "date": "2023-05-02T12:25:00-04:00",
   "nomination": {
-    "number": "89",
-    "title": "Anthony Devos Johnstone, of Montana, to be United States Circuit Judge for the Ninth Circuit"
+    "number": "96",
+    "title": "Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey"
   },
-  "number": 100,
-  "question": "Motion to Invoke Cloture: Anthony Devos Johnstone to be U.S. Circuit Judge for the Ninth Circuit: Anthony Devos Johnstone, of Montana, to be United States Circuit Judge for the Ninth Circuit",
-  "record_modified": "2023-04-27T15:21:00-04:00",
+  "number": 103,
+  "question": "Motion to Invoke Cloture: Robert Kirsch to be U.S. District Judge for the District of New Jersey: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
+  "record_modified": "2023-05-02T13:42:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-45)",
+  "result_text": "Cloture Motion Agreed to (57-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00100.xml",
-  "subject": "On the Cloture Motion PN89",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00103.xml",
+  "subject": "On the Cloture Motion PN96",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-03T19:06:03-04:00",
-  "vote_id": "s100-118.2023",
+  "updated_at": "2023-05-04T01:32:20-04:00",
+  "vote_id": "s103-118.2023",
   "votes": {
     "Nay": [
       {
@@ -45,6 +45,14 @@ const senate10Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -143,14 +151,6 @@ const senate10Votes =
         "state": "NE"
       },
       {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Grassley (R-IA)",
         "first_name": "Chuck",
         "id": "S153",
@@ -215,6 +215,14 @@ const senate10Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lummis (R-WY)",
         "first_name": "Cynthia",
         "id": "S410",
@@ -231,12 +239,12 @@ const senate10Votes =
         "state": "KS"
       },
       {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
         "party": "R",
-        "state": "KY"
+        "state": "KS"
       },
       {
         "display_name": "Mullin (R-OK)",
@@ -245,14 +253,6 @@ const senate10Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -285,22 +285,6 @@ const senate10Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -343,14 +327,6 @@ const senate10Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -385,44 +361,12 @@ const senate10Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
-      },
-      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Warnock (D-GA)",
-        "first_name": "Raphael",
-        "id": "S415",
-        "last_name": "Warnock",
-        "party": "D",
-        "state": "GA"
       }
     ],
     "Present": [],
@@ -556,6 +500,14 @@ const senate10Votes =
         "state": "NY"
       },
       {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -644,6 +596,14 @@ const senate10Votes =
         "state": "MA"
       },
       {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -658,6 +618,14 @@ const senate10Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -714,6 +682,22 @@ const senate10Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Sanders (I-VT)",
@@ -780,6 +764,14 @@ const senate10Votes =
         "state": "MT"
       },
       {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Van Hollen (D-MD)",
         "first_name": "Chris",
         "id": "S390",
@@ -794,6 +786,14 @@ const senate10Votes =
         "last_name": "Warner",
         "party": "D",
         "state": "VA"
+      },
+      {
+        "display_name": "Warnock (D-GA)",
+        "first_name": "Raphael",
+        "id": "S415",
+        "last_name": "Warnock",
+        "party": "D",
+        "state": "GA"
       },
       {
         "display_name": "Warren (D-MA)",

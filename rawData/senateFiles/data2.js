@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T12:19:00-04:00",
+  "date": "2023-05-03T19:18:00-04:00",
   "nomination": {
     "number": "163",
     "title": "Wesley L. Hsu, of California, to be United States District Judge for the Central District of California"
   },
-  "number": 108,
-  "question": "Motion to Invoke Cloture: Wesley L. Hsu to be U.S. District Judge for the Central District of California: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
-  "record_modified": "2023-05-03T13:38:00-04:00",
+  "number": 111,
+  "question": "On the Nomination PN163: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
+  "record_modified": "2023-05-03T20:36:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00108.xml",
-  "subject": "On the Cloture Motion PN163",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-03T19:06:00-04:00",
-  "vote_id": "s108-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00111.xml",
+  "subject": "Confirmation: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-04T01:32:16-04:00",
+  "vote_id": "s111-118.2023",
   "votes": {
     "Nay": [
       {
@@ -103,14 +103,6 @@ const senate2Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -157,14 +149,6 @@ const senate2Votes =
         "last_name": "Grassley",
         "party": "R",
         "state": "IA"
-      },
-      {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
-        "party": "R",
-        "state": "TN"
       },
       {
         "display_name": "Hawley (R-MO)",
@@ -385,12 +369,36 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       }
     ],
     "Present": [],
@@ -722,14 +730,6 @@ const senate2Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",

@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-02T17:02:00-04:00",
+  "date": "2023-05-03T12:19:00-04:00",
   "nomination": {
-    "number": "96",
-    "title": "Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey"
+    "number": "163",
+    "title": "Wesley L. Hsu, of California, to be United States District Judge for the Central District of California"
   },
-  "number": 105,
-  "question": "On the Nomination PN96: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
-  "record_modified": "2023-05-02T18:12:00-04:00",
+  "number": 108,
+  "question": "Motion to Invoke Cloture: Wesley L. Hsu to be U.S. District Judge for the Central District of California: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
+  "record_modified": "2023-05-03T13:38:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (57-42)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (54-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00105.xml",
-  "subject": "Confirmation: Robert Kirsch, of New Jersey, to be United States District Judge for the District of New Jersey",
-  "type": "On the Nomination",
-  "updated_at": "2023-05-03T19:06:01-04:00",
-  "vote_id": "s105-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00108.xml",
+  "subject": "On the Cloture Motion PN163",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-05-04T01:32:17-04:00",
+  "vote_id": "s108-118.2023",
   "votes": {
     "Nay": [
       {
@@ -239,6 +239,14 @@ const senate5Votes =
         "state": "KS"
       },
       {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Moran (R-KS)",
         "first_name": "Jerry",
         "id": "S347",
@@ -285,6 +293,22 @@ const senate5Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -596,14 +620,6 @@ const senate5Votes =
         "state": "MA"
       },
       {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
-      },
-      {
         "display_name": "Menendez (D-NJ)",
         "first_name": "Robert",
         "id": "S306",
@@ -682,22 +698,6 @@ const senate5Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Sanders (I-VT)",
