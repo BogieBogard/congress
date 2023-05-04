@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00104.xml",
   "subject": "Confirmation: Michael Farbiarz, of New Jersey, to be U.S. District Judge for the District of New Jersey",
   "type": "On the Nomination",
-  "updated_at": "2023-05-04T01:32:19-04:00",
+  "updated_at": "2023-05-04T07:54:53-04:00",
   "vote_id": "s104-118.2023",
   "votes": {
     "Nay": [
