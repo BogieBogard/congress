@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T19:18:00-04:00",
+  "date": "2023-05-03T19:58:00-04:00",
   "nomination": {
-    "number": "163",
-    "title": "Wesley L. Hsu, of California, to be United States District Judge for the Central District of California"
+    "number": "289",
+    "title": "LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 111,
-  "question": "On the Nomination PN163: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
-  "record_modified": "2023-05-03T20:36:00-04:00",
+  "number": 112,
+  "question": "Motion to Invoke Cloture: LaShonda A. Hunt to be U.S. District Judge for the Northern District of Illinois: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-05-03T20:41:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-43)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (54-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00111.xml",
-  "subject": "Confirmation: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
-  "type": "On the Nomination",
-  "updated_at": "2023-05-04T14:21:11-04:00",
-  "vote_id": "s111-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00112.xml",
+  "subject": "On the Cloture Motion PN289",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-05-04T20:48:45-04:00",
+  "vote_id": "s112-118.2023",
   "votes": {
     "Nay": [
       {
@@ -151,6 +151,14 @@ const senate4Votes =
         "state": "IA"
       },
       {
+        "display_name": "Hagerty (R-TN)",
+        "first_name": "Bill",
+        "id": "S407",
+        "last_name": "Hagerty",
+        "party": "R",
+        "state": "TN"
+      },
+      {
         "display_name": "Hawley (R-MO)",
         "first_name": "Josh",
         "id": "S399",
@@ -183,14 +191,6 @@ const senate4Votes =
         "state": "WI"
       },
       {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -221,14 +221,6 @@ const senate4Votes =
         "last_name": "Marshall",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -385,12 +377,12 @@ const senate4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Hagerty (R-TN)",
-        "first_name": "Bill",
-        "id": "S407",
-        "last_name": "Hagerty",
-        "party": "R",
-        "state": "TN"
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Shaheen (D-NH)",
@@ -588,6 +580,14 @@ const senate4Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "King (I-ME)",
         "first_name": "Angus",
         "id": "S363",
@@ -626,6 +626,14 @@ const senate4Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Menendez (D-NJ)",
@@ -706,14 +714,6 @@ const senate4Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-02T17:59:00-04:00",
+  "date": "2023-05-03T11:29:00-04:00",
   "nomination": {
     "number": "180",
     "title": "Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 106,
-  "question": "Motion to Invoke Cloture: Orelia Eleta Merchant to be U.S. District Judge for the Eastern District of New York: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
-  "record_modified": "2023-05-02T19:04:00-04:00",
+  "number": 107,
+  "question": "On the Nomination PN180: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-05-03T12:34:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-48)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (51-48)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00106.xml",
-  "subject": "On the Cloture Motion PN180",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-04T14:21:13-04:00",
-  "vote_id": "s106-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00107.xml",
+  "subject": "Confirmation: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-04T20:48:47-04:00",
+  "vote_id": "s107-118.2023",
   "votes": {
     "Nay": [
       {
