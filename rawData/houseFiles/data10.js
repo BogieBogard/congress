@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll193.xml",
   "subject": "Demanding that the Government of the People\u2019s Republic of China and the Communist Party of China immediately release Mark Swidan",
   "type": "On Motion to Suspend the Rules and Agree, as Amended",
-  "updated_at": "2023-05-04T20:46:44-04:00",
+  "updated_at": "2023-05-05T03:13:28-04:00",
   "vote_id": "h193-118.2023",
   "votes": {
     "Nay": [],
