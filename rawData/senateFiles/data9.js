@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00107.xml",
   "subject": "Confirmation: Orelia Eleta Merchant, of New York, to be United States District Judge for the Eastern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-05-07T00:15:55-04:00",
+  "updated_at": "2023-05-07T06:42:18-04:00",
   "vote_id": "s107-118.2023",
   "votes": {
     "Nay": [
