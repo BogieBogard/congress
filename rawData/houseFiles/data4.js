@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll199.xml",
   "subject": "Limit, Save, Grow Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-08T01:59:21-04:00",
+  "updated_at": "2023-05-08T08:25:38-04:00",
   "vote_id": "h199-118.2023",
   "votes": {
     "Nay": [
