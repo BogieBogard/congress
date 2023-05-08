@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll200.xml",
   "subject": "Precision Agriculture Satellite Connectivity Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-05-07T13:06:32-04:00",
+  "updated_at": "2023-05-07T19:32:55-04:00",
   "vote_id": "h200-118.2023",
   "votes": {
     "Nay": [
