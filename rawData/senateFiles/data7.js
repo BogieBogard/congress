@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00109.xml",
   "subject": "H.J.Res. 39",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-05-09T10:09:08-04:00",
+  "updated_at": "2023-05-09T16:35:32-04:00",
   "vote_id": "s109-118.2023",
   "votes": {
     "Nay": [
