@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll198.xml",
   "subject": "Limit, Save, Grow Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-05-08T14:51:57-04:00",
+  "updated_at": "2023-05-08T21:18:12-04:00",
   "vote_id": "h198-118.2023",
   "votes": {
     "Nay": [
