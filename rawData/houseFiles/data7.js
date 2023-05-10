@@ -2,26 +2,26 @@ const house7Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 327,
-    "type": "hres"
+    "number": 2811,
+    "type": "hr"
   },
-  "category": "passage",
+  "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-04-26T14:07:00-04:00",
-  "number": 196,
-  "question": "On Agreeing to the Resolution: H RES 327 Providing for consideration of the bill (H.R. 2811) Limit, Save, Grow Act, and providing for consideration of (H.J.Res.39) disapproving the rule submitted by the Dept. of Commerce relating to \u201cProcedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414\u201d",
+  "date": "2023-04-26T17:33:00-04:00",
+  "number": 198,
+  "question": "On Motion to Recommit: H R 2811 Limit, Save, Grow Act",
   "requires": "1/2",
-  "result": "Passed",
-  "result_text": "Passed",
+  "result": "Failed",
+  "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll196.xml",
-  "subject": "Providing for consideration of the bill (H.R. 2811) Limit, Save, Grow Act, and providing for consideration of (H.J.Res.39) disapproving the rule submitted by the Dept. of Commerce relating to \u201cProcedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord With Presidential Proclamation 10414\u201d",
-  "type": "On the Resolution",
-  "updated_at": "2023-05-09T16:33:32-04:00",
-  "vote_id": "h196-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll198.xml",
+  "subject": "Limit, Save, Grow Act",
+  "type": "On the Motion to Recommit",
+  "updated_at": "2023-05-09T22:59:51-04:00",
+  "vote_id": "h198-118.2023",
   "votes": {
-    "Aye": [
+    "Nay": [
       {
         "display_name": "Aderholt",
         "id": "A000055",
@@ -369,6 +369,12 @@ const house7Votes =
         "id": "E000294",
         "party": "R",
         "state": "MN"
+      },
+      {
+        "display_name": "Estes",
+        "id": "E000298",
+        "party": "R",
+        "state": "KS"
       },
       {
         "display_name": "Ezell",
@@ -843,6 +849,12 @@ const house7Votes =
         "id": "M001199",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "McCarthy",
+        "id": "M001165",
+        "party": "R",
+        "state": "CA"
       },
       {
         "display_name": "McCaul",
@@ -1337,7 +1349,28 @@ const house7Votes =
         "state": "MT"
       }
     ],
-    "No": [
+    "Not Voting": [
+      {
+        "display_name": "Kelly (PA)",
+        "id": "K000376",
+        "party": "R",
+        "state": "PA"
+      },
+      {
+        "display_name": "Peters",
+        "id": "P000608",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Watson Coleman",
+        "id": "W000822",
+        "party": "D",
+        "state": "NJ"
+      }
+    ],
+    "Present": [],
+    "Yea": [
       {
         "display_name": "Adams",
         "id": "A000370",
@@ -1937,6 +1970,12 @@ const house7Votes =
         "id": "K000389",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Kildee",
+        "id": "K000380",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Kilmer",
@@ -2598,39 +2637,6 @@ const house7Votes =
         "party": "D",
         "state": "FL"
       }
-    ],
-    "Not Voting": [
-      {
-        "display_name": "Estes",
-        "id": "E000298",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Kelly (PA)",
-        "id": "K000376",
-        "party": "R",
-        "state": "PA"
-      },
-      {
-        "display_name": "Kildee",
-        "id": "K000380",
-        "party": "D",
-        "state": "MI"
-      },
-      {
-        "display_name": "Peters",
-        "id": "P000608",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Watson Coleman",
-        "id": "W000822",
-        "party": "D",
-        "state": "NJ"
-      }
-    ],
-    "Present": []
+    ]
   }
 }

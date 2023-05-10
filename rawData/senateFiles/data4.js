@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T19:58:00-04:00",
+  "date": "2023-05-04T11:37:00-04:00",
   "nomination": {
     "number": "289",
     "title": "LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 112,
-  "question": "Motion to Invoke Cloture: LaShonda A. Hunt to be U.S. District Judge for the Northern District of Illinois: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-05-03T20:41:00-04:00",
+  "number": 113,
+  "question": "On the Nomination PN289: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-05-04T12:43:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-42)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (56-41)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00112.xml",
-  "subject": "On the Cloture Motion PN289",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-09T16:35:30-04:00",
-  "vote_id": "s112-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00113.xml",
+  "subject": "Confirmation: LaShonda A. Hunt, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-09T23:01:45-04:00",
+  "vote_id": "s113-118.2023",
   "votes": {
     "Nay": [
       {
@@ -103,6 +103,14 @@ const senate4Votes =
         "state": "AR"
       },
       {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -181,14 +189,6 @@ const senate4Votes =
         "last_name": "Hyde-Smith",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
       },
       {
         "display_name": "Lankford (R-OK)",
@@ -327,14 +327,6 @@ const senate4Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Vance (R-OH)",
         "first_name": "J.",
         "id": "S421",
@@ -361,14 +353,6 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
@@ -377,20 +361,20 @@ const senate4Votes =
         "state": "CA"
       },
       {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
       },
       {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
-        "party": "D",
-        "state": "NH"
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       }
     ],
     "Present": [],
@@ -716,6 +700,14 @@ const senate4Votes =
         "state": "NV"
       },
       {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -730,6 +722,14 @@ const senate4Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",
