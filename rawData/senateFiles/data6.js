@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00111.xml",
   "subject": "Confirmation: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-05-09T23:01:46-04:00",
+  "updated_at": "2023-05-10T05:28:16-04:00",
   "vote_id": "s111-118.2023",
   "votes": {
     "Nay": [
