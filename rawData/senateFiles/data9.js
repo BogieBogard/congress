@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-03T12:19:00-04:00",
+  "date": "2023-05-04T11:37:00-04:00",
   "nomination": {
-    "number": "163",
-    "title": "Wesley L. Hsu, of California, to be United States District Judge for the Central District of California"
+    "number": "289",
+    "title": "LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 108,
-  "question": "Motion to Invoke Cloture: Wesley L. Hsu to be U.S. District Judge for the Central District of California: Wesley L. Hsu, of California, to be United States District Judge for the Central District of California",
-  "record_modified": "2023-05-03T13:38:00-04:00",
+  "number": 113,
+  "question": "On the Nomination PN289: LaShonda A. Hunt, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-05-04T12:43:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (56-41)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00108.xml",
-  "subject": "On the Cloture Motion PN163",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-10T11:54:52-04:00",
-  "vote_id": "s108-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00113.xml",
+  "subject": "Confirmation: LaShonda A. Hunt, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-10T18:21:07-04:00",
+  "vote_id": "s113-118.2023",
   "votes": {
     "Nay": [
       {
@@ -191,22 +191,6 @@ const senate9Votes =
         "state": "MS"
       },
       {
-        "display_name": "Johnson (R-WI)",
-        "first_name": "Ron",
-        "id": "S345",
-        "last_name": "Johnson",
-        "party": "R",
-        "state": "WI"
-      },
-      {
-        "display_name": "Kennedy (R-LA)",
-        "first_name": "John",
-        "id": "S389",
-        "last_name": "Kennedy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -237,14 +221,6 @@ const senate9Votes =
         "last_name": "Marshall",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "McConnell (R-KY)",
-        "first_name": "Mitch",
-        "id": "S174",
-        "last_name": "McConnell",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -351,14 +327,6 @@ const senate9Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
-      },
-      {
         "display_name": "Vance (R-OH)",
         "first_name": "J.",
         "id": "S421",
@@ -391,6 +359,22 @@ const senate9Votes =
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Johnson (R-WI)",
+        "first_name": "Ron",
+        "id": "S345",
+        "last_name": "Johnson",
+        "party": "R",
+        "state": "WI"
+      },
+      {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       }
     ],
     "Present": [],
@@ -580,6 +564,14 @@ const senate9Votes =
         "state": "AZ"
       },
       {
+        "display_name": "Kennedy (R-LA)",
+        "first_name": "John",
+        "id": "S389",
+        "last_name": "Kennedy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "King (I-ME)",
         "first_name": "Angus",
         "id": "S363",
@@ -618,6 +610,14 @@ const senate9Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "McConnell (R-KY)",
+        "first_name": "Mitch",
+        "id": "S174",
+        "last_name": "McConnell",
+        "party": "R",
+        "state": "KY"
       },
       {
         "display_name": "Menendez (D-NJ)",
