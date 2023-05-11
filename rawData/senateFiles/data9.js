@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00113.xml",
   "subject": "Confirmation: LaShonda A. Hunt, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
   "type": "On the Nomination",
-  "updated_at": "2023-05-10T18:21:07-04:00",
+  "updated_at": "2023-05-11T00:47:38-04:00",
   "vote_id": "s113-118.2023",
   "votes": {
     "Nay": [
