@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T11:32:00-04:00",
+  "date": "2023-05-10T14:30:00-04:00",
   "nomination": {
-    "number": "148",
-    "title": "L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years"
+    "number": "156",
+    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
   },
-  "number": 117,
-  "question": "On the Nomination PN148: L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years",
-  "record_modified": "2023-05-10T12:38:00-04:00",
+  "number": 119,
+  "question": "On the Nomination PN156: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
+  "record_modified": "2023-05-10T15:44:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-45)",
+  "result_text": "Nomination Confirmed (52-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00117.xml",
-  "subject": "Confirmation: L. Felice Gorordo, of Florida, to be U.S. Alternate Executive Director of the International Bank for Reconstruction and Development",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00119.xml",
+  "subject": "Confirmation: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitation Services, Department of Education",
   "type": "On the Nomination",
-  "updated_at": "2023-05-11T06:52:17-04:00",
-  "vote_id": "s117-118.2023",
+  "updated_at": "2023-05-11T12:58:34-04:00",
+  "vote_id": "s119-118.2023",
   "votes": {
     "Nay": [
       {
@@ -61,14 +61,6 @@ const senate5Votes =
         "last_name": "Britt",
         "party": "R",
         "state": "AL"
-      },
-      {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Capito (R-WV)",
@@ -271,14 +263,6 @@ const senate5Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -381,16 +365,24 @@ const senate5Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -399,6 +391,14 @@ const senate5Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -524,6 +524,14 @@ const senate5Votes =
         "state": "IL"
       },
       {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
@@ -636,6 +644,14 @@ const senate5Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -698,14 +714,6 @@ const senate5Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
@@ -818,14 +826,6 @@ const senate5Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ]
   }

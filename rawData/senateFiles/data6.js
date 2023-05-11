@@ -3,25 +3,33 @@ const senate6Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-09T17:52:00-04:00",
+  "date": "2023-05-10T12:28:00-04:00",
   "nomination": {
-    "number": "148",
-    "title": "L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years"
+    "number": "156",
+    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
   },
-  "number": 116,
-  "question": "Motion to Invoke Cloture: L. Felice Gorordo to be U.S. Alternate Executive Director of the International Bank for Reconstruction and Development: L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years",
-  "record_modified": "2023-05-09T19:28:00-04:00",
+  "number": 118,
+  "question": "Motion to Invoke Cloture: Glenna Laureen Wright-Gallo to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
+  "record_modified": "2023-05-10T13:35:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (53-42)",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00116.xml",
-  "subject": "On the Cloture Motion PN148",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00118.xml",
+  "subject": "On the Cloture Motion PN156",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-11T06:52:17-04:00",
-  "vote_id": "s116-118.2023",
+  "updated_at": "2023-05-11T12:58:35-04:00",
+  "vote_id": "s118-118.2023",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -175,6 +183,14 @@ const senate6Votes =
         "state": "MO"
       },
       {
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Hyde-Smith (R-MS)",
         "first_name": "Cindy",
         "id": "S395",
@@ -255,12 +271,12 @@ const senate6Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
         "party": "R",
-        "state": "AK"
+        "state": "KY"
       },
       {
         "display_name": "Ricketts (R-NE)",
@@ -335,12 +351,12 @@ const senate6Votes =
         "state": "SD"
       },
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
         "party": "R",
-        "state": "AL"
+        "state": "NC"
       },
       {
         "display_name": "Vance (R-OH)",
@@ -357,17 +373,17 @@ const senate6Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
@@ -377,28 +393,20 @@ const senate6Votes =
         "state": "CA"
       },
       {
-        "display_name": "Hoeven (R-ND)",
-        "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
-        "party": "R",
-        "state": "ND"
+        "display_name": "Gillibrand (D-NY)",
+        "first_name": "Kirsten",
+        "id": "S331",
+        "last_name": "Gillibrand",
+        "party": "D",
+        "state": "NY"
       },
       {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
         "party": "R",
-        "state": "KY"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
+        "state": "AL"
       }
     ],
     "Present": [],
@@ -524,14 +532,6 @@ const senate6Votes =
         "state": "PA"
       },
       {
-        "display_name": "Gillibrand (D-NY)",
-        "first_name": "Kirsten",
-        "id": "S331",
-        "last_name": "Gillibrand",
-        "party": "D",
-        "state": "NY"
-      },
-      {
         "display_name": "Hassan (D-NH)",
         "first_name": "Maggie",
         "id": "S388",
@@ -634,6 +634,14 @@ const senate6Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -818,14 +826,6 @@ const senate6Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ]
   }

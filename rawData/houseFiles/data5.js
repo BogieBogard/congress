@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll203.xml",
   "subject": "Coastal Communities Ocean Acidification Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-05-11T06:50:32-04:00",
+  "updated_at": "2023-05-11T12:56:49-04:00",
   "vote_id": "h203-118.2023",
   "votes": {
     "Nay": [

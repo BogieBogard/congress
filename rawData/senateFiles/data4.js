@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T12:28:00-04:00",
+  "date": "2023-05-10T15:20:00-04:00",
   "nomination": {
-    "number": "156",
-    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
+    "number": "68",
+    "title": "Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States"
   },
-  "number": 118,
-  "question": "Motion to Invoke Cloture: Glenna Laureen Wright-Gallo to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
-  "record_modified": "2023-05-10T13:35:00-04:00",
+  "number": 120,
+  "question": "On the Nomination PN68: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
+  "record_modified": "2023-05-10T16:32:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00118.xml",
-  "subject": "On the Cloture Motion PN156",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-11T06:52:16-04:00",
-  "vote_id": "s118-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00120.xml",
+  "subject": "Confirmation: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-11T12:58:34-04:00",
+  "vote_id": "s120-118.2023",
   "votes": {
     "Nay": [
       {
@@ -69,14 +69,6 @@ const senate4Votes =
         "last_name": "Budd",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -295,6 +287,14 @@ const senate4Votes =
         "state": "ID"
       },
       {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Rounds (R-SD)",
         "first_name": "Mike",
         "id": "S381",
@@ -385,20 +385,20 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -458,6 +458,14 @@ const senate4Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -522,6 +530,14 @@ const senate4Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",
@@ -692,28 +708,12 @@ const senate4Votes =
         "state": "RI"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

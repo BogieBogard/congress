@@ -3,23 +3,23 @@ const senate3Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T14:30:00-04:00",
+  "date": "2023-05-10T17:29:00-04:00",
   "nomination": {
-    "number": "156",
-    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
+    "number": "39",
+    "title": "Geeta Rao Gupta, of Virginia, to be Ambassador at Large for Global Women's Issues"
   },
-  "number": 119,
-  "question": "On the Nomination PN156: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
-  "record_modified": "2023-05-10T15:44:00-04:00",
+  "number": 121,
+  "question": "On the Nomination PN39: Geeta Rao Gupta, of Virginia, to be Ambassador at Large for Global Women's Issues",
+  "record_modified": "2023-05-10T18:50:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-44)",
+  "result_text": "Nomination Confirmed (51-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00119.xml",
-  "subject": "Confirmation: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitation Services, Department of Education",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00121.xml",
+  "subject": "Confirmation: Geeta Rao Gupta, of Virginia, to be Ambassador at Large for Global Women's Issues",
   "type": "On the Nomination",
-  "updated_at": "2023-05-11T06:52:16-04:00",
-  "vote_id": "s119-118.2023",
+  "updated_at": "2023-05-11T12:58:33-04:00",
+  "vote_id": "s121-118.2023",
   "votes": {
     "Nay": [
       {
@@ -63,6 +63,14 @@ const senate3Votes =
         "state": "AL"
       },
       {
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Capito (R-WV)",
         "first_name": "Shelley",
         "id": "S372",
@@ -93,14 +101,6 @@ const senate3Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -231,6 +231,14 @@ const senate3Votes =
         "state": "WY"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -285,6 +293,14 @@ const senate3Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
       },
       {
         "display_name": "Rounds (R-SD)",
@@ -351,6 +367,14 @@ const senate3Votes =
         "state": "NC"
       },
       {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
+      },
+      {
         "display_name": "Vance (R-OH)",
         "first_name": "J.",
         "id": "S421",
@@ -377,36 +401,20 @@ const senate3Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
         "party": "R",
-        "state": "NC"
+        "state": "ND"
       },
       {
-        "display_name": "Gillibrand (D-NY)",
-        "first_name": "Kirsten",
-        "id": "S331",
-        "last_name": "Gillibrand",
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
         "party": "D",
-        "state": "NY"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
-      },
-      {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
+        "state": "CA"
       }
     ],
     "Present": [],
@@ -524,20 +532,20 @@ const senate3Votes =
         "state": "IL"
       },
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
         "last_name": "Fetterman",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Gillibrand (D-NY)",
+        "first_name": "Kirsten",
+        "id": "S331",
+        "last_name": "Gillibrand",
+        "party": "D",
+        "state": "NY"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -610,14 +618,6 @@ const senate3Votes =
         "last_name": "Lujan",
         "party": "D",
         "state": "NM"
-      },
-      {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
       },
       {
         "display_name": "Markey (D-MA)",
@@ -700,20 +700,20 @@ const senate3Votes =
         "state": "RI"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
