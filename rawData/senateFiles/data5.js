@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00117.xml",
   "subject": "Confirmation: L. Felice Gorordo, of Florida, to be U.S. Alternate Executive Director of the International Bank for Reconstruction and Development",
   "type": "On the Nomination",
-  "updated_at": "2023-05-11T00:47:36-04:00",
+  "updated_at": "2023-05-11T06:52:17-04:00",
   "vote_id": "s117-118.2023",
   "votes": {
     "Nay": [
