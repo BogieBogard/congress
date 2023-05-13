@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T12:28:00-04:00",
+  "date": "2023-05-10T14:30:00-04:00",
   "nomination": {
     "number": "156",
     "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
   },
-  "number": 118,
-  "question": "Motion to Invoke Cloture: Glenna Laureen Wright-Gallo to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
-  "record_modified": "2023-05-10T13:35:00-04:00",
+  "number": 119,
+  "question": "On the Nomination PN156: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
+  "record_modified": "2023-05-10T15:44:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00118.xml",
-  "subject": "On the Cloture Motion PN156",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-11T12:58:35-04:00",
-  "vote_id": "s118-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00119.xml",
+  "subject": "Confirmation: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitation Services, Department of Education",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-13T17:05:18-04:00",
+  "vote_id": "s119-118.2023",
   "votes": {
     "Nay": [
       {
@@ -61,14 +61,6 @@ const senate6Votes =
         "last_name": "Britt",
         "party": "R",
         "state": "AL"
-      },
-      {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Capito (R-WV)",
@@ -385,12 +377,12 @@ const senate6Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -399,6 +391,14 @@ const senate6Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -522,6 +522,14 @@ const senate6Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",
@@ -706,14 +714,6 @@ const senate6Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

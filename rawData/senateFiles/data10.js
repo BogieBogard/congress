@@ -3,23 +3,23 @@ const senate10Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-04T12:29:00-04:00",
+  "date": "2023-05-04T13:38:00-04:00",
   "nomination": {
-    "number": "68",
-    "title": "Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States"
+    "number": "39",
+    "title": "Geeta Rao Gupta, of Virginia, to be Ambassador at Large for Global Women's Issues"
   },
-  "number": 114,
-  "question": "Motion to Invoke Cloture: Colleen Joy Shogan to be Archivist of the United States: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
-  "record_modified": "2023-05-04T13:32:00-04:00",
+  "number": 115,
+  "question": "Motion to Invoke Cloture: Geeta Rao Gupta to be Ambassador at Large for Global Women's Issues: Geeta Rao Gupta, of Virginia, to be Ambassador at Large for Global Women's Issues",
+  "record_modified": "2023-05-04T15:02:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (53-44)",
+  "result_text": "Cloture Motion Agreed to (50-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00114.xml",
-  "subject": "On the Cloture Motion PN68",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00115.xml",
+  "subject": "On the Cloture Motion PN39",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-05-11T12:58:37-04:00",
-  "vote_id": "s114-118.2023",
+  "updated_at": "2023-05-13T17:05:20-04:00",
+  "vote_id": "s115-118.2023",
   "votes": {
     "Nay": [
       {
@@ -69,6 +69,14 @@ const senate10Votes =
         "last_name": "Budd",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -223,6 +231,14 @@ const senate10Votes =
         "state": "WY"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -237,14 +253,6 @@ const senate10Votes =
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
-      },
-      {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
       },
       {
         "display_name": "Mullin (R-OK)",
@@ -319,14 +327,6 @@ const senate10Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -393,6 +393,30 @@ const senate10Votes =
         "state": "WI"
       },
       {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -450,14 +474,6 @@ const senate10Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -612,14 +628,6 @@ const senate10Votes =
         "state": "NM"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -706,14 +714,6 @@ const senate10Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

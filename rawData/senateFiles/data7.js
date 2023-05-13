@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T11:32:00-04:00",
+  "date": "2023-05-10T12:28:00-04:00",
   "nomination": {
-    "number": "148",
-    "title": "L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years"
+    "number": "156",
+    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
   },
-  "number": 117,
-  "question": "On the Nomination PN148: L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years",
-  "record_modified": "2023-05-10T12:38:00-04:00",
+  "number": 118,
+  "question": "Motion to Invoke Cloture: Glenna Laureen Wright-Gallo to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
+  "record_modified": "2023-05-10T13:35:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-45)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00117.xml",
-  "subject": "Confirmation: L. Felice Gorordo, of Florida, to be U.S. Alternate Executive Director of the International Bank for Reconstruction and Development",
-  "type": "On the Nomination",
-  "updated_at": "2023-05-11T12:58:35-04:00",
-  "vote_id": "s117-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00118.xml",
+  "subject": "On the Cloture Motion PN156",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-05-13T17:05:18-04:00",
+  "vote_id": "s118-118.2023",
   "votes": {
     "Nay": [
       {
@@ -271,14 +271,6 @@ const senate7Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -381,6 +373,14 @@ const senate7Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Not Voting": [
@@ -636,6 +636,14 @@ const senate7Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -818,14 +826,6 @@ const senate7Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ]
   }

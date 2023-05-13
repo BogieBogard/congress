@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T14:30:00-04:00",
+  "date": "2023-05-10T15:20:00-04:00",
   "nomination": {
-    "number": "156",
-    "title": "Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education"
+    "number": "68",
+    "title": "Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States"
   },
-  "number": 119,
-  "question": "On the Nomination PN156: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitative Services, Department of Education",
-  "record_modified": "2023-05-10T15:44:00-04:00",
+  "number": 120,
+  "question": "On the Nomination PN68: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
+  "record_modified": "2023-05-10T16:32:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-44)",
+  "result_text": "Nomination Confirmed (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00119.xml",
-  "subject": "Confirmation: Glenna Laureen Wright-Gallo, of Nevada, to be Assistant Secretary for Special Education and Rehabilitation Services, Department of Education",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00120.xml",
+  "subject": "Confirmation: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
   "type": "On the Nomination",
-  "updated_at": "2023-05-11T12:58:34-04:00",
-  "vote_id": "s119-118.2023",
+  "updated_at": "2023-05-13T17:05:17-04:00",
+  "vote_id": "s120-118.2023",
   "votes": {
     "Nay": [
       {
@@ -63,12 +63,12 @@ const senate5Votes =
         "state": "AL"
       },
       {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
         "party": "R",
-        "state": "WV"
+        "state": "NC"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -287,6 +287,14 @@ const senate5Votes =
         "state": "ID"
       },
       {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Rounds (R-SD)",
         "first_name": "Mike",
         "id": "S381",
@@ -377,14 +385,6 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
@@ -458,6 +458,14 @@ const senate5Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -698,14 +706,6 @@ const senate5Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Rosen (D-NV)",

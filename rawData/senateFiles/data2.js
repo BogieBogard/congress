@@ -2,26 +2,26 @@ const senate2Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 23,
-    "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Marine Fisheries Service relating to \"Endangered and Threatened Wildlife and Plants; Regulations for Listing Endangered and Threatened Species and Designating Critical Habitat\".",
+    "number": 24,
+    "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \"Endangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat\".",
     "type": "sjres"
   },
   "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-11T11:00:00-04:00",
-  "number": 122,
-  "question": "On the Joint Resolution S.J.Res. 23",
-  "record_modified": "2023-05-11T12:38:00-04:00",
+  "date": "2023-05-11T12:19:00-04:00",
+  "number": 123,
+  "question": "On the Joint Resolution S.J.Res. 24",
+  "record_modified": "2023-05-11T13:25:00-04:00",
   "requires": "1/2",
   "result": "Joint Resolution Passed",
   "result_text": "Joint Resolution Passed (51-49)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00122.xml",
-  "subject": "S.J.Res. 23",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00123.xml",
+  "subject": "S. J. Res. 24",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-05-11T12:58:33-04:00",
-  "vote_id": "s122-118.2023",
+  "updated_at": "2023-05-13T17:05:16-04:00",
+  "vote_id": "s123-118.2023",
   "votes": {
     "Nay": [
       {
@@ -201,12 +201,12 @@ const senate2Votes =
         "state": "AZ"
       },
       {
-        "display_name": "Klobuchar (D-MN)",
-        "first_name": "Amy",
-        "id": "S311",
-        "last_name": "Klobuchar",
-        "party": "D",
-        "state": "MN"
+        "display_name": "King (I-ME)",
+        "first_name": "Angus",
+        "id": "S363",
+        "last_name": "King",
+        "party": "I",
+        "state": "ME"
       },
       {
         "display_name": "Lujan (D-NM)",
@@ -621,12 +621,12 @@ const senate2Votes =
         "state": "LA"
       },
       {
-        "display_name": "King (I-ME)",
-        "first_name": "Angus",
-        "id": "S363",
-        "last_name": "King",
-        "party": "I",
-        "state": "ME"
+        "display_name": "Klobuchar (D-MN)",
+        "first_name": "Amy",
+        "id": "S311",
+        "last_name": "Klobuchar",
+        "party": "D",
+        "state": "MN"
       },
       {
         "display_name": "Lankford (R-OK)",
