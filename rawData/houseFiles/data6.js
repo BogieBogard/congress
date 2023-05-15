@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll207.xml",
   "subject": "Providing for consideration of the bill (H.R. 2) Secure the Border Act and providing for consideration of the bill (H.R. 1163) Protecting Taxpayers and Victims of Unemployment Fraud Act",
   "type": "On the Resolution",
-  "updated_at": "2023-05-13T17:03:31-04:00",
+  "updated_at": "2023-05-15T09:04:04-04:00",
   "vote_id": "h207-118.2023",
   "votes": {
     "Aye": [

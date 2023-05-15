@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll208.xml",
   "subject": "Secure the Border Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-05-13T17:03:30-04:00",
+  "updated_at": "2023-05-15T09:04:04-04:00",
   "vote_id": "h208-118.2023",
   "votes": {
     "Nay": [

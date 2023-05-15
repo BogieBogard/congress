@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll210.xml",
   "subject": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-05-13T17:03:30-04:00",
+  "updated_at": "2023-05-15T09:04:03-04:00",
   "vote_id": "h210-118.2023",
   "votes": {
     "Nay": [

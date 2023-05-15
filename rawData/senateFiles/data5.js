@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00120.xml",
   "subject": "Confirmation: Colleen Joy Shogan, of Pennsylvania, to be Archivist of the United States",
   "type": "On the Nomination",
-  "updated_at": "2023-05-13T17:05:17-04:00",
+  "updated_at": "2023-05-15T09:05:52-04:00",
   "vote_id": "s120-118.2023",
   "votes": {
     "Nay": [

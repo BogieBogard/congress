@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll211.xml",
   "subject": "Protecting Taxpayers and Victims of Unemployment Fraud Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-13T17:03:29-04:00",
+  "updated_at": "2023-05-15T09:04:02-04:00",
   "vote_id": "h211-118.2023",
   "votes": {
     "Aye": [

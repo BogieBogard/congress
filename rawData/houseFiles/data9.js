@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll204.xml",
   "subject": "Advanced Weather Model Computing Development Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-05-13T17:03:32-04:00",
+  "updated_at": "2023-05-15T09:04:06-04:00",
   "vote_id": "h204-118.2023",
   "votes": {
     "Nay": [
