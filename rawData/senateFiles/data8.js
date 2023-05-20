@@ -3,33 +3,25 @@ const senate8Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-10T11:32:00-04:00",
+  "date": "2023-05-15T17:32:00-04:00",
   "nomination": {
-    "number": "148",
-    "title": "L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years"
+    "number": "93",
+    "title": "Bradley N. Garcia, of Maryland, to be United States Circuit Judge for the District of Columbia Circuit"
   },
-  "number": 117,
-  "question": "On the Nomination PN148: L. Felice Gorordo, of Florida, to be United States Alternate Executive Director of the International Bank for Reconstruction and Development for a term of two years",
-  "record_modified": "2023-05-10T12:38:00-04:00",
+  "number": 125,
+  "question": "On the Nomination PN93: Bradley N. Garcia, of Maryland, to be United States Circuit Judge for the District of Columbia Circuit",
+  "record_modified": "2023-05-15T18:39:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-45)",
+  "result_text": "Nomination Confirmed (53-40)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00117.xml",
-  "subject": "Confirmation: L. Felice Gorordo, of Florida, to be U.S. Alternate Executive Director of the International Bank for Reconstruction and Development",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00125.xml",
+  "subject": "Confirmation: Bradley N. Garcia, of Maryland, to be U.S. Circuit Judge for the District of Columbia Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-05-15T09:05:55-04:00",
-  "vote_id": "s117-118.2023",
+  "updated_at": "2023-05-19T20:08:46-04:00",
+  "vote_id": "s125-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -95,14 +87,6 @@ const senate8Votes =
         "state": "TX"
       },
       {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
-      {
         "display_name": "Cramer (R-ND)",
         "first_name": "Kevin",
         "id": "S398",
@@ -149,14 +133,6 @@ const senate8Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -255,28 +231,12 @@ const senate8Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -295,12 +255,12 @@ const senate8Votes =
         "state": "NE"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
         "party": "R",
-        "state": "ID"
+        "state": "UT"
       },
       {
         "display_name": "Rounds (R-SD)",
@@ -309,14 +269,6 @@ const senate8Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -333,14 +285,6 @@ const senate8Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Sullivan (R-AK)",
@@ -367,6 +311,14 @@ const senate8Votes =
         "state": "NC"
       },
       {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
+      },
+      {
         "display_name": "Vance (R-OH)",
         "first_name": "J.",
         "id": "S421",
@@ -381,32 +333,72 @@ const senate8Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
-      },
-      {
-        "display_name": "Gillibrand (D-NY)",
-        "first_name": "Kirsten",
-        "id": "S331",
-        "last_name": "Gillibrand",
-        "party": "D",
-        "state": "NY"
-      },
-      {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
         "party": "R",
-        "state": "AL"
+        "state": "WY"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       }
     ],
     "Present": [],
@@ -524,12 +516,36 @@ const senate8Votes =
         "state": "IL"
       },
       {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
         "last_name": "Fetterman",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Gillibrand (D-NY)",
+        "first_name": "Kirsten",
+        "id": "S331",
+        "last_name": "Gillibrand",
+        "party": "D",
+        "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -636,6 +652,14 @@ const senate8Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -682,14 +706,6 @@ const senate8Votes =
         "last_name": "Reed",
         "party": "D",
         "state": "RI"
-      },
-      {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Rosen (D-NV)",
@@ -746,14 +762,6 @@ const senate8Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
@@ -818,14 +826,6 @@ const senate8Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ]
   }

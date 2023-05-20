@@ -2,26 +2,26 @@ const senate3Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 23,
-    "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Marine Fisheries Service relating to \"Endangered and Threatened Wildlife and Plants; Regulations for Listing Endangered and Threatened Species and Designating Critical Habitat\".",
+    "number": 18,
+    "title": "A joint resolution disapproving of the rule submitted by the Department of Homeland Security relating to \"Public Charge Ground of Inadmissibility\".",
     "type": "sjres"
   },
   "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-11T11:00:00-04:00",
-  "number": 122,
-  "question": "On the Joint Resolution S.J.Res. 23",
-  "record_modified": "2023-05-11T12:38:00-04:00",
+  "date": "2023-05-17T16:55:00-04:00",
+  "number": 130,
+  "question": "On the Joint Resolution S.J.Res. 18",
+  "record_modified": "2023-05-17T18:16:00-04:00",
   "requires": "1/2",
   "result": "Joint Resolution Passed",
-  "result_text": "Joint Resolution Passed (51-49)",
+  "result_text": "Joint Resolution Passed (50-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00122.xml",
-  "subject": "S.J.Res. 23",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00130.xml",
+  "subject": "S. J. Res 18",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-05-15T09:05:51-04:00",
-  "vote_id": "s122-118.2023",
+  "updated_at": "2023-05-19T20:08:43-04:00",
+  "vote_id": "s130-118.2023",
   "votes": {
     "Nay": [
       {
@@ -95,14 +95,6 @@ const senate3Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Coons (D-DE)",
-        "first_name": "Christopher",
-        "id": "S337",
-        "last_name": "Coons",
-        "party": "D",
-        "state": "DE"
       },
       {
         "display_name": "Cortez Masto (D-NV)",
@@ -201,6 +193,14 @@ const senate3Votes =
         "state": "AZ"
       },
       {
+        "display_name": "King (I-ME)",
+        "first_name": "Angus",
+        "id": "S363",
+        "last_name": "King",
+        "party": "I",
+        "state": "ME"
+      },
+      {
         "display_name": "Klobuchar (D-MN)",
         "first_name": "Amy",
         "id": "S311",
@@ -223,14 +223,6 @@ const senate3Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
-      },
-      {
-        "display_name": "Menendez (D-NJ)",
-        "first_name": "Robert",
-        "id": "S306",
-        "last_name": "Menendez",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Merkley (D-OR)",
@@ -353,14 +345,6 @@ const senate3Votes =
         "state": "MI"
       },
       {
-        "display_name": "Tester (D-MT)",
-        "first_name": "Jon",
-        "id": "S314",
-        "last_name": "Tester",
-        "party": "D",
-        "state": "MT"
-      },
-      {
         "display_name": "Van Hollen (D-MD)",
         "first_name": "Chris",
         "id": "S390",
@@ -417,7 +401,32 @@ const senate3Votes =
         "state": "OR"
       }
     ],
-    "Not Voting": [],
+    "Not Voting": [
+      {
+        "display_name": "Coons (D-DE)",
+        "first_name": "Christopher",
+        "id": "S337",
+        "last_name": "Coons",
+        "party": "D",
+        "state": "DE"
+      },
+      {
+        "display_name": "Menendez (D-NJ)",
+        "first_name": "Robert",
+        "id": "S306",
+        "last_name": "Menendez",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Mullin (R-OK)",
+        "first_name": "Markwayne",
+        "id": "S419",
+        "last_name": "Mullin",
+        "party": "R",
+        "state": "OK"
+      }
+    ],
     "Present": [],
     "Yea": [
       {
@@ -621,14 +630,6 @@ const senate3Votes =
         "state": "LA"
       },
       {
-        "display_name": "King (I-ME)",
-        "first_name": "Angus",
-        "id": "S363",
-        "last_name": "King",
-        "party": "I",
-        "state": "ME"
-      },
-      {
         "display_name": "Lankford (R-OK)",
         "first_name": "James",
         "id": "S378",
@@ -683,14 +684,6 @@ const senate3Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
-      },
-      {
-        "display_name": "Mullin (R-OK)",
-        "first_name": "Markwayne",
-        "id": "S419",
-        "last_name": "Mullin",
-        "party": "R",
-        "state": "OK"
       },
       {
         "display_name": "Murkowski (R-AK)",
@@ -779,6 +772,14 @@ const senate3Votes =
         "last_name": "Sullivan",
         "party": "R",
         "state": "AK"
+      },
+      {
+        "display_name": "Tester (D-MT)",
+        "first_name": "Jon",
+        "id": "S314",
+        "last_name": "Tester",
+        "party": "D",
+        "state": "MT"
       },
       {
         "display_name": "Thune (R-SD)",
