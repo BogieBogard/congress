@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00132.xml",
   "subject": "Confirmation: Nancy G. Abudu, of Georgia, to be U.S. Circuit Judge for the Eleventh Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-05-20T02:11:53-04:00",
+  "updated_at": "2023-05-20T08:15:00-04:00",
   "vote_id": "s132-118.2023",
   "votes": {
     "Nay": [

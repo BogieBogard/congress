@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll222.xml",
   "subject": "Federal Law Enforcement Officer Service Weapon Purchase Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-20T02:10:01-04:00",
+  "updated_at": "2023-05-20T08:13:08-04:00",
   "vote_id": "h222-118.2023",
   "votes": {
     "Aye": [
