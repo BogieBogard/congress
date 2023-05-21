@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll227.xml",
   "subject": "Expressing support for local law enforcement officers and condemning efforts to defund or dismantle local law enforcement agencies",
   "type": "On the Resolution",
-  "updated_at": "2023-05-21T02:22:29-04:00",
+  "updated_at": "2023-05-21T08:25:36-04:00",
   "vote_id": "h227-118.2023",
   "votes": {
     "Aye": [
