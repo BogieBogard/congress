@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll225.xml",
   "subject": "POLICE Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-21T08:25:37-04:00",
+  "updated_at": "2023-05-21T14:28:44-04:00",
   "vote_id": "h225-118.2023",
   "votes": {
     "Aye": [
