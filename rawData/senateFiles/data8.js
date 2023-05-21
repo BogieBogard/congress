@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00125.xml",
   "subject": "Confirmation: Bradley N. Garcia, of Maryland, to be U.S. Circuit Judge for the District of Columbia Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-05-20T14:18:13-04:00",
+  "updated_at": "2023-05-20T20:21:20-04:00",
   "vote_id": "s125-118.2023",
   "votes": {
     "Nay": [
