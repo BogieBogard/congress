@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll229.xml",
   "subject": "China Financial Threat Mitigation Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-05-24T20:59:26-04:00",
+  "updated_at": "2023-05-25T03:02:38-04:00",
   "vote_id": "h229-118.2023",
   "votes": {
     "Nay": [
