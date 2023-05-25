@@ -2,24 +2,24 @@ const house6Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 429,
-    "type": "hres"
+    "number": 11,
+    "type": "sjres"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-05-23T13:59:00-04:00",
-  "number": 230,
-  "question": "On Ordering the Previous Question: H RES 429 Providing for consideration of the bill (H.R. 467) HALT Fentanyl Act; S.J.Res. 11, Congressional Disapproval \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d; and H.J.Res. 45, Congressional Disapproval \u201cWaivers and Modifications of Federal Student Loans\u201d",
+  "date": "2023-05-23T16:30:00-04:00",
+  "number": 232,
+  "question": "On Passage: S J RES 11 Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll230.xml",
-  "subject": "Providing for consideration of the bill (H.R. 467) HALT Fentanyl Act; S.J.Res. 11, Congressional Disapproval \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d; and H.J.Res. 45, Congressional Disapproval \u201cWaivers and Modifications of Federal Student Loans\u201d",
-  "type": "On Ordering the Previous Question",
-  "updated_at": "2023-05-25T09:05:48-04:00",
-  "vote_id": "h230-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll232.xml",
+  "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-05-25T15:09:00-04:00",
+  "vote_id": "h232-118.2023",
   "votes": {
     "Nay": [
       {
@@ -93,12 +93,6 @@ const house6Votes =
         "id": "B001278",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Bowman",
-        "id": "B001223",
-        "party": "D",
-        "state": "NY"
       },
       {
         "display_name": "Boyle (PA)",
@@ -287,12 +281,6 @@ const house6Votes =
         "state": "CO"
       },
       {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Davids (KS)",
         "id": "D000629",
         "party": "D",
@@ -383,6 +371,12 @@ const house6Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -443,12 +437,6 @@ const house6Votes =
         "state": "CA"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Goldman (NY)",
         "id": "G000599",
         "party": "D",
@@ -459,12 +447,6 @@ const house6Votes =
         "id": "G000585",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Gonzalez, Vicente",
-        "id": "G000581",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Green, Al (TX)",
@@ -821,12 +803,6 @@ const house6Votes =
         "state": "NY"
       },
       {
-        "display_name": "Napolitano",
-        "id": "N000179",
-        "party": "D",
-        "state": "CA"
-      },
-      {
         "display_name": "Neal",
         "id": "N000015",
         "party": "D",
@@ -897,12 +873,6 @@ const house6Votes =
         "id": "P000197",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
       },
       {
         "display_name": "Perez",
@@ -1097,12 +1067,6 @@ const house6Votes =
         "state": "FL"
       },
       {
-        "display_name": "Spanberger",
-        "id": "S001209",
-        "party": "D",
-        "state": "VA"
-      },
-      {
         "display_name": "Stansbury",
         "id": "S001218",
         "party": "D",
@@ -1241,6 +1205,12 @@ const house6Votes =
         "state": "FL"
       },
       {
+        "display_name": "Waters",
+        "id": "W000187",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Watson Coleman",
         "id": "W000822",
         "party": "D",
@@ -1279,6 +1249,12 @@ const house6Votes =
         "state": "VA"
       },
       {
+        "display_name": "Bowman",
+        "id": "B001223",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Gottheimer",
         "id": "G000583",
         "party": "D",
@@ -1289,6 +1265,12 @@ const house6Votes =
         "id": "K000392",
         "party": "R",
         "state": "TN"
+      },
+      {
+        "display_name": "Napolitano",
+        "id": "N000179",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Obernolte",
@@ -1309,16 +1291,16 @@ const house6Votes =
         "state": "ID"
       },
       {
+        "display_name": "Spanberger",
+        "id": "S001209",
+        "party": "D",
+        "state": "VA"
+      },
+      {
         "display_name": "Thompson (MS)",
         "id": "T000193",
         "party": "D",
         "state": "MS"
-      },
-      {
-        "display_name": "Waters",
-        "id": "W000187",
-        "party": "D",
-        "state": "CA"
       }
     ],
     "Present": [],
@@ -1594,6 +1576,12 @@ const house6Votes =
         "state": "TX"
       },
       {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
+        "state": "TX"
+      },
+      {
         "display_name": "Curtis",
         "id": "C001114",
         "party": "R",
@@ -1720,12 +1708,6 @@ const house6Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1792,9 +1774,21 @@ const house6Votes =
         "state": "FL"
       },
       {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
+      },
+      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Gonzalez, Vicente",
+        "id": "G000581",
+        "party": "D",
         "state": "TX"
       },
       {
@@ -2152,12 +2146,6 @@ const house6Votes =
         "state": "FL"
       },
       {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "McCaul",
         "id": "M001157",
         "party": "R",
@@ -2306,6 +2294,12 @@ const house6Votes =
         "id": "P000609",
         "party": "R",
         "state": "AL"
+      },
+      {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
       },
       {
         "display_name": "Pence",
