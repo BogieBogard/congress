@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll233.xml",
   "subject": "Disapproving the rule submitted by the Department of Commerce relating to \u201cProcedures Covering Suspension of Liquidation, Duties and Estimated Duties in Accord with Presidential Proclamation 10414\u201d",
   "type": "Passage, Objections of the President To The Contrary Notwithstanding",
-  "updated_at": "2023-05-25T21:12:18-04:00",
+  "updated_at": "2023-05-26T03:15:30-04:00",
   "vote_id": "h233-118.2023",
   "votes": {
     "Nay": [
