@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll230.xml",
   "subject": "Providing for consideration of the bill (H.R. 467) HALT Fentanyl Act; S.J.Res. 11, Congressional Disapproval \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d; and H.J.Res. 45, Congressional Disapproval \u201cWaivers and Modifications of Federal Student Loans\u201d",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-05-29T04:02:49-04:00",
+  "updated_at": "2023-05-29T17:48:19-04:00",
   "vote_id": "h230-118.2023",
   "votes": {
     "Nay": [
