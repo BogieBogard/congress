@@ -20,7 +20,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00123.xml",
   "subject": "S. J. Res. 24",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-05-29T23:53:32-04:00",
+  "updated_at": "2023-05-30T05:56:45-04:00",
   "vote_id": "s123-118.2023",
   "votes": {
     "Nay": [
