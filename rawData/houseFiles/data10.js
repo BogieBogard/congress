@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll228.xml",
   "subject": "Preventing the Financing of Illegal Synthetic Drugs Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-05-30T11:59:42-04:00",
+  "updated_at": "2023-05-30T18:03:37-04:00",
   "vote_id": "h228-118.2023",
   "votes": {
     "Nay": [
