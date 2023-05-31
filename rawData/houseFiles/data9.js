@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll232.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \u201cControl of Air Pollution From New Motor Vehicles: Heavy-Duty Engine and Vehicle Standards\u201d",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-31T06:10:04-04:00",
+  "updated_at": "2023-05-31T12:13:19-04:00",
   "vote_id": "h232-118.2023",
   "votes": {
     "Nay": [

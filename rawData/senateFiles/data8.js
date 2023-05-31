@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00126.xml",
   "subject": "H. J. Res. 42",
   "type": "On the Joint Resolution",
-  "updated_at": "2023-05-31T06:12:05-04:00",
+  "updated_at": "2023-05-31T12:15:20-04:00",
   "vote_id": "s126-118.2023",
   "votes": {
     "Nay": [

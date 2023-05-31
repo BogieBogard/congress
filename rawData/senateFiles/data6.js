@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00128.xml",
   "subject": "Confirmation: Jeremy C. Daniel, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
   "type": "On the Nomination",
-  "updated_at": "2023-05-31T06:12:04-04:00",
+  "updated_at": "2023-05-31T12:15:19-04:00",
   "vote_id": "s128-118.2023",
   "votes": {
     "Nay": [
