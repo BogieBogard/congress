@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-17T14:22:00-04:00",
+  "date": "2023-05-17T15:19:00-04:00",
   "nomination": {
-    "number": "450",
-    "title": "Jeremy C. Daniel, of Illinois, to be United States District Judge for the Northern District of Illinois"
+    "number": "455",
+    "title": "Darrel James Papillion, of Louisiana, to be United States District Judge for the Eastern District of Louisiana"
   },
-  "number": 128,
-  "question": "On the Nomination PN450: Jeremy C. Daniel, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-05-17T15:32:00-04:00",
+  "number": 129,
+  "question": "Motion to Invoke Cloture: Darrel James Papillion to be U.S. District Judge for the Eastern District of Louisiana: Darrel James Papillion, of Louisiana, to be United States District Judge for the Eastern District of Louisiana",
+  "record_modified": "2023-05-17T16:22:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (56-40)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (63-33)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00128.xml",
-  "subject": "Confirmation: Jeremy C. Daniel, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
-  "type": "On the Nomination",
-  "updated_at": "2023-05-31T12:15:19-04:00",
-  "vote_id": "s128-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00129.xml",
+  "subject": "On the Cloture Motion PN455",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-05-31T18:18:35-04:00",
+  "vote_id": "s129-118.2023",
   "votes": {
     "Nay": [
       {
@@ -69,30 +69,6 @@ const senate6Votes =
         "last_name": "Budd",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
-      },
-      {
-        "display_name": "Cornyn (R-TX)",
-        "first_name": "John",
-        "id": "S287",
-        "last_name": "Cornyn",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Cotton (R-AR)",
@@ -183,14 +159,6 @@ const senate6Votes =
         "state": "ND"
       },
       {
-        "display_name": "Hyde-Smith (R-MS)",
-        "first_name": "Cindy",
-        "id": "S395",
-        "last_name": "Hyde-Smith",
-        "party": "R",
-        "state": "MS"
-      },
-      {
         "display_name": "Johnson (R-WI)",
         "first_name": "Ron",
         "id": "S345",
@@ -263,14 +231,6 @@ const senate6Votes =
         "state": "ID"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rubio (R-FL)",
         "first_name": "Marco",
         "id": "S350",
@@ -325,22 +285,6 @@ const senate6Votes =
         "last_name": "Tuberville",
         "party": "R",
         "state": "AL"
-      },
-      {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
-      },
-      {
-        "display_name": "Wicker (R-MS)",
-        "first_name": "Roger",
-        "id": "S318",
-        "last_name": "Wicker",
-        "party": "R",
-        "state": "MS"
       }
     ],
     "Not Voting": [
@@ -428,6 +372,14 @@ const senate6Votes =
         "state": "WA"
       },
       {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
+      },
+      {
         "display_name": "Cardin (D-MD)",
         "first_name": "Ben",
         "id": "S308",
@@ -452,12 +404,28 @@ const senate6Votes =
         "state": "PA"
       },
       {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "Collins (R-ME)",
         "first_name": "Susan",
         "id": "S252",
         "last_name": "Collins",
         "party": "R",
         "state": "ME"
+      },
+      {
+        "display_name": "Cornyn (R-TX)",
+        "first_name": "John",
+        "id": "S287",
+        "last_name": "Cornyn",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Cortez Masto (D-NV)",
@@ -538,6 +506,14 @@ const senate6Votes =
         "last_name": "Hirono",
         "party": "D",
         "state": "HI"
+      },
+      {
+        "display_name": "Hyde-Smith (R-MS)",
+        "first_name": "Cindy",
+        "id": "S395",
+        "last_name": "Hyde-Smith",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Kaine (D-VA)",
@@ -676,6 +652,14 @@ const senate6Votes =
         "state": "RI"
       },
       {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
@@ -772,6 +756,14 @@ const senate6Votes =
         "state": "MD"
       },
       {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
+      },
+      {
         "display_name": "Warner (D-VA)",
         "first_name": "Mark",
         "id": "S327",
@@ -810,6 +802,14 @@ const senate6Votes =
         "last_name": "Whitehouse",
         "party": "D",
         "state": "RI"
+      },
+      {
+        "display_name": "Wicker (R-MS)",
+        "first_name": "Roger",
+        "id": "S318",
+        "last_name": "Wicker",
+        "party": "R",
+        "state": "MS"
       },
       {
         "display_name": "Wyden (D-OR)",

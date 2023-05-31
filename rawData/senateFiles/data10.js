@@ -1,35 +1,27 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-11T13:46:00-04:00",
+  "date": "2023-05-15T17:32:00-04:00",
   "nomination": {
     "number": "93",
     "title": "Bradley N. Garcia, of Maryland, to be United States Circuit Judge for the District of Columbia Circuit"
   },
-  "number": 124,
-  "question": "Motion to Invoke Cloture: Bradley N. Garcia to be U.S. Circuit Judge for the District of Columbia Circuit: Bradley N. Garcia, of Maryland, to be United States Circuit Judge for the District of Columbia Circuit",
-  "record_modified": "2023-05-11T14:55:00-04:00",
+  "number": 125,
+  "question": "On the Nomination PN93: Bradley N. Garcia, of Maryland, to be United States Circuit Judge for the District of Columbia Circuit",
+  "record_modified": "2023-05-15T18:39:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (54-41)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-40)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00124.xml",
-  "subject": "On the Cloture Motion PN93",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-31T12:15:21-04:00",
-  "vote_id": "s124-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00125.xml",
+  "subject": "Confirmation: Bradley N. Garcia, of Maryland, to be U.S. Circuit Judge for the District of Columbia Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-31T18:18:37-04:00",
+  "vote_id": "s125-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -63,6 +55,14 @@ const senate10Votes =
         "state": "AL"
       },
       {
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Capito (R-WV)",
         "first_name": "Shelley",
         "id": "S372",
@@ -87,14 +87,6 @@ const senate10Votes =
         "state": "TX"
       },
       {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
-      {
         "display_name": "Cramer (R-ND)",
         "first_name": "Kevin",
         "id": "S398",
@@ -109,6 +101,14 @@ const senate10Votes =
         "last_name": "Crapo",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -159,6 +159,14 @@ const senate10Votes =
         "state": "MO"
       },
       {
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
+        "party": "R",
+        "state": "ND"
+      },
+      {
         "display_name": "Hyde-Smith (R-MS)",
         "first_name": "Cindy",
         "id": "S395",
@@ -207,6 +215,14 @@ const senate10Votes =
         "state": "WY"
       },
       {
+        "display_name": "Marshall (R-KS)",
+        "first_name": "Roger",
+        "id": "S411",
+        "last_name": "Marshall",
+        "party": "R",
+        "state": "KS"
+      },
+      {
         "display_name": "McConnell (R-KY)",
         "first_name": "Mitch",
         "id": "S174",
@@ -239,14 +255,6 @@ const senate10Votes =
         "state": "NE"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
         "display_name": "Romney (R-UT)",
         "first_name": "Mitt",
         "id": "S401",
@@ -263,14 +271,6 @@ const senate10Votes =
         "state": "SD"
       },
       {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Schmitt (R-MO)",
         "first_name": "Eric ",
         "id": "S420",
@@ -285,14 +285,6 @@ const senate10Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Sullivan (R-AK)",
@@ -353,36 +345,20 @@ const senate10Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
-        "party": "R",
-        "state": "NC"
-      },
-      {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Hoeven (R-ND)",
+        "display_name": "Barrasso (R-WY)",
         "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
+        "id": "S317",
+        "last_name": "Barrasso",
         "party": "R",
-        "state": "ND"
+        "state": "WY"
       },
       {
-        "display_name": "Marshall (R-KS)",
-        "first_name": "Roger",
-        "id": "S411",
-        "last_name": "Marshall",
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
         "party": "R",
-        "state": "KS"
+        "state": "AR"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -391,6 +367,38 @@ const senate10Votes =
         "last_name": "Moran",
         "party": "R",
         "state": "KS"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       }
     ],
     "Present": [],
@@ -754,14 +762,6 @@ const senate10Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
