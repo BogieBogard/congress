@@ -1,25 +1,25 @@
 const senate6Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-17T11:31:00-04:00",
+  "date": "2023-05-17T14:22:00-04:00",
   "nomination": {
     "number": "450",
     "title": "Jeremy C. Daniel, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 127,
-  "question": "Motion to Invoke Cloture: Jeremy C. Daniel to be U.S. District Judge for the Northern District of Illinois: Jeremy C. Daniel, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-05-17T12:53:00-04:00",
+  "number": 128,
+  "question": "On the Nomination PN450: Jeremy C. Daniel, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-05-17T15:32:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (57-39)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (56-40)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00127.xml",
-  "subject": "On the Cloture Motion PN450",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-30T18:05:34-04:00",
-  "vote_id": "s127-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00128.xml",
+  "subject": "Confirmation: Jeremy C. Daniel, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-31T00:08:49-04:00",
+  "vote_id": "s128-118.2023",
   "votes": {
     "Nay": [
       {
@@ -301,6 +301,14 @@ const senate6Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Thune (R-SD)",
@@ -738,14 +746,6 @@ const senate6Votes =
         "last_name": "Stabenow",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Tester (D-MT)",

@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-17T17:57:00-04:00",
+  "date": "2023-05-18T13:51:00-04:00",
   "nomination": {
     "number": "95",
     "title": "Nancy G. Abudu, of Georgia, to be United States Circuit Judge for the Eleventh Circuit"
   },
-  "number": 131,
-  "question": "Motion to Invoke Cloture: Nancy G. Abudu to be U.S. Circuit Judge for the Eleventh Circuit: Nancy G. Abudu, of Georgia, to be United States Circuit Judge for the Eleventh Circuit",
-  "record_modified": "2023-05-17T20:27:00-04:00",
+  "number": 132,
+  "question": "On the Nomination PN95: Nancy G. Abudu, of Georgia, to be United States Circuit Judge for the Eleventh Circuit",
+  "record_modified": "2023-05-18T15:00:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-48)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (49-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00131.xml",
-  "subject": "On the Cloture Motion PN95",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-05-30T18:05:32-04:00",
-  "vote_id": "s131-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00132.xml",
+  "subject": "Confirmation: Nancy G. Abudu, of Georgia, to be U.S. Circuit Judge for the Eleventh Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2023-05-31T00:08:47-04:00",
+  "vote_id": "s132-118.2023",
   "votes": {
     "Nay": [
       {
@@ -143,14 +143,6 @@ const senate2Votes =
         "state": "MT"
       },
       {
-        "display_name": "Ernst (R-IA)",
-        "first_name": "Joni",
-        "id": "S376",
-        "last_name": "Ernst",
-        "party": "R",
-        "state": "IA"
-      },
-      {
         "display_name": "Fischer (R-NE)",
         "first_name": "Deb",
         "id": "S357",
@@ -271,12 +263,12 @@ const senate2Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
+        "display_name": "Mullin (R-OK)",
+        "first_name": "Markwayne",
+        "id": "S419",
+        "last_name": "Mullin",
         "party": "R",
-        "state": "KS"
+        "state": "OK"
       },
       {
         "display_name": "Murkowski (R-AK)",
@@ -409,12 +401,20 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Mullin (R-OK)",
-        "first_name": "Markwayne",
-        "id": "S419",
-        "last_name": "Mullin",
+        "display_name": "Ernst (R-IA)",
+        "first_name": "Joni",
+        "id": "S376",
+        "last_name": "Ernst",
         "party": "R",
-        "state": "OK"
+        "state": "IA"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -423,6 +423,14 @@ const senate2Votes =
         "last_name": "Rubio",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       }
     ],
     "Present": [],
@@ -706,14 +714,6 @@ const senate2Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",
