@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll239.xml",
   "subject": "Enhancing Multi-Class Share Disclosures Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-05-31T00:06:46-04:00",
+  "updated_at": "2023-05-31T06:10:01-04:00",
   "vote_id": "h239-118.2023",
   "votes": {
     "Nay": [

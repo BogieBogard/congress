@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll234.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \u201cWaivers and Modifications of Federal Student Loans\u201d",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-05-31T00:06:48-04:00",
+  "updated_at": "2023-05-31T06:10:03-04:00",
   "vote_id": "h234-118.2023",
   "votes": {
     "Nay": [
