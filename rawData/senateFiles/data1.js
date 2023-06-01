@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00134.xml",
   "subject": "Motion to Proceed to H.J. Res. 45",
   "type": "On the Motion to Proceed to H.J. Res. 45",
-  "updated_at": "2023-06-01T00:21:51-04:00",
+  "updated_at": "2023-06-01T06:25:10-04:00",
   "vote_id": "s134-118.2023",
   "votes": {
     "Nay": [

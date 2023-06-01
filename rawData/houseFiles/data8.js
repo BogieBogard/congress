@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll237.xml",
   "subject": "HALT Fentanyl Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-06-01T00:19:51-04:00",
+  "updated_at": "2023-06-01T06:23:09-04:00",
   "vote_id": "h237-118.2023",
   "votes": {
     "Nay": [
