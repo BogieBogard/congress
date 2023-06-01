@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll244.xml",
   "subject": "Equal Opportunity for All Investors Act of 2023",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-06-01T06:23:06-04:00",
+  "updated_at": "2023-06-01T12:26:25-04:00",
   "vote_id": "h244-118.2023",
   "votes": {
     "Nay": [

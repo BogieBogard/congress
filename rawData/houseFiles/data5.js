@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll240.xml",
   "subject": "Promoting Opportunities for Non-Traditional Capital Formation Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-06-01T06:23:08-04:00",
+  "updated_at": "2023-06-01T12:26:27-04:00",
   "vote_id": "h240-118.2023",
   "votes": {
     "Nay": [
