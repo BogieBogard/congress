@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll241.xml",
   "subject": "Providing for consideration of H.R. 3746, the Fiscal Responsibility Act of 2023",
   "type": "On the Resolution",
-  "updated_at": "2023-06-01T12:26:26-04:00",
+  "updated_at": "2023-06-01T18:29:44-04:00",
   "vote_id": "h241-118.2023",
   "votes": {
     "Nay": [

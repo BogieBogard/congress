@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll235.xml",
   "subject": "VET-TEC Authorization Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-06-01T12:26:29-04:00",
+  "updated_at": "2023-06-01T18:29:47-04:00",
   "vote_id": "h235-118.2023",
   "votes": {
     "Nay": [

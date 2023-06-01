@@ -6,22 +6,22 @@ const senate1Votes =
     "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Waivers and Modifications of Federal Student Loans\".",
     "type": "hjres"
   },
-  "category": "procedural",
+  "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-05-31T14:34:00-04:00",
-  "number": 134,
-  "question": "On the Motion (Motion to Proceed to H.J. Res. 45)",
-  "record_modified": "2023-05-31T15:35:00-04:00",
+  "date": "2023-06-01T12:45:00-04:00",
+  "number": 135,
+  "question": "On the Joint Resolution H.J.Res. 45",
+  "record_modified": "2023-06-01T14:31:00-04:00",
   "requires": "1/2",
-  "result": "Motion Agreed to",
-  "result_text": "Motion Agreed to (51-46)",
+  "result": "Joint Resolution Passed",
+  "result_text": "Joint Resolution Passed (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00134.xml",
-  "subject": "Motion to Proceed to H.J. Res. 45",
-  "type": "On the Motion to Proceed to H.J. Res. 45",
-  "updated_at": "2023-06-01T12:28:28-04:00",
-  "vote_id": "s134-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00135.xml",
+  "subject": "H.J.Res. 45",
+  "type": "On the Joint Resolution",
+  "updated_at": "2023-06-01T18:31:47-04:00",
+  "vote_id": "s135-118.2023",
   "votes": {
     "Nay": [
       {
@@ -401,14 +401,6 @@ const senate1Votes =
         "last_name": "Bennet",
         "party": "D",
         "state": "CO"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Warner (D-VA)",
@@ -796,6 +788,14 @@ const senate1Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
