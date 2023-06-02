@@ -25,7 +25,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00144.xml",
   "subject": "Lee Amdt. No. 98",
   "type": "On the Amendment",
-  "updated_at": "2023-06-02T00:35:06-04:00",
+  "updated_at": "2023-06-02T06:38:30-04:00",
   "vote_id": "s144-118.2023",
   "votes": {
     "Nay": [

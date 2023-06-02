@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll242.xml",
   "subject": "Condemning the rise of antisemitism and calling on elected officials to identify and educate others on the contributions of the Jewish American community",
   "type": "On Motion to Suspend the Rules and Agree, as Amended",
-  "updated_at": "2023-06-02T00:33:03-04:00",
+  "updated_at": "2023-06-02T06:36:27-04:00",
   "vote_id": "h242-118.2023",
   "votes": {
     "Nay": [],

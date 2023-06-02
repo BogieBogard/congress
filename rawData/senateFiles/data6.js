@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00141.xml",
   "subject": "Kennedy Amdt. No. 104",
   "type": "On the Amendment",
-  "updated_at": "2023-06-02T00:35:08-04:00",
+  "updated_at": "2023-06-02T06:38:32-04:00",
   "vote_id": "s141-118.2023",
   "votes": {
     "Nay": [

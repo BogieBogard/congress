@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll238.xml",
   "subject": "Small Entity Update Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-06-02T00:33:05-04:00",
+  "updated_at": "2023-06-02T06:36:29-04:00",
   "vote_id": "h238-118.2023",
   "votes": {
     "Nay": [

@@ -25,7 +25,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00138.xml",
   "subject": "Marshall Amdt. No. 110",
   "type": "On the Amendment",
-  "updated_at": "2023-06-02T00:35:09-04:00",
+  "updated_at": "2023-06-02T06:38:33-04:00",
   "vote_id": "s138-118.2023",
   "votes": {
     "Nay": [
