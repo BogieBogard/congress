@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll243.xml",
   "subject": "Fiscal Responsibility Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-06-01T18:29:43-04:00",
+  "updated_at": "2023-06-02T00:33:02-04:00",
   "vote_id": "h243-118.2023",
   "votes": {
     "Aye": [
