@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll269.xml",
   "subject": "Censuring and condemning Adam Schiff, Representative of California\u2019s 30th Congressional District",
   "type": "On Motion to Table",
-  "updated_at": "2023-06-16T01:25:18-04:00",
+  "updated_at": "2023-06-16T07:52:49-04:00",
   "vote_id": "h269-118.2023",
   "votes": {
     "Nay": [
