@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll265.xml",
   "subject": "REINS Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-06-17T09:42:19-04:00",
+  "updated_at": "2023-06-17T16:09:27-04:00",
   "vote_id": "h265-118.2023",
   "votes": {
     "Nay": [
