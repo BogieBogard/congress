@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00158.xml",
   "subject": "Confirmation: Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisors",
   "type": "On the Nomination",
-  "updated_at": "2023-06-17T03:17:36-04:00",
+  "updated_at": "2023-06-17T09:44:59-04:00",
   "vote_id": "s158-118.2023",
   "votes": {
     "Nay": [

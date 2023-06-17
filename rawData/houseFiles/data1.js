@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll271.xml",
   "subject": "Separation of Powers Restoration Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-06-17T03:14:51-04:00",
+  "updated_at": "2023-06-17T09:42:16-04:00",
   "vote_id": "h271-118.2023",
   "votes": {
     "Nay": [

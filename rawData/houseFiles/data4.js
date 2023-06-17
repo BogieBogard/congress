@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll268.xml",
   "subject": "Save Our Gas Stoves Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-06-17T03:14:52-04:00",
+  "updated_at": "2023-06-17T09:42:17-04:00",
   "vote_id": "h268-118.2023",
   "votes": {
     "Nay": [

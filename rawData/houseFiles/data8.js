@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll264.xml",
   "subject": "REINS Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-06-17T03:14:54-04:00",
+  "updated_at": "2023-06-17T09:42:20-04:00",
   "vote_id": "h264-118.2023",
   "votes": {
     "Nay": [
