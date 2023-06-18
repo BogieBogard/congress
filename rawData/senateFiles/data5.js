@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00161.xml",
   "subject": "Confirmation: P. Casey Pitts, of California, to be U.S. District Judge for the Northern District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-06-18T11:33:37-04:00",
+  "updated_at": "2023-06-18T18:00:03-04:00",
   "vote_id": "s161-118.2023",
   "votes": {
     "Nay": [
