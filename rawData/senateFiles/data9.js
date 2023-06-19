@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00157.xml",
   "subject": "Confirmation: Hernan D. Vera, of California, to be U.S. District Judge for the Central District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-06-19T00:27:36-04:00",
+  "updated_at": "2023-06-19T06:55:06-04:00",
   "vote_id": "s157-118.2023",
   "votes": {
     "Nay": [
