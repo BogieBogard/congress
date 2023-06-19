@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00162.xml",
   "subject": "Confirmation: Dale E. Ho, of New York, to be U.S. District Judge for the Southern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-06-18T18:00:02-04:00",
+  "updated_at": "2023-06-19T00:27:33-04:00",
   "vote_id": "s162-118.2023",
   "votes": {
     "Nay": [
