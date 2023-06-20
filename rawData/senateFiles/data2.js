@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00164.xml",
   "subject": "Confirmation: Nusrat Jahan Choudhury, of New York, to be U.S. District Judge for the Eastern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-06-19T13:21:48-04:00",
+  "updated_at": "2023-06-19T19:44:02-04:00",
   "vote_id": "s164-118.2023",
   "votes": {
     "Nay": [
