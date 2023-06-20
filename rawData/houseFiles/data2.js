@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll270.xml",
   "subject": "Separation of Powers Restoration Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-06-20T02:07:52-04:00",
+  "updated_at": "2023-06-20T08:32:16-04:00",
   "vote_id": "h270-118.2023",
   "votes": {
     "Nay": [
