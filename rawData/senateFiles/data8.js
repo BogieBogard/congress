@@ -1,25 +1,25 @@
 const senate8Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-13T18:01:00-04:00",
+  "date": "2023-06-15T13:46:00-04:00",
   "nomination": {
-    "number": "383",
-    "title": "Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisers"
+    "number": "90",
+    "title": "Julie Rikelman, of Massachusetts, to be United States Circuit Judge for the First Circuit"
   },
-  "number": 158,
-  "question": "On the Nomination PN383: Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisers",
-  "record_modified": "2023-06-13T19:16:00-04:00",
+  "number": 165,
+  "question": "Motion to Invoke Cloture: Julie Rikelman to be U.S. Circuit Judge for the First Circuit: Julie Rikelman, of Massachusetts, to be United States Circuit Judge for the First Circuit",
+  "record_modified": "2023-06-15T14:48:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (50-49)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (53-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00158.xml",
-  "subject": "Confirmation: Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisors",
-  "type": "On the Nomination",
-  "updated_at": "2023-06-20T08:34:58-04:00",
-  "vote_id": "s158-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00165.xml",
+  "subject": "On the Cloture Motion PN90",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-07-03T16:26:00-04:00",
+  "vote_id": "s165-118.2023",
   "votes": {
     "Nay": [
       {
@@ -29,14 +29,6 @@ const senate8Votes =
         "last_name": "Barrasso",
         "party": "R",
         "state": "WY"
-      },
-      {
-        "display_name": "Blackburn (R-TN)",
-        "first_name": "Marsha",
-        "id": "S396",
-        "last_name": "Blackburn",
-        "party": "R",
-        "state": "TN"
       },
       {
         "display_name": "Boozman (R-AR)",
@@ -85,14 +77,6 @@ const senate8Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
-      },
-      {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -247,14 +231,6 @@ const senate8Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -285,14 +261,6 @@ const senate8Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -359,14 +327,6 @@ const senate8Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -389,6 +349,14 @@ const senate8Votes =
         "last_name": "Tillis",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       },
       {
         "display_name": "Vance (R-OH)",
@@ -417,12 +385,20 @@ const senate8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Blackburn (R-TN)",
+        "first_name": "Marsha",
+        "id": "S396",
+        "last_name": "Blackburn",
         "party": "R",
-        "state": "AL"
+        "state": "TN"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -498,6 +474,14 @@ const senate8Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -628,6 +612,14 @@ const senate8Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -650,6 +642,14 @@ const senate8Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

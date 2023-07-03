@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-14T14:27:00-04:00",
+  "date": "2023-06-21T12:32:00-04:00",
   "nomination": {
-    "number": "177",
-    "title": "P. Casey Pitts, of California, to be United States District Judge for the Northern District of California"
+    "number": "82",
+    "title": "Natasha C. Merle, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 161,
-  "question": "On the Nomination PN177: P. Casey Pitts, of California, to be United States District Judge for the Northern District of California",
-  "record_modified": "2023-06-14T15:40:00-04:00",
+  "number": 168,
+  "question": "Motion to Invoke Cloture: Natasha C. Merle to be U.S. District Judge for the Eastern District of New York: Natasha C. Merle, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-06-21T13:53:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-46)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (50-50, Vice President of the United States, voted Yea)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00161.xml",
-  "subject": "Confirmation: P. Casey Pitts, of California, to be U.S. District Judge for the Northern District of California",
-  "type": "On the Nomination",
-  "updated_at": "2023-06-20T08:34:56-04:00",
-  "vote_id": "s161-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00168.xml",
+  "subject": "On the Cloture Motion PN82",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-07-03T16:25:59-04:00",
+  "vote_id": "s168-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,6 +87,14 @@ const senate5Votes =
         "state": "LA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -149,6 +157,14 @@ const senate5Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -229,6 +245,14 @@ const senate5Votes =
         "last_name": "Lummis",
         "party": "R",
         "state": "WY"
+      },
+      {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
       },
       {
         "display_name": "Marshall (R-KS)",
@@ -335,6 +359,14 @@ const senate5Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -391,18 +423,10 @@ const senate5Votes =
         "state": "IN"
       }
     ],
-    "Not Voting": [
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      }
-    ],
+    "Not Voting": [],
     "Present": [],
     "Yea": [
+      "VP",
       {
         "display_name": "Baldwin (D-WI)",
         "first_name": "Tammy",
@@ -476,14 +500,6 @@ const senate5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -538,14 +554,6 @@ const senate5Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -618,14 +626,6 @@ const senate5Votes =
         "last_name": "Lujan",
         "party": "D",
         "state": "NM"
-      },
-      {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
       },
       {
         "display_name": "Markey (D-MA)",

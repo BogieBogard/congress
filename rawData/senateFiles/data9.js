@@ -3,23 +3,23 @@ const senate9Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-13T16:56:00-04:00",
+  "date": "2023-06-15T11:13:00-04:00",
   "nomination": {
-    "number": "87",
-    "title": "Hernan D. Vera, of California, to be United States District Judge for the Central District of California"
+    "number": "83",
+    "title": "Nusrat Jahan Choudhury, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 157,
-  "question": "On the Nomination PN87: Hernan D. Vera, of California, to be United States District Judge for the Central District of California",
-  "record_modified": "2023-06-13T18:26:00-04:00",
+  "number": 164,
+  "question": "On the Nomination PN83: Nusrat Jahan Choudhury, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-06-15T12:30:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (51-48)",
+  "result_text": "Nomination Confirmed (50-49)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00157.xml",
-  "subject": "Confirmation: Hernan D. Vera, of California, to be U.S. District Judge for the Central District of California",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00164.xml",
+  "subject": "Confirmation: Nusrat Jahan Choudhury, of New York, to be U.S. District Judge for the Eastern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-06-20T08:34:58-04:00",
-  "vote_id": "s157-118.2023",
+  "updated_at": "2023-07-03T16:26:01-04:00",
+  "vote_id": "s164-118.2023",
   "votes": {
     "Nay": [
       {
@@ -247,6 +247,14 @@ const senate9Votes =
         "state": "WY"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -351,14 +359,6 @@ const senate9Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -381,6 +381,14 @@ const senate9Votes =
         "last_name": "Tillis",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       },
       {
         "display_name": "Vance (R-OH)",
@@ -409,12 +417,12 @@ const senate9Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
         "party": "R",
-        "state": "AL"
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -618,14 +626,6 @@ const senate9Votes =
         "last_name": "Lujan",
         "party": "D",
         "state": "NM"
-      },
-      {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
       },
       {
         "display_name": "Markey (D-MA)",

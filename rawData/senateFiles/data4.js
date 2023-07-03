@@ -3,23 +3,23 @@ const senate4Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-14T15:23:00-04:00",
+  "date": "2023-06-21T14:16:00-04:00",
   "nomination": {
-    "number": "86",
-    "title": "Dale E. Ho, of New York, to be United States District Judge for the Southern District of New York"
+    "number": "82",
+    "title": "Natasha C. Merle, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 162,
-  "question": "On the Nomination PN86: Dale E. Ho, of New York, to be United States District Judge for the Southern District of New York",
-  "record_modified": "2023-06-14T16:50:00-04:00",
+  "number": 169,
+  "question": "On the Nomination PN82: Natasha C. Merle, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-06-21T15:50:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
   "result_text": "Nomination Confirmed (50-49)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00162.xml",
-  "subject": "Confirmation: Dale E. Ho, of New York, to be U.S. District Judge for the Southern District of New York",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00169.xml",
+  "subject": "Confirmation: Natasha C. Merle, of New York, to be U.S. District Judge for the Eastern District of New York",
   "type": "On the Nomination",
-  "updated_at": "2023-06-20T08:34:56-04:00",
-  "vote_id": "s162-118.2023",
+  "updated_at": "2023-07-03T16:25:58-04:00",
+  "vote_id": "s169-118.2023",
   "votes": {
     "Nay": [
       {
@@ -157,14 +157,6 @@ const senate4Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -359,6 +351,14 @@ const senate4Votes =
         "state": "FL"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -417,10 +417,10 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
         "party": "R",
         "state": "SC"
       }

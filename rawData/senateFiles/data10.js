@@ -3,23 +3,23 @@ const senate10Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-13T14:15:00-04:00",
+  "date": "2023-06-14T17:14:00-04:00",
   "nomination": {
-    "number": "383",
-    "title": "Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisers"
+    "number": "83",
+    "title": "Nusrat Jahan Choudhury, of New York, to be United States District Judge for the Eastern District of New York"
   },
-  "number": 156,
-  "question": "Motion to Invoke Cloture: Jared Bernstein to be Chairman of the Council of Economic Advisers: Jared Bernstein, of Virginia, to be Chairman of the Council of Economic Advisers",
-  "record_modified": "2023-06-13T15:21:00-04:00",
+  "number": 163,
+  "question": "Motion to Invoke Cloture: Nusrat Jahan Choudhury to be U.S. District Judge for the Eastern District of New York: Nusrat Jahan Choudhury, of New York, to be United States District Judge for the Eastern District of New York",
+  "record_modified": "2023-06-14T18:37:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-49)",
+  "result_text": "Cloture Motion Agreed to (50-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00156.xml",
-  "subject": "On the Cloture Motion PN383",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00163.xml",
+  "subject": "On the Cloture Motion PN83",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-06-20T08:34:59-04:00",
-  "vote_id": "s156-118.2023",
+  "updated_at": "2023-07-03T16:26:01-04:00",
+  "vote_id": "s163-118.2023",
   "votes": {
     "Nay": [
       {
@@ -101,14 +101,6 @@ const senate10Votes =
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -343,28 +335,12 @@ const senate10Votes =
         "state": "FL"
       },
       {
-        "display_name": "Schmitt (R-MO)",
-        "first_name": "Eric ",
-        "id": "S420",
-        "last_name": "Schmitt",
-        "party": "R",
-        "state": "MO"
-      },
-      {
         "display_name": "Scott (R-FL)",
         "first_name": "Rick",
         "id": "S404",
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Sullivan (R-AK)",
@@ -389,6 +365,14 @@ const senate10Votes =
         "last_name": "Tillis",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       },
       {
         "display_name": "Vance (R-OH)",
@@ -417,12 +401,28 @@ const senate10Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
         "party": "R",
-        "state": "AL"
+        "state": "AR"
+      },
+      {
+        "display_name": "Schmitt (R-MO)",
+        "first_name": "Eric ",
+        "id": "S420",
+        "last_name": "Schmitt",
+        "party": "R",
+        "state": "MO"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],

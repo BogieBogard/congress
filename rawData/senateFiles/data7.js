@@ -1,35 +1,27 @@
 const senate7Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-06-14T11:39:00-04:00",
+  "date": "2023-06-20T17:32:00-04:00",
   "nomination": {
-    "number": "177",
-    "title": "P. Casey Pitts, of California, to be United States District Judge for the Northern District of California"
+    "number": "90",
+    "title": "Julie Rikelman, of Massachusetts, to be United States Circuit Judge for the First Circuit"
   },
-  "number": 159,
-  "question": "Motion to Invoke Cloture: P. Casey Pitts to be U.S. District Judge for the Northern District of California: P. Casey Pitts, of California, to be United States District Judge for the Northern District of California",
-  "record_modified": "2023-06-14T12:41:00-04:00",
+  "number": 166,
+  "question": "On the Nomination PN90: Julie Rikelman, of Massachusetts, to be United States Circuit Judge for the First Circuit",
+  "record_modified": "2023-06-20T19:12:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (53-46)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (51-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00159.xml",
-  "subject": "On the Cloture Motion PN177",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-06-20T08:34:57-04:00",
-  "vote_id": "s159-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00166.xml",
+  "subject": "Confirmation: Julie Rikelman, of Massachusetts, to be U.S. Circuit Judge for the First Circuit",
+  "type": "On the Nomination",
+  "updated_at": "2023-07-03T16:26:00-04:00",
+  "vote_id": "s166-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -151,6 +143,14 @@ const senate7Votes =
         "state": "NE"
       },
       {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Grassley (R-IA)",
         "first_name": "Chuck",
         "id": "S153",
@@ -263,14 +263,6 @@ const senate7Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -287,14 +279,6 @@ const senate7Votes =
         "state": "NE"
       },
       {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
-      },
-      {
         "display_name": "Romney (R-UT)",
         "first_name": "Mitt",
         "id": "S401",
@@ -309,14 +293,6 @@ const senate7Votes =
         "last_name": "Rounds",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -392,6 +368,46 @@ const senate7Votes =
       }
     ],
     "Not Voting": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
+      {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Murphy (D-CT)",
+        "first_name": "Christopher",
+        "id": "S364",
+        "last_name": "Murphy",
+        "party": "D",
+        "state": "CT"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
       {
         "display_name": "Scott (R-SC)",
         "first_name": "Tim",
@@ -524,28 +540,12 @@ const senate7Votes =
         "state": "CA"
       },
       {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -652,12 +652,12 @@ const senate7Votes =
         "state": "OR"
       },
       {
-        "display_name": "Murphy (D-CT)",
-        "first_name": "Christopher",
-        "id": "S364",
-        "last_name": "Murphy",
-        "party": "D",
-        "state": "CT"
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murray (D-WA)",
