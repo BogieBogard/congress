@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00182.xml",
   "subject": "Confirmation: Myong J. Joun, of Massachusetts, to be U.S. District Judge for the District of Massachusetts",
   "type": "On the Nomination",
-  "updated_at": "2023-07-13T03:59:06-04:00",
+  "updated_at": "2023-07-13T13:41:09-04:00",
   "vote_id": "s182-118.2023",
   "votes": {
     "Nay": [

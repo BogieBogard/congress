@@ -18,7 +18,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00178.xml",
   "subject": "Confirmation: Kymberly Kathryn Evanson, of Washington, to be U.S. District Judge for the Western District of Washington",
   "type": "On the Nomination",
-  "updated_at": "2023-07-13T03:59:08-04:00",
+  "updated_at": "2023-07-13T13:41:11-04:00",
   "vote_id": "s178-118.2023",
   "votes": {
     "Nay": [

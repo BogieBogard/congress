@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll286.xml",
   "subject": "Condemning the use of elementary and secondary school facilities to provide shelter for aliens who are not admitted to the United States",
   "type": "On the Resolution",
-  "updated_at": "2023-07-13T03:56:40-04:00",
+  "updated_at": "2023-07-13T10:24:08-04:00",
   "vote_id": "h286-118.2023",
   "votes": {
     "Nay": [

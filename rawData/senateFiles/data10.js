@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00174.xml",
   "subject": "Confirmation: Xochitl Torres Small, of New Mexico, to be Deputy Secretary of Agriculture",
   "type": "On the Nomination",
-  "updated_at": "2023-07-13T03:59:10-04:00",
+  "updated_at": "2023-07-13T13:41:13-04:00",
   "vote_id": "s174-118.2023",
   "votes": {
     "Nay": [

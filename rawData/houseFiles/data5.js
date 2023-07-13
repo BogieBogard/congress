@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll290.xml",
   "subject": "Improving Access to Small Business Information Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-07-13T03:56:38-04:00",
+  "updated_at": "2023-07-13T10:24:06-04:00",
   "vote_id": "h290-118.2023",
   "votes": {
     "Nay": [

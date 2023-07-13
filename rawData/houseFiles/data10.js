@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll285.xml",
   "subject": "Relating to the resolution (H. Res. 503) impeaching Joseph R. Biden, Jr., President of the United States, for high crimes and misdemeanors",
   "type": "On the Resolution",
-  "updated_at": "2023-07-13T03:56:41-04:00",
+  "updated_at": "2023-07-13T10:24:09-04:00",
   "vote_id": "h285-118.2023",
   "votes": {
     "Aye": [

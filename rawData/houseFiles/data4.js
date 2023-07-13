@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll291.xml",
   "subject": "250th Anniversary of the United States Marine Corps Commemorative Coin Act",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-07-13T03:56:38-04:00",
+  "updated_at": "2023-07-13T10:24:06-04:00",
   "vote_id": "h291-118.2023",
   "votes": {
     "Nay": [

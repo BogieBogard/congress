@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll288.xml",
   "subject": "Middle Class Borrower Protection Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-07-13T03:56:39-04:00",
+  "updated_at": "2023-07-13T10:24:07-04:00",
   "vote_id": "h288-118.2023",
   "votes": {
     "Nay": [

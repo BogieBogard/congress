@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll294.xml",
   "subject": "Providing for consideration of the bill (H.R. 2670) National Defense Authorization Act for FY 2024",
   "type": "On the Resolution",
-  "updated_at": "2023-07-13T03:56:36-04:00",
+  "updated_at": "2023-07-13T10:24:04-04:00",
   "vote_id": "h294-118.2023",
   "votes": {
     "Aye": [

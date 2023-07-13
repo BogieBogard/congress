@@ -18,7 +18,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00177.xml",
   "subject": "Confirmation: Rosemarie Hidalgo, of the District of Columbia, to be Director of the Violence Against Women Office, Department of Justice",
   "type": "On the Nomination",
-  "updated_at": "2023-07-13T03:59:08-04:00",
+  "updated_at": "2023-07-13T13:41:12-04:00",
   "vote_id": "s177-118.2023",
   "votes": {
     "Nay": [
