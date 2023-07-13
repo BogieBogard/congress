@@ -3,23 +3,23 @@ const senate2Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-11T17:20:00-04:00",
+  "date": "2023-07-12T16:09:00-04:00",
   "nomination": {
-    "number": "168",
-    "title": "Kymberly Kathryn Evanson, of Washington, to be United States District Judge for the Western District of Washington"
+    "number": "169",
+    "title": "Myong J. Joun, of Massachusetts, to be United States District Judge for the District of Massachusetts"
   },
-  "number": 178,
-  "question": "On the Nomination PN168: Kymberly Kathryn Evanson, of Washington, to be United States District Judge for the Western District of Washington",
-  "record_modified": "2023-07-11T19:03:00-04:00",
+  "number": 182,
+  "question": "On the Nomination PN169: Myong J. Joun, of Massachusetts, to be United States District Judge for the District of Massachusetts",
+  "record_modified": "2023-07-12T17:22:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (50-42)",
+  "result_text": "Nomination Confirmed (52-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00178.xml",
-  "subject": "Confirmation: Kymberly Kathryn Evanson, of Washington, to be U.S. District Judge for the Western District of Washington",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00182.xml",
+  "subject": "Confirmation: Myong J. Joun, of Massachusetts, to be U.S. District Judge for the District of Massachusetts",
   "type": "On the Nomination",
-  "updated_at": "2023-07-12T09:29:00-04:00",
-  "vote_id": "s178-118.2023",
+  "updated_at": "2023-07-13T03:59:06-04:00",
+  "vote_id": "s182-118.2023",
   "votes": {
     "Nay": [
       {
@@ -93,6 +93,14 @@ const senate2Votes =
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -263,6 +271,14 @@ const senate2Votes =
         "state": "KY"
       },
       {
+        "display_name": "Ricketts (R-NE)",
+        "first_name": "Pete",
+        "id": "S423",
+        "last_name": "Ricketts",
+        "party": "R",
+        "state": "NE"
+      },
+      {
         "display_name": "Risch (R-ID)",
         "first_name": "James ",
         "id": "S323",
@@ -319,12 +335,28 @@ const senate2Votes =
         "state": "SC"
       },
       {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Thune (R-SD)",
         "first_name": "John",
         "id": "S303",
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -361,68 +393,20 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
-      {
-        "display_name": "Durbin (D-IL)",
-        "first_name": "Richard",
-        "id": "S253",
-        "last_name": "Durbin",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Hickenlooper (D-CO)",
-        "first_name": "John",
-        "id": "S408",
-        "last_name": "Hickenlooper",
-        "party": "D",
-        "state": "CO"
-      },
-      {
-        "display_name": "King (I-ME)",
-        "first_name": "Angus",
-        "id": "S363",
-        "last_name": "King",
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
         "party": "I",
-        "state": "ME"
+        "state": "VT"
       },
       {
-        "display_name": "Ricketts (R-NE)",
-        "first_name": "Pete",
-        "id": "S423",
-        "last_name": "Ricketts",
-        "party": "R",
-        "state": "NE"
-      },
-      {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
+        "display_name": "Welch (D-VT)",
+        "first_name": "Peter",
+        "id": "S422",
+        "last_name": "Welch",
         "party": "D",
-        "state": "NH"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
+        "state": "VT"
       }
     ],
     "Present": [],
@@ -532,6 +516,14 @@ const senate2Votes =
         "state": "IL"
       },
       {
+        "display_name": "Durbin (D-IL)",
+        "first_name": "Richard",
+        "id": "S253",
+        "last_name": "Durbin",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
@@ -580,6 +572,14 @@ const senate2Votes =
         "state": "NM"
       },
       {
+        "display_name": "Hickenlooper (D-CO)",
+        "first_name": "John",
+        "id": "S408",
+        "last_name": "Hickenlooper",
+        "party": "D",
+        "state": "CO"
+      },
+      {
         "display_name": "Hirono (D-HI)",
         "first_name": "Mazie",
         "id": "S361",
@@ -602,6 +602,14 @@ const senate2Votes =
         "last_name": "Kelly",
         "party": "D",
         "state": "AZ"
+      },
+      {
+        "display_name": "King (I-ME)",
+        "first_name": "Angus",
+        "id": "S363",
+        "last_name": "King",
+        "party": "I",
+        "state": "ME"
       },
       {
         "display_name": "Klobuchar (D-MN)",
@@ -716,14 +724,6 @@ const senate2Votes =
         "state": "NV"
       },
       {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
-      },
-      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -738,6 +738,14 @@ const senate2Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",
@@ -802,14 +810,6 @@ const senate2Votes =
         "last_name": "Warren",
         "party": "D",
         "state": "MA"
-      },
-      {
-        "display_name": "Welch (D-VT)",
-        "first_name": "Peter",
-        "id": "S422",
-        "last_name": "Welch",
-        "party": "D",
-        "state": "VT"
       },
       {
         "display_name": "Whitehouse (D-RI)",

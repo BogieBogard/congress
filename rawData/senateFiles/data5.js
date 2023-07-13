@@ -3,25 +3,33 @@ const senate5Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-11T12:31:00-04:00",
+  "date": "2023-07-11T17:52:00-04:00",
   "nomination": {
-    "number": "70",
-    "title": "Rosemarie Hidalgo, of the District of Columbia, to be Director of the Violence Against Women Office, Department of Justice"
+    "number": "81",
+    "title": "Tiffany M. Cartwright, of Washington, to be United States District Judge for the Western District of Washington"
   },
-  "number": 175,
-  "question": "Motion to Invoke Cloture: Rosemarie Hidalgo to be Director of the Violence Against Women Office, Department of Justice: Rosemarie Hidalgo, of the District of Columbia, to be Director of the Violence Against Women Office, Department of Justice",
-  "record_modified": "2023-07-11T19:00:00-04:00",
+  "number": 179,
+  "question": "Motion to Invoke Cloture: Tiffany M. Cartwright to be U.S. District Judge for the Western District of Washington: Tiffany M. Cartwright, of Washington, to be United States District Judge for the Western District of Washington",
+  "record_modified": "2023-07-12T15:20:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-42)",
+  "result_text": "Cloture Motion Agreed to (49-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00175.xml",
-  "subject": "On the Cloture Motion PN70",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00179.xml",
+  "subject": "On the Cloture Motion PN81",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-07-12T09:29:02-04:00",
-  "vote_id": "s175-118.2023",
+  "updated_at": "2023-07-13T03:59:07-04:00",
+  "vote_id": "s179-118.2023",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -85,22 +93,6 @@ const senate5Votes =
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -255,6 +247,14 @@ const senate5Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -361,12 +361,20 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
         "party": "R",
-        "state": "WY"
+        "state": "AR"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -375,14 +383,6 @@ const senate5Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "King (I-ME)",
@@ -399,6 +399,14 @@ const senate5Votes =
         "last_name": "Ricketts",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Shaheen (D-NH)",
@@ -540,6 +548,14 @@ const senate5Votes =
         "state": "CA"
       },
       {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
+      },
+      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
@@ -652,14 +668,6 @@ const senate5Votes =
         "state": "OR"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -714,14 +722,6 @@ const senate5Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

@@ -1,27 +1,35 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-11T14:15:00-04:00",
+  "date": "2023-07-12T11:35:00-04:00",
   "nomination": {
-    "number": "168",
-    "title": "Kymberly Kathryn Evanson, of Washington, to be United States District Judge for the Western District of Washington"
+    "number": "81",
+    "title": "Tiffany M. Cartwright, of Washington, to be United States District Judge for the Western District of Washington"
   },
-  "number": 176,
-  "question": "Motion to Invoke Cloture: Kymberly Kathryn Evanson to be U.S. District Judge for the Western District of Washington: Kymberly Kathryn Evanson, of Washington, to be United States District Judge for the Western District of Washington",
-  "record_modified": "2023-07-11T19:01:00-04:00",
+  "number": 180,
+  "question": "On the Nomination PN81: Tiffany M. Cartwright, of Washington, to be United States District Judge for the Western District of Washington",
+  "record_modified": "2023-07-12T12:53:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-42)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (50-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00176.xml",
-  "subject": "On the Cloture Motion PN168",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-07-12T09:29:01-04:00",
-  "vote_id": "s176-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00180.xml",
+  "subject": "Confirmation: Tiffany M. Cartwright, of Washington, to be U.S. District Judge for the Western District of Washington",
+  "type": "On the Nomination",
+  "updated_at": "2023-07-13T03:59:07-04:00",
+  "vote_id": "s180-118.2023",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -255,12 +263,28 @@ const senate4Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
         "last_name": "Paul",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Ricketts (R-NE)",
+        "first_name": "Pete",
+        "id": "S423",
+        "last_name": "Ricketts",
+        "party": "R",
+        "state": "NE"
       },
       {
         "display_name": "Risch (R-ID)",
@@ -319,12 +343,28 @@ const senate4Votes =
         "state": "SC"
       },
       {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Thune (R-SD)",
         "first_name": "John",
         "id": "S303",
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -361,60 +401,28 @@ const senate4Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Barrasso (R-WY)",
+        "display_name": "Fetterman (D-PA)",
         "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
-      {
-        "display_name": "Durbin (D-IL)",
-        "first_name": "Richard",
-        "id": "S253",
-        "last_name": "Durbin",
+        "id": "S418",
+        "last_name": "Fetterman",
         "party": "D",
-        "state": "IL"
+        "state": "PA"
       },
       {
-        "display_name": "King (I-ME)",
-        "first_name": "Angus",
-        "id": "S363",
-        "last_name": "King",
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
         "party": "I",
-        "state": "ME"
+        "state": "VT"
       },
       {
-        "display_name": "Ricketts (R-NE)",
-        "first_name": "Pete",
-        "id": "S423",
-        "last_name": "Ricketts",
-        "party": "R",
-        "state": "NE"
-      },
-      {
-        "display_name": "Shaheen (D-NH)",
-        "first_name": "Jeanne",
-        "id": "S324",
-        "last_name": "Shaheen",
+        "display_name": "Welch (D-VT)",
+        "first_name": "Peter",
+        "id": "S422",
+        "last_name": "Welch",
         "party": "D",
-        "state": "NH"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
+        "state": "VT"
       }
     ],
     "Present": [],
@@ -524,20 +532,20 @@ const senate4Votes =
         "state": "IL"
       },
       {
+        "display_name": "Durbin (D-IL)",
+        "first_name": "Richard",
+        "id": "S253",
+        "last_name": "Durbin",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
         "id": "S221",
         "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Fetterman (D-PA)",
-        "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
       },
       {
         "display_name": "Gillibrand (D-NY)",
@@ -604,6 +612,14 @@ const senate4Votes =
         "state": "AZ"
       },
       {
+        "display_name": "King (I-ME)",
+        "first_name": "Angus",
+        "id": "S363",
+        "last_name": "King",
+        "party": "I",
+        "state": "ME"
+      },
+      {
         "display_name": "Klobuchar (D-MN)",
         "first_name": "Amy",
         "id": "S311",
@@ -650,14 +666,6 @@ const senate4Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -716,14 +724,6 @@ const senate4Votes =
         "state": "NV"
       },
       {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
-      },
-      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -738,6 +738,14 @@ const senate4Votes =
         "last_name": "Schumer",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Shaheen (D-NH)",
+        "first_name": "Jeanne",
+        "id": "S324",
+        "last_name": "Shaheen",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Sinema (I-AZ)",
@@ -802,14 +810,6 @@ const senate4Votes =
         "last_name": "Warren",
         "party": "D",
         "state": "MA"
-      },
-      {
-        "display_name": "Welch (D-VT)",
-        "first_name": "Peter",
-        "id": "S422",
-        "last_name": "Welch",
-        "party": "D",
-        "state": "VT"
       },
       {
         "display_name": "Whitehouse (D-RI)",
