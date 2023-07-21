@@ -1,35 +1,27 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-12T12:32:00-04:00",
+  "date": "2023-07-20T12:00:00-04:00",
   "nomination": {
-    "number": "169",
-    "title": "Myong J. Joun, of Massachusetts, to be United States District Judge for the District of Massachusetts"
+    "number": "118",
+    "title": "David M. Uhlmann, of Michigan, to be an Assistant Administrator of the Environmental Protection Agency"
   },
-  "number": 181,
-  "question": "Motion to Invoke Cloture: Myong J. Joun to be U.S. District Judge for the District of Massachusetts: Myong J. Joun, of Massachusetts, to be United States District Judge for the District of Massachusetts",
-  "record_modified": "2023-07-12T13:55:00-04:00",
+  "number": 193,
+  "question": "On the Nomination PN118: David M. Uhlmann, of Michigan, to be an Assistant Administrator of the Environmental Protection Agency",
+  "record_modified": "2023-07-20T13:32:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-46)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-46)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00181.xml",
-  "subject": "On the Cloture Motion PN169",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-07-13T13:41:10-04:00",
-  "vote_id": "s181-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00193.xml",
+  "subject": "Confirmation: David M. Uhlmann, of Michigan, to be an Assistant Administrator of the Environmental Protection Agency",
+  "type": "On the Nomination",
+  "updated_at": "2023-07-21T09:31:36-04:00",
+  "vote_id": "s193-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -77,14 +69,6 @@ const senate3Votes =
         "last_name": "Capito",
         "party": "R",
         "state": "WV"
-      },
-      {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
-        "party": "R",
-        "state": "LA"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -149,6 +133,14 @@ const senate3Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -229,6 +221,14 @@ const senate3Votes =
         "last_name": "Lummis",
         "party": "R",
         "state": "WY"
+      },
+      {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
       },
       {
         "display_name": "Marshall (R-KS)",
@@ -393,28 +393,12 @@ const senate3Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Fetterman (D-PA)",
+        "display_name": "Barrasso (R-WY)",
         "first_name": "John",
-        "id": "S418",
-        "last_name": "Fetterman",
-        "party": "D",
-        "state": "PA"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
-      },
-      {
-        "display_name": "Welch (D-VT)",
-        "first_name": "Peter",
-        "id": "S422",
-        "last_name": "Welch",
-        "party": "D",
-        "state": "VT"
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
       }
     ],
     "Present": [],
@@ -492,6 +476,14 @@ const senate3Votes =
         "state": "PA"
       },
       {
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
+        "party": "R",
+        "state": "LA"
+      },
+      {
         "display_name": "Collins (R-ME)",
         "first_name": "Susan",
         "id": "S252",
@@ -540,20 +532,20 @@ const senate3Votes =
         "state": "CA"
       },
       {
+        "display_name": "Fetterman (D-PA)",
+        "first_name": "John",
+        "id": "S418",
+        "last_name": "Fetterman",
+        "party": "D",
+        "state": "PA"
+      },
+      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -626,14 +618,6 @@ const senate3Votes =
         "last_name": "Lujan",
         "party": "D",
         "state": "NM"
-      },
-      {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
       },
       {
         "display_name": "Markey (D-MA)",
@@ -724,6 +708,14 @@ const senate3Votes =
         "state": "NV"
       },
       {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
+      },
+      {
         "display_name": "Schatz (D-HI)",
         "first_name": "Brian",
         "id": "S353",
@@ -810,6 +802,14 @@ const senate3Votes =
         "last_name": "Warren",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "Welch (D-VT)",
+        "first_name": "Peter",
+        "id": "S422",
+        "last_name": "Welch",
+        "party": "D",
+        "state": "VT"
       },
       {
         "display_name": "Whitehouse (D-RI)",
