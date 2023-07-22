@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00193.xml",
   "subject": "Confirmation: David M. Uhlmann, of Michigan, to be an Assistant Administrator of the Environmental Protection Agency",
   "type": "On the Nomination",
-  "updated_at": "2023-07-22T03:46:40-04:00",
+  "updated_at": "2023-07-22T09:51:32-04:00",
   "vote_id": "s193-118.2023",
   "votes": {
     "Nay": [
