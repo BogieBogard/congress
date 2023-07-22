@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00190.xml",
   "subject": "Kaine Amdt. No. 429",
   "type": "On the Amendment",
-  "updated_at": "2023-07-21T21:41:45-04:00",
+  "updated_at": "2023-07-22T03:46:41-04:00",
   "vote_id": "s190-118.2023",
   "votes": {
     "Nay": [
