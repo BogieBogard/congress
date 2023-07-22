@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00191.xml",
   "subject": "Paul Amdt. No. 222",
   "type": "On the Amendment",
-  "updated_at": "2023-07-21T15:36:52-04:00",
+  "updated_at": "2023-07-21T21:41:44-04:00",
   "vote_id": "s191-118.2023",
   "votes": {
     "Nay": [

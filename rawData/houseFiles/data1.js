@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll364.xml",
   "subject": "Securing Growth and Robust Leadership in American Aviation Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-07-21T15:33:45-04:00",
+  "updated_at": "2023-07-21T21:38:38-04:00",
   "vote_id": "h364-118.2023",
   "votes": {
     "Nay": [
