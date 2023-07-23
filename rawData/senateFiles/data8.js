@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00188.xml",
   "subject": "On the Cloture Motion S. 2226",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-07-22T22:01:20-04:00",
+  "updated_at": "2023-07-23T04:06:11-04:00",
   "vote_id": "s188-118.2023",
   "votes": {
     "Nay": [
