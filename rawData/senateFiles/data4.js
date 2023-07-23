@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00192.xml",
   "subject": "Hawley Amdt. No. 838",
   "type": "On the Amendment",
-  "updated_at": "2023-07-23T04:06:09-04:00",
+  "updated_at": "2023-07-23T10:11:00-04:00",
   "vote_id": "s192-118.2023",
   "votes": {
     "Nay": [

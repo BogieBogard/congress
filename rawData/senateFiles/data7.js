@@ -25,7 +25,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00189.xml",
   "subject": "Murray Amdt. No. 300",
   "type": "On the Amendment",
-  "updated_at": "2023-07-23T04:06:11-04:00",
+  "updated_at": "2023-07-23T10:11:02-04:00",
   "vote_id": "s189-118.2023",
   "votes": {
     "Nay": [
