@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00187.xml",
   "subject": "Confirmation: Rachel Bloomekatz, of Ohio, to be U.S. Circuit Judge for the Sixth Circuit",
   "type": "On the Nomination",
-  "updated_at": "2023-07-23T22:21:01-04:00",
+  "updated_at": "2023-07-24T04:25:53-04:00",
   "vote_id": "s187-118.2023",
   "votes": {
     "Nay": [
