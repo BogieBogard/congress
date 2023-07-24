@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00194.xml",
   "subject": "Cruz Amdt. No. 926",
   "type": "On the Amendment",
-  "updated_at": "2023-07-24T10:30:39-04:00",
+  "updated_at": "2023-07-24T16:35:59-04:00",
   "vote_id": "s194-118.2023",
   "votes": {
     "Nay": [
