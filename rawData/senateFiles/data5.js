@@ -1,8 +1,8 @@
 const senate5Votes = 
 {
   "amendment": {
-    "number": 222,
-    "purpose": "To express the sense of Congress that Article 5 of the North Atlantic Treaty does not supersede the constitutional requirement that Congress declare war before the United States engages in war.",
+    "number": 438,
+    "purpose": "To provide for the independent and objective conduct and supervision of audits and investigations relating to the programs and operations funded with amounts appropriated or otherwise made available to Ukraine for military, economic, and humanitarian aid.",
     "type": "s"
   },
   "bill": {
@@ -14,19 +14,19 @@ const senate5Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-19T16:33:00-04:00",
-  "number": 191,
-  "question": "On the Amendment S.Amdt. 222 to S.Amdt. 935 to S. 2226 (No short title on file)",
-  "record_modified": "2023-07-19T17:15:00-04:00",
+  "date": "2023-07-26T21:36:00-04:00",
+  "number": 201,
+  "question": "On the Amendment S.Amdt. 438 to S.Amdt. 935 to S. 2226 (No short title on file)",
+  "record_modified": "2023-07-26T22:26:00-04:00",
   "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (16-83, 3/5 majority required)",
+  "result_text": "Amendment Rejected (20-78, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00191.xml",
-  "subject": "Paul Amdt. No. 222",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00201.xml",
+  "subject": "Paul Amdt. No. 438",
   "type": "On the Amendment",
-  "updated_at": "2023-07-24T22:40:51-04:00",
-  "vote_id": "s191-118.2023",
+  "updated_at": "2023-07-27T15:42:18-04:00",
+  "vote_id": "s201-118.2023",
   "votes": {
     "Nay": [
       {
@@ -36,6 +36,14 @@ const senate5Votes =
         "last_name": "Baldwin",
         "party": "D",
         "state": "WI"
+      },
+      {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
       },
       {
         "display_name": "Bennet (D-CO)",
@@ -190,14 +198,6 @@ const senate5Votes =
         "state": "AR"
       },
       {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
-      },
-      {
         "display_name": "Crapo (R-ID)",
         "first_name": "Mike",
         "id": "S266",
@@ -210,14 +210,6 @@ const senate5Votes =
         "first_name": "Tammy",
         "id": "S386",
         "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Durbin (D-IL)",
-        "first_name": "Richard",
-        "id": "S253",
-        "last_name": "Durbin",
         "party": "D",
         "state": "IL"
       },
@@ -246,14 +238,6 @@ const senate5Votes =
         "state": "PA"
       },
       {
-        "display_name": "Fischer (R-NE)",
-        "first_name": "Deb",
-        "id": "S357",
-        "last_name": "Fischer",
-        "party": "R",
-        "state": "NE"
-      },
-      {
         "display_name": "Gillibrand (D-NY)",
         "first_name": "Kirsten",
         "id": "S331",
@@ -268,14 +252,6 @@ const senate5Votes =
         "last_name": "Graham",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Grassley (R-IA)",
-        "first_name": "Chuck",
-        "id": "S153",
-        "last_name": "Grassley",
-        "party": "R",
-        "state": "IA"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -308,14 +284,6 @@ const senate5Votes =
         "last_name": "Hirono",
         "party": "D",
         "state": "HI"
-      },
-      {
-        "display_name": "Hoeven (R-ND)",
-        "first_name": "John",
-        "id": "S344",
-        "last_name": "Hoeven",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Hyde-Smith (R-MS)",
@@ -358,12 +326,28 @@ const senate5Votes =
         "state": "MN"
       },
       {
+        "display_name": "Lankford (R-OK)",
+        "first_name": "James",
+        "id": "S378",
+        "last_name": "Lankford",
+        "party": "R",
+        "state": "OK"
+      },
+      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
         "last_name": "Lujan",
         "party": "D",
         "state": "NM"
+      },
+      {
+        "display_name": "Lummis (R-WY)",
+        "first_name": "Cynthia",
+        "id": "S410",
+        "last_name": "Lummis",
+        "party": "R",
+        "state": "WY"
       },
       {
         "display_name": "Manchin (D-WV)",
@@ -518,6 +502,14 @@ const senate5Votes =
         "state": "SD"
       },
       {
+        "display_name": "Rubio (R-FL)",
+        "first_name": "Marco",
+        "id": "S350",
+        "last_name": "Rubio",
+        "party": "R",
+        "state": "FL"
+      },
+      {
         "display_name": "Sanders (I-VT)",
         "first_name": "Bernard",
         "id": "S313",
@@ -542,22 +534,6 @@ const senate5Votes =
         "state": "NY"
       },
       {
-        "display_name": "Scott (R-FL)",
-        "first_name": "Rick",
-        "id": "S404",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -580,22 +556,6 @@ const senate5Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Tester (D-MT)",
@@ -696,12 +656,20 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
+        "display_name": "Durbin (D-IL)",
+        "first_name": "Richard",
+        "id": "S253",
+        "last_name": "Durbin",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       }
     ],
     "Present": [],
@@ -713,6 +681,14 @@ const senate5Votes =
         "last_name": "Braun",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Cruz (R-TX)",
@@ -731,6 +707,22 @@ const senate5Votes =
         "state": "MT"
       },
       {
+        "display_name": "Fischer (R-NE)",
+        "first_name": "Deb",
+        "id": "S357",
+        "last_name": "Fischer",
+        "party": "R",
+        "state": "NE"
+      },
+      {
+        "display_name": "Grassley (R-IA)",
+        "first_name": "Chuck",
+        "id": "S153",
+        "last_name": "Grassley",
+        "party": "R",
+        "state": "IA"
+      },
+      {
         "display_name": "Hagerty (R-TN)",
         "first_name": "Bill",
         "id": "S407",
@@ -745,6 +737,14 @@ const senate5Votes =
         "last_name": "Hawley",
         "party": "R",
         "state": "MO"
+      },
+      {
+        "display_name": "Hoeven (R-ND)",
+        "first_name": "John",
+        "id": "S344",
+        "last_name": "Hoeven",
+        "party": "R",
+        "state": "ND"
       },
       {
         "display_name": "Johnson (R-WI)",
@@ -763,28 +763,12 @@ const senate5Votes =
         "state": "LA"
       },
       {
-        "display_name": "Lankford (R-OK)",
-        "first_name": "James",
-        "id": "S378",
-        "last_name": "Lankford",
-        "party": "R",
-        "state": "OK"
-      },
-      {
         "display_name": "Lee (R-UT)",
         "first_name": "Mike",
         "id": "S346",
         "last_name": "Lee",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Lummis (R-WY)",
-        "first_name": "Cynthia",
-        "id": "S410",
-        "last_name": "Lummis",
-        "party": "R",
-        "state": "WY"
       },
       {
         "display_name": "Marshall (R-KS)",
@@ -803,20 +787,36 @@ const senate5Votes =
         "state": "KY"
       },
       {
-        "display_name": "Rubio (R-FL)",
-        "first_name": "Marco",
-        "id": "S350",
-        "last_name": "Rubio",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Schmitt (R-MO)",
         "first_name": "Eric ",
         "id": "S420",
         "last_name": "Schmitt",
         "party": "R",
         "state": "MO"
+      },
+      {
+        "display_name": "Scott (R-FL)",
+        "first_name": "Rick",
+        "id": "S404",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Tuberville (R-AL)",
