@@ -25,7 +25,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00208.xml",
   "subject": "Menendez Amdt. No. 638",
   "type": "On the Amendment",
-  "updated_at": "2023-07-28T15:42:20-04:00",
+  "updated_at": "2023-07-30T14:53:08-04:00",
   "vote_id": "s208-118.2023",
   "votes": {
     "Nay": [
