@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll382.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \u201cEndangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat\u201d.",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-08-02T22:59:55-04:00",
+  "updated_at": "2023-08-03T05:05:02-04:00",
   "vote_id": "h382-118.2023",
   "votes": {
     "Nay": [
