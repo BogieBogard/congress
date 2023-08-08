@@ -25,7 +25,7 @@ const senate6Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00207.xml",
   "subject": "Hawley Amdt. No. 1058",
   "type": "On the Amendment",
-  "updated_at": "2023-08-05T17:23:24-04:00",
+  "updated_at": "2023-08-08T11:14:05-04:00",
   "vote_id": "s207-118.2023",
   "votes": {
     "Nay": [
