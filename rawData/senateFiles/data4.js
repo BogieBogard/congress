@@ -25,7 +25,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00209.xml",
   "subject": "Schatz Amdt. No. 1078",
   "type": "On the Amendment",
-  "updated_at": "2023-08-13T17:21:38-04:00",
+  "updated_at": "2023-08-21T09:47:25-04:00",
   "vote_id": "s209-118.2023",
   "votes": {
     "Nay": [
