@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll380.xml",
   "subject": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-08-26T15:27:49-04:00",
+  "updated_at": "2023-08-27T14:41:45-04:00",
   "vote_id": "h380-118.2023",
   "votes": {
     "Nay": [
