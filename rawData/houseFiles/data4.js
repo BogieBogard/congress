@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll379.xml",
   "subject": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-08-27T14:41:45-04:00",
+  "updated_at": "2023-08-29T09:41:56-04:00",
   "vote_id": "h379-118.2023",
   "votes": {
     "Nay": [
