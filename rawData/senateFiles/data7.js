@@ -25,7 +25,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00206.xml",
   "subject": "Gillibrand Amdt. No. 1065",
   "type": "On the Amendment",
-  "updated_at": "2023-08-29T09:45:22-04:00",
+  "updated_at": "2023-09-01T10:36:46-04:00",
   "vote_id": "s206-118.2023",
   "votes": {
     "Nay": [

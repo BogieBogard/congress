@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00212.xml",
   "subject": "S. 2226, As Amended",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-08-29T09:45:19-04:00",
+  "updated_at": "2023-09-01T10:36:42-04:00",
   "vote_id": "s212-118.2023",
   "votes": {
     "Nay": [

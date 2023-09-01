@@ -25,7 +25,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00211.xml",
   "subject": "Reed Amdt. No. 1087",
   "type": "On the Amendment",
-  "updated_at": "2023-08-29T09:45:19-04:00",
+  "updated_at": "2023-09-01T10:36:43-04:00",
   "vote_id": "s211-118.2023",
   "votes": {
     "Nay": [
