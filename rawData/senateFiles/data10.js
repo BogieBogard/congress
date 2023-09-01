@@ -25,7 +25,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00203.xml",
   "subject": "Sanders Amdt. No. 1030",
   "type": "On the Amendment",
-  "updated_at": "2023-09-01T10:36:47-04:00",
+  "updated_at": "2023-09-01T16:54:53-04:00",
   "vote_id": "s203-118.2023",
   "votes": {
     "Nay": [
