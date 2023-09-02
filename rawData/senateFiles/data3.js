@@ -25,7 +25,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00210.xml",
   "subject": "Rubio Amdt. No. 523",
   "type": "On the Amendment",
-  "updated_at": "2023-09-01T23:00:02-04:00",
+  "updated_at": "2023-09-02T05:05:11-04:00",
   "vote_id": "s210-118.2023",
   "votes": {
     "Nay": [
