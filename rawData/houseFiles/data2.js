@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll381.xml",
   "subject": "Providing for congressional disapproval under chapter 8 of title 5, U.S. Code, relating to \u201cEndangered and Threatened Wildlife and Plants; Lesser Prairie-Chicken; Threatened Status With Sec. 4(d) Rule for the Northern Distinct Population Segment and Endangered Status for the Southern Distinct Population Segment\u201d",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-09-02T05:01:57-04:00",
+  "updated_at": "2023-09-02T11:07:05-04:00",
   "vote_id": "h381-118.2023",
   "votes": {
     "Nay": [

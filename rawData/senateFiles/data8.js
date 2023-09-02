@@ -25,7 +25,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00205.xml",
   "subject": "Kennedy Amdt. No. 1034",
   "type": "On the Amendment",
-  "updated_at": "2023-09-02T05:05:13-04:00",
+  "updated_at": "2023-09-02T11:10:21-04:00",
   "vote_id": "s205-118.2023",
   "votes": {
     "Nay": [

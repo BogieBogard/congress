@@ -22,7 +22,7 @@ const house5Votes =
   "session": "2023",
   "source_url": "https://clerk.house.gov/evs/2023/roll378.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-09-02T05:01:59-04:00",
+  "updated_at": "2023-09-02T11:07:07-04:00",
   "vote_id": "h378-118.2023",
   "votes": {
     "Aye": [
