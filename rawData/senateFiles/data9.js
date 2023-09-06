@@ -1,8 +1,8 @@
 const senate9Votes = 
 {
   "amendment": {
-    "number": 874,
-    "purpose": "To prohibit the flying, draping, or other display of any flag other than the flag of the United States at public buildings.",
+    "number": 1034,
+    "purpose": "To prohibit allocations of Special Drawing Rights at the International Monetary Fund for perpetrators of genocide and state sponsors of terrorism without congressional authorization.",
     "type": "s"
   },
   "bill": {
@@ -14,19 +14,19 @@ const senate9Votes =
   "category": "amendment",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-27T14:22:00-04:00",
-  "number": 204,
-  "question": "On the Amendment S.Amdt. 874 to S.Amdt. 935 to S. 2226 (No short title on file)",
-  "record_modified": "2023-07-27T21:28:00-04:00",
+  "date": "2023-07-27T15:16:00-04:00",
+  "number": 205,
+  "question": "On the Amendment S.Amdt. 1034 to S.Amdt. 935 to S. 2226 (No short title on file)",
+  "record_modified": "2023-07-27T21:29:00-04:00",
   "requires": "3/5",
   "result": "Amendment Rejected",
-  "result_text": "Amendment Rejected (50-49, 3/5 majority required)",
+  "result_text": "Amendment Rejected (51-47, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00204.xml",
-  "subject": "Marshall Amdt. No. 874",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00205.xml",
+  "subject": "Kennedy Amdt. No. 1034",
   "type": "On the Amendment",
-  "updated_at": "2023-09-05T16:38:04-04:00",
-  "vote_id": "s204-118.2023",
+  "updated_at": "2023-09-06T11:02:11-04:00",
+  "vote_id": "s205-118.2023",
   "votes": {
     "Nay": [
       {
@@ -76,14 +76,6 @@ const senate9Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
       },
       {
         "display_name": "Carper (D-DE)",
@@ -158,14 +150,6 @@ const senate9Votes =
         "state": "NH"
       },
       {
-        "display_name": "Heinrich (D-NM)",
-        "first_name": "Martin",
-        "id": "S359",
-        "last_name": "Heinrich",
-        "party": "D",
-        "state": "NM"
-      },
-      {
         "display_name": "Hickenlooper (D-CO)",
         "first_name": "John",
         "id": "S408",
@@ -222,6 +206,14 @@ const senate9Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -236,14 +228,6 @@ const senate9Votes =
         "last_name": "Menendez",
         "party": "D",
         "state": "NJ"
-      },
-      {
-        "display_name": "Merkley (D-OR)",
-        "first_name": "Jeff",
-        "id": "S322",
-        "last_name": "Merkley",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -430,6 +414,14 @@ const senate9Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -489,6 +481,14 @@ const senate9Votes =
         "last_name": "Capito",
         "party": "R",
         "state": "WV"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -603,6 +603,14 @@ const senate9Votes =
         "state": "MO"
       },
       {
+        "display_name": "Heinrich (D-NM)",
+        "first_name": "Martin",
+        "id": "S359",
+        "last_name": "Heinrich",
+        "party": "D",
+        "state": "NM"
+      },
+      {
         "display_name": "Hoeven (R-ND)",
         "first_name": "John",
         "id": "S344",
@@ -659,14 +667,6 @@ const senate9Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -681,6 +681,14 @@ const senate9Votes =
         "last_name": "McConnell",
         "party": "R",
         "state": "KY"
+      },
+      {
+        "display_name": "Merkley (D-OR)",
+        "first_name": "Jeff",
+        "id": "S322",
+        "last_name": "Merkley",
+        "party": "D",
+        "state": "OR"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -769,14 +777,6 @@ const senate9Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Sullivan (R-AK)",

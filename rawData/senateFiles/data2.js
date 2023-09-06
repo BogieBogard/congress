@@ -1,34 +1,53 @@
 const senate2Votes = 
 {
-  "amendment": {
-    "number": 1087,
-    "purpose": "To provide for a manager's amendment.",
-    "type": "s"
-  },
   "bill": {
     "congress": 118,
     "number": 2226,
-    "title": "No short title on file",
+    "title": "An original bill to authorize appropriations for fiscal year 2024 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
     "type": "s"
   },
-  "category": "amendment",
+  "category": "passage",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-07-27T19:31:00-04:00",
-  "number": 211,
-  "question": "On the Amendment S.Amdt. 1087 to S.Amdt. 935 to S. 2226 (No short title on file)",
-  "record_modified": "2023-07-27T20:21:00-04:00",
-  "requires": "1/2",
-  "result": "Amendment Agreed to",
-  "result_text": "Amendment Agreed to (94-3)",
+  "date": "2023-07-27T19:57:00-04:00",
+  "number": 212,
+  "question": "On Passage of the Bill S. 2226",
+  "record_modified": "2023-07-27T20:57:00-04:00",
+  "requires": "3/5",
+  "result": "Bill Passed",
+  "result_text": "Bill Passed (86-11, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00211.xml",
-  "subject": "Reed Amdt. No. 1087",
-  "type": "On the Amendment",
-  "updated_at": "2023-09-05T16:38:01-04:00",
-  "vote_id": "s211-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00212.xml",
+  "subject": "S. 2226, As Amended",
+  "type": "On Passage of the Bill",
+  "updated_at": "2023-09-06T11:02:08-04:00",
+  "vote_id": "s212-118.2023",
   "votes": {
     "Nay": [
+      {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
+      },
+      {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
       {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
@@ -36,6 +55,14 @@ const senate2Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "Merkley (D-OR)",
+        "first_name": "Jeff",
+        "id": "S322",
+        "last_name": "Merkley",
+        "party": "D",
+        "state": "OR"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -52,6 +79,38 @@ const senate2Votes =
         "last_name": "Sanders",
         "party": "I",
         "state": "VT"
+      },
+      {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
+      },
+      {
+        "display_name": "Warren (D-MA)",
+        "first_name": "Elizabeth",
+        "id": "S366",
+        "last_name": "Warren",
+        "party": "D",
+        "state": "MA"
+      },
+      {
+        "display_name": "Welch (D-VT)",
+        "first_name": "Peter",
+        "id": "S422",
+        "last_name": "Welch",
+        "party": "D",
+        "state": "VT"
+      },
+      {
+        "display_name": "Wyden (D-OR)",
+        "first_name": "Ron",
+        "id": "S247",
+        "last_name": "Wyden",
+        "party": "D",
+        "state": "OR"
       }
     ],
     "Not Voting": [
@@ -123,28 +182,12 @@ const senate2Votes =
         "state": "CT"
       },
       {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Boozman (R-AR)",
         "first_name": "John",
         "id": "S343",
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -467,14 +510,6 @@ const senate2Votes =
         "state": "OK"
       },
       {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
@@ -521,14 +556,6 @@ const senate2Votes =
         "last_name": "Menendez",
         "party": "D",
         "state": "NJ"
-      },
-      {
-        "display_name": "Merkley (D-OR)",
-        "first_name": "Jeff",
-        "id": "S322",
-        "last_name": "Merkley",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Moran (R-KS)",
@@ -763,14 +790,6 @@ const senate2Votes =
         "state": "MD"
       },
       {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Warner (D-VA)",
         "first_name": "Mark",
         "id": "S327",
@@ -787,22 +806,6 @@ const senate2Votes =
         "state": "GA"
       },
       {
-        "display_name": "Warren (D-MA)",
-        "first_name": "Elizabeth",
-        "id": "S366",
-        "last_name": "Warren",
-        "party": "D",
-        "state": "MA"
-      },
-      {
-        "display_name": "Welch (D-VT)",
-        "first_name": "Peter",
-        "id": "S422",
-        "last_name": "Welch",
-        "party": "D",
-        "state": "VT"
-      },
-      {
         "display_name": "Whitehouse (D-RI)",
         "first_name": "Sheldon",
         "id": "S316",
@@ -817,14 +820,6 @@ const senate2Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Wyden (D-OR)",
-        "first_name": "Ron",
-        "id": "S247",
-        "last_name": "Wyden",
-        "party": "D",
-        "state": "OR"
       },
       {
         "display_name": "Young (R-IN)",
