@@ -1,25 +1,25 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T15:05:00-04:00",
+  "date": "2023-09-07T11:52:00-04:00",
   "nomination": {
-    "number": "644",
-    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
+    "number": "646",
+    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
   },
-  "number": 217,
-  "question": "Motion to Invoke Cloture: Lisa DeNell Cook to be a Member of the Board of Governors of the Federal Reserve System: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
-  "record_modified": "2023-09-06T16:19:00-04:00",
+  "number": 220,
+  "question": "On the Nomination PN646: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
+  "record_modified": "2023-09-07T12:59:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-47)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00217.xml",
-  "subject": "On the Cloture Motion PN644",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-07T10:50:54-04:00",
-  "vote_id": "s217-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00220.xml",
+  "subject": "Confirmation: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-10T13:29:53-04:00",
+  "vote_id": "s220-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,14 +85,6 @@ const senate3Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
-      },
-      {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -263,14 +255,6 @@ const senate3Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
@@ -407,6 +391,14 @@ const senate3Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -474,6 +466,14 @@ const senate3Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",

@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T14:15:00-04:00",
+  "date": "2023-09-06T18:10:00-04:00",
   "nomination": {
-    "number": "743",
-    "title": "Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028"
+    "number": "646",
+    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
   },
-  "number": 216,
-  "question": "On the Nomination PN743: Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028",
-  "record_modified": "2023-09-06T15:14:00-04:00",
+  "number": 219,
+  "question": "Motion to Invoke Cloture: Adriana Debora Kugler to be a Member of the Board of Governors of the Federal Reserve System: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
+  "record_modified": "2023-09-06T19:14:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (51-48)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00216.xml",
-  "subject": "Confirmation: Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-07T10:50:54-04:00",
-  "vote_id": "s216-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00219.xml",
+  "subject": "On the Cloture Motion PN646",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-10T13:29:54-04:00",
+  "vote_id": "s219-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,28 +87,12 @@ const senate4Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -247,14 +231,6 @@ const senate4Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -319,14 +295,6 @@ const senate4Votes =
         "state": "UT"
       },
       {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
-      },
-      {
         "display_name": "Rubio (R-FL)",
         "first_name": "Marco",
         "id": "S350",
@@ -357,6 +325,14 @@ const senate4Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
+      },
+      {
+        "display_name": "Sullivan (R-AK)",
+        "first_name": "Dan",
+        "id": "S383",
+        "last_name": "Sullivan",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Thune (R-SD)",
@@ -415,6 +391,22 @@ const senate4Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       }
     ],
     "Present": [],
@@ -460,14 +452,6 @@ const senate4Votes =
         "state": "WA"
       },
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
         "display_name": "Carper (D-DE)",
         "first_name": "Thomas",
         "id": "S277",
@@ -482,6 +466,14 @@ const senate4Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -612,6 +604,14 @@ const senate4Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -700,6 +700,14 @@ const senate4Votes =
         "state": "NV"
       },
       {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
+      },
+      {
         "display_name": "Sanders (I-VT)",
         "first_name": "Bernard",
         "id": "S313",
@@ -754,14 +762,6 @@ const senate4Votes =
         "last_name": "Stabenow",
         "party": "D",
         "state": "MI"
-      },
-      {
-        "display_name": "Sullivan (R-AK)",
-        "first_name": "Dan",
-        "id": "S383",
-        "last_name": "Sullivan",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Tester (D-MT)",
