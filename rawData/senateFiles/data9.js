@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00214.xml",
   "subject": "Confirmation: Philip Nathan Jefferson, of North Carolina, to be Vice Chairman of the Board of Governors of the Federal Reserve System",
   "type": "On the Nomination",
-  "updated_at": "2023-09-11T01:40:28-04:00",
+  "updated_at": "2023-09-11T07:45:42-04:00",
   "vote_id": "s214-118.2023",
   "votes": {
     "Nay": [

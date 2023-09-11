@@ -18,7 +18,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00216.xml",
   "subject": "Confirmation: Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board",
   "type": "On the Nomination",
-  "updated_at": "2023-09-11T01:40:27-04:00",
+  "updated_at": "2023-09-11T07:45:41-04:00",
   "vote_id": "s216-118.2023",
   "votes": {
     "Nay": [
