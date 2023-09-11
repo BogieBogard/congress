@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00222.xml",
   "subject": "Confirmation: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission",
   "type": "On the Nomination",
-  "updated_at": "2023-09-10T13:29:52-04:00",
+  "updated_at": "2023-09-10T19:35:06-04:00",
   "vote_id": "s222-118.2023",
   "votes": {
     "Nay": [
