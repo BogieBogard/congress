@@ -3,23 +3,23 @@ const senate5Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T17:12:00-04:00",
+  "date": "2023-09-07T11:52:00-04:00",
   "nomination": {
-    "number": "644",
-    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
+    "number": "646",
+    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
   },
-  "number": 218,
-  "question": "On the Nomination PN644: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
-  "record_modified": "2023-09-06T18:29:00-04:00",
+  "number": 220,
+  "question": "On the Nomination PN646: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
+  "record_modified": "2023-09-07T12:59:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (51-47)",
+  "result_text": "Nomination Confirmed (53-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00218.xml",
-  "subject": "Confirmation: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00220.xml",
+  "subject": "Confirmation: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System",
   "type": "On the Nomination",
-  "updated_at": "2023-09-11T07:45:40-04:00",
-  "vote_id": "s218-118.2023",
+  "updated_at": "2023-09-12T12:31:33-04:00",
+  "vote_id": "s220-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,20 +87,20 @@ const senate5Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -255,28 +255,12 @@ const senate5Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -409,12 +393,12 @@ const senate5Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
         "party": "R",
-        "state": "AR"
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -482,6 +466,14 @@ const senate5Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -642,6 +634,14 @@ const senate5Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

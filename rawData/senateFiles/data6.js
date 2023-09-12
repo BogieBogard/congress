@@ -3,23 +3,23 @@ const senate6Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T15:05:00-04:00",
+  "date": "2023-09-06T18:10:00-04:00",
   "nomination": {
-    "number": "644",
-    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
+    "number": "646",
+    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
   },
-  "number": 217,
-  "question": "Motion to Invoke Cloture: Lisa DeNell Cook to be a Member of the Board of Governors of the Federal Reserve System: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
-  "record_modified": "2023-09-06T16:19:00-04:00",
+  "number": 219,
+  "question": "Motion to Invoke Cloture: Adriana Debora Kugler to be a Member of the Board of Governors of the Federal Reserve System: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
+  "record_modified": "2023-09-06T19:14:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-47)",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00217.xml",
-  "subject": "On the Cloture Motion PN644",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00219.xml",
+  "subject": "On the Cloture Motion PN646",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-09-11T07:45:41-04:00",
-  "vote_id": "s217-118.2023",
+  "updated_at": "2023-09-12T12:31:34-04:00",
+  "vote_id": "s219-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,28 +87,12 @@ const senate6Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -407,6 +391,22 @@ const senate6Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       }
     ],
     "Present": [],
@@ -452,14 +452,6 @@ const senate6Votes =
         "state": "WA"
       },
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
         "display_name": "Carper (D-DE)",
         "first_name": "Thomas",
         "id": "S277",
@@ -474,6 +466,14 @@ const senate6Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",

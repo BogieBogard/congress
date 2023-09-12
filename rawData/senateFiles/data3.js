@@ -3,23 +3,23 @@ const senate3Votes =
   "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-07T11:52:00-04:00",
+  "date": "2023-09-07T13:50:00-04:00",
   "nomination": {
-    "number": "646",
-    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
+    "number": "673",
+    "title": "Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021"
   },
-  "number": 220,
-  "question": "On the Nomination PN646: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
-  "record_modified": "2023-09-07T12:59:00-04:00",
+  "number": 222,
+  "question": "On the Nomination PN673: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021",
+  "record_modified": "2023-09-07T14:45:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-45)",
+  "result_text": "Nomination Confirmed (55-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00220.xml",
-  "subject": "Confirmation: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00222.xml",
+  "subject": "Confirmation: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission",
   "type": "On the Nomination",
-  "updated_at": "2023-09-11T07:45:39-04:00",
-  "vote_id": "s220-118.2023",
+  "updated_at": "2023-09-12T12:31:32-04:00",
+  "vote_id": "s222-118.2023",
   "votes": {
     "Nay": [
       {
@@ -69,14 +69,6 @@ const senate3Votes =
         "last_name": "Budd",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
       },
       {
         "display_name": "Cassidy (R-LA)",
@@ -373,14 +365,6 @@ const senate3Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ],
     "Not Voting": [
@@ -442,6 +426,14 @@ const senate3Votes =
         "last_name": "Cantwell",
         "party": "D",
         "state": "WA"
+      },
+      {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
       },
       {
         "display_name": "Cardin (D-MD)",
@@ -826,6 +818,14 @@ const senate3Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ]
   }

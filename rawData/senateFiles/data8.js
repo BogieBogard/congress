@@ -3,23 +3,23 @@ const senate8Votes =
   "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T12:39:00-04:00",
+  "date": "2023-09-06T15:05:00-04:00",
   "nomination": {
-    "number": "743",
-    "title": "Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028"
+    "number": "644",
+    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
   },
-  "number": 215,
-  "question": "Motion to Invoke Cloture: Gwynne A. Wilcox to be a Member of the National Labor Relations Board: Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028",
-  "record_modified": "2023-09-06T14:37:00-04:00",
+  "number": 217,
+  "question": "Motion to Invoke Cloture: Lisa DeNell Cook to be a Member of the Board of Governors of the Federal Reserve System: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
+  "record_modified": "2023-09-06T16:19:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-49)",
+  "result_text": "Cloture Motion Agreed to (52-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00215.xml",
-  "subject": "On the Cloture Motion PN743",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00217.xml",
+  "subject": "On the Cloture Motion PN644",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-09-11T07:45:42-04:00",
-  "vote_id": "s215-118.2023",
+  "updated_at": "2023-09-12T12:31:35-04:00",
+  "vote_id": "s217-118.2023",
   "votes": {
     "Nay": [
       {
@@ -247,14 +247,6 @@ const senate8Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -317,14 +309,6 @@ const senate8Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -620,6 +604,14 @@ const senate8Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -706,6 +698,14 @@ const senate8Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",
