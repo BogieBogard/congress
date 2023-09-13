@@ -1,8 +1,8 @@
 const house8Votes = 
 {
   "amendment": {
-    "author": "Roy of Texas Amendment No. 38",
-    "number": 10,
+    "author": "Zinke of Montana Amendment No. 41",
+    "number": 13,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house8Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-07-26T18:27:00-04:00",
-  "number": 375,
-  "question": "On Agreeing to the Amendment: Amendment 10 to H R 4366",
+  "date": "2023-07-26T18:38:00-04:00",
+  "number": 378,
+  "question": "On Agreeing to the Amendment: Amendment 13 to H R 4366",
   "requires": "1/2",
   "result": "Agreed to",
   "result_text": "Agreed to",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll375.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll378.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-09-12T12:28:22-04:00",
-  "vote_id": "h375-118.2023",
+  "updated_at": "2023-09-12T22:57:11-04:00",
+  "vote_id": "h378-118.2023",
   "votes": {
     "Aye": [
       {
@@ -315,12 +315,6 @@ const house8Votes =
         "state": "OH"
       },
       {
-        "display_name": "Davis (NC)",
-        "id": "D000230",
-        "party": "D",
-        "state": "NC"
-      },
-      {
         "display_name": "De La Cruz",
         "id": "D000594",
         "party": "R",
@@ -429,12 +423,6 @@ const house8Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -499,6 +487,12 @@ const house8Votes =
         "id": "G000593",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
       },
       {
         "display_name": "Gonzales, Tony",
@@ -1125,12 +1119,6 @@ const house8Votes =
         "state": "FL"
       },
       {
-        "display_name": "Santos",
-        "id": "S001222",
-        "party": "R",
-        "state": "NY"
-      },
-      {
         "display_name": "Scalise",
         "id": "S001176",
         "party": "R",
@@ -1655,6 +1643,12 @@ const house8Votes =
         "state": "IL"
       },
       {
+        "display_name": "Davis (NC)",
+        "id": "D000230",
+        "party": "D",
+        "state": "NC"
+      },
+      {
         "display_name": "Dean (PA)",
         "id": "D000631",
         "party": "D",
@@ -1727,6 +1721,12 @@ const house8Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -1779,12 +1779,6 @@ const house8Votes =
         "id": "G000598",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
       },
       {
         "display_name": "Goldman (NY)",
@@ -2361,6 +2355,12 @@ const house8Votes =
         "id": "S001156",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Santos",
+        "id": "S001222",
+        "party": "R",
+        "state": "NY"
       },
       {
         "display_name": "Sarbanes",

@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T17:12:00-04:00",
+  "date": "2023-09-07T12:40:00-04:00",
   "nomination": {
-    "number": "644",
-    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
+    "number": "673",
+    "title": "Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021"
   },
-  "number": 218,
-  "question": "On the Nomination PN644: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
-  "record_modified": "2023-09-06T18:29:00-04:00",
+  "number": 221,
+  "question": "Motion to Invoke Cloture: Anna M. Gomez to be a Member of the Federal Communications Commission: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021",
+  "record_modified": "2023-09-07T13:45:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (51-47)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (55-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00218.xml",
-  "subject": "Confirmation: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-12T12:31:34-04:00",
-  "vote_id": "s218-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00221.xml",
+  "subject": "On the Cloture Motion PN673",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-13T00:34:07-04:00",
+  "vote_id": "s221-118.2023",
   "votes": {
     "Nay": [
       {
@@ -71,14 +71,6 @@ const senate7Votes =
         "state": "NC"
       },
       {
-        "display_name": "Capito (R-WV)",
-        "first_name": "Shelley",
-        "id": "S372",
-        "last_name": "Capito",
-        "party": "R",
-        "state": "WV"
-      },
-      {
         "display_name": "Cassidy (R-LA)",
         "first_name": "Bill",
         "id": "S373",
@@ -87,20 +79,20 @@ const senate7Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -255,28 +247,12 @@ const senate7Votes =
         "state": "KY"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
-        "party": "R",
-        "state": "KS"
-      },
-      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -389,14 +365,6 @@ const senate7Votes =
         "last_name": "Wicker",
         "party": "R",
         "state": "MS"
-      },
-      {
-        "display_name": "Young (R-IN)",
-        "first_name": "Todd",
-        "id": "S391",
-        "last_name": "Young",
-        "party": "R",
-        "state": "IN"
       }
     ],
     "Not Voting": [
@@ -409,12 +377,12 @@ const senate7Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
         "party": "R",
-        "state": "AR"
+        "state": "KS"
       }
     ],
     "Present": [],
@@ -460,6 +428,14 @@ const senate7Votes =
         "state": "WA"
       },
       {
+        "display_name": "Capito (R-WV)",
+        "first_name": "Shelley",
+        "id": "S372",
+        "last_name": "Capito",
+        "party": "R",
+        "state": "WV"
+      },
+      {
         "display_name": "Cardin (D-MD)",
         "first_name": "Ben",
         "id": "S308",
@@ -482,6 +458,14 @@ const senate7Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -642,6 +626,14 @@ const senate7Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -826,6 +818,14 @@ const senate7Votes =
         "last_name": "Wyden",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Young (R-IN)",
+        "first_name": "Todd",
+        "id": "S391",
+        "last_name": "Young",
+        "party": "R",
+        "state": "IN"
       }
     ]
   }

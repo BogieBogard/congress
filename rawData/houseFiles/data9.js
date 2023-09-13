@@ -1,8 +1,8 @@
 const house9Votes = 
 {
   "amendment": {
-    "author": "Rosendale of Montana Amendment No. 37",
-    "number": 9,
+    "author": "Roy of Texas Amendment No. 40",
+    "number": 12,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house9Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-07-26T18:24:00-04:00",
-  "number": 374,
-  "question": "On Agreeing to the Amendment: Amendment 9 to H R 4366",
+  "date": "2023-07-26T18:33:00-04:00",
+  "number": 377,
+  "question": "On Agreeing to the Amendment: Amendment 12 to H R 4366",
   "requires": "1/2",
   "result": "Agreed to",
   "result_text": "Agreed to",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll374.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll377.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-09-12T12:28:23-04:00",
-  "vote_id": "h374-118.2023",
+  "updated_at": "2023-09-12T22:57:12-04:00",
+  "vote_id": "h377-118.2023",
   "votes": {
     "Aye": [
       {
@@ -231,12 +231,6 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Chavez-DeRemer",
-        "id": "C001135",
-        "party": "R",
-        "state": "OR"
-      },
-      {
         "display_name": "Ciscomani",
         "id": "C001133",
         "party": "R",
@@ -421,12 +415,6 @@ const house9Votes =
         "id": "F000471",
         "party": "R",
         "state": "WI"
-      },
-      {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
       },
       {
         "display_name": "Fleischmann",
@@ -999,12 +987,6 @@ const house9Votes =
         "state": "SC"
       },
       {
-        "display_name": "Nunn (IA)",
-        "id": "N000193",
-        "party": "R",
-        "state": "IA"
-      },
-      {
         "display_name": "Obernolte",
         "id": "O000019",
         "party": "R",
@@ -1547,6 +1529,12 @@ const house9Votes =
         "state": "TX"
       },
       {
+        "display_name": "Chavez-DeRemer",
+        "id": "C001135",
+        "party": "R",
+        "state": "OR"
+      },
+      {
         "display_name": "Cherfilus-McCormick",
         "id": "C001127",
         "party": "D",
@@ -1724,6 +1712,12 @@ const house9Votes =
         "display_name": "Evans",
         "id": "E000296",
         "party": "D",
+        "state": "PA"
+      },
+      {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
         "state": "PA"
       },
       {
@@ -2193,6 +2187,12 @@ const house9Votes =
         "id": "N000147",
         "party": "D",
         "state": "XX"
+      },
+      {
+        "display_name": "Nunn (IA)",
+        "id": "N000193",
+        "party": "R",
+        "state": "IA"
       },
       {
         "display_name": "Ocasio-Cortez",

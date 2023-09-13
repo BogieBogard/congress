@@ -1,25 +1,25 @@
 const senate5Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-07T11:52:00-04:00",
+  "date": "2023-09-11T17:28:00-04:00",
   "nomination": {
-    "number": "646",
-    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
+    "number": "551",
+    "title": "Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs"
   },
-  "number": 220,
-  "question": "On the Nomination PN646: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
-  "record_modified": "2023-09-07T12:59:00-04:00",
+  "number": 223,
+  "question": "Motion to Invoke Cloture: Tanya J. Bradsher to be Deputy Secretary of Veterans Affairs: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
+  "record_modified": "2023-09-11T18:42:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-45)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (49-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00220.xml",
-  "subject": "Confirmation: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-12T12:31:33-04:00",
-  "vote_id": "s220-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00223.xml",
+  "subject": "On the Cloture Motion PN551",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-13T00:34:06-04:00",
+  "vote_id": "s223-118.2023",
   "votes": {
     "Nay": [
       {
@@ -45,14 +45,6 @@ const senate5Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -101,14 +93,6 @@ const senate5Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -255,12 +239,36 @@ const senate5Votes =
         "state": "KY"
       },
       {
+        "display_name": "Menendez (D-NJ)",
+        "first_name": "Robert",
+        "id": "S306",
+        "last_name": "Menendez",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Moran (R-KS)",
+        "first_name": "Jerry",
+        "id": "S347",
+        "last_name": "Moran",
+        "party": "R",
+        "state": "KS"
+      },
+      {
         "display_name": "Mullin (R-OK)",
         "first_name": "Markwayne",
         "id": "S419",
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -277,14 +285,6 @@ const senate5Votes =
         "last_name": "Ricketts",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Risch (R-ID)",
-        "first_name": "James ",
-        "id": "S323",
-        "last_name": "Risch",
-        "party": "R",
-        "state": "ID"
       },
       {
         "display_name": "Romney (R-UT)",
@@ -317,14 +317,6 @@ const senate5Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Sullivan (R-AK)",
@@ -385,20 +377,60 @@ const senate5Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
       },
       {
-        "display_name": "Moran (R-KS)",
-        "first_name": "Jerry",
-        "id": "S347",
-        "last_name": "Moran",
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
         "party": "R",
-        "state": "KS"
+        "state": "ND"
+      },
+      {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
+        "display_name": "Ossoff (D-GA)",
+        "first_name": "Jon",
+        "id": "S414",
+        "last_name": "Ossoff",
+        "party": "D",
+        "state": "GA"
+      },
+      {
+        "display_name": "Padilla (D-CA)",
+        "first_name": "Alex",
+        "id": "S413",
+        "last_name": "Padilla",
+        "party": "D",
+        "state": "CA"
+      },
+      {
+        "display_name": "Risch (R-ID)",
+        "first_name": "James ",
+        "id": "S323",
+        "last_name": "Risch",
+        "party": "R",
+        "state": "ID"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -426,6 +458,14 @@ const senate5Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
+      },
+      {
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
+        "party": "D",
+        "state": "NJ"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -490,14 +530,6 @@ const senate5Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
       },
       {
         "display_name": "Durbin (D-IL)",
@@ -620,28 +652,12 @@ const senate5Votes =
         "state": "MA"
       },
       {
-        "display_name": "Menendez (D-NJ)",
-        "first_name": "Robert",
-        "id": "S306",
-        "last_name": "Menendez",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Merkley (D-OR)",
         "first_name": "Jeff",
         "id": "S322",
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -658,22 +674,6 @@ const senate5Votes =
         "last_name": "Murray",
         "party": "D",
         "state": "WA"
-      },
-      {
-        "display_name": "Ossoff (D-GA)",
-        "first_name": "Jon",
-        "id": "S414",
-        "last_name": "Ossoff",
-        "party": "D",
-        "state": "GA"
-      },
-      {
-        "display_name": "Padilla (D-CA)",
-        "first_name": "Alex",
-        "id": "S413",
-        "last_name": "Padilla",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Peters (D-MI)",

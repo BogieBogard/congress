@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T12:39:00-04:00",
+  "date": "2023-09-06T17:12:00-04:00",
   "nomination": {
-    "number": "743",
-    "title": "Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028"
+    "number": "644",
+    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
   },
-  "number": 215,
-  "question": "Motion to Invoke Cloture: Gwynne A. Wilcox to be a Member of the National Labor Relations Board: Gwynne A. Wilcox, of New York, to be a Member of the National Labor Relations Board for the term of five years expiring August 27, 2028",
-  "record_modified": "2023-09-06T14:37:00-04:00",
+  "number": 218,
+  "question": "On the Nomination PN644: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
+  "record_modified": "2023-09-06T18:29:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (50-49)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (51-47)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00215.xml",
-  "subject": "On the Cloture Motion PN743",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-12T12:31:36-04:00",
-  "vote_id": "s215-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00218.xml",
+  "subject": "Confirmation: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-13T00:34:09-04:00",
+  "vote_id": "s218-118.2023",
   "votes": {
     "Nay": [
       {
@@ -101,14 +101,6 @@ const senate10Votes =
         "last_name": "Cornyn",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -247,14 +239,6 @@ const senate10Votes =
         "state": "WY"
       },
       {
-        "display_name": "Manchin (D-WV)",
-        "first_name": "Joseph",
-        "id": "S338",
-        "last_name": "Manchin",
-        "party": "D",
-        "state": "WV"
-      },
-      {
         "display_name": "Marshall (R-KS)",
         "first_name": "Roger",
         "id": "S411",
@@ -287,6 +271,14 @@ const senate10Votes =
         "state": "OK"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -317,14 +309,6 @@ const senate10Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -423,6 +407,14 @@ const senate10Votes =
         "last_name": "Booker",
         "party": "D",
         "state": "NJ"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       }
     ],
     "Present": [],
@@ -620,6 +612,14 @@ const senate10Votes =
         "state": "NM"
       },
       {
+        "display_name": "Manchin (D-WV)",
+        "first_name": "Joseph",
+        "id": "S338",
+        "last_name": "Manchin",
+        "party": "D",
+        "state": "WV"
+      },
+      {
         "display_name": "Markey (D-MA)",
         "first_name": "Edward",
         "id": "S369",
@@ -642,14 +642,6 @@ const senate10Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -706,6 +698,14 @@ const senate10Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",
