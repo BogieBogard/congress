@@ -1,25 +1,25 @@
 const senate3Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-12T12:30:00-04:00",
+  "date": "2023-09-12T14:15:00-04:00",
   "nomination": {
     "number": "287",
     "title": "Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 225,
-  "question": "Motion to Invoke Cloture: Jeffrey Irvine Cummings to be U.S. District Judge for the Northern District of Illinois: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-09-13T16:33:00-04:00",
+  "number": 226,
+  "question": "On the Nomination PN287: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-09-13T16:34:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (51-44)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (50-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00225.xml",
-  "subject": "On the Cloture Motion PN287",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-14T10:16:14-04:00",
-  "vote_id": "s225-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00226.xml",
+  "subject": "Confirmation: Jeffrey Irvine Cummings, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-14T16:21:41-04:00",
+  "vote_id": "s226-118.2023",
   "votes": {
     "Nay": [
       {
@@ -343,6 +343,14 @@ const senate3Votes =
         "state": "SD"
       },
       {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
+      },
+      {
         "display_name": "Tuberville (R-AL)",
         "first_name": "Tommy",
         "id": "S412",
@@ -409,12 +417,12 @@ const senate3Votes =
         "state": "CA"
       },
       {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       }
     ],
     "Present": [],
@@ -706,14 +714,6 @@ const senate3Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

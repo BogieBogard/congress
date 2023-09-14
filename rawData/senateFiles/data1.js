@@ -6,22 +6,22 @@ const senate1Votes =
     "title": "A bill making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes.",
     "type": "hr"
   },
-  "category": "cloture",
+  "category": "procedural",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-12T15:07:00-04:00",
-  "number": 227,
-  "question": "Motion to Invoke Cloture: Motion to Proceed to H.R. 4366",
-  "record_modified": "2023-09-13T16:34:00-04:00",
-  "requires": "3/5",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (85-12, 3/5 majority required)",
+  "date": "2023-09-14T10:34:00-04:00",
+  "number": 228,
+  "question": "On the Motion to Proceed H.R. 4366",
+  "record_modified": "2023-09-14T11:58:00-04:00",
+  "requires": "1/2",
+  "result": "Motion to Proceed Agreed to",
+  "result_text": "Motion to Proceed Agreed to (91-7)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00227.xml",
-  "subject": "On the Cloture Motion H.R. 4366",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-14T10:16:13-04:00",
-  "vote_id": "s227-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00228.xml",
+  "subject": "Motion to Proceed to H.R. 4366",
+  "type": "On the Motion to Proceed",
+  "updated_at": "2023-09-14T16:21:40-04:00",
+  "vote_id": "s228-118.2023",
   "votes": {
     "Nay": [
       {
@@ -33,28 +33,12 @@ const senate1Votes =
         "state": "IN"
       },
       {
-        "display_name": "Budd (R-NC)",
-        "first_name": "Ted",
-        "id": "S417",
-        "last_name": "Budd",
-        "party": "R",
-        "state": "NC"
-      },
-      {
         "display_name": "Cruz (R-TX)",
         "first_name": "Ted",
         "id": "S355",
         "last_name": "Cruz",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Ernst (R-IA)",
-        "first_name": "Joni",
-        "id": "S376",
-        "last_name": "Ernst",
-        "party": "R",
-        "state": "IA"
       },
       {
         "display_name": "Hawley (R-MO)",
@@ -71,14 +55,6 @@ const senate1Votes =
         "last_name": "Lummis",
         "party": "R",
         "state": "WY"
-      },
-      {
-        "display_name": "Marshall (R-KS)",
-        "first_name": "Roger",
-        "id": "S411",
-        "last_name": "Marshall",
-        "party": "R",
-        "state": "KS"
       },
       {
         "display_name": "Ricketts (R-NE)",
@@ -103,22 +79,6 @@ const senate1Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
       }
     ],
     "Not Voting": [
@@ -131,20 +91,12 @@ const senate1Votes =
         "state": "IL"
       },
       {
-        "display_name": "Markey (D-MA)",
-        "first_name": "Edward",
-        "id": "S369",
-        "last_name": "Markey",
+        "display_name": "Lujan (D-NM)",
+        "first_name": "Ben",
+        "id": "S409",
+        "last_name": "Lujan",
         "party": "D",
-        "state": "MA"
-      },
-      {
-        "display_name": "Padilla (D-CA)",
-        "first_name": "Alex",
-        "id": "S413",
-        "last_name": "Padilla",
-        "party": "D",
-        "state": "CA"
+        "state": "NM"
       }
     ],
     "Present": [],
@@ -220,6 +172,14 @@ const senate1Votes =
         "last_name": "Brown",
         "party": "D",
         "state": "OH"
+      },
+      {
+        "display_name": "Budd (R-NC)",
+        "first_name": "Ted",
+        "id": "S417",
+        "last_name": "Budd",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Cantwell (D-WA)",
@@ -340,6 +300,14 @@ const senate1Votes =
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Ernst (R-IA)",
+        "first_name": "Joni",
+        "id": "S376",
+        "last_name": "Ernst",
+        "party": "R",
+        "state": "IA"
       },
       {
         "display_name": "Feinstein (D-CA)",
@@ -510,20 +478,28 @@ const senate1Votes =
         "state": "UT"
       },
       {
-        "display_name": "Lujan (D-NM)",
-        "first_name": "Ben",
-        "id": "S409",
-        "last_name": "Lujan",
-        "party": "D",
-        "state": "NM"
-      },
-      {
         "display_name": "Manchin (D-WV)",
         "first_name": "Joseph",
         "id": "S338",
         "last_name": "Manchin",
         "party": "D",
         "state": "WV"
+      },
+      {
+        "display_name": "Markey (D-MA)",
+        "first_name": "Edward",
+        "id": "S369",
+        "last_name": "Markey",
+        "party": "D",
+        "state": "MA"
+      },
+      {
+        "display_name": "Marshall (R-KS)",
+        "first_name": "Roger",
+        "id": "S411",
+        "last_name": "Marshall",
+        "party": "R",
+        "state": "KS"
       },
       {
         "display_name": "McConnell (R-KY)",
@@ -596,6 +572,14 @@ const senate1Votes =
         "last_name": "Ossoff",
         "party": "D",
         "state": "GA"
+      },
+      {
+        "display_name": "Padilla (D-CA)",
+        "first_name": "Alex",
+        "id": "S413",
+        "last_name": "Padilla",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -686,6 +670,14 @@ const senate1Votes =
         "state": "NY"
       },
       {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -748,6 +740,14 @@ const senate1Votes =
         "last_name": "Tillis",
         "party": "R",
         "state": "NC"
+      },
+      {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
       },
       {
         "display_name": "Van Hollen (D-MD)",

@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-12T11:30:00-04:00",
+  "date": "2023-09-12T12:30:00-04:00",
   "nomination": {
-    "number": "551",
-    "title": "Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs"
+    "number": "287",
+    "title": "Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois"
   },
-  "number": 224,
-  "question": "On the Nomination PN551: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
-  "record_modified": "2023-09-13T16:32:00-04:00",
+  "number": 225,
+  "question": "Motion to Invoke Cloture: Jeffrey Irvine Cummings to be U.S. District Judge for the Northern District of Illinois: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
+  "record_modified": "2023-09-13T16:33:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (50-46)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (51-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00224.xml",
-  "subject": "Confirmation: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-14T10:16:14-04:00",
-  "vote_id": "s224-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00225.xml",
+  "subject": "On the Cloture Motion PN287",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-14T16:21:41-04:00",
+  "vote_id": "s225-118.2023",
   "votes": {
     "Nay": [
       {
@@ -79,12 +79,12 @@ const senate4Votes =
         "state": "WV"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
+        "display_name": "Cassidy (R-LA)",
+        "first_name": "Bill",
+        "id": "S373",
+        "last_name": "Cassidy",
         "party": "R",
-        "state": "ME"
+        "state": "LA"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -141,14 +141,6 @@ const senate4Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -263,14 +255,6 @@ const senate4Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -301,6 +285,14 @@ const senate4Votes =
         "last_name": "Romney",
         "party": "R",
         "state": "UT"
+      },
+      {
+        "display_name": "Rounds (R-SD)",
+        "first_name": "Mike",
+        "id": "S381",
+        "last_name": "Rounds",
+        "party": "R",
+        "state": "SD"
       },
       {
         "display_name": "Rubio (R-FL)",
@@ -349,14 +341,6 @@ const senate4Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -423,6 +407,14 @@ const senate4Votes =
         "last_name": "Padilla",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       }
     ],
     "Present": [],
@@ -500,12 +492,12 @@ const senate4Votes =
         "state": "PA"
       },
       {
-        "display_name": "Cassidy (R-LA)",
-        "first_name": "Bill",
-        "id": "S373",
-        "last_name": "Cassidy",
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
         "party": "R",
-        "state": "LA"
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -554,6 +546,14 @@ const senate4Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -652,6 +652,14 @@ const senate4Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -698,14 +706,6 @@ const senate4Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
-      },
-      {
-        "display_name": "Rounds (R-SD)",
-        "first_name": "Mike",
-        "id": "S381",
-        "last_name": "Rounds",
-        "party": "R",
-        "state": "SD"
       },
       {
         "display_name": "Sanders (I-VT)",

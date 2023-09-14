@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-06T17:12:00-04:00",
+  "date": "2023-09-06T18:10:00-04:00",
   "nomination": {
-    "number": "644",
-    "title": "Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024"
+    "number": "646",
+    "title": "Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012"
   },
-  "number": 218,
-  "question": "On the Nomination PN644: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System for a term of fourteen years from February 1, 2024",
-  "record_modified": "2023-09-06T18:29:00-04:00",
+  "number": 219,
+  "question": "Motion to Invoke Cloture: Adriana Debora Kugler to be a Member of the Board of Governors of the Federal Reserve System: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System for the unexpired term of fourteen years from February 1, 2012",
+  "record_modified": "2023-09-06T19:14:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (51-47)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00218.xml",
-  "subject": "Confirmation: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-14T10:16:18-04:00",
-  "vote_id": "s218-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00219.xml",
+  "subject": "On the Cloture Motion PN646",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-14T16:21:44-04:00",
+  "vote_id": "s219-118.2023",
   "votes": {
     "Nay": [
       {
@@ -85,14 +85,6 @@ const senate10Votes =
         "last_name": "Cassidy",
         "party": "R",
         "state": "LA"
-      },
-      {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
       },
       {
         "display_name": "Cornyn (R-TX)",
@@ -271,14 +263,6 @@ const senate10Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -409,6 +393,14 @@ const senate10Votes =
         "state": "NJ"
       },
       {
+        "display_name": "Cardin (D-MD)",
+        "first_name": "Ben",
+        "id": "S308",
+        "last_name": "Cardin",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Cotton (R-AR)",
         "first_name": "Tom",
         "id": "S374",
@@ -460,14 +452,6 @@ const senate10Votes =
         "state": "WA"
       },
       {
-        "display_name": "Cardin (D-MD)",
-        "first_name": "Ben",
-        "id": "S308",
-        "last_name": "Cardin",
-        "party": "D",
-        "state": "MD"
-      },
-      {
         "display_name": "Carper (D-DE)",
         "first_name": "Thomas",
         "id": "S277",
@@ -482,6 +466,14 @@ const senate10Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -642,6 +634,14 @@ const senate10Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",

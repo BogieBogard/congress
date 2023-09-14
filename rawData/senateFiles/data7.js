@@ -1,25 +1,25 @@
 const senate7Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-07T12:40:00-04:00",
+  "date": "2023-09-07T13:50:00-04:00",
   "nomination": {
     "number": "673",
     "title": "Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021"
   },
-  "number": 221,
-  "question": "Motion to Invoke Cloture: Anna M. Gomez to be a Member of the Federal Communications Commission: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021",
-  "record_modified": "2023-09-07T13:45:00-04:00",
+  "number": 222,
+  "question": "On the Nomination PN673: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission for a term of five years from July 1, 2021",
+  "record_modified": "2023-09-07T14:45:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (55-43)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (55-43)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00221.xml",
-  "subject": "On the Cloture Motion PN673",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-14T10:16:16-04:00",
-  "vote_id": "s221-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00222.xml",
+  "subject": "Confirmation: Anna M. Gomez, of Virginia, to be a Member of the Federal Communications Commission",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-14T16:21:43-04:00",
+  "vote_id": "s222-118.2023",
   "votes": {
     "Nay": [
       {
