@@ -1,8 +1,8 @@
 const house10Votes = 
 {
   "amendment": {
-    "author": "Roy of Texas Amendment No. 39",
-    "number": 11,
+    "author": "Zinke of Montana Amendment No. 41",
+    "number": 13,
     "type": "h-bill"
   },
   "bill": {
@@ -13,17 +13,17 @@ const house10Votes =
   "category": "amendment",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-07-26T18:30:00-04:00",
-  "number": 376,
-  "question": "On Agreeing to the Amendment: Amendment 11 to H R 4366",
+  "date": "2023-07-26T18:38:00-04:00",
+  "number": 378,
+  "question": "On Agreeing to the Amendment: Amendment 13 to H R 4366",
   "requires": "1/2",
   "result": "Agreed to",
   "result_text": "Agreed to",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll376.xml",
+  "source_url": "https://clerk.house.gov/evs/2023/roll378.xml",
   "type": "On the Amendment",
-  "updated_at": "2023-09-12T22:57:12-04:00",
-  "vote_id": "h376-118.2023",
+  "updated_at": "2023-09-14T10:13:02-04:00",
+  "vote_id": "h378-118.2023",
   "votes": {
     "Aye": [
       {
@@ -115,6 +115,12 @@ const house10Votes =
         "id": "B001301",
         "party": "R",
         "state": "MI"
+      },
+      {
+        "display_name": "Bice",
+        "id": "B000740",
+        "party": "R",
+        "state": "OK"
       },
       {
         "display_name": "Biggs",
@@ -483,6 +489,12 @@ const house10Votes =
         "state": "FL"
       },
       {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
+      },
+      {
         "display_name": "Gonzales, Tony",
         "id": "G000594",
         "party": "R",
@@ -819,6 +831,12 @@ const house10Votes =
         "state": "TX"
       },
       {
+        "display_name": "Mace",
+        "id": "M000194",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Malliotakis",
         "id": "M000317",
         "party": "R",
@@ -1011,12 +1029,6 @@ const house10Votes =
         "state": "AL"
       },
       {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
-      },
-      {
         "display_name": "Pence",
         "id": "P000615",
         "party": "R",
@@ -1105,12 +1117,6 @@ const house10Votes =
         "id": "S000168",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "Santos",
-        "id": "S001222",
-        "party": "R",
-        "state": "NY"
       },
       {
         "display_name": "Scalise",
@@ -1775,12 +1781,6 @@ const house10Votes =
         "state": "CA"
       },
       {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
-      },
-      {
         "display_name": "Goldman (NY)",
         "id": "G000599",
         "party": "D",
@@ -2039,12 +2039,6 @@ const house10Votes =
         "state": "MA"
       },
       {
-        "display_name": "Mace",
-        "id": "M000194",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Magaziner",
         "id": "M001223",
         "party": "D",
@@ -2243,6 +2237,12 @@ const house10Votes =
         "state": "CA"
       },
       {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
+      },
+      {
         "display_name": "Perez",
         "id": "G000600",
         "party": "D",
@@ -2355,6 +2355,12 @@ const house10Votes =
         "id": "S001156",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Santos",
+        "id": "S001222",
+        "party": "R",
+        "state": "NY"
       },
       {
         "display_name": "Sarbanes",
@@ -2628,12 +2634,6 @@ const house10Votes =
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Bice",
-        "id": "B000740",
-        "party": "R",
-        "state": "OK"
-      },
       {
         "display_name": "Gallego",
         "id": "G000574",

@@ -10,7 +10,7 @@ const senate2Votes =
   },
   "number": 226,
   "question": "On the Nomination PN287: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-09-12T15:18:00-04:00",
+  "record_modified": "2023-09-13T16:34:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
   "result_text": "Nomination Confirmed (50-45)",
@@ -18,7 +18,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00226.xml",
   "subject": "Confirmation: Jeffrey Irvine Cummings, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
   "type": "On the Nomination",
-  "updated_at": "2023-09-13T00:32:04-04:00",
+  "updated_at": "2023-09-14T10:16:13-04:00",
   "vote_id": "s226-118.2023",
   "votes": {
     "Nay": [

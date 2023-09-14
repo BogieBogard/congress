@@ -10,7 +10,7 @@ const senate3Votes =
   },
   "number": 225,
   "question": "Motion to Invoke Cloture: Jeffrey Irvine Cummings to be U.S. District Judge for the Northern District of Illinois: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-09-12T13:35:00-04:00",
+  "record_modified": "2023-09-13T16:33:00-04:00",
   "requires": "1/2",
   "result": "Cloture Motion Agreed to",
   "result_text": "Cloture Motion Agreed to (51-44)",
@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00225.xml",
   "subject": "On the Cloture Motion PN287",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-09-13T00:34:06-04:00",
+  "updated_at": "2023-09-14T10:16:14-04:00",
   "vote_id": "s225-118.2023",
   "votes": {
     "Nay": [

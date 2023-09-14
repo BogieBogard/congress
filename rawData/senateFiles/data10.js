@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00218.xml",
   "subject": "Confirmation: Lisa DeNell Cook, of Michigan, to be a Member of the Board of Governors of the Federal Reserve System",
   "type": "On the Nomination",
-  "updated_at": "2023-09-13T00:34:09-04:00",
+  "updated_at": "2023-09-14T10:16:18-04:00",
   "vote_id": "s218-118.2023",
   "votes": {
     "Nay": [

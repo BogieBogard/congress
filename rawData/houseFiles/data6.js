@@ -2,24 +2,24 @@ const house6Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 4366,
-    "type": "hr"
+    "number": 24,
+    "type": "sjres"
   },
   "category": "passage",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-07-27T13:52:00-04:00",
-  "number": 380,
-  "question": "On Passage: H R 4366 Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+  "date": "2023-07-27T15:23:00-04:00",
+  "number": 382,
+  "question": "On Passage: S J RES 24 Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \u201cEndangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat\u201d.",
   "requires": "1/2",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll380.xml",
-  "subject": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2024, and for other purposes",
+  "source_url": "https://clerk.house.gov/evs/2023/roll382.xml",
+  "subject": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \u201cEndangered and Threatened Wildlife and Plants; Endangered Species Status for Northern Long-Eared Bat\u201d.",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-09-12T22:57:10-04:00",
-  "vote_id": "h380-118.2023",
+  "updated_at": "2023-09-14T10:13:00-04:00",
+  "vote_id": "h382-118.2023",
   "votes": {
     "Nay": [
       {
@@ -125,22 +125,10 @@ const house6Votes =
         "state": "CA"
       },
       {
-        "display_name": "Buck",
-        "id": "B001297",
-        "party": "R",
-        "state": "CO"
-      },
-      {
         "display_name": "Budzinski",
         "id": "B001315",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Burchett",
-        "id": "B001309",
-        "party": "R",
-        "state": "TN"
       },
       {
         "display_name": "Bush",
@@ -299,12 +287,6 @@ const house6Votes =
         "state": "CO"
       },
       {
-        "display_name": "Cuellar",
-        "id": "C001063",
-        "party": "D",
-        "state": "TX"
-      },
-      {
         "display_name": "Davids (KS)",
         "id": "D000629",
         "party": "D",
@@ -395,6 +377,12 @@ const house6Votes =
         "state": "PA"
       },
       {
+        "display_name": "Fitzpatrick",
+        "id": "F000466",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Fletcher",
         "id": "F000468",
         "party": "D",
@@ -447,12 +435,6 @@ const house6Votes =
         "id": "G000598",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Golden (ME)",
-        "id": "G000592",
-        "party": "D",
-        "state": "ME"
       },
       {
         "display_name": "Goldman (NY)",
@@ -1271,6 +1253,12 @@ const house6Votes =
         "state": "NJ"
       },
       {
+        "display_name": "Wexton",
+        "id": "W000825",
+        "party": "D",
+        "state": "VA"
+      },
+      {
         "display_name": "Wild",
         "id": "W000826",
         "party": "D",
@@ -1291,6 +1279,12 @@ const house6Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Buchanan",
+        "id": "B001260",
+        "party": "R",
+        "state": "FL"
+      },
+      {
         "display_name": "Gallego",
         "id": "G000574",
         "party": "D",
@@ -1301,12 +1295,6 @@ const house6Votes =
         "id": "H001068",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Wexton",
-        "id": "W000825",
-        "party": "D",
-        "state": "VA"
       },
       {
         "display_name": "Williams (NY)",
@@ -1450,16 +1438,22 @@ const house6Votes =
         "state": "OK"
       },
       {
-        "display_name": "Buchanan",
-        "id": "B001260",
+        "display_name": "Buck",
+        "id": "B001297",
         "party": "R",
-        "state": "FL"
+        "state": "CO"
       },
       {
         "display_name": "Bucshon",
         "id": "B001275",
         "party": "R",
         "state": "IN"
+      },
+      {
+        "display_name": "Burchett",
+        "id": "B001309",
+        "party": "R",
+        "state": "TN"
       },
       {
         "display_name": "Burgess",
@@ -1573,6 +1567,12 @@ const house6Votes =
         "display_name": "Crenshaw",
         "id": "C001120",
         "party": "R",
+        "state": "TX"
+      },
+      {
+        "display_name": "Cuellar",
+        "id": "C001063",
+        "party": "D",
         "state": "TX"
       },
       {
@@ -1702,12 +1702,6 @@ const house6Votes =
         "state": "WI"
       },
       {
-        "display_name": "Fitzpatrick",
-        "id": "F000466",
-        "party": "R",
-        "state": "PA"
-      },
-      {
         "display_name": "Fleischmann",
         "id": "F000459",
         "party": "R",
@@ -1772,6 +1766,12 @@ const house6Votes =
         "id": "G000593",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Golden (ME)",
+        "id": "G000592",
+        "party": "D",
+        "state": "ME"
       },
       {
         "display_name": "Gonzales, Tony",
@@ -2138,12 +2138,6 @@ const house6Votes =
         "id": "M001199",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
       },
       {
         "display_name": "McCaul",

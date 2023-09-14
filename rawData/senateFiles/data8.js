@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00220.xml",
   "subject": "Confirmation: Adriana Debora Kugler, of Maryland, to be a Member of the Board of Governors of the Federal Reserve System",
   "type": "On the Nomination",
-  "updated_at": "2023-09-13T00:34:08-04:00",
+  "updated_at": "2023-09-14T10:16:16-04:00",
   "vote_id": "s220-118.2023",
   "votes": {
     "Nay": [

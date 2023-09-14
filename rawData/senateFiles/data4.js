@@ -10,7 +10,7 @@ const senate4Votes =
   },
   "number": 224,
   "question": "On the Nomination PN551: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
-  "record_modified": "2023-09-12T12:37:00-04:00",
+  "record_modified": "2023-09-13T16:32:00-04:00",
   "requires": "1/2",
   "result": "Nomination Confirmed",
   "result_text": "Nomination Confirmed (50-46)",
@@ -18,7 +18,7 @@ const senate4Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00224.xml",
   "subject": "Confirmation: Tanya J. Bradsher, of Virginia, to be Deputy Secretary of Veterans Affairs",
   "type": "On the Nomination",
-  "updated_at": "2023-09-13T00:34:06-04:00",
+  "updated_at": "2023-09-14T10:16:14-04:00",
   "vote_id": "s224-118.2023",
   "votes": {
     "Nay": [
