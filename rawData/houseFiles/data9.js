@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll383.xml",
   "subject": "Fight CRIME Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-09-15T08:42:13-04:00",
+  "updated_at": "2023-09-15T14:47:32-04:00",
   "vote_id": "h383-118.2023",
   "votes": {
     "Nay": [

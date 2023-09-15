@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll391.xml",
   "subject": "Preserving Choice in Vehicle Purchases Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-09-15T08:42:09-04:00",
+  "updated_at": "2023-09-15T14:47:28-04:00",
   "vote_id": "h391-118.2023",
   "votes": {
     "Nay": [

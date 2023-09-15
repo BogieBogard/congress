@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll386.xml",
   "subject": "ACRES Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-09-15T08:42:11-04:00",
+  "updated_at": "2023-09-15T14:47:30-04:00",
   "vote_id": "h386-118.2023",
   "votes": {
     "Nay": [
