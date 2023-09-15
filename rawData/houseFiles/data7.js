@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll385.xml",
   "subject": "Condemning the Government of Iran\u2019s state-sponsored persecution of the Baha\u2019i minority and its continued violation of the International Covenants on Human Rights",
   "type": "On Motion to Suspend the Rules and Agree",
-  "updated_at": "2023-09-14T16:18:26-04:00",
+  "updated_at": "2023-09-15T08:42:12-04:00",
   "vote_id": "h385-118.2023",
   "votes": {
     "Nay": [

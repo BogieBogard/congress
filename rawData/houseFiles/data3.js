@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll389.xml",
   "subject": "Providing for consideration of the bill (H.R. 1435) to amend the Clean Air Act to prevent the elimination of the sale of internal combustion engines.",
   "type": "On the Resolution",
-  "updated_at": "2023-09-14T16:18:24-04:00",
+  "updated_at": "2023-09-15T08:42:10-04:00",
   "vote_id": "h389-118.2023",
   "votes": {
     "Aye": [
