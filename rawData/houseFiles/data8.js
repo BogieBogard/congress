@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll384.xml",
   "subject": "MAHSA Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-09-15T14:47:31-04:00",
+  "updated_at": "2023-09-18T14:14:53-04:00",
   "vote_id": "h384-118.2023",
   "votes": {
     "Nay": [

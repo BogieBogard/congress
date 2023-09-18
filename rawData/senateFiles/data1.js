@@ -20,7 +20,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00228.xml",
   "subject": "Motion to Proceed to H.R. 4366",
   "type": "On the Motion to Proceed",
-  "updated_at": "2023-09-15T14:50:46-04:00",
+  "updated_at": "2023-09-18T14:18:07-04:00",
   "vote_id": "s228-118.2023",
   "votes": {
     "Nay": [

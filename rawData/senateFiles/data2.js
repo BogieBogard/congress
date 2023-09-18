@@ -20,7 +20,7 @@ const senate2Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00227.xml",
   "subject": "On the Cloture Motion H.R. 4366",
   "type": "On the Cloture Motion",
-  "updated_at": "2023-09-15T14:50:46-04:00",
+  "updated_at": "2023-09-18T14:18:08-04:00",
   "vote_id": "s227-118.2023",
   "votes": {
     "Nay": [

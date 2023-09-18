@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll387.xml",
   "subject": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-09-15T14:47:30-04:00",
+  "updated_at": "2023-09-18T14:14:51-04:00",
   "vote_id": "h387-118.2023",
   "votes": {
     "Nay": [],

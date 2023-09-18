@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll390.xml",
   "subject": "Preserving Choice in Vehicle Purchases Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-09-15T14:47:28-04:00",
+  "updated_at": "2023-09-18T14:14:50-04:00",
   "vote_id": "h390-118.2023",
   "votes": {
     "Nay": [
