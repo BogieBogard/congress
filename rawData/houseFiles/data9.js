@@ -2,93 +2,63 @@ const house9Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 3152,
+    "number": 1567,
     "type": "hr"
   },
   "category": "passage-suspension",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-09-12T18:53:00-04:00",
-  "number": 383,
-  "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 3152 Fight CRIME Act",
+  "date": "2023-09-13T13:55:00-04:00",
+  "number": 386,
+  "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 1567 ACRES Act",
   "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll383.xml",
-  "subject": "Fight CRIME Act",
+  "source_url": "https://clerk.house.gov/evs/2023/roll386.xml",
+  "subject": "ACRES Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-09-18T14:14:53-04:00",
-  "vote_id": "h383-118.2023",
+  "updated_at": "2023-09-19T14:22:39-04:00",
+  "vote_id": "h386-118.2023",
   "votes": {
     "Nay": [
       {
-        "display_name": "Bowman",
-        "id": "B001223",
-        "party": "D",
-        "state": "NY"
-      },
-      {
-        "display_name": "Bush",
-        "id": "B001224",
-        "party": "D",
-        "state": "MO"
-      },
-      {
-        "display_name": "Lee (PA)",
-        "id": "L000602",
-        "party": "D",
-        "state": "PA"
-      },
-      {
-        "display_name": "Massie",
-        "id": "M001184",
+        "display_name": "Brecheen",
+        "id": "B001317",
         "party": "R",
-        "state": "KY"
+        "state": "OK"
       },
       {
-        "display_name": "Ocasio-Cortez",
-        "id": "O000172",
-        "party": "D",
-        "state": "NY"
+        "display_name": "Norman",
+        "id": "N000190",
+        "party": "R",
+        "state": "SC"
       },
       {
-        "display_name": "Omar",
-        "id": "O000173",
-        "party": "D",
-        "state": "MN"
+        "display_name": "Roy",
+        "id": "R000614",
+        "party": "R",
+        "state": "TX"
       },
       {
-        "display_name": "Pressley",
-        "id": "P000617",
-        "party": "D",
-        "state": "MA"
-      },
-      {
-        "display_name": "Tlaib",
-        "id": "T000481",
-        "party": "D",
-        "state": "MI"
+        "display_name": "Self",
+        "id": "S001224",
+        "party": "R",
+        "state": "TX"
       }
     ],
     "Not Voting": [
       {
-        "display_name": "Alford",
-        "id": "A000379",
+        "display_name": "Carter (TX)",
+        "id": "C001051",
         "party": "R",
-        "state": "MO"
+        "state": "TX"
       },
       {
-        "display_name": "Buck",
-        "id": "B001297",
+        "display_name": "Comer",
+        "id": "C001108",
         "party": "R",
-        "state": "CO"
-      },
-      {
-        "display_name": "Carter (LA)",
-        "id": "C001125",
-        "party": "D",
-        "state": "LA"
+        "state": "KY"
       },
       {
         "display_name": "Crenshaw",
@@ -97,8 +67,14 @@ const house9Votes =
         "state": "TX"
       },
       {
-        "display_name": "Fletcher",
-        "id": "F000468",
+        "display_name": "Dunn (FL)",
+        "id": "D000628",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Escobar",
+        "id": "E000299",
         "party": "D",
         "state": "TX"
       },
@@ -109,16 +85,10 @@ const house9Votes =
         "state": "NC"
       },
       {
-        "display_name": "Graves (MO)",
-        "id": "G000546",
+        "display_name": "Green (TN)",
+        "id": "G000590",
         "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Higgins (NY)",
-        "id": "H001038",
-        "party": "D",
-        "state": "NY"
+        "state": "TN"
       },
       {
         "display_name": "Ivey",
@@ -127,22 +97,22 @@ const house9Votes =
         "state": "MD"
       },
       {
+        "display_name": "Jackson (IL)",
+        "id": "J000309",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Jackson Lee",
         "id": "J000032",
         "party": "D",
         "state": "TX"
       },
       {
-        "display_name": "Kelly (PA)",
-        "id": "K000376",
+        "display_name": "Jordan",
+        "id": "J000289",
         "party": "R",
-        "state": "PA"
-      },
-      {
-        "display_name": "Kuster",
-        "id": "K000382",
-        "party": "D",
-        "state": "NH"
+        "state": "OH"
       },
       {
         "display_name": "Lucas",
@@ -163,10 +133,34 @@ const house9Votes =
         "state": "GA"
       },
       {
+        "display_name": "Menendez",
+        "id": "M001226",
+        "party": "D",
+        "state": "NJ"
+      },
+      {
+        "display_name": "Mfume",
+        "id": "M000687",
+        "party": "D",
+        "state": "MD"
+      },
+      {
         "display_name": "Nehls",
         "id": "N000026",
         "party": "R",
         "state": "TX"
+      },
+      {
+        "display_name": "Ogles",
+        "id": "O000175",
+        "party": "R",
+        "state": "TN"
+      },
+      {
+        "display_name": "Peltola",
+        "id": "P000619",
+        "party": "D",
+        "state": "AK"
       },
       {
         "display_name": "Pingree",
@@ -191,18 +185,6 @@ const house9Votes =
         "id": "T000486",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Wagner",
-        "id": "W000812",
-        "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Wexton",
-        "id": "W000825",
-        "party": "D",
-        "state": "VA"
       }
     ],
     "Present": [],
@@ -224,6 +206,12 @@ const house9Votes =
         "id": "A000371",
         "party": "D",
         "state": "CA"
+      },
+      {
+        "display_name": "Alford",
+        "id": "A000379",
+        "party": "R",
+        "state": "MO"
       },
       {
         "display_name": "Allen",
@@ -406,16 +394,16 @@ const house9Votes =
         "state": "IL"
       },
       {
+        "display_name": "Bowman",
+        "id": "B001223",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Boyle (PA)",
         "id": "B001296",
         "party": "D",
         "state": "PA"
-      },
-      {
-        "display_name": "Brecheen",
-        "id": "B001317",
-        "party": "R",
-        "state": "OK"
       },
       {
         "display_name": "Brown",
@@ -434,6 +422,12 @@ const house9Votes =
         "id": "B001260",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Buck",
+        "id": "B001297",
+        "party": "R",
+        "state": "CO"
       },
       {
         "display_name": "Bucshon",
@@ -463,6 +457,12 @@ const house9Votes =
         "display_name": "Burlison",
         "id": "B001316",
         "party": "R",
+        "state": "MO"
+      },
+      {
+        "display_name": "Bush",
+        "id": "B001224",
+        "party": "D",
         "state": "MO"
       },
       {
@@ -520,10 +520,10 @@ const house9Votes =
         "state": "GA"
       },
       {
-        "display_name": "Carter (TX)",
-        "id": "C001051",
-        "party": "R",
-        "state": "TX"
+        "display_name": "Carter (LA)",
+        "id": "C001125",
+        "party": "D",
+        "state": "LA"
       },
       {
         "display_name": "Cartwright",
@@ -644,12 +644,6 @@ const house9Votes =
         "id": "C001129",
         "party": "R",
         "state": "GA"
-      },
-      {
-        "display_name": "Comer",
-        "id": "C001108",
-        "party": "R",
-        "state": "KY"
       },
       {
         "display_name": "Connolly",
@@ -832,12 +826,6 @@ const house9Votes =
         "state": "SC"
       },
       {
-        "display_name": "Dunn (FL)",
-        "id": "D000628",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Edwards",
         "id": "E000246",
         "party": "R",
@@ -854,12 +842,6 @@ const house9Votes =
         "id": "E000294",
         "party": "R",
         "state": "MN"
-      },
-      {
-        "display_name": "Escobar",
-        "id": "E000299",
-        "party": "D",
-        "state": "TX"
       },
       {
         "display_name": "Eshoo",
@@ -938,6 +920,12 @@ const house9Votes =
         "id": "F000459",
         "party": "R",
         "state": "TN"
+      },
+      {
+        "display_name": "Fletcher",
+        "id": "F000468",
+        "party": "D",
+        "state": "TX"
       },
       {
         "display_name": "Flood",
@@ -1114,10 +1102,10 @@ const house9Votes =
         "state": "LA"
       },
       {
-        "display_name": "Green (TN)",
-        "id": "G000590",
+        "display_name": "Graves (MO)",
+        "id": "G000546",
         "party": "R",
-        "state": "TN"
+        "state": "MO"
       },
       {
         "display_name": "Green, Al (TX)",
@@ -1204,6 +1192,12 @@ const house9Votes =
         "state": "LA"
       },
       {
+        "display_name": "Higgins (NY)",
+        "id": "H001038",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Hill",
         "id": "H001072",
         "party": "R",
@@ -1282,12 +1276,6 @@ const house9Votes =
         "state": "CA"
       },
       {
-        "display_name": "Jackson (IL)",
-        "id": "J000309",
-        "party": "D",
-        "state": "IL"
-      },
-      {
         "display_name": "Jackson (NC)",
         "id": "J000308",
         "party": "D",
@@ -1348,12 +1336,6 @@ const house9Votes =
         "state": "SD"
       },
       {
-        "display_name": "Jordan",
-        "id": "J000289",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Joyce (OH)",
         "id": "J000295",
         "party": "R",
@@ -1402,6 +1384,12 @@ const house9Votes =
         "state": "MS"
       },
       {
+        "display_name": "Kelly (PA)",
+        "id": "K000376",
+        "party": "R",
+        "state": "PA"
+      },
+      {
         "display_name": "Khanna",
         "id": "K000389",
         "party": "D",
@@ -1448,6 +1436,12 @@ const house9Votes =
         "id": "K000391",
         "party": "D",
         "state": "IL"
+      },
+      {
+        "display_name": "Kuster",
+        "id": "K000382",
+        "party": "D",
+        "state": "NH"
       },
       {
         "display_name": "Kustoff",
@@ -1540,6 +1534,12 @@ const house9Votes =
         "state": "NV"
       },
       {
+        "display_name": "Lee (PA)",
+        "id": "L000602",
+        "party": "D",
+        "state": "PA"
+      },
+      {
         "display_name": "Leger Fernandez",
         "id": "L000273",
         "party": "D",
@@ -1630,6 +1630,12 @@ const house9Votes =
         "state": "NC"
       },
       {
+        "display_name": "Massie",
+        "id": "M001184",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Mast",
         "id": "M001199",
         "party": "R",
@@ -1702,12 +1708,6 @@ const house9Votes =
         "state": "NY"
       },
       {
-        "display_name": "Menendez",
-        "id": "M001226",
-        "party": "D",
-        "state": "NJ"
-      },
-      {
         "display_name": "Meng",
         "id": "M001188",
         "party": "D",
@@ -1718,12 +1718,6 @@ const house9Votes =
         "id": "M001204",
         "party": "R",
         "state": "PA"
-      },
-      {
-        "display_name": "Mfume",
-        "id": "M000687",
-        "party": "D",
-        "state": "MD"
       },
       {
         "display_name": "Miller (IL)",
@@ -1876,12 +1870,6 @@ const house9Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Norman",
-        "id": "N000190",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Nunn (IA)",
         "id": "N000193",
         "party": "R",
@@ -1894,10 +1882,16 @@ const house9Votes =
         "state": "CA"
       },
       {
-        "display_name": "Ogles",
-        "id": "O000175",
-        "party": "R",
-        "state": "TN"
+        "display_name": "Ocasio-Cortez",
+        "id": "O000172",
+        "party": "D",
+        "state": "NY"
+      },
+      {
+        "display_name": "Omar",
+        "id": "O000173",
+        "party": "D",
+        "state": "MN"
       },
       {
         "display_name": "Owens",
@@ -1946,12 +1940,6 @@ const house9Votes =
         "id": "P000197",
         "party": "D",
         "state": "CA"
-      },
-      {
-        "display_name": "Peltola",
-        "id": "P000619",
-        "party": "D",
-        "state": "AK"
       },
       {
         "display_name": "Pence",
@@ -2012,6 +2000,12 @@ const house9Votes =
         "id": "P000599",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Pressley",
+        "id": "P000617",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Quigley",
@@ -2078,12 +2072,6 @@ const house9Votes =
         "id": "R000603",
         "party": "R",
         "state": "NC"
-      },
-      {
-        "display_name": "Roy",
-        "id": "R000614",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Ruiz",
@@ -2198,12 +2186,6 @@ const house9Votes =
         "id": "S001157",
         "party": "D",
         "state": "GA"
-      },
-      {
-        "display_name": "Self",
-        "id": "S001224",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Sessions",
@@ -2422,6 +2404,12 @@ const house9Votes =
         "state": "NV"
       },
       {
+        "display_name": "Tlaib",
+        "id": "T000481",
+        "party": "D",
+        "state": "MI"
+      },
+      {
         "display_name": "Tokuda",
         "id": "T000487",
         "party": "D",
@@ -2512,6 +2500,12 @@ const house9Votes =
         "state": "NY"
       },
       {
+        "display_name": "Wagner",
+        "id": "W000812",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Walberg",
         "id": "W000798",
         "party": "R",
@@ -2564,6 +2558,12 @@ const house9Votes =
         "id": "W000821",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Wexton",
+        "id": "W000825",
+        "party": "D",
+        "state": "VA"
       },
       {
         "display_name": "Wild",
