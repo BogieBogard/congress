@@ -1,25 +1,32 @@
 const senate2Votes = 
 {
-  "category": "nomination",
+  "amendment": {
+    "number": 1092,
+    "purpose": "In the nature of a substitute.",
+    "type": "s"
+  },
+  "bill": {
+    "congress": 118,
+    "number": 4366,
+    "title": "No short title on file",
+    "type": "hr"
+  },
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-19T11:31:00-04:00",
-  "nomination": {
-    "number": "591",
-    "title": "Vernon D. Oliver, of Connecticut, to be United States District Judge for the District of Connecticut"
-  },
-  "number": 230,
-  "question": "On the Nomination PN591: Vernon D. Oliver, of Connecticut, to be United States District Judge for the District of Connecticut",
-  "record_modified": "2023-09-19T12:44:00-04:00",
-  "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-44)",
+  "date": "2023-09-20T12:15:00-04:00",
+  "number": 233,
+  "question": "Motion to Invoke Cloture: Motion to Suspend the rules under Rule V Re: Amdt No 1092",
+  "record_modified": "2023-09-20T13:47:00-04:00",
+  "requires": "3/5",
+  "result": "Cloture Motion Rejected",
+  "result_text": "Cloture Motion Rejected (49-48, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00230.xml",
-  "subject": "Confirmation: Vernon D. Oliver, of Connecticut, to be U.S. District Judge for the District of Connecticut",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-19T14:25:54-04:00",
-  "vote_id": "s230-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00233.xml",
+  "subject": "On the Cloture Motion S.Amdt. 1092 to H.R. 4366 (No short title on file)",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-20T17:51:19-04:00",
+  "vote_id": "s233-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,6 +94,14 @@ const senate2Votes =
         "state": "LA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -149,6 +164,14 @@ const senate2Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -319,6 +342,14 @@ const senate2Votes =
         "state": "MO"
       },
       {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Scott (R-FL)",
         "first_name": "Rick",
         "id": "S404",
@@ -341,6 +372,14 @@ const senate2Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -377,20 +416,20 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
         "party": "D",
-        "state": "CA"
+        "state": "NJ"
       },
       {
-        "display_name": "Kelly (D-AZ)",
-        "first_name": "Mark",
-        "id": "S406",
-        "last_name": "Kelly",
-        "party": "D",
-        "state": "AZ"
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Scott (R-SC)",
@@ -426,14 +465,6 @@ const senate2Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -476,14 +507,6 @@ const senate2Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -516,6 +539,14 @@ const senate2Votes =
         "state": "IL"
       },
       {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
@@ -530,14 +561,6 @@ const senate2Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -578,6 +601,14 @@ const senate2Votes =
         "last_name": "Kaine",
         "party": "D",
         "state": "VA"
+      },
+      {
+        "display_name": "Kelly (D-AZ)",
+        "first_name": "Mark",
+        "id": "S406",
+        "last_name": "Kelly",
+        "party": "D",
+        "state": "AZ"
       },
       {
         "display_name": "King (I-ME)",
@@ -634,14 +665,6 @@ const senate2Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -716,14 +739,6 @@ const senate2Votes =
         "state": "HI"
       },
       {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
-      },
-      {
         "display_name": "Shaheen (D-NH)",
         "first_name": "Jeanne",
         "id": "S324",
@@ -762,14 +777,6 @@ const senate2Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",
