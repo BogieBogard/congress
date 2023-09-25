@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-12T14:15:00-04:00",
+  "date": "2023-09-19T12:27:00-04:00",
   "nomination": {
-    "number": "287",
-    "title": "Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois"
+    "number": "173",
+    "title": "Rita F. Lin, of California, to be United States District Judge for the Northern District of California"
   },
-  "number": 226,
-  "question": "On the Nomination PN287: Jeffrey Irvine Cummings, of Illinois, to be United States District Judge for the Northern District of Illinois",
-  "record_modified": "2023-09-13T16:34:00-04:00",
+  "number": 231,
+  "question": "Motion to Invoke Cloture: Rita F. Lin to be U.S. District Judge for the Northern District of California: Rita F. Lin, of California, to be United States District Judge for the Northern District of California",
+  "record_modified": "2023-09-19T13:27:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (50-45)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00226.xml",
-  "subject": "Confirmation: Jeffrey Irvine Cummings, of Illinois, to be U.S. District Judge for the Northern District of Illinois",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-20T17:51:22-04:00",
-  "vote_id": "s226-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00231.xml",
+  "subject": "On the Cloture Motion PN173",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-25T12:01:44-04:00",
+  "vote_id": "s231-118.2023",
   "votes": {
     "Nay": [
       {
@@ -117,6 +117,14 @@ const senate9Votes =
         "last_name": "Crapo",
         "party": "R",
         "state": "ID"
+      },
+      {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Daines (R-MT)",
@@ -319,14 +327,6 @@ const senate9Votes =
         "state": "FL"
       },
       {
-        "display_name": "Scott (R-SC)",
-        "first_name": "Tim",
-        "id": "S365",
-        "last_name": "Scott",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Sullivan (R-AK)",
         "first_name": "Dan",
         "id": "S383",
@@ -385,44 +385,28 @@ const senate9Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Duckworth (D-IL)",
-        "first_name": "Tammy",
-        "id": "S386",
-        "last_name": "Duckworth",
-        "party": "D",
-        "state": "IL"
-      },
-      {
-        "display_name": "Markey (D-MA)",
-        "first_name": "Edward",
-        "id": "S369",
-        "last_name": "Markey",
-        "party": "D",
-        "state": "MA"
-      },
-      {
-        "display_name": "Padilla (D-CA)",
-        "first_name": "Alex",
-        "id": "S413",
-        "last_name": "Padilla",
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
         "party": "D",
         "state": "CA"
       },
       {
-        "display_name": "Sanders (I-VT)",
-        "first_name": "Bernard",
-        "id": "S313",
-        "last_name": "Sanders",
-        "party": "I",
-        "state": "VT"
+        "display_name": "Kelly (D-AZ)",
+        "first_name": "Mark",
+        "id": "S406",
+        "last_name": "Kelly",
+        "party": "D",
+        "state": "AZ"
+      },
+      {
+        "display_name": "Scott (R-SC)",
+        "first_name": "Tim",
+        "id": "S365",
+        "last_name": "Scott",
+        "party": "R",
+        "state": "SC"
       }
     ],
     "Present": [],
@@ -524,20 +508,20 @@ const senate9Votes =
         "state": "NV"
       },
       {
+        "display_name": "Duckworth (D-IL)",
+        "first_name": "Tammy",
+        "id": "S386",
+        "last_name": "Duckworth",
+        "party": "D",
+        "state": "IL"
+      },
+      {
         "display_name": "Durbin (D-IL)",
         "first_name": "Richard",
         "id": "S253",
         "last_name": "Durbin",
         "party": "D",
         "state": "IL"
-      },
-      {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
-        "party": "D",
-        "state": "CA"
       },
       {
         "display_name": "Fetterman (D-PA)",
@@ -604,14 +588,6 @@ const senate9Votes =
         "state": "VA"
       },
       {
-        "display_name": "Kelly (D-AZ)",
-        "first_name": "Mark",
-        "id": "S406",
-        "last_name": "Kelly",
-        "party": "D",
-        "state": "AZ"
-      },
-      {
         "display_name": "King (I-ME)",
         "first_name": "Angus",
         "id": "S363",
@@ -642,6 +618,14 @@ const senate9Votes =
         "last_name": "Manchin",
         "party": "D",
         "state": "WV"
+      },
+      {
+        "display_name": "Markey (D-MA)",
+        "first_name": "Edward",
+        "id": "S369",
+        "last_name": "Markey",
+        "party": "D",
+        "state": "MA"
       },
       {
         "display_name": "Menendez (D-NJ)",
@@ -692,6 +676,14 @@ const senate9Votes =
         "state": "GA"
       },
       {
+        "display_name": "Padilla (D-CA)",
+        "first_name": "Alex",
+        "id": "S413",
+        "last_name": "Padilla",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Peters (D-MI)",
         "first_name": "Gary",
         "id": "S380",
@@ -714,6 +706,14 @@ const senate9Votes =
         "last_name": "Rosen",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Sanders (I-VT)",
+        "first_name": "Bernard",
+        "id": "S313",
+        "last_name": "Sanders",
+        "party": "I",
+        "state": "VT"
       },
       {
         "display_name": "Schatz (D-HI)",

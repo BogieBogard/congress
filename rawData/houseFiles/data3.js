@@ -2,36 +2,48 @@ const house3Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 112,
-    "type": "s"
+    "number": 1530,
+    "type": "hr"
   },
   "category": "passage-suspension",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-09-19T15:38:00-04:00",
-  "number": 399,
-  "question": "On Motion to Suspend the Rules and Pass: S 112 To amend title 38, United States Code, to strengthen benefits for children of Vietnam veterans born with spina bifida, and for other purposes",
+  "date": "2023-09-20T14:27:00-04:00",
+  "number": 401,
+  "question": "On Motion to Suspend the Rules and Pass, as Amended: H R 1530 Veterans Benefits Improvement Act",
   "requires": "2/3",
   "result": "Passed",
   "result_text": "Passed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll399.xml",
-  "subject": "To amend title 38, United States Code, to strengthen benefits for children of Vietnam veterans born with spina bifida, and for other purposes",
-  "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-09-20T17:47:56-04:00",
-  "vote_id": "h399-118.2023",
+  "source_url": "https://clerk.house.gov/evs/2023/roll401.xml",
+  "subject": "Veterans Benefits Improvement Act",
+  "type": "On Motion to Suspend the Rules and Pass, as Amended",
+  "updated_at": "2023-09-25T11:58:18-04:00",
+  "vote_id": "h401-118.2023",
   "votes": {
     "Nay": [],
     "Not Voting": [
       {
-        "display_name": "Bentz",
-        "id": "B000668",
-        "party": "R",
-        "state": "OR"
+        "display_name": "Adams",
+        "id": "A000370",
+        "party": "D",
+        "state": "NC"
       },
       {
-        "display_name": "Crenshaw",
-        "id": "C001120",
+        "display_name": "Cole",
+        "id": "C001053",
+        "party": "R",
+        "state": "OK"
+      },
+      {
+        "display_name": "Gaetz",
+        "id": "G000578",
+        "party": "R",
+        "state": "FL"
+      },
+      {
+        "display_name": "Hunt",
+        "id": "H001095",
         "party": "R",
         "state": "TX"
       },
@@ -54,10 +66,10 @@ const house3Votes =
         "state": "FL"
       },
       {
-        "display_name": "Magaziner",
-        "id": "M001223",
-        "party": "D",
-        "state": "RI"
+        "display_name": "Norman",
+        "id": "N000190",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Peltola",
@@ -66,38 +78,14 @@ const house3Votes =
         "state": "AK"
       },
       {
-        "display_name": "Pfluger",
-        "id": "P000048",
-        "party": "R",
-        "state": "TX"
-      },
-      {
         "display_name": "Scalise",
         "id": "S001176",
         "party": "R",
         "state": "LA"
-      },
-      {
-        "display_name": "Smith (NE)",
-        "id": "S001172",
-        "party": "R",
-        "state": "NE"
-      },
-      {
-        "display_name": "Waters",
-        "id": "W000187",
-        "party": "D",
-        "state": "CA"
       }
     ],
     "Present": [],
     "Yea": [
-      {
-        "display_name": "Adams",
-        "id": "A000370",
-        "party": "D",
-        "state": "NC"
-      },
       {
         "display_name": "Aderholt",
         "id": "A000055",
@@ -211,6 +199,12 @@ const house3Votes =
         "id": "B001281",
         "party": "D",
         "state": "OH"
+      },
+      {
+        "display_name": "Bentz",
+        "id": "B000668",
+        "party": "R",
+        "state": "OR"
       },
       {
         "display_name": "Bera",
@@ -543,12 +537,6 @@ const house3Votes =
         "state": "TN"
       },
       {
-        "display_name": "Cole",
-        "id": "C001053",
-        "party": "R",
-        "state": "OK"
-      },
-      {
         "display_name": "Collins",
         "id": "C001129",
         "party": "R",
@@ -601,6 +589,12 @@ const house3Votes =
         "id": "C001087",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Crenshaw",
+        "id": "C001120",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Crockett",
@@ -909,12 +903,6 @@ const house3Votes =
         "state": "ID"
       },
       {
-        "display_name": "Gaetz",
-        "id": "G000578",
-        "party": "R",
-        "state": "FL"
-      },
-      {
         "display_name": "Gallagher",
         "id": "G000579",
         "party": "R",
@@ -1201,12 +1189,6 @@ const house3Votes =
         "id": "H001058",
         "party": "R",
         "state": "MI"
-      },
-      {
-        "display_name": "Hunt",
-        "id": "H001095",
-        "party": "R",
-        "state": "TX"
       },
       {
         "display_name": "Issa",
@@ -1563,6 +1545,12 @@ const house3Votes =
         "state": "SC"
       },
       {
+        "display_name": "Magaziner",
+        "id": "M001223",
+        "party": "D",
+        "state": "RI"
+      },
+      {
         "display_name": "Malliotakis",
         "id": "M000317",
         "party": "R",
@@ -1851,12 +1839,6 @@ const house3Votes =
         "state": "NJ"
       },
       {
-        "display_name": "Norman",
-        "id": "N000190",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Nunn (IA)",
         "id": "N000193",
         "party": "R",
@@ -1963,6 +1945,12 @@ const house3Votes =
         "id": "P000620",
         "party": "D",
         "state": "CO"
+      },
+      {
+        "display_name": "Pfluger",
+        "id": "P000048",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Phillips",
@@ -2233,6 +2221,12 @@ const house3Votes =
         "id": "S001195",
         "party": "R",
         "state": "MO"
+      },
+      {
+        "display_name": "Smith (NE)",
+        "id": "S001172",
+        "party": "R",
+        "state": "NE"
       },
       {
         "display_name": "Smith (NJ)",
@@ -2527,6 +2521,12 @@ const house3Votes =
         "id": "W000797",
         "party": "D",
         "state": "FL"
+      },
+      {
+        "display_name": "Waters",
+        "id": "W000187",
+        "party": "D",
+        "state": "CA"
       },
       {
         "display_name": "Watson Coleman",
