@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll397.xml",
   "subject": "Providing for consideration of the bill (H.R. 1435) Preserving Choice in Vehicle Purchases Act, and providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024, and for other purposes",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-09-25T11:58:20-04:00",
+  "updated_at": "2023-09-25T22:28:44-04:00",
   "vote_id": "h397-118.2023",
   "votes": {
     "Nay": [

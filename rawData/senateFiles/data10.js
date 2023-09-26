@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00230.xml",
   "subject": "Confirmation: Vernon D. Oliver, of Connecticut, to be U.S. District Judge for the District of Connecticut",
   "type": "On the Nomination",
-  "updated_at": "2023-09-25T12:01:45-04:00",
+  "updated_at": "2023-09-25T22:32:09-04:00",
   "vote_id": "s230-118.2023",
   "votes": {
     "Nay": [
