@@ -18,7 +18,7 @@ const house1Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll403.xml",
   "subject": "Providing for consideration of the bill (H.R. 4365) Department of Defense Appropriations Act, 2024; providing for consideration of the bill (H.R. 1130) Unlocking our Domestic LNG Potential Act; and providing for consideration of the resolution (H.Res. 684)",
   "type": "On the Resolution",
-  "updated_at": "2023-09-25T22:28:41-04:00",
+  "updated_at": "2023-09-26T04:34:15-04:00",
   "vote_id": "h403-118.2023",
   "votes": {
     "Aye": [

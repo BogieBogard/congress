@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00235.xml",
   "subject": "Confirmation: General Charles Q. Brown, Jr., for reappointment as Chairman of the Joint Chiefs of Staff and appointment in the U.S. Air Force: to be General",
   "type": "On the Nomination",
-  "updated_at": "2023-09-25T22:32:07-04:00",
+  "updated_at": "2023-09-26T04:37:50-04:00",
   "vote_id": "s235-118.2023",
   "votes": {
     "Nay": [
