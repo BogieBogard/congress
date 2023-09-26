@@ -18,7 +18,7 @@ const senate1Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00239.xml",
   "subject": "Confirmation: General Eric M. Smith for appointment as Commandant of the Marine Corps and appointment in the U.S. Marine Corps: to be General",
   "type": "On the Nomination",
-  "updated_at": "2023-09-26T04:37:48-04:00",
+  "updated_at": "2023-09-26T11:35:49-04:00",
   "vote_id": "s239-118.2023",
   "votes": {
     "Nay": [],

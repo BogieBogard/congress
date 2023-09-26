@@ -18,7 +18,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00232.xml",
   "subject": "Confirmation: Rita F. Lin, of California, to be U.S. District Judge for the Northern District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-09-26T04:37:52-04:00",
+  "updated_at": "2023-09-26T11:35:53-04:00",
   "vote_id": "s232-118.2023",
   "votes": {
     "Nay": [

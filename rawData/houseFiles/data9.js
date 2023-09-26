@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll395.xml",
   "subject": "National Defense Authorization Act",
   "type": "On Motion to go to Conference",
-  "updated_at": "2023-09-26T04:34:19-04:00",
+  "updated_at": "2023-09-26T11:09:38-04:00",
   "vote_id": "h395-118.2023",
   "votes": {
     "Nay": [

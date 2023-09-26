@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll399.xml",
   "subject": "To amend title 38, United States Code, to strengthen benefits for children of Vietnam veterans born with spina bifida, and for other purposes",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-09-26T04:34:17-04:00",
+  "updated_at": "2023-09-26T11:09:36-04:00",
   "vote_id": "h399-118.2023",
   "votes": {
     "Nay": [],

@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00237.xml",
   "subject": "Confirmation: General Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army: to be General",
   "type": "On the Nomination",
-  "updated_at": "2023-09-26T04:37:49-04:00",
+  "updated_at": "2023-09-26T11:35:50-04:00",
   "vote_id": "s237-118.2023",
   "votes": {
     "Nay": [

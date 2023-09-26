@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll400.xml",
   "subject": "National Defense Authorization Act",
   "type": "On Motion to Instruct Conferees",
-  "updated_at": "2023-09-26T04:34:16-04:00",
+  "updated_at": "2023-09-26T11:09:35-04:00",
   "vote_id": "h400-118.2023",
   "votes": {
     "Nay": [

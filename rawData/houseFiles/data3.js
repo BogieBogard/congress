@@ -18,7 +18,7 @@ const house3Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll401.xml",
   "subject": "Veterans Benefits Improvement Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-09-26T04:34:16-04:00",
+  "updated_at": "2023-09-26T11:09:35-04:00",
   "vote_id": "h401-118.2023",
   "votes": {
     "Nay": [],
