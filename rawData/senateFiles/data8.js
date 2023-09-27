@@ -1,25 +1,32 @@
 const senate8Votes = 
 {
-  "category": "nomination",
+  "amendment": {
+    "number": 1092,
+    "purpose": "In the nature of a substitute.",
+    "type": "s"
+  },
+  "bill": {
+    "congress": 118,
+    "number": 4366,
+    "title": "No short title on file",
+    "type": "hr"
+  },
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-19T14:15:00-04:00",
-  "nomination": {
-    "number": "173",
-    "title": "Rita F. Lin, of California, to be United States District Judge for the Northern District of California"
-  },
-  "number": 232,
-  "question": "On the Nomination PN173: Rita F. Lin, of California, to be United States District Judge for the Northern District of California",
-  "record_modified": "2023-09-19T15:20:00-04:00",
-  "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (52-45)",
+  "date": "2023-09-20T12:15:00-04:00",
+  "number": 233,
+  "question": "Motion to Invoke Cloture: Motion to Suspend the rules under Rule V Re: Amdt No 1092",
+  "record_modified": "2023-09-20T13:47:00-04:00",
+  "requires": "3/5",
+  "result": "Cloture Motion Rejected",
+  "result_text": "Cloture Motion Rejected (49-48, 3/5 majority required)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00232.xml",
-  "subject": "Confirmation: Rita F. Lin, of California, to be U.S. District Judge for the Northern District of California",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-26T11:35:53-04:00",
-  "vote_id": "s232-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00233.xml",
+  "subject": "On the Cloture Motion S.Amdt. 1092 to H.R. 4366 (No short title on file)",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-27T14:02:23-04:00",
+  "vote_id": "s233-118.2023",
   "votes": {
     "Nay": [
       {
@@ -87,6 +94,14 @@ const senate8Votes =
         "state": "LA"
       },
       {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
+      },
+      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -149,6 +164,14 @@ const senate8Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -319,6 +342,14 @@ const senate8Votes =
         "state": "MO"
       },
       {
+        "display_name": "Schumer (D-NY)",
+        "first_name": "Charles",
+        "id": "S270",
+        "last_name": "Schumer",
+        "party": "D",
+        "state": "NY"
+      },
+      {
         "display_name": "Scott (R-FL)",
         "first_name": "Rick",
         "id": "S404",
@@ -385,20 +416,20 @@ const senate8Votes =
     ],
     "Not Voting": [
       {
-        "display_name": "Feinstein (D-CA)",
-        "first_name": "Dianne",
-        "id": "S221",
-        "last_name": "Feinstein",
+        "display_name": "Booker (D-NJ)",
+        "first_name": "Cory",
+        "id": "S370",
+        "last_name": "Booker",
         "party": "D",
-        "state": "CA"
+        "state": "NJ"
       },
       {
-        "display_name": "Kelly (D-AZ)",
-        "first_name": "Mark",
-        "id": "S406",
-        "last_name": "Kelly",
-        "party": "D",
-        "state": "AZ"
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
       },
       {
         "display_name": "Scott (R-SC)",
@@ -434,14 +465,6 @@ const senate8Votes =
         "last_name": "Blumenthal",
         "party": "D",
         "state": "CT"
-      },
-      {
-        "display_name": "Booker (D-NJ)",
-        "first_name": "Cory",
-        "id": "S370",
-        "last_name": "Booker",
-        "party": "D",
-        "state": "NJ"
       },
       {
         "display_name": "Brown (D-OH)",
@@ -484,14 +507,6 @@ const senate8Votes =
         "state": "PA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Coons (D-DE)",
         "first_name": "Christopher",
         "id": "S337",
@@ -524,6 +539,14 @@ const senate8Votes =
         "state": "IL"
       },
       {
+        "display_name": "Feinstein (D-CA)",
+        "first_name": "Dianne",
+        "id": "S221",
+        "last_name": "Feinstein",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Fetterman (D-PA)",
         "first_name": "John",
         "id": "S418",
@@ -538,14 +561,6 @@ const senate8Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -586,6 +601,14 @@ const senate8Votes =
         "last_name": "Kaine",
         "party": "D",
         "state": "VA"
+      },
+      {
+        "display_name": "Kelly (D-AZ)",
+        "first_name": "Mark",
+        "id": "S406",
+        "last_name": "Kelly",
+        "party": "D",
+        "state": "AZ"
       },
       {
         "display_name": "King (I-ME)",
@@ -642,14 +665,6 @@ const senate8Votes =
         "last_name": "Merkley",
         "party": "D",
         "state": "OR"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Murphy (D-CT)",
@@ -722,14 +737,6 @@ const senate8Votes =
         "last_name": "Schatz",
         "party": "D",
         "state": "HI"
-      },
-      {
-        "display_name": "Schumer (D-NY)",
-        "first_name": "Charles",
-        "id": "S270",
-        "last_name": "Schumer",
-        "party": "D",
-        "state": "NY"
       },
       {
         "display_name": "Shaheen (D-NH)",

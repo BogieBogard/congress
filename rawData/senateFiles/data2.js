@@ -1,25 +1,25 @@
 const senate2Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-21T12:38:00-04:00",
+  "date": "2023-09-21T13:42:00-04:00",
   "nomination": {
     "number": "691",
     "title": "Gen. Eric M. Smith, in the Marine Corps, to be General"
   },
-  "number": 238,
-  "question": "Motion to Invoke Cloture: Gen. Eric M. Smith for appointment as Commandant of the Marine Corps and appointment in the U.S. Marine Corps: to be General: Gen. Eric M. Smith, in the Marine Corps, to be General",
-  "record_modified": "2023-09-21T13:45:00-04:00",
+  "number": 239,
+  "question": "On the Nomination PN691: Gen. Eric M. Smith, in the Marine Corps, to be General",
+  "record_modified": "2023-09-21T14:41:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (96-0)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (96-0)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00238.xml",
-  "subject": "On the Cloture Motion PN691",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-26T11:35:49-04:00",
-  "vote_id": "s238-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00239.xml",
+  "subject": "Confirmation: General Eric M. Smith for appointment as Commandant of the Marine Corps and appointment in the U.S. Marine Corps: to be General",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-27T14:02:20-04:00",
+  "vote_id": "s239-118.2023",
   "votes": {
     "Nay": [],
     "Not Voting": [

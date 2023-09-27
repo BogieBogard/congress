@@ -1,25 +1,25 @@
 const senate9Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-19T12:27:00-04:00",
+  "date": "2023-09-19T14:15:00-04:00",
   "nomination": {
     "number": "173",
     "title": "Rita F. Lin, of California, to be United States District Judge for the Northern District of California"
   },
-  "number": 231,
-  "question": "Motion to Invoke Cloture: Rita F. Lin to be U.S. District Judge for the Northern District of California: Rita F. Lin, of California, to be United States District Judge for the Northern District of California",
-  "record_modified": "2023-09-19T13:27:00-04:00",
+  "number": 232,
+  "question": "On the Nomination PN173: Rita F. Lin, of California, to be United States District Judge for the Northern District of California",
+  "record_modified": "2023-09-19T15:20:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (52-45)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00231.xml",
-  "subject": "On the Cloture Motion PN173",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-26T11:35:54-04:00",
-  "vote_id": "s231-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00232.xml",
+  "subject": "Confirmation: Rita F. Lin, of California, to be U.S. District Judge for the Northern District of California",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-27T14:02:24-04:00",
+  "vote_id": "s232-118.2023",
   "votes": {
     "Nay": [
       {

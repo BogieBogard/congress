@@ -1,36 +1,27 @@
 const senate3Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-21T11:45:00-04:00",
+  "date": "2023-09-21T12:38:00-04:00",
   "nomination": {
-    "number": "537",
-    "title": "Gen. Randy A. George, in the Army, to be General"
+    "number": "691",
+    "title": "Gen. Eric M. Smith, in the Marine Corps, to be General"
   },
-  "number": 237,
-  "question": "On the Nomination PN537: Gen. Randy A. George, in the Army, to be General",
-  "record_modified": "2023-09-21T12:43:00-04:00",
+  "number": 238,
+  "question": "Motion to Invoke Cloture: Gen. Eric M. Smith for appointment as Commandant of the Marine Corps and appointment in the U.S. Marine Corps: to be General: Gen. Eric M. Smith, in the Marine Corps, to be General",
+  "record_modified": "2023-09-21T13:45:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (96-1)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (96-0)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00237.xml",
-  "subject": "Confirmation: General Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army: to be General",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-26T11:35:50-04:00",
-  "vote_id": "s237-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00238.xml",
+  "subject": "On the Cloture Motion PN691",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-27T14:02:21-04:00",
+  "vote_id": "s238-118.2023",
   "votes": {
-    "Nay": [
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      }
-    ],
+    "Nay": [],
     "Not Voting": [
       {
         "display_name": "Feinstein (D-CA)",
@@ -47,6 +38,14 @@ const senate3Votes =
         "last_name": "Murkowski",
         "party": "R",
         "state": "AK"
+      },
+      {
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
+        "party": "R",
+        "state": "UT"
       },
       {
         "display_name": "Scott (R-SC)",
@@ -452,6 +451,14 @@ const senate3Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
@@ -602,14 +609,6 @@ const senate3Votes =
         "last_name": "Risch",
         "party": "R",
         "state": "ID"
-      },
-      {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
       },
       {
         "display_name": "Rosen (D-NV)",

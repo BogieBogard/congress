@@ -1,25 +1,25 @@
 const senate10Votes = 
 {
-  "category": "nomination",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-19T11:31:00-04:00",
+  "date": "2023-09-19T12:27:00-04:00",
   "nomination": {
-    "number": "591",
-    "title": "Vernon D. Oliver, of Connecticut, to be United States District Judge for the District of Connecticut"
+    "number": "173",
+    "title": "Rita F. Lin, of California, to be United States District Judge for the Northern District of California"
   },
-  "number": 230,
-  "question": "On the Nomination PN591: Vernon D. Oliver, of Connecticut, to be United States District Judge for the District of Connecticut",
-  "record_modified": "2023-09-19T12:44:00-04:00",
+  "number": 231,
+  "question": "Motion to Invoke Cloture: Rita F. Lin to be U.S. District Judge for the Northern District of California: Rita F. Lin, of California, to be United States District Judge for the Northern District of California",
+  "record_modified": "2023-09-19T13:27:00-04:00",
   "requires": "1/2",
-  "result": "Nomination Confirmed",
-  "result_text": "Nomination Confirmed (53-44)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (52-45)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00230.xml",
-  "subject": "Confirmation: Vernon D. Oliver, of Connecticut, to be U.S. District Judge for the District of Connecticut",
-  "type": "On the Nomination",
-  "updated_at": "2023-09-26T11:35:54-04:00",
-  "vote_id": "s230-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00231.xml",
+  "subject": "On the Cloture Motion PN173",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-09-27T14:02:24-04:00",
+  "vote_id": "s231-118.2023",
   "votes": {
     "Nay": [
       {
@@ -341,6 +341,14 @@ const senate10Votes =
         "last_name": "Thune",
         "party": "R",
         "state": "SD"
+      },
+      {
+        "display_name": "Tillis (R-NC)",
+        "first_name": "Thomas",
+        "id": "S384",
+        "last_name": "Tillis",
+        "party": "R",
+        "state": "NC"
       },
       {
         "display_name": "Tuberville (R-AL)",
@@ -762,14 +770,6 @@ const senate10Votes =
         "last_name": "Tester",
         "party": "D",
         "state": "MT"
-      },
-      {
-        "display_name": "Tillis (R-NC)",
-        "first_name": "Thomas",
-        "id": "S384",
-        "last_name": "Tillis",
-        "party": "R",
-        "state": "NC"
       },
       {
         "display_name": "Van Hollen (D-MD)",

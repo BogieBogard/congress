@@ -1,25 +1,25 @@
 const senate4Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-20T19:22:00-04:00",
+  "date": "2023-09-21T11:45:00-04:00",
   "nomination": {
     "number": "537",
     "title": "Gen. Randy A. George, in the Army, to be General"
   },
-  "number": 236,
-  "question": "Motion to Invoke Cloture: Gen. Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army to be General: Gen. Randy A. George, in the Army, to be General",
-  "record_modified": "2023-09-20T20:44:00-04:00",
+  "number": 237,
+  "question": "On the Nomination PN537: Gen. Randy A. George, in the Army, to be General",
+  "record_modified": "2023-09-21T12:43:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (92-1)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (96-1)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00236.xml",
-  "subject": "On the Cloture Motion PN537",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-26T11:35:50-04:00",
-  "vote_id": "s236-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00237.xml",
+  "subject": "Confirmation: General Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army: to be General",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-27T14:02:21-04:00",
+  "vote_id": "s237-118.2023",
   "votes": {
     "Nay": [
       {
@@ -32,14 +32,6 @@ const senate4Votes =
       }
     ],
     "Not Voting": [
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
       {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
@@ -57,36 +49,12 @@ const senate4Votes =
         "state": "AK"
       },
       {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
-        "party": "R",
-        "state": "KY"
-      },
-      {
-        "display_name": "Schatz (D-HI)",
-        "first_name": "Brian",
-        "id": "S353",
-        "last_name": "Schatz",
-        "party": "D",
-        "state": "HI"
-      },
-      {
         "display_name": "Scott (R-SC)",
         "first_name": "Tim",
         "id": "S365",
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       }
     ],
     "Present": [],
@@ -258,6 +226,14 @@ const senate4Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -588,6 +564,14 @@ const senate4Votes =
         "state": "CA"
       },
       {
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Peters (D-MI)",
         "first_name": "Gary",
         "id": "S380",
@@ -660,6 +644,14 @@ const senate4Votes =
         "state": "VT"
       },
       {
+        "display_name": "Schatz (D-HI)",
+        "first_name": "Brian",
+        "id": "S353",
+        "last_name": "Schatz",
+        "party": "D",
+        "state": "HI"
+      },
+      {
         "display_name": "Schmitt (R-MO)",
         "first_name": "Eric ",
         "id": "S420",
@@ -706,6 +698,14 @@ const senate4Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Sullivan (R-AK)",
