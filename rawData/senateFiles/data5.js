@@ -1,45 +1,28 @@
 const senate5Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-20T19:22:00-04:00",
+  "date": "2023-09-21T13:42:00-04:00",
   "nomination": {
-    "number": "537",
-    "title": "Gen. Randy A. George, in the Army, to be General"
+    "number": "691",
+    "title": "Gen. Eric M. Smith, in the Marine Corps, to be General"
   },
-  "number": 236,
-  "question": "Motion to Invoke Cloture: Gen. Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army to be General: Gen. Randy A. George, in the Army, to be General",
-  "record_modified": "2023-09-20T20:44:00-04:00",
+  "number": 239,
+  "question": "On the Nomination PN691: Gen. Eric M. Smith, in the Marine Corps, to be General",
+  "record_modified": "2023-09-21T14:41:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (92-1)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (96-0)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00236.xml",
-  "subject": "On the Cloture Motion PN537",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-28T10:54:11-04:00",
-  "vote_id": "s236-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00239.xml",
+  "subject": "Confirmation: General Eric M. Smith for appointment as Commandant of the Marine Corps and appointment in the U.S. Marine Corps: to be General",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-29T11:46:40-04:00",
+  "vote_id": "s239-118.2023",
   "votes": {
-    "Nay": [
-      {
-        "display_name": "Lee (R-UT)",
-        "first_name": "Mike",
-        "id": "S346",
-        "last_name": "Lee",
-        "party": "R",
-        "state": "UT"
-      }
-    ],
+    "Nay": [],
     "Not Voting": [
-      {
-        "display_name": "Cotton (R-AR)",
-        "first_name": "Tom",
-        "id": "S374",
-        "last_name": "Cotton",
-        "party": "R",
-        "state": "AR"
-      },
       {
         "display_name": "Feinstein (D-CA)",
         "first_name": "Dianne",
@@ -57,20 +40,12 @@ const senate5Votes =
         "state": "AK"
       },
       {
-        "display_name": "Paul (R-KY)",
-        "first_name": "Rand",
-        "id": "S348",
-        "last_name": "Paul",
+        "display_name": "Romney (R-UT)",
+        "first_name": "Mitt",
+        "id": "S401",
+        "last_name": "Romney",
         "party": "R",
-        "state": "KY"
-      },
-      {
-        "display_name": "Schatz (D-HI)",
-        "first_name": "Brian",
-        "id": "S353",
-        "last_name": "Schatz",
-        "party": "D",
-        "state": "HI"
+        "state": "UT"
       },
       {
         "display_name": "Scott (R-SC)",
@@ -79,14 +54,6 @@ const senate5Votes =
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       }
     ],
     "Present": [],
@@ -258,6 +225,14 @@ const senate5Votes =
         "last_name": "Cortez Masto",
         "party": "D",
         "state": "NV"
+      },
+      {
+        "display_name": "Cotton (R-AR)",
+        "first_name": "Tom",
+        "id": "S374",
+        "last_name": "Cotton",
+        "party": "R",
+        "state": "AR"
       },
       {
         "display_name": "Cramer (R-ND)",
@@ -476,6 +451,14 @@ const senate5Votes =
         "state": "OK"
       },
       {
+        "display_name": "Lee (R-UT)",
+        "first_name": "Mike",
+        "id": "S346",
+        "last_name": "Lee",
+        "party": "R",
+        "state": "UT"
+      },
+      {
         "display_name": "Lujan (D-NM)",
         "first_name": "Ben",
         "id": "S409",
@@ -588,6 +571,14 @@ const senate5Votes =
         "state": "CA"
       },
       {
+        "display_name": "Paul (R-KY)",
+        "first_name": "Rand",
+        "id": "S348",
+        "last_name": "Paul",
+        "party": "R",
+        "state": "KY"
+      },
+      {
         "display_name": "Peters (D-MI)",
         "first_name": "Gary",
         "id": "S380",
@@ -620,14 +611,6 @@ const senate5Votes =
         "state": "ID"
       },
       {
-        "display_name": "Romney (R-UT)",
-        "first_name": "Mitt",
-        "id": "S401",
-        "last_name": "Romney",
-        "party": "R",
-        "state": "UT"
-      },
-      {
         "display_name": "Rosen (D-NV)",
         "first_name": "Jacklyn",
         "id": "S402",
@@ -658,6 +641,14 @@ const senate5Votes =
         "last_name": "Sanders",
         "party": "I",
         "state": "VT"
+      },
+      {
+        "display_name": "Schatz (D-HI)",
+        "first_name": "Brian",
+        "id": "S353",
+        "last_name": "Schatz",
+        "party": "D",
+        "state": "HI"
       },
       {
         "display_name": "Schmitt (R-MO)",
@@ -706,6 +697,14 @@ const senate5Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Sullivan (R-AK)",

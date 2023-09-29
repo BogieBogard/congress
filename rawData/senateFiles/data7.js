@@ -1,51 +1,27 @@
 const senate7Votes = 
 {
-  "category": "cloture",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-20T15:31:00-04:00",
+  "date": "2023-09-21T11:45:00-04:00",
   "nomination": {
-    "number": "677",
-    "title": "Gen. Charles Q. Brown, Jr., in the Air Force, to be General"
+    "number": "537",
+    "title": "Gen. Randy A. George, in the Army, to be General"
   },
-  "number": 234,
-  "question": "Motion to Invoke Cloture: Gen. Charles Q. Brown Jr. for reappointment as Chairman of the Joint Chiefs of Staff and appointment in the U.S. Air Force: to be General: Gen. Charles Q. Brown, Jr., in the Air Force, to be General",
-  "record_modified": "2023-09-20T16:58:00-04:00",
+  "number": 237,
+  "question": "On the Nomination PN537: Gen. Randy A. George, in the Army, to be General",
+  "record_modified": "2023-09-21T12:43:00-04:00",
   "requires": "1/2",
-  "result": "Cloture Motion Agreed to",
-  "result_text": "Cloture Motion Agreed to (89-8)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (96-1)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00234.xml",
-  "subject": "On the Cloture Motion PN677",
-  "type": "On the Cloture Motion",
-  "updated_at": "2023-09-28T10:54:12-04:00",
-  "vote_id": "s234-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00237.xml",
+  "subject": "Confirmation: General Randy A. George for appointment as Chief of Staff of the Army and appointment in the U.S. Army: to be General",
+  "type": "On the Nomination",
+  "updated_at": "2023-09-29T11:46:41-04:00",
+  "vote_id": "s237-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Braun (R-IN)",
-        "first_name": "Mike",
-        "id": "S397",
-        "last_name": "Braun",
-        "party": "R",
-        "state": "IN"
-      },
-      {
-        "display_name": "Cruz (R-TX)",
-        "first_name": "Ted",
-        "id": "S355",
-        "last_name": "Cruz",
-        "party": "R",
-        "state": "TX"
-      },
-      {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
-      },
       {
         "display_name": "Lee (R-UT)",
         "first_name": "Mike",
@@ -53,38 +29,6 @@ const senate7Votes =
         "last_name": "Lee",
         "party": "R",
         "state": "UT"
-      },
-      {
-        "display_name": "Marshall (R-KS)",
-        "first_name": "Roger",
-        "id": "S411",
-        "last_name": "Marshall",
-        "party": "R",
-        "state": "KS"
-      },
-      {
-        "display_name": "Schmitt (R-MO)",
-        "first_name": "Eric ",
-        "id": "S420",
-        "last_name": "Schmitt",
-        "party": "R",
-        "state": "MO"
-      },
-      {
-        "display_name": "Tuberville (R-AL)",
-        "first_name": "Tommy",
-        "id": "S412",
-        "last_name": "Tuberville",
-        "party": "R",
-        "state": "AL"
-      },
-      {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
       }
     ],
     "Not Voting": [
@@ -170,6 +114,14 @@ const senate7Votes =
         "last_name": "Boozman",
         "party": "R",
         "state": "AR"
+      },
+      {
+        "display_name": "Braun (R-IN)",
+        "first_name": "Mike",
+        "id": "S397",
+        "last_name": "Braun",
+        "party": "R",
+        "state": "IN"
       },
       {
         "display_name": "Britt (R-AL)",
@@ -300,6 +252,14 @@ const senate7Votes =
         "state": "ID"
       },
       {
+        "display_name": "Cruz (R-TX)",
+        "first_name": "Ted",
+        "id": "S355",
+        "last_name": "Cruz",
+        "party": "R",
+        "state": "TX"
+      },
+      {
         "display_name": "Daines (R-MT)",
         "first_name": "Steve",
         "id": "S375",
@@ -386,6 +346,14 @@ const senate7Votes =
         "last_name": "Hassan",
         "party": "D",
         "state": "NH"
+      },
+      {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
       },
       {
         "display_name": "Heinrich (D-NM)",
@@ -514,6 +482,14 @@ const senate7Votes =
         "last_name": "Markey",
         "party": "D",
         "state": "MA"
+      },
+      {
+        "display_name": "Marshall (R-KS)",
+        "first_name": "Roger",
+        "id": "S411",
+        "last_name": "Marshall",
+        "party": "R",
+        "state": "KS"
       },
       {
         "display_name": "McConnell (R-KY)",
@@ -676,6 +652,14 @@ const senate7Votes =
         "state": "HI"
       },
       {
+        "display_name": "Schmitt (R-MO)",
+        "first_name": "Eric ",
+        "id": "S420",
+        "last_name": "Schmitt",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Schumer (D-NY)",
         "first_name": "Charles",
         "id": "S270",
@@ -756,12 +740,28 @@ const senate7Votes =
         "state": "NC"
       },
       {
+        "display_name": "Tuberville (R-AL)",
+        "first_name": "Tommy",
+        "id": "S412",
+        "last_name": "Tuberville",
+        "party": "R",
+        "state": "AL"
+      },
+      {
         "display_name": "Van Hollen (D-MD)",
         "first_name": "Chris",
         "id": "S390",
         "last_name": "Van Hollen",
         "party": "D",
         "state": "MD"
+      },
+      {
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
       },
       {
         "display_name": "Warner (D-VA)",
