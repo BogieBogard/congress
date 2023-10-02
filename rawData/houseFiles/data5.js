@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll509.xml",
   "subject": "Providing for consideration of H.R. 5525, the Spending Reduction and Border Security Act",
   "type": "On the Resolution",
-  "updated_at": "2023-10-02T09:14:23-04:00",
+  "updated_at": "2023-10-02T16:08:50-04:00",
   "vote_id": "h509-118.2023",
   "votes": {
     "Aye": [

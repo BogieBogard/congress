@@ -20,7 +20,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00243.xml",
   "subject": "Shall the Joint Resolution S.J.Res.24 Pass, the Objections of the President of the United States to the Contrary Notwithstanding",
   "type": "On Overriding the Veto S.J.Res. 24",
-  "updated_at": "2023-10-02T10:24:46-04:00",
+  "updated_at": "2023-10-02T16:13:09-04:00",
   "vote_id": "s243-118.2023",
   "votes": {
     "Nay": [

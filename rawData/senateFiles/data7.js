@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00241.xml",
   "subject": "Motion to Proceed to H.R. 3935",
   "type": "On the Motion to Proceed",
-  "updated_at": "2023-10-02T10:24:47-04:00",
+  "updated_at": "2023-10-02T16:13:10-04:00",
   "vote_id": "s241-118.2023",
   "votes": {
     "Nay": [

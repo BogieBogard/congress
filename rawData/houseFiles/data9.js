@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll505.xml",
   "subject": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2024, and for other purposes",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-10-02T09:14:25-04:00",
+  "updated_at": "2023-10-02T16:08:52-04:00",
   "vote_id": "h505-118.2023",
   "votes": {
     "Nay": [

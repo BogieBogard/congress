@@ -12,7 +12,7 @@ const house2Votes =
   "session": "2023",
   "source_url": "https://clerk.house.gov/evs/2023/roll512.xml",
   "type": "On the Motion to Adjourn",
-  "updated_at": "2023-10-02T09:14:21-04:00",
+  "updated_at": "2023-10-02T16:08:49-04:00",
   "vote_id": "h512-118.2023",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house8Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll506.xml",
   "subject": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-10-02T09:14:24-04:00",
+  "updated_at": "2023-10-02T16:08:52-04:00",
   "vote_id": "h506-118.2023",
   "votes": {
     "Nay": [
