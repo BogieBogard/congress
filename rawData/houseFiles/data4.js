@@ -2,24 +2,24 @@ const house4Votes =
 {
   "bill": {
     "congress": 118,
-    "number": 4368,
+    "number": 5525,
     "type": "hr"
   },
   "category": "recommit",
   "chamber": "h",
   "congress": 118,
-  "date": "2023-09-28T23:20:00-04:00",
-  "number": 506,
-  "question": "On Motion to Recommit: H R 4368 Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+  "date": "2023-09-29T13:39:00-04:00",
+  "number": 510,
+  "question": "On Motion to Recommit: H R 5525 Spending Reduction and Border Security Act",
   "requires": "1/2",
   "result": "Failed",
   "result_text": "Failed",
   "session": "2023",
-  "source_url": "https://clerk.house.gov/evs/2023/roll506.xml",
-  "subject": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2024",
+  "source_url": "https://clerk.house.gov/evs/2023/roll510.xml",
+  "subject": "Spending Reduction and Border Security Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-09-29T11:42:24-04:00",
-  "vote_id": "h506-118.2023",
+  "updated_at": "2023-10-02T09:14:22-04:00",
+  "vote_id": "h510-118.2023",
   "votes": {
     "Nay": [
       {
@@ -243,12 +243,6 @@ const house4Votes =
         "id": "C001115",
         "party": "R",
         "state": "TX"
-      },
-      {
-        "display_name": "Clyde",
-        "id": "C001116",
-        "party": "R",
-        "state": "GA"
       },
       {
         "display_name": "Cole",
@@ -483,6 +477,12 @@ const house4Votes =
         "id": "G000593",
         "party": "R",
         "state": "FL"
+      },
+      {
+        "display_name": "Gonzales, Tony",
+        "id": "G000594",
+        "party": "R",
+        "state": "TX"
       },
       {
         "display_name": "Good (VA)",
@@ -731,12 +731,6 @@ const house4Votes =
         "state": "NY"
       },
       {
-        "display_name": "LaMalfa",
-        "id": "L000578",
-        "party": "R",
-        "state": "CA"
-      },
-      {
         "display_name": "Lamborn",
         "id": "L000564",
         "party": "R",
@@ -809,6 +803,12 @@ const house4Votes =
         "state": "TX"
       },
       {
+        "display_name": "Mace",
+        "id": "M000194",
+        "party": "R",
+        "state": "SC"
+      },
+      {
         "display_name": "Malliotakis",
         "id": "M000317",
         "party": "R",
@@ -831,12 +831,6 @@ const house4Votes =
         "id": "M001199",
         "party": "R",
         "state": "FL"
-      },
-      {
-        "display_name": "McCarthy",
-        "id": "M001165",
-        "party": "R",
-        "state": "CA"
       },
       {
         "display_name": "McCaul",
@@ -1339,10 +1333,16 @@ const house4Votes =
         "state": "TX"
       },
       {
-        "display_name": "Gonzales, Tony",
-        "id": "G000594",
+        "display_name": "Clyde",
+        "id": "C001116",
         "party": "R",
-        "state": "TX"
+        "state": "GA"
+      },
+      {
+        "display_name": "LaMalfa",
+        "id": "L000578",
+        "party": "R",
+        "state": "CA"
       },
       {
         "display_name": "Luna",
@@ -2042,12 +2042,6 @@ const house4Votes =
         "id": "L000562",
         "party": "D",
         "state": "MA"
-      },
-      {
-        "display_name": "Mace",
-        "id": "M000194",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Magaziner",
