@@ -1,27 +1,25 @@
 const senate2Votes = 
 {
-  "bill": {
-    "congress": 118,
-    "number": 3935,
-    "title": "A bill to amend title 49, United States Code, to reauthorize and improve the Federal Aviation Administration and other civil aviation programs, and for other purposes.",
-    "type": "hr"
-  },
-  "category": "procedural",
+  "category": "cloture",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-30T13:04:00-04:00",
-  "number": 246,
-  "question": "On the Motion for Attendance H.R. 3935",
-  "record_modified": "2023-09-30T16:11:00-04:00",
+  "date": "2023-10-04T15:04:00-04:00",
+  "nomination": {
+    "number": "589",
+    "title": "Susan Kim DeClercq, of Michigan, to be United States District Judge for the Eastern District of Michigan"
+  },
+  "number": 252,
+  "question": "Motion to Invoke Cloture: Susan Kim DeClercq to be U.S. District Judge for the Eastern District of Michigan: Susan Kim DeClercq, of Michigan, to be United States District Judge for the Eastern District of Michigan",
+  "record_modified": "2023-10-04T16:19:00-04:00",
   "requires": "1/2",
-  "result": "Motion for Attendance Agreed to",
-  "result_text": "Motion for Attendance Agreed to (49-48)",
+  "result": "Cloture Motion Agreed to",
+  "result_text": "Cloture Motion Agreed to (54-44)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00246.xml",
-  "subject": "Motion to Instruct the Sergeant-at-Arms to Request the Attendance of Absentee Senators",
-  "type": "On the Motion for Attendance H.R. 3935",
-  "updated_at": "2023-10-02T16:13:07-04:00",
-  "vote_id": "s246-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00252.xml",
+  "subject": "On the Cloture Motion PN589",
+  "type": "On the Cloture Motion",
+  "updated_at": "2023-10-05T10:27:24-04:00",
+  "vote_id": "s252-118.2023",
   "votes": {
     "Nay": [
       {
@@ -89,14 +87,6 @@ const senate2Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -161,14 +151,6 @@ const senate2Votes =
         "state": "NE"
       },
       {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
-      },
-      {
         "display_name": "Grassley (R-IA)",
         "first_name": "Chuck",
         "id": "S153",
@@ -183,14 +165,6 @@ const senate2Votes =
         "last_name": "Hagerty",
         "party": "R",
         "state": "TN"
-      },
-      {
-        "display_name": "Hawley (R-MO)",
-        "first_name": "Josh",
-        "id": "S399",
-        "last_name": "Hawley",
-        "party": "R",
-        "state": "MO"
       },
       {
         "display_name": "Hoeven (R-ND)",
@@ -279,14 +253,6 @@ const senate2Votes =
         "last_name": "Mullin",
         "party": "R",
         "state": "OK"
-      },
-      {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
       },
       {
         "display_name": "Paul (R-KY)",
@@ -411,20 +377,20 @@ const senate2Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Hawley (R-MO)",
+        "first_name": "Josh",
+        "id": "S399",
+        "last_name": "Hawley",
+        "party": "R",
+        "state": "MO"
+      },
+      {
         "display_name": "Scott (R-SC)",
         "first_name": "Tim",
         "id": "S365",
         "last_name": "Scott",
         "party": "R",
         "state": "SC"
-      },
-      {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
       }
     ],
     "Present": [],
@@ -470,6 +436,14 @@ const senate2Votes =
         "state": "OH"
       },
       {
+        "display_name": "Butler (D-CA)",
+        "first_name": "Laphonza",
+        "id": "S424",
+        "last_name": "Butler",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Cantwell (D-WA)",
         "first_name": "Maria",
         "id": "S275",
@@ -500,6 +474,14 @@ const senate2Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -548,6 +530,14 @@ const senate2Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -654,6 +644,14 @@ const senate2Votes =
         "state": "OR"
       },
       {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Murphy (D-CT)",
         "first_name": "Christopher",
         "id": "S364",
@@ -756,6 +754,14 @@ const senate2Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
