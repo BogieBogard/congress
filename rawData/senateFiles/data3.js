@@ -18,7 +18,7 @@ const senate3Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00251.xml",
   "subject": "Confirmation: Brendan Abell Hurson, of Maryland, to be to be U.S. District Judge for the District of Maryland",
   "type": "On the Nomination",
-  "updated_at": "2023-10-05T10:27:25-04:00",
+  "updated_at": "2023-10-06T11:15:13-04:00",
   "vote_id": "s251-118.2023",
   "votes": {
     "Nay": [

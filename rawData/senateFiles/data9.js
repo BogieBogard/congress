@@ -18,7 +18,7 @@ const senate9Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00245.xml",
   "subject": "Confirmation: Tara K. McGrath, of California, to be U.S. Attorney for the Southern District of California",
   "type": "On the Nomination",
-  "updated_at": "2023-10-05T10:27:28-04:00",
+  "updated_at": "2023-10-06T11:15:16-04:00",
   "vote_id": "s245-118.2023",
   "votes": {
     "Nay": [

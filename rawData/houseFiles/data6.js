@@ -18,7 +18,7 @@ const house6Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll514.xml",
   "subject": "To designate the facility of the United States Postal Service located at 616 East Main Street in St. Charles, Illinois, as the \u201cVeterans of the Vietnam War Memorial Post Office\u201d.",
   "type": "On Motion to Suspend the Rules and Pass",
-  "updated_at": "2023-10-05T10:23:03-04:00",
+  "updated_at": "2023-10-06T11:10:46-04:00",
   "vote_id": "h514-118.2023",
   "votes": {
     "Nay": [],

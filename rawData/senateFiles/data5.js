@@ -18,7 +18,7 @@ const senate5Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00249.xml",
   "subject": "Confirmation: James C. O'Brien, of Nebraska, to be an Assistant Secretary of State (European and Eurasian Affairs)",
   "type": "On the Nomination",
-  "updated_at": "2023-10-05T10:27:26-04:00",
+  "updated_at": "2023-10-06T11:15:14-04:00",
   "vote_id": "s249-118.2023",
   "votes": {
     "Nay": [
