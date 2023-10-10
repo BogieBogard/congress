@@ -18,7 +18,7 @@ const house10Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll510.xml",
   "subject": "Spending Reduction and Border Security Act",
   "type": "On the Motion to Recommit",
-  "updated_at": "2023-10-06T11:10:48-04:00",
+  "updated_at": "2023-10-10T10:53:38-04:00",
   "vote_id": "h510-118.2023",
   "votes": {
     "Nay": [

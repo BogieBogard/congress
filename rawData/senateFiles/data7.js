@@ -20,7 +20,7 @@ const senate7Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00247.xml",
   "subject": "H.R. 5860",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-10-06T11:15:15-04:00",
+  "updated_at": "2023-10-10T10:57:57-04:00",
   "vote_id": "s247-118.2023",
   "votes": {
     "Nay": [

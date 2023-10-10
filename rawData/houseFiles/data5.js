@@ -18,7 +18,7 @@ const house5Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll515.xml",
   "subject": "Modernizing the Acquisition of Cybersecurity Experts Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-10-06T11:10:46-04:00",
+  "updated_at": "2023-10-10T10:53:35-04:00",
   "vote_id": "h515-118.2023",
   "votes": {
     "Nay": [

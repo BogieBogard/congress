@@ -18,7 +18,7 @@ const house4Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll516.xml",
   "subject": "Providing for consideration of the bill (H.R. 4394) Energy and Water Development and Related Agencies Appropriations Act, 2024; providing for consideration of the bill (H.R. 4364) Legislative Branch Appropriations Act, 2024; and for other purposes",
   "type": "On Ordering the Previous Question",
-  "updated_at": "2023-10-06T11:10:45-04:00",
+  "updated_at": "2023-10-10T10:53:35-04:00",
   "vote_id": "h516-118.2023",
   "votes": {
     "Nay": [
