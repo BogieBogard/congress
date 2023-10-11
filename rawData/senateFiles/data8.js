@@ -20,7 +20,7 @@ const senate8Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00246.xml",
   "subject": "Motion to Instruct the Sergeant-at-Arms to Request the Attendance of Absentee Senators",
   "type": "On the Motion for Attendance H.R. 3935",
-  "updated_at": "2023-10-10T10:57:58-04:00",
+  "updated_at": "2023-10-11T13:02:36-04:00",
   "vote_id": "s246-118.2023",
   "votes": {
     "Nay": [
