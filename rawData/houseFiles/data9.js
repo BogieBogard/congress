@@ -18,7 +18,7 @@ const house9Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll511.xml",
   "subject": "Spending Reduction and Border Security Act",
   "type": "On Passage of the Bill",
-  "updated_at": "2023-10-11T12:58:14-04:00",
+  "updated_at": "2023-10-13T09:43:30-04:00",
   "vote_id": "h511-118.2023",
   "votes": {
     "Nay": [

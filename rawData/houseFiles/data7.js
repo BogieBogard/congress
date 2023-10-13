@@ -18,7 +18,7 @@ const house7Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll513.xml",
   "subject": "Continuing Appropriations Act, 2024 and Other Extensions Act",
   "type": "On Motion to Suspend the Rules and Pass, as Amended",
-  "updated_at": "2023-10-11T12:58:13-04:00",
+  "updated_at": "2023-10-13T09:43:29-04:00",
   "vote_id": "h513-118.2023",
   "votes": {
     "Nay": [

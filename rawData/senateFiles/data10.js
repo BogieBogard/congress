@@ -18,7 +18,7 @@ const senate10Votes =
   "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00244.xml",
   "subject": "Confirmation: Todd Gee, of D.C., to be U.S. Attorney for the Southern District of Mississippi",
   "type": "On the Nomination",
-  "updated_at": "2023-10-11T13:02:37-04:00",
+  "updated_at": "2023-10-13T09:47:52-04:00",
   "vote_id": "s244-118.2023",
   "votes": {
     "Nay": [

@@ -18,7 +18,7 @@ const house2Votes =
   "source_url": "https://clerk.house.gov/evs/2023/roll518.xml",
   "subject": "Declaring the office of Speaker of the House of Representatives to be vacant.",
   "type": "On Motion to Table",
-  "updated_at": "2023-10-11T12:58:10-04:00",
+  "updated_at": "2023-10-13T09:43:27-04:00",
   "vote_id": "h518-118.2023",
   "votes": {
     "Nay": [
