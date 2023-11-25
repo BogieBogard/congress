@@ -1,37 +1,27 @@
 const senate8Votes = 
 {
-  "bill": {
-    "congress": 118,
-    "number": 3935,
-    "title": "A bill to amend title 49, United States Code, to reauthorize and improve the Federal Aviation Administration and other civil aviation programs, and for other purposes.",
-    "type": "hr"
-  },
-  "category": "procedural",
+  "category": "nomination",
   "chamber": "s",
   "congress": 118,
-  "date": "2023-09-30T13:04:00-04:00",
-  "number": 246,
-  "question": "On the Motion for Attendance H.R. 3935",
-  "record_modified": "2023-09-30T16:11:00-04:00",
+  "date": "2023-11-09T12:30:00-05:00",
+  "nomination": {
+    "number": "813",
+    "title": "Brandy R. McMillion, of Michigan, to be United States District Judge for the Eastern District of Michigan"
+  },
+  "number": 306,
+  "question": "On the Nomination PN813: Brandy R. McMillion, of Michigan, to be United States District Judge for the Eastern District of Michigan",
+  "record_modified": "2023-11-09T13:59:00-05:00",
   "requires": "1/2",
-  "result": "Motion for Attendance Agreed to",
-  "result_text": "Motion for Attendance Agreed to (49-48)",
+  "result": "Nomination Confirmed",
+  "result_text": "Nomination Confirmed (53-42)",
   "session": "2023",
-  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00246.xml",
-  "subject": "Motion to Instruct the Sergeant-at-Arms to Request the Attendance of Absentee Senators",
-  "type": "On the Motion for Attendance H.R. 3935",
-  "updated_at": "2023-10-13T09:47:51-04:00",
-  "vote_id": "s246-118.2023",
+  "source_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00306.xml",
+  "subject": "Confirmation: Brandy R. McMillion, of Michigan, to be U.S. District Judge for the Eastern District of Michigan",
+  "type": "On the Nomination",
+  "updated_at": "2023-11-25T12:32:23-05:00",
+  "vote_id": "s306-118.2023",
   "votes": {
     "Nay": [
-      {
-        "display_name": "Barrasso (R-WY)",
-        "first_name": "John",
-        "id": "S317",
-        "last_name": "Barrasso",
-        "party": "R",
-        "state": "WY"
-      },
       {
         "display_name": "Blackburn (R-TN)",
         "first_name": "Marsha",
@@ -89,14 +79,6 @@ const senate8Votes =
         "state": "LA"
       },
       {
-        "display_name": "Collins (R-ME)",
-        "first_name": "Susan",
-        "id": "S252",
-        "last_name": "Collins",
-        "party": "R",
-        "state": "ME"
-      },
-      {
         "display_name": "Cornyn (R-TX)",
         "first_name": "John",
         "id": "S287",
@@ -111,14 +93,6 @@ const senate8Votes =
         "last_name": "Cotton",
         "party": "R",
         "state": "AR"
-      },
-      {
-        "display_name": "Cramer (R-ND)",
-        "first_name": "Kevin",
-        "id": "S398",
-        "last_name": "Cramer",
-        "party": "R",
-        "state": "ND"
       },
       {
         "display_name": "Crapo (R-ID)",
@@ -159,14 +133,6 @@ const senate8Votes =
         "last_name": "Fischer",
         "party": "R",
         "state": "NE"
-      },
-      {
-        "display_name": "Graham (R-SC)",
-        "first_name": "Lindsey",
-        "id": "S293",
-        "last_name": "Graham",
-        "party": "R",
-        "state": "SC"
       },
       {
         "display_name": "Grassley (R-IA)",
@@ -281,14 +247,6 @@ const senate8Votes =
         "state": "OK"
       },
       {
-        "display_name": "Murkowski (R-AK)",
-        "first_name": "Lisa",
-        "id": "S288",
-        "last_name": "Murkowski",
-        "party": "R",
-        "state": "AK"
-      },
-      {
         "display_name": "Paul (R-KY)",
         "first_name": "Rand",
         "id": "S348",
@@ -385,14 +343,6 @@ const senate8Votes =
         "state": "AL"
       },
       {
-        "display_name": "Vance (R-OH)",
-        "first_name": "J.",
-        "id": "S421",
-        "last_name": "Vance",
-        "party": "R",
-        "state": "OH"
-      },
-      {
         "display_name": "Wicker (R-MS)",
         "first_name": "Roger",
         "id": "S318",
@@ -411,6 +361,30 @@ const senate8Votes =
     ],
     "Not Voting": [
       {
+        "display_name": "Barrasso (R-WY)",
+        "first_name": "John",
+        "id": "S317",
+        "last_name": "Barrasso",
+        "party": "R",
+        "state": "WY"
+      },
+      {
+        "display_name": "Cramer (R-ND)",
+        "first_name": "Kevin",
+        "id": "S398",
+        "last_name": "Cramer",
+        "party": "R",
+        "state": "ND"
+      },
+      {
+        "display_name": "Murkowski (R-AK)",
+        "first_name": "Lisa",
+        "id": "S288",
+        "last_name": "Murkowski",
+        "party": "R",
+        "state": "AK"
+      },
+      {
         "display_name": "Scott (R-SC)",
         "first_name": "Tim",
         "id": "S365",
@@ -419,12 +393,12 @@ const senate8Votes =
         "state": "SC"
       },
       {
-        "display_name": "Stabenow (D-MI)",
-        "first_name": "Debbie",
-        "id": "S284",
-        "last_name": "Stabenow",
-        "party": "D",
-        "state": "MI"
+        "display_name": "Vance (R-OH)",
+        "first_name": "J.",
+        "id": "S421",
+        "last_name": "Vance",
+        "party": "R",
+        "state": "OH"
       }
     ],
     "Present": [],
@@ -470,6 +444,14 @@ const senate8Votes =
         "state": "OH"
       },
       {
+        "display_name": "Butler (D-CA)",
+        "first_name": "Laphonza",
+        "id": "S424",
+        "last_name": "Butler",
+        "party": "D",
+        "state": "CA"
+      },
+      {
         "display_name": "Cantwell (D-WA)",
         "first_name": "Maria",
         "id": "S275",
@@ -500,6 +482,14 @@ const senate8Votes =
         "last_name": "Casey",
         "party": "D",
         "state": "PA"
+      },
+      {
+        "display_name": "Collins (R-ME)",
+        "first_name": "Susan",
+        "id": "S252",
+        "last_name": "Collins",
+        "party": "R",
+        "state": "ME"
       },
       {
         "display_name": "Coons (D-DE)",
@@ -548,6 +538,14 @@ const senate8Votes =
         "last_name": "Gillibrand",
         "party": "D",
         "state": "NY"
+      },
+      {
+        "display_name": "Graham (R-SC)",
+        "first_name": "Lindsey",
+        "id": "S293",
+        "last_name": "Graham",
+        "party": "R",
+        "state": "SC"
       },
       {
         "display_name": "Hassan (D-NH)",
@@ -756,6 +754,14 @@ const senate8Votes =
         "last_name": "Smith",
         "party": "D",
         "state": "MN"
+      },
+      {
+        "display_name": "Stabenow (D-MI)",
+        "first_name": "Debbie",
+        "id": "S284",
+        "last_name": "Stabenow",
+        "party": "D",
+        "state": "MI"
       },
       {
         "display_name": "Tester (D-MT)",
